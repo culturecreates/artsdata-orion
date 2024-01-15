@@ -39,7 +39,7 @@ jobs:
     needs: fetch-and-commit-data
     uses: culturecreates/artsdata-planet-ipaa/.github/workflows/push-entities-to-artsdata.yml@main
     with:
-      artifact_name: yardbirdsuite-events
+      artifact_name: yardbirdsuite-com
       entity_url: https://yardbirdsuite.com/events/
       download_url: https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/output/yardbirdsuite-events.jsonld
       download_file: yardbirdsuite-events.jsonld
