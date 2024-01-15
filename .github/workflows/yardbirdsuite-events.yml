@@ -21,7 +21,6 @@ jobs:
       run: |
           bundle exec ruby src/main.rb \
           https://yardbirdsuite.com/events/page/ \
-          https://yardbirdsuite.com/ \
           "a.h-100.w-100.position-absolute.t-0.l-0.z-999" \
           output/yardbirdsuite-events.jsonld \
           true \
