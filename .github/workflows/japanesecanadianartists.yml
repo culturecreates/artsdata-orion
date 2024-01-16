@@ -23,8 +23,7 @@ jobs:
           https://japanesecanadianartists.com/artist/ \
           "div.entry-thumbnail a" \
           output/japanesecanadianartists.jsonld \
-          false \
-          href
+          false 
 
     - name: Commit and Push Changes
       run: |

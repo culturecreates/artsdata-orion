@@ -2,8 +2,9 @@ require 'nokogiri'
 require 'open-uri'
 require 'linkeddata'
 
-if ARGV.length != 5
-  puts "Usage: ruby script_name.rb <page_url> <entity_identifier> <file_name> <is_paginated> <href_tag>"
+if ARGV.length < 4
+  puts "Usage: ruby script_name.rb <page_url> <entity_identifier> <file_name> <is_paginated> <base_url>
+  \n (base_url is optional in case of relative hrefs)"
   exit
 end
 
@@ -11,7 +12,7 @@ page_url = ARGV[0]
 entity_identifier = ARGV[1]
 file_name = ARGV[2]
 is_paginated = ARGV[3]
-href_tag = ARGV[4]
+base_url = ARGV[4] || ''
 max_retries, retry_count = 3, 0
 page_number = is_paginated == 'true' ? 1 : nil
 graph = RDF::Graph.new
@@ -34,7 +35,7 @@ loop do
   entities_data = main_doc.css(entity_identifier)
   entity_urls = []
   entities_data.each do |entity|
-    entity_urls << entity[href_tag]
+    entity_urls << base_url+entity['href']
   end
   if entity_urls.empty?
     puts "No more entities found on page #{page_number}. Exiting..."
