@@ -1,0 +1,22 @@
+# This SPARQL replaces blank nodes in subject position at the top level.
+
+DELETE {
+  ?blank_node ?p ?o 
+}
+
+INSERT {
+  ?uuid_uri ?p ?o 
+}
+
+WHERE {
+  {
+    SELECT distinct ?blank_node  
+    WHERE {
+      ?blank_node ?any_p ?any_o . 
+      FILTER (isBLANK(?blank_node))
+      FILTER NOT EXISTS { ?other_s ?other_p ?blank_node }
+    }
+  }
+  bind(UUID() as ?uuid_uri)
+  ?blank_node ?p ?o 
+}
