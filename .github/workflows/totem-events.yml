@@ -24,7 +24,7 @@ jobs:
           "h3.picto.padding-bottom-12 a" \
           output/totem-events.jsonld \
           false \
-          https://totemcontemporain.com/fr
+          https://totemcontemporain.com
 
     - name: Commit and Push Changes
       run: |
