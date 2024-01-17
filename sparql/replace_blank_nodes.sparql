@@ -1,4 +1,5 @@
-# This SPARQL replaces blank nodes in subject position at the top level.
+# This SPARQL replaces blank nodes
+PREFIX schema: <http://schema.org/>
 
 DELETE {
   ?blank_node ?p ?o 
@@ -14,7 +15,7 @@ WHERE {
     WHERE {
       ?blank_node ?any_p ?any_o . 
       FILTER (isBLANK(?blank_node))
-      FILTER NOT EXISTS { ?other_s ?other_p ?blank_node }
+      FILTER (?any_o IN (schema:Event, schema:Place, schema:Organization, schema:Person ))
     }
   }
   bind(UUID() as ?uuid_uri)
