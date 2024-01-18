@@ -3,13 +3,12 @@ require 'linkeddata'
 
 class SparqlTest < Minitest::Test
 
-  # Load and parse sparql
   def setup
     @fix_entity_type_sparql_file = "./sparql/fix_entity_type.sparql"
     @replace_blank_node_sparql_file = "./sparql/replace_blank_nodes.sparql"
   end
 
-  # check that the blank node is replaced
+  # check that the type object is fixed
   def test_capitalized_first_letter
     sparql = SPARQL.parse(File.read(@fix_entity_type_sparql_file), update: true)
     graph = RDF::Graph.load("./tests/fixtures/test_capital_types.jsonld")
