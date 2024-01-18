@@ -59,8 +59,10 @@ loop do
   retry_count = 0
 end
 
-sparql_file = "./sparql/replace_blank_nodes.sparql"
-graph.query(SPARQL.parse(File.read(sparql_file), update: true))
+replace_blank_nodes_sparql = "./sparql/replace_blank_nodes.sparql"
+fix_entity_type_sparql = "./sparql/fix_entity_type.sparql"
+graph.query(SPARQL.parse(File.read(replace_blank_nodes_sparql), update: true))
+graph.query(SPARQL.parse(File.read(fix_entity_type_sparql), update: true))
 File.open(file_name, 'w') do |file|
   file.puts(graph.dump(:jsonld))
 end
