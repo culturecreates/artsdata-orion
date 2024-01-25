@@ -49,9 +49,9 @@ loop do
     break
   end
 
-  if page_number == 1
+  if page_number == 1 || page_number.nil?
     break
-  else
+  else page_number
     page_number += 1
   end
   retry_count = 0
