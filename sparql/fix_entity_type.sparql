@@ -1,0 +1,14 @@
+PREFIX schema: <http://schema.org/>
+
+DELETE {
+  ?s a ?entityClass
+}
+INSERT {
+  ?s a ?updatedEntityClass
+}
+WHERE {
+  ?s a ?entityClass .
+  FILTER(STRSTARTS(STR(?entityClass), STR(schema:)))
+  FILTER(REGEX(SUBSTR(STRAFTER(STR(?entityClass), STR(schema:)), 1, 1), "^[a-z]"))
+  BIND(URI(CONCAT(STR(schema:), UCASE(SUBSTR(STRAFTER(STR(?entityClass), STR(schema:)), 1, 1)) , SUBSTR(STRAFTER(STR(?entityClass), STR(schema:)), 2))) AS ?updatedEntityClass)
+}

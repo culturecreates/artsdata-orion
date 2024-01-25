@@ -1,0 +1,33 @@
+{
+    "@context": "http://schema.org",
+    "@graph": [
+      {
+        "@type": "Event",
+        "@id": "http://example.com/event1",
+        "name": "Event1",
+        "startDate": {
+          "@type": "Date",
+          "@value": "2024-02-03T20:00:00-0700"
+        }
+      },
+      {
+        "@type": "Event",
+        "@id": "http://example.com/event2",
+        "name": "Event2",
+        "startDate": {
+          "@type": "Date",
+          "@value": "2024-02-03T20:00:00-0500"
+        }
+      },
+      {
+        "@type": "Event",
+        "@id": "http://example.com/event3",
+        "name": "Event3",
+        "startDate": {
+          "@type": "Date",
+          "@value": "2024-02-03T20:00:00-03:00 "
+        }
+      }
+    ]
+  }
+  
