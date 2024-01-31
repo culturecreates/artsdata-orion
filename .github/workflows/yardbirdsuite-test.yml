@@ -1,0 +1,21 @@
+name: Fetch YardBird Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 */6 *'
+      
+jobs:
+  fetch-and-commit-data:
+    uses: culturecreates/artsdata-orion/.github/workflows/fetch-and-push-to-artsdata.yml@main
+    with: 
+      page_url: https://yardbirdsuite.com/events/
+      entity_identifier: "a.h-100.w-100.position-absolute.t-0.l-0.z-999"
+      file_name: yardbirdsuite-events.jsonld
+      is_paginated: true
+      artifact_name: yardbirdsuite-com
+      download_url: https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/output/yardbirdsuite-events.jsonld
+    secrets:
+      publisher_uri: ${{ secrets.PUBLISHER_URI_GREGORY }}
+
+    
