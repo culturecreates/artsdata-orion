@@ -40,7 +40,7 @@ jobs:
       run: |
         bundle exec ruby src/main.rb \
         ${{ inputs.page_url }} \
-        ${{ inputs.entity_identifier }} \
+        "${{ inputs.entity_identifier }}" \
         output/${{ inputs.file_name }} \
         ${{ inputs.is_paginated}} \
         ${{ inputs.base_url}} 
