@@ -146,31 +146,34 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g455940"
+        "@id": "_:g455920"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g455980"
+        "@id": "_:g455960"
       },
       {
-        "@id": "_:g456000"
+        "@id": "_:g455980"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g456020"
+        "@id": "_:g456000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g456040"
+        "@id": "_:g456020"
       },
       {
-        "@id": "_:g456080"
+        "@id": "_:g456060"
       }
     ],
     "http://schema.org/composer": [
+      {
+        "@id": "_:g456080"
+      },
       {
         "@id": "_:g456100"
       },
@@ -185,41 +188,41 @@
       },
       {
         "@id": "_:g456180"
-      },
-      {
-        "@id": "_:g456200"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g456220"
+        "@id": "_:g456200"
       },
       {
-        "@id": "_:g456260"
+        "@id": "_:g456240"
       },
       {
-        "@id": "_:g456300"
+        "@id": "_:g456280"
       },
       {
-        "@id": "_:g456340"
+        "@id": "_:g456320"
       },
       {
-        "@id": "_:g456380"
+        "@id": "_:g456360"
       },
       {
-        "@id": "_:g456420"
+        "@id": "_:g456400"
       },
       {
-        "@id": "_:g456460"
+        "@id": "_:g456440"
       },
       {
-        "@id": "_:g456500"
+        "@id": "_:g456480"
       },
       {
-        "@id": "_:g456540"
+        "@id": "_:g456520"
       }
     ],
     "http://schema.org/performer": [
+      {
+        "@id": "_:g456560"
+      },
       {
         "@id": "_:g456580"
       },
@@ -234,24 +237,22 @@
       },
       {
         "@id": "_:g456660"
-      },
-      {
-        "@id": "_:g456680"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g456700"
+        "@id": "_:g456680"
       }
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-02-11T20:00:00-05:00"
       }
     ]
   },
   {
-    "@id": "_:g455940",
+    "@id": "_:g455920",
     "http://schema.org/name": [
       {
         "@value": "La Chapelle Scènes Contemporaines"
@@ -259,7 +260,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g455960"
+        "@id": "_:g455940"
       }
     ],
     "http://schema.org/latitude": [
@@ -284,7 +285,7 @@
     ]
   },
   {
-    "@id": "_:g455980",
+    "@id": "_:g455960",
     "http://schema.org/category": [
       {
         "@value": "Régulier"
@@ -310,7 +311,7 @@
     ]
   },
   {
-    "@id": "_:g456000",
+    "@id": "_:g455980",
     "http://schema.org/category": [
       {
         "@value": "15 ans&nbsp;et moins"
@@ -336,7 +337,7 @@
     ]
   },
   {
-    "@id": "_:g456020",
+    "@id": "_:g456000",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -363,7 +364,7 @@
     ]
   },
   {
-    "@id": "_:g456040",
+    "@id": "_:g456020",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -379,7 +380,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g456060"
+        "@id": "_:g456040"
       }
     ],
     "http://schema.org/description": [
@@ -400,7 +401,7 @@
     ]
   },
   {
-    "@id": "_:g456080",
+    "@id": "_:g456060",
     "http://schema.org/identifier": [
       {
         "@value": "http://www.timbrady.ca/"
@@ -440,7 +441,7 @@
     ]
   },
   {
-    "@id": "_:g456100",
+    "@id": "_:g456080",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/olivier-messiaen"
@@ -484,7 +485,7 @@
     ]
   },
   {
-    "@id": "_:g456120",
+    "@id": "_:g456100",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/emmanuel-jacob-lacopo"
@@ -520,7 +521,7 @@
     ]
   },
   {
-    "@id": "_:g456140",
+    "@id": "_:g456120",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/marguerite-brown"
@@ -564,7 +565,7 @@
     ]
   },
   {
-    "@id": "_:g456160",
+    "@id": "_:g456140",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/julius-eastman"
@@ -600,7 +601,7 @@
     ]
   },
   {
-    "@id": "_:g456180",
+    "@id": "_:g456160",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/sophia-jani"
@@ -650,7 +651,7 @@
     ]
   },
   {
-    "@id": "_:g456200",
+    "@id": "_:g456180",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/kevin-oneil"
@@ -691,7 +692,7 @@
     ]
   },
   {
-    "@id": "_:g456220",
+    "@id": "_:g456200",
     "http://schema.org/name": [
       {
         "@value": "O Sacrum Convivium"
@@ -714,7 +715,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456240"
+        "@id": "_:g456220"
       }
     ],
     "@type": [
@@ -722,12 +723,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456260",
+    "@id": "_:g456240",
     "http://schema.org/name": [
       {
         "@value": "After Dark"
@@ -750,7 +752,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456280"
+        "@id": "_:g456260"
       }
     ],
     "@type": [
@@ -758,12 +760,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456300",
+    "@id": "_:g456280",
     "http://schema.org/name": [
       {
         "@value": "An Endless Battle of Contrasting Memories"
@@ -786,7 +789,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456320"
+        "@id": "_:g456300"
       }
     ],
     "@type": [
@@ -794,12 +797,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456340",
+    "@id": "_:g456320",
     "http://schema.org/name": [
       {
         "@value": "the way water breathes"
@@ -822,7 +826,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456360"
+        "@id": "_:g456340"
       }
     ],
     "@type": [
@@ -830,12 +834,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456380",
+    "@id": "_:g456360",
     "http://schema.org/name": [
       {
         "@value": "Miniature Beams"
@@ -858,7 +863,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456400"
+        "@id": "_:g456380"
       }
     ],
     "@type": [
@@ -866,12 +871,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456420",
+    "@id": "_:g456400",
     "http://schema.org/name": [
       {
         "@value": "Buddha v.2"
@@ -894,7 +900,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456440"
+        "@id": "_:g456420"
       }
     ],
     "@type": [
@@ -902,12 +908,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456460",
+    "@id": "_:g456440",
     "http://schema.org/name": [
       {
         "@value": "When the Sun is Low"
@@ -930,7 +937,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456480"
+        "@id": "_:g456460"
       }
     ],
     "@type": [
@@ -938,12 +945,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456500",
+    "@id": "_:g456480",
     "http://schema.org/name": [
       {
         "@value": "Phosphorescence"
@@ -966,7 +974,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456520"
+        "@id": "_:g456500"
       }
     ],
     "@type": [
@@ -974,12 +982,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456540",
+    "@id": "_:g456520",
     "http://schema.org/name": [
       {
         "@value": "Song of the Earth"
@@ -1002,7 +1011,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g456560"
+        "@id": "_:g456540"
       }
     ],
     "@type": [
@@ -1010,12 +1019,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g456580",
+    "@id": "_:g456560",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/emmanuel-jacob-lacopo"
@@ -1051,7 +1061,7 @@
     ]
   },
   {
-    "@id": "_:g456600",
+    "@id": "_:g456580",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/kevin-oneil"
@@ -1092,7 +1102,7 @@
     ]
   },
   {
-    "@id": "_:g456620",
+    "@id": "_:g456600",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/ensemble-paramirabo/daniel-anez"
@@ -1136,7 +1146,7 @@
     ]
   },
   {
-    "@id": "_:g456640",
+    "@id": "_:g456620",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/arnaud-g-veydarier"
@@ -1167,7 +1177,7 @@
     ]
   },
   {
-    "@id": "_:g456660",
+    "@id": "_:g456640",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/luke-loseth"
@@ -1198,7 +1208,7 @@
     ]
   },
   {
-    "@id": "_:g456680",
+    "@id": "_:g456660",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/teotwawki"
@@ -1224,7 +1234,7 @@
     ]
   },
   {
-    "@id": "_:g456700",
+    "@id": "_:g456680",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/instruments-happiness-la-guitare-la-releve"
@@ -1232,7 +1242,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g456720"
+        "@id": "_:g456700"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -1242,7 +1252,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g456760"
+        "@id": "_:g456740"
       }
     ],
     "http://schema.org/url": [
@@ -1255,22 +1265,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-30T17:05:07-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-09-05T18:39:08-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-30T17:05:07-05:00"
       }
     ]
   },
   {
-    "@id": "_:g455960",
+    "@id": "_:g455940",
     "http://schema.org/name": [
       {
         "@value": "La Chapelle Scènes Contemporaines"
@@ -1306,7 +1319,7 @@
     ]
   },
   {
-    "@id": "_:g456060",
+    "@id": "_:g456040",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -1329,7 +1342,7 @@
     ]
   },
   {
-    "@id": "_:g456240",
+    "@id": "_:g456220",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/olivier-messiaen"
@@ -1368,7 +1381,7 @@
     ]
   },
   {
-    "@id": "_:g456280",
+    "@id": "_:g456260",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/emmanuel-jacob-lacopo"
@@ -1399,7 +1412,7 @@
     ]
   },
   {
-    "@id": "_:g456320",
+    "@id": "_:g456300",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/emmanuel-jacob-lacopo"
@@ -1430,7 +1443,7 @@
     ]
   },
   {
-    "@id": "_:g456360",
+    "@id": "_:g456340",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/emmanuel-jacob-lacopo"
@@ -1461,7 +1474,7 @@
     ]
   },
   {
-    "@id": "_:g456400",
+    "@id": "_:g456380",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/marguerite-brown"
@@ -1500,7 +1513,7 @@
     ]
   },
   {
-    "@id": "_:g456440",
+    "@id": "_:g456420",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/julius-eastman"
@@ -1531,7 +1544,7 @@
     ]
   },
   {
-    "@id": "_:g456480",
+    "@id": "_:g456460",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/sophia-jani"
@@ -1576,7 +1589,7 @@
     ]
   },
   {
-    "@id": "_:g456520",
+    "@id": "_:g456500",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/emmanuel-jacob-lacopo"
@@ -1607,7 +1620,7 @@
     ]
   },
   {
-    "@id": "_:g456560",
+    "@id": "_:g456540",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/kevin-oneil"
@@ -1643,7 +1656,7 @@
     ]
   },
   {
-    "@id": "_:g456720",
+    "@id": "_:g456700",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1659,7 +1672,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g456740"
+        "@id": "_:g456720"
       }
     ],
     "http://schema.org/description": [
@@ -1680,24 +1693,24 @@
     ]
   },
   {
-    "@id": "_:g456760",
+    "@id": "_:g456740",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
+        "@id": "_:g456760"
+      },
+      {
         "@id": "_:g456780"
       },
       {
         "@id": "_:g456800"
-      },
-      {
-        "@id": "_:g456820"
       }
     ]
   },
   {
-    "@id": "_:g456740",
+    "@id": "_:g456720",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -1720,7 +1733,7 @@
     ]
   },
   {
-    "@id": "_:g456780",
+    "@id": "_:g456760",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1742,7 +1755,7 @@
     ]
   },
   {
-    "@id": "_:g456800",
+    "@id": "_:g456780",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1764,7 +1777,7 @@
     ]
   },
   {
-    "@id": "_:g456820",
+    "@id": "_:g456800",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -2024,7 +2037,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g459760"
+        "@id": "_:g459740"
       }
     ],
     "http://schema.org/description": [
@@ -2034,23 +2047,23 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g459780"
+        "@id": "_:g459760"
       }
     ],
     "http://schema.org/employee": [
       {
-        "@id": "_:g459800"
+        "@id": "_:g459780"
       }
     ],
     "http://schema.org/subjectOf": [
+      {
+        "@id": "_:g459800"
+      },
       {
         "@id": "_:g459820"
       },
       {
         "@id": "_:g459840"
-      },
-      {
-        "@id": "_:g459860"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2081,7 +2094,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g459880"
+        "@id": "_:g459860"
       }
     ]
   },
@@ -2227,34 +2240,37 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g462640"
+        "@id": "_:g462620"
       }
     ],
     "http://schema.org/offers": [
+      {
+        "@id": "_:g462660"
+      },
       {
         "@id": "_:g462680"
       },
       {
         "@id": "_:g462700"
-      },
-      {
-        "@id": "_:g462720"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g462740"
+        "@id": "_:g462720"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g462760"
+        "@id": "_:g462740"
       },
       {
-        "@id": "_:g462800"
+        "@id": "_:g462780"
       }
     ],
     "http://schema.org/composer": [
+      {
+        "@id": "_:g462800"
+      },
       {
         "@id": "_:g462820"
       },
@@ -2263,26 +2279,26 @@
       },
       {
         "@id": "_:g462860"
-      },
-      {
-        "@id": "_:g462880"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g462900"
+        "@id": "_:g462880"
       },
       {
-        "@id": "_:g462940"
+        "@id": "_:g462920"
       },
       {
-        "@id": "_:g462980"
+        "@id": "_:g462960"
       },
       {
-        "@id": "_:g463020"
+        "@id": "_:g463000"
       }
     ],
     "http://schema.org/performer": [
+      {
+        "@id": "_:g463040"
+      },
       {
         "@id": "_:g463060"
       },
@@ -2291,18 +2307,16 @@
       },
       {
         "@id": "_:g463100"
-      },
-      {
-        "@id": "_:g463120"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g463140"
+        "@id": "_:g463120"
       }
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-02-21T00:30:00-05:00"
       }
     ]
@@ -2444,7 +2458,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g465200"
+        "@id": "_:g465180"
       }
     ],
     "http://schema.org/description": [
@@ -2454,10 +2468,13 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g465220"
+        "@id": "_:g465200"
       }
     ],
     "http://schema.org/employee": [
+      {
+        "@id": "_:g465220"
+      },
       {
         "@id": "_:g465240"
       },
@@ -2466,12 +2483,12 @@
       },
       {
         "@id": "_:g465280"
-      },
-      {
-        "@id": "_:g465300"
       }
     ],
     "http://schema.org/subjectOf": [
+      {
+        "@id": "_:g465300"
+      },
       {
         "@id": "_:g465320"
       },
@@ -2492,9 +2509,6 @@
       },
       {
         "@id": "_:g465440"
-      },
-      {
-        "@id": "_:g465460"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2546,7 +2560,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g465480"
+        "@id": "_:g465460"
       }
     ]
   },
@@ -2692,42 +2706,47 @@
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-02-24T00:00:00-05:00"
       },
       {
+        "@type": "dateTime",
         "@value": "2024-02-24T02:00:00-05:00"
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g467880"
+        "@id": "_:g467860"
       }
     ],
     "http://schema.org/offers": [
+      {
+        "@id": "_:g467900"
+      },
       {
         "@id": "_:g467920"
       },
       {
         "@id": "_:g467940"
-      },
-      {
-        "@id": "_:g467960"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g467980"
+        "@id": "_:g467960"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g468000"
+        "@id": "_:g467980"
       },
       {
-        "@id": "_:g468040"
+        "@id": "_:g468020"
       }
     ],
     "http://schema.org/composer": [
+      {
+        "@id": "_:g468040"
+      },
       {
         "@id": "_:g468060"
       },
@@ -2742,44 +2761,41 @@
       },
       {
         "@id": "_:g468140"
-      },
-      {
-        "@id": "_:g468160"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g468180"
+        "@id": "_:g468160"
       },
       {
-        "@id": "_:g468220"
+        "@id": "_:g468200"
       },
       {
-        "@id": "_:g468260"
+        "@id": "_:g468240"
       },
       {
-        "@id": "_:g468300"
+        "@id": "_:g468280"
       },
       {
-        "@id": "_:g468340"
+        "@id": "_:g468320"
       },
       {
-        "@id": "_:g468380"
+        "@id": "_:g468360"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g468420"
+        "@id": "_:g468400"
       }
     ],
     "http://schema.org/subjectOf": [
       {
-        "@id": "_:g468440"
+        "@id": "_:g468420"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g468500"
+        "@id": "_:g468480"
       }
     ]
   },
@@ -2920,7 +2936,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g471260"
+        "@id": "_:g471240"
       }
     ],
     "http://schema.org/description": [
@@ -2930,10 +2946,13 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g471280"
+        "@id": "_:g471260"
       }
     ],
     "http://schema.org/employee": [
+      {
+        "@id": "_:g471280"
+      },
       {
         "@id": "_:g471300"
       },
@@ -2960,9 +2979,6 @@
       },
       {
         "@id": "_:g471460"
-      },
-      {
-        "@id": "_:g471480"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2975,7 +2991,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g471500"
+        "@id": "_:g471480"
       }
     ]
   },
@@ -3121,55 +3137,62 @@
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-02-27T14:45:00-05:00"
       },
       {
+        "@type": "dateTime",
         "@value": "2024-02-27T16:15:00-05:00"
       },
       {
+        "@type": "dateTime",
         "@value": "2024-02-27T21:30:00-05:00"
       },
       {
+        "@type": "dateTime",
         "@value": "2024-02-28T14:45:00-05:00"
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g472980"
+        "@id": "_:g472960"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g473020"
+        "@id": "_:g473000"
       },
       {
-        "@id": "_:g473040"
+        "@id": "_:g473020"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g473060"
+        "@id": "_:g473040"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g473080"
+        "@id": "_:g473060"
       },
       {
-        "@id": "_:g473120"
+        "@id": "_:g473100"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g473140"
+        "@id": "_:g473120"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g473160"
+        "@id": "_:g473140"
       }
     ],
     "http://schema.org/performer": [
+      {
+        "@id": "_:g473180"
+      },
       {
         "@id": "_:g473200"
       },
@@ -3187,19 +3210,16 @@
       },
       {
         "@id": "_:g473300"
-      },
-      {
-        "@id": "_:g473320"
       }
     ],
     "http://schema.org/subjectOf": [
       {
-        "@id": "_:g473340"
+        "@id": "_:g473320"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g473380"
+        "@id": "_:g473360"
       }
     ]
   },
@@ -3340,7 +3360,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g475980"
+        "@id": "_:g475960"
       }
     ],
     "http://schema.org/description": [
@@ -3350,10 +3370,13 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g476000"
+        "@id": "_:g475980"
       }
     ],
     "http://schema.org/employee": [
+      {
+        "@id": "_:g476000"
+      },
       {
         "@id": "_:g476020"
       },
@@ -3368,20 +3391,17 @@
       },
       {
         "@id": "_:g476100"
-      },
-      {
-        "@id": "_:g476120"
       }
     ],
     "http://schema.org/subjectOf": [
+      {
+        "@id": "_:g476120"
+      },
       {
         "@id": "_:g476140"
       },
       {
         "@id": "_:g476160"
-      },
-      {
-        "@id": "_:g476180"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3418,7 +3438,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g476200"
+        "@id": "_:g476180"
       }
     ]
   },
@@ -3564,51 +3584,52 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g478680"
+        "@id": "_:g478660"
       }
     ],
     "http://schema.org/offers": [
+      {
+        "@id": "_:g478700"
+      },
       {
         "@id": "_:g478720"
       },
       {
         "@id": "_:g478740"
-      },
-      {
-        "@id": "_:g478760"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g478780"
+        "@id": "_:g478760"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g478800"
+        "@id": "_:g478780"
+      },
+      {
+        "@id": "_:g478820"
       },
       {
         "@id": "_:g478840"
-      },
-      {
-        "@id": "_:g478860"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g478880"
+        "@id": "_:g478860"
       },
       {
-        "@id": "_:g478900"
+        "@id": "_:g478880"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g478920"
+        "@id": "_:g478900"
       }
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-02-29T00:30:00-05:00"
       }
     ]
@@ -3748,7 +3769,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g480000"
+        "@id": "_:g479980"
       }
     ],
     "http://schema.org/description": [
@@ -3758,10 +3779,10 @@
     ],
     "http://schema.org/hasOccupation": [
       {
-        "@id": "_:g480020"
+        "@id": "_:g480000"
       },
       {
-        "@id": "_:g480040"
+        "@id": "_:g480020"
       }
     ],
     "http://schema.org/additionalType": [
@@ -3774,7 +3795,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g480060"
+        "@id": "_:g480040"
       }
     ]
   },
@@ -3913,7 +3934,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g482100"
+        "@id": "_:g482080"
       }
     ],
     "http://schema.org/description": [
@@ -3923,7 +3944,7 @@
     ],
     "http://schema.org/hasOccupation": [
       {
-        "@id": "_:g482120"
+        "@id": "_:g482100"
       }
     ],
     "http://schema.org/additionalType": [
@@ -3933,7 +3954,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g482140"
+        "@id": "_:g482120"
       }
     ]
   },
@@ -4079,21 +4100,22 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g483780"
+        "@id": "_:g483720"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g483800"
+        "@id": "_:g483740"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g483840"
+        "@id": "_:g483780"
       }
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-03-01T23:00:00-05:00"
       }
     ]
@@ -4245,10 +4267,13 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g486060"
+        "@id": "_:g486040"
       }
     ],
     "http://schema.org/offers": [
+      {
+        "@id": "_:g486080"
+      },
       {
         "@id": "_:g486100"
       },
@@ -4266,60 +4291,58 @@
       },
       {
         "@id": "_:g486200"
-      },
-      {
-        "@id": "_:g486220"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g486240"
+        "@id": "_:g486220"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g486260"
+        "@id": "_:g486240"
       },
       {
-        "@id": "_:g486300"
+        "@id": "_:g486280"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g486320"
+        "@id": "_:g486300"
       },
       {
-        "@id": "_:g486340"
+        "@id": "_:g486320"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g486360"
+        "@id": "_:g486340"
       }
     ],
     "http://schema.org/performer": [
+      {
+        "@id": "_:g486400"
+      },
       {
         "@id": "_:g486420"
       },
       {
         "@id": "_:g486440"
-      },
-      {
-        "@id": "_:g486460"
       }
     ],
     "http://schema.org/subjectOf": [
       {
-        "@id": "_:g486480"
+        "@id": "_:g486460"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g486520"
+        "@id": "_:g486500"
       }
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-03-02T00:00:00-05:00"
       }
     ]
@@ -4461,7 +4484,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g488900"
+        "@id": "_:g488880"
       }
     ],
     "http://schema.org/description": [
@@ -4471,15 +4494,15 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g488920"
+        "@id": "_:g488900"
       }
     ],
     "http://schema.org/employee": [
       {
-        "@id": "_:g488940"
+        "@id": "_:g488920"
       },
       {
-        "@id": "_:g488960"
+        "@id": "_:g488940"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4489,7 +4512,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g488980"
+        "@id": "_:g488960"
       }
     ]
   },
@@ -4640,10 +4663,13 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g490920"
+        "@id": "_:g490900"
       }
     ],
     "http://schema.org/offers": [
+      {
+        "@id": "_:g490940"
+      },
       {
         "@id": "_:g490960"
       },
@@ -4658,35 +4684,35 @@
       },
       {
         "@id": "_:g491040"
-      },
-      {
-        "@id": "_:g491060"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g491080"
+        "@id": "_:g491060"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g491100"
+        "@id": "_:g491080"
       },
       {
-        "@id": "_:g491140"
+        "@id": "_:g491120"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g491160"
+        "@id": "_:g491140"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g491180"
+        "@id": "_:g491160"
       }
     ],
     "http://schema.org/performer": [
+      {
+        "@id": "_:g491200"
+      },
       {
         "@id": "_:g491220"
       },
@@ -4698,18 +4724,16 @@
       },
       {
         "@id": "_:g491280"
-      },
-      {
-        "@id": "_:g491300"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g491320"
+        "@id": "_:g491300"
       }
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-03-08T00:30:00-05:00"
       }
     ]
@@ -4851,7 +4875,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g493220"
+        "@id": "_:g493240"
       }
     ],
     "http://schema.org/description": [
@@ -4861,13 +4885,10 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g493240"
+        "@id": "_:g493260"
       }
     ],
     "http://schema.org/employee": [
-      {
-        "@id": "_:g493260"
-      },
       {
         "@id": "_:g493280"
       },
@@ -4876,17 +4897,20 @@
       },
       {
         "@id": "_:g493320"
+      },
+      {
+        "@id": "_:g493340"
       }
     ],
     "http://schema.org/subjectOf": [
-      {
-        "@id": "_:g493340"
-      },
       {
         "@id": "_:g493360"
       },
       {
         "@id": "_:g493380"
+      },
+      {
+        "@id": "_:g493400"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4920,7 +4944,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g493400"
+        "@id": "_:g493420"
       }
     ]
   },
@@ -5071,24 +5095,24 @@
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-03-09T21:00:00-05:00"
       },
       {
+        "@type": "dateTime",
         "@value": "2024-03-10T01:30:00-05:00"
       },
       {
+        "@type": "dateTime",
         "@value": "2024-03-10T14:00:00-04:00"
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g495980"
+        "@id": "_:g496000"
       }
     ],
     "http://schema.org/offers": [
-      {
-        "@id": "_:g496020"
-      },
       {
         "@id": "_:g496040"
       },
@@ -5106,35 +5130,35 @@
       },
       {
         "@id": "_:g496140"
-      }
-    ],
-    "http://schema.org/image": [
+      },
       {
         "@id": "_:g496160"
       }
     ],
-    "http://schema.org/organizer": [
+    "http://schema.org/image": [
       {
         "@id": "_:g496180"
-      },
-      {
-        "@id": "_:g496220"
       }
     ],
-    "http://schema.org/composer": [
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g496200"
+      },
       {
         "@id": "_:g496240"
       }
     ],
-    "http://schema.org/workPerformed": [
+    "http://schema.org/composer": [
       {
         "@id": "_:g496260"
       }
     ],
-    "http://schema.org/performer": [
+    "http://schema.org/workPerformed": [
       {
-        "@id": "_:g496300"
-      },
+        "@id": "_:g496280"
+      }
+    ],
+    "http://schema.org/performer": [
       {
         "@id": "_:g496320"
       },
@@ -5149,16 +5173,19 @@
       },
       {
         "@id": "_:g496400"
-      }
-    ],
-    "http://schema.org/subjectOf": [
+      },
       {
         "@id": "_:g496420"
       }
     ],
-    "http://schema.org/mainEntityOfPage": [
+    "http://schema.org/subjectOf": [
       {
         "@id": "_:g496440"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "_:g496460"
       }
     ]
   },
@@ -5299,7 +5326,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g498580"
+        "@id": "_:g498600"
       }
     ],
     "http://schema.org/description": [
@@ -5309,13 +5336,10 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g498600"
+        "@id": "_:g498620"
       }
     ],
     "http://schema.org/employee": [
-      {
-        "@id": "_:g498620"
-      },
       {
         "@id": "_:g498640"
       },
@@ -5324,11 +5348,14 @@
       },
       {
         "@id": "_:g498680"
+      },
+      {
+        "@id": "_:g498700"
       }
     ],
     "http://schema.org/subjectOf": [
       {
-        "@id": "_:g498700"
+        "@id": "_:g498720"
       }
     ],
     "http://schema.org/sameAs": [
@@ -5365,7 +5392,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g498740"
+        "@id": "_:g498760"
       }
     ]
   },
@@ -5516,62 +5543,53 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g500840"
+        "@id": "_:g500900"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g500880"
+        "@id": "_:g500940"
       },
       {
-        "@id": "_:g500900"
+        "@id": "_:g500960"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g500920"
+        "@id": "_:g500980"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g500940"
-      },
-      {
-        "@id": "_:g500980"
-      }
-    ],
-    "http://schema.org/composer": [
-      {
         "@id": "_:g501000"
-      },
-      {
-        "@id": "_:g501020"
       },
       {
         "@id": "_:g501040"
       }
     ],
-    "http://schema.org/workPerformed": [
+    "http://schema.org/composer": [
       {
         "@id": "_:g501060"
       },
       {
-        "@id": "_:g501100"
+        "@id": "_:g501080"
       },
       {
-        "@id": "_:g501140"
+        "@id": "_:g501100"
+      }
+    ],
+    "http://schema.org/workPerformed": [
+      {
+        "@id": "_:g501120"
+      },
+      {
+        "@id": "_:g501160"
+      },
+      {
+        "@id": "_:g501200"
       }
     ],
     "http://schema.org/performer": [
-      {
-        "@id": "_:g501220"
-      },
-      {
-        "@id": "_:g501240"
-      },
-      {
-        "@id": "_:g501260"
-      },
       {
         "@id": "_:g501280"
       },
@@ -5589,15 +5607,25 @@
       },
       {
         "@id": "_:g501380"
+      },
+      {
+        "@id": "_:g501400"
+      },
+      {
+        "@id": "_:g501420"
+      },
+      {
+        "@id": "_:g501440"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g501400"
+        "@id": "_:g501460"
       }
     ],
     "http://schema.org/startDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-03-09T23:00:00-05:00"
       }
     ]
@@ -5876,7 +5904,7 @@
     ]
   },
   {
-    "@id": "_:g459760",
+    "@id": "_:g459740",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -5903,7 +5931,7 @@
     ]
   },
   {
-    "@id": "_:g459780",
+    "@id": "_:g459760",
     "http://schema.org/name": [
       {
         "@value": "Le Vivier"
@@ -5914,7 +5942,7 @@
     ]
   },
   {
-    "@id": "_:g459800",
+    "@id": "_:g459780",
     "http://schema.org/name": [
       {
         "@value": "          \n            Tim Brady\n          \n"
@@ -5930,7 +5958,7 @@
     ]
   },
   {
-    "@id": "_:g459820",
+    "@id": "_:g459800",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -5946,12 +5974,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-31T16:35:40-04:00"
       }
     ]
   },
   {
-    "@id": "_:g459840",
+    "@id": "_:g459820",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -5967,12 +5996,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-31T16:36:29-04:00"
       }
     ]
   },
   {
-    "@id": "_:g459860",
+    "@id": "_:g459840",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -5988,12 +6018,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-31T16:37:28-04:00"
       }
     ]
   },
   {
-    "@id": "_:g459880",
+    "@id": "_:g459860",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/bradyworks-instruments-happiness"
@@ -6001,7 +6032,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g459900"
+        "@id": "_:g459880"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -6011,7 +6042,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g459940"
+        "@id": "_:g459920"
       }
     ],
     "http://schema.org/url": [
@@ -6024,22 +6055,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2022-06-30T16:04:36-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2020-06-30T16:56:16-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2022-06-30T16:04:36-04:00"
       }
     ]
   },
   {
-    "@id": "_:g459900",
+    "@id": "_:g459880",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6055,7 +6089,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g459920"
+        "@id": "_:g459900"
       }
     ],
     "http://schema.org/description": [
@@ -6076,11 +6110,14 @@
     ]
   },
   {
-    "@id": "_:g459940",
+    "@id": "_:g459920",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g459940"
+      },
       {
         "@id": "_:g459960"
       },
@@ -6089,14 +6126,11 @@
       },
       {
         "@id": "_:g460000"
-      },
-      {
-        "@id": "_:g460020"
       }
     ]
   },
   {
-    "@id": "_:g459920",
+    "@id": "_:g459900",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -6119,7 +6153,7 @@
     ]
   },
   {
-    "@id": "_:g459960",
+    "@id": "_:g459940",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -6141,7 +6175,7 @@
     ]
   },
   {
-    "@id": "_:g459980",
+    "@id": "_:g459960",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -6163,7 +6197,7 @@
     ]
   },
   {
-    "@id": "_:g460000",
+    "@id": "_:g459980",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -6185,7 +6219,7 @@
     ]
   },
   {
-    "@id": "_:g460020",
+    "@id": "_:g460000",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -6301,7 +6335,7 @@
     ]
   },
   {
-    "@id": "_:g462640",
+    "@id": "_:g462620",
     "http://schema.org/name": [
       {
         "@value": "Salle Bleue | Édifice Wilder"
@@ -6309,7 +6343,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g462660"
+        "@id": "_:g462640"
       }
     ],
     "http://schema.org/latitude": [
@@ -6329,7 +6363,7 @@
     ]
   },
   {
-    "@id": "_:g462680",
+    "@id": "_:g462660",
     "http://schema.org/category": [
       {
         "@value": "Prévente&nbsp;"
@@ -6355,7 +6389,7 @@
     ]
   },
   {
-    "@id": "_:g462700",
+    "@id": "_:g462680",
     "http://schema.org/category": [
       {
         "@value": "Régulier"
@@ -6381,7 +6415,7 @@
     ]
   },
   {
-    "@id": "_:g462720",
+    "@id": "_:g462700",
     "http://schema.org/category": [
       {
         "@value": "Réduits (Étudiant·e·s, membres Vivier, + de 65 ans, etc.)"
@@ -6407,7 +6441,7 @@
     ]
   },
   {
-    "@id": "_:g462740",
+    "@id": "_:g462720",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -6434,7 +6468,7 @@
     ]
   },
   {
-    "@id": "_:g462760",
+    "@id": "_:g462740",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6450,7 +6484,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g462780"
+        "@id": "_:g462760"
       }
     ],
     "http://schema.org/description": [
@@ -6471,7 +6505,7 @@
     ]
   },
   {
-    "@id": "_:g462800",
+    "@id": "_:g462780",
     "http://schema.org/identifier": [
       {
         "@value": "https://quatuorbozzini.ca/fr/"
@@ -6517,7 +6551,7 @@
     ]
   },
   {
-    "@id": "_:g462820",
+    "@id": "_:g462800",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/gabriel-dufour-laperriere"
@@ -6558,7 +6592,7 @@
     ]
   },
   {
-    "@id": "_:g462840",
+    "@id": "_:g462820",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/paolo-griffin"
@@ -6605,7 +6639,7 @@
     ]
   },
   {
-    "@id": "_:g462860",
+    "@id": "_:g462840",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/bekah-simms"
@@ -6652,7 +6686,7 @@
     ]
   },
   {
-    "@id": "_:g462880",
+    "@id": "_:g462860",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/francis-battah"
@@ -6702,7 +6736,7 @@
     ]
   },
   {
-    "@id": "_:g462900",
+    "@id": "_:g462880",
     "http://schema.org/name": [
       {
         "@value": "Πάντα ῥεῖ  (Pánta rheî / \"Tout coule\")"
@@ -6720,7 +6754,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g462920"
+        "@id": "_:g462900"
       }
     ],
     "@type": [
@@ -6728,12 +6762,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g462940",
+    "@id": "_:g462920",
     "http://schema.org/name": [
       {
         "@value": "Adherence"
@@ -6756,7 +6791,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g462960"
+        "@id": "_:g462940"
       }
     ],
     "@type": [
@@ -6764,12 +6799,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g462980",
+    "@id": "_:g462960",
     "http://schema.org/name": [
       {
         "@value": "Songs for Fallow Fields"
@@ -6787,7 +6823,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g463000"
+        "@id": "_:g462980"
       }
     ],
     "@type": [
@@ -6795,12 +6831,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g463020",
+    "@id": "_:g463000",
     "http://schema.org/name": [
       {
         "@value": "Quatuor à cordes No. 4"
@@ -6818,7 +6855,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g463040"
+        "@id": "_:g463020"
       }
     ],
     "@type": [
@@ -6826,12 +6863,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g463060",
+    "@id": "_:g463040",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/alissa-cheung"
@@ -6884,7 +6922,7 @@
     ]
   },
   {
-    "@id": "_:g463080",
+    "@id": "_:g463060",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/clemens-merkel"
@@ -6931,7 +6969,7 @@
     ]
   },
   {
-    "@id": "_:g463100",
+    "@id": "_:g463080",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/stephanie-bozzini"
@@ -6975,7 +7013,7 @@
     ]
   },
   {
-    "@id": "_:g463120",
+    "@id": "_:g463100",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/isabelle-bozzini"
@@ -7019,7 +7057,7 @@
     ]
   },
   {
-    "@id": "_:g463140",
+    "@id": "_:g463120",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/harmonies-inouies"
@@ -7027,7 +7065,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g463160"
+        "@id": "_:g463140"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -7037,7 +7075,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g463200"
+        "@id": "_:g463180"
       }
     ],
     "http://schema.org/url": [
@@ -7050,22 +7088,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-18T11:06:28-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-12-12T11:27:27-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-18T11:06:28-05:00"
       }
     ]
   },
   {
-    "@id": "_:g462660",
+    "@id": "_:g462640",
     "http://schema.org/name": [
       {
         "@value": "Salle Bleue | Édifice Wilder"
@@ -7101,7 +7142,7 @@
     ]
   },
   {
-    "@id": "_:g462780",
+    "@id": "_:g462760",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -7124,7 +7165,7 @@
     ]
   },
   {
-    "@id": "_:g462920",
+    "@id": "_:g462900",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/gabriel-dufour-laperriere"
@@ -7160,7 +7201,7 @@
     ]
   },
   {
-    "@id": "_:g462960",
+    "@id": "_:g462940",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/paolo-griffin"
@@ -7202,7 +7243,7 @@
     ]
   },
   {
-    "@id": "_:g463000",
+    "@id": "_:g462980",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/bekah-simms"
@@ -7244,7 +7285,7 @@
     ]
   },
   {
-    "@id": "_:g463040",
+    "@id": "_:g463020",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/francis-battah"
@@ -7289,7 +7330,7 @@
     ]
   },
   {
-    "@id": "_:g463160",
+    "@id": "_:g463140",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -7305,7 +7346,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g463180"
+        "@id": "_:g463160"
       }
     ],
     "http://schema.org/description": [
@@ -7326,24 +7367,24 @@
     ]
   },
   {
-    "@id": "_:g463200",
+    "@id": "_:g463180",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
+        "@id": "_:g463200"
+      },
+      {
         "@id": "_:g463220"
       },
       {
         "@id": "_:g463240"
-      },
-      {
-        "@id": "_:g463260"
       }
     ]
   },
   {
-    "@id": "_:g463180",
+    "@id": "_:g463160",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -7366,7 +7407,7 @@
     ]
   },
   {
-    "@id": "_:g463220",
+    "@id": "_:g463200",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -7388,7 +7429,7 @@
     ]
   },
   {
-    "@id": "_:g463240",
+    "@id": "_:g463220",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -7410,7 +7451,7 @@
     ]
   },
   {
-    "@id": "_:g463260",
+    "@id": "_:g463240",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -7482,7 +7523,7 @@
     ]
   },
   {
-    "@id": "_:g465200",
+    "@id": "_:g465180",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -7509,7 +7550,7 @@
     ]
   },
   {
-    "@id": "_:g465220",
+    "@id": "_:g465200",
     "http://schema.org/name": [
       {
         "@value": "Le Vivier"
@@ -7520,7 +7561,7 @@
     ]
   },
   {
-    "@id": "_:g465240",
+    "@id": "_:g465220",
     "http://schema.org/name": [
       {
         "@value": "          \n            Isabelle Bozzini\n          \n"
@@ -7536,7 +7577,7 @@
     ]
   },
   {
-    "@id": "_:g465260",
+    "@id": "_:g465240",
     "http://schema.org/name": [
       {
         "@value": "          \n            Stéphanie Bozzini\n          \n"
@@ -7552,7 +7593,7 @@
     ]
   },
   {
-    "@id": "_:g465280",
+    "@id": "_:g465260",
     "http://schema.org/name": [
       {
         "@value": "          \n            Alissa Cheung\n          \n"
@@ -7568,7 +7609,7 @@
     ]
   },
   {
-    "@id": "_:g465300",
+    "@id": "_:g465280",
     "http://schema.org/name": [
       {
         "@value": "          \n            Clemens Merkel\n          \n"
@@ -7584,7 +7625,7 @@
     ]
   },
   {
-    "@id": "_:g465320",
+    "@id": "_:g465300",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -7600,12 +7641,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:51:03-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465340",
+    "@id": "_:g465320",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -7621,12 +7663,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:51:51-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465360",
+    "@id": "_:g465340",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -7642,12 +7685,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:52:21-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465380",
+    "@id": "_:g465360",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -7663,12 +7707,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:53:01-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465400",
+    "@id": "_:g465380",
     "@type": [
       "http://schema.org/AudioObject"
     ],
@@ -7679,12 +7724,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:54:05-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465420",
+    "@id": "_:g465400",
     "@type": [
       "http://schema.org/AudioObject"
     ],
@@ -7695,12 +7741,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:54:40-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465440",
+    "@id": "_:g465420",
     "@type": [
       "http://schema.org/AudioObject"
     ],
@@ -7711,12 +7758,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:55:19-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465460",
+    "@id": "_:g465440",
     "@type": [
       "http://schema.org/AudioObject"
     ],
@@ -7727,12 +7775,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:55:47-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465480",
+    "@id": "_:g465460",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/quatuor-bozzini"
@@ -7740,7 +7789,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g465500"
+        "@id": "_:g465480"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -7750,7 +7799,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g465540"
+        "@id": "_:g465520"
       }
     ],
     "http://schema.org/url": [
@@ -7763,22 +7812,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2022-10-05T16:14:58-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-11T11:43:01-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2022-10-05T16:14:58-04:00"
       }
     ]
   },
   {
-    "@id": "_:g465500",
+    "@id": "_:g465480",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -7794,7 +7846,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g465520"
+        "@id": "_:g465500"
       }
     ],
     "http://schema.org/description": [
@@ -7815,11 +7867,14 @@
     ]
   },
   {
-    "@id": "_:g465540",
+    "@id": "_:g465520",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g465540"
+      },
       {
         "@id": "_:g465560"
       },
@@ -7828,14 +7883,11 @@
       },
       {
         "@id": "_:g465600"
-      },
-      {
-        "@id": "_:g465620"
       }
     ]
   },
   {
-    "@id": "_:g465520",
+    "@id": "_:g465500",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -7858,7 +7910,7 @@
     ]
   },
   {
-    "@id": "_:g465560",
+    "@id": "_:g465540",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -7880,7 +7932,7 @@
     ]
   },
   {
-    "@id": "_:g465580",
+    "@id": "_:g465560",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -7902,7 +7954,7 @@
     ]
   },
   {
-    "@id": "_:g465600",
+    "@id": "_:g465580",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -7924,7 +7976,7 @@
     ]
   },
   {
-    "@id": "_:g465620",
+    "@id": "_:g465600",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -8084,7 +8136,7 @@
     ]
   },
   {
-    "@id": "_:g467880",
+    "@id": "_:g467860",
     "http://schema.org/name": [
       {
         "@value": "Salle Bleue | Édifice Wilder"
@@ -8092,7 +8144,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g467900"
+        "@id": "_:g467880"
       }
     ],
     "http://schema.org/latitude": [
@@ -8112,7 +8164,7 @@
     ]
   },
   {
-    "@id": "_:g467920",
+    "@id": "_:g467900",
     "http://schema.org/category": [
       {
         "@value": "Prévente"
@@ -8138,7 +8190,7 @@
     ]
   },
   {
-    "@id": "_:g467940",
+    "@id": "_:g467920",
     "http://schema.org/category": [
       {
         "@value": "Réduit"
@@ -8164,7 +8216,7 @@
     ]
   },
   {
-    "@id": "_:g467960",
+    "@id": "_:g467940",
     "http://schema.org/category": [
       {
         "@value": "Réduit (Étudiant·e·s, membres du Vivier, +&nbsp;de 65 ans)Students, Vivier members, over 65s, etc.)"
@@ -8190,7 +8242,7 @@
     ]
   },
   {
-    "@id": "_:g467980",
+    "@id": "_:g467960",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -8217,7 +8269,7 @@
     ]
   },
   {
-    "@id": "_:g468000",
+    "@id": "_:g467980",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -8233,7 +8285,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g468020"
+        "@id": "_:g468000"
       }
     ],
     "http://schema.org/description": [
@@ -8254,7 +8306,7 @@
     ]
   },
   {
-    "@id": "_:g468040",
+    "@id": "_:g468020",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/viu"
@@ -8288,7 +8340,7 @@
     ]
   },
   {
-    "@id": "_:g468060",
+    "@id": "_:g468040",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/hannah-barnes"
@@ -8324,7 +8376,7 @@
     ]
   },
   {
-    "@id": "_:g468080",
+    "@id": "_:g468060",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/tomas-diaz-villegas"
@@ -8360,7 +8412,7 @@
     ]
   },
   {
-    "@id": "_:g468100",
+    "@id": "_:g468080",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/david-c-gale"
@@ -8391,7 +8443,7 @@
     ]
   },
   {
-    "@id": "_:g468120",
+    "@id": "_:g468100",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/philippe-macnab-seguin"
@@ -8427,7 +8479,7 @@
     ]
   },
   {
-    "@id": "_:g468140",
+    "@id": "_:g468120",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/florence-m-tremblay"
@@ -8463,7 +8515,7 @@
     ]
   },
   {
-    "@id": "_:g468160",
+    "@id": "_:g468140",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/yulin-yan"
@@ -8504,7 +8556,7 @@
     ]
   },
   {
-    "@id": "_:g468180",
+    "@id": "_:g468160",
     "http://schema.org/name": [
       {
         "@value": "Ramification"
@@ -8522,7 +8574,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g468200"
+        "@id": "_:g468180"
       }
     ],
     "@type": [
@@ -8530,12 +8582,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g468220",
+    "@id": "_:g468200",
     "http://schema.org/name": [
       {
         "@value": "Canción"
@@ -8553,7 +8606,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g468240"
+        "@id": "_:g468220"
       }
     ],
     "@type": [
@@ -8561,12 +8614,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g468260",
+    "@id": "_:g468240",
     "http://schema.org/name": [
       {
         "@value": "As The Light Shines Through"
@@ -8584,7 +8638,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g468280"
+        "@id": "_:g468260"
       }
     ],
     "@type": [
@@ -8592,12 +8646,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g468300",
+    "@id": "_:g468280",
     "http://schema.org/name": [
       {
         "@value": "GENERIC MUSIC 1: Trad"
@@ -8615,7 +8670,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g468320"
+        "@id": "_:g468300"
       }
     ],
     "@type": [
@@ -8623,12 +8678,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g468340",
+    "@id": "_:g468320",
     "http://schema.org/name": [
       {
         "@value": "Insides"
@@ -8646,7 +8702,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g468360"
+        "@id": "_:g468340"
       }
     ],
     "@type": [
@@ -8654,12 +8710,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g468380",
+    "@id": "_:g468360",
     "http://schema.org/name": [
       {
         "@value": "Studies for the Second Womb"
@@ -8677,7 +8734,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g468400"
+        "@id": "_:g468380"
       }
     ],
     "@type": [
@@ -8685,12 +8742,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g468420",
+    "@id": "_:g468400",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/viu"
@@ -8724,7 +8782,7 @@
     ]
   },
   {
-    "@id": "_:g468440",
+    "@id": "_:g468420",
     "@type": [
       "http://schema.org/NewsArticle"
     ],
@@ -8745,17 +8803,18 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g468460"
+        "@id": "_:g468440"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-11T15:46:28-05:00"
       }
     ]
   },
   {
-    "@id": "_:g468500",
+    "@id": "_:g468480",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/8e-concert-annuel-du-viu"
@@ -8763,7 +8822,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g468520"
+        "@id": "_:g468500"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -8773,7 +8832,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g468560"
+        "@id": "_:g468540"
       }
     ],
     "http://schema.org/url": [
@@ -8786,22 +8845,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-23T17:48:25-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-09-05T21:27:32-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-23T17:48:25-05:00"
       }
     ]
   },
   {
-    "@id": "_:g467900",
+    "@id": "_:g467880",
     "http://schema.org/name": [
       {
         "@value": "Salle Bleue | Édifice Wilder"
@@ -8837,7 +8899,7 @@
     ]
   },
   {
-    "@id": "_:g468020",
+    "@id": "_:g468000",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -8860,7 +8922,7 @@
     ]
   },
   {
-    "@id": "_:g468200",
+    "@id": "_:g468180",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/hannah-barnes"
@@ -8891,7 +8953,7 @@
     ]
   },
   {
-    "@id": "_:g468240",
+    "@id": "_:g468220",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/tomas-diaz-villegas"
@@ -8922,7 +8984,7 @@
     ]
   },
   {
-    "@id": "_:g468280",
+    "@id": "_:g468260",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/david-c-gale"
@@ -8953,7 +9015,7 @@
     ]
   },
   {
-    "@id": "_:g468320",
+    "@id": "_:g468300",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/philippe-macnab-seguin"
@@ -8984,7 +9046,7 @@
     ]
   },
   {
-    "@id": "_:g468360",
+    "@id": "_:g468340",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/florence-m-tremblay"
@@ -9015,7 +9077,7 @@
     ]
   },
   {
-    "@id": "_:g468400",
+    "@id": "_:g468380",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/yulin-yan"
@@ -9051,7 +9113,7 @@
     ]
   },
   {
-    "@id": "_:g468460",
+    "@id": "_:g468440",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -9067,7 +9129,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g468480"
+        "@id": "_:g468460"
       }
     ],
     "http://schema.org/description": [
@@ -9088,7 +9150,7 @@
     ]
   },
   {
-    "@id": "_:g468480",
+    "@id": "_:g468460",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -9111,7 +9173,7 @@
     ]
   },
   {
-    "@id": "_:g468520",
+    "@id": "_:g468500",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -9127,7 +9189,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g468540"
+        "@id": "_:g468520"
       }
     ],
     "http://schema.org/description": [
@@ -9144,29 +9206,29 @@
       },
       {
         "@id": "https://www.youtube.com/channel/UCDCrHXbapyafAuoKOXflDKQ"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468560",
-    "@type": [
-      "http://schema.org/BreadcrumbList"
-    ],
-    "http://schema.org/itemListElement": [
-      {
-        "@id": "_:g468580"
-      },
-      {
-        "@id": "_:g468600"
-      },
-      {
-        "@id": "_:g468620"
       }
     ]
   },
   {
     "@id": "_:g468540",
     "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g468560"
+      },
+      {
+        "@id": "_:g468580"
+      },
+      {
+        "@id": "_:g468600"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468520",
+    "@type": [
       "http://schema.org/ImageObject"
     ],
     "http://schema.org/url": [
@@ -9188,7 +9250,7 @@
     ]
   },
   {
-    "@id": "_:g468580",
+    "@id": "_:g468560",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -9210,7 +9272,7 @@
     ]
   },
   {
-    "@id": "_:g468600",
+    "@id": "_:g468580",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -9232,7 +9294,7 @@
     ]
   },
   {
-    "@id": "_:g468620",
+    "@id": "_:g468600",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -9315,7 +9377,7 @@
     ]
   },
   {
-    "@id": "_:g471260",
+    "@id": "_:g471240",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -9342,7 +9404,7 @@
     ]
   },
   {
-    "@id": "_:g471280",
+    "@id": "_:g471260",
     "http://schema.org/name": [
       {
         "@value": "Le Vivier"
@@ -9353,7 +9415,7 @@
     ]
   },
   {
-    "@id": "_:g471300",
+    "@id": "_:g471280",
     "http://schema.org/name": [
       {
         "@value": "          \n            Hannah A. Barnes\n          \n"
@@ -9369,7 +9431,7 @@
     ]
   },
   {
-    "@id": "_:g471320",
+    "@id": "_:g471300",
     "http://schema.org/name": [
       {
         "@value": "          \n            Elsa Barozzi\n          \n"
@@ -9385,7 +9447,7 @@
     ]
   },
   {
-    "@id": "_:g471340",
+    "@id": "_:g471320",
     "http://schema.org/name": [
       {
         "@value": "          \n            Jules Bastin-Fontaine\n          \n"
@@ -9401,7 +9463,7 @@
     ]
   },
   {
-    "@id": "_:g471360",
+    "@id": "_:g471340",
     "http://schema.org/name": [
       {
         "@value": "          \n            Charlotte Colin\n          \n"
@@ -9417,7 +9479,7 @@
     ]
   },
   {
-    "@id": "_:g471380",
+    "@id": "_:g471360",
     "http://schema.org/name": [
       {
         "@value": "          \n            Tomás Díaz Villegas\n          \n"
@@ -9433,7 +9495,7 @@
     ]
   },
   {
-    "@id": "_:g471400",
+    "@id": "_:g471380",
     "http://schema.org/name": [
       {
         "@value": "          \n            Matthieu Galliker\n          \n"
@@ -9449,7 +9511,7 @@
     ]
   },
   {
-    "@id": "_:g471420",
+    "@id": "_:g471400",
     "http://schema.org/name": [
       {
         "@value": "          \n            Liam Ross Gibson\n          \n"
@@ -9465,7 +9527,7 @@
     ]
   },
   {
-    "@id": "_:g471440",
+    "@id": "_:g471420",
     "http://schema.org/name": [
       {
         "@value": "          \n            Sébastien Goulet\n          \n"
@@ -9481,7 +9543,7 @@
     ]
   },
   {
-    "@id": "_:g471460",
+    "@id": "_:g471440",
     "http://schema.org/name": [
       {
         "@value": "          \n            Kristian North\n          \n"
@@ -9497,7 +9559,7 @@
     ]
   },
   {
-    "@id": "_:g471480",
+    "@id": "_:g471460",
     "http://schema.org/name": [
       {
         "@value": "          \n            Jonas Regnier\n          \n"
@@ -9513,7 +9575,7 @@
     ]
   },
   {
-    "@id": "_:g471500",
+    "@id": "_:g471480",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-organismes/vivier-interuniversitaire-viu"
@@ -9521,7 +9583,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g471520"
+        "@id": "_:g471500"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -9531,7 +9593,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g471560"
+        "@id": "_:g471540"
       }
     ],
     "http://schema.org/url": [
@@ -9544,22 +9606,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2021-04-07T11:48:48-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2021-03-04T13:31:28-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2021-04-07T11:48:48-04:00"
       }
     ]
   },
   {
-    "@id": "_:g471520",
+    "@id": "_:g471500",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -9575,7 +9640,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g471540"
+        "@id": "_:g471520"
       }
     ],
     "http://schema.org/description": [
@@ -9596,21 +9661,21 @@
     ]
   },
   {
-    "@id": "_:g471560",
+    "@id": "_:g471540",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
-        "@id": "_:g471580"
+        "@id": "_:g471560"
       },
       {
-        "@id": "_:g471600"
+        "@id": "_:g471580"
       }
     ]
   },
   {
-    "@id": "_:g471540",
+    "@id": "_:g471520",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -9633,7 +9698,7 @@
     ]
   },
   {
-    "@id": "_:g471580",
+    "@id": "_:g471560",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -9655,7 +9720,7 @@
     ]
   },
   {
-    "@id": "_:g471600",
+    "@id": "_:g471580",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -9837,7 +9902,7 @@
     ]
   },
   {
-    "@id": "_:g472980",
+    "@id": "_:g472960",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -9845,7 +9910,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g473000"
+        "@id": "_:g472980"
       }
     ],
     "http://schema.org/latitude": [
@@ -9870,7 +9935,7 @@
     ]
   },
   {
-    "@id": "_:g473020",
+    "@id": "_:g473000",
     "http://schema.org/category": [
       {
         "@value": "Adulte"
@@ -9896,7 +9961,7 @@
     ]
   },
   {
-    "@id": "_:g473040",
+    "@id": "_:g473020",
     "http://schema.org/category": [
       {
         "@value": "Enfant"
@@ -9922,7 +9987,7 @@
     ]
   },
   {
-    "@id": "_:g473060",
+    "@id": "_:g473040",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -9949,7 +10014,7 @@
     ]
   },
   {
-    "@id": "_:g473080",
+    "@id": "_:g473060",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -9965,7 +10030,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g473100"
+        "@id": "_:g473080"
       }
     ],
     "http://schema.org/description": [
@@ -9986,7 +10051,7 @@
     ]
   },
   {
-    "@id": "_:g473120",
+    "@id": "_:g473100",
     "http://schema.org/identifier": [
       {
         "@value": "https://ensembleparamirabo.com/"
@@ -10032,7 +10097,7 @@
     ]
   },
   {
-    "@id": "_:g473140",
+    "@id": "_:g473120",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/benjamin-oliver"
@@ -10073,7 +10138,7 @@
     ]
   },
   {
-    "@id": "_:g473160",
+    "@id": "_:g473140",
     "http://schema.org/name": [
       {
         "@value": "Pythagoras' Toolkit"
@@ -10091,7 +10156,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g473180"
+        "@id": "_:g473160"
       }
     ],
     "@type": [
@@ -10099,12 +10164,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g473200",
+    "@id": "_:g473180",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/ensemble-paramirabo/jeffrey-stonehouse"
@@ -10145,7 +10211,7 @@
     ]
   },
   {
-    "@id": "_:g473220",
+    "@id": "_:g473200",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/charlotte-layec"
@@ -10186,7 +10252,7 @@
     ]
   },
   {
-    "@id": "_:g473240",
+    "@id": "_:g473220",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/hubert-brizard"
@@ -10217,7 +10283,7 @@
     ]
   },
   {
-    "@id": "_:g473260",
+    "@id": "_:g473240",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/ensemble-paramirabo/viviana-gosselin"
@@ -10258,7 +10324,7 @@
     ]
   },
   {
-    "@id": "_:g473280",
+    "@id": "_:g473260",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/individus/pamela-reimer"
@@ -10299,7 +10365,7 @@
     ]
   },
   {
-    "@id": "_:g473300",
+    "@id": "_:g473280",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/krystina-marcoux"
@@ -10343,7 +10409,7 @@
     ]
   },
   {
-    "@id": "_:g473320",
+    "@id": "_:g473300",
     "http://schema.org/identifier": [
       {
         "@value": "https://ensembleparamirabo.com/"
@@ -10389,7 +10455,7 @@
     ]
   },
   {
-    "@id": "_:g473340",
+    "@id": "_:g473320",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -10405,17 +10471,18 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g473360"
+        "@id": "_:g473340"
       }
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-19T12:34:15-05:00"
       }
     ]
   },
   {
-    "@id": "_:g473380",
+    "@id": "_:g473360",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/la-boite-outils-de-pythagore"
@@ -10423,7 +10490,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g473400"
+        "@id": "_:g473380"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -10433,7 +10500,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g473440"
+        "@id": "_:g473420"
       }
     ],
     "http://schema.org/url": [
@@ -10446,22 +10513,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-19T12:34:31-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-09-05T21:41:08-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-19T12:34:31-05:00"
       }
     ]
   },
   {
-    "@id": "_:g473000",
+    "@id": "_:g472980",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -10497,7 +10567,7 @@
     ]
   },
   {
-    "@id": "_:g473100",
+    "@id": "_:g473080",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -10520,7 +10590,7 @@
     ]
   },
   {
-    "@id": "_:g473180",
+    "@id": "_:g473160",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/benjamin-oliver"
@@ -10556,7 +10626,7 @@
     ]
   },
   {
-    "@id": "_:g473360",
+    "@id": "_:g473340",
     "http://schema.org/identifier": [
       {
         "@value": "https://ensembleparamirabo.com/"
@@ -10602,7 +10672,7 @@
     ]
   },
   {
-    "@id": "_:g473400",
+    "@id": "_:g473380",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -10618,7 +10688,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g473420"
+        "@id": "_:g473400"
       }
     ],
     "http://schema.org/description": [
@@ -10639,24 +10709,24 @@
     ]
   },
   {
-    "@id": "_:g473440",
+    "@id": "_:g473420",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
+        "@id": "_:g473440"
+      },
+      {
         "@id": "_:g473460"
       },
       {
         "@id": "_:g473480"
-      },
-      {
-        "@id": "_:g473500"
       }
     ]
   },
   {
-    "@id": "_:g473420",
+    "@id": "_:g473400",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -10679,7 +10749,7 @@
     ]
   },
   {
-    "@id": "_:g473460",
+    "@id": "_:g473440",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -10701,7 +10771,7 @@
     ]
   },
   {
-    "@id": "_:g473480",
+    "@id": "_:g473460",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -10723,7 +10793,7 @@
     ]
   },
   {
-    "@id": "_:g473500",
+    "@id": "_:g473480",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -10806,7 +10876,7 @@
     ]
   },
   {
-    "@id": "_:g475980",
+    "@id": "_:g475960",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -10833,7 +10903,7 @@
     ]
   },
   {
-    "@id": "_:g476000",
+    "@id": "_:g475980",
     "http://schema.org/name": [
       {
         "@value": "Le Vivier"
@@ -10844,7 +10914,7 @@
     ]
   },
   {
-    "@id": "_:g476020",
+    "@id": "_:g476000",
     "http://schema.org/name": [
       {
         "@value": "          \n            Jeffrey Stonehouse\n          \n"
@@ -10860,7 +10930,7 @@
     ]
   },
   {
-    "@id": "_:g476040",
+    "@id": "_:g476020",
     "http://schema.org/name": [
       {
         "@value": "          \n            Victor Alibert\n          \n"
@@ -10876,7 +10946,7 @@
     ]
   },
   {
-    "@id": "_:g476060",
+    "@id": "_:g476040",
     "http://schema.org/name": [
       {
         "@value": "          \n            Daniel Áñez\n          \n"
@@ -10892,7 +10962,7 @@
     ]
   },
   {
-    "@id": "_:g476080",
+    "@id": "_:g476060",
     "http://schema.org/name": [
       {
         "@value": "          \n            Hubert Brizard\n          \n"
@@ -10908,7 +10978,7 @@
     ]
   },
   {
-    "@id": "_:g476100",
+    "@id": "_:g476080",
     "http://schema.org/name": [
       {
         "@value": "          \n            Viviana Gosselin\n          \n"
@@ -10924,7 +10994,7 @@
     ]
   },
   {
-    "@id": "_:g476120",
+    "@id": "_:g476100",
     "http://schema.org/name": [
       {
         "@value": "          \n            David Therrien Brongo\n          \n"
@@ -10940,7 +11010,7 @@
     ]
   },
   {
-    "@id": "_:g476140",
+    "@id": "_:g476120",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -10956,12 +11026,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-31T16:44:30-04:00"
       }
     ]
   },
   {
-    "@id": "_:g476160",
+    "@id": "_:g476140",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -10977,12 +11048,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-31T16:45:08-04:00"
       }
     ]
   },
   {
-    "@id": "_:g476180",
+    "@id": "_:g476160",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -10998,12 +11070,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-31T16:45:39-04:00"
       }
     ]
   },
   {
-    "@id": "_:g476200",
+    "@id": "_:g476180",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/paramirabo"
@@ -11011,7 +11084,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g476220"
+        "@id": "_:g476200"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -11021,7 +11094,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g476260"
+        "@id": "_:g476240"
       }
     ],
     "http://schema.org/url": [
@@ -11034,22 +11107,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2022-10-05T16:26:22-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2020-06-30T17:05:48-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2022-10-05T16:26:22-04:00"
       }
     ]
   },
   {
-    "@id": "_:g476220",
+    "@id": "_:g476200",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -11065,7 +11141,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g476240"
+        "@id": "_:g476220"
       }
     ],
     "http://schema.org/description": [
@@ -11086,11 +11162,14 @@
     ]
   },
   {
-    "@id": "_:g476260",
+    "@id": "_:g476240",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g476260"
+      },
       {
         "@id": "_:g476280"
       },
@@ -11099,14 +11178,11 @@
       },
       {
         "@id": "_:g476320"
-      },
-      {
-        "@id": "_:g476340"
       }
     ]
   },
   {
-    "@id": "_:g476240",
+    "@id": "_:g476220",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -11129,7 +11205,7 @@
     ]
   },
   {
-    "@id": "_:g476280",
+    "@id": "_:g476260",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -11151,7 +11227,7 @@
     ]
   },
   {
-    "@id": "_:g476300",
+    "@id": "_:g476280",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -11173,7 +11249,7 @@
     ]
   },
   {
-    "@id": "_:g476320",
+    "@id": "_:g476300",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -11195,7 +11271,7 @@
     ]
   },
   {
-    "@id": "_:g476340",
+    "@id": "_:g476320",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -11355,7 +11431,7 @@
     ]
   },
   {
-    "@id": "_:g478680",
+    "@id": "_:g478660",
     "http://schema.org/name": [
       {
         "@value": "Salle Bourgie"
@@ -11363,7 +11439,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g478700"
+        "@id": "_:g478680"
       }
     ],
     "http://schema.org/latitude": [
@@ -11383,7 +11459,7 @@
     ]
   },
   {
-    "@id": "_:g478720",
+    "@id": "_:g478700",
     "http://schema.org/category": [
       {
         "@value": "Grand public"
@@ -11409,7 +11485,7 @@
     ]
   },
   {
-    "@id": "_:g478740",
+    "@id": "_:g478720",
     "http://schema.org/category": [
       {
         "@value": "Membres du&nbsp;Musée des Beaux Arts de Montréal"
@@ -11435,7 +11511,7 @@
     ]
   },
   {
-    "@id": "_:g478760",
+    "@id": "_:g478740",
     "http://schema.org/category": [
       {
         "@value": "34 ans et moins"
@@ -11461,7 +11537,7 @@
     ]
   },
   {
-    "@id": "_:g478780",
+    "@id": "_:g478760",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -11488,7 +11564,7 @@
     ]
   },
   {
-    "@id": "_:g478800",
+    "@id": "_:g478780",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -11504,7 +11580,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g478820"
+        "@id": "_:g478800"
       }
     ],
     "http://schema.org/description": [
@@ -11525,7 +11601,7 @@
     ]
   },
   {
-    "@id": "_:g478840",
+    "@id": "_:g478820",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/jennifer-koh"
@@ -11554,6 +11630,42 @@
     "http://schema.org/description": [
       {
         "@value": "Jennifer Koh (née en 1976) est une violoniste américaine née de parents coréens à Glen Ellyn, dans l'Illinois. Elle est titulaire d'une licence en littérature anglaise de l'Oberlin College et d'un diplôme d'interprétation de l'Oberlin Conservatory. Elle est également diplômée du Curtis Institute et a été la première médaillée du concours Tchaïkovski de 1994.\r\nMme Koh s'est beaucoup produite avec des orchestres tels que le Los Angeles Philharmonic, le New York Philharmonic, le BBC National Orchestra of Wales et d'autres. Elle milite en faveur de l'éducation musicale des..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g478840",
+    "http://schema.org/identifier": [
+      {
+        "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/missy-mazzoli"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Missy Mazzoli"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@value": "Missy"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@value": "Mazzoli"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/fiches-individuelles/missy-mazzoli"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "La compositrice nominée aux Grammy Awards Missy Mazzoli a récemment été considérée comme \"l'une des compositrices les plus inventives et les plus surprenantes travaillant actuellement à New York\" (The New York Times) \"Mozart post-millénaire de Brooklyn\" (Time Out New York), et a été félicitée pour son « imagination apocalyptique » (Alex Ross, The New Yorker).La musique de Mazzoli a été interprétée dans le monde entier par le Kronos Quartet, le huitième merle, le pianiste Emanuel Ax, l'Opéra de Philadelphie, le Scottish Opera, le LA Opera, le Cincinnati Opera, le New York..."
       }
     ],
     "@type": [
@@ -11564,42 +11676,6 @@
     "@id": "_:g478860",
     "http://schema.org/identifier": [
       {
-        "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/missy-mazzoli"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Missy Mazzoli"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@value": "Missy"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@value": "Mazzoli"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/le-vivier/fiches-individuelles/missy-mazzoli"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "La compositrice nominée aux Grammy Awards Missy Mazzoli a récemment été considérée comme \"l'une des compositrices les plus inventives et les plus surprenantes travaillant actuellement à New York\" (The New York Times) \"Mozart post-millénaire de Brooklyn\" (Time Out New York), et a été félicitée pour son « imagination apocalyptique » (Alex Ross, The New Yorker).La musique de Mazzoli a été interprétée dans le monde entier par le Kronos Quartet, le huitième merle, le pianiste Emanuel Ax, l'Opéra de Philadelphie, le Scottish Opera, le LA Opera, le Cincinnati Opera, le New York..."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g478880",
-    "http://schema.org/identifier": [
-      {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/jennifer-koh"
       }
     ],
@@ -11633,7 +11709,7 @@
     ]
   },
   {
-    "@id": "_:g478900",
+    "@id": "_:g478880",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/missy-mazzoli"
@@ -11669,7 +11745,7 @@
     ]
   },
   {
-    "@id": "_:g478920",
+    "@id": "_:g478900",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/jennifer-koh-missy-mazzoli"
@@ -11677,7 +11753,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g478940"
+        "@id": "_:g478920"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -11687,7 +11763,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g478980"
+        "@id": "_:g478960"
       }
     ],
     "http://schema.org/url": [
@@ -11700,22 +11776,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2023-09-15T10:38:22-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-05-10T16:48:28-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2023-09-15T10:38:22-04:00"
       }
     ]
   },
   {
-    "@id": "_:g478700",
+    "@id": "_:g478680",
     "http://schema.org/name": [
       {
         "@value": "Salle Bourgie"
@@ -11751,7 +11830,7 @@
     ]
   },
   {
-    "@id": "_:g478820",
+    "@id": "_:g478800",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -11774,7 +11853,7 @@
     ]
   },
   {
-    "@id": "_:g478940",
+    "@id": "_:g478920",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -11790,7 +11869,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g478960"
+        "@id": "_:g478940"
       }
     ],
     "http://schema.org/description": [
@@ -11811,24 +11890,24 @@
     ]
   },
   {
-    "@id": "_:g478980",
+    "@id": "_:g478960",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
+        "@id": "_:g478980"
+      },
+      {
         "@id": "_:g479000"
       },
       {
         "@id": "_:g479020"
-      },
-      {
-        "@id": "_:g479040"
       }
     ]
   },
   {
-    "@id": "_:g478960",
+    "@id": "_:g478940",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -11851,7 +11930,7 @@
     ]
   },
   {
-    "@id": "_:g479000",
+    "@id": "_:g478980",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -11873,7 +11952,7 @@
     ]
   },
   {
-    "@id": "_:g479020",
+    "@id": "_:g479000",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -11895,7 +11974,7 @@
     ]
   },
   {
-    "@id": "_:g479040",
+    "@id": "_:g479020",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -11967,7 +12046,7 @@
     ]
   },
   {
-    "@id": "_:g480000",
+    "@id": "_:g479980",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -11994,7 +12073,7 @@
     ]
   },
   {
-    "@id": "_:g480020",
+    "@id": "_:g480000",
     "http://schema.org/name": [
       {
         "@value": "Musicien"
@@ -12005,7 +12084,7 @@
     ]
   },
   {
-    "@id": "_:g480040",
+    "@id": "_:g480020",
     "http://schema.org/name": [
       {
         "@value": "Altiste"
@@ -12016,7 +12095,7 @@
     ]
   },
   {
-    "@id": "_:g480060",
+    "@id": "_:g480040",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/jennifer-koh"
@@ -12024,7 +12103,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g480080"
+        "@id": "_:g480060"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -12034,7 +12113,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g480120"
+        "@id": "_:g480100"
       }
     ],
     "http://schema.org/url": [
@@ -12047,22 +12126,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2023-06-01T11:54:47-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-05-10T16:49:33-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2023-06-01T11:54:47-04:00"
       }
     ]
   },
   {
-    "@id": "_:g480080",
+    "@id": "_:g480060",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -12078,7 +12160,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g480100"
+        "@id": "_:g480080"
       }
     ],
     "http://schema.org/description": [
@@ -12099,21 +12181,21 @@
     ]
   },
   {
-    "@id": "_:g480120",
+    "@id": "_:g480100",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
-        "@id": "_:g480140"
+        "@id": "_:g480120"
       },
       {
-        "@id": "_:g480160"
+        "@id": "_:g480140"
       }
     ]
   },
   {
-    "@id": "_:g480100",
+    "@id": "_:g480080",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -12136,7 +12218,7 @@
     ]
   },
   {
-    "@id": "_:g480140",
+    "@id": "_:g480120",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -12158,7 +12240,7 @@
     ]
   },
   {
-    "@id": "_:g480160",
+    "@id": "_:g480140",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -12230,7 +12312,7 @@
     ]
   },
   {
-    "@id": "_:g482100",
+    "@id": "_:g482080",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -12257,7 +12339,7 @@
     ]
   },
   {
-    "@id": "_:g482120",
+    "@id": "_:g482100",
     "http://schema.org/name": [
       {
         "@value": "Compositeur"
@@ -12268,7 +12350,7 @@
     ]
   },
   {
-    "@id": "_:g482140",
+    "@id": "_:g482120",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/missy-mazzoli"
@@ -12276,7 +12358,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g482160"
+        "@id": "_:g482140"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -12286,7 +12368,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g482200"
+        "@id": "_:g482180"
       }
     ],
     "http://schema.org/url": [
@@ -12299,22 +12381,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2023-06-01T12:19:05-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2021-03-02T17:01:00-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2023-06-01T12:19:05-04:00"
       }
     ]
   },
   {
-    "@id": "_:g482160",
+    "@id": "_:g482140",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -12330,7 +12415,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g482180"
+        "@id": "_:g482160"
       }
     ],
     "http://schema.org/description": [
@@ -12351,21 +12436,21 @@
     ]
   },
   {
-    "@id": "_:g482200",
+    "@id": "_:g482180",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
-        "@id": "_:g482220"
+        "@id": "_:g482200"
       },
       {
-        "@id": "_:g482240"
+        "@id": "_:g482220"
       }
     ]
   },
   {
-    "@id": "_:g482180",
+    "@id": "_:g482160",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -12388,7 +12473,7 @@
     ]
   },
   {
-    "@id": "_:g482220",
+    "@id": "_:g482200",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -12410,7 +12495,7 @@
     ]
   },
   {
-    "@id": "_:g482240",
+    "@id": "_:g482220",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -12482,7 +12567,7 @@
     ]
   },
   {
-    "@id": "_:g483780",
+    "@id": "_:g483720",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -12506,6 +12591,115 @@
     ],
     "@type": [
       "http://schema.org/ImageObject"
+    ]
+  },
+  {
+    "@id": "_:g483740",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Le Vivier"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca"
+      }
+    ],
+    "http://schema.org/logo": [
+      {
+        "@id": "_:g483760"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Le Vivier a pour mission de favoriser le développement des musiques nouvelles et d’offrir à tous, par la diffusion d’œuvres de qualité, une porte ouverte sur la culture."
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/GroupeLeVivier/"
+      },
+      {
+        "@id": "https://www.instagram.com/groupelevivier/"
+      },
+      {
+        "@id": "https://www.youtube.com/channel/UCDCrHXbapyafAuoKOXflDKQ"
+      }
+    ]
+  },
+  {
+    "@id": "_:g483780",
+    "http://schema.org/identifier": [
+      {
+        "@value": "https://levivier.ca/fr/concert/saison-2023-24/la-semaine-du-neuf"
+      }
+    ],
+    "http://schema.org/author": [
+      {
+        "@id": "_:g483800"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr_CA"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "_:g483840"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/concert/saison-2023-24/la-semaine-du-neuf"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/lastReviewed": [
+      {
+        "@type": "dateTime",
+        "@value": "2024-01-18T16:00:00-05:00"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "dateTime",
+        "@value": "2024-01-18T11:56:44-05:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "dateTime",
+        "@value": "2024-01-18T16:00:00-05:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:g483760",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/sites/default/files/VIVIER_logoCercle_Noir.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "330"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "330"
+      }
     ]
   },
   {
@@ -12547,47 +12741,12 @@
   },
   {
     "@id": "_:g483840",
-    "http://schema.org/identifier": [
-      {
-        "@value": "https://levivier.ca/fr/concert/saison-2023-24/la-semaine-du-neuf"
-      }
+    "@type": [
+      "http://schema.org/BreadcrumbList"
     ],
-    "http://schema.org/author": [
+    "http://schema.org/itemListElement": [
       {
         "@id": "_:g483860"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr_CA"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "_:g483900"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/concert/saison-2023-24/la-semaine-du-neuf"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/lastReviewed": [
-      {
-        "@value": "2024-01-18T16:00:00-05:00"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@value": "2024-01-18T11:56:44-05:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@value": "2024-01-18T16:00:00-05:00"
       }
     ]
   },
@@ -12616,77 +12775,6 @@
   },
   {
     "@id": "_:g483860",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Le Vivier"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca"
-      }
-    ],
-    "http://schema.org/logo": [
-      {
-        "@id": "_:g483880"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Le Vivier a pour mission de favoriser le développement des musiques nouvelles et d’offrir à tous, par la diffusion d’œuvres de qualité, une porte ouverte sur la culture."
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.facebook.com/GroupeLeVivier/"
-      },
-      {
-        "@id": "https://www.instagram.com/groupelevivier/"
-      },
-      {
-        "@id": "https://www.youtube.com/channel/UCDCrHXbapyafAuoKOXflDKQ"
-      }
-    ]
-  },
-  {
-    "@id": "_:g483900",
-    "@type": [
-      "http://schema.org/BreadcrumbList"
-    ],
-    "http://schema.org/itemListElement": [
-      {
-        "@id": "_:g483920"
-      }
-    ]
-  },
-  {
-    "@id": "_:g483880",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/sites/default/files/VIVIER_logoCercle_Noir.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "330"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "330"
-      }
-    ]
-  },
-  {
-    "@id": "_:g483920",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -12758,7 +12846,7 @@
     ]
   },
   {
-    "@id": "_:g486060",
+    "@id": "_:g486040",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -12766,7 +12854,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g486080"
+        "@id": "_:g486060"
       }
     ],
     "http://schema.org/latitude": [
@@ -12791,7 +12879,7 @@
     ]
   },
   {
-    "@id": "_:g486100",
+    "@id": "_:g486080",
     "http://schema.org/category": [
       {
         "@value": "Prévente&nbsp;"
@@ -12817,7 +12905,7 @@
     ]
   },
   {
-    "@id": "_:g486120",
+    "@id": "_:g486100",
     "http://schema.org/category": [
       {
         "@value": "Régulier"
@@ -12843,7 +12931,7 @@
     ]
   },
   {
-    "@id": "_:g486140",
+    "@id": "_:g486120",
     "http://schema.org/category": [
       {
         "@value": "Réduits (Étudiant·e·s, membres Vivier, + de 65 ans, etc.)"
@@ -12869,7 +12957,7 @@
     ]
   },
   {
-    "@id": "_:g486160",
+    "@id": "_:g486140",
     "http://schema.org/category": [
       {
         "@value": "- de 18 ans"
@@ -12895,7 +12983,7 @@
     ]
   },
   {
-    "@id": "_:g486180",
+    "@id": "_:g486160",
     "http://schema.org/category": [
       {
         "@value": "FORFAIT 3&nbsp;CONCERTS -&nbsp;"
@@ -12921,7 +13009,7 @@
     ]
   },
   {
-    "@id": "_:g486200",
+    "@id": "_:g486180",
     "http://schema.org/category": [
       {
         "@value": "FORFAIT SEMAINE DU NEUF - Régulier*"
@@ -12947,7 +13035,7 @@
     ]
   },
   {
-    "@id": "_:g486220",
+    "@id": "_:g486200",
     "http://schema.org/category": [
       {
         "@value": "\r\n\t\t\tFORFAIT SEMAINE DU NEUF - Réduit*&nbsp;(Étudiants, membres Vivier, + de 65 ans, etc.)\r\n\t\t\t"
@@ -12973,7 +13061,7 @@
     ]
   },
   {
-    "@id": "_:g486240",
+    "@id": "_:g486220",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -13000,7 +13088,7 @@
     ]
   },
   {
-    "@id": "_:g486260",
+    "@id": "_:g486240",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -13016,7 +13104,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g486280"
+        "@id": "_:g486260"
       }
     ],
     "http://schema.org/description": [
@@ -13037,7 +13125,7 @@
     ]
   },
   {
-    "@id": "_:g486300",
+    "@id": "_:g486280",
     "http://schema.org/identifier": [
       {
         "@value": "https://videophase.net/"
@@ -13068,7 +13156,7 @@
     ]
   },
   {
-    "@id": "_:g486320",
+    "@id": "_:g486300",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/julien-compagne"
@@ -13104,7 +13192,7 @@
     ]
   },
   {
-    "@id": "_:g486340",
+    "@id": "_:g486320",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/julien-robert"
@@ -13143,7 +13231,7 @@
     ]
   },
   {
-    "@id": "_:g486360",
+    "@id": "_:g486340",
     "http://schema.org/name": [
       {
         "@value": "Alt-Escape"
@@ -13166,10 +13254,10 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g486380"
+        "@id": "_:g486360"
       },
       {
-        "@id": "_:g486400"
+        "@id": "_:g486380"
       }
     ],
     "@type": [
@@ -13177,7 +13265,7 @@
     ]
   },
   {
-    "@id": "_:g486420",
+    "@id": "_:g486400",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/julien-robert"
@@ -13216,7 +13304,7 @@
     ]
   },
   {
-    "@id": "_:g486440",
+    "@id": "_:g486420",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/julien-compagne"
@@ -13252,7 +13340,7 @@
     ]
   },
   {
-    "@id": "_:g486460",
+    "@id": "_:g486440",
     "http://schema.org/identifier": [
       {
         "@value": "https://videophase.net/"
@@ -13283,7 +13371,7 @@
     ]
   },
   {
-    "@id": "_:g486480",
+    "@id": "_:g486460",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -13299,17 +13387,18 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g486500"
+        "@id": "_:g486480"
       }
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-09T11:39:55-05:00"
       }
     ]
   },
   {
-    "@id": "_:g486520",
+    "@id": "_:g486500",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/alt-escape"
@@ -13317,7 +13406,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g486540"
+        "@id": "_:g486520"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -13327,7 +13416,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g486580"
+        "@id": "_:g486560"
       }
     ],
     "http://schema.org/url": [
@@ -13340,22 +13429,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-18T17:00:00-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-09T10:59:06-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-18T17:00:00-05:00"
       }
     ]
   },
   {
-    "@id": "_:g486080",
+    "@id": "_:g486060",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -13391,7 +13483,7 @@
     ]
   },
   {
-    "@id": "_:g486280",
+    "@id": "_:g486260",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -13414,7 +13506,7 @@
     ]
   },
   {
-    "@id": "_:g486380",
+    "@id": "_:g486360",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/julien-compagne"
@@ -13445,7 +13537,7 @@
     ]
   },
   {
-    "@id": "_:g486400",
+    "@id": "_:g486380",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/julien-robert"
@@ -13479,7 +13571,7 @@
     ]
   },
   {
-    "@id": "_:g486500",
+    "@id": "_:g486480",
     "http://schema.org/identifier": [
       {
         "@value": "https://videophase.net/"
@@ -13510,7 +13602,7 @@
     ]
   },
   {
-    "@id": "_:g486540",
+    "@id": "_:g486520",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -13526,7 +13618,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g486560"
+        "@id": "_:g486540"
       }
     ],
     "http://schema.org/description": [
@@ -13547,24 +13639,24 @@
     ]
   },
   {
-    "@id": "_:g486580",
+    "@id": "_:g486560",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
+        "@id": "_:g486580"
+      },
+      {
         "@id": "_:g486600"
       },
       {
         "@id": "_:g486620"
-      },
-      {
-        "@id": "_:g486640"
       }
     ]
   },
   {
-    "@id": "_:g486560",
+    "@id": "_:g486540",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -13587,7 +13679,7 @@
     ]
   },
   {
-    "@id": "_:g486600",
+    "@id": "_:g486580",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -13609,7 +13701,7 @@
     ]
   },
   {
-    "@id": "_:g486620",
+    "@id": "_:g486600",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -13631,7 +13723,7 @@
     ]
   },
   {
-    "@id": "_:g486640",
+    "@id": "_:g486620",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -13714,7 +13806,7 @@
     ]
   },
   {
-    "@id": "_:g488900",
+    "@id": "_:g488880",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -13741,7 +13833,7 @@
     ]
   },
   {
-    "@id": "_:g488920",
+    "@id": "_:g488900",
     "http://schema.org/name": [
       {
         "@value": "Le Vivier"
@@ -13752,7 +13844,7 @@
     ]
   },
   {
-    "@id": "_:g488940",
+    "@id": "_:g488920",
     "http://schema.org/name": [
       {
         "@value": "          \n            Julien Compagne\n          \n"
@@ -13768,7 +13860,7 @@
     ]
   },
   {
-    "@id": "_:g488960",
+    "@id": "_:g488940",
     "http://schema.org/name": [
       {
         "@value": "          \n            Julien-Robert\n          \n"
@@ -13784,7 +13876,7 @@
     ]
   },
   {
-    "@id": "_:g488980",
+    "@id": "_:g488960",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/video-phase"
@@ -13792,7 +13884,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g489000"
+        "@id": "_:g488980"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -13802,7 +13894,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g489040"
+        "@id": "_:g489020"
       }
     ],
     "http://schema.org/url": [
@@ -13815,22 +13907,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-09T10:38:57-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2020-08-14T18:18:48-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-09T10:38:57-05:00"
       }
     ]
   },
   {
-    "@id": "_:g489000",
+    "@id": "_:g488980",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -13846,7 +13941,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g489020"
+        "@id": "_:g489000"
       }
     ],
     "http://schema.org/description": [
@@ -13867,11 +13962,14 @@
     ]
   },
   {
-    "@id": "_:g489040",
+    "@id": "_:g489020",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g489040"
+      },
       {
         "@id": "_:g489060"
       },
@@ -13880,14 +13978,11 @@
       },
       {
         "@id": "_:g489100"
-      },
-      {
-        "@id": "_:g489120"
       }
     ]
   },
   {
-    "@id": "_:g489020",
+    "@id": "_:g489000",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -13910,7 +14005,7 @@
     ]
   },
   {
-    "@id": "_:g489060",
+    "@id": "_:g489040",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -13932,7 +14027,7 @@
     ]
   },
   {
-    "@id": "_:g489080",
+    "@id": "_:g489060",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -13954,7 +14049,7 @@
     ]
   },
   {
-    "@id": "_:g489100",
+    "@id": "_:g489080",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -13976,7 +14071,7 @@
     ]
   },
   {
-    "@id": "_:g489120",
+    "@id": "_:g489100",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -14070,7 +14165,7 @@
     ]
   },
   {
-    "@id": "_:g490920",
+    "@id": "_:g490900",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -14078,7 +14173,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g490940"
+        "@id": "_:g490920"
       }
     ],
     "http://schema.org/latitude": [
@@ -14103,7 +14198,7 @@
     ]
   },
   {
-    "@id": "_:g490960",
+    "@id": "_:g490940",
     "http://schema.org/category": [
       {
         "@value": "Prévente&nbsp;"
@@ -14129,7 +14224,7 @@
     ]
   },
   {
-    "@id": "_:g490980",
+    "@id": "_:g490960",
     "http://schema.org/category": [
       {
         "@value": "Régulier"
@@ -14155,7 +14250,7 @@
     ]
   },
   {
-    "@id": "_:g491000",
+    "@id": "_:g490980",
     "http://schema.org/category": [
       {
         "@value": "Réduits (Étudiant·e·s, membres Vivier, + de 65 ans, etc.)"
@@ -14181,7 +14276,7 @@
     ]
   },
   {
-    "@id": "_:g491020",
+    "@id": "_:g491000",
     "http://schema.org/category": [
       {
         "@value": "FORFAIT 3&nbsp;CONCERTS -&nbsp;"
@@ -14207,7 +14302,7 @@
     ]
   },
   {
-    "@id": "_:g491040",
+    "@id": "_:g491020",
     "http://schema.org/category": [
       {
         "@value": "FORFAIT SEMAINE DU NEUF - Régulier*"
@@ -14233,7 +14328,7 @@
     ]
   },
   {
-    "@id": "_:g491060",
+    "@id": "_:g491040",
     "http://schema.org/category": [
       {
         "@value": "\r\n\t\t\tFORFAIT SEMAINE DU NEUF - Réduit*&nbsp;(Étudiants, membres Vivier, + de 65 ans, etc.)\r\n\t\t\t"
@@ -14259,7 +14354,7 @@
     ]
   },
   {
-    "@id": "_:g491080",
+    "@id": "_:g491060",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -14286,7 +14381,7 @@
     ]
   },
   {
-    "@id": "_:g491100",
+    "@id": "_:g491080",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -14302,7 +14397,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g491120"
+        "@id": "_:g491100"
       }
     ],
     "http://schema.org/description": [
@@ -14323,7 +14418,7 @@
     ]
   },
   {
-    "@id": "_:g491140",
+    "@id": "_:g491120",
     "http://schema.org/identifier": [
       {
         "@value": "https://quasar4.com/fr"
@@ -14363,7 +14458,7 @@
     ]
   },
   {
-    "@id": "_:g491160",
+    "@id": "_:g491140",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/individus/sandeep-bhagwati"
@@ -14404,7 +14499,7 @@
     ]
   },
   {
-    "@id": "_:g491180",
+    "@id": "_:g491160",
     "http://schema.org/name": [
       {
         "@value": "Exercices d'Étrangeté III Mycorrhizia"
@@ -14427,7 +14522,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g491200"
+        "@id": "_:g491180"
       }
     ],
     "@type": [
@@ -14435,12 +14530,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g491220",
+    "@id": "_:g491200",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/quasar/marie-chantal-leclair"
@@ -14481,7 +14577,7 @@
     ]
   },
   {
-    "@id": "_:g491240",
+    "@id": "_:g491220",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/quasar/mathieu-leclair"
@@ -14522,7 +14618,7 @@
     ]
   },
   {
-    "@id": "_:g491260",
+    "@id": "_:g491240",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/quasar/andre-leroux"
@@ -14563,7 +14659,7 @@
     ]
   },
   {
-    "@id": "_:g491280",
+    "@id": "_:g491260",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/quasar/jean-marc-bouchard"
@@ -14604,7 +14700,7 @@
     ]
   },
   {
-    "@id": "_:g491300",
+    "@id": "_:g491280",
     "http://schema.org/identifier": [
       {
         "@value": "https://quasar4.com/fr"
@@ -14644,7 +14740,7 @@
     ]
   },
   {
-    "@id": "_:g491320",
+    "@id": "_:g491300",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/exercices-detrangete-iii-mycorrhizia"
@@ -14652,7 +14748,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g491340"
+        "@id": "_:g491320"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -14662,7 +14758,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g491380"
+        "@id": "_:g491360"
       }
     ],
     "http://schema.org/url": [
@@ -14675,22 +14771,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-18T17:43:08-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-09T13:36:24-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-18T17:43:08-05:00"
       }
     ]
   },
   {
-    "@id": "_:g490940",
+    "@id": "_:g490920",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -14726,7 +14825,7 @@
     ]
   },
   {
-    "@id": "_:g491120",
+    "@id": "_:g491100",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -14749,7 +14848,7 @@
     ]
   },
   {
-    "@id": "_:g491200",
+    "@id": "_:g491180",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/individus/sandeep-bhagwati"
@@ -14785,7 +14884,7 @@
     ]
   },
   {
-    "@id": "_:g491340",
+    "@id": "_:g491320",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -14801,7 +14900,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g491360"
+        "@id": "_:g491340"
       }
     ],
     "http://schema.org/description": [
@@ -14822,24 +14921,24 @@
     ]
   },
   {
-    "@id": "_:g491380",
+    "@id": "_:g491360",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
+        "@id": "_:g491380"
+      },
+      {
         "@id": "_:g491400"
       },
       {
         "@id": "_:g491420"
-      },
-      {
-        "@id": "_:g491440"
       }
     ]
   },
   {
-    "@id": "_:g491360",
+    "@id": "_:g491340",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -14862,7 +14961,7 @@
     ]
   },
   {
-    "@id": "_:g491400",
+    "@id": "_:g491380",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -14884,7 +14983,7 @@
     ]
   },
   {
-    "@id": "_:g491420",
+    "@id": "_:g491400",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -14906,7 +15005,7 @@
     ]
   },
   {
-    "@id": "_:g491440",
+    "@id": "_:g491420",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -14978,7 +15077,7 @@
     ]
   },
   {
-    "@id": "_:g493220",
+    "@id": "_:g493240",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -15005,7 +15104,7 @@
     ]
   },
   {
-    "@id": "_:g493240",
+    "@id": "_:g493260",
     "http://schema.org/name": [
       {
         "@value": "Le Vivier"
@@ -15016,7 +15115,7 @@
     ]
   },
   {
-    "@id": "_:g493260",
+    "@id": "_:g493280",
     "http://schema.org/name": [
       {
         "@value": "          \n            Marie-Chantal Leclair\n          \n"
@@ -15032,7 +15131,7 @@
     ]
   },
   {
-    "@id": "_:g493280",
+    "@id": "_:g493300",
     "http://schema.org/name": [
       {
         "@value": "          \n            Jean-Marc Bouchard\n          \n"
@@ -15048,7 +15147,7 @@
     ]
   },
   {
-    "@id": "_:g493300",
+    "@id": "_:g493320",
     "http://schema.org/name": [
       {
         "@value": "          \n            Mathieu Leclair\n          \n"
@@ -15064,7 +15163,7 @@
     ]
   },
   {
-    "@id": "_:g493320",
+    "@id": "_:g493340",
     "http://schema.org/name": [
       {
         "@value": "          \n            André Leroux\n          \n"
@@ -15080,7 +15179,7 @@
     ]
   },
   {
-    "@id": "_:g493340",
+    "@id": "_:g493360",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -15096,12 +15195,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-21T13:44:27-04:00"
       }
     ]
   },
   {
-    "@id": "_:g493360",
+    "@id": "_:g493380",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -15117,12 +15217,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2020-07-21T13:45:45-04:00"
       }
     ]
   },
   {
-    "@id": "_:g493380",
+    "@id": "_:g493400",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -15138,12 +15239,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2021-03-08T09:47:39-05:00"
       }
     ]
   },
   {
-    "@id": "_:g493400",
+    "@id": "_:g493420",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/quasar"
@@ -15151,7 +15253,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g493420"
+        "@id": "_:g493440"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -15161,7 +15263,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g493460"
+        "@id": "_:g493480"
       }
     ],
     "http://schema.org/url": [
@@ -15174,22 +15276,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2022-10-05T16:02:51-04:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2020-06-30T09:37:08-04:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2022-10-05T16:02:51-04:00"
       }
     ]
   },
   {
-    "@id": "_:g493420",
+    "@id": "_:g493440",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -15205,7 +15310,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g493440"
+        "@id": "_:g493460"
       }
     ],
     "http://schema.org/description": [
@@ -15226,14 +15331,11 @@
     ]
   },
   {
-    "@id": "_:g493460",
+    "@id": "_:g493480",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
-      {
-        "@id": "_:g493480"
-      },
       {
         "@id": "_:g493500"
       },
@@ -15242,11 +15344,14 @@
       },
       {
         "@id": "_:g493540"
+      },
+      {
+        "@id": "_:g493560"
       }
     ]
   },
   {
-    "@id": "_:g493440",
+    "@id": "_:g493460",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -15269,7 +15374,7 @@
     ]
   },
   {
-    "@id": "_:g493480",
+    "@id": "_:g493500",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -15291,7 +15396,7 @@
     ]
   },
   {
-    "@id": "_:g493500",
+    "@id": "_:g493520",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -15313,7 +15418,7 @@
     ]
   },
   {
-    "@id": "_:g493520",
+    "@id": "_:g493540",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -15335,7 +15440,7 @@
     ]
   },
   {
-    "@id": "_:g493540",
+    "@id": "_:g493560",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -15484,7 +15589,7 @@
     ]
   },
   {
-    "@id": "_:g495980",
+    "@id": "_:g496000",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -15492,7 +15597,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g496000"
+        "@id": "_:g496020"
       }
     ],
     "http://schema.org/latitude": [
@@ -15517,7 +15622,7 @@
     ]
   },
   {
-    "@id": "_:g496020",
+    "@id": "_:g496040",
     "http://schema.org/category": [
       {
         "@value": "Prévente&nbsp;"
@@ -15543,7 +15648,7 @@
     ]
   },
   {
-    "@id": "_:g496040",
+    "@id": "_:g496060",
     "http://schema.org/category": [
       {
         "@value": "Régulier"
@@ -15569,7 +15674,7 @@
     ]
   },
   {
-    "@id": "_:g496060",
+    "@id": "_:g496080",
     "http://schema.org/category": [
       {
         "@value": "Réduits (Étudiant·e·s, membres Vivier, + de 65 ans, etc.)"
@@ -15595,7 +15700,7 @@
     ]
   },
   {
-    "@id": "_:g496080",
+    "@id": "_:g496100",
     "http://schema.org/category": [
       {
         "@value": "- de 18 ans"
@@ -15621,7 +15726,7 @@
     ]
   },
   {
-    "@id": "_:g496100",
+    "@id": "_:g496120",
     "http://schema.org/category": [
       {
         "@value": "FORFAIT 3&nbsp;CONCERTS -&nbsp;"
@@ -15647,7 +15752,7 @@
     ]
   },
   {
-    "@id": "_:g496120",
+    "@id": "_:g496140",
     "http://schema.org/category": [
       {
         "@value": "FORFAIT SEMAINE DU NEUF - Régulier*"
@@ -15673,7 +15778,7 @@
     ]
   },
   {
-    "@id": "_:g496140",
+    "@id": "_:g496160",
     "http://schema.org/category": [
       {
         "@value": "\r\n\t\t\tFORFAIT SEMAINE DU NEUF - Réduit*&nbsp;(Étudiants, membres Vivier, + de 65 ans, etc.)\r\n\t\t\t"
@@ -15699,7 +15804,7 @@
     ]
   },
   {
-    "@id": "_:g496160",
+    "@id": "_:g496180",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -15726,7 +15831,7 @@
     ]
   },
   {
-    "@id": "_:g496180",
+    "@id": "_:g496200",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -15742,7 +15847,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g496200"
+        "@id": "_:g496220"
       }
     ],
     "http://schema.org/description": [
@@ -15763,7 +15868,7 @@
     ]
   },
   {
-    "@id": "_:g496220",
+    "@id": "_:g496240",
     "http://schema.org/identifier": [
       {
         "@value": "https://www.percussionsdestrasbourg.com/"
@@ -15809,7 +15914,7 @@
     ]
   },
   {
-    "@id": "_:g496240",
+    "@id": "_:g496260",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/pierre-jodlowski"
@@ -15856,7 +15961,7 @@
     ]
   },
   {
-    "@id": "_:g496260",
+    "@id": "_:g496280",
     "http://schema.org/name": [
       {
         "@value": "Ghostland"
@@ -15879,7 +15984,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g496280"
+        "@id": "_:g496300"
       }
     ],
     "http://schema.org/sameAs": [
@@ -15892,7 +15997,7 @@
     ]
   },
   {
-    "@id": "_:g496300",
+    "@id": "_:g496320",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/minh-tam-nguyen"
@@ -15942,7 +16047,7 @@
     ]
   },
   {
-    "@id": "_:g496320",
+    "@id": "_:g496340",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/francois-papirer"
@@ -15978,7 +16083,7 @@
     ]
   },
   {
-    "@id": "_:g496340",
+    "@id": "_:g496360",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/theo-his-mahier"
@@ -16014,7 +16119,7 @@
     ]
   },
   {
-    "@id": "_:g496360",
+    "@id": "_:g496380",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/olivia-martin"
@@ -16050,7 +16155,7 @@
     ]
   },
   {
-    "@id": "_:g496380",
+    "@id": "_:g496400",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/katharina-muschiol"
@@ -16086,7 +16191,7 @@
     ]
   },
   {
-    "@id": "_:g496400",
+    "@id": "_:g496420",
     "http://schema.org/identifier": [
       {
         "@value": "https://www.percussionsdestrasbourg.com/"
@@ -16132,7 +16237,7 @@
     ]
   },
   {
-    "@id": "_:g496420",
+    "@id": "_:g496440",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -16148,12 +16253,13 @@
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2023-12-12T14:57:00-05:00"
       }
     ]
   },
   {
-    "@id": "_:g496440",
+    "@id": "_:g496460",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/ghostland"
@@ -16161,7 +16267,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g496460"
+        "@id": "_:g496480"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -16171,7 +16277,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g496500"
+        "@id": "_:g496520"
       }
     ],
     "http://schema.org/url": [
@@ -16184,22 +16290,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-10T16:36:46-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-12-12T13:59:09-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-10T16:36:46-05:00"
       }
     ]
   },
   {
-    "@id": "_:g496000",
+    "@id": "_:g496020",
     "http://schema.org/name": [
       {
         "@value": "Espace Orange | Édifice Wilder"
@@ -16235,7 +16344,7 @@
     ]
   },
   {
-    "@id": "_:g496200",
+    "@id": "_:g496220",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -16258,7 +16367,7 @@
     ]
   },
   {
-    "@id": "_:g496280",
+    "@id": "_:g496300",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/pierre-jodlowski"
@@ -16300,7 +16409,7 @@
     ]
   },
   {
-    "@id": "_:g496460",
+    "@id": "_:g496480",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -16316,7 +16425,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g496480"
+        "@id": "_:g496500"
       }
     ],
     "http://schema.org/description": [
@@ -16337,24 +16446,24 @@
     ]
   },
   {
-    "@id": "_:g496500",
+    "@id": "_:g496520",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
-        "@id": "_:g496520"
-      },
-      {
         "@id": "_:g496540"
       },
       {
         "@id": "_:g496560"
+      },
+      {
+        "@id": "_:g496580"
       }
     ]
   },
   {
-    "@id": "_:g496480",
+    "@id": "_:g496500",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -16377,7 +16486,7 @@
     ]
   },
   {
-    "@id": "_:g496520",
+    "@id": "_:g496540",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -16399,7 +16508,7 @@
     ]
   },
   {
-    "@id": "_:g496540",
+    "@id": "_:g496560",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -16421,7 +16530,7 @@
     ]
   },
   {
-    "@id": "_:g496560",
+    "@id": "_:g496580",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -16507,7 +16616,7 @@
     ]
   },
   {
-    "@id": "_:g498580",
+    "@id": "_:g498600",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -16534,7 +16643,7 @@
     ]
   },
   {
-    "@id": "_:g498600",
+    "@id": "_:g498620",
     "http://schema.org/name": [
       {
         "@value": "Le Vivier"
@@ -16545,7 +16654,7 @@
     ]
   },
   {
-    "@id": "_:g498620",
+    "@id": "_:g498640",
     "http://schema.org/name": [
       {
         "@value": "          \n            Minh-Tâm Nguyen\n          \n"
@@ -16561,7 +16670,7 @@
     ]
   },
   {
-    "@id": "_:g498640",
+    "@id": "_:g498660",
     "http://schema.org/name": [
       {
         "@value": "          \n            Théo His-Mahier\n          \n"
@@ -16577,7 +16686,7 @@
     ]
   },
   {
-    "@id": "_:g498660",
+    "@id": "_:g498680",
     "http://schema.org/name": [
       {
         "@value": "          \n            Olivia Martin\n          \n"
@@ -16593,7 +16702,7 @@
     ]
   },
   {
-    "@id": "_:g498680",
+    "@id": "_:g498700",
     "http://schema.org/name": [
       {
         "@value": "          \n            François Papirer\n          \n"
@@ -16609,7 +16718,7 @@
     ]
   },
   {
-    "@id": "_:g498700",
+    "@id": "_:g498720",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -16625,17 +16734,18 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g498720"
+        "@id": "_:g498740"
       }
     ],
     "http://schema.org/uploadDate": [
       {
+        "@type": "dateTime",
         "@value": "2023-12-05T14:35:27-05:00"
       }
     ]
   },
   {
-    "@id": "_:g498740",
+    "@id": "_:g498760",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/les-percussions-de-strasbourg"
@@ -16643,7 +16753,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g498760"
+        "@id": "_:g498780"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -16653,7 +16763,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g498800"
+        "@id": "_:g498820"
       }
     ],
     "http://schema.org/url": [
@@ -16666,22 +16776,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2023-12-05T14:37:13-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2023-12-05T11:53:49-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2023-12-05T14:37:13-05:00"
       }
     ]
   },
   {
-    "@id": "_:g498720",
+    "@id": "_:g498740",
     "http://schema.org/identifier": [
       {
         "@value": "https://www.percussionsdestrasbourg.com/"
@@ -16727,7 +16840,7 @@
     ]
   },
   {
-    "@id": "_:g498760",
+    "@id": "_:g498780",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -16743,7 +16856,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g498780"
+        "@id": "_:g498800"
       }
     ],
     "http://schema.org/description": [
@@ -16764,14 +16877,11 @@
     ]
   },
   {
-    "@id": "_:g498800",
+    "@id": "_:g498820",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
-      {
-        "@id": "_:g498820"
-      },
       {
         "@id": "_:g498840"
       },
@@ -16780,11 +16890,14 @@
       },
       {
         "@id": "_:g498880"
+      },
+      {
+        "@id": "_:g498900"
       }
     ]
   },
   {
-    "@id": "_:g498780",
+    "@id": "_:g498800",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -16807,7 +16920,7 @@
     ]
   },
   {
-    "@id": "_:g498820",
+    "@id": "_:g498840",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -16829,7 +16942,7 @@
     ]
   },
   {
-    "@id": "_:g498840",
+    "@id": "_:g498860",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -16851,7 +16964,7 @@
     ]
   },
   {
-    "@id": "_:g498860",
+    "@id": "_:g498880",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -16873,7 +16986,7 @@
     ]
   },
   {
-    "@id": "_:g498880",
+    "@id": "_:g498900",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -16989,7 +17102,7 @@
     ]
   },
   {
-    "@id": "_:g500840",
+    "@id": "_:g500900",
     "http://schema.org/name": [
       {
         "@value": "Centre Phi"
@@ -16997,7 +17110,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g500860"
+        "@id": "_:g500920"
       }
     ],
     "http://schema.org/latitude": [
@@ -17022,7 +17135,7 @@
     ]
   },
   {
-    "@id": "_:g500880",
+    "@id": "_:g500940",
     "http://schema.org/category": [
       {
         "@value": "Prévente"
@@ -17048,7 +17161,7 @@
     ]
   },
   {
-    "@id": "_:g500900",
+    "@id": "_:g500960",
     "http://schema.org/category": [
       {
         "@value": "À la porte"
@@ -17074,7 +17187,7 @@
     ]
   },
   {
-    "@id": "_:g500920",
+    "@id": "_:g500980",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -17101,7 +17214,7 @@
     ]
   },
   {
-    "@id": "_:g500940",
+    "@id": "_:g501000",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -17117,7 +17230,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g500960"
+        "@id": "_:g501020"
       }
     ],
     "http://schema.org/description": [
@@ -17138,7 +17251,7 @@
     ]
   },
   {
-    "@id": "_:g500980",
+    "@id": "_:g501040",
     "http://schema.org/identifier": [
       {
         "@value": "https://ensembleparamirabo.com/"
@@ -17184,7 +17297,7 @@
     ]
   },
   {
-    "@id": "_:g501000",
+    "@id": "_:g501060",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/jimmie-leblanc"
@@ -17228,7 +17341,7 @@
     ]
   },
   {
-    "@id": "_:g501020",
+    "@id": "_:g501080",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/stephen-morris"
@@ -17259,7 +17372,7 @@
     ]
   },
   {
-    "@id": "_:g501040",
+    "@id": "_:g501100",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/fareena-chanda"
@@ -17300,7 +17413,7 @@
     ]
   },
   {
-    "@id": "_:g501060",
+    "@id": "_:g501120",
     "http://schema.org/name": [
       {
         "@value": "and the Flesh was made Word."
@@ -17318,7 +17431,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g501080"
+        "@id": "_:g501140"
       }
     ],
     "@type": [
@@ -17326,12 +17439,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g501100",
+    "@id": "_:g501160",
     "http://schema.org/name": [
       {
         "@value": "Clamors of Being"
@@ -17349,7 +17463,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g501120"
+        "@id": "_:g501180"
       }
     ],
     "@type": [
@@ -17357,12 +17471,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g501140",
+    "@id": "_:g501200",
     "http://schema.org/name": [
       {
         "@value": "Ice"
@@ -17380,13 +17495,13 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g501160"
+        "@id": "_:g501220"
       },
       {
-        "@id": "_:g501180"
+        "@id": "_:g501240"
       },
       {
-        "@id": "_:g501200"
+        "@id": "_:g501260"
       }
     ],
     "@type": [
@@ -17394,12 +17509,13 @@
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "T-:"
       }
     ]
   },
   {
-    "@id": "_:g501220",
+    "@id": "_:g501280",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/ensemble-paramirabo/jeffrey-stonehouse"
@@ -17440,7 +17556,7 @@
     ]
   },
   {
-    "@id": "_:g501240",
+    "@id": "_:g501300",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/gwenaelle-ratouit"
@@ -17481,7 +17597,7 @@
     ]
   },
   {
-    "@id": "_:g501260",
+    "@id": "_:g501320",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/hubert-brizard"
@@ -17512,7 +17628,7 @@
     ]
   },
   {
-    "@id": "_:g501280",
+    "@id": "_:g501340",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/ensemble-paramirabo/viviana-gosselin"
@@ -17553,7 +17669,7 @@
     ]
   },
   {
-    "@id": "_:g501300",
+    "@id": "_:g501360",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/individus/pamela-reimer"
@@ -17594,7 +17710,7 @@
     ]
   },
   {
-    "@id": "_:g501320",
+    "@id": "_:g501380",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/membres/organismes/krystina-marcoux"
@@ -17638,7 +17754,7 @@
     ]
   },
   {
-    "@id": "_:g501340",
+    "@id": "_:g501400",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/cristian-gort"
@@ -17679,7 +17795,7 @@
     ]
   },
   {
-    "@id": "_:g501360",
+    "@id": "_:g501420",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/fareena-chanda"
@@ -17720,7 +17836,7 @@
     ]
   },
   {
-    "@id": "_:g501380",
+    "@id": "_:g501440",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/stephen-morris"
@@ -17751,7 +17867,7 @@
     ]
   },
   {
-    "@id": "_:g501400",
+    "@id": "_:g501460",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/concert/saison-2023-24/ice"
@@ -17759,7 +17875,7 @@
     ],
     "http://schema.org/author": [
       {
-        "@id": "_:g501420"
+        "@id": "_:g501480"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -17769,7 +17885,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "_:g501460"
+        "@id": "_:g501520"
       }
     ],
     "http://schema.org/url": [
@@ -17782,22 +17898,25 @@
     ],
     "http://schema.org/lastReviewed": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-24T10:51:14-05:00"
       }
     ],
     "http://schema.org/datePublished": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-15T13:53:14-05:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
+        "@type": "dateTime",
         "@value": "2024-01-24T10:51:14-05:00"
       }
     ]
   },
   {
-    "@id": "_:g500860",
+    "@id": "_:g500920",
     "http://schema.org/name": [
       {
         "@value": "Centre Phi"
@@ -17833,7 +17952,7 @@
     ]
   },
   {
-    "@id": "_:g500960",
+    "@id": "_:g501020",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -17856,7 +17975,7 @@
     ]
   },
   {
-    "@id": "_:g501080",
+    "@id": "_:g501140",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/jimmie-leblanc"
@@ -17895,7 +18014,7 @@
     ]
   },
   {
-    "@id": "_:g501120",
+    "@id": "_:g501180",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/jimmie-leblanc"
@@ -17934,7 +18053,7 @@
     ]
   },
   {
-    "@id": "_:g501160",
+    "@id": "_:g501220",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/stephen-morris"
@@ -17965,7 +18084,7 @@
     ]
   },
   {
-    "@id": "_:g501180",
+    "@id": "_:g501240",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/fareena-chanda"
@@ -18001,7 +18120,7 @@
     ]
   },
   {
-    "@id": "_:g501200",
+    "@id": "_:g501260",
     "http://schema.org/identifier": [
       {
         "@value": "https://levivier.ca/fr/le-vivier/fiches-individuelles/jimmie-leblanc"
@@ -18040,7 +18159,7 @@
     ]
   },
   {
-    "@id": "_:g501420",
+    "@id": "_:g501480",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -18056,7 +18175,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g501440"
+        "@id": "_:g501500"
       }
     ],
     "http://schema.org/description": [
@@ -18077,24 +18196,24 @@
     ]
   },
   {
-    "@id": "_:g501460",
+    "@id": "_:g501520",
     "@type": [
       "http://schema.org/BreadcrumbList"
     ],
     "http://schema.org/itemListElement": [
       {
-        "@id": "_:g501480"
+        "@id": "_:g501540"
       },
       {
-        "@id": "_:g501500"
+        "@id": "_:g501560"
       },
       {
-        "@id": "_:g501520"
+        "@id": "_:g501580"
       }
     ]
   },
   {
-    "@id": "_:g501440",
+    "@id": "_:g501500",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -18117,7 +18236,7 @@
     ]
   },
   {
-    "@id": "_:g501480",
+    "@id": "_:g501540",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -18139,7 +18258,7 @@
     ]
   },
   {
-    "@id": "_:g501500",
+    "@id": "_:g501560",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -18161,7 +18280,7 @@
     ]
   },
   {
-    "@id": "_:g501520",
+    "@id": "_:g501580",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -18233,7 +18352,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:3cee9dcf-351e-4376-8ec0-54d3ceb591a8",
+    "@id": "urn:uuid:dcc2d30c-ec11-446e-9982-e683eb8a8947",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -18246,7 +18365,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:6cdd0948-7a92-45fe-95ef-4cfb94821c1c",
+    "@id": "urn:uuid:4184fd34-7bd7-405d-a8c4-5edec981dba9",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -18259,7 +18378,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1ee062c7-feca-4bec-b08c-b873f51f0ee2",
+    "@id": "urn:uuid:8bee6d8c-c6c2-4c24-9b1c-b0e98d2638ed",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18272,7 +18391,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:a9156792-7c05-44d2-86ed-6814cde950c1",
+    "@id": "urn:uuid:2072cbc2-93d1-4b71-9af5-1dea28bde317",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18285,7 +18404,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:bdfd115f-d9f2-4939-9af6-4ec51470906c",
+    "@id": "urn:uuid:d6ecd5fd-82ae-4a5f-99a9-bf6f729ffc88",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18298,7 +18417,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:150407c6-e7d8-4b37-b7f6-5163af73567f",
+    "@id": "urn:uuid:f5bc8d93-97a4-4e0c-9e3d-ec4b3e73f62b",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18311,7 +18430,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:2e27fec7-f160-41b6-9574-0ce8005af776",
+    "@id": "urn:uuid:322cdb91-d11f-4479-960f-e4ac0f97f009",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18324,7 +18443,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:3d58a4bb-8359-4930-b7ac-1b3797b0b74f",
+    "@id": "urn:uuid:ff6a0e45-d1d3-43b7-a27a-aa53f008c8d3",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18337,7 +18456,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:c60140f3-ae8c-4f4f-9a02-315752aade5d",
+    "@id": "urn:uuid:e390b1ae-1588-4948-831b-c67476661428",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18350,7 +18469,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:76a35c06-420f-4b8c-bd37-1b3d9c7ce623",
+    "@id": "urn:uuid:8d9c8f84-9455-4945-b45c-fd89bf68cc29",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18363,7 +18482,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e4077623-36ba-4211-a22f-ecf801c036c0",
+    "@id": "urn:uuid:90bfd1dc-a3c3-4386-9911-021961609631",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18376,7 +18495,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:171c467e-db75-4b43-a78d-5cc0e4785e53",
+    "@id": "urn:uuid:cf8037b9-476f-4543-ab0d-89128c75ce31",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18389,7 +18508,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:0b630ba8-4cd7-4401-8419-d0d68fceb299",
+    "@id": "urn:uuid:0043a1ab-1f83-4bc8-b500-7fbf2661d36a",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18402,7 +18521,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:04d1e7dc-8c80-4220-b827-d162ca0b51e4",
+    "@id": "urn:uuid:8963b203-2d1a-40a8-bd04-d06e1601657c",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18415,7 +18534,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:dd33577c-c45b-45ce-960b-3b4ababb35b1",
+    "@id": "urn:uuid:16e2d83a-4ceb-4aca-9dbc-7fb4380a7c10",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18428,7 +18547,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1540d9cd-c301-4de8-85a4-c332f29d9728",
+    "@id": "urn:uuid:8760a773-1bba-4bf2-b835-1d2f9d5d57b8",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18441,7 +18560,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:3b8f8174-9472-47cc-b868-ba44ebeaee1e",
+    "@id": "urn:uuid:9f6bcba6-e8fa-4db3-bbb7-a57b37010e16",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18454,7 +18573,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:063236b4-b478-4cd0-82ec-2e6a2fa40c1e",
+    "@id": "urn:uuid:adfcfc4f-30c5-452d-a5a7-8b577b44afe0",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18467,7 +18586,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:7897fb50-417c-4ed1-a24c-9a6dfb1d7ee8",
+    "@id": "urn:uuid:abe8eb2b-2381-46fb-a03f-4d755536e03b",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18480,7 +18599,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:6ea47f44-f62c-4dfb-a367-4513d7eb774f",
+    "@id": "urn:uuid:c0fd2794-a304-4517-80eb-3fc0b31f4305",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18493,7 +18612,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:225e261b-6292-4106-a59a-5fd9cb92f26f",
+    "@id": "urn:uuid:dd11cc04-d557-46e1-be4c-0cba83a51c94",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18506,7 +18625,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:cf1214d4-7deb-42f4-abeb-46b58d64bf70",
+    "@id": "urn:uuid:026560a0-e73f-4374-8df1-f47e2473afd4",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18519,7 +18638,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:cc21fdb2-8317-460c-bfa5-ed61641c7b75",
+    "@id": "urn:uuid:c2fce7d5-710b-49b0-b962-8708ea0fe862",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18532,7 +18651,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:db8cf058-a9a1-4b67-bc1d-6c8da4c2c55f",
+    "@id": "urn:uuid:218c233d-c04a-4074-91a9-1f1166a3bea5",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18545,7 +18664,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:4e9de008-1c0c-46e6-8b0f-2bfaee24e0a8",
+    "@id": "urn:uuid:90ac9706-6794-4d6d-932b-2e504342ae9f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18558,7 +18677,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:4a716cd0-d410-431d-8ea0-d9f0610ed438",
+    "@id": "urn:uuid:3a6a3991-54ce-42a8-a32e-c8a660a3a8ef",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18571,7 +18690,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:b7ab4853-06b6-4bb9-b177-dc657b2ac4fd",
+    "@id": "urn:uuid:e1f7ad68-3521-47d7-813e-254372aad6fd",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -18584,7 +18703,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:7c6a4f77-e613-490a-9f22-cd560f3a792b",
+    "@id": "urn:uuid:44e453b9-a5e3-46d6-8285-b089915d0d68",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -18597,7 +18716,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:0d8555fb-9c68-479a-b0ad-a6847087715c",
+    "@id": "urn:uuid:25b03e13-56a7-4143-99da-8561574ea10d",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -18610,7 +18729,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:3b91b2cc-2bc0-4335-a497-3c0993bb7d92",
+    "@id": "urn:uuid:dba6fd35-6116-45ae-99f8-0b49e0546c37",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -18623,7 +18742,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:357252c8-9cbb-40cd-a8f9-1eadfab3251d",
+    "@id": "urn:uuid:f16fb0b1-cf07-47a4-bc53-185dfa1fa2c0",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18636,7 +18755,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:9edd3511-7fdc-43a6-9f74-f696ddf8ca03",
+    "@id": "urn:uuid:f9cc92f5-09cb-4efd-87a5-bde79f9c93cd",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18649,7 +18768,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:15fee676-bde3-49aa-8542-dee2cc438582",
+    "@id": "urn:uuid:b6ff0d1e-a568-430a-9d17-3c3c2497b926",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18662,7 +18781,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:c8b18914-aeff-4fff-87f4-19f0e58d362b",
+    "@id": "urn:uuid:406c2d25-d684-443e-86e7-9b35490982e6",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18675,7 +18794,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:7d4a9b37-4eaa-4f49-9546-58efb8a8e5f2",
+    "@id": "urn:uuid:24b20990-2907-496d-afdc-138ac5cb41b5",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18688,7 +18807,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:d8c99d90-9298-452d-aa1f-dbaff9154983",
+    "@id": "urn:uuid:aa4844af-1ff2-4048-98ca-31eec3860bb8",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18701,7 +18820,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:5950f8cf-9a17-4b5f-bd66-65d93087453e",
+    "@id": "urn:uuid:33e95a1a-354e-4c55-988a-46270ea2ccdb",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18714,7 +18833,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:28d1704d-d08c-401a-a658-b83b277355b9",
+    "@id": "urn:uuid:a3f8844c-eca6-4c1d-8a3d-497be3759522",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18727,7 +18846,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:567b86c7-1b6b-45db-8b14-60c2f52574e1",
+    "@id": "urn:uuid:2205d410-030e-44d3-b1dd-d6b888dad539",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18740,7 +18859,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:03a710ad-61e7-420a-86f9-dd68fa39845c",
+    "@id": "urn:uuid:b4a6e82b-b554-4dcb-b61e-8962efc7da6b",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18753,7 +18872,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:12baa2ef-1494-49b8-a565-dba85d1853fb",
+    "@id": "urn:uuid:35e0a5db-9849-4bcd-a8a0-b320d2452927",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18766,7 +18885,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:37816463-e78b-4600-bd8d-84e30f28400f",
+    "@id": "urn:uuid:f6bb96eb-7bd7-4146-ae6d-1dffa87e23d5",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18779,7 +18898,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:38317e5d-5cb8-4a4b-ba55-85772423ea50",
+    "@id": "urn:uuid:b5ed4648-3e69-4b79-bfb4-306ec9ace67a",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -18792,7 +18911,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e3a02f03-51ee-4f85-88bd-12bce5964543",
+    "@id": "urn:uuid:58d58ab2-f8d6-4b76-b1a6-b69cbb4a1ce1",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -18805,7 +18924,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:2ed9fbdf-447c-4667-84c5-f24d277f59e9",
+    "@id": "urn:uuid:259383a2-f425-4538-ad8c-30e87501b016",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -18818,7 +18937,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:3bf723e8-11ca-4d73-8d5e-aeb18a64b8d8",
+    "@id": "urn:uuid:90038b91-f17a-4dad-baeb-55e006ec0700",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -18831,7 +18950,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:ebdaf171-de68-4280-881b-a9a19b998e4e",
+    "@id": "urn:uuid:5d823238-2124-4722-b430-25ed3651bf30",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18844,7 +18963,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:fa5afdad-d53e-4da3-ad5b-9ac618cd1d9c",
+    "@id": "urn:uuid:461e8a7a-a53f-43ff-9b25-ab37bfdb2e76",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18857,7 +18976,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1bd294ec-5384-4b49-b7b3-312b35ea5a68",
+    "@id": "urn:uuid:b4554127-a320-474c-aa13-317903a7d9d0",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18870,7 +18989,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:fd8b9741-e356-47a4-ab1f-b1cd8bf8f014",
+    "@id": "urn:uuid:b70edbd8-f7ae-4bb7-b87d-5f05f7ee759a",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18883,7 +19002,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:c0ef213e-94e0-4893-90e7-827d4d2669af",
+    "@id": "urn:uuid:917bc86c-15c5-4fe6-b9bd-3e52e8b3a126",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18896,7 +19015,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:a5e53e67-ffb5-4759-9ff8-9939e921b91d",
+    "@id": "urn:uuid:29a26607-012d-4199-8ea2-336e1f722dee",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18909,7 +19028,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:9e062dca-73e8-4ad5-a6cb-48cdb1629bb1",
+    "@id": "urn:uuid:6259925a-5da2-42d1-9f9b-a19c37276e46",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18922,7 +19041,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:f98c7071-6a5c-4969-8db8-30c8688cb9c2",
+    "@id": "urn:uuid:30ef4a0d-86a2-4354-a756-94f38aa41be9",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18935,7 +19054,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:a64b74cf-d7c3-419c-aa9a-2936065a4e25",
+    "@id": "urn:uuid:e9384966-3e26-4ecb-8999-219f5491f976",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18948,7 +19067,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:6f1f8f46-8466-4494-9cb7-0df2ef984567",
+    "@id": "urn:uuid:701e3991-7826-4657-a456-ceb51c8c99bb",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18961,7 +19080,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:25335e9f-7394-4c2e-8da9-c4ba966b38ee",
+    "@id": "urn:uuid:ba7479fa-342f-4614-9ad8-02427580d68b",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18974,7 +19093,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:9bdf2e83-293c-408b-aca8-35233db43891",
+    "@id": "urn:uuid:4d3580b0-fa9f-428e-9a5a-cd6f3c7b2ed8",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -18987,7 +19106,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:09ad1626-51bf-408c-b06b-4ac20fbc6da0",
+    "@id": "urn:uuid:b00a2430-46d7-4f3f-86f9-edae97617572",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19000,7 +19119,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:9153cc71-0eb7-4bc5-941b-f35bea4ef8f4",
+    "@id": "urn:uuid:038c9c11-e878-431a-8913-96dbc2549851",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19013,7 +19132,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:0583510b-8742-45cf-8a5c-cad5274c140f",
+    "@id": "urn:uuid:6d59ed27-e0a3-46c3-910e-94210366a922",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19026,7 +19145,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:dbbd4f0b-e84b-46e4-bf5f-eeaa85507cdf",
+    "@id": "urn:uuid:9ac5ba8c-4de6-4c6a-8982-5a65e261ac64",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19039,7 +19158,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1478f29a-9476-4d6a-aff7-46b884086b26",
+    "@id": "urn:uuid:2beaeebf-30bc-4ea7-8541-5493225d1cf3",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19052,7 +19171,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:bb6cb561-1195-49b3-bef3-05dfe49a9fa4",
+    "@id": "urn:uuid:351e9b6d-82ea-4da0-8630-ac6137b6d03f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19065,7 +19184,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:5fb0f6ea-a705-4a86-9086-e766d14bb2d3",
+    "@id": "urn:uuid:0e21ccf5-762e-4f0e-b875-aa37cc48b041",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19078,7 +19197,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:d728b091-c727-41ac-bf05-9fcf6c9641f2",
+    "@id": "urn:uuid:babcb63e-5ce6-49e9-9215-22454a625377",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19091,7 +19210,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:3eedf7fd-cbb7-435e-a985-9bdfe46fc3a6",
+    "@id": "urn:uuid:bb93c6b4-4eb7-4681-8145-c26a8d068f50",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19104,7 +19223,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:8bc93ae4-57ac-47f2-a805-0a5807ce4db6",
+    "@id": "urn:uuid:c71a8803-e756-4725-bee9-dd4afa74821f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19117,7 +19236,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:dbcbb3f5-3bc1-4bf4-970c-2c9aab461acd",
+    "@id": "urn:uuid:78578187-8082-429f-9993-31a3e99aa6d6",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19130,7 +19249,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1db7bd1c-c97f-4f0a-8f0f-458ee879cee8",
+    "@id": "urn:uuid:bca0908c-4328-4330-8311-cab13c31744e",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19143,7 +19262,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:39c5c05f-56c1-4c20-b6e9-058c4c299455",
+    "@id": "urn:uuid:9cfdef9b-45b9-4f60-b1d4-695308dafffc",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19156,7 +19275,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:bc8bd6fa-87fe-4e2f-a8ca-be085ffd309d",
+    "@id": "urn:uuid:cc54a720-3a8f-49ef-b9b2-1803f8e452c1",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19169,7 +19288,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:7ab9631e-282d-4e9d-80ce-7b2910320071",
+    "@id": "urn:uuid:ece996f1-86f4-405e-9e34-fad65b411f3a",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19182,7 +19301,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:23664576-9a15-457a-9b7a-912637dea209",
+    "@id": "urn:uuid:387f18cc-c91d-44b0-a6fa-07c7bb6e5bea",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19195,7 +19314,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:3e48a47e-90cd-42ed-97bd-53167a1e6422",
+    "@id": "urn:uuid:f08531a5-d8cf-4a4c-ad11-51844b9f17d8",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19208,7 +19327,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:8484bae5-c5a5-4e3c-bd8a-113494101de0",
+    "@id": "urn:uuid:f144c814-408f-4c9d-bc31-97ffd809d194",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19221,7 +19340,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e1a9f159-82ad-455d-b364-bceb3ae11517",
+    "@id": "urn:uuid:b44dcec4-ffc8-484c-a56e-f958c0662ecd",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19234,7 +19353,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e3e3b99c-022b-4940-9ac0-7ddc4e99b3b7",
+    "@id": "urn:uuid:8b665a99-70e8-4b98-88dc-dc69c3f17917",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19247,7 +19366,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:b476d1c7-3050-4a07-9e9a-c545f8fc7625",
+    "@id": "urn:uuid:0ef7ecfe-f3d6-4690-81ac-e2e58aed5dab",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19260,7 +19379,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:c2a7feeb-d76b-445e-90b7-ef6559c8a7be",
+    "@id": "urn:uuid:9b762115-fdf1-4069-8a2b-a63b982a473c",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19273,7 +19392,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:5084b34a-d8b8-483f-a78f-84e1f140b766",
+    "@id": "urn:uuid:193d3c94-cead-4597-b74a-9beba9da0094",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19286,7 +19405,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:d63362bb-02a5-4dfe-9fe7-4af2e485a6fb",
+    "@id": "urn:uuid:4335b5dc-caf0-46c1-ab26-6ac890559966",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19299,7 +19418,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:c41393d3-a69c-44da-90d9-78a10858768b",
+    "@id": "urn:uuid:53cb46c0-9a91-4187-b593-a7f3ced54c8b",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19312,7 +19431,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:7dd45344-693e-4750-99dd-c63d7beef3ce",
+    "@id": "urn:uuid:0c86afa2-4463-40c6-87f0-3c9433872559",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19325,7 +19444,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:dad9a9df-cbf1-4467-b10c-4ef34b01fbec",
+    "@id": "urn:uuid:7e965d96-625e-4904-8e6e-9392942165ef",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19338,7 +19457,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e94fbf80-8015-4087-b2b3-ccb06d71167e",
+    "@id": "urn:uuid:baa85911-25e4-4530-ba29-c40d85551c8d",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19351,7 +19470,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:24e4f2db-fe13-4a76-bbcd-0309d3c82f14",
+    "@id": "urn:uuid:c3132e06-8fd1-44e3-b751-5df3ba06058a",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19364,7 +19483,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:4f9c894c-35bf-48f4-968c-de17bbfe26f8",
+    "@id": "urn:uuid:49980331-2b1b-4b9e-8f9b-29929b1c7c78",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19377,7 +19496,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:31a68bde-3e83-441c-8323-72facc30cde7",
+    "@id": "urn:uuid:a2510f22-df01-4e17-9abe-090623aab6dd",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19390,7 +19509,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:03fe7a35-1b83-476c-a159-4ee4f928ba66",
+    "@id": "urn:uuid:c317535d-021a-46cc-ae18-396f6b319888",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19403,7 +19522,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:d2e5dca6-2d2b-42f6-b11e-10777dcf09af",
+    "@id": "urn:uuid:d855424c-ebe3-4432-9b64-726af525739f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19416,7 +19535,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e7029d58-2fe9-4b17-9be6-001aba49a029",
+    "@id": "urn:uuid:2b56bc9f-f0d4-4c30-a1f0-e097a6e84c2f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19429,7 +19548,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:66724608-6b26-46ce-be8d-da790d659194",
+    "@id": "urn:uuid:fafbe7ff-1ccd-474c-a5e1-82a2192658bb",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19442,7 +19561,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:106b8938-8f7b-4a07-9650-4d7bc73231fd",
+    "@id": "urn:uuid:63820bc8-383e-415d-8f23-4a280495af7c",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19455,7 +19574,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:cfaf591d-4a0c-4c54-aef4-c0cbdc02c387",
+    "@id": "urn:uuid:6499311d-304c-4fc5-8d49-6681e85a7469",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19468,7 +19587,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e7eada14-623d-49c2-b499-232e4408ac3c",
+    "@id": "urn:uuid:32b52384-c71a-41f1-96f0-6867ac49aa3e",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19481,7 +19600,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:97ff22de-d19c-400b-9ef3-7fd325b8a338",
+    "@id": "urn:uuid:c2ee681a-305d-4512-a84b-54e6a0934ef6",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19494,7 +19613,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:fac3dbf1-55ea-4c01-8437-4592f5817cf6",
+    "@id": "urn:uuid:39794fe7-c46b-4cd1-bf29-22e2492e8d5f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19507,7 +19626,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:465f1245-4bc3-413f-adf3-6cc0981afe4d",
+    "@id": "urn:uuid:67f4dc92-761d-43f4-b4fa-6745ccd34b9a",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19520,7 +19639,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:f45dfe54-4869-4396-a646-0b14d268894a",
+    "@id": "urn:uuid:a6e02ce2-f8f7-4e29-a1b7-1772f5ea6529",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19533,7 +19652,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:6128b3ef-fbf3-42c4-8dd9-09cfafdfb7d5",
+    "@id": "urn:uuid:3c0e4a6d-72f7-4021-a906-0ac5b83ad8db",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19546,7 +19665,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:f8fc5728-764e-43a3-81e2-eaa5973c10e6",
+    "@id": "urn:uuid:28615266-a909-4248-93f5-90d347307134",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19559,7 +19678,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:2a891eba-b5c2-4b8d-ab6e-9150b3ff3526",
+    "@id": "urn:uuid:7b8c80e6-e081-4aef-b017-5fe07189d653",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19572,7 +19691,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:f3d2c7b7-b50a-45aa-9fd1-4abfde20f5d4",
+    "@id": "urn:uuid:5618dc8e-f3d6-464d-8288-c3067e51a01f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19585,7 +19704,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:88926f0c-e9f2-4299-8215-dfe8570affec",
+    "@id": "urn:uuid:4ee6ea5f-b670-4670-9dff-cbd652d7180c",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19598,7 +19717,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:e21fa478-267e-4558-8e4e-48b9b848ab97",
+    "@id": "urn:uuid:d55ea550-87c5-4112-aac9-d54515f69676",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19611,7 +19730,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:47015da6-3628-4418-9929-95fed4669ee6",
+    "@id": "urn:uuid:60e8202f-5f16-4c30-9cf3-b922a375385f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19624,7 +19743,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:6173ee6f-af01-4dc1-8bd1-aad756413373",
+    "@id": "urn:uuid:d708445b-dedd-4c8c-8f97-8ced6c863f91",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19637,7 +19756,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:6bbb78bf-87af-434e-8bff-bad412508c35",
+    "@id": "urn:uuid:101a0d62-37a0-4d9a-a792-538f2556eb2c",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19650,7 +19769,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:85a9dec5-8d65-4d8b-967a-f1aa52cf78a1",
+    "@id": "urn:uuid:855543b2-3640-49c3-a9fa-fc0d2479ded8",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19663,7 +19782,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:2bf12e24-6efa-4310-9592-1e2c85cc9d8b",
+    "@id": "urn:uuid:173171c4-81e9-4b20-8e83-ec85457395fe",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19676,7 +19795,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:463ea765-2f3b-4153-8fa5-c3b83ce55647",
+    "@id": "urn:uuid:1c582b70-9e3d-42e4-add8-dd95859e5449",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19689,7 +19808,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:d52d061f-7b55-4308-86f1-71352302d13d",
+    "@id": "urn:uuid:8373b161-fba7-43e1-9110-e12ee3766071",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19702,7 +19821,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:6ef4db1d-7402-40bd-8a5a-7f1ff6c7d90b",
+    "@id": "urn:uuid:736bfb74-b91d-43db-9c2d-470f00687a30",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19715,7 +19834,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:88303ce5-329f-49ac-8e2e-b500915385c7",
+    "@id": "urn:uuid:8b49356b-2b27-4446-b66a-9e62be660fa9",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19728,7 +19847,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:19da6779-ed19-4a19-a51b-5cd6d543157b",
+    "@id": "urn:uuid:b386b12d-dde6-4b47-b097-6a9192221cab",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19741,7 +19860,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:47001068-0849-4105-86f4-4c5667f74244",
+    "@id": "urn:uuid:91b988a7-882e-4eb0-8c80-ad8216cc91ad",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19754,7 +19873,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:aee8727b-b539-465b-ab1f-663cbfbeaf3e",
+    "@id": "urn:uuid:798b13c1-bc21-4ed9-a1b1-183a69bc2f19",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19767,7 +19886,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:dfc2d98c-4ee7-4279-a237-5a20efe6ccf2",
+    "@id": "urn:uuid:d8b53018-b79d-4d0b-a825-8a50d0d38704",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19780,7 +19899,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:a3eaddd1-26fb-435c-8067-17e5d47c6507",
+    "@id": "urn:uuid:3fd70f14-84da-43a0-ba47-ca4bfe4648fc",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19793,7 +19912,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:44177648-bb2f-4f9b-9e5e-a54bbc53a942",
+    "@id": "urn:uuid:cb73c2ad-e9e3-4a66-b985-153a6c8dd719",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19806,7 +19925,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:55b718dc-b7c3-4074-b4a7-84c97dc08054",
+    "@id": "urn:uuid:a3e6ce5f-a444-4d9b-9911-b49aba60f6ea",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19819,7 +19938,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:648feb8f-c1df-4a8a-bda5-92135bd3cb0f",
+    "@id": "urn:uuid:0148f4a7-f986-40aa-90b5-36be8ff8bbd7",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19832,7 +19951,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:0a8a75b4-ca96-4c66-974b-570c39addbc8",
+    "@id": "urn:uuid:5237e19a-62f4-401f-8622-d36afce819a0",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19845,7 +19964,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:8fc99ba7-3b21-4845-8883-cc33bad574d0",
+    "@id": "urn:uuid:c18c0b37-ecf0-40ee-b005-3d7b6b5730ae",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19858,7 +19977,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:26fe0aac-6481-4e8d-8ba2-cfca43a60fba",
+    "@id": "urn:uuid:eb7dd449-1b65-4920-9d04-de0df6576dfe",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19871,7 +19990,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:fe5649d6-840f-4c1b-9610-dd71a1c65ce5",
+    "@id": "urn:uuid:c1395727-ea3d-4712-ad51-9241a8d4e611",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19884,7 +20003,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:964070b3-ca36-4b62-8626-dd919b9fb7c7",
+    "@id": "urn:uuid:72e7fe6f-c9b0-49c7-abca-d95cfee8867f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#banner"
@@ -19897,7 +20016,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:adfbcda4-9b29-4b79-ac09-410c63a3d17b",
+    "@id": "urn:uuid:4c80196d-7aaf-49d9-aeb6-cf171da7f3ac",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
@@ -19910,7 +20029,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:0bf9069f-8121-4cfd-84d2-c3ebd19724be",
+    "@id": "urn:uuid:405f61c6-c4ca-437f-a673-456d06d8fa39",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19923,7 +20042,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:fd680102-f3ee-4d80-bb92-01835916e801",
+    "@id": "urn:uuid:c5d3988a-ca1e-48c0-8130-8131403f0313",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19936,7 +20055,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:13a332db-ea24-4e64-8824-65e7593c0516",
+    "@id": "urn:uuid:6f553ca5-8d9a-45e8-a4e3-a4a49ab75bdf",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19949,7 +20068,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:0c501721-0cca-4c95-bd57-3226995208fa",
+    "@id": "urn:uuid:69fdcb16-fd9d-4318-8881-c28680ae067f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19962,7 +20081,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:9ed23a28-d320-4686-9cba-dff742f3b0e5",
+    "@id": "urn:uuid:b7501a0d-9a88-4917-806d-3c4105f717cf",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19975,7 +20094,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:55cfd005-0729-41d9-ba36-7c13999fe93e",
+    "@id": "urn:uuid:660c31ed-1c87-4533-b93f-277666dc6c6b",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -19988,7 +20107,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1d534a9f-8518-49ee-8ae0-e53ec4a44881",
+    "@id": "urn:uuid:e77b4331-eaea-4673-b72d-d47376f6b479",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20001,7 +20120,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:0e4f0161-527c-452d-8022-71bed2dc67d3",
+    "@id": "urn:uuid:4e51232f-2a6c-4f9d-a79e-d9c23c2eb5d3",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20014,7 +20133,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:42434fbe-dc98-4f24-9e1e-11db0bc2f335",
+    "@id": "urn:uuid:ddcb9051-d060-4689-bc8d-9765af2f81a8",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20027,7 +20146,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1ac46dac-bc8c-4221-8bd5-f8a34b0f755c",
+    "@id": "urn:uuid:cc7960cd-a4db-448f-8c22-70901617e95f",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20040,7 +20159,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:1d8cfb26-c4b5-454a-be39-1a6e7ef08e98",
+    "@id": "urn:uuid:993c6544-f68e-4377-b939-7d8013e20478",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20053,7 +20172,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:8af8a847-9199-4ff8-89d3-f219f058f3cc",
+    "@id": "urn:uuid:1bcfa339-f2e7-4ea3-9892-8a70eb884118",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20066,7 +20185,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:a5b687af-f92f-4fd1-9cbc-e608a93cb3c2",
+    "@id": "urn:uuid:60fe193e-dad9-481b-88ff-292a678acb69",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20079,7 +20198,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:fd05e7aa-98a3-4739-8a68-9b3d62bee25b",
+    "@id": "urn:uuid:03cf9ff6-e1b8-4475-bb66-b4797d163289",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20092,7 +20211,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:8da838c1-a2c2-469d-9296-36a53011ddee",
+    "@id": "urn:uuid:422fec3f-4b86-43d1-ac97-ca2920657dbb",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20105,7 +20224,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:793d6978-1117-4e98-8095-ca08fd01f63b",
+    "@id": "urn:uuid:b8f9e536-a7bc-4c5b-b403-22aeca3f104c",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
@@ -20118,7 +20237,7 @@
     ]
   },
   {
-    "@id": "urn:uuid:460b7f7f-b892-4224-acc2-8d8ac19456b0",
+    "@id": "urn:uuid:a2e67900-6a47-4df8-a3c0-998d248fbc42",
     "http://www.w3.org/1999/xhtml/vocab#role": [
       {
         "@id": "http://www.w3.org/1999/xhtml/vocab#article"
