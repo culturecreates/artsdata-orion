@@ -13,5 +13,5 @@
     BIND(strafter(strafter(str(?old_date), "T"), "-") AS ?zone_str)
     FILTER (SUBSTR(str(?zone_str), 3, 1) != ':')
     BIND(CONCAT(SUBSTR(str(?zone_str), 1, 2), ":", SUBSTR(str(?zone_str), 3, 2)) as ?zone_fix)
-    BIND(concat(?date_str, "T", ?time_str, "-", ?zone_fix) as ?fixed_date)
+    BIND(strdt(concat(?date_str, "T", ?time_str, "-", ?zone_fix), xsd:dateTime) as ?fixed_date)
   } 
