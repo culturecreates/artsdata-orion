@@ -1,0 +1,24 @@
+{
+    "@context": "http://schema.org",
+    "@graph": [
+      {
+        "@type": "Event",
+        "@id": "http://example.com/event1",
+        "name": "Event1",
+        "startDate": {
+          "@type": "Date",
+          "@value": "2024-02-03T20:00:00-07:00"
+        }
+      },
+      {
+        "@type": "Event",
+        "@id": "http://example.com/event2",
+        "name": "Event2",
+        "startDate": {
+          "@type": "Date",
+          "@value": "2024-02-03T20:00:00-05:00"
+        }
+      }
+    ]
+  }
+  
