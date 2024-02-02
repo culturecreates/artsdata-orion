@@ -21,6 +21,9 @@ on:
       artifact_name:
         required: true
         type: string
+      href:
+        required: false
+        type: string
     secrets:
       publisher_uri:
         required: true
@@ -46,7 +49,8 @@ jobs:
         "${{ inputs.entity_identifier }}" \
         output/${{ inputs.file_name }} \
         ${{ inputs.is_paginated}} \
-        ${{ inputs.base_url}} 
+        ${{ inputs.base_url}} \
+        ${{inputs.href}}
     - name: Commit and Push Changes
       run: |
         git config --local user.email "actions@github.com"

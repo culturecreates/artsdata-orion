@@ -3,8 +3,9 @@ require 'open-uri'
 require 'linkeddata'
 
 if ARGV.length < 4
-  puts "Usage: ruby script_name.rb <page_url> <entity_identifier> <file_name> <is_paginated> <base_url>
-  \n (base_url is optional in case of relative hrefs)"
+  puts "Usage: ruby script_name.rb <page_url> <entity_identifier> <file_name> <is_paginated> <base_url> <href>
+  \n (base_url is optional in case of relative hrefs)
+  \n (href is optional in case of data-href tags.)"
   exit
 end
 
@@ -15,7 +16,8 @@ def perform_sparql_transformations(graph, sparql_paths)
   return graph
 end
 
-page_url, entity_identifier, file_name, is_paginated, base_url = ARGV[0..4]
+page_url, entity_identifier, file_name, is_paginated, base_url, href = ARGV[0..5]
+href = 'href' if !href
 base_url = '' if base_url == nil
 max_retries, retry_count = 3, 0
 page_number = is_paginated == 'true' ? 1 : nil
@@ -42,7 +44,7 @@ loop do
   entities_data = main_doc.css(entity_identifier)
   number_of_entities = entity_urls.length
   entities_data.each do |entity|
-    entity_urls << base_url+entity['href']
+    entity_urls << base_url+entity[href]
   end
   if entity_urls.length == number_of_entities
     puts "No more entities found on page #{page_number}. Exiting..."
