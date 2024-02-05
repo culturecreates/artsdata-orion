@@ -4,7 +4,7 @@ require 'linkeddata'
 class FixEntityTypeCapitalTest < Minitest::Test
 
   def setup
-    @fix_entity_type_sparql_file = "./sparql/fix_entity_type.sparql"
+    @fix_entity_type_sparql_file = "./sparql/fix_entity_type_capital.sparql"
   end
 
   # check that the type object is fixed
