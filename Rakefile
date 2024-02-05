@@ -13,6 +13,7 @@ task :test_single do
     Rake::TestTask.new do |t|
       t.libs << 'test'
       t.pattern = test_file
+      t.warning = false
     end
     Rake::Task['test'].execute
   end
@@ -24,6 +25,7 @@ task :test_all do
   Rake::TestTask.new do |t|
     t.libs << 'test'
     t.pattern = 'tests/*_test.rb'
+    t.warning = false
   end
   Rake::Task['test'].execute
 end
