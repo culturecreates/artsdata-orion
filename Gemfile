@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
-gem 'nokogiri'
 gem 'linkeddata'
+gem 'minitest'
+gem 'nokogiri'
 gem 'open-uri'
-
 gem 'rake'
+
+

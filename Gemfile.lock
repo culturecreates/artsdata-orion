@@ -69,6 +69,7 @@ GEM
       yaml-ld (~> 0.0)
     logger (1.6.0)
     matrix (0.4.2)
+    minitest (5.21.2)
     multi_json (1.15.0)
     net-http-persistent (4.0.2)
       connection_pool (~> 2.2)
@@ -213,6 +214,7 @@ PLATFORMS
 
 DEPENDENCIES
   linkeddata
+  minitest
   nokogiri
   open-uri
   rake
