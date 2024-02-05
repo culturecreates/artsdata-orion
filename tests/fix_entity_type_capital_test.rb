@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'linkeddata'
 
-class CapitalTypeTest < Minitest::Test
+class FixEntityTypeCapitalTest < Minitest::Test
 
   def setup
     @fix_entity_type_sparql_file = "./sparql/fix_entity_type.sparql"

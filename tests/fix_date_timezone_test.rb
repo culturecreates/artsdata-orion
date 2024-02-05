@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'linkeddata'
 
-class DateTest < Minitest::Test
+class FixDateTimezoneTest < Minitest::Test
 
   def setup
     fix_date_timezone_sparql_file = './sparql/fix_date_timezone.sparql'
