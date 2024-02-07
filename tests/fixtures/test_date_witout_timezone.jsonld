@@ -1,0 +1,16 @@
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "@id": "http://example.com/event5",
+      "name": "startDate without timezone should be skipped",
+      "startDate": "2024-02-03"
+    }, {
+      "@type": "Event",
+      "@id": "http://example.com/event6",
+      "name": "startDate Zulu timezone should be skipped",
+      "startDate": "2024-02-03T00:00:00Z"
+    }
+  ]
+}

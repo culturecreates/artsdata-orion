@@ -33,4 +33,20 @@ class FixDateTimezoneTest < Minitest::Test
     actual = graph.query([RDF::URI('http://example.com/event4'), RDF::Vocab::SCHEMA.endDate, nil]).first.object
     assert_equal expected, actual, "event4 failed"
   end
+
+  def test_skip_dates_without_timezone
+    graph = RDF::Graph.load("./tests/fixtures/test_date_witout_timezone.jsonld")
+    graph.query(@sparql)
+
+    # Test event5
+    expected =  RDF::Literal.new('2024-02-03', datatype: RDF::URI("http://schema.org/Date"))
+    actual = graph.query([RDF::URI('http://example.com/event5'), RDF::Vocab::SCHEMA.startDate, nil]).first.object
+    assert_equal expected, actual, "event5 failed"
+
+    # Test event6 
+    expected =  RDF::Literal.new('2024-02-03T00:00:00Z', datatype: RDF::URI("http://schema.org/Date"))  
+    actual = graph.query([RDF::URI('http://example.com/event6'), RDF::Vocab::SCHEMA.startDate, nil]).first.object
+    assert_equal expected, actual, "event6 failed"
+  end
+
 end
