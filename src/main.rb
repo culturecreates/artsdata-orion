@@ -72,7 +72,11 @@ entity_urls.each do |entity_url|
   end
 end
 
-sparql_paths = ["./sparql/replace_blank_nodes.sparql", "./sparql/fix_entity_type.sparql", "./sparql/fix_date.sparql"]
+sparql_paths = [
+  "./sparql/replace_blank_nodes.sparql",
+  "./sparql/fix_entity_type_capital.sparql",
+  "./sparql/fix_date_timezone.sparql"
+]
 graph = perform_sparql_transformations(graph, sparql_paths)
 
 File.open(file_name, 'w') do |file|
