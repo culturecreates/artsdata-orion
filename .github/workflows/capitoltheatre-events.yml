@@ -43,6 +43,6 @@ jobs:
           artifact_name: capitoltheatre-ca
           page_url: https://capitoltheatre.ca/
           publisher_uri: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          download_uri: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ github.event.before }}/output/capitoltheatre-events.jsonld
+          download_uri: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ github.sha }}/output/capitoltheatre-events.jsonld
           download_file: capitoltheatre-events.jsonld
           group: artsdata-orion
