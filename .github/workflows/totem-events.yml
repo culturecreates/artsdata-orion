@@ -39,7 +39,9 @@ jobs:
 
     - name: Get commit hash
       id: get_commit_hash
-      run: echo "commit-hash = $(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+      run: |
+        commit_hash=$(git rev-parse HEAD)
+        echo "commit-hash=$commit_hash" >> $GITHUB_OUTPUT
 
   artsdata-push:
     runs-on: ubuntu-latest
