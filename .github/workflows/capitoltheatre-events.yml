@@ -22,8 +22,8 @@ jobs:
     - name: Run Main Script
       run: |
           bundle exec ruby src/main.rb \
-          https://capitoltheatre.ca/page/ \
-          "div.et_pb_portfolio_grid_items a" \
+          https://capitoltheatre.ca/events/list/?tribe_paged= \
+          "h3.tribe-events-list-event-title a" \
           output/capitoltheatre-events.jsonld \
           true 
 

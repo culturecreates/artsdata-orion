@@ -51,7 +51,7 @@ loop do
     break
   end
 
-  if page_number == 1 || page_number.nil?
+  if page_number.nil?
     break
   else page_number
     page_number += 1
