@@ -47,11 +47,8 @@ jobs:
     needs: fetch-and-commit-data
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v1.0.0
+        uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
-          artifact_name: yardbirdsuite-com
-          page_url: https://yardbirdsuite.com/events/
-          publisher_uri: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          download_uri: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.fetch-and-commit-data.outputs.commit-hash }}/output/yardbirdsuite-events.jsonld
-          download_file: yardbirdsuite-events.jsonld
-          group: artsdata-orion
+          artifact: yardbirdsuite-com
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.fetch-and-commit-data.outputs.commit-hash }}/output/yardbirdsuite-events.jsonld

@@ -49,13 +49,9 @@ jobs:
     needs: fetch-and-commit-data
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v1.0.0
+        uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
-          artifact_name: reseauartactuel-org
-          page_url: https://reseauartactuel.org/liste_evenements/
-          publisher_uri: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          download_uri: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.fetch-and-commit-data.outputs.commit-hash }}/output/rcaaq-events.jsonld
-          download_file: rcaaq-events.jsonld
-          group: artsdata-orion
-
+          artifact: reseauartactuel-org
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.fetch-and-commit-data.outputs.commit-hash }}/output/rcaaq-events.jsonld
 

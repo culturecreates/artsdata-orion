@@ -48,11 +48,8 @@ jobs:
     needs: fetch-and-commit-data
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v1.0.0
+        uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
-          artifact_name: totemcontemporain-com
-          page_url: https://totemcontemporain.com/fr/calendrier
-          publisher_uri: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          download_uri: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.fetch-and-commit-data.outputs.commit-hash }}/output/totem-events.jsonld
-          download_file: totem-events.jsonld
-          group: artsdata-orion
+          artifact: totemcontemporain-com
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.fetch-and-commit-data.outputs.commit-hash }}/output/totem-events.jsonld
