@@ -3,22 +3,22 @@ require 'open-uri'
 require 'linkeddata'
 
 if ARGV.length < 4
-  puts "Usage: ruby script_name.rb <page_url> <entity_identifier> <file_name> <is_paginated> <base_url> <href>
-  \n (base_url is optional in case of relative hrefs)
+  puts "Usage: ruby script_name.rb <page_url> <entity_identifier> <file_name> <is_paginated> <href>
   \n (href is optional in case of data-href tags.)"
   exit
 end
 
-def perform_sparql_transformations(graph, sparql_paths)
+def perform_sparql_transformations(graph, sparql_paths, base_url)
   sparql_paths.each do |sparql_path|
-    graph.query(SPARQL.parse(File.read(sparql_path), update: true))
+    file = File.read(sparql_path).gsub("domain_name", base_url)
+    graph.query(SPARQL.parse(file, update: true))
   end
   return graph
 end
 
-page_url, entity_identifier, file_name, is_paginated, base_url, href = ARGV[0..5]
+page_url, entity_identifier, file_name, is_paginated, href = ARGV[0..4]
 href = 'href' if !href
-base_url = '' if base_url == nil
+base_url = page_url.split('/')[0..2].join('/')
 max_retries, retry_count = 3, 0
 page_number = is_paginated == 'true' ? 1 : nil
 graph = RDF::Graph.new
@@ -44,7 +44,11 @@ loop do
   entities_data = main_doc.css(entity_identifier)
   number_of_entities = entity_urls.length
   entities_data.each do |entity|
-    entity_urls << base_url+entity[href]
+    if !entity[href].start_with?('http')
+      entity_urls << base_url+entity[href]
+    else
+      entity_urls << entity[href]
+    end
   end
   if entity_urls.length == number_of_entities
     puts "No more entities found on page #{page_number}. Exiting..."
@@ -77,7 +81,7 @@ sparql_paths = [
   "./sparql/fix_entity_type_capital.sparql",
   "./sparql/fix_date_timezone.sparql"
 ]
-graph = perform_sparql_transformations(graph, sparql_paths)
+graph = perform_sparql_transformations(graph, sparql_paths, base_url)
 
 File.open(file_name, 'w') do |file|
   file.puts(graph.dump(:jsonld))

@@ -25,9 +25,8 @@ jobs:
           https://totemcontemporain.com/fr/calendrier \
           "h3.picto.padding-bottom-12 a" \
           output/totem-events.jsonld \
-          false \
-          https://totemcontemporain.com
-
+          false 
+          
     - name: Commit and Push Changes
       run: |
         git config --local user.email "actions@github.com"

@@ -25,8 +25,7 @@ jobs:
           https://levivier.ca/fr \
           "div.cont-even a" \
           output/levivier-events.jsonld \
-          false \
-          https://levivier.ca
+          false
 
     - name: Commit and Push Changes
       run: |
