@@ -2,9 +2,9 @@ name: Fetch Aramusique Events
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 1 * *'
-      
+ # schedule:
+ #   - cron: '0 0 1 * *'
+ # Target website updated. Need to update index page parameters.     
 jobs:
   fetch-and-commit-data:
     runs-on: ubuntu-latest
