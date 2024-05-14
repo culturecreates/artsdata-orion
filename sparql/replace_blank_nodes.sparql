@@ -17,6 +17,6 @@ WHERE {
       FILTER NOT EXISTS { ?other_s ?other_p ?blank_node }
     }
   }
-  bind(URI(CONCAT("domain_name/resource/",STRUUID())) as ?uuid_uri)
+  bind(URI(CONCAT("domain_name/temporary/",STRUUID())) as ?uuid_uri)
   ?blank_node ?p ?o 
 }
