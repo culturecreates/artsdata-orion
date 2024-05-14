@@ -24,7 +24,7 @@ jobs:
           https://spec.qc.ca/programmation \
           ".headlining__component" \
           output/spec-qc-ca-events.jsonld \
-          true
+          false
 
     - name: Commit and Push Changes
       run: |
