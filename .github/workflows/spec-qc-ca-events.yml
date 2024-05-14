@@ -22,7 +22,7 @@ jobs:
       run: |
           bundle exec ruby src/main.rb \
           https://spec.qc.ca/programmation \
-          ".headlining__component swiper-slide a" \
+          ".headlining__component" \
           output/spec-qc-ca-events.jsonld \
           true
 
