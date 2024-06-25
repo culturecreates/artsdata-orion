@@ -1,0 +1,5185 @@
+[
+  {
+    "@id": "https://www.osac.ca/#/schema/Organization/base",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "The Organization of Saskatchewan Arts Councils"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/"
+      }
+    ],
+    "http://schema.org/logo": [
+      {
+        "@id": "https://www.osac.ca/#/schema/ImageObject/logo"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/#/schema/ImageObject/logo"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/OSACsask/"
+      },
+      {
+        "@id": "https://www.instagram.com/osacsask/"
+      },
+      {
+        "@id": "https://twitter.com/OSACsask"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q98372422"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/#/schema/ImageObject/logo",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/images/logos/OSAC.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://www.osac.ca/images/logos/OSAC.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/#/schema/WebSite/base",
+    "@type": [
+      "http://schema.org/WebSite"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "OSAC - Organization of Saskatchewan Arts Councils"
+      }
+    ],
+    "http://schema.org/publisher": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Amy%2BNelson",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Amy%2BNelson"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "amy-nelson-macklin-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Macklin Arts Council Present Amy Nelson in concert at Macklin Credit Union Legacy Center 2025-02-28 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/#/schema/com_content/article/156",
+    "@type": [
+      "http://schema.org/Article"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Performing Artist"
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@value": "Performing Artist"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebPage/base"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      },
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "amy-nelson-macklin-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Macklin Arts Council Present Amy Nelson in concert at Macklin Credit Union Legacy Center 2025-02-28"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Amy Nelson"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/AmyNelson.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "ballet-jorgen-sleeping-beauty-la-ronge-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the La Ronge Arts Council Present Ballet Jorgen - Sleeping Beauty in concert at Churchill Community High School 2025-03-04"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Ballet Jorgen - Sleeping Beauty"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/SleepingBeauty.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "becoming-the-beatles-e-a-rawlinson-centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the E.A. Rawlinson Centre Present Becoming the Beatles in concert at E.A. Rawlinson Centre 2025-02-13"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Becoming the Beatles"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/BecomingtheBeatles.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "becoming-the-beatles-unplugged-quill-plains-regional-arts-council-qprac-main"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Quill Plains Regional Arts Council (QPRAC) - Main Present Becoming the Beatles: Unplugged in concert at Wadena Community Legion Hall 2025-03-14"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Becoming the Beatles: Unplugged"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/BecomingtheBeatlesUnplugged.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "belle-plaine-indian-head-theatre-and-community-arts-inc-"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Indian Head Theatre and Community Arts Inc. Present Belle Plaine in concert at Grand Theatre 2024-10-05"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Belle Plaine"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/BellePlaine.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "brayden-king-yorkton-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Yorkton Arts Council Present Brayden King in concert at Painted Hand Casino 2025-01-25"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Brayden King"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/BraydenKingPromo.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "burnt-thicket-theatre-presents-every-brilliant-thing-biggar-district-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Biggar & District Arts Council Present Burnt Thicket Theatre presents Every Brilliant Thing in concert at Majestic Theatre 2025-03-17"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Burnt Thicket Theatre presents Every Brilliant Thing"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/EveryBrilliantThing.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "charms-eastend-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Eastend Arts Council Present Charms in concert at Eastend Memorial Hall 2025-02-08"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Charms"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/charmspressphoto.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "eliza-mary-doyle-leader-district-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Leader & District Arts Council Present Eliza Mary Doyle in concert at Leader Community Centre 2025-01-09"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Eliza Mary Doyle"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/elizamarydoyle.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "former-lovers-langenburg-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Langenburg Arts Council Present Former Lovers in concert at George Layh Theatre 2025-01-17"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Former Lovers"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/FormerLovers.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "george-canyon-acoustic-swift-current-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Swift Current Arts Council Present George Canyon Acoustic in concert at Event Centre 2024-10-08"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,George Canyon Acoustic"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/GeorgeCanyonPrimary.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "george-canyon-acoustic-tisdale-tisdale-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Tisdale Arts Council Present George Canyon Acoustic-Tisdale in concert at Maurice Taylor Performing Arts Theatre 2024-10-10"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,George Canyon Acoustic-Tisdale"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/GeorgeCanyonPrimary.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "hula-hoopster-hudson-bay-allied-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Hudson Bay Allied Arts Council Present Hula Hoopster in concert at Brooks Hall 2025-02-27"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Hula Hoopster"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/Hula1.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "jack-semple-band-gordon-lightfoot-tribute-lloydminster-allied-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Lloydminster Allied Arts Council Present Jack Semple Band Gordon Lightfoot Tribute in concert at Vic Juba Community Theatre, Lakeland College 2024-10-02"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Jack Semple Band Gordon Lightfoot Tribute"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/JackSemple.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute",
+    "fb:app_id": [
+      {
+        "@language": "en-gb",
+        "@value": "340486642645761"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-gb",
+        "@value": "http://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-gb",
+        "@value": "jack-semple-trio-gordon-lightfoot-tribute-watrous-area-arts-council"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-gb",
+        "@value": "OSAC Arts Council the Watrous Area Arts Council Present Jack Semple Trio - Gordon Lightfoot Tribute in concert at Watrous Civic Centre 2024-10-03"
+      }
+    ],
+    "http://ogp.me/ns#keywords": [
+      {
+        "@language": "en-gb",
+        "@value": "Performing Arts, Saskatchewan, Arts Councils,Jack Semple Trio - Gordon Lightfoot Tribute"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-gb",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#refferer": [
+      {
+        "@language": "en-gb",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-gb",
+        "@value": "https://www.osac.ca/images/PA/images/JackSemple.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "_:g456380",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Amy Nelson"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://www.facebook.com/amynelsonmusic"
+      },
+      {
+        "@id": "http://www.twitter.com/amynelsonmusic"
+      },
+      {
+        "@id": "http://instagram.com/amynelsonmusic"
+      }
+    ]
+  },
+  {
+    "@id": "_:g456400",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/macklinarts"
+      }
+    ]
+  },
+  {
+    "@id": "_:g456420",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Macklin Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson"
+      }
+    ]
+  },
+  {
+    "@id": "_:g456440",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Macklin Credit Union Legacy Center"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g456460"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g456460",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g456480",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "ballet-jorgen-sleeping-beauty-la-ronge-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the La Ronge Arts Council Present Ballet Jorgen - Sleeping Beauty in concert at Churchill Community High School 2025-03-04 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g458860",
+    "@type": [
+      "http://schema.org/PerformingGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Ballet Jorgen - Sleeping Beauty"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/jorgendance"
+      },
+      {
+        "@id": "https://twitter.com/JorgenDance"
+      },
+      {
+        "@id": "https://www.instagram.com/jorgendance/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q4851638"
+      }
+    ]
+  },
+  {
+    "@id": "_:g458880",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/larongeartscouncil"
+      }
+    ]
+  },
+  {
+    "@id": "_:g458900",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "La Ronge Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      }
+    ]
+  },
+  {
+    "@id": "_:g458920",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Churchill Community High School"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g458940"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://churchillcommunityschool.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g458940",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g458960",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Becoming%2Bthe%2BBeatles",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Becoming%2Bthe%2BBeatles"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "becoming-the-beatles-e-a-rawlinson-centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the E.A. Rawlinson Centre Present Becoming the Beatles in concert at E.A. Rawlinson Centre 2025-02-13 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g459420",
+    "@type": [
+      "http://schema.org/MusicGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Becoming the Beatles"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/HaleyMarieAureliaProductions"
+      },
+      {
+        "@id": "https://www.instagram.com/themenbehindthemusic/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g459440",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      }
+    ]
+  },
+  {
+    "@id": "_:g459460",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "E.A. Rawlinson Centre"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      }
+    ]
+  },
+  {
+    "@id": "_:g459480",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "E.A. Rawlinson Centre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g459500"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.osac.ca/www.earc.ca"
+      },
+      {
+        "@id": "https://www.facebook.com/EARawlinsonCentre"
+      },
+      {
+        "@id": "https://www.instagram.com/earawlinsoncentreforthearts/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q111747668"
+      }
+    ]
+  },
+  {
+    "@id": "_:g459500",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g459520",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "becoming-the-beatles-unplugged-quill-plains-regional-arts-council-qprac-main"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Quill Plains Regional Arts Council (QPRAC) - Main Present Becoming the Beatles: Unplugged in concert at Wadena Community Legion Hall 2025-03-14 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g460940",
+    "@type": [
+      "http://schema.org/MusicGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Becoming the Beatles: Unplugged"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/HaleyMarieAureliaProductions"
+      },
+      {
+        "@id": "https://www.instagram.com/themenbehindthemusic/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g460960",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/wadenaartscouncil"
+      }
+    ]
+  },
+  {
+    "@id": "_:g460980",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Quill Plains Regional Arts Council (QPRAC) - Main"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461000",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Wadena Community Legion Hall"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g461020"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://townofwadena.com/Facilities/Facility/Details/Wadena-Legion-Hall-Complete-Facility-1"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461020",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g461040",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Belle%2BPlaine",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Belle%2BPlaine"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "belle-plaine-indian-head-theatre-and-community-arts-inc-"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Indian Head Theatre and Community Arts Inc. Present Belle Plaine in concert at Grand Theatre 2024-10-05 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462600",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Belle Plaine"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/belleplainemusic/"
+      },
+      {
+        "@id": "https://twitter.com/Belle_Plaine"
+      },
+      {
+        "@id": "http://instagram.com/belleplainemusic"
+      },
+      {
+        "@id": "https://play.spotify.com/artist/5bCjjNx0wXytkKko9jlaLl"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q125606593"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462620",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.grandtheatre1904.com/shop/concert-series/3#"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462640",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Indian Head Theatre and Community Arts Inc."
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462660",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Grand Theatre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g462680"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.grandtheatre1904.com/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q114431243"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462680",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g462700",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Brayden%2BKing",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Brayden%2BKing"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "brayden-king-yorkton-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Yorkton Arts Council Present Brayden King in concert at Painted Hand Casino 2025-01-25 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g463960",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Brayden King"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/braydenkingmusic"
+      },
+      {
+        "@id": "https://www.instagram.com/braydenkingmusic/"
+      },
+      {
+        "@id": "https://open.spotify.com/user/Braydenking"
+      },
+      {
+        "@id": "https://vm.tiktok.com/ZMLJNUn4U/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q125607139"
+      }
+    ]
+  },
+  {
+    "@id": "_:g463980",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprowest.ticketpro.ca/en/pages/YAC_BraydenKing"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464000",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Yorkton Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464020",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Painted Hand Casino"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g464040"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.paintedhandcasino.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464040",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g464060",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "burnt-thicket-theatre-presents-every-brilliant-thing-biggar-district-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Biggar & District Arts Council Present Burnt Thicket Theatre presents Every Brilliant Thing in concert at Majestic Theatre 2025-03-17 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464600",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Burnt Thicket Theatre presents Every Brilliant Thing"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/BurntThicket"
+      },
+      {
+        "@id": "https://twitter.com/BurntThicket"
+      },
+      {
+        "@id": "https://www.instagram.com/burntthicket/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464620",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprowest.ticketpro.ca/en/pages/1613849423"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464640",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Biggar & District Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464660",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Majestic Theatre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g464680"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://majestictheatre.ca/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q114148778"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464680",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g464700",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Charms",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Charms"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "charms-eastend-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Eastend Arts Council Present Charms in concert at Eastend Memorial Hall 2025-02-08 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468320",
+    "@type": [
+      "http://schema.org/MusicGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Charms"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/GhostboyAttic"
+      },
+      {
+        "@id": "https://www.tiktok.com/@charmsyyc"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468340",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468360",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Eastend Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468380",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Eastend Memorial Hall"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g468400"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://www.memorialhall.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468400",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g468420",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Eliza%2BMary%2BDoyle",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Eliza%2BMary%2BDoyle"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "eliza-mary-doyle-leader-district-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Leader & District Arts Council Present Eliza Mary Doyle in concert at Leader Community Centre 2025-01-09 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470400",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Eliza Mary Doyle"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.osac.ca/twitter.com/elizamarydoyle"
+      },
+      {
+        "@id": "https://www.osac.ca/instagram.com/elizamarydoyle"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q126017434"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470420",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/leaderartscouncil"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470440",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Leader & District Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470460",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Leader Community Centre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g470480"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q114431255"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470480",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g470500",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Former%2BLovers",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Former%2BLovers"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "former-lovers-langenburg-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Langenburg Arts Council Present Former Lovers in concert at George Layh Theatre 2025-01-17 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g471340",
+    "@type": [
+      "http://schema.org/MusicGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Former Lovers"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/LJtysonMusic/"
+      },
+      {
+        "@id": "https://www.instagram.com/ljtyson/"
+      },
+      {
+        "@id": "https://open.spotify.com/artist/0OXG5mJqXcaGxaLqXBzLmO?si=AefdqFdUTpe0WXT1AUtIwA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g471360",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.langenburgarts.ca/event-details/former-lovers"
+      }
+    ]
+  },
+  {
+    "@id": "_:g471380",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Langenburg Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers"
+      }
+    ]
+  },
+  {
+    "@id": "_:g471400",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "George Layh Theatre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g471420"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://langenburgarts.ca/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q114431249"
+      }
+    ]
+  },
+  {
+    "@id": "_:g471420",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g471440",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=George%2BCanyon%2BAcoustic",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=George%2BCanyon%2BAcoustic"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "george-canyon-acoustic-swift-current-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Swift Current Arts Council Present George Canyon Acoustic in concert at Event Centre 2024-10-08 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474100",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "George Canyon Acoustic"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://twitter.com/georgecanyon"
+      },
+      {
+        "@id": "https://www.instagram.com/georgecanyon/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q5537663"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474120",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprowest.ticketpro.ca/en/pages/1615874996"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474140",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Swift Current Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474160",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Event Centre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g474180"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://livingskycasino.ca/entertainment/"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q114432390"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474180",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g474200",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=George%2BCanyon%2BAcoustic-Tisdale",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=George%2BCanyon%2BAcoustic-Tisdale"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "george-canyon-acoustic-tisdale-tisdale-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Tisdale Arts Council Present George Canyon Acoustic-Tisdale in concert at Maurice Taylor Performing Arts Theatre 2024-10-10 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475140",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "George Canyon Acoustic-Tisdale"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://twitter.com/georgecanyon"
+      },
+      {
+        "@id": "https://www.instagram.com/georgecanyon/"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q5537663"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475160",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/tisdaleartscouncil"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475180",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Tisdale Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475200",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Maurice Taylor Performing Arts Theatre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g475220"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://www.tisdale.ca/arts-theatre/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475220",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g475240",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Hula%2BHoopster",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Hula%2BHoopster"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "hula-hoopster-hudson-bay-allied-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Hudson Bay Allied Arts Council Present Hula Hoopster in concert at Brooks Hall 2025-02-27 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477220",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Hula Hoopster"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477240",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprowest.ticketpro.ca/en/pages/1612595543"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477260",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Hudson Bay Allied Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477280",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Brooks Hall"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g477300"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.wikidata.org/wiki/Q114431121"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477300",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g477320",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "jack-semple-band-gordon-lightfoot-tribute-lloydminster-allied-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Lloydminster Allied Arts Council Present Jack Semple Band Gordon Lightfoot Tribute in concert at Vic Juba Community Theatre, Lakeland College 2024-10-02 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478500",
+    "@type": [
+      "http://schema.org/MusicGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Jack Semple Band Gordon Lightfoot Tribute"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/JackSempleMusic?fref=ts"
+      },
+      {
+        "@id": "https://twitter.com/JackBSemple"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q741457"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478520",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tickets.vicjubatheatre.ca/TheatreManager/1/online?bestavail=1449&qty=0"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478540",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Lloydminster Allied Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478560",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Vic Juba Community Theatre, Lakeland College"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g478580"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.osac.ca/www.vicjubatheatre.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478580",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g478600",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute",
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=1821&amp;artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "jack-semple-trio-gordon-lightfoot-tribute-watrous-area-arts-council"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "OSAC Arts Council the Watrous Area Arts Council Present Jack Semple Trio - Gordon Lightfoot Tribute in concert at Watrous Civic Centre 2024-10-03 "
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://www.osac.ca/#/schema/WebSite/base"
+      }
+    ],
+    "http://schema.org/about": [
+      {
+        "@id": "https://www.osac.ca/#/schema/Organization/base"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479980",
+    "@type": [
+      "http://schema.org/MusicGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Jack Semple Trio - Gordon Lightfoot Tribute"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/JackSempleMusic?fref=ts"
+      },
+      {
+        "@id": "https://twitter.com/JackBSemple"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q741457"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480000",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/watrousandareaartscouncil"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480020",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Watrous Area Arts Council"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480040",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Watrous Civic Centre"
+      }
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "_:g480060"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://townofwatrous.com/CivicCentre.php"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480060",
+    "@type": [
+      "http://schema.org/GeoCoordinates"
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g480080",
+    "@type": [
+      "http://schema.org/AggregateRating"
+    ],
+    "http://schema.org/ratingValue": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://schema.org/reviewCount": [
+      {
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/0733d895-4382-46ad-ae0c-63d8d7febd80",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Amy Nelson"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-01T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-01T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8762/amy-nelson-macklin-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8762"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/AmyNelson.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g456380"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Amy Nelson is a versatile performer, from trios to full bands. She plays original country tunes and covers, customizing her sets for each crowd. Amy, a multi-instrumentalist, often spotlights her vocals. Known for her lively personality and engaging  [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g456400"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g456420"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g456440"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g456480"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/7003218c-4ebd-4266-97b4-10a12d08badb",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/3dc66bea-0fe4-4519-91ea-d0cbd10f6af1",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/d6cc7202-f00a-4170-80d4-66282dc47f56",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Amy Nelson\n            \n    \n            \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: www.amynelson.ca \n  \n\t\t\t\t  \n\t\t\t\t Amy Nelson is a versatile performer, from trios to full bands. She plays original country tunes and covers, customizing her sets for each crowd. Amy, a multi-instrumentalist, often spotlights her vocals. Known for her lively personality and engaging conversations, she makes audiences part of the show. Hailing from Saskatchewan, she's played across Canada, from house concerts to big stages like the Calgary Stampede. Amy's music has reached global audiences, including Trafalgar Square in the UK and the Gympie Music Muster in Australia. She's showcased her talent at events like Canadian Music Week, BreakOut West, JunoFest, AmericanaFest, and Australian Music Week.AppearancesDatePresented ByTicketsFri, Feb 28, 2025 @ 7:30 pmMacklin Arts CouncilTicket Info\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Amy%2BNelson"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/208ceed0-e565-405f-be02-aa2b6b08addd",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Ballet Jorgen - Sleeping Beauty"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-05T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-05T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8860/ballet-jorgen-sleeping-beauty-la-ronge-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8860"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/SleepingBeauty.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g458860"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "In the 2024/2025 season, Ballet Jorgen will be performing in La Ronge for the first time ever! Sleeping Beauty is one of the world's most famous classical ballets, featured in the repertoire of virtually every major company. After more than 30 succes [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g458880"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g458900"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g458920"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g458960"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/c1fd7e1e-b0de-4adc-adaf-8328380404da",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/4dfe53e2-7d2f-4e9d-81a8-734124d81741",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/ec09f21d-3bdf-480c-bf65-29dbd1ce29f8",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Ballet Jorgen - Sleeping Beauty\n            \n    \n            \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: https://www.jorgendance.ca/ \n  \n\t\t\t\t  \n\t\t\t\t In the 2024/2025 season, Ballet Jorgen will be performing in La Ronge for the first time ever! Sleeping Beauty is one of the world's most famous classical ballets, featured in the repertoire of virtually every major company. After more than 30 successful years, Ballet Jorgen presents its own unique classical rendition. This captivating ballet tells the enchanting story of Aurora and her prince, showcasing magical qualities and dazzling choreography. OSAC is thrilled to bring the magic of ballet to new Saskatchewan communities.AppearancesDatePresented ByTicketsTue, Mar 4, 2025 @ 7:30 pmLa Ronge Arts CouncilTicket Info\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Ballet%2BJorgen%2B-%2BSleeping%2BBeauty"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/b7b9508b-1810-48e9-ab60-57b7cf622f04",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Becoming the Beatles"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-02-14T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-02-14T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8859/becoming-the-beatles-e-a-rawlinson-centre"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8859"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/BecomingtheBeatles.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g459420"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Becoming the Beatles is a captivating live musical documentary, blending over 300 projections, 20 live songs, and intimate stories to unveil the journey of the legendary band. Led by musician and storyteller Haley Marie, the show delves into the Beat [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g459440"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g459460"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g459480"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g459520"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/401bd49c-cf36-496c-8ea5-ffa7b5ac482a",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/eaec03c1-3434-42ef-85b6-3005e44cd92b",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/171c89db-e860-428d-a9d6-53e4db47dd4e",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Becoming the Beatles\n            \n    \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: https://www.haley-marie.com/becoming \n  \n\t\t\t\t  \n\t\t\t\t Becoming the Beatles is a captivating live musical documentary, blending over 300 projections, 20 live songs, and intimate stories to unveil the journey of the legendary band. Led by musician and storyteller Haley Marie, the show delves into the Beatles' rise to fame, their musical evolution, and the personal struggles of each member. It transcends mere tribute, offering profound insights into the band's origins, their resilience against rejections, and the cultural influences that shaped their iconic sound. From wartime hardships to triumphs on the global stage, experience the untold tales of the Fab Four's extraordinary legacy in this transformative theatrical experience.AppearancesDatePresented ByTicketsThu, Feb 13, 2025 @ 7:30 pmE.A. Rawlinson CentreFri, Feb 14, 2025 @ 7:30 pmDekker CentreBuy TicketsTue, Feb 18, 2025 @ 7:30 pmWeyburn Concert SeriesTicket InfoThu, Feb 20, 2025 @ 7:30 pmDarke Hall Society Inc.Buy Tickets\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/e5c10ed9-5063-4e62-b66f-a0d83ff9d70d",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Becoming the Beatles: Unplugged"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-15T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-15T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8825/becoming-the-beatles-unplugged-quill-plains-regional-arts-council-qprac-main"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8825"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/BecomingtheBeatlesUnplugged.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g460940"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Becoming the Beatles is a captivating live musical documentary, blending over 300 projections, 20 live songs, and intimate stories to unveil the journey of the legendary band. Led by musician and storyteller Haley Marie, the show delves into the Beat [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g460960"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g460980"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g461000"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g461040"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/27af4b66-5cd5-41e6-a64b-160e1f556882",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/9a4e11b1-8125-44f0-b751-674921f086e8",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/7df66c80-c045-4775-9d59-7d658a9ea31b",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Becoming the Beatles: Unplugged\n            \n    \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: https://www.haley-marie.com/becoming \n  \n\t\t\t\t  \n\t\t\t\t Becoming the Beatles is a captivating live musical documentary, blending over 300 projections, 20 live songs, and intimate stories to unveil the journey of the legendary band. Led by musician and storyteller Haley Marie, the show delves into the Beatles' rise to fame, their musical evolution, and the personal struggles of each member. It transcends mere tribute, offering profound insights into the band's origins, their resilience against rejections, and the cultural influences that shaped their iconic sound. From wartime hardships to triumphs on the global stage, experience the untold tales of the Fab Four's extraordinary legacy in this transformative theatrical experience.AppearancesDatePresented ByTicketsFri, Mar 14, 2025 @ 7:30 pmQuill Plains Regional Arts Council (QPRAC) - MainTicket Info\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Becoming%2Bthe%2BBeatles%253A%2BUnplugged"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/8314e991-b67e-412e-afe5-bc25df2d903b",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Belle Plaine"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-06T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-06T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8679/belle-plaine-indian-head-theatre-and-community-arts-inc-"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8679"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/BellePlaine.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g462600"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "In Prairie winter, gazing through windows, Regina's Belle Plaine captures contemplative vibes akin to 70s AM radio, infusing tenderness into her soulful vocals. With empathy, she weaves stories, balancing characters' compassion and charisma, evoking  [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g462620"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g462640"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g462660"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g462700"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/f2f5e483-0283-4e54-bcd1-c556f18ebe90",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/6dfaf8b0-212f-41a9-9c99-dac1fa71edf7",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/3fb55470-30d8-4f9e-a5bc-17963f9773c7",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Belle Plaine\n            \n    \n            \n    \n            \n    \n            \n    \n            \n    \n    \n    \n\n\t\t\t\t\nArtist Website: www.belleplainemusic.com \n  \n\t\t\t\t  \n\t\t\t\t In Prairie winter, gazing through windows, Regina's Belle Plaine captures contemplative vibes akin to 70s AM radio, infusing tenderness into her soulful vocals. With empathy, she weaves stories, balancing characters' compassion and charisma, evoking laughter and emotions, backed by her talented band. Belle Plaine masters the art of country music, validating experiences while gently guiding toward greater possibilities. Gracefully embodying this quality, she naturally radiates compassion and tenderness, thawing even the coldest Prairie moments.AppearancesDatePresented ByTicketsSat, Oct 5, 2024 @ 7:30 pmIndian Head Theatre and Community Arts Inc.Buy Tickets\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Belle%2BPlaine"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/13b627dc-8eaf-4283-985e-2bd386f8d719",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Brayden King"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-26T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-26T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8794/brayden-king-yorkton-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8794"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/BraydenKingPromo.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g463960"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Brayden King, the 6'9\" dynamo from Weyburn, SK, made a splash after winning the \"Golden Ticket\" on American Idol Season 21. In 2023, he released three singles that hit the Top 100 on Canadian Country Radio, earning praise from Luke Bryan as a blen [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g463980"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g464000"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g464020"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g464060"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/c5aefbff-0cd4-4f51-985e-9afd7bf8e440",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/3af87602-17b7-43fc-b0af-02bfd22192d5",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/6a8cbcca-f171-4aa5-bbec-633dd12f65af",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Brayden King\n            \n    \n    \n            \n    \n            \n    \n            \n    \n            \n    \n    \n\n\t\t\t\t\nArtist Website: https://www.braydenkingmusic.com/ \n  \n\t\t\t\t  \n\t\t\t\t Brayden King, the 6'9\" dynamo from Weyburn, SK, made a splash after winning the \"Golden Ticket\" on American Idol Season 21. In 2023, he released three singles that hit the Top 100 on Canadian Country Radio, earning praise from Luke Bryan as a blend of Ed Sheeran and Stapleton. King stands at the crossroads of Rock 'n' Roll and Country, delivering high-energy performances at over 100 shows annually, from festivals like Boots & Hearts to dive bars. In just two years, he's become the largest rising star in Canadian Country, known for his electrifying stage presence and edgy country music.AppearancesDatePresented ByTicketsSat, Jan 25, 2025 @ 7:30 pmYorkton Arts CouncilBuy Tickets\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Brayden%2BKing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/bb2628af-1839-4380-8dc4-b3f1305370f1",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Burnt Thicket Theatre presents Every Brilliant Thing"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-18T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-03-18T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8718/burnt-thicket-theatre-presents-every-brilliant-thing-biggar-district-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8718"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/EveryBrilliantThing.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g464600"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Burnt Thicket Theatre presents \"EVERY BRILLIANT THING\" by Duncan Macmillan and Jonny Donahoe, starring Sarah Robertson. The play revolves around a seven-year-old dealing with his mother's depression by listing everything wonderful about life. Two d [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g464620"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g464640"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g464660"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g464700"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/f914f5b6-f548-4c1d-bc77-457531a49847",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/3aedd15c-39b3-432a-934e-a059479743a8",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/8342dc46-748c-4898-8e1a-c257e2fbb392",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Burnt Thicket Theatre presents Every Brilliant Thing\n            \n    \n            \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: https://burntthicket.com/show/ebt/ \n  \n\t\t\t\t  \n\t\t\t\t Burnt Thicket Theatre presents \"EVERY BRILLIANT THING\" by Duncan Macmillan and Jonny Donahoe, starring Sarah Robertson. The play revolves around a seven-year-old dealing with his mother's depression by listing everything wonderful about life. Two decades later, the list takes on a life of its own. This remarkable comedy explores depression and the lengths we go for loved ones, blending humor with emotional depth. The unique performance involves the audience in naming items on the list, creating a profound and unscripted connection. Experience a show that shifts perspectives and leaves a lasting impact on your outlook. Don't miss this extraordinary live experience.AppearancesDatePresented ByTicketsMon, Mar 17, 2025 @ 7:30 pmBiggar & District Arts CouncilBuy TicketsWed, Mar 19, 2025 @ 7:30 pmWhitehawk Arts Council Inc.Ticket InfoThu, Mar 20, 2025 @ 7:30 pmTisdale Arts CouncilTicket InfoSat, Mar 22, 2025 @ 7:30 pmDarke Hall Society Inc.Buy TicketsMon, Mar 24, 2025 @ 7:30 pmMelfort Arts CouncilBuy TicketsTue, Mar 25, 2025 @ 7:30 pmLa Ronge Arts CouncilTicket InfoThu, Mar 27, 2025 @ 7:30 pmYorkton Arts CouncilBuy TicketsFri, Mar 28, 2025 @ 7:30 pmIndian Head Theatre and Community Arts Inc.Ticket InfoMon, Mar 31, 2025 @ 7:30 pmWeyburn Concert SeriesTicket InfoTue, Apr 1, 2025 @ 7:30 pmEstevan Arts CouncilTicket InfoWed, Apr 2, 2025 @ 7:30 pmAssiniboia & District Arts CouncilTicket InfoFri, Apr 4, 2025 @ 7:30 pmShaunavon Arts CouncilTicket InfoTue, Apr 8, 2025 @ 7:30 pmDekker CentreBuy TicketsWed, Apr 9, 2025 @ 7:30 pmE.A. Rawlinson CentreThu, Apr 10, 2025 @ 7:30 pmStation Arts Centre CooperativeBuy TicketsFri, Apr 11, 2025 @ 7:30 pmHudson Bay Allied Arts CouncilBuy TicketsMon, Apr 14, 2025 @ 7:30 pmSwift Current Arts CouncilBuy TicketsWed, Apr 16, 2025 @ 7:30 pmMacklin Arts CouncilTicket InfoThu, Apr 17, 2025 @ 7:30 pmHumboldt Area Arts CouncilTicket Info\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Burnt%2BThicket%2BTheatre%2Bpresents%2BEvery%2BBrilliant%2BThing"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/eafb4107-0b31-4941-9a69-ed95ad116efd",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Charms"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-02-09T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-02-09T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8728/charms-eastend-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8728"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/charmspressphoto.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g468320"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Meg and Denis are an award winning husband and wife duo of vocal and multi instrumental talents.  Their songs are upbeat and energetic tunes that focus on Canadian roots. Together, they cover a wide range of popular music in the Instrumental style o [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g468340"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g468360"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g468380"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g468420"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/184edd14-3af6-44ec-8a35-619d929c4715",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/31fa29f1-dec4-409c-9068-2064139c93d3",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/70658730-0bba-4e11-8199-f6633f03bad8",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Charms\n            \n    \n    \n            \n    \n    \n    \n            \n    \n    \n\n\t\t\t\t\nArtist Website: www.thecharmsmusic.com \n  \n\t\t\t\t  \n\t\t\t\t Meg and Denis are an award winning husband and wife duo of vocal and multi instrumental talents.  Their songs are upbeat and energetic tunes that focus on Canadian roots. Together, they cover a wide range of popular music in the Instrumental style of Bridgerton while also covering an extensive amount of Canadiana Vocals.AppearancesDatePresented ByTicketsSat, Feb 8, 2025 @ 7:30 pmEastend Arts Council - -\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Charms"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/a9d3a9fe-a08b-48a2-aec7-b93dd794d2fc",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Eliza Mary Doyle"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-10T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-10T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8753/eliza-mary-doyle-leader-district-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8753"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/elizamarydoyle.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g470400"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Saskatchewan's award-winning banjo player, Eliza Doyle, wows global audiences with her charismatic performances, clawhammer banjo skills, and refined songwriting. After playing with The Dead South (earning a Juno in 2018), her career soared. Her late [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g470420"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g470440"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g470460"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g470500"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/a3dca96d-1ad9-4811-affa-fd009d1838a6",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/fd452ff4-3915-4fcc-a2d1-d13b073f284c",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/484034be-d283-46a1-ae97-ae4afc20ae76",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Eliza Mary Doyle\n    \n            \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: elizamarydoyle.com \n  \n\t\t\t\t  \n\t\t\t\t Saskatchewan's award-winning banjo player, Eliza Doyle, wows global audiences with her charismatic performances, clawhammer banjo skills, and refined songwriting. After playing with The Dead South (earning a Juno in 2018), her career soared. Her latest album, \"Pretty Strange,\" features 10 live tracks recorded in Nashville on May 4th, 2022. A 20-show US tour showcases her evolution as an artist, blending catchy melodies with alt-country/folk, infused with banjo, guitar, and pedal steel. Doyle's unique take on Americana keeps listeners engaged and excited.AppearancesDatePresented ByTicketsThu, Jan 9, 2025 @ 7:30 pmLeader & District Arts CouncilTicket InfoFri, Jan 10, 2025 @ 7:30 pmBiggar & District Arts CouncilBuy TicketsSat, Jan 11, 2025 @ 7:30 pmNipawin Performing Arts GroupTicket InfoThu, Jan 16, 2025 @ 7:30 pmTisdale Arts CouncilTicket InfoFri, Jan 17, 2025 @ 7:30 pmE.A. Rawlinson CentreSat, Jan 18, 2025 @ 7:30 pmDarke Hall Society Inc.Buy TicketsWed, Apr 23, 2025 @ 7:30 pmDekker CentreBuy Tickets\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Eliza%2BMary%2BDoyle"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/dcce6b30-03a1-4b82-8940-eef9c0639eaa",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Former Lovers"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-18T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-18T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8749/former-lovers-langenburg-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8749"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/FormerLovers.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g471340"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Prepare to be captivated by the infectious energy of Former Lovers, a dynamic prairie pop band from Prince Albert, Saskatchewan. Fronted by the charismatic LJ Tyson, their vibrant performances offer honest songwriting and soulful vocals that resonate [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g471360"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g471380"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g471400"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g471440"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/83b48f1e-8928-4eea-96e4-c149ddf695bd",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/9ceabc78-5966-4701-b582-a2e87751817d",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/cdf498e4-02fc-4704-81a4-059c92356f3e",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Former Lovers\n            \n    \n    \n            \n    \n            \n    \n            \n    \n    \n    \n\n\t\t\t\t\nArtist Website: https://www.ljtysonmusic.com/ \n  \n\t\t\t\t  \n\t\t\t\t Prepare to be captivated by the infectious energy of Former Lovers, a dynamic prairie pop band from Prince Albert, Saskatchewan. Fronted by the charismatic LJ Tyson, their vibrant performances offer honest songwriting and soulful vocals that resonate deeply. With LJ at the helm, alongside Colin Klassen, Kay Wirtz, and Kolt Kimbley, Former Lovers deliver an unforgettable musical experience. Their shows across western Canada have garnered a dedicated following drawn to their catchy tunes and heartfelt lyrics. Formerly LJ Tyson and the Locals, the band's evolution into Former Lovers encapsulates their essence. Join their journey and let their irresistible sound sweep you away!AppearancesDatePresented ByTicketsFri, Jan 17, 2025 @ 7:30 pmLangenburg Arts CouncilBuy TicketsSat, Jan 18, 2025 @ 7:30 pmWhitehawk Arts Council Inc.Ticket InfoFri, Jan 24, 2025 @ 7:30 pmBiggar & District Arts CouncilBuy TicketsSat, Jan 25, 2025 @ 7:30 pmAssiniboia & District Arts CouncilTicket InfoWed, Jan 29, 2025 @ 7:30 pmMoose Jaw Cultural CentreBuy TicketsThu, Jan 30, 2025 @ 7:30 pmDekker CentreBuy TicketsFri, Jan 31, 2025 @ 7:30 pmE.A. Rawlinson CentreSat, Feb 1, 2025 @ 8:00 pmHudson Bay Allied Arts CouncilBuy Tickets\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Former%2BLovers"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/278432c7-6462-4651-acec-54db1d33f0a3",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "George Canyon Acoustic"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-09T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-09T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8851/george-canyon-acoustic-swift-current-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8851"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/GeorgeCanyonPrimary.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g474100"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "George Canyon, an iconic Canadian country music star, boasts a remarkable career spanning numerous awards and honors, including Juno, CCMA, and ECMA Awards. With 12 albums under his belt and hits like \"Just Like You\" and \"I Believe in Angels,\" Ca [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g474120"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g474140"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g474160"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g474200"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/cd2f873a-682b-42b1-91d2-4908d39bd9f3",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/2d91edb4-4a41-4f76-a26c-d4f9db697a34",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/fbeae050-7bdf-4185-ba92-881faf4699f1",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        George Canyon Acoustic\n    \n            \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: https://georgecanyon.com/ \n  \n\t\t\t\t  \n\t\t\t\t George Canyon, an iconic Canadian country music star, boasts a remarkable career spanning numerous awards and honors, including Juno, CCMA, and ECMA Awards. With 12 albums under his belt and hits like \"Just Like You\" and \"I Believe in Angels,\" Canyon's influence extends beyond music; he's a dedicated humanitarian supporting causes like the Juvenile Diabetes Research Foundation and Canada's Armed Forces. His versatility shines through his acting roles in popular TV shows and movies. Canyon's latest venture includes a memoir, \"My Country,\" unveiling his journey from rural Nova Scotia to Nashville success. His latest single, \"My Country,\" echoes his heartfelt narrative, available on all streaming platforms.AppearancesDatePresented ByTicketsTue, Oct 8, 2024 @ 7:30 pmSwift Current Arts CouncilBuy TicketsWed, Oct 9, 2024 @ 7:30 pmWeyburn Concert SeriesTicket Info\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/8c70b3a8-24f7-4b03-82d5-f7b7cf01396b",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "George Canyon Acoustic-Tisdale"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-11T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-11T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8857/george-canyon-acoustic-tisdale-tisdale-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8857"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/GeorgeCanyonPrimary.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g475140"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "George Canyon, an iconic Canadian country music star, boasts a remarkable career spanning numerous awards and honors, including Juno, CCMA, and ECMA Awards. With 12 albums under his belt and hits like \"Just Like You\" and \"I Believe in Angels,\" Ca [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g475160"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g475180"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g475200"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g475240"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/8e15e35f-efd4-48ab-9fda-c4207fb707ec",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/229b023c-caa7-4148-abbd-faa997305d2c",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/a817a05d-ed50-4b80-84a8-8dc8ca7b5437",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        George Canyon Acoustic-Tisdale\n    \n            \n    \n            \n    \n            \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: https://georgecanyon.com/ \n  \n\t\t\t\t  \n\t\t\t\t George Canyon, an iconic Canadian country music star, boasts a remarkable career spanning numerous awards and honors, including Juno, CCMA, and ECMA Awards. With 12 albums under his belt and hits like \"Just Like You\" and \"I Believe in Angels,\" Canyon's influence extends beyond music; he's a dedicated humanitarian supporting causes like the Juvenile Diabetes Research Foundation and Canada's Armed Forces. His versatility shines through his acting roles in popular TV shows and movies. Canyon's latest venture includes a memoir, \"My Country,\" unveiling his journey from rural Nova Scotia to Nashville success. His latest single, \"My Country,\" echoes his heartfelt narrative, available on all streaming platforms.AppearancesDatePresented ByTicketsThu, Oct 10, 2024 @ 7:30 pmTisdale Arts CouncilTicket Info\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=George%2BCanyon%2BAcoustic-Tisdale"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/f59bf862-fa8a-4bb9-a264-d47f9c2e01e2",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Hula Hoopster"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-02-28T01:00:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-02-28T03:00:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8736/hula-hoopster-hudson-bay-allied-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8736"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/Hula1.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g477220"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "This solo circus spectacle is a perfect night out for you and the whole family. Sit back and be dazzled by the illusion of hoops paired with dance or partake in the interactive audience participation! Watch your special young one experience the thril [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g477240"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g477260"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g477280"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g477320"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/28a26569-9d6d-4c92-bcf0-e0c1f30cc31e",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/e4fea3c5-23a4-4cea-92a7-1c649239d8de",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/0b776a07-4b89-4b43-8279-09b273b179bd",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Hula Hoopster\n    \n    \n    \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: hulahoopster.com \n  \n\t\t\t\t  \n\t\t\t\t This solo circus spectacle is a perfect night out for you and the whole family. Sit back and be dazzled by the illusion of hoops paired with dance or partake in the interactive audience participation! Watch your special young one experience the thrill of participating on stage. Or enjoy getting involved by the comfort of your seat by counting along or making suggestions as the Hula-Hoopster entertains you!  After intermission, explore your own skills and the limitless possibilities waiting to be discovered through hoop play! Games, challenges, lessons and free time give the experience of running away and joining the circus for one special night!AppearancesDatePresented ByTicketsThu, Feb 27, 2025 @ 7:00 pmHudson Bay Allied Arts CouncilBuy Tickets\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Hula%2BHoopster"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/159f2795-6842-44a8-a8dc-d283d034b3e7",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Jack Semple Band Gordon Lightfoot Tribute"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-03T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-03T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8701/jack-semple-band-gordon-lightfoot-tribute-lloydminster-allied-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8701"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/JackSemple.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g478500"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Experience the magic of Jack Semple’s tribute to Gordon Lightfoot! Jack Semple with his mesmerizing guitar skills and emotive vocals channels the essence of the legendary Canadian folk icon Gordon Lightfoot. In this unforgettable concert Jack Sempl [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g478520"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g478540"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g478560"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g478600"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/0565fbdb-f6cf-444a-b62c-4117e201f934",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/43da921c-42b8-4843-bf1e-ba9735abb904",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/f7d392a4-1fa6-4d1b-a254-95752a669371",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Jack Semple Band Gordon Lightfoot Tribute\n            \n    \n            \n    \n            \n    \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: www.jacksemple.com \n  \n\t\t\t\t  \n\t\t\t\t Experience the magic of Jack Semple’s tribute to Gordon Lightfoot! Jack Semple with his mesmerizing guitar skills and emotive vocals channels the essence of the legendary Canadian folk icon Gordon Lightfoot. In this unforgettable concert Jack Semple takes you on a musical journey through Lightfoot’s greatest hits such as \"If you could read my mind\" \"Sundown\" and \"The wreck of the Edmund Fitzgerald\". Each note and every word resonate with a passion and authenticity that made Lightfoot’s music timeless. Whether you’re a long time fan of Gordon Lightfoot or discovering his music for the first time this tribute concert promises an evening of pure enchantment. Join us for an unforgettable night of nostalgia, emotion, and musical brilliance as Jack Semple pays homage to the legendary legendary Gordon Lightfoot`. Don’t miss this extraordinary celebration of Canadian musical history.AppearancesDatePresented ByTicketsWed, Oct 2, 2024 @ 7:30 pmLloydminster Allied Arts CouncilBuy TicketsSat, Nov 23, 2024 @ 7:30 pmDekker CentreBuy TicketsSat, Apr 5, 2025 @ 7:30 pmSwift Current Arts CouncilBuy Tickets\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BBand%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/68cde84a-f9bb-4b44-870a-77e8e3510c28",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Jack Semple Trio - Gordon Lightfoot Tribute"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-04T01:30:00+00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-04T03:30:00+00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://osac.ca/performing-arts/event/121-PA8697/jack-semple-trio-gordon-lightfoot-tribute-watrous-area-arts-council"
+      }
+    ],
+    "http://schema.org/eventID": [
+      {
+        "@value": "PA8697"
+      }
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/PerformingArtsEvent"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.osac.ca/images/PA/images/JackSemple.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g479980"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Experience the magic of Jack Semple’s tribute to Gordon Lightfoot! Jack Semple with his mesmerizing guitar skills and emotive vocals channels the essence of the legendary Canadian folk icon Gordon Lightfoot. In this unforgettable concert Jack Sempl [...]"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g480000"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g480020"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g480040"
+      }
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@id": "_:g480080"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/45b4122f-06be-4378-9e37-4f49bc171405",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/fc167aca-b1bf-4738-a8e8-6af2a5cad8a3",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.osac.ca/temporary/987f4eff-bc62-4e96-b4f1-a9b6a34dbb02",
+    "@type": [
+      "https://schema.org/Article"
+    ],
+    "https://schema.org/inLanguage": [
+      {
+        "@value": "en-GB"
+      }
+    ],
+    "https://schema.org/articleBody": [
+      {
+        "@value": "\n        Jack Semple Trio - Gordon Lightfoot Tribute\n            \n    \n            \n    \n            \n    \n    \n    \n    \n    \n\n\t\t\t\t\nArtist Website: www.jacksemple.com \n  \n\t\t\t\t  \n\t\t\t\t Experience the magic of Jack Semple’s tribute to Gordon Lightfoot! Jack Semple with his mesmerizing guitar skills and emotive vocals channels the essence of the legendary Canadian folk icon Gordon Lightfoot. In this unforgettable concert Jack Semple takes you on a musical journey through Lightfoot’s greatest hits such as \"If you could read my mind\" \"Sundown\" and \"The wreck of the Edmund Fitzgerald\". Each note and every word resonate with a passion and authenticity that made Lightfoot’s music timeless. Whether you’re a long time fan of Gordon Lightfoot or discovering his music for the first time this tribute concert promises an evening of pure enchantment. Join us for an unforgettable night of nostalgia, emotion, and musical brilliance as Jack Semple pays homage to the legendary legendary Gordon Lightfoot`. Don’t miss this extraordinary celebration of Canadian musical history.AppearancesDatePresented ByTicketsThu, Oct 3, 2024 @ 7:30 pmWatrous Area Arts CouncilTicket InfoFri, Oct 4, 2024 @ 7:30 pmStation Arts Centre CooperativeBuy TicketsSat, Oct 5, 2024 @ 7:30 pmMacklin Arts CouncilTicket InfoFri, Oct 25, 2024 @ 7:30 pmQuill Plains Regional Arts Council (QPRAC) - MainTicket Info\n    \n\n                                        \n                                        "
+      }
+    ],
+    "https://schema.org/headline": [
+      {
+        "@value": "\n            Performing Artist        "
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.osac.ca/index.php?option=com_content&view=article&id=156&Itemid=1821&artist=Jack%2BSemple%2BTrio%2B-%2BGordon%2BLightfoot%2BTribute"
+      }
+    ]
+  }
+]
