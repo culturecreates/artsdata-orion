@@ -8,6 +8,7 @@ module HeadlessBrowser
     graph = RDF::Graph.new
     entity_urls.each do |entity_url|
       begin
+        puts "Processing #{entity_url} in headless mode"
         browser.go_to(entity_url)
         sleep 15
         browser.stop

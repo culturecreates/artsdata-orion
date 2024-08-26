@@ -8,6 +8,7 @@ module RDFProcessor
 
     entity_urls.each do |entity_url|
       begin
+        puts "Processing #{entity_url} in non-headless mode"
         entity_url = entity_url.gsub(' ', '+')
         loaded_graph = RDF::Graph.load(entity_url)
         sparql_file_with_url = add_url_sparql_file.gsub("subject_url", entity_url)

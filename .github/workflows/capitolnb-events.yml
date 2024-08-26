@@ -22,8 +22,8 @@ jobs:
     - name: Run Main Script
       run: |
           bundle exec ruby src/main.rb \
-          https://capitol.nb.ca/en/tickets-events?start=0 \
-          "div.fc-item-block-standard-wrapper.odd a" \
+          https://capitol.nb.ca/en/tickets-events \
+          "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a" \
           output/capitolnb-events.jsonld \
           false \
           true
