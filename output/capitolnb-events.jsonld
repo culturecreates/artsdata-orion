@@ -1,67 +1,1109 @@
 [
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@id": "_:b1",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@id": "https://capitol.nb.ca/en/",
-          "name": "Home"
-        }
-      },
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
       {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@id": "https://capitol.nb.ca/en/tickets-events",
-          "name": "Tickets &amp; Events"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@id": "/en/tickets-events/la-patente",
-          "name": "La Patente"
-        }
+        "@id": "https://capitol.nb.ca/en/"
       }
     ]
   },
   {
-    "@context": "http://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@id": "https://capitol.nb.ca/en/",
+    "http://schema.org/name": [
       {
-        "@type": "listItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://capitol.nb.ca/en/"
-      },
-      {
-        "@type": "listItem",
-        "position": 2,
-        "name": "Tickets & Events",
-        "item": "https://capitol.nb.ca/en/tickets-events"
-      },
-      {
-        "@type": "listItem",
-        "position": 3,
-        "name": "La Patente",
-        "item": "https://capitol.nb.ca/en/tickets-events/la-patente"
+        "@value": "Home"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "name": "La Patente",
-    "description": "Presented at the Empress Theatre - standing on...",
-    "startDate": "2024-09-14T20:00:00-03:00",
-    "duration": "00:30",
-    "location": "Empress Theatre",
-    "endDate": "2024-09-14T20:30:00-03:00"
+    "@id": "_:b2",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/en/tickets-events",
+    "http://schema.org/name": [
+      {
+        "@value": "Tickets &amp; Events"
+      }
+    ]
+  },
+  {
+    "@id": "_:b3",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g465420",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g465440",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Tickets & Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g465460",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "La Patente"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events/la-patente"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g465880",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g465900",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g465920",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466000",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466020",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Tickets & Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466040",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Louis-José Houde"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events/louis-jose-houde-3"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466120",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466140",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466160",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466240",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466260",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Tickets & Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466280",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "David Goudreault"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events/david-goudreault"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466700",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466720",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466740",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466820",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466840",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Tickets & Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g466860",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Let's Get Loud"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events/lets-get-loud"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g467280",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467300",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467320",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467400",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g467420",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Tickets & Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g467440",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Eve Côté"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events/eve-cote"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g467860",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467880",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467900",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467980",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g468000",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Tickets & Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "_:g468020",
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "The Man in Black"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://capitol.nb.ca/en/tickets-events/the-man-in-black"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ListItem"
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/bd49511e-5949-4b1b-a92d-4f2ec82eab1c",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:b1"
+      },
+      {
+        "@id": "_:b2"
+      },
+      {
+        "@id": "_:b3"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/769194f8-c8bf-4a2c-b83f-9dacd31e1c34",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g465420"
+      },
+      {
+        "@id": "_:g465440"
+      },
+      {
+        "@id": "_:g465460"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/f58544c3-b40f-4325-af1d-efc02f285052",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "La Patente"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Presented at the Empress Theatre - standing on..."
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-14T20:00:00-03:00"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@value": "00:30"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@value": "Empress Theatre"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-14T20:30:00-03:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/f839f6cc-f3ab-4889-9e76-43f752acf7d7",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g465880"
+      },
+      {
+        "@id": "_:g465900"
+      },
+      {
+        "@id": "_:g465920"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/daca5a96-ea93-4c5d-a724-162c96e3fc41",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g466000"
+      },
+      {
+        "@id": "_:g466020"
+      },
+      {
+        "@id": "_:g466040"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/68ead7fb-a5c7-44dc-a270-8f8200fbab1d",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g466120"
+      },
+      {
+        "@id": "_:g466140"
+      },
+      {
+        "@id": "_:g466160"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/96bfe3db-e5c7-4ec2-9c04-6c039c7c3a0b",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g466240"
+      },
+      {
+        "@id": "_:g466260"
+      },
+      {
+        "@id": "_:g466280"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/c02d15e8-fed8-43ab-b83d-c8080d90a37d",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "David Goudreault"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "David Goudreault is a novelist, poet and socia..."
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-04T20:00:00-03:00"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@value": "00:30"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-04T20:30:00-03:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/cc5a5fb9-538f-4068-b590-e80d3a638cc9",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g466700"
+      },
+      {
+        "@id": "_:g466720"
+      },
+      {
+        "@id": "_:g466740"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/4fa91d6b-badf-42b5-83c9-d08d746f031c",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g466820"
+      },
+      {
+        "@id": "_:g466840"
+      },
+      {
+        "@id": "_:g466860"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/b3fb03b6-f77b-4830-a453-b81c0fbb591e",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Let's Get Loud"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Purchase a link to view this performance onlin..."
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-05T20:00:00-03:00"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@value": "8763:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-05T23:00:00-03:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/03c81b9c-7aa4-4ed4-9c9c-f6250e28aba0",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g467280"
+      },
+      {
+        "@id": "_:g467300"
+      },
+      {
+        "@id": "_:g467320"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/0b42d88b-9656-4ab9-a2be-1dd5cb704868",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g467400"
+      },
+      {
+        "@id": "_:g467420"
+      },
+      {
+        "@id": "_:g467440"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/5467f5aa-6810-4085-b4c2-a8a89999dc31",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Eve Côté"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "After a triumphant run of hundreds of performa..."
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-11T20:00:00-03:00"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@value": "00:30"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-11T20:30:00-03:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/68f1e5ba-ac03-4df3-adac-cd176f475571",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g467860"
+      },
+      {
+        "@id": "_:g467880"
+      },
+      {
+        "@id": "_:g467900"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/34a0463d-2d4c-4c69-a2e9-0d4785add8c5",
+    "@type": [
+      "http://schema.org/BreadcrumbList"
+    ],
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "_:g467980"
+      },
+      {
+        "@id": "_:g468000"
+      },
+      {
+        "@id": "_:g468020"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/7edd2fd4-2a08-455b-91fc-f598a728ec82",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "The Man in Black"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "With his great physical resemblance, baritone ..."
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-13T20:00:00-03:00"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@value": "03:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-13T23:00:00-03:00"
+      }
+    ]
   }
 ]
