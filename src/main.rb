@@ -13,9 +13,9 @@ entity_urls = EntityFetcher.fetch_entity_urls(page_url, entity_identifier, is_pa
 base_url = page_url.split('/')[0..2].join('/')
 
 if headless == 'true'
-  json_ld_objects = HeadlessBrowser.fetch_json_ld_objects(entity_urls)
+  graph = HeadlessBrowser.fetch_json_ld_objects(entity_urls, base_url)
   File.open(file_name, 'w') do |file|
-    file.write(JSON.pretty_generate(json_ld_objects))
+    file.puts(graph.dump(:jsonld))
   end
 else
   graph = RDFProcessor.process_rdf(entity_urls, base_url)

@@ -1,6 +1,6 @@
 require 'linkeddata'
 require 'sparql'
-
+require_relative 'sparql_processor'
 module RDFProcessor
   def self.process_rdf(entity_urls, base_url)
     graph = RDF::Graph.new
@@ -24,7 +24,7 @@ module RDFProcessor
       "./sparql/fix_date_timezone.sparql"
     ]
 
-    perform_sparql_transformations(graph, sparql_paths, base_url)
+    SparqlProcessor.perform_sparql_transformations(graph, sparql_paths, base_url)
   end
 
   private
