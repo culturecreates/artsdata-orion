@@ -1,0 +1,67 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://capitol.nb.ca/en/",
+          "name": "Home"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://capitol.nb.ca/en/tickets-events",
+          "name": "Tickets &amp; Events"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "/en/tickets-events/la-patente",
+          "name": "La Patente"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "listItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://capitol.nb.ca/en/"
+      },
+      {
+        "@type": "listItem",
+        "position": 2,
+        "name": "Tickets & Events",
+        "item": "https://capitol.nb.ca/en/tickets-events"
+      },
+      {
+        "@type": "listItem",
+        "position": 3,
+        "name": "La Patente",
+        "item": "https://capitol.nb.ca/en/tickets-events/la-patente"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "name": "La Patente",
+    "description": "Presented at the Empress Theatre - standing on...",
+    "startDate": "2024-09-14T20:00:00-03:00",
+    "duration": "00:30",
+    "location": "Empress Theatre",
+    "endDate": "2024-09-14T20:30:00-03:00"
+  }
+]
