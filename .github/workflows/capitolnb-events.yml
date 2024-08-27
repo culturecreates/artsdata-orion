@@ -2,8 +2,6 @@ name: Fetch Capitolnb Events
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 15 * * 1'  # Runs every Monday at 10 AM EST
 
 jobs:
   fetch-and-commit-data:
