@@ -28,6 +28,12 @@ jobs:
           false \
           true
 
+    - name: Replace location
+      run: |
+        FILE="output/capitolnb-events.jsonld"
+        sed -i 's/"@value": "Capitol Theatre"/"@id": "http:\/\/kg.artsdata.ca\/resource\/K11-116"/g' "$FILE"
+        sed -i 's/"@value": "Empress Theatre"/"@id": "http:\/\/kg.artsdata.ca\/resource\/K11-116"/g' "$FILE"
+
     - name: Commit and Push Changes
       run: |
         git config --local user.email "actions@github.com"
@@ -52,7 +58,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
-          artifact: capitolnb-ca
+          artifact: capitol-nb-ca
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.fetch-and-commit-data.outputs.commit-hash }}/output/capitolnb-events.jsonld
 
