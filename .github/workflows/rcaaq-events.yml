@@ -6,6 +6,15 @@ on:
     - cron: '0 0 1 */6 *'
       
 jobs:
+  call-workflow-to-fetch-data:
+    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    with:
+        page_url: "https://reseauartactuel.org/liste_evenements/page/"
+        entity_identifier: "h3.tribe-events-list-event-title a"
+        file_name: "rcaaq-events.jsonld"
+        is_paginated: "true"
+        headless: "false"  
+
   fetch-and-commit-data:
     runs-on: ubuntu-latest
     outputs:
