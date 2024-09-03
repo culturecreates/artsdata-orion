@@ -41,7 +41,7 @@ jobs:
     - name: Run Main Script
       run: |
         bundle exec ruby src/main.rb \
-        ${{ inputs.page_url }} \
+        "${{ inputs.page_url }}" \
         "${{ inputs.entity_identifier }}" \
         output/${{ inputs.file_name }} \
         ${{ inputs.is_paginated}} \
