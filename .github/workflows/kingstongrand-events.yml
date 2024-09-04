@@ -1,12 +1,12 @@
 name: Fetch Kingston-Grand Events
 
 on:
-    workflow_dispatch:
-    schedule:
-      - cron: '0 14 * * 1'    
+  workflow_dispatch:
+  schedule:
+    - cron: '0 14 * * 1'    
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://www.kingstongrand.ca/events"
         entity_identifier: "div.image a"

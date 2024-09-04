@@ -7,7 +7,7 @@ on:
       
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://yardbirdsuite.com/events/page/"
         entity_identifier: "a.h-100.w-100.position-absolute.t-0.l-0.z-999"

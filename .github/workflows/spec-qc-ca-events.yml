@@ -6,7 +6,7 @@ on:
     - cron: '0 7 * * 3'
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://spec.qc.ca/programmation"
         entity_identifier: ".headlining__component"

@@ -5,7 +5,7 @@ on:
       
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://www.osac.ca/performing-arts/performances?run=patours"
         entity_identifier: "td a"

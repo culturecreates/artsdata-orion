@@ -7,7 +7,7 @@ on:
       
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://saskatoonsymphony.org/season/"
         entity_identifier: "div.vem-custom-calendar-image a"

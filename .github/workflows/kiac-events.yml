@@ -7,7 +7,7 @@ on:
       
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://kiac.ca/calendar-of-events/"
         entity_identifier: "div.tribe-events-pro-photo__event-featured-image-wrapper a"

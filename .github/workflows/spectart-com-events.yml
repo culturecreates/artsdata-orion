@@ -6,7 +6,7 @@ on:
     - cron: '0 6 * * 3'
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://spectart.com/programmation/"
         entity_identifier: "a.thumbnail"

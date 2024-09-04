@@ -7,7 +7,7 @@ on:
  # Target website updated. Need to update index page parameters.     
 jobs:
   call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
+    uses: ./.github/workflows/fetch-data.yml
     with:
         page_url: "https://www.aramusique.org/evenements/liste/page/"
         entity_identifier: "h3.tribe-events-calendar-list__event-title.tribe-common-h6.tribe-common-h4--min-medium a"
