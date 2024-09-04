@@ -32,6 +32,11 @@ class FixDateTimezoneTest < Minitest::Test
     expected =  RDF::Literal.new('2024-02-03T20:00:00-07:00', datatype: RDF::URI("http://schema.org/Date"))
     actual = graph.query([RDF::URI('http://example.com/event4'), RDF::Vocab::SCHEMA.endDate, nil]).first.object
     assert_equal expected, actual, "event4 failed"
+
+    # Test event5
+    expected =  RDF::Literal.new('2024-02-03T20:00:00+00:00', datatype: RDF::URI("http://schema.org/Date"))
+    actual = graph.query([RDF::URI('http://example.com/event5'), RDF::Vocab::SCHEMA.startDate, nil]).first.object
+    assert_equal expected, actual, "event5 failed"
   end
 
   def test_skip_dates_without_timezone

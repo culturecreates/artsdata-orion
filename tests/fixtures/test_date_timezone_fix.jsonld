@@ -30,6 +30,15 @@
       "@id": "http://example.com/event4",
       "name": "endDate with badly formated timezone ",
       "endDate": "2024-02-03T20:00:00-0700"
+    },
+    {
+      "@type": "Event",
+      "@id": "http://example.com/event5",
+      "name": "startDate^^schema:Date with badly formated +0000 timezone ",
+      "startDate": {
+        "@value": "2024-02-03T20:00:00+0000",
+        "@type": "Date"
+      }
     }
   ]
 }

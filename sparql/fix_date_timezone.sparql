@@ -13,10 +13,14 @@ WHERE {
   FILTER (datatype(?old_date) = schema:Date || datatype(?old_date) = schema:DateTime)
   BIND(datatype(?old_date) as ?old_date_type)
   BIND(strbefore(str(?old_date),"T") as ?date_str)
-  BIND(strbefore(strafter(str(?old_date), "T"), "-") AS ?time_str)
-  BIND(strafter(strafter(str(?old_date), "T"), "-") AS ?zone_str)
+  BIND(strafter(str(?old_date), "T") as ?old_time_str)
+  BIND(IF(CONTAINS(str(?old_time_str),"+"),"+", "-") AS ?zone_operator)
+
+  BIND(strbefore(str(?old_time_str), ?zone_operator) AS ?time_str)
+  BIND(strafter(str(?old_time_str), ?zone_operator) AS ?zone_str)
+
   FILTER (?date_str != "" && ?time_str != "" && ?zone_str != "")
   FILTER (SUBSTR(str(?zone_str), 3, 1) != ':')
   BIND(CONCAT(SUBSTR(str(?zone_str), 1, 2), ":", SUBSTR(str(?zone_str), 3, 2)) as ?zone_fix)
-  BIND(strdt(concat(?date_str, "T", ?time_str, "-", ?zone_fix), ?old_date_type) as ?fixed_date)
+  BIND(strdt(concat(?date_str, "T", ?time_str, ?zone_operator, ?zone_fix), ?old_date_type) as ?fixed_date)
 } 
