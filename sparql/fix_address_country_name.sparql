@@ -1,0 +1,17 @@
+PREFIX schema: <http://schema.org/>
+
+DELETE {
+  ?address schema:addressCountry ?country .
+  ?country ?p ?o .
+}
+INSERT {
+  ?address schema:addressCountry ?countryName .
+}
+WHERE {
+  ?address a schema:PostalAddress ;
+           schema:addressCountry ?country .
+  
+  ?country a schema:Country ;
+           schema:name ?countryName ;
+           ?p ?o .
+}
