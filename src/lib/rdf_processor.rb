@@ -23,7 +23,8 @@ module RDFProcessor
       "./sparql/replace_blank_nodes.sparql",
       "./sparql/fix_entity_type_capital.sparql",
       "./sparql/fix_date_timezone.sparql",
-      "./sparql/fix_address_country_name.sparql"
+      "./sparql/fix_address_country_name.sparql",
+      "./sparql/remove_objects.sparql"
     ]
 
     SparqlProcessor.perform_sparql_transformations(graph, sparql_paths, base_url)
