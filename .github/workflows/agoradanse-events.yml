@@ -9,7 +9,7 @@ jobs:
   call-workflow-to-fetch-and-push-data:
     uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
     with:
-        page_url: "https://agoradanse.com/evenement/montreal-marrakech/?utm_source=fb&utm_medium=Facebook_Mobile_Feed&utm_campaign=120211877123720753&fbclid=IwZXh0bgNhZW0BMAABHToAQwEUL2gvJgRPRTTbIXvTlaiA3akDqBK4DcG97r2jWKYI1n0LQdUHEw_aem_F-kVG3LEqMQx8UnatShSEQ"
+        page_url: "https://agoradanse.com/evenement/"
         entity_identifier: "div.x-container.max a"
         file_name: "agoradanse-events.jsonld"
         is_paginated: "false"

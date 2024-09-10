@@ -1,6 +1,7 @@
-DELETE WHERE {
-  ?s a <http://schema.org/SiteNavigationElement> .
-  ?s ?p ?o .
+DELETE {
+  ?subject ?predicate ?object .
 }
-
-
+WHERE {
+  ?subject ?predicate ?object .
+  ?subject a <http://schema.org/SiteNavigationElement> .
+}
