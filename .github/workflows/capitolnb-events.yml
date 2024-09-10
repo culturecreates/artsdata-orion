@@ -7,10 +7,10 @@ jobs:
   call-workflow-to-fetch-data:
     uses: ./.github/workflows/fetch-data.yml
     with:
-        page_url: "https://capitol.nb.ca/en/tickets-events"
+        page_url: "https://capitol.nb.ca/en/tickets-events?filter_45=2024-"
         entity_identifier: "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a"
         file_name: "capitolnb-events.jsonld"
-        is_paginated: "false"
+        is_paginated: "9"
         headless: "true"
 
   replace-location-name:

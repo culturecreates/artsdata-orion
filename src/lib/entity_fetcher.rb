@@ -5,7 +5,15 @@ module EntityFetcher
   def self.fetch_entity_urls(page_url, entity_identifier, is_paginated)
     base_url = page_url.split('/')[0..2].join('/')
     entity_urls = []
-    page_number = is_paginated ? 1 : nil
+
+    if is_paginated == 'false'
+      page_number = nil
+    elsif is_paginated == 'true'
+      page_number = 1
+    else
+      page_number = is_paginated.to_i
+    end
+    
     max_retries, retry_count = 3, 0
 
     loop do

@@ -9,7 +9,7 @@ end
 
 page_url, entity_identifier, file_name, is_paginated, headless = ARGV[0..4]
 
-entity_urls = EntityFetcher.fetch_entity_urls(page_url, entity_identifier, is_paginated == 'true')
+entity_urls = EntityFetcher.fetch_entity_urls(page_url, entity_identifier, is_paginated)
 base_url = page_url.split('/')[0..2].join('/')
 
 if headless == 'true'

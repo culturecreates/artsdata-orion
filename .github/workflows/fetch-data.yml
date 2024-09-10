@@ -16,6 +16,7 @@ on:
         required: true
         type: string
       is_paginated:
+        description: "Whether the page is paginated or not, set as 'true', 'false' or a number as start page for crawl"
         required: true
         type: string
       headless:
@@ -45,7 +46,7 @@ jobs:
         "${{ inputs.entity_identifier }}" \
         output/${{ inputs.file_name }} \
         ${{ inputs.is_paginated}} \
-        ${{ inputs.headless}} \
+        ${{ inputs.headless}}
 
     - name: Commit and Push Changes
       run: |
