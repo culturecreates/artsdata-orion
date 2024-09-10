@@ -1,7 +1,11 @@
+PREFIX schema: <http://schema.org/>
+PREFIX schemaHttps: <https://schema.org/>
+
 DELETE {
-  ?subject ?predicate ?object .
+  ?s ?p ?o .
 }
 WHERE {
-  ?subject ?predicate ?object .
-  ?subject a <http://schema.org/SiteNavigationElement> .
+  ?s ?p ?o .
+  ?s a ?type .
+  VALUES ?type { schema:SiteNavigationElement schemaHttps:SiteNavigationElement }
 }

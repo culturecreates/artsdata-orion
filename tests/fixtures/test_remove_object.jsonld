@@ -1,0 +1,46 @@
+{
+    "@context": "http://schema.org",
+    "@graph": [
+        {
+            "@id": "https://example.com/temporary/unique-id-1",
+            "@type": [
+                "https://schema.org/SiteNavigationElement"
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "@id": "https://example.com/source-page-1"
+                }
+            ]
+        },
+        {
+            "@id": "https://example.com/temporary/unique-id-2",
+            "@type": [
+                "http://schema.org/SiteNavigationElement"
+            ],
+            "http://schema.org/name": [
+                {
+                    "@value": "Example Name 1"
+                },
+                {
+                    "@value": "Example Name 2"
+                }
+            ],
+            "http://schema.org/url": [
+                {
+                    "@id": "https://example.com/page-1"
+                },
+                {
+                    "@id": "https://example.com/page-2"
+                },
+                {
+                    "@id": "https://example.com/login-page"
+                }
+            ],
+            "http://www.w3.org/ns.prov#wasDerivedFrom": [
+                {
+                    "@id": "https://example.com/source-page-1"
+                }
+            ]
+        }
+    ]
+}
