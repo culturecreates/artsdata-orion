@@ -33,7 +33,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
       with: 
-        repository: culturecreates/artsdata-orion
+        repository: ${{github.repository}}
         ref: main
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
