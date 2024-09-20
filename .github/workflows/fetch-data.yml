@@ -22,6 +22,10 @@ on:
       headless:
         required: true
         type: string
+      save_method:
+        description: "choices: S3 | artifact, keeping this empty will commit the file to the repository"
+        required: false
+        type: string
 
 
 jobs:
@@ -48,7 +52,15 @@ jobs:
         ${{ inputs.is_paginated}} \
         ${{ inputs.headless}}
 
+    - name: Save file as artifact
+      if: ${{ inputs.save_method == 'artifact' }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: jsonld-data
+        path: output/
+
     - name: Commit and Push Changes
+      if: ${{ inputs.save_method == '' }}
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
@@ -59,7 +71,8 @@ jobs:
 
     - name: Get commit hash
       id: get_commit_hash
+      if: ${{ inputs.save_method == '' }}
       run: |
         commit_hash=$(git rev-parse HEAD)
-        echo "commit-hash=$commit_hash" >> $GITHUB_OUTPUT       
+        echo "commit-hash=$commit_hash" >> $GITHUB_OUTPUT     
     
