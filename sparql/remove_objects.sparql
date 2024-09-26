@@ -5,7 +5,23 @@ DELETE {
   ?s ?p ?o .
 }
 WHERE {
-  ?s ?p ?o .
-  ?s a ?type .
-  VALUES ?type { schema:SiteNavigationElement schemaHttps:SiteNavigationElement }
+  {
+    ?s a ?type ;
+       ?p ?o .
+    VALUES ?type {
+      schema:SiteNavigationElement
+      schemaHttps:SiteNavigationElement
+      schema:WPHeader
+      schema:WPFooter
+      schema:BreadcrumbList
+    }
+  }
+  UNION
+  {
+    ?s ?predicate ?role ;
+      ?p ?o .
+    VALUES ?predicate {
+      <http://www.w3.org/1999/xhtml/vocab#role>
+    }
+  }
 }
