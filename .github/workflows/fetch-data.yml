@@ -57,7 +57,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: jsonld-data
-        path: output/
+        path: output/${{inputs.file_name}}
 
     - name: Commit and Push Changes
       if: ${{ inputs.save_method == '' }}
