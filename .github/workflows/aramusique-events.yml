@@ -2,9 +2,8 @@ name: Fetch Aramusique Events
 
 on:
   workflow_dispatch:
- # schedule:
- #   - cron: '0 0 1 * *'
- # Target website updated. Need to update index page parameters.     
+  schedule:
+    - cron: '0 0 1 * *'
 jobs:
   call-workflow-to-fetch-and-push-data:
     uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
