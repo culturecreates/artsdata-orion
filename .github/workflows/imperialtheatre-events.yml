@@ -6,14 +6,17 @@ on:
     - cron: '0 3 * * 1'
       
 jobs:
-  call-workflow-to-fetch-and-push-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
-    with:
-        page_url: "https://imperialtheatre.ca/events/?_paged="
-        entity_identifier: "div.fl-post-image a"
-        file_name: "imperialtheatre-events.jsonld"
-        is_paginated: "true"
-        headless: "false"
-        artifact: "imperialtheatre-ca"
-    secrets:
-        PUBLISHER_URI_GREGORY: ${{ secrets.PUBLISHER_URI_GREGORY }}
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        with:
+          mode: "fetch-push"
+          artifact: "imperialtheatre-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "imperialtheatre-events.jsonld"
+          page-url: "https://imperialtheatre.ca/events/?_paged="
+          entity-identifier: "div.fl-post-image a"
+          is-paginated: "true"
+          token: "${{ secrets.GITHUB_TOKEN }}"
