@@ -6,14 +6,16 @@ on:
     - cron: '0 0 1 */6 *'
       
 jobs:
-  call-workflow-to-fetch-and-push-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
-    with:
-        page_url: "https://totemcontemporain.com/fr/calendrier"
-        entity_identifier: "h3.picto.padding-bottom-12 a"
-        file_name: "totem-events.jsonld"
-        is_paginated: "false"
-        headless: "false"
-        artifact: "totemcontemporain-com"
-    secrets:
-        PUBLISHER_URI_GREGORY: ${{ secrets.PUBLISHER_URI_GREGORY }}   
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        with:
+          mode: "fetch-push"
+          artifact: "totemcontemporain-com"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "totem-events.jsonld"
+          page-url: "https://totemcontemporain.com/fr/calendrier"
+          entity-identifier: "h3.picto.padding-bottom-12 a"
+          token: "${{ secrets.GITHUB_TOKEN }}"

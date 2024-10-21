@@ -6,14 +6,16 @@ on:
     - cron: '0 2 * * 2'
       
 jobs:
-  call-workflow-to-fetch-and-push-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
-    with:
-        page_url: "https://saskatoonsymphony.org/season/"
-        entity_identifier: "div.vem-custom-calendar-image a"
-        file_name: "saskatoonsymphony-events.jsonld"
-        is_paginated: "false"
-        headless: "false"  
-        artifact: "saskatoonsymphony-org"
-    secrets:
-        PUBLISHER_URI_GREGORY: ${{ secrets.PUBLISHER_URI_GREGORY }}
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        with:
+          mode: "fetch-push"
+          artifact: "saskatoonsymphony-org"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "saskatoonsymphony-events.jsonld"
+          page-url: "https://saskatoonsymphony.org/season/"
+          entity-identifier: "div.vem-custom-calendar-image a"
+          token: "${{ secrets.GITHUB_TOKEN }}"

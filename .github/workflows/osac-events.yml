@@ -4,14 +4,16 @@ on:
   workflow_dispatch:
       
 jobs:
-  call-workflow-to-fetch-and-push-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
-    with:
-        page_url: "https://www.osac.ca/performing-arts/performances?run=patours"
-        entity_identifier: "td a"
-        file_name: "osac-events.jsonld"
-        is_paginated: "false"
-        headless: "false"  
-        artifact: "osac-ca"
-    secrets:
-        PUBLISHER_URI_GREGORY: ${{ secrets.PUBLISHER_URI_GREGORY }}
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        with:
+          mode: "fetch-push"
+          artifact: "osac-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "osac-events.jsonld"
+          page-url: "https://www.osac.ca/performing-arts/performances?run=patours"
+          entity-identifier: "td a"
+          token: "${{ secrets.GITHUB_TOKEN }}"
