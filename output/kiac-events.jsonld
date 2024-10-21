@@ -135,7 +135,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g455900"
+        "@id": "_:g455880"
       }
     ],
     "https://api.w.org/": [
@@ -176,31 +176,43 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g455980"
+        "@id": "_:g455960"
       },
       {
-        "@id": "_:g460780"
+        "@id": "_:g460540"
       },
       {
-        "@id": "_:g463520"
+        "@id": "_:g464940"
       },
       {
-        "@id": "_:g466460"
+        "@id": "_:g469560"
       },
       {
-        "@id": "_:g471160"
+        "@id": "_:g474820"
       },
       {
-        "@id": "_:g473520"
+        "@id": "_:g480020"
       },
       {
-        "@id": "_:g477900"
+        "@id": "_:g483680"
       },
       {
-        "@id": "_:g482220"
+        "@id": "_:g486980"
       },
       {
-        "@id": "_:g486340"
+        "@id": "_:g491840"
+      },
+      {
+        "@id": "_:g495320"
+      },
+      {
+        "@id": "_:g500540"
+      },
+      {
+        "@id": "_:g505520"
+      },
+      {
+        "@id": "_:g510860"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -243,7 +255,7 @@
     ]
   },
   {
-    "@id": "_:g455900",
+    "@id": "_:g455880",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -291,151 +303,215 @@
     ]
   },
   {
-    "@id": "_:g455980",
+    "@id": "_:g455960",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
+      {
+        "@id": "_:g455980"
+      }
+    ],
+    "http://schema.org/query-input": [
       {
         "@id": "_:g456000"
       }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@value": "required name=search_term_string"
-      }
     ]
   },
   {
-    "@id": "_:g460780",
+    "@id": "_:g460540",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g460800"
+        "@id": "_:g460560"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g460580"
       }
     ]
   },
   {
-    "@id": "_:g463520",
+    "@id": "_:g464940",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g463540"
+        "@id": "_:g464960"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g464980"
       }
     ]
   },
   {
-    "@id": "_:g466460",
+    "@id": "_:g469560",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g466480"
+        "@id": "_:g469580"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g469600"
       }
     ]
   },
   {
-    "@id": "_:g471160",
+    "@id": "_:g474820",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g471180"
+        "@id": "_:g474840"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g474860"
       }
     ]
   },
   {
-    "@id": "_:g473520",
+    "@id": "_:g480020",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g473540"
+        "@id": "_:g480040"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g480060"
       }
     ]
   },
   {
-    "@id": "_:g477900",
+    "@id": "_:g483680",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g477920"
+        "@id": "_:g483700"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g483720"
       }
     ]
   },
   {
-    "@id": "_:g482220",
+    "@id": "_:g486980",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g482240"
+        "@id": "_:g487000"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g487020"
       }
     ]
   },
   {
-    "@id": "_:g486340",
+    "@id": "_:g491840",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g486360"
+        "@id": "_:g491860"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@value": "required name=search_term_string"
+        "@id": "_:g491880"
       }
     ]
   },
   {
-    "@id": "_:g455920",
+    "@id": "_:g495320",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g495340"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g495360"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500540",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g500560"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g500580"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505520",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g505540"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g505560"
+      }
+    ]
+  },
+  {
+    "@id": "_:g510860",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g510880"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g510900"
+      }
+    ]
+  },
+  {
+    "@id": "_:g455900",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -457,7 +533,7 @@
     ]
   },
   {
-    "@id": "_:g455940",
+    "@id": "_:g455920",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -479,7 +555,7 @@
     ]
   },
   {
-    "@id": "_:g455960",
+    "@id": "_:g455940",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -534,13 +610,30 @@
     ]
   },
   {
-    "@id": "_:g456000",
+    "@id": "_:g455980",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
     "http://schema.org/urlTemplate": [
       {
         "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g456000",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
       }
     ]
   },
@@ -733,7 +826,7 @@
     ]
   },
   {
-    "@id": "_:g460200",
+    "@id": "_:g459940",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -754,7 +847,7 @@
     ]
   },
   {
-    "@id": "_:g460220",
+    "@id": "_:g459960",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -905,7 +998,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g460700"
+        "@id": "_:g460460"
       }
     ],
     "https://api.w.org/": [
@@ -948,7 +1041,7 @@
     ]
   },
   {
-    "@id": "_:g460700",
+    "@id": "_:g460460",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -959,7 +1052,7 @@
     ]
   },
   {
-    "@id": "_:g460720",
+    "@id": "_:g460480",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -981,7 +1074,7 @@
     ]
   },
   {
-    "@id": "_:g460740",
+    "@id": "_:g460500",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1003,7 +1096,7 @@
     ]
   },
   {
-    "@id": "_:g460760",
+    "@id": "_:g460520",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1020,13 +1113,30 @@
     ]
   },
   {
-    "@id": "_:g460800",
+    "@id": "_:g460560",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
     "http://schema.org/urlTemplate": [
       {
         "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g460580",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
       }
     ]
   },
@@ -1079,17 +1189,17 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g460820"
+        "@id": "_:g460600"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g460860"
+        "@id": "_:g460640"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g460880"
+        "@id": "_:g460660"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -1104,7 +1214,7 @@
     ]
   },
   {
-    "@id": "_:g460820",
+    "@id": "_:g460600",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1125,7 +1235,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g460840"
+        "@id": "_:g460620"
       }
     ],
     "http://schema.org/telephone": [
@@ -1140,7 +1250,7 @@
     ]
   },
   {
-    "@id": "_:g460860",
+    "@id": "_:g460640",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -1171,7 +1281,7 @@
     ]
   },
   {
-    "@id": "_:g460880",
+    "@id": "_:g460660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1208,7 +1318,7 @@
     ]
   },
   {
-    "@id": "_:g460840",
+    "@id": "_:g460620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1219,7 +1329,7 @@
     ]
   },
   {
-    "@id": "_:g463240",
+    "@id": "_:g464380",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1240,7 +1350,7 @@
     ]
   },
   {
-    "@id": "_:g463260",
+    "@id": "_:g464400",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1391,7 +1501,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g463440"
+        "@id": "_:g464860"
       }
     ],
     "https://api.w.org/": [
@@ -1434,7 +1544,7 @@
     ]
   },
   {
-    "@id": "_:g463440",
+    "@id": "_:g464860",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -1445,7 +1555,7 @@
     ]
   },
   {
-    "@id": "_:g463460",
+    "@id": "_:g464880",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1467,7 +1577,7 @@
     ]
   },
   {
-    "@id": "_:g463480",
+    "@id": "_:g464900",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1489,7 +1599,7 @@
     ]
   },
   {
-    "@id": "_:g463500",
+    "@id": "_:g464920",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1506,13 +1616,30 @@
     ]
   },
   {
-    "@id": "_:g463540",
+    "@id": "_:g464960",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
     "http://schema.org/urlTemplate": [
       {
         "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464980",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
       }
     ]
   },
@@ -1565,17 +1692,17 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g463560"
+        "@id": "_:g465000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g463600"
+        "@id": "_:g465040"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g463620"
+        "@id": "_:g465060"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -1590,7 +1717,7 @@
     ]
   },
   {
-    "@id": "_:g463560",
+    "@id": "_:g465000",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1611,7 +1738,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g463580"
+        "@id": "_:g465020"
       }
     ],
     "http://schema.org/telephone": [
@@ -1626,7 +1753,7 @@
     ]
   },
   {
-    "@id": "_:g463600",
+    "@id": "_:g465040",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -1657,7 +1784,7 @@
     ]
   },
   {
-    "@id": "_:g463620",
+    "@id": "_:g465060",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1694,7 +1821,7 @@
     ]
   },
   {
-    "@id": "_:g463580",
+    "@id": "_:g465020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1705,7 +1832,7 @@
     ]
   },
   {
-    "@id": "_:g465880",
+    "@id": "_:g468980",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1726,7 +1853,7 @@
     ]
   },
   {
-    "@id": "_:g465900",
+    "@id": "_:g469000",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1742,7 +1869,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/",
+    "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/",
     "http://ogp.me/ns#locale": [
       {
         "@language": "en-us",
@@ -1758,7 +1885,7 @@
     "http://ogp.me/ns#title": [
       {
         "@language": "en-us",
-        "@value": "In the ODD Gallery: SHARP TEETH | Curated by Sanaa Humayun – KLONDIKE INSTITUTE OF ART & CULTURE"
+        "@value": "STEPS + ODD Gallery Present: Raven Shares the Sun – KLONDIKE INSTITUTE OF ART & CULTURE"
       }
     ],
     "http://ogp.me/ns#description": [
@@ -1770,7 +1897,7 @@
     "http://ogp.me/ns#url": [
       {
         "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@value": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ],
     "http://ogp.me/ns#site_name": [
@@ -1788,25 +1915,25 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2024-09-10T19:41:12+00:00"
+        "@value": "2024-10-09T21:19:36+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://kiac.ca/wp-content/uploads/2024/08/SHARP-TEETH.png"
+        "@value": "https://kiac.ca/wp-content/uploads/2024/10/Raven-Shares-Sn-Drawing-Website.png"
       }
     ],
     "http://ogp.me/ns#image:width": [
       {
         "@language": "en-us",
-        "@value": "2000"
+        "@value": "1650"
       }
     ],
     "http://ogp.me/ns#image:height": [
       {
         "@language": "en-us",
-        "@value": "1414"
+        "@value": "1275"
       }
     ],
     "http://ogp.me/ns#image:type": [
@@ -1820,12 +1947,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ],
     "http://schema.org/name": [
       {
-        "@value": "In the ODD Gallery: SHARP TEETH | Curated by Sanaa Humayun &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+        "@value": "STEPS + ODD Gallery Present: Raven Shares the Sun &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
       }
     ],
     "http://schema.org/isPartOf": [
@@ -1835,29 +1962,29 @@
     ],
     "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/#primaryimage"
       }
     ],
     "http://schema.org/thumbnailUrl": [
       {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/08/SHARP-TEETH.png"
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/Raven-Shares-Sn-Drawing-Website.png"
       }
     ],
     "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-08-23T21:25:39+00:00"
+        "@value": "2024-10-03T00:46:46+00:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-09-10T19:41:12+00:00"
+        "@value": "2024-10-09T21:19:36+00:00"
       }
     ],
     "http://schema.org/description": [
@@ -1867,7 +1994,7 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/#breadcrumb"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/#breadcrumb"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -1877,7 +2004,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g466380"
+        "@id": "_:g469480"
       }
     ],
     "https://api.w.org/": [
@@ -1887,7 +2014,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/#primaryimage",
+    "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -1898,40 +2025,45 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/08/SHARP-TEETH.png"
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/Raven-Shares-Sn-Drawing-Website.png"
       }
     ],
     "http://schema.org/contentUrl": [
       {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/08/SHARP-TEETH.png"
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/Raven-Shares-Sn-Drawing-Website.png"
       }
     ],
     "http://schema.org/width": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2000"
+        "@value": "1650"
       }
     ],
     "http://schema.org/height": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1414"
+        "@value": "1275"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@value": "Raven Shares the Sun - Krystle Silverfox"
       }
     ]
   },
   {
-    "@id": "_:g466380",
+    "@id": "_:g469480",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
-        "@value": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@value": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "_:g466400",
+    "@id": "_:g469500",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1953,7 +2085,7 @@
     ]
   },
   {
-    "@id": "_:g466420",
+    "@id": "_:g469520",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1975,7 +2107,7 @@
     ]
   },
   {
-    "@id": "_:g466440",
+    "@id": "_:g469540",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -1987,12 +2119,12 @@
     ],
     "http://schema.org/name": [
       {
-        "@value": "In the ODD Gallery: SHARP TEETH | Curated by Sanaa Humayun"
+        "@value": "STEPS + ODD Gallery Present: Raven Shares the Sun"
       }
     ]
   },
   {
-    "@id": "_:g466480",
+    "@id": "_:g469580",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2003,28 +2135,45 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/#event",
+    "@id": "_:g469600",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/#event",
     "@type": [
       "http://schema.org/Event"
     ],
     "http://schema.org/name": [
       {
-        "@value": "In the ODD Gallery: SHARP TEETH | Curated by Sanaa Humayun"
+        "@value": "STEPS + ODD Gallery Present: Raven Shares the Sun"
       }
     ],
     "http://schema.org/description": [
       {
-        "@value": "At the ODD Gallery &#8211; Dënäkär Zho Participating Artists: Emily Riddle, Faith Goodman, Jasmine Piper, Kiona Callihoo Ligtvoet, Mizin Shin, Raneece Buddan &amp; Rihab Essayh. On View September 12th &#8211; [&hellip;]"
+        "@value": "KRYSTLE SILVERFOX  |  RAVEN SHARES THE SUN October 2024 – September 2025 Front Street &amp; Princess Street Tr’ondëk Hwëch’in territory, Dawson City, Yukon OPENING RECEPTION: Tentatively Scheduled for January 15th, 2025 ARTIST [&hellip;]"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/#primaryimage"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ],
     "http://schema.org/eventAttendanceMode": [
@@ -2040,38 +2189,974 @@
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-09-12T02:00:00-07:00"
+        "@value": "2024-10-02T02:00:00-07:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-10-18T01:59:59-07:00"
+        "@value": "2024-11-01T01:59:59-07:00"
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466500"
+        "@id": "_:g469620"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466540"
+        "@id": "_:g469660"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "_:g466500",
+    "@id": "_:g469620",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Front Street Picnic Shelter"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/front-street-picnic-shelter/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g469640"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469660",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g469640",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "Front Street at Princess Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Dawson City"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "Yukon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "Y0B1G0"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474240",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474260",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "STEPS + ODD Gallery Present: Raven Shares the Sun"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Artist-in-Residency Open Call 2025/26 – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2024-10-09T22:31:23+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2024/10/AiR-Form-Submission-Banner.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "2000"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "600"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Artist-in-Residency Open Call 2025/26 &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/AiR-Form-Submission-Banner.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-09T22:31:05+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-09T22:31:23+00:00"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g474740"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/AiR-Form-Submission-Banner.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/AiR-Form-Submission-Banner.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2000"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "600"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474740",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474760",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474780",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474800",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Artist-in-Residency Open Call 2025/26"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474840",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474860",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Artist-in-Residency Open Call 2025/26"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "KIAC&#8217;s Artist-in-Residency Program is OPEN for New Applications 2025/26 Tr’ondëk Hwëch’in territory, Dawson City, Yukon Deadline: November 15, 2024 at 11:59pm PST Klondike Institute of Art &amp; Culture (KIAC) at Dënäkär Zho is [&hellip;]"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-09T02:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-16T01:59:59-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g474880"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g474920"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474880",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g474900"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/www.kiac.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474920",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g474900",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479420",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479460",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Artist-in-Residency Open Call 2025/26"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "ANNE STEVES | FLIGHT [CAGE] Opening Reception & Artist Talk + Rug Tufting Demonstration – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2024/10/ODD-Gallery-FB-Posts-Q3-2024-Anne-Steves.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1640"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "924"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "ANNE STEVES | FLIGHT [CAGE] Opening Reception & Artist Talk + Rug Tufting Demonstration &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/ODD-Gallery-FB-Posts-Q3-2024-Anne-Steves.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-16T22:03:04+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-16T22:03:04+00:00"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g479940"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/ODD-Gallery-FB-Posts-Q3-2024-Anne-Steves.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/ODD-Gallery-FB-Posts-Q3-2024-Anne-Steves.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1640"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "924"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@value": "Anne Steves | Flight [Cage]"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479940",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479960",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479980",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480000",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "ANNE STEVES | FLIGHT [CAGE] Opening Reception &#038; Artist Talk + Rug Tufting Demonstration"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480040",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480060",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "ANNE STEVES  |  FLIGHT [CAGE] Opening Reception &#038; Artist Talk + Rug Tufting Demonstration"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "ANNE STEVES  |  FLIGHT [CAGE] October 24th – December 7th, 2024 ODD Gallery, Dënäkär Zho |  KIAC Tr’ondëk Hwëch’in territory, Dawson City, Yukon OPENING RECEPTION &amp; ARTIST TALK + RUG TUFTING DEMO: Thursday, [&hellip;]"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-24T19:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-24T22:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g480080"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g480120"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480080",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2092,7 +3177,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g466520"
+        "@id": "_:g480100"
       }
     ],
     "http://schema.org/telephone": [
@@ -2102,18 +3187,18 @@
     ],
     "http://schema.org/sameAs": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "_:g466540",
+    "@id": "_:g480120",
     "@type": [
       "http://schema.org/Person"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+        "@value": "ODD Gallery"
       }
     ],
     "http://schema.org/description": [
@@ -2123,12 +3208,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ],
     "http://schema.org/telephone": [
       {
-        "@value": "867-993-5005"
+        "@value": ""
       }
     ],
     "http://schema.org/email": [
@@ -2138,13 +3223,13 @@
     ]
   },
   {
-    "@id": "_:g466520",
+    "@id": "_:g480100",
     "@type": [
       "http://schema.org/PostalAddress"
     ]
   },
   {
-    "@id": "_:g470580",
+    "@id": "_:g483360",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -2165,895 +3250,13 @@
     ]
   },
   {
-    "@id": "_:g470600",
+    "@id": "_:g483400",
     "@type": [
       "https://schema.org/ListItem"
     ],
     "https://schema.org/name": [
       {
-        "@value": "In the ODD Gallery: SHARP TEETH | Curated by Sanaa Humayun"
-      }
-    ],
-    "https://schema.org/position": [
-      {
-        "@value": "2"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-us",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-us",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-us",
-        "@value": "Coffee House & Open Mic Night – KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-us",
-        "@value": "%"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-us",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-us",
-        "@value": "https://www.facebook.com/kiactweets/"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-us",
-        "@value": "1553"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-us",
-        "@value": "614"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-us",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Coffee House & Open Mic Night &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://kiac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-16T18:21:53+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-16T18:21:53+00:00"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "%"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "en-US"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g471080"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://kiac.ca/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "en-US"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1553"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "614"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471080",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471100",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://kiac.ca/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471120",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://kiac.ca/calendar-of-events/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471140",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Coffee House &#038; Open Mic Night"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471180",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Coffee House &#038; Open Mic Night"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Join us for monthly all-ages family-friendly open mic nights all season. Everyone is welcome to perform or simply enjoy. Admission is by donation with all funds raised donated to a [&hellip;]"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@value": "https://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-05T19:00:00-07:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-05T21:30:00-07:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g471200"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g471240"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471200",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Dënäkär Zho/Oddfellows Hall"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g471220"
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@value": "867-993-5005"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/www.kiac.ca"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471240",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@value": "867-993-5005"
-      }
-    ],
-    "http://schema.org/email": [
-      {
-        "@value": ""
-      }
-    ]
-  },
-  {
-    "@id": "_:g471220",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "902 2nd Avenue, Dawson City"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473200",
-    "@type": [
-      "https://schema.org/ListItem"
-    ],
-    "https://schema.org/item": [
-      {
-        "@id": "https://kiac.ca"
-      }
-    ],
-    "https://schema.org/position": [
-      {
-        "@value": "1"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473220",
-    "@type": [
-      "https://schema.org/ListItem"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Coffee House & Open Mic Night"
-      }
-    ],
-    "https://schema.org/position": [
-      {
-        "@value": "2"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-us",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-us",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-us",
-        "@value": "Nico Paulo with guest Jared Klok – KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-us",
-        "@value": "%"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-us",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-us",
-        "@value": "https://www.facebook.com/kiactweets/"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-us",
-        "@value": "2024-09-12T16:26:49+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/wp-content/uploads/2024/09/nico-paulo-scaled.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-us",
-        "@value": "1325"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-us",
-        "@value": "2048"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-us",
-        "@value": "image/jpeg"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Nico Paulo with guest Jared Klok &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://kiac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/09/nico-paulo-scaled.jpg"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-11T19:01:24+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-12T16:26:49+00:00"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "%"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "en-US"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g473440"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://kiac.ca/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "en-US"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/09/nico-paulo-scaled.jpg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2024/09/nico-paulo-scaled.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1325"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2048"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473440",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473460",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://kiac.ca/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473480",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://kiac.ca/calendar-of-events/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473500",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Nico Paulo with guest Jared Klok"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473540",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Nico Paulo with guest Jared Klok"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Nico Paulo with guest Jared Klok Thursday, October 17 Dënäkär Zho / KIAC Ballroom Doors at 7:30, Music at 8:00 Tickets on sale HERE! $25 General Admission $23 KIAC Members [&hellip;]"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@value": "https://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-17T19:30:00-07:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-17T23:00:00-07:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g473560"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g473600"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473560",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Dënäkär Zho/Oddfellows Hall"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g473580"
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@value": "867-993-5005"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/www.kiac.ca"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473600",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@value": "867-993-5005"
-      }
-    ],
-    "http://schema.org/email": [
-      {
-        "@value": ""
-      }
-    ]
-  },
-  {
-    "@id": "_:g473580",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "902 2nd Avenue, Dawson City"
-      }
-    ]
-  },
-  {
-    "@id": "_:g477340",
-    "@type": [
-      "https://schema.org/ListItem"
-    ],
-    "https://schema.org/item": [
-      {
-        "@id": "https://kiac.ca"
-      }
-    ],
-    "https://schema.org/position": [
-      {
-        "@value": "1"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ]
-  },
-  {
-    "@id": "_:g477360",
-    "@type": [
-      "https://schema.org/ListItem"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Nico Paulo with guest Jared Klok"
+        "@value": "ANNE STEVES  |  FLIGHT [CAGE] Opening Reception & Artist Talk + Rug Tufting Demonstration"
       }
     ],
     "https://schema.org/position": [
@@ -3109,7 +3312,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2024-09-26T16:48:21+00:00"
+        "@value": "2024-10-15T16:30:25+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -3178,7 +3381,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-09-26T16:48:21+00:00"
+        "@value": "2024-10-15T16:30:25+00:00"
       }
     ],
     "http://schema.org/description": [
@@ -3198,7 +3401,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g477820"
+        "@id": "_:g483600"
       }
     ],
     "https://api.w.org/": [
@@ -3241,7 +3444,7 @@
     ]
   },
   {
-    "@id": "_:g477820",
+    "@id": "_:g483600",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -3252,7 +3455,7 @@
     ]
   },
   {
-    "@id": "_:g477840",
+    "@id": "_:g483620",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -3274,7 +3477,7 @@
     ]
   },
   {
-    "@id": "_:g477860",
+    "@id": "_:g483640",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -3296,7 +3499,7 @@
     ]
   },
   {
-    "@id": "_:g477880",
+    "@id": "_:g483660",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -3313,13 +3516,30 @@
     ]
   },
   {
-    "@id": "_:g477920",
+    "@id": "_:g483700",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
     "http://schema.org/urlTemplate": [
       {
         "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g483720",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
       }
     ]
   },
@@ -3372,12 +3592,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g477940"
+        "@id": "_:g483740"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g477980"
+        "@id": "_:g483780"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -3392,7 +3612,7 @@
     ]
   },
   {
-    "@id": "_:g477940",
+    "@id": "_:g483740",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3413,7 +3633,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g477960"
+        "@id": "_:g483760"
       }
     ],
     "http://schema.org/telephone": [
@@ -3428,7 +3648,7 @@
     ]
   },
   {
-    "@id": "_:g477980",
+    "@id": "_:g483780",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -3459,7 +3679,7 @@
     ]
   },
   {
-    "@id": "_:g477960",
+    "@id": "_:g483760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3470,7 +3690,7 @@
     ]
   },
   {
-    "@id": "_:g481660",
+    "@id": "_:g486380",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -3491,7 +3711,7 @@
     ]
   },
   {
-    "@id": "_:g481680",
+    "@id": "_:g486420",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -3636,7 +3856,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g482140"
+        "@id": "_:g486900"
       }
     ],
     "https://api.w.org/": [
@@ -3679,7 +3899,7 @@
     ]
   },
   {
-    "@id": "_:g482140",
+    "@id": "_:g486900",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -3690,7 +3910,7 @@
     ]
   },
   {
-    "@id": "_:g482160",
+    "@id": "_:g486920",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -3712,7 +3932,7 @@
     ]
   },
   {
-    "@id": "_:g482180",
+    "@id": "_:g486940",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -3734,7 +3954,7 @@
     ]
   },
   {
-    "@id": "_:g482200",
+    "@id": "_:g486960",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -3751,13 +3971,30 @@
     ]
   },
   {
-    "@id": "_:g482240",
+    "@id": "_:g487000",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
     "http://schema.org/urlTemplate": [
       {
         "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g487020",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
       }
     ]
   },
@@ -3810,12 +4047,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g482260"
+        "@id": "_:g487040"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g482300"
+        "@id": "_:g487080"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -3830,7 +4067,7 @@
     ]
   },
   {
-    "@id": "_:g482260",
+    "@id": "_:g487040",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3851,7 +4088,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g482280"
+        "@id": "_:g487060"
       }
     ],
     "http://schema.org/telephone": [
@@ -3866,7 +4103,7 @@
     ]
   },
   {
-    "@id": "_:g482300",
+    "@id": "_:g487080",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -3897,7 +4134,7 @@
     ]
   },
   {
-    "@id": "_:g482280",
+    "@id": "_:g487060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3908,7 +4145,7 @@
     ]
   },
   {
-    "@id": "_:g485720",
+    "@id": "_:g491280",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -3929,13 +4166,1845 @@
     ]
   },
   {
-    "@id": "_:g485760",
+    "@id": "_:g491300",
     "@type": [
       "https://schema.org/ListItem"
     ],
     "https://schema.org/name": [
       {
         "@value": "Yukon48 Video Challenge November 1-3"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Begonia (live concert) at Dënäkär Zho / KIAC Ballroom – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2024-10-11T18:13:46+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2024/10/7-scaled.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "2048"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1365"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Begonia (live concert) at Dënäkär Zho / KIAC Ballroom &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/7-scaled.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-10T17:21:55+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-11T18:13:46+00:00"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g491760"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/7-scaled.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/7-scaled.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2048"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1365"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491760",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491780",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491800",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491820",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Begonia (live concert) at Dënäkär Zho / KIAC Ballroom"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491860",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491880",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Begonia (live concert) at Dënäkär Zho / KIAC Ballroom"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Pegged as Canada’s breakout alt-diva, Begonia has built a legion of fans online and at her legendary live shows. Her critically acclaimed discography includes Lady In Mind EP (2017), Fear [&hellip;]"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-01T19:30:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-01T22:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g491900"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g491940"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491900",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g491920"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/www.kiac.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491940",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g491920",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494700",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494740",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Begonia (live concert) at Dënäkär Zho / KIAC Ballroom"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Coffee House & Open Mic Night – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1553"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "614"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Coffee House & Open Mic Night &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-16T18:21:53+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-16T18:21:53+00:00"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g495240"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/09/Screenshot-2024-09-16-at-11.20.52 AM.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1553"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "614"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495240",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495260",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495280",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495300",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Coffee House &#038; Open Mic Night"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495340",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495360",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Coffee House &#038; Open Mic Night"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Join us for monthly all-ages family-friendly open mic nights all season. Everyone is welcome to perform or simply enjoy. Admission is by donation with all funds raised donated to a [&hellip;]"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-02T19:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-02T21:30:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g495380"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g495420"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495380",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g495400"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/www.kiac.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495420",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g495400",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g499960",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g499980",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Coffee House & Open Mic Night"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Youth Dance classes with Jen – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2024/10/Youth-Dance-classes-winter-2024-Program-Facebook-Post.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "940"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "788"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Youth Dance classes with Jen &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/Youth-Dance-classes-winter-2024-Program-Facebook-Post.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-18T22:39:40+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-18T22:39:40+00:00"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g500460"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/Youth-Dance-classes-winter-2024-Program-Facebook-Post.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/10/Youth-Dance-classes-winter-2024-Program-Facebook-Post.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "940"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "788"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500460",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500480",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500500",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500520",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Youth Dance classes with Jen"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500560",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500580",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Youth Dance classes with Jen"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "&nbsp;"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-10T11:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-16T18:30:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g500600"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g500640"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500600",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g500620"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/www.kiac.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500640",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g500620",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g504880",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g504920",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Youth Dance classes with Jen"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "KIAC Art & Craft Fair – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2024-10-10T22:58:13+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2024/09/2024-KIAC-Holiday-Art-Craft-Fair.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "4608"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "3456"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "KIAC Art & Craft Fair &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/09/2024-KIAC-Holiday-Art-Craft-Fair.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-26T23:30:59+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-10T22:58:13+00:00"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g505440"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/09/2024-KIAC-Holiday-Art-Craft-Fair.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2024/09/2024-KIAC-Holiday-Art-Craft-Fair.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "4608"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3456"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505440",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505460",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505480",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Events"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@value": "https://kiac.ca/calendar-of-events/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505500",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "KIAC Art &#038; Craft Fair"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505540",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505560",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "KIAC Art &#038; Craft Fair"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "KIAC Art &amp; Craft Fair! When: Saturday, November 23rd from 10am &#8211; 4pm Where: KIAC Dënäkär Zho Ballroom &nbsp; If you wish to be a vendor at the craft fair, [&hellip;]"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-23T10:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-23T16:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g505580"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g505620"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505580",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g505600"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/www.kiac.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:g505620",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g505600",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g510260",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g510280",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KIAC Art & Craft Fair"
       }
     ],
     "https://schema.org/position": [
@@ -3991,7 +6060,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2024-09-27T19:51:04+00:00"
+        "@value": "2024-10-11T18:22:00+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -4060,7 +6129,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-09-27T19:51:04+00:00"
+        "@value": "2024-10-11T18:22:00+00:00"
       }
     ],
     "http://schema.org/description": [
@@ -4080,7 +6149,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g486260"
+        "@id": "_:g510780"
       }
     ],
     "https://api.w.org/": [
@@ -4123,7 +6192,7 @@
     ]
   },
   {
-    "@id": "_:g486260",
+    "@id": "_:g510780",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -4134,7 +6203,7 @@
     ]
   },
   {
-    "@id": "_:g486280",
+    "@id": "_:g510800",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -4156,7 +6225,7 @@
     ]
   },
   {
-    "@id": "_:g486300",
+    "@id": "_:g510820",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -4178,7 +6247,7 @@
     ]
   },
   {
-    "@id": "_:g486320",
+    "@id": "_:g510840",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -4195,13 +6264,30 @@
     ]
   },
   {
-    "@id": "_:g486360",
+    "@id": "_:g510880",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
     "http://schema.org/urlTemplate": [
       {
         "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g510900",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
       }
     ]
   },
@@ -4254,12 +6340,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g486380"
+        "@id": "_:g510920"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g486420"
+        "@id": "_:g510960"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -4274,7 +6360,7 @@
     ]
   },
   {
-    "@id": "_:g486380",
+    "@id": "_:g510920",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4295,7 +6381,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g486400"
+        "@id": "_:g510940"
       }
     ],
     "http://schema.org/telephone": [
@@ -4310,7 +6396,7 @@
     ]
   },
   {
-    "@id": "_:g486420",
+    "@id": "_:g510960",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -4341,13 +6427,13 @@
     ]
   },
   {
-    "@id": "_:g486400",
+    "@id": "_:g510940",
     "@type": [
       "http://schema.org/PostalAddress"
     ]
   },
   {
-    "@id": "_:g490140",
+    "@id": "_:g514880",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -4368,7 +6454,7 @@
     ]
   },
   {
-    "@id": "_:g490160",
+    "@id": "_:g514920",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -4384,7 +6470,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/fb36b1b3-e8f7-4ae4-95e8-709fa64c86d5",
+    "@id": "https://kiac.ca/temporary/7775c622-098e-4dea-93bb-90cc96f5e5d6",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -4395,7 +6481,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/a646b57d-901e-4fce-a603-62d5a445411d",
+    "@id": "https://kiac.ca/temporary/3ccbb8cd-1111-4b04-8501-98674ae01731",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -4406,44 +6492,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/eaae279e-edec-4089-9ae9-a4a80f3e8213",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/screen-printing-drop-in-2/2024-01-10/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/0d900e39-b0d8-43f6-afa4-b5a497c47f37",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/screen-printing-drop-in-2/2024-01-10/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/1b12199a-129d-47d2-ba93-36bcda9aaac0",
+    "@id": "https://kiac.ca/temporary/08785274-53d5-4587-a81f-e8fe105b7107",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4469,16 +6518,34 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/114d0b90-6fcb-47a6-927d-a0099b9c0204",
+    "@id": "https://kiac.ca/temporary/6bdd7848-252c-4f7f-bcf6-bf225dd30cb0",
     "@type": [
-      "https://schema.org/BreadcrumbList"
+      "https://schema.org/WPHeader"
     ],
-    "https://schema.org/itemListElement": [
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "_:g460200"
-      },
+        "@id": "https://kiac.ca/calendar-of-events/screen-printing-drop-in-2/2024-01-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/a2d9ae5e-0a37-4dfd-afce-3bd121a50af6",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
       {
-        "@id": "_:g460220"
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4488,7 +6555,26 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f6551789-2a2b-4087-9a51-27d4e73a0a08",
+    "@id": "https://kiac.ca/temporary/b3b63745-2b8e-4219-bb49-32cebfe49557",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g459940"
+      },
+      {
+        "@id": "_:g459960"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/screen-printing-drop-in-2/2024-01-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/8d09c83d-ee93-4506-a9fa-84369bc0efbb",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -4499,7 +6585,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/fe7d7dae-b8ef-42d8-8412-e1315a162eef",
+    "@id": "https://kiac.ca/temporary/ddd06984-86ce-43c5-9c6a-0eb7cf3de817",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -4510,7 +6596,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/4507ede2-cd3f-461f-8e8b-77481c5c0d1e",
+    "@id": "https://kiac.ca/temporary/903c38e2-48fe-478d-b089-a43efbd606c5",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -4521,44 +6607,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/20e58ae7-7fc6-4b11-a74a-d62689a88dba",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2024-04-16/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/6d5f1fcd-5545-48f2-8a52-3597d7058b0e",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2024-04-16/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/91f6421e-4cd0-4d14-bb57-d51f4420a320",
+    "@id": "https://kiac.ca/temporary/212d1955-47cd-438c-8fb0-7933d77f5b0e",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4584,16 +6633,34 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/117efc75-0cb9-4aaa-9878-2a9a34cf83c5",
+    "@id": "https://kiac.ca/temporary/511f14ee-7f59-4fab-83db-0076e6e57f59",
     "@type": [
-      "https://schema.org/BreadcrumbList"
+      "https://schema.org/WPHeader"
     ],
-    "https://schema.org/itemListElement": [
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "_:g463240"
-      },
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2024-04-16/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/b99f90c0-1ab9-42e8-b98a-0ebdb1ac79c2",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
       {
-        "@id": "_:g463260"
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4603,7 +6670,26 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/383c2cba-bfc9-47ca-810c-6a317a3b49e9",
+    "@id": "https://kiac.ca/temporary/717b1abf-a2ad-49d4-992c-dc6e0d3408c4",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g464380"
+      },
+      {
+        "@id": "_:g464400"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2024-04-16/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/d34ccc64-ad34-4c3e-9777-50af15a48ef7",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -4614,7 +6700,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/bfcd4fc9-e24d-4c5f-a4e6-9362f92e4b3a",
+    "@id": "https://kiac.ca/temporary/030b3e20-e521-436d-9eea-2a81d051a5b8",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -4625,7 +6711,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/9070bca7-0e7c-4856-889f-2177f1500e9b",
+    "@id": "https://kiac.ca/temporary/b8081295-d246-4a32-bdb0-463cb93d9a83",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -4636,7 +6722,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/951cd945-37a7-4381-85db-2b3d9126c2a7",
+    "@id": "https://kiac.ca/temporary/8c3d234d-7c7b-4414-a7fa-aa04f6469b17",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4662,7 +6748,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/b7bb2906-e7e0-4204-a090-5677558d9689",
+    "@id": "https://kiac.ca/temporary/46737afd-bc87-45b1-83ce-a1f2439ab186",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4673,7 +6759,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/d96d6b12-d5ef-43bf-829b-a94164204467",
+    "@id": "https://kiac.ca/temporary/d6022c38-a13d-4e12-8dd4-1eb41110e572",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4699,16 +6785,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/986cd3ee-7b7a-475e-8883-a8bc8a378381",
+    "@id": "https://kiac.ca/temporary/5b3e5ed6-ce66-4be2-86b9-6d680e6dbfdb",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g465880"
+        "@id": "_:g468980"
       },
       {
-        "@id": "_:g465900"
+        "@id": "_:g469000"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4718,7 +6804,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/24dc76de-aa92-485f-b8f9-616120bc8219",
+    "@id": "https://kiac.ca/temporary/cae995d5-817f-4bdf-b2e6-45122a64254c",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -4729,29 +6815,29 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/c8f7889a-9af3-4efe-8e00-b74bfdb44c1f",
+    "@id": "https://kiac.ca/temporary/b87c6071-2030-41ef-8232-655ed7569c78",
     "@type": [
       "https://schema.org/WebSite"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ed67bd36-a631-40bc-b7c3-e505f47d1c60",
+    "@id": "https://kiac.ca/temporary/d869ab62-6022-4178-95ee-ab5efa4488a1",
     "@type": [
       "https://schema.org/WebPage"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/cee21a46-5390-4303-b73c-0d8d3c8fa850",
+    "@id": "https://kiac.ca/temporary/99ddff39-cc39-4732-aa31-90d704d14e47",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4772,23 +6858,23 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/658ff22d-a743-4708-9f00-156a4bac0a78",
+    "@id": "https://kiac.ca/temporary/c58dd758-0e5e-4f25-918d-039d071c24cb",
     "@type": [
       "https://schema.org/WPHeader"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/3ff7eee1-7ab1-47aa-9dbd-76f3ddc0ba3b",
+    "@id": "https://kiac.ca/temporary/79b93cb0-869d-493e-a62d-e05d10cb65c4",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4809,64 +6895,64 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/6dd8a831-18b6-4679-ac2d-09fd6a4168a8",
+    "@id": "https://kiac.ca/temporary/fe6a1de5-35f7-4029-ae2d-1ae870bc4e95",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g470580"
+        "@id": "_:g474240"
       },
       {
-        "@id": "_:g470600"
+        "@id": "_:g474260"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/d87724a7-b1da-4b93-a7d8-802053e7905b",
+    "@id": "https://kiac.ca/temporary/66b0b7e0-0728-49b3-a0d0-ab8ae8f5cfba",
     "@type": [
       "https://schema.org/WPFooter"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/in-the-odd-gallery-sharp-teeth-curated-by-sanaa-humayun/"
+        "@id": "https://kiac.ca/calendar-of-events/steps-odd-gallery-present-raven-shares-the-sun/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/3d963275-03b2-444b-a26f-f24acf548be6",
+    "@id": "https://kiac.ca/temporary/a5efe610-d06c-4a27-a87f-2a0720c956b8",
     "@type": [
       "https://schema.org/WebSite"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/9f4d7149-4f47-4b59-a277-d4e02fc31bef",
+    "@id": "https://kiac.ca/temporary/a5a5ddd4-57c2-4c95-bf58-f85fe17a6303",
     "@type": [
       "https://schema.org/WebPage"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/6945c248-0223-408b-b889-8204c9986ff3",
+    "@id": "https://kiac.ca/temporary/2df586ef-2aa3-4ea5-bc3d-5790a23f8fef",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4887,23 +6973,23 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/307b9bd1-cfcc-4ec3-8cb0-3cf3572b0b82",
+    "@id": "https://kiac.ca/temporary/6fb6f0a6-c8a6-4e25-9f1e-3725d1229bd3",
     "@type": [
       "https://schema.org/WPHeader"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/b10f1b06-550c-417a-96d2-c54729afa02d",
+    "@id": "https://kiac.ca/temporary/e71bd9b5-bd78-4e8a-900c-095e814702e3",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4924,64 +7010,64 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ab0968b1-0512-49fb-85b0-f6871e32fd10",
+    "@id": "https://kiac.ca/temporary/1e4a08d4-cf12-42ee-b153-f43596c319f8",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g473200"
+        "@id": "_:g479420"
       },
       {
-        "@id": "_:g473220"
+        "@id": "_:g479460"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/469179fa-5c72-4c32-b3b7-4181f1f6d11f",
+    "@id": "https://kiac.ca/temporary/ed8fb06a-4ed9-47f5-b4fe-39a9b116bced",
     "@type": [
       "https://schema.org/WPFooter"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-10-05/"
+        "@id": "https://kiac.ca/calendar-of-events/artist-in-residency-open-call-2025-26/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/287bb340-310e-431a-977a-6d8b597707d3",
+    "@id": "https://kiac.ca/temporary/bcf03dfb-1982-4eb6-be50-3680c37a3e8c",
     "@type": [
       "https://schema.org/WebSite"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ca23e823-e562-4042-b913-25a10ef0e221",
+    "@id": "https://kiac.ca/temporary/be6baaea-0a6b-4551-a187-e85e2b6d0109",
     "@type": [
       "https://schema.org/WebPage"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/d09491df-d49f-4b30-ad35-f471d34a4d3f",
+    "@id": "https://kiac.ca/temporary/dea34cb9-c55f-40cc-be45-7a654bf2d6a9",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5002,23 +7088,23 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/91906359-0d2f-4c98-b666-5caef08867c8",
+    "@id": "https://kiac.ca/temporary/04cbccfa-5dc6-4c74-9c72-caf8ad2c8056",
     "@type": [
       "https://schema.org/WPHeader"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f24feeb8-4420-4ef8-bdb0-d55451765d95",
+    "@id": "https://kiac.ca/temporary/9016b7a4-2e35-470a-b358-0fa4084ad71e",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5039,42 +7125,42 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/8287e878-99bf-4b24-b979-b0acb74b1691",
+    "@id": "https://kiac.ca/temporary/4dba7172-43b9-4bed-94c4-6ecc62e67147",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g477340"
+        "@id": "_:g483360"
       },
       {
-        "@id": "_:g477360"
+        "@id": "_:g483400"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/282240fb-f656-4beb-b919-d3d21c1727b9",
+    "@id": "https://kiac.ca/temporary/6993cfbc-416b-450f-af38-d68ec5251090",
     "@type": [
       "https://schema.org/WPFooter"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/nico-paulo-with-guest-jared-klok/"
+        "@id": "https://kiac.ca/calendar-of-events/anne-steves-flight-cage-opening-reception-artist-talk-rug-tufting-demonstration/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/9ac5cf47-b36a-4203-9fbe-15c0d7e6f12c",
+    "@id": "https://kiac.ca/temporary/882ed9f3-c69e-424e-9aee-965b213f27a7",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -5085,7 +7171,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/bbaedddd-a740-4a5c-9548-b158f689fece",
+    "@id": "https://kiac.ca/temporary/e43f01f0-fd3d-4e99-8a94-ad3ffd58b916",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -5096,7 +7182,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/a2f58b77-a731-4096-9ace-3052c7e9f4bc",
+    "@id": "https://kiac.ca/temporary/7e010067-7313-453e-88f7-7d32b009d1fe",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5122,7 +7208,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/244ba172-964a-46c4-b68c-38b2c97d86b8",
+    "@id": "https://kiac.ca/temporary/64905b2c-bf02-41b3-bebf-1c9bce6a6749",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -5133,7 +7219,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/52c47f56-5d1b-4a46-a590-b291270280bd",
+    "@id": "https://kiac.ca/temporary/e8ce018f-3be4-4d1e-86ae-eb204d21827f",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5159,16 +7245,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/5d01c84f-e617-4c2c-9795-7946807cb605",
+    "@id": "https://kiac.ca/temporary/f2e3dad6-f31c-4c37-88fc-0e677b063dfe",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g481660"
+        "@id": "_:g486380"
       },
       {
-        "@id": "_:g481680"
+        "@id": "_:g486420"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5178,7 +7264,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f4490a20-52e5-482d-917d-cb6a75484c60",
+    "@id": "https://kiac.ca/temporary/f62f9190-edc3-4e80-943a-f4cfe794182f",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -5189,7 +7275,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/1e44e519-7b7b-4ff3-92bb-040737d3df05",
+    "@id": "https://kiac.ca/temporary/cbd12208-2a12-4059-ae9a-166ed068f6bd",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -5200,7 +7286,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/96e89e3a-834a-4ea6-886e-fac19df62e69",
+    "@id": "https://kiac.ca/temporary/d27b3690-db4e-405b-958d-1c99d0b862cf",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -5211,7 +7297,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/4308d913-651a-4a55-8464-722287253199",
+    "@id": "https://kiac.ca/temporary/560a6207-02c5-44ce-b827-fc5291aab914",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5237,7 +7323,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/1b0c28dc-dcac-4622-85d9-c921c9fcebcd",
+    "@id": "https://kiac.ca/temporary/47a25d4b-e884-4d0f-ac39-573b75eff25b",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -5248,7 +7334,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/b6709821-39f4-4a06-8b7d-b5bb5cb28d31",
+    "@id": "https://kiac.ca/temporary/1e1d6317-6c1d-49d1-b1b3-c0a57cf94f1e",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5274,16 +7360,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/c4b221c1-a62c-46f8-a2ba-2f3128d31376",
+    "@id": "https://kiac.ca/temporary/64a3db12-da2c-482e-9818-9599baa0b9b7",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g485720"
+        "@id": "_:g491280"
       },
       {
-        "@id": "_:g485760"
+        "@id": "_:g491300"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5293,7 +7379,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/34a23df7-a8b2-427d-aba1-47a313222d67",
+    "@id": "https://kiac.ca/temporary/08d6ca58-8aa9-4a58-8ff6-f6e64095f11a",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -5304,7 +7390,467 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/08972c9b-b8f7-4d71-b16d-574a19070fdb",
+    "@id": "https://kiac.ca/temporary/30e52956-484b-4c4d-befe-57baf47c3830",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/41e60388-154c-4d8f-9e0e-f0b672142c43",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/3e310a7e-6a02-46c8-b3b0-545f1bb3cf8b",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/54ef869e-0f03-4172-b25c-6fa3ae44c6b5",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/74345019-badc-48ec-b4cf-787c1a5c77c0",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/b08b5611-e4f5-4c9b-a80d-5c6dc0e4b9bb",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g494700"
+      },
+      {
+        "@id": "_:g494740"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/0d5e1f75-8583-489c-b8ca-bf8fafba4159",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/begonia-live-concert-at-denakar-zho-kiac-ballroom/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/ebafbc07-1606-4005-8042-821d568ddc4c",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/08ff90aa-8cfe-4922-b4f7-4938b6f72610",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/684c3a23-b1cd-461d-95d9-42be1990d159",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/529dee25-621c-4a9b-bbb6-5da7a5a69f36",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/1ebea1f5-50c0-4a06-ae1d-81bb10a89194",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/3bf3b794-947b-475f-ad26-df3b10918f38",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g499960"
+      },
+      {
+        "@id": "_:g499980"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/43b342e5-3201-417d-b9e1-be77811a338b",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/coffee-house-open-mic-night/2024-11-02/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/4a5a6566-4be3-41d6-91e2-b157e5c150f1",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/e4b7a379-f36c-4a17-84bd-2b96baf0c4a6",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/521d6926-f4e9-42b2-a87c-f40db246e71f",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/0aec85ac-c89b-4f7c-b844-9ae7b1cb86c4",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/8f68a484-9cb0-43b4-a233-5e1b40475c7d",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/4474ba36-5672-4953-a0a8-6c1dac5c375b",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g504880"
+      },
+      {
+        "@id": "_:g504920"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/a75cc9c9-09c2-4c24-9a75-4630a441ea4f",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/youth-dance-class-kiac/2024-11-10/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/7483badc-96d7-4689-9e0a-ba7cee6aa5bf",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/2439af2f-50dd-4f70-9466-88c90a696576",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/2a9f7597-372e-4705-ab8b-a20bbd0cf3f7",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/132aa13c-d75d-4a82-bf13-663d48f64ecc",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/f380f9e8-d5ca-44b4-887d-38a59ca29b11",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/92323629-00fe-4477-aaea-b31d4602de8b",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g510260"
+      },
+      {
+        "@id": "_:g510280"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/f2e34ba9-e10a-44e0-b3f3-461b8403e093",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/2024-holiday-art-craft-fair/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/93d5a846-a38a-4ac5-b7ba-d23726d78478",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -5315,7 +7861,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f7111e74-e250-4290-8a5e-31cad47c571c",
+    "@id": "https://kiac.ca/temporary/f84ad3b9-1da4-4add-929a-a7fcd06f843c",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -5326,7 +7872,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f615d1ed-0382-4e10-9d9e-01c0ef5fc501",
+    "@id": "https://kiac.ca/temporary/f52bac13-91bd-4d4f-b77e-8228a84563d9",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5352,7 +7898,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/7f4216b5-c95e-449b-81b0-665b4b402c44",
+    "@id": "https://kiac.ca/temporary/74461569-5a08-4e8b-a401-4094699cd97a",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -5363,7 +7909,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/8201ae67-8d6c-4f29-a4fb-9caa96596140",
+    "@id": "https://kiac.ca/temporary/dc8d8957-d465-4e70-9049-bd439c6480ee",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -5389,16 +7935,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/d96fd5c0-8750-4dd7-b39d-9cf49fa49a2c",
+    "@id": "https://kiac.ca/temporary/e6918f52-e97a-4668-b98c-b702a7c200a8",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g490140"
+        "@id": "_:g514880"
       },
       {
-        "@id": "_:g490160"
+        "@id": "_:g514920"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5408,7 +7954,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ac6256aa-7e73-46a4-8075-70b53479601a",
+    "@id": "https://kiac.ca/temporary/cfbb85e1-8107-48fc-80f7-1164de812a41",
     "@type": [
       "https://schema.org/WPFooter"
     ],
