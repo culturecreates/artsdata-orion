@@ -6,14 +6,16 @@ on:
     - cron: '0 0 1 * *'
       
 jobs:
-  call-workflow-to-fetch-and-push-data:
-    uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
-    with:
-        page_url: "https://capitoltheatre.ca/events/list/?tribe_paged="
-        entity_identifier: "h3.tribe-events-list-event-title a"
-        file_name: "capitoltheatre-events.jsonld"
-        is_paginated: "true"
-        headless: "false"
-        artifact: "capitoltheatre-ca"
-    secrets:
-        PUBLISHER_URI_GREGORY: ${{ secrets.PUBLISHER_URI_GREGORY }}
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        with:
+          mode: "fetch-push"
+          artifact: "capitoltheatre-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "capitoltheatre-events.jsonld"
+          page-url: "https://capitoltheatre.ca/events/list/?tribe_paged="
+          entity-identifier: "h3.tribe-events-list-event-title a"
+          token: "${{ secrets.GITHUB_TOKEN }}"

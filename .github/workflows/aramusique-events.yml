@@ -5,22 +5,11 @@ on:
   schedule:
     - cron: '0 0 1 * *'
 jobs:
-  # call-workflow-to-fetch-and-push-data:
-  #   uses: ./.github/workflows/fetch-and-push-to-artsdata.yml
-  #   with:
-  #       page_url: "https://www.aramusique.org/evenements/liste/page/"
-  #       entity_identifier: "h3.tribe-events-calendar-list__event-title.tribe-common-h6.tribe-common-h4--min-medium a"
-  #       file_name: "aramusique-events.jsonld"
-  #       is_paginated: "true"
-  #       headless: "false"
-  #       artifact: "aramusique-org"
-  #   secrets:
-  #       PUBLISHER_URI_GREGORY: ${{ secrets.PUBLISHER_URI_GREGORY }}
   artsdata-fetch-and-push:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@main
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
         with:
           mode: "fetch-push"
           artifact: "aramusique-org"
