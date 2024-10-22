@@ -4,18 +4,22 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-workflow-to-fetch-data:
-    uses: ./.github/workflows/fetch-data.yml
-    with:
-        page_url: "https://capitol.nb.ca/en/tickets-events?filter_45=2024-"
-        entity_identifier: "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a"
-        file_name: "capitolnb-events.jsonld"
-        is_paginated: "9"
-        headless: "true"
+  artsdata-fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        with:
+          mode: "fetch"
+          downloadFile: "capitolnb-events.jsonld"
+          page-url: "https://capitol.nb.ca/en/tickets-events?filter_45=2024-"
+          entity-identifier: "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a"
+          is-paginated: "9"
+          token: "${{ secrets.GITHUB_TOKEN }}"
 
   replace-location-name:
     runs-on: ubuntu-latest
-    needs: call-workflow-to-fetch-data
+    needs: artsdata-fetch-and-commit
     outputs:
       commit-hash: ${{ steps.get_commit_hash.outputs.commit-hash }}
     steps:
@@ -52,9 +56,8 @@ jobs:
     needs: replace-location-name
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v1.1.0
+        uses: culturecreates/artsdata-pipeline-action@v2.0.0
         with:
           artifact: capitol-nb-ca
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.replace-location-name.outputs.commit-hash }}/output/capitolnb-events.jsonld
-
