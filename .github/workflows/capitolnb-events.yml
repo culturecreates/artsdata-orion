@@ -14,7 +14,7 @@ jobs:
           downloadFile: "capitolnb-events.jsonld"
           page-url: "https://capitol.nb.ca/en/tickets-events?filter_45=2024-"
           entity-identifier: "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a"
-          is-paginated: "9"
+          is-paginated: "10"
           token: "${{ secrets.GITHUB_TOKEN }}"
 
   replace-location-name:
