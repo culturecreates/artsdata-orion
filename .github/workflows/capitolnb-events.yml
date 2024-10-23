@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        uses: culturecreates/artsdata-pipeline-action@v2.0.1
         with:
           mode: "fetch"
           downloadFile: "capitolnb-events.jsonld"
@@ -57,7 +57,7 @@ jobs:
     needs: replace-location-name
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2.0.0
+        uses: culturecreates/artsdata-pipeline-action@v2.0.1
         with:
           artifact: capitol-nb-ca
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
