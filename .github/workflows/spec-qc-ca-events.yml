@@ -16,5 +16,6 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "spec-qc-ca-events.jsonld"
           page-url: "https://spec.qc.ca/programmation"
-          entity-identifier: ".headlining__component"
+          # entity-identifier: ".headlining__component"
+          entity-identifier: "div.programmation-programmation__results a"
           token: "${{ secrets.GITHUB_TOKEN }}"
