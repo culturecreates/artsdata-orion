@@ -1,1 +1,21 @@
-.link.w-full
+name: Fetch culturegaspesie-org Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 2'
+      
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.3
+        with:
+          mode: "fetch-push"
+          artifact: "culturegaspesie-org"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "culturegaspesie-org.jsonld"
+          page-url: "https://culturegaspesie.org/evenement/"
+          entity-identifier: ".link.w-full a"
+          token: "${{ secrets.GITHUB_TOKEN }}"
