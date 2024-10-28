@@ -16,6 +16,6 @@ jobs:
           artifact: "culturegaspesie-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "culturegaspesie-org.jsonld"
-          page-url: "https://culturegaspesie.org/evenement/"
+          page-url: "https://culturegaspesie.org/evenements/"
           entity-identifier: "a.link.w-full"
           token: "${{ secrets.GITHUB_TOKEN }}"
