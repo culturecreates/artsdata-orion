@@ -62,107 +62,1401 @@
     ]
   },
   {
+    "@id": "_:g489920",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:b5"
+      }
+    ]
+  },
+  {
+    "@id": "_:b5",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490040",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/un-phare-dans-la-nuit-2024"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "36"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-07-31T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490060",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:b4",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g490220",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490240",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490260",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490700",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g469180"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469180",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490820",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/marie-jo-therio"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "49,46"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490840",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g490860",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g491000",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491020",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491040",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491480",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g470480"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470480",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491600",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/the-china-syndrome"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "Pay What You Will"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491620",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491640",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g491780",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491800",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491820",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491960",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g491980",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g492000",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g492440",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g472200"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472200",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g492560",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/jeunesses-musicales-canada-2024"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "33,30,23"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g492580",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g492600",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g492740",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g492760",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g492780",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493220",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g473500"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473500",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493340",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/francofete-en-acadie-soir-1"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "20"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-17T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493360",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493380",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g493520",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493540",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493560",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494000",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g474800"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474800",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494120",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/francofete-en-acadie-soir-2"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "20"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-17T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494140",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494160",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g494300",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494320",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494340",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494480",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494500",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494520",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g494960",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g476520"
+      }
+    ]
+  },
+  {
+    "@id": "_:g476520",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495080",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/bobcaygeon"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "42"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-12T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495100",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495120",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g495260",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495280",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495300",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495740",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g477820"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477820",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495860",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/kellie-loder"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "39,36"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495880",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g495900",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g496040",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496060",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496080",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496220",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496240",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496260",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496400",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496420",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496440",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496580",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g496600",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
     "@id": "_:g496620",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g496640",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g496660",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Elton Songs"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/elton-songs"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g496800",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g496820",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g496840",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -174,73 +1468,108 @@
     ]
   },
   {
-    "@id": "_:g496980",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
+    "@id": "_:g497060",
+    "@type": [
+      "http://schema.org/Place"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Home"
+        "@value": "Capitol Theatre"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/address": [
       {
-        "@value": "https://capitol.nb.ca/en/"
+        "@id": "_:g480380"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g497000",
-    "http://schema.org/position": [
+    "@id": "_:g480380",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
+        "@value": "811 Main Street"
       }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g497180",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/stadacona-band-holiday-concert"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-20T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g497200",
+    "@type": [
+      "http://schema.org/Organization"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Tickets & Events"
+        "@value": "Capitol Theater"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/url": [
       {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
+        "@id": "https://capitol.nb.ca/en"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g497020",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "James Mullinger"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/james-mullinger"
-      }
-    ],
+    "@id": "_:g497220",
     "@type": [
-      "http://schema.org/ListItem"
+      "http://schema.org/Thing"
     ]
   },
   {
-    "@id": "_:g497560",
+    "@id": "_:g497360",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -257,7 +1586,7 @@
     ]
   },
   {
-    "@id": "_:g497580",
+    "@id": "_:g497380",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -274,7 +1603,7 @@
     ]
   },
   {
-    "@id": "_:g497600",
+    "@id": "_:g497400",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -286,73 +1615,108 @@
     ]
   },
   {
-    "@id": "_:g497740",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
+    "@id": "_:g497840",
+    "@type": [
+      "http://schema.org/Place"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Home"
+        "@value": "Capitol Theatre"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/address": [
       {
-        "@value": "https://capitol.nb.ca/en/"
+        "@id": "_:g481680"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g497760",
-    "http://schema.org/position": [
+    "@id": "_:g481680",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
+        "@value": "811 Main Street"
       }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g497960",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/casse-noisette-2024"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "31.00 - 56.00"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g497980",
+    "@type": [
+      "http://schema.org/Organization"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Tickets & Events"
+        "@value": "Capitol Theater"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/url": [
       {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
+        "@id": "https://capitol.nb.ca/en"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g497780",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Moncton Sports Wall of Fame"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/moncton-sports-wall-of-fame"
-      }
-    ],
+    "@id": "_:g498000",
     "@type": [
-      "http://schema.org/ListItem"
+      "http://schema.org/Thing"
     ]
   },
   {
-    "@id": "_:g498320",
+    "@id": "_:g498140",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -369,7 +1733,7 @@
     ]
   },
   {
-    "@id": "_:g498340",
+    "@id": "_:g498160",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -386,7 +1750,7 @@
     ]
   },
   {
-    "@id": "_:g498360",
+    "@id": "_:g498180",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -398,73 +1762,108 @@
     ]
   },
   {
-    "@id": "_:g498500",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
+    "@id": "_:g498620",
+    "@type": [
+      "http://schema.org/Place"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Home"
+        "@value": "Capitol Theatre"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/address": [
       {
-        "@value": "https://capitol.nb.ca/en/"
+        "@id": "_:g482980"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g498520",
-    "http://schema.org/position": [
+    "@id": "_:g482980",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
+        "@value": "811 Main Street"
       }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g498740",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/noel-avec-les-muses-belivo-et-roland-gauvin-2024"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "55.50,26.50"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g498760",
+    "@type": [
+      "http://schema.org/Organization"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Tickets & Events"
+        "@value": "Capitol Theater"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/url": [
       {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
+        "@id": "https://capitol.nb.ca/en"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g498540",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Trans-Canada Highwaymen"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/trans-canada-highwaymen"
-      }
-    ],
+    "@id": "_:g498780",
     "@type": [
-      "http://schema.org/ListItem"
+      "http://schema.org/Thing"
     ]
   },
   {
-    "@id": "_:g499080",
+    "@id": "_:g498920",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -481,7 +1880,7 @@
     ]
   },
   {
-    "@id": "_:g499100",
+    "@id": "_:g498940",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -498,7 +1897,7 @@
     ]
   },
   {
-    "@id": "_:g499120",
+    "@id": "_:g498960",
     "@type": [
       "http://schema.org/ListItem"
     ],
@@ -510,2495 +1909,663 @@
     ]
   },
   {
-    "@id": "_:g499260",
+    "@id": "_:g499400",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g484280"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484280",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g499520",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/a-tyler-shaw-christmas"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "44,41"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g499540",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g499560",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g499700",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
     "http://schema.org/position": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
     "http://schema.org/item": [
       {
-        "@value": "https://capitol.nb.ca/en/"
+        "@id": "https://capitol.nb.ca/en/"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g499280",
+    "@id": "_:g499720",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
     "http://schema.org/position": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "2"
       }
     ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
     "http://schema.org/item": [
       {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
+        "@id": "https://capitol.nb.ca/en/tickets-events"
       }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
     ]
   },
   {
-    "@id": "_:g499300",
+    "@id": "_:g499740",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
     "http://schema.org/position": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "3"
       }
+    ]
+  },
+  {
+    "@id": "_:g500180",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g485580"
+      }
+    ]
+  },
+  {
+    "@id": "_:g485580",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500300",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/choir-choir-choir-2024"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "46,43"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500320",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500340",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g500480",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500500",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500520",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g500960",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g486880"
+      }
+    ]
+  },
+  {
+    "@id": "_:g486880",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501080",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/barra-macneils-2024"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "47"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-07-17T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501100",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501120",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "_:g501260",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501280",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501300",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501440",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501460",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    ],
+    "http://schema.org/item": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501480",
+    "@type": [
+      "http://schema.org/ListItem"
+    ],
+    "http://schema.org/position": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "_:g501920",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g488600"
+      }
+    ]
+  },
+  {
+    "@id": "_:g488600",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502040",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/dufflebag-theatre-presents-peter-pan"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "Pay What You Will"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@value": "https://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502060",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502080",
+    "@type": [
+      "http://schema.org/Thing"
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/28475b1b-4ddb-4e8d-9e3f-812d0fc27f33",
+    "@type": [
+      "http://schema.org/Event"
     ],
     "http://schema.org/name": [
       {
         "@value": "A Beacon in the Night"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/url": [
       {
-        "@value": "https://capitol.nb.ca/en/tickets-events/a-beacon-in-the-night"
+        "@id": "https://capitol.nb.ca/en/tickets-events/a-beacon-in-the-night"
       }
     ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g499840",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g499860",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g499880",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g500020",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g500040",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g500060",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Marie-Jo Thério"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/marie-jo-therio"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g500600",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g500620",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g500640",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g500780",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g500800",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g500820",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "The China Syndrome (1979)"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/the-china-syndrome-1979"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g501360",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g501380",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g501400",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g501540",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g501560",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g501580",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "For the Fallen"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/for-the-fallen"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g502120",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g502140",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g502160",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g502300",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g502320",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g502340",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Jeunesses Musicales Canada"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/jeunesses-musicales-canada"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g502880",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g502900",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g502920",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g503060",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g503080",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g503100",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "FrancoFête en Acadie"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/francofete-en-acadie"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g503640",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g503660",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g503680",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g503820",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g503840",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g503860",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "FrancoFête en Acadie"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/francofete-en-acadie-2"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g504400",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g504420",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g504440",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g504580",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g504600",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g504620",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "FrancoFête en Acadie"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/francofete-en-acadie-3"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g505160",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g505180",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g505200",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g505340",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g505360",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g505380",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Bobcaygeon"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/bobcaygeon"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g505920",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g505940",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g505960",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g506100",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g506120",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g506140",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Kellie Loder"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/kellie-loder"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g506680",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g506700",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g506720",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g506860",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g506880",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g506900",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "United by Song"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/united-by-song"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g507440",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g507460",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g507480",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g507620",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g507640",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g507660",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "HYPROV: Improv Under Hypnosis"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/hyprov-improv-under-hypnosis"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g508200",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g508220",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g508240",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g508380",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g508400",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g508420",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Salebarbes"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/salebarbes"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g508960",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g508980",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g509000",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g509140",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g509160",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g509180",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Stadacona Band Holiday Concert"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/stadacona-band-holiday-concert"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g509720",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g509740",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g509760",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g509900",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g509920",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g509940",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Nutcracker"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/nutcracker"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g510480",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g510500",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g510520",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g510660",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g510680",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g510700",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Noël avec Les Muses, les frères Belivo & Roland Gauvin"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/noel-avec-les-muses-les-freres-belivo-roland-gauvin-5"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g510840",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g510860",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g510880",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g511020",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g511040",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g511060",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tyler Shaw"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/tyler-shaw"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g511600",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g511620",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g511640",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g511780",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g511800",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g511820",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Choir! Choir! Choir!"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/choir-choir-choir-2"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g512360",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g512380",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g512400",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g512540",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g512560",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g512580",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Barra MacNeils"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/barra-macneils"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g513120",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g513140",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g513160",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g513300",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g513320",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g513340",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Les Gars du Nord"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/les-gars-du-nord-2024"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g513880",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
+    "http://schema.org/startDate": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-29T19:00:00"
       }
     ],
-    "http://schema.org/item": [
+    "http://schema.org/endDate": [
       {
-        "@id": "https://capitol.nb.ca/en/"
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-29T22:30:00"
       }
-    ]
-  },
-  {
-    "@id": "_:g513900",
-    "@type": [
-      "http://schema.org/ListItem"
     ],
-    "http://schema.org/position": [
+    "http://schema.org/eventAttendanceMode": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
       }
-    ],
-    "http://schema.org/item": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ]
-  },
-  {
-    "@id": "_:g513920",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@id": "_:g514060",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Home"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g514080",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tickets & Events"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "_:g514100",
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Dufflebag Theatre presents Peter Pan"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://capitol.nb.ca/en/tickets-events/dufflebag-theatre-presents-peter-pan"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ListItem"
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/ad32dbed-1206-4116-a96d-24b05bb92664",
-    "@type": [
-      "http://schema.org/Event"
     ],
     "http://schema.org/eventStatus": [
       {
         "@value": "https://schema.org/EventScheduled"
       }
     ],
-    "http://schema.org/name": [
+    "http://schema.org/inLanguage": [
       {
-        "@value": "James Mullinger"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "James Mullinger is celebrating 20 years workin..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-25T19:30:00-03:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "8763:30"
+        "@value": ""
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@id": "_:g489920"
       }
     ],
-    "http://schema.org/endDate": [
+    "http://schema.org/image": [
       {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-25T23:00:00-03:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/james-mullinger"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/abaab25d-7ff3-4c0c-acbb-4a279e22839c",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Moncton Sports Wall of Fame"
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_430_field_41/original/a-beacon-in-the-night-intro.jpg"
       }
     ],
     "http://schema.org/description": [
       {
-        "@value": "The Moncton Sports Wall of Fame recognizes ind..."
+        "@value": "The 9th edition of A Beacon in the Night returns to the Capitol Theatre on October 29th. This unifying show is a celebration of mental health recovery. Since 20"
       }
     ],
-    "http://schema.org/startDate": [
+    "http://schema.org/offers": [
       {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-26T19:00:00-03:00"
+        "@id": "_:g490040"
       }
     ],
-    "http://schema.org/duration": [
+    "http://schema.org/organizer": [
       {
-        "@value": "00:30"
+        "@id": "_:g490060"
       }
     ],
-    "http://schema.org/location": [
+    "http://schema.org/thing": [
       {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-26T19:30:00-03:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/moncton-sports-wall-of-fame"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/9ed07d75-3698-4333-b55b-e05b84da23e1",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Trans-Canada Highwaymen"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "The Trans-Canada Highwaymen is a supergroup (y..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-27T19:30:00-03:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-27T20:00:00-03:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/trans-canada-highwaymen"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/e46fa374-45b4-4ca9-b739-91c01bbc2848",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "A Beacon in the Night"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "The 9th edition of A Beacon in the Night retur..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-29T19:00:00-03:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-29T19:30:00-03:00"
+        "@id": "_:b4"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3008,45 +2575,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/c62de1b8-5f42-4c52-8807-5544d8640a6a",
+    "@id": "https://capitol.nb.ca/temporary/ec3e67b5-91ea-4b13-b599-9115c48dfbc0",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Marie-Jo Thério"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "Singer-songwriter Marie-Jo Thério will be bac..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/marie-jo-therio"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-02T20:00:00-03:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-11-02T20:00:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-02T20:30:00-03:00"
+        "@value": "2024-11-02T23:30:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g490700"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_318_field_41/original/marie-jo-therio-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Singer-songwriter Marie-Jo Thério will be back on stage this fall with her show La Maline, 20 ans et quelques lunes. Renowned for her unique and quirky stage p"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g490820"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g490840"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g490860"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3056,45 +2653,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/2456b9bc-63da-4065-910f-7f0adc836ed0",
+    "@id": "https://capitol.nb.ca/temporary/1fb554f0-b150-4fe4-ba48-759df823ef48",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "The China Syndrome (1979)"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "A screening of the classic 1970s thriller The ..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/the-china-syndrome-1979"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "1969-12-31T20:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "480744:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-11-03T14:00:00,2024-11-03T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-03T20:00:00-04:00"
+        "@value": "2024-11-04T00:00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g491480"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_319_field_41/original/the-china-sytndrome-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "A screening of the classic 1970s thriller The China Syndrome, starring Jack Lemmon, Jane Fonda and Michael Douglas, presented with a brand-new original score pe"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g491600"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g491620"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g491640"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3104,93 +2731,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/fad0344a-54ad-40b5-a635-9e4e95024498",
+    "@id": "https://capitol.nb.ca/temporary/b8fa7fa3-9198-47ac-8624-de64eeeaafd3",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "For the Fallen"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Revel in Schubert's famous "
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-04T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-04T20:00:00-04:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/for-the-fallen"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/78ad9d76-4247-4374-ba5f-e853d1d63630",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Jeunesses Musicales Canada"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "In this double bill in which the comedy gives ..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/jeunesses-musicales-canada"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-05T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-11-05T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-05T20:00:00-04:00"
+        "@value": "2024-11-06T00:00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g492440"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_320_field_41/original/jmc-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "In this double bill in which the comedy gives way to human tragedy, Poulenc’s La voix humaine&nbsp;takes on an almost veristic meaning, as a broken relationsh"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g492560"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g492580"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g492600"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3200,45 +2809,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/6973e731-a50c-414a-8b03-679770341552",
+    "@id": "https://capitol.nb.ca/temporary/16159d98-7fc5-4fbb-a2a3-07f31b5c90d8",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "FrancoFête en Acadie"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "6 showcases with: Théâtre Nouvel-Ontario (Ni..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/francofete-en-acadie"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-06T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-11-06T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-06T20:00:00-04:00"
+        "@value": "2024-11-07T00:00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g493220"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_456_field_41/original/6-novembre-soir---intro-700x460.png"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "6 showcases with: Théâtre Nouvel-Ontario (Nickel City Fifs) (theatre), Benny Jones (song), petipé (song), David Corriveau (variety), Fovelle (song) et Messe "
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g493340"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g493360"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g493380"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3248,45 +2887,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/6ce03022-1eb5-4c66-b1d8-fed6f8c965a9",
+    "@id": "https://capitol.nb.ca/temporary/692ba7b7-c254-42a1-bff0-9764109cdb3d",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "FrancoFête en Acadie"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "6 showcases with : Les Illusionnistes (circus ..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/francofete-en-acadie-2"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-07T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-11-07T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-07T20:00:00-04:00"
+        "@value": "2024-11-08T00:00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g494000"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_458_field_41/original/7-novembre-soir---intro-700x460.png"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "6 showcases with : Les Illusionnistes (circus arts), PAKO (chanson), Cayenne (song), Samuel Bourgeois (song), Nicolas Pellerin et Les Grands Hurleurs (song) et "
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g494120"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g494140"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g494160"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3296,93 +2965,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/d4a23285-6fff-4f03-a185-c9387e88a7df",
+    "@id": "https://capitol.nb.ca/temporary/d7ca53f2-40b8-4e3f-80c3-16fe169a1f7b",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "FrancoFête en Acadie"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "6 showcases with : Chris Belliveau (song), Alp..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-08T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-08T20:00:00-04:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/francofete-en-acadie-3"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/94c2ffbb-36c2-4d7a-b890-0d565cd19495",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Bobcaygeon"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "Bobcaygeon is a tribute to The Tragically Hip ..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/bobcaygeon"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-09T20:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-11-09T20:00:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-09T20:30:00-04:00"
+        "@value": "2024-11-10T00:30:15"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g494960"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_410_field_41/original/bobcaygeon-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Bobcaygeon is a tribute to The Tragically Hip and known for their sound strikingly similar to the Hip’s studio recordings. Get ready to enjoy some of the grea"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g495080"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g495100"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g495120"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3392,45 +3043,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/9e2fb9be-edd3-409f-bc5a-de34a2e64eef",
+    "@id": "https://capitol.nb.ca/temporary/50d96d82-7be2-4e4d-b80f-c10ef020d460",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Kellie Loder"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "There is something truly captivating about Can..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/kellie-loder"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-10T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-11-10T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-10T20:00:00-04:00"
+        "@value": "2024-11-11T00:00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g495740"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_321_field_41/original/kellie-loder-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "There is something truly captivating about Canadian Juno Award nominee Kellie Loder. They are a passionate storyteller and accomplished songwriter with a voice "
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g495860"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g495880"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g495900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3440,189 +3121,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/78446128-823e-401a-8f46-4b1c2abe46a7",
+    "@id": "https://capitol.nb.ca/temporary/98ede3a6-dfd9-48ce-a203-57fd4f6af725",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "United by Song"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "United by Song is a special evening of local s..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-12T19:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-12T19:30:00-04:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/united-by-song"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/d15c122a-3a3a-4871-b047-fd15956126d9",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "HYPROV: Improv Under Hypnosis"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "The most interactive comedy show in the world!..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-14T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-14T20:00:00-04:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/hyprov-improv-under-hypnosis"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/4278c73d-26f3-4d6f-bfef-3cd542e66a38",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Salebarbes"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Without skipping a beat, Salebarbes is back ou..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "1969-12-31T20:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "481080:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-17T20:30:00-04:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/salebarbes"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/12b64bd3-5624-44a2-8493-6fa691758cc0",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Stadacona Band Holiday Concert"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "David Myles and the Stadacona Band unite for a..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/stadacona-band-holiday-concert"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-01T19:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-12-01T19:00:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-01T19:30:00-04:00"
+        "@value": "2024-12-01T23:30:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g497060"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_462_field_41/original/stadacona-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "David Myles and the Stadacona Band unite for an unforgettable evening of holiday music. "
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g497180"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g497200"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g497220"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3632,45 +3199,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/35b62a50-7c78-4fa7-80ac-98b5f966cfdc",
+    "@id": "https://capitol.nb.ca/temporary/875bb323-ab80-4bdb-887c-8fb69bf5de48",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Nutcracker"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "The Nutcracker is back, bigger and better than..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/nutcracker"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "1969-12-31T20:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "481583:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-12-05T19:00:00,2024-12-06T19:00:00,2024-12-07T14:00:00,2024-12-07T19:00:00,2024-12-08T14:00:00,2024-12-08T19:00:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-08T19:30:00-04:00"
+        "@value": "2024-12-08T23:30:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g497840"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_326_field_41/original/nutcracker-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "The Nutcracker is back, bigger and better than ever! The holiday classic Nutcracker ballet, based on E.T.A. Hoffman’s cherished holiday story, is a wonderful "
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g497960"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g497980"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g498000"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3680,45 +3277,153 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/bebafd5e-a3ce-45f5-a009-794350fafd63",
+    "@id": "https://capitol.nb.ca/temporary/d00ad99a-fe6f-4d84-90d2-12180f0ea741",
     "@type": [
       "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Noël avec Les Muses, les frères Belivo & Roland Gauvin"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events/noel-avec-les-muses-les-freres-belivo-roland-gauvin-5"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-11T20:00:00,2024-12-12T20:00:00,2024-12-13T20:00:00,2024-12-14T14:00:00,2024-12-14T20:00:00,2024-12-15T14:00:00,2024-12-15T20:00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
     ],
     "http://schema.org/eventStatus": [
       {
         "@value": "https://schema.org/EventScheduled"
       }
     ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g498620"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_303_field_41/original/437944797_969232608541761_4065959034660694886_n.jpeg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Join&nbsp;Les Muses, the Belivo brothers and Roland Gauvin&nbsp;and come celebrate Christmas in songs!In addition to the&nbsp;Jeunes Chanteurs d’Acadie&nbsp;a"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g498740"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g498760"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g498780"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events/noel-avec-les-muses-les-freres-belivo-roland-gauvin-5"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/0337f541-0159-41ab-ad9f-9a1e0f0841bf",
+    "@type": [
+      "http://schema.org/Event"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Tyler Shaw"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "Tyler Shaw is a multi-Platinum-selling artist,..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/tyler-shaw"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-17T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-12-17T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-17T20:00:00-04:00"
+        "@value": "2024-12-18T00:00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g499400"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_327_field_41/original/tyler-shaw-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Tyler Shaw is a multi-Platinum-selling artist, music producer, and actor. The Chinese-Canadian, originally from Vancouver, BC, released his hit song Kiss Goodni"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g499520"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g499540"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g499560"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3728,45 +3433,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/337364d7-db7d-4602-a9e3-e90315fc1f8e",
+    "@id": "https://capitol.nb.ca/temporary/59ba8e20-0bbd-4600-a6fc-8b1a331b674c",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Choir! Choir! Choir!"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "Why see a show when you can BE the show!Choir!..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/choir-choir-choir-2"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-18T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "00:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-12-18T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-18T20:00:00-04:00"
+        "@value": "2024-12-19T00:00:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g500180"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_328_field_41/original/choir-choir-choir-dec18-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Why see a show when you can BE the show!Choir! Choir! Choir! is the fully interactive, participatory show that turns audience into performer! So get ready to la"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g500300"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g500320"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g500340"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3776,45 +3511,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/7d27e1f1-a0fd-4a3c-a523-c7d115d8faef",
+    "@id": "https://capitol.nb.ca/temporary/23dc4ad6-0d63-45ea-8075-9612aa67ce2e",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Barra MacNeils"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "One of the most beloved concerts of the winter..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/barra-macneils"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-19T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "01:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-12-19T19:30:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-19T20:30:00-04:00"
+        "@value": "2024-12-20T00:30:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g500960"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_416_field_41/original/barra-macneils-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "One of the most beloved concerts of the winter season, the Barra MacNeils An East Coast Christmas features a highly entertaining mix of traditional seasonal far"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g501080"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g501100"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g501120"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3824,93 +3589,75 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/ee8962e9-c1c2-4461-bc59-2e7fc3fdc10f",
+    "@id": "https://capitol.nb.ca/temporary/2e9e468b-8054-4afc-bded-2fd9f6275edc",
     "@type": [
       "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Les Gars du Nord"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "The tradition continues for the 11th year runn..."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "1969-12-31T20:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "481920:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-12-22T20:30:00-04:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/les-gars-du-nord-2024"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/0dfc678d-8f4d-48ed-b6b1-23aa6e8b797a",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
-      }
     ],
     "http://schema.org/name": [
       {
         "@value": "Dufflebag Theatre presents Peter Pan"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": "The “nearly world-famous” DuffleBag Theatr..."
+        "@id": "https://capitol.nb.ca/en/tickets-events/dufflebag-theatre-presents-peter-pan"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "1969-12-31T20:00:00-04:00"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@value": "482062:30"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
+        "@value": "2024-12-28T14:00:00,2024-12-28T18:00:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-12-28T18:30:00-04:00"
+        "@value": "2024-12-28T22:30:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g501920"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_329_field_41/original/dufflebag-peter-pan-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "The “nearly world-famous” DuffleBag Theatre returns! Now in their 32nd season of touring hilarious adaptations of fairy tales &amp; classic stories, DuffleB"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g502040"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g502060"
+      }
+    ],
+    "http://schema.org/thing": [
+      {
+        "@id": "_:g502080"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
