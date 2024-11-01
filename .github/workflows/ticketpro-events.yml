@@ -5,16 +5,44 @@ on:
   schedule:
     - cron: '0 7 * * 3'
 jobs:
-  artsdata-fetch-and-push:
+  fetch-quebec-events:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2.0.3
         with:
           mode: "fetch-push"
-          artifact: "ticketpro-events"
+          artifact: "ticketpro-ca-quebec"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "ticketpro-events.jsonld"
+          downloadFile: "ticketpro-quebec-events.jsonld"
           page-url: "https://ww1.ticketpro.ca/?languageid=-1"
+          entity-identifier: "div.item.itemblockTextAnime a"
+          token: "${{ secrets.GITHUB_TOKEN }}"
+
+  fetch-west-events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.3
+        with:
+          mode: "fetch-push"
+          artifact: "ticketpro-ca-west"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "ticketpro-west-events.jsonld"
+          page-url: "https://ww3.ticketpro.ca/?languageid=-1"
+          entity-identifier: "div.item.itemblockTextAnime a"
+          token: "${{ secrets.GITHUB_TOKEN }}"
+
+  fetch-atlantic-events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.3
+        with:
+          mode: "fetch-push"
+          artifact: "ticketpro-ca-atlantic"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "ticketpro-atlantic-events.jsonld"
+          page-url: "https://ww2.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
