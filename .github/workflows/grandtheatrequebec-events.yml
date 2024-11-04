@@ -1,0 +1,21 @@
+name: Fetch GrandTheatreQuebec Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 1'
+      
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2.0.3
+        with:
+          mode: "fetch-push"
+          artifact: "grandtheatrequebec-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "grandtheatrequebec-events.jsonld"
+          page-url: "https://grandtheatre.qc.ca/programmation/"
+          entity-identifier: "article.show a"
+          token: "${{ secrets.GITHUB_TOKEN }}"
