@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2.0.3
+        uses: culturecreates/artsdata-pipeline-action@v2
         with:
           mode: "fetch-push"
           artifact: "ticketpro-ca-quebec"
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2.0.3
+        uses: culturecreates/artsdata-pipeline-action@v2
         with:
           mode: "fetch-push"
           artifact: "ticketpro-ca-west"
@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2.0.3
+        uses: culturecreates/artsdata-pipeline-action@v2
         with:
           mode: "fetch-push"
           artifact: "ticketpro-ca-atlantic"
