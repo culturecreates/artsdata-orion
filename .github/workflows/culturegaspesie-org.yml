@@ -17,5 +17,5 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "culturegaspesie-org.jsonld"
           page-url: "https://culturegaspesie.org/evenements/"
-          entity-identifier: "a.link.w-full"
+          entity-identifier: "div.text-sm text-neutral-500.min-h-[14px] a"
           token: "${{ secrets.GITHUB_TOKEN }}"
