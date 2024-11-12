@@ -6,18 +6,18 @@ on:
     - cron: '0 12 * * 3' #runs every week on wednesday at noon UTC (around 7 AM EDT)
 
 jobs:
-  artsdata-fetch-and-commit:
+  artsdata-fetch-and-push:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2
         with:
-          artifact: capitol-nb-ca
-          mode: "fetch and push"
+          mode: "fetch-push"
+          artifact: "capitol-nb-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "capitolnb-events.jsonld"
           page-url: "https://capitol.nb.ca/en/tickets-events?filter_45=2024-"
           entity-identifier: "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a"
           is-paginated: "10"
           headless: "true"
-          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-orion/${{ needs.replace-location-name.outputs.commit-hash }}/output/capitolnb-events.jsonld
           token: "${{ secrets.GITHUB_TOKEN }}"
