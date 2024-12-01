@@ -135,7 +135,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g455660"
+        "@id": "_:g460360"
       }
     ],
     "https://api.w.org/": [
@@ -171,25 +171,25 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g455740"
+        "@id": "_:g460440"
       },
       {
-        "@id": "_:g458300"
+        "@id": "_:g463140"
       },
       {
-        "@id": "_:g460660"
+        "@id": "_:g464860"
       },
       {
-        "@id": "_:g462360"
+        "@id": "_:g467500"
       },
       {
-        "@id": "_:g464680"
+        "@id": "_:g468820"
       },
       {
-        "@id": "_:g466720"
+        "@id": "_:g471520"
       },
       {
-        "@id": "_:g469140"
+        "@id": "_:g473680"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -237,7 +237,7 @@
     ]
   },
   {
-    "@id": "_:g455660",
+    "@id": "_:g460360",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -291,13 +291,13 @@
     ]
   },
   {
-    "@id": "_:g455740",
+    "@id": "_:g460440",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g455760"
+        "@id": "_:g460460"
       }
     ],
     "http://schema.org/query-input": [
@@ -307,13 +307,13 @@
     ]
   },
   {
-    "@id": "_:g458300",
+    "@id": "_:g463140",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g458320"
+        "@id": "_:g463160"
       }
     ],
     "http://schema.org/query-input": [
@@ -323,13 +323,13 @@
     ]
   },
   {
-    "@id": "_:g460660",
+    "@id": "_:g464860",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g460680"
+        "@id": "_:g464880"
       }
     ],
     "http://schema.org/query-input": [
@@ -339,13 +339,13 @@
     ]
   },
   {
-    "@id": "_:g462360",
+    "@id": "_:g467500",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g462380"
+        "@id": "_:g467520"
       }
     ],
     "http://schema.org/query-input": [
@@ -355,13 +355,13 @@
     ]
   },
   {
-    "@id": "_:g464680",
+    "@id": "_:g468820",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g464700"
+        "@id": "_:g468840"
       }
     ],
     "http://schema.org/query-input": [
@@ -371,13 +371,13 @@
     ]
   },
   {
-    "@id": "_:g466720",
+    "@id": "_:g471520",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g466740"
+        "@id": "_:g471540"
       }
     ],
     "http://schema.org/query-input": [
@@ -387,79 +387,18 @@
     ]
   },
   {
-    "@id": "_:g469140",
+    "@id": "_:g473680",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g469160"
+        "@id": "_:g473700"
       }
     ],
     "http://schema.org/query-input": [
       {
         "@value": "required name=search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g455680",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Accueil"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g455700",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Événements"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/evenement/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g455720",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Montréal &#8211; Marrakech"
       }
     ]
   },
@@ -502,7 +441,7 @@
     ]
   },
   {
-    "@id": "_:g455760",
+    "@id": "_:g460460",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -513,7 +452,7 @@
     ]
   },
   {
-    "@id": "_:g455800",
+    "@id": "_:g460500",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -524,17 +463,17 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g455820"
+        "@id": "_:g460520"
       }
     ],
     "http://schema.org/geo": [
       {
-        "@id": "_:g455840"
+        "@id": "_:g460540"
       }
     ]
   },
   {
-    "@id": "_:g455820",
+    "@id": "_:g460520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -565,7 +504,7 @@
     ]
   },
   {
-    "@id": "_:g455840",
+    "@id": "_:g460540",
     "@type": [
       "http://schema.org/GeoCoordinates"
     ],
@@ -581,7 +520,7 @@
     ]
   },
   {
-    "@id": "_:g455860",
+    "@id": "_:g460560",
     "@type": [
       "http://schema.org/AggregateOffer"
     ],
@@ -629,7 +568,7 @@
     ]
   },
   {
-    "@id": "_:g455880",
+    "@id": "_:g460580",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -780,7 +719,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g458220"
+        "@id": "_:g463060"
       }
     ],
     "https://api.w.org/": [
@@ -828,7 +767,7 @@
     ]
   },
   {
-    "@id": "_:g458220",
+    "@id": "_:g463060",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -839,68 +778,7 @@
     ]
   },
   {
-    "@id": "_:g458240",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Accueil"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g458260",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Événements"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/evenement/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g458280",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Aianishkat"
-      }
-    ]
-  },
-  {
-    "@id": "_:g458320",
+    "@id": "_:g463160",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -911,7 +789,7 @@
     ]
   },
   {
-    "@id": "_:g458360",
+    "@id": "_:g463200",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -922,17 +800,17 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g458380"
+        "@id": "_:g463220"
       }
     ],
     "http://schema.org/geo": [
       {
-        "@id": "_:g458400"
+        "@id": "_:g463240"
       }
     ]
   },
   {
-    "@id": "_:g458380",
+    "@id": "_:g463220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -963,7 +841,7 @@
     ]
   },
   {
-    "@id": "_:g458400",
+    "@id": "_:g463240",
     "@type": [
       "http://schema.org/GeoCoordinates"
     ],
@@ -979,7 +857,7 @@
     ]
   },
   {
-    "@id": "_:g458420",
+    "@id": "_:g463260",
     "@type": [
       "http://schema.org/AggregateOffer"
     ],
@@ -1027,7 +905,7 @@
     ]
   },
   {
-    "@id": "_:g458440",
+    "@id": "_:g463280",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1178,7 +1056,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g460580"
+        "@id": "_:g464780"
       }
     ],
     "https://api.w.org/": [
@@ -1226,7 +1104,7 @@
     ]
   },
   {
-    "@id": "_:g460580",
+    "@id": "_:g464780",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -1237,68 +1115,7 @@
     ]
   },
   {
-    "@id": "_:g460600",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Accueil"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460620",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Événements"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/evenement/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460640",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Rhino"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460680",
+    "@id": "_:g464880",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -1309,7 +1126,7 @@
     ]
   },
   {
-    "@id": "_:g460720",
+    "@id": "_:g464920",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1320,17 +1137,17 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g460740"
+        "@id": "_:g464940"
       }
     ],
     "http://schema.org/geo": [
       {
-        "@id": "_:g460760"
+        "@id": "_:g464960"
       }
     ]
   },
   {
-    "@id": "_:g460740",
+    "@id": "_:g464940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1361,7 +1178,7 @@
     ]
   },
   {
-    "@id": "_:g460760",
+    "@id": "_:g464960",
     "@type": [
       "http://schema.org/GeoCoordinates"
     ],
@@ -1377,7 +1194,7 @@
     ]
   },
   {
-    "@id": "_:g460780",
+    "@id": "_:g464980",
     "@type": [
       "http://schema.org/AggregateOffer"
     ],
@@ -1425,7 +1242,7 @@
     ]
   },
   {
-    "@id": "_:g460800",
+    "@id": "_:g465000",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1487,7 +1304,7 @@
     "article:modified_time": [
       {
         "@language": "fr-fr",
-        "@value": "2024-11-01T15:41:36+00:00"
+        "@value": "2024-11-14T21:41:38+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -1556,7 +1373,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-01T15:41:36+00:00"
+        "@value": "2024-11-14T21:41:38+00:00"
       }
     ],
     "http://schema.org/description": [
@@ -1576,7 +1393,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g462280"
+        "@id": "_:g467420"
       }
     ],
     "https://api.w.org/": [
@@ -1624,7 +1441,7 @@
     ]
   },
   {
-    "@id": "_:g462280",
+    "@id": "_:g467420",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -1635,68 +1452,7 @@
     ]
   },
   {
-    "@id": "_:g462300",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Accueil"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462320",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Événements"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/evenement/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462340",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Wahsipekuk : Au-delà des montagnes"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462380",
+    "@id": "_:g467520",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -1707,7 +1463,7 @@
     ]
   },
   {
-    "@id": "_:g462420",
+    "@id": "_:g467560",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1718,17 +1474,17 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g462440"
+        "@id": "_:g467580"
       }
     ],
     "http://schema.org/geo": [
       {
-        "@id": "_:g462460"
+        "@id": "_:g467600"
       }
     ]
   },
   {
-    "@id": "_:g462440",
+    "@id": "_:g467580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1759,7 +1515,7 @@
     ]
   },
   {
-    "@id": "_:g462460",
+    "@id": "_:g467600",
     "@type": [
       "http://schema.org/GeoCoordinates"
     ],
@@ -1775,7 +1531,7 @@
     ]
   },
   {
-    "@id": "_:g462480",
+    "@id": "_:g467620",
     "@type": [
       "http://schema.org/AggregateOffer"
     ],
@@ -1818,12 +1574,12 @@
     ],
     "http://schema.org/availability": [
       {
-        "@value": "https://schema.org/InStock"
+        "@value": "https://schema.org/OutOfStock"
       }
     ]
   },
   {
-    "@id": "_:g462500",
+    "@id": "_:g467640",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1885,7 +1641,7 @@
     "article:modified_time": [
       {
         "@language": "fr-fr",
-        "@value": "2024-06-12T19:10:03+00:00"
+        "@value": "2024-11-20T19:13:06+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -1954,7 +1710,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-06-12T19:10:03+00:00"
+        "@value": "2024-11-20T19:13:06+00:00"
       }
     ],
     "http://schema.org/description": [
@@ -1974,7 +1730,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g464600"
+        "@id": "_:g468740"
       }
     ],
     "https://api.w.org/": [
@@ -2022,7 +1778,7 @@
     ]
   },
   {
-    "@id": "_:g464600",
+    "@id": "_:g468740",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2033,68 +1789,7 @@
     ]
   },
   {
-    "@id": "_:g464620",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Accueil"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464640",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Événements"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/evenement/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464660",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Récits-Récifs"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464700",
+    "@id": "_:g468840",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2105,7 +1800,7 @@
     ]
   },
   {
-    "@id": "_:g464740",
+    "@id": "_:g468880",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2116,17 +1811,17 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g464760"
+        "@id": "_:g468900"
       }
     ],
     "http://schema.org/geo": [
       {
-        "@id": "_:g464780"
+        "@id": "_:g468920"
       }
     ]
   },
   {
-    "@id": "_:g464760",
+    "@id": "_:g468900",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2157,7 +1852,7 @@
     ]
   },
   {
-    "@id": "_:g464780",
+    "@id": "_:g468920",
     "@type": [
       "http://schema.org/GeoCoordinates"
     ],
@@ -2173,7 +1868,7 @@
     ]
   },
   {
-    "@id": "_:g464800",
+    "@id": "_:g468940",
     "@type": [
       "http://schema.org/AggregateOffer"
     ],
@@ -2221,7 +1916,7 @@
     ]
   },
   {
-    "@id": "_:g464820",
+    "@id": "_:g468960",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2372,7 +2067,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g466640"
+        "@id": "_:g471440"
       }
     ],
     "https://api.w.org/": [
@@ -2420,7 +2115,7 @@
     ]
   },
   {
-    "@id": "_:g466640",
+    "@id": "_:g471440",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2431,68 +2126,7 @@
     ]
   },
   {
-    "@id": "_:g466660",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Accueil"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g466680",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Événements"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/evenement/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g466700",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "BOGOTÁ"
-      }
-    ]
-  },
-  {
-    "@id": "_:g466740",
+    "@id": "_:g471540",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2503,7 +2137,7 @@
     ]
   },
   {
-    "@id": "_:g466780",
+    "@id": "_:g471580",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2514,17 +2148,17 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g466800"
+        "@id": "_:g471600"
       }
     ],
     "http://schema.org/geo": [
       {
-        "@id": "_:g466820"
+        "@id": "_:g471620"
       }
     ]
   },
   {
-    "@id": "_:g466800",
+    "@id": "_:g471600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2555,7 +2189,7 @@
     ]
   },
   {
-    "@id": "_:g466820",
+    "@id": "_:g471620",
     "@type": [
       "http://schema.org/GeoCoordinates"
     ],
@@ -2571,7 +2205,7 @@
     ]
   },
   {
-    "@id": "_:g466840",
+    "@id": "_:g471640",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2609,7 +2243,7 @@
     ]
   },
   {
-    "@id": "_:g466860",
+    "@id": "_:g471660",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2671,7 +2305,7 @@
     "article:modified_time": [
       {
         "@language": "fr-fr",
-        "@value": "2024-11-05T19:26:35+00:00"
+        "@value": "2024-11-25T20:51:27+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -2740,7 +2374,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-05T19:26:35+00:00"
+        "@value": "2024-11-25T20:51:27+00:00"
       }
     ],
     "http://schema.org/description": [
@@ -2760,7 +2394,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g469060"
+        "@id": "_:g473600"
       }
     ],
     "https://api.w.org/": [
@@ -2808,7 +2442,7 @@
     ]
   },
   {
-    "@id": "_:g469060",
+    "@id": "_:g473600",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2819,68 +2453,7 @@
     ]
   },
   {
-    "@id": "_:g469080",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Accueil"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469100",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Événements"
-      }
-    ],
-    "http://schema.org/item": [
-      {
-        "@value": "https://agoradanse.com/evenement/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469120",
-    "@type": [
-      "http://schema.org/ListItem"
-    ],
-    "http://schema.org/position": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "3"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "REPLICA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469160",
+    "@id": "_:g473700",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2891,7 +2464,7 @@
     ]
   },
   {
-    "@id": "_:g469200",
+    "@id": "_:g473740",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2902,17 +2475,17 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g469220"
+        "@id": "_:g473760"
       }
     ],
     "http://schema.org/geo": [
       {
-        "@id": "_:g469240"
+        "@id": "_:g473780"
       }
     ]
   },
   {
-    "@id": "_:g469220",
+    "@id": "_:g473760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2943,7 +2516,7 @@
     ]
   },
   {
-    "@id": "_:g469240",
+    "@id": "_:g473780",
     "@type": [
       "http://schema.org/GeoCoordinates"
     ],
@@ -2959,7 +2532,7 @@
     ]
   },
   {
-    "@id": "_:g469260",
+    "@id": "_:g473800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2997,7 +2570,7 @@
     ]
   },
   {
-    "@id": "_:g469280",
+    "@id": "_:g473820",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3013,7 +2586,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/3a86196d-7bb7-49be-8e78-16662de9d164",
+    "@id": "https://agoradanse.com/temporary/18315cb5-d5c3-4eac-a773-b384f4b0ef4d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3056,7 +2629,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g455800"
+        "@id": "_:g460500"
       }
     ],
     "http://schema.org/duration": [
@@ -3066,12 +2639,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g455860"
+        "@id": "_:g460560"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g455880"
+        "@id": "_:g460580"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3081,7 +2654,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/6c9aaf8b-7751-4b87-af49-269c2eb95524",
+    "@id": "https://agoradanse.com/temporary/3e8c8d2a-c9ab-4116-bc2f-2a0bc5ad1c38",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3124,7 +2697,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g458360"
+        "@id": "_:g463200"
       }
     ],
     "http://schema.org/duration": [
@@ -3134,12 +2707,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g458420"
+        "@id": "_:g463260"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g458440"
+        "@id": "_:g463280"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3149,7 +2722,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/36b1be68-4da4-4920-bb9f-a5abca7ac771",
+    "@id": "https://agoradanse.com/temporary/2b5222d3-21d3-43a9-9397-3b9466582d3d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3192,7 +2765,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g460720"
+        "@id": "_:g464920"
       }
     ],
     "http://schema.org/duration": [
@@ -3202,12 +2775,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g460780"
+        "@id": "_:g464980"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g460800"
+        "@id": "_:g465000"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3217,7 +2790,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/d7d78c60-c86a-42c7-84b4-ac38d043b3e7",
+    "@id": "https://agoradanse.com/temporary/5339bb59-3d25-4107-b4a0-0f24df614e9a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3260,7 +2833,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g462420"
+        "@id": "_:g467560"
       }
     ],
     "http://schema.org/duration": [
@@ -3270,12 +2843,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g462480"
+        "@id": "_:g467620"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g462500"
+        "@id": "_:g467640"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3285,7 +2858,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/2fc78bdb-9a48-4bd4-a9b5-fd51ba03aee2",
+    "@id": "https://agoradanse.com/temporary/64b20b80-79a6-4011-9fd0-7ba24c5ef43f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3328,7 +2901,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g464740"
+        "@id": "_:g468880"
       }
     ],
     "http://schema.org/duration": [
@@ -3338,12 +2911,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g464800"
+        "@id": "_:g468940"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g464820"
+        "@id": "_:g468960"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3353,7 +2926,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/4956c254-a41e-4f8b-90c0-c58a96d628b0",
+    "@id": "https://agoradanse.com/temporary/a1fd3697-d7c0-47a5-9c48-030cfe15783b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3396,7 +2969,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466780"
+        "@id": "_:g471580"
       }
     ],
     "http://schema.org/duration": [
@@ -3406,12 +2979,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g466840"
+        "@id": "_:g471640"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466860"
+        "@id": "_:g471660"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3421,7 +2994,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/64a43e7b-a523-4f86-936e-648b8d4f5044",
+    "@id": "https://agoradanse.com/temporary/2ed370f1-6be0-49ec-83e0-95ddff324beb",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3464,7 +3037,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g469200"
+        "@id": "_:g473740"
       }
     ],
     "http://schema.org/duration": [
@@ -3474,12 +3047,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g469260"
+        "@id": "_:g473800"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g469280"
+        "@id": "_:g473820"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
