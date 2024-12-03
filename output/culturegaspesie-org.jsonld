@@ -1,2163 +1,72 @@
 [
   {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "La guitare aux mille sonorités - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/tommy-dupuis-tamphotography-1.jpg"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-20T12:32:16+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-23T14:28:24+00:00"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g460380"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/#website",
-    "@type": [
-      "http://schema.org/WebSite"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "L&#039;énergie créative"
-      }
-    ],
-    "http://schema.org/publisher": [
-      {
-        "@id": "https://culturegaspesie.org/#organization"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g460400"
-      },
-      {
-        "@id": "_:g461020"
-      },
-      {
-        "@id": "_:g461540"
-      },
-      {
-        "@id": "_:g462120"
-      },
-      {
-        "@id": "_:g462760"
-      },
-      {
-        "@id": "_:g463360"
-      },
-      {
-        "@id": "_:g463920"
-      },
-      {
-        "@id": "_:g464520"
-      },
-      {
-        "@id": "_:g465160"
-      },
-      {
-        "@id": "_:g465760"
-      },
-      {
-        "@id": "_:g466280"
-      },
-      {
-        "@id": "_:g466860"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/tommy-dupuis-tamphotography-1.jpg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/tommy-dupuis-tamphotography-1.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1277"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460380",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/#organization",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/"
-      }
-    ],
-    "http://schema.org/logo": [
-      {
-        "@id": "https://culturegaspesie.org/#/schema/logo/image/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/#/schema/logo/image/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460400",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g460500"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g460520"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461020",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g461120"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g461140"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461540",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g461640"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g461660"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462120",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g462220"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g462240"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462760",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g462860"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g462880"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463360",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g463460"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g463480"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463920",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g464020"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g464040"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464520",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g464620"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g464640"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465160",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g465260"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g465280"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465760",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g465860"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g465880"
-      }
-    ]
-  },
-  {
-    "@id": "_:g466280",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g466380"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g466400"
-      }
-    ]
-  },
-  {
-    "@id": "_:g466860",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g466960"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g466980"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/#/schema/logo/image/",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/04/logo-culturegaspesie.svg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/04/logo-culturegaspesie.svg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "651"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "239"
-      }
-    ],
-    "http://schema.org/caption": [
-      {
-        "@value": "Culture Gaspésie"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460500",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460520",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460560",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Centre de Création Diffusion de Gaspé"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g460620"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460620",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "85 Boulevard de Gaspé"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Gaspé"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "G4X 1A9"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460580",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Centre de Création Diffusion de Gaspé"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/logo.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://centredecreationdiffusiondegaspe.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460600",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Tommy Dupuis"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Concertation sectorielle : Muséologie et patrimoine - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-patrimoine-wordpress.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-06T14:08:38+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-07T14:16:18+00:00"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Concertation en Muséologie et patrimoine"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g461000"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-patrimoine-wordpress.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-patrimoine-wordpress.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1200"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "900"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461000",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461120",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461140",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461180",
-    "@type": [
-      "http://schema.org/VirtualLocation"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://us02web.zoom.us/meeting/register/tZ0pdeiopz8uGdLUnpf4fb53YZZse1kVmHss#/registration"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461200",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/07/cculture-gaspesie-sw.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Concertation sectorielle : Arts de la scène - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress-2.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-06T14:13:20+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-07T14:15:46+00:00"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Concertation en Arts de la scène"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g461520"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress-2.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress-2.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1200"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "900"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461520",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461640",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461660",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461700",
-    "@type": [
-      "http://schema.org/VirtualLocation"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://us02web.zoom.us/meeting/register/tZIpcOCvqDovH9DkkcDOpI6GiL9Z5s3PRA74#/registration"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461720",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/07/cculture-gaspesie-sw.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Kindergarden Heart - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/2024-11-27-shaina-hayes-credit-lawrencefafard-9-1696016179.jpg"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-30T19:33:17+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-01T16:56:29+00:00"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g462100"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/2024-11-27-shaina-hayes-credit-lawrencefafard-9-1696016179.jpg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/2024-11-27-shaina-hayes-credit-lawrencefafard-9-1696016179.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1708"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2560"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462100",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462220",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462240",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462280",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Salle de spectacles régionale Desjardins"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g462340"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462340",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "99 Place Suzanne-Guité"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "New Richmond"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "G0C 2B0"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462300",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Salle de spectacles régionale Desjardins de New Richmond"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/logo-couleur-petit.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://spectaclesnewrichmond.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462320",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Shaina Hayes"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.bonsound.com/fr/artiste/shaina-hayes/"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Conférence Art et IA : Défis et opportunités - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/conference-art-ia.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-17T12:30:26+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-15T14:56:45+00:00"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Ce panel abordera un sujet d'une grande actualité qui suscite de nombreuses interrogations et préoccupations dans le milieu artistique et culturel : l'impact croissant de l'intelligence artificielle sur la création artistique."
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g462740"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/conference-art-ia.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/conference-art-ia.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1080"
-      }
-    ],
-    "http://schema.org/caption": [
-      {
-        "@value": "Conférence Art et IA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462740",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462860",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462880",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462920",
-    "@type": [
-      "http://schema.org/VirtualLocation"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://us02web.zoom.us/meeting/register/tZwudeyopjgtHNfdr7Wx76qByj3fN5KgxcXv"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462940",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/07/cculture-gaspesie-sw.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462960",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Vahe Vardanyan"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/vahe-vardanyan.png"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462980",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Valentine Goddard"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/valentine-goddard.png"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463000",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Mathieu Portelance"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/mathieu-portelance.png"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463020",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Simon Portelance"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/simon-portelance.png"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Concertation sectorielle : Arts visuels et métiers d'art - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-06T14:19:57+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-07T14:15:20+00:00"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Concertation en Arts visuels et métiers d'art"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g463340"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1200"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "900"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463340",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463460",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463480",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463520",
-    "@type": [
-      "http://schema.org/VirtualLocation"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://us02web.zoom.us/meeting/register/tZAkc-mspz8uEtVRp7a1uGSokd2iaj0mjU4P#/registration"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463540",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/07/cculture-gaspesie-sw.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Marie-Denise Pelletier - Noël parle-moi - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/mariedenisepelletiernoel.jpg"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-30T19:33:14+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-01T16:56:26+00:00"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g463900"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/mariedenisepelletiernoel.jpg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/mariedenisepelletiernoel.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "800"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "800"
-      }
-    ]
-  },
-  {
-    "@id": "_:g463900",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464020",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464040",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464080",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Église de Grande-Vallée"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g464140"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464140",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "5 Rue Saint François Xavier Est"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Grande-Vallée"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "G0E 1K0"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464100",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Festival en chanson de Petite-Vallée"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://festivalenchanson.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464120",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Marie-Denise Pelletier"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Nicolas Noël : Le cristal du temps - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/nicolas-noel-tuxedo.jpg"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-05-01T19:18:20+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-24T14:39:43+00:00"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g464500"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/nicolas-noel-tuxedo.jpg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/nicolas-noel-tuxedo.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "500"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "500"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464500",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464620",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464640",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464680",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "La Salle Comble"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g464740"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464740",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "120 7e Rue Ouest"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Sainte-Anne-des-Monts"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "G4V 2L2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464700",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Productions de la Salle Comble"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/d8246e12-8c4a-4e62-93c7-285dd0f494f0.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lasallecomble.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g464720",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Nicolas Noël"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/",
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "All In Good Time – Sam Tucker - Culture Gaspésie"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://culturegaspesie.org/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/014040560010.jpg"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-08-28T13:31:49+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-23T14:27:57+00:00"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/#breadcrumb"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g465140"
-      }
-    ]
-  },
-  {
-    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": "fr-CA"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/014040560010.jpg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/014040560010.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1273"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465140",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465260",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@value": "https://culturegaspesie.org/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465280",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465320",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Centre de Création Diffusion de Gaspé"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g465380"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465380",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "85 Boulevard de Gaspé"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Gaspé"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "G4X 1A9"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465340",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Centre de Création Diffusion de Gaspé"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/logo.jpg"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://centredecreationdiffusiondegaspe.com/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465360",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Sam Tucker"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://samtuckermusic.com/fr/"
-      }
-    ]
-  },
-  {
     "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy-copy/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Concertation sectorielle : Littérature et conte - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "fr-ca",
+        "@value": "Concertation en littérature et conte"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy-copy/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-11-07T14:14:54+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-litterature-wordpress.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1200"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "900"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
     "@type": [
       "http://schema.org/WebPage"
     ],
@@ -2220,7 +129,76 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g465740"
+        "@id": "_:g460340"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/#website",
+    "@type": [
+      "http://schema.org/WebSite"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "L&#039;énergie créative"
+      }
+    ],
+    "http://schema.org/publisher": [
+      {
+        "@id": "https://culturegaspesie.org/#organization"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g460440"
+      },
+      {
+        "@id": "_:g462560"
+      },
+      {
+        "@id": "_:g463780"
+      },
+      {
+        "@id": "_:g464620"
+      },
+      {
+        "@id": "_:g466700"
+      },
+      {
+        "@id": "_:g467260"
+      },
+      {
+        "@id": "_:g468460"
+      },
+      {
+        "@id": "_:g470580"
+      },
+      {
+        "@id": "_:g472580"
+      },
+      {
+        "@id": "_:g473800"
+      },
+      {
+        "@id": "_:g475560"
+      },
+      {
+        "@id": "_:g477580"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
       }
     ]
   },
@@ -2258,7 +236,7 @@
     ]
   },
   {
-    "@id": "_:g465740",
+    "@id": "_:g460340",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2269,7 +247,263 @@
     ]
   },
   {
-    "@id": "_:g465860",
+    "@id": "https://culturegaspesie.org/#organization",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/"
+      }
+    ],
+    "http://schema.org/logo": [
+      {
+        "@id": "https://culturegaspesie.org/#/schema/logo/image/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/#/schema/logo/image/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g460440",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g460460"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g460480"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462560",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g462580"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g462600"
+      }
+    ]
+  },
+  {
+    "@id": "_:g463780",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g463800"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g463820"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464620",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g464640"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g464660"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466700",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g466720"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g466740"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467260",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g467280"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g467300"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468460",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g468480"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g468500"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470580",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g470600"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g470620"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472580",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g472600"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g472620"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473800",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g473820"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g473840"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475560",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g475580"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g475600"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477580",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g477600"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g477620"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/#/schema/logo/image/",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/04/logo-culturegaspesie.svg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/04/logo-culturegaspesie.svg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "651"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "239"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@value": "Culture Gaspésie"
+      }
+    ]
+  },
+  {
+    "@id": "_:g460460",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2280,7 +514,7 @@
     ]
   },
   {
-    "@id": "_:g465880",
+    "@id": "_:g460480",
     "@type": [
       "http://schema.org/PropertyValueSpecification"
     ],
@@ -2297,7 +531,7 @@
     ]
   },
   {
-    "@id": "_:g465920",
+    "@id": "_:g460520",
     "@type": [
       "http://schema.org/VirtualLocation"
     ],
@@ -2308,7 +542,7 @@
     ]
   },
   {
-    "@id": "_:g465940",
+    "@id": "_:g460540",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2330,6 +564,72 @@
   },
   {
     "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy-copy-copy/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Concertation sectorielle : Arts médiatiques et communications - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "fr-ca",
+        "@value": "Concertation en arts médiatiques et communications"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy-copy-copy/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-11-07T14:14:28+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-mediatiques-wordpress.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1200"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "900"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
     "@type": [
       "http://schema.org/WebPage"
     ],
@@ -2392,7 +692,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g466260"
+        "@id": "_:g462460"
       }
     ]
   },
@@ -2430,7 +730,7 @@
     ]
   },
   {
-    "@id": "_:g466260",
+    "@id": "_:g462460",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2441,7 +741,7 @@
     ]
   },
   {
-    "@id": "_:g466380",
+    "@id": "_:g462580",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2452,7 +752,7 @@
     ]
   },
   {
-    "@id": "_:g466400",
+    "@id": "_:g462600",
     "@type": [
       "http://schema.org/PropertyValueSpecification"
     ],
@@ -2469,7 +769,7 @@
     ]
   },
   {
-    "@id": "_:g466440",
+    "@id": "_:g462640",
     "@type": [
       "http://schema.org/VirtualLocation"
     ],
@@ -2480,7 +780,7 @@
     ]
   },
   {
-    "@id": "_:g466460",
+    "@id": "_:g462660",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2502,6 +802,66 @@
   },
   {
     "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/les-jolies-choses/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Les jolies choses - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/les-jolies-choses/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-09-23T14:28:26+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2022/05/A541A941-9942-4470-B200-3C46C1C55DA5-scaled.jpeg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "2560"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/jpeg"
+      }
+    ],
     "@type": [
       "http://schema.org/WebPage"
     ],
@@ -2559,7 +919,7 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g466840"
+        "@id": "_:g463680"
       }
     ]
   },
@@ -2597,7 +957,7 @@
     ]
   },
   {
-    "@id": "_:g466840",
+    "@id": "_:g463680",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2608,7 +968,7 @@
     ]
   },
   {
-    "@id": "_:g466960",
+    "@id": "_:g463800",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2619,7 +979,7 @@
     ]
   },
   {
-    "@id": "_:g466980",
+    "@id": "_:g463820",
     "@type": [
       "http://schema.org/PropertyValueSpecification"
     ],
@@ -2636,7 +996,7 @@
     ]
   },
   {
-    "@id": "_:g467020",
+    "@id": "_:g463860",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2647,12 +1007,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g467080"
+        "@id": "_:g463880"
       }
     ]
   },
   {
-    "@id": "_:g467080",
+    "@id": "_:g463880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2683,7 +1043,7 @@
     ]
   },
   {
-    "@id": "_:g467040",
+    "@id": "_:g463900",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2704,7 +1064,7 @@
     ]
   },
   {
-    "@id": "_:g467060",
+    "@id": "_:g463920",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2715,544 +1075,2347 @@
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/b1721240-0e04-42ba-b7ad-43cb16ceaec9",
+    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Flash numérique : Introduction à ChatGPT - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-10-17T13:11:18+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/10/f4-evenement-web-wordpress-1.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1200"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "900"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/"
+      }
     ],
     "http://schema.org/name": [
       {
-        "@value": "La guitare aux mille sonorités"
+        "@value": "Flash numérique : Introduction à ChatGPT - Culture Gaspésie"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/isPartOf": [
       {
-        "@value": ""
+        "@id": "https://culturegaspesie.org/#website"
       }
     ],
-    "http://schema.org/location": [
+    "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "_:g460560"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/tommy-dupuis-tamphotography-1.jpg"
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/#primaryimage"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/thumbnailUrl": [
       {
-        "@value": "https://schema.org/OfflineEventAttendanceMode"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f4-evenement-web-wordpress-1.png"
       }
     ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g460580"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g460600"
-      }
-    ],
-    "http://schema.org/startDate": [
+    "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-26T19:00:00-05:00"
+        "@value": "2024-10-17T11:48:00+00:00"
       }
     ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+    "http://schema.org/dateModified": [
       {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/la-guitare-aux-mille-sonorites/"
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-17T13:11:18+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g464520"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/03d3d2b1-caa0-4602-b38a-84e49947f156",
+    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/#primaryimage",
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f4-evenement-web-wordpress-1.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f4-evenement-web-wordpress-1.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1200"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "900"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464520",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464640",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464660",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464700",
+    "@type": [
+      "http://schema.org/VirtualLocation"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://us02web.zoom.us/meeting/register/tZcvdOmqrTgqEtfZ14ZnhQszADWB1w-betWH"
+      }
+    ]
+  },
+  {
+    "@id": "_:g464720",
+    "@type": [
+      "http://schema.org/Organization"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Concertation sectorielle : Muséologie et patrimoine"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Concertation en Muséologie et patrimoine"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461180"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
+        "@value": "Culture Gaspésie"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-patrimoine-wordpress.png"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/07/cculture-gaspesie-sw.jpg"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/url": [
       {
-        "@value": "https://schema.org/OnlineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g461200"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-26T09:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-26T11:30:00-05:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine/"
+        "@id": "https://culturegaspesie.org"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/d544bee6-fd3f-4385-b1cb-d77183db31bf",
+    "@id": "_:g464740",
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/Person"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Concertation sectorielle : Arts de la scène"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Concertation en Arts de la scène"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461700"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
+        "@value": "Myriam Perron"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress-2.png"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@value": "https://schema.org/OnlineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g461720"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-27T13:30:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-27T16:00:00-05:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy/"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/01/myriam-perron-nb.jpg"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/9ba5b4c3-10aa-4d13-a707-64c92551d1dc",
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Si je vous ai bien compris, vous êtes en train de dire… - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-10-01T16:56:24+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/09/2024-12-06-guy-nantel.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1000"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "1000"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/jpeg"
+      }
+    ],
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/"
+      }
     ],
     "http://schema.org/name": [
       {
-        "@value": "Kindergarden Heart"
+        "@value": "Si je vous ai bien compris, vous êtes en train de dire… - Culture Gaspésie"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/isPartOf": [
       {
-        "@value": ""
+        "@id": "https://culturegaspesie.org/#website"
       }
     ],
-    "http://schema.org/location": [
+    "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "_:g462280"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@value": "https://schema.org/EventScheduled"
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/2024-11-27-shaina-hayes-credit-lawrencefafard-9-1696016179-1366x2048.jpg"
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/#primaryimage"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/thumbnailUrl": [
       {
-        "@value": "https://schema.org/OfflineEventAttendanceMode"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/2024-12-06-guy-nantel.jpg"
       }
     ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g462300"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g462320"
-      }
-    ],
-    "http://schema.org/startDate": [
+    "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-27T20:00:00-05:00"
+        "@value": "2024-09-30T19:33:11+00:00"
       }
     ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+    "http://schema.org/dateModified": [
       {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12995/"
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-01T16:56:24+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g466600"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/d9f82556-9710-4bbe-84eb-66167f25dddd",
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/#primaryimage",
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/2024-12-06-guy-nantel.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/2024-12-06-guy-nantel.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1000"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1000"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466600",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466720",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466740",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466780",
+    "@type": [
+      "http://schema.org/Place"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Conférence Art et IA : Défis et opportunités"
+        "@value": "Salle de spectacles régionale Desjardins"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/address": [
       {
-        "@value": ""
+        "@id": "_:g466800"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466800",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "99 Place Suzanne-Guité"
       }
     ],
-    "http://schema.org/location": [
+    "http://schema.org/addressLocality": [
       {
-        "@id": "_:g462920"
+        "@value": "New Richmond"
       }
     ],
-    "http://schema.org/eventStatus": [
+    "http://schema.org/postalCode": [
       {
-        "@value": "https://schema.org/EventScheduled"
+        "@value": "G0C 2B0"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466820",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Salle de spectacles régionale Desjardins de New Richmond"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/conference-art-ia.png"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/logo-couleur-petit.jpg"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/url": [
       {
-        "@value": "https://schema.org/OnlineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g462940"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g462960"
-      },
-      {
-        "@id": "_:g462980"
-      },
-      {
-        "@id": "_:g463000"
-      },
-      {
-        "@id": "_:g463020"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-28T09:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-28T11:00:00-05:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/panel-art-et-ia-defis-et-opportunites/"
+        "@id": "https://spectaclesnewrichmond.com/"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/5d4ce335-9b95-43c1-8aa0-46c346bdfffa",
+    "@id": "_:g466840",
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/Organization"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Concertation sectorielle : Arts visuels et métiers d'art"
+        "@value": "Guy Nantel"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
       }
     ],
-    "http://schema.org/description": [
+    "http://ogp.me/ns#type": [
       {
-        "@value": "Concertation en Arts visuels et métiers d'art"
+        "@language": "fr-ca",
+        "@value": "article"
       }
     ],
-    "http://schema.org/location": [
+    "http://ogp.me/ns#title": [
       {
-        "@id": "_:g463520"
+        "@language": "fr-ca",
+        "@value": "Patrick Dubois, conteur \"Le cheval de bois\" - Culture Gaspésie"
       }
     ],
-    "http://schema.org/eventStatus": [
+    "http://ogp.me/ns#url": [
       {
-        "@value": "https://schema.org/EventScheduled"
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-10-01T16:56:21+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241207001-1152x648-fr-66b51454.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1152"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "648"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois, conteur \"Le cheval de bois\" - Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://culturegaspesie.org/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/concertation-arts-visuels-wordpress.png"
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/#primaryimage"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/thumbnailUrl": [
       {
-        "@value": "https://schema.org/OnlineEventAttendanceMode"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241207001-1152x648-fr-66b51454.png"
       }
     ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g463540"
-      }
-    ],
-    "http://schema.org/startDate": [
+    "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-29T09:00:00-05:00"
+        "@value": "2024-09-30T19:33:08+00:00"
       }
     ],
-    "http://schema.org/endDate": [
+    "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-29T11:30:00-05:00"
+        "@value": "2024-10-01T16:56:21+00:00"
       }
     ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+    "http://schema.org/breadcrumb": [
       {
-        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/concertation-sectorielle-museologie-et-patrimoine-copy-copy/"
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g467160"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/efd68f0c-f6e9-4000-a3c2-80df66fca485",
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/#primaryimage",
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241207001-1152x648-fr-66b51454.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241207001-1152x648-fr-66b51454.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1152"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "648"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467160",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467280",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467300",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467340",
+    "@type": [
+      "http://schema.org/Place"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Marie-Denise Pelletier - Noël parle-moi"
+        "@value": "Centre Culturel de Paspébiac"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/address": [
       {
-        "@value": ""
+        "@id": "_:g467360"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467360",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "7 Boulevard Gérard D. Levesque Est"
       }
     ],
-    "http://schema.org/location": [
+    "http://schema.org/addressLocality": [
       {
-        "@id": "_:g464080"
+        "@value": "Paspébiac"
       }
     ],
-    "http://schema.org/eventStatus": [
+    "http://schema.org/postalCode": [
       {
-        "@value": "https://schema.org/EventScheduled"
+        "@value": "G0C 2K0"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g467380",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Centre culturel de Paspébiac"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/mariedenisepelletiernoel.jpg"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/ccp-logo-ccc-300x300-1.jpg"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/url": [
       {
-        "@value": "https://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g464100"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g464120"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-30T19:30:00-05:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12993/"
+        "@id": "https://centre-culturel.villepaspebiac.ca/"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/d6609536-227b-47e5-a8e2-ecdd9825ff9e",
+    "@id": "_:g467400",
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/Person"
     ],
     "http://schema.org/name": [
       {
-        "@value": "Nicolas Noël : Le cristal du temps"
+        "@value": "Patrick Dubois"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/url": [
       {
-        "@value": ""
+        "@id": "https://culturegaspesie.org/membre/patrick-dubois/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
       }
     ],
-    "http://schema.org/location": [
+    "http://ogp.me/ns#type": [
       {
-        "@id": "_:g464680"
+        "@language": "fr-ca",
+        "@value": "article"
       }
     ],
-    "http://schema.org/eventStatus": [
+    "http://ogp.me/ns#title": [
       {
-        "@value": "https://schema.org/EventScheduled"
+        "@language": "fr-ca",
+        "@value": "Alexis - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-09-24T14:40:24+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/05/alexis-tuxedo.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "500"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "500"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Alexis - Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://culturegaspesie.org/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/nicolas-noel-tuxedo.jpg"
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/#primaryimage"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/thumbnailUrl": [
       {
-        "@value": "https://schema.org/OfflineEventAttendanceMode"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/alexis-tuxedo.png"
       }
     ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g464700"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g464720"
-      }
-    ],
-    "http://schema.org/startDate": [
+    "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-30T15:00:00-05:00"
+        "@value": "2024-05-01T19:18:03+00:00"
       }
     ],
-    "http://schema.org/endDate": [
+    "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-30T17:00:00-05:00"
+        "@value": "2024-09-24T14:40:24+00:00"
       }
     ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+    "http://schema.org/breadcrumb": [
       {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/nicolas-noel-le-cristal-du-temps/"
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g468360"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/94f81bcd-4a50-47ad-8625-7b6de41736f1",
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/#primaryimage",
     "@type": [
-      "http://schema.org/Event"
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/alexis-tuxedo.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/alexis-tuxedo.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "500"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "500"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468360",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468480",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468500",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468540",
+    "@type": [
+      "http://schema.org/Place"
     ],
     "http://schema.org/name": [
       {
-        "@value": "All In Good Time – Sam Tucker"
+        "@value": "La Salle Comble"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/address": [
       {
-        "@value": ""
+        "@id": "_:g468560"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468560",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "120 7e Rue Ouest"
       }
     ],
-    "http://schema.org/location": [
+    "http://schema.org/addressLocality": [
       {
-        "@id": "_:g465320"
+        "@value": "Sainte-Anne-des-Monts"
       }
     ],
-    "http://schema.org/eventStatus": [
+    "http://schema.org/postalCode": [
       {
-        "@value": "https://schema.org/EventScheduled"
+        "@value": "G4V 2L2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468580",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Productions de la Salle Comble"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/014040560010.jpg"
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/d8246e12-8c4a-4e62-93c7-285dd0f494f0.jpg"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
+    "http://schema.org/url": [
       {
-        "@value": "https://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g465340"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g465360"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-30T20:00:00-05:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12530/"
+        "@id": "https://www.lasallecomble.com/"
       }
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/70f5ae71-60a4-435a-815e-3463723e7d6a",
+    "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Patrick Dubois - Le cheval de bois - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-09-23T14:11:30+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/08/culture-gaspesie-51.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1900"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois - Le cheval de bois - Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://culturegaspesie.org/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/culture-gaspesie-51.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-08-14T18:32:43+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-23T14:11:30+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g470480"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/culture-gaspesie-51.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/culture-gaspesie-51.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1900"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470480",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470600",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470620",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470660",
+    "@type": [
+      "http://schema.org/Place"
+    ]
+  },
+  {
+    "@id": "_:g470680",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Centre culturel de Paspébiac"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/ccp-logo-ccc-300x300-1.jpg"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://centre-culturel.villepaspebiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g470720",
+    "@type": [
+      "http://schema.org/Place"
+    ]
+  },
+  {
+    "@id": "_:g470740",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Centre culturel de Paspébiac"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/ccp-logo-ccc-300x300-1.jpg"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://centre-culturel.villepaspebiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Ateliers et veillée de danse avec \"Dans Cuisine\" - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-11-22T15:06:02+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/11/dans-cuisine-wordpress.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1200"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "900"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Ateliers et veillée de danse avec \"Dans Cuisine\" - Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://culturegaspesie.org/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/dans-cuisine-wordpress.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-22T15:01:39+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-22T15:06:02+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g472480"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/dans-cuisine-wordpress.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/dans-cuisine-wordpress.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1200"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "900"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@value": "Logo : Dans cuisine"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472480",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472600",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472620",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472660",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Centre communautaire de Saint-Siméon"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g472680"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472680",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "143 Boulevard Perron Ouest"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Saint-Siméon-de-Bonaventure"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "G0C 3A0"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472700",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Dans Cuisine"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/dans-cuisine.png"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Patrick Dubois, conteur \"Le cheval de bois\" - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-10-01T16:56:19+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241208001-1152x648-fr-66b51bc7.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1152"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "648"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois, conteur \"Le cheval de bois\" - Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://culturegaspesie.org/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241208001-1152x648-fr-66b51bc7.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-30T19:33:04+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-01T16:56:19+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g473700"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241208001-1152x648-fr-66b51bc7.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241208001-1152x648-fr-66b51bc7.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1152"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "648"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473700",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473820",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473840",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473880",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Centre Culturel de Paspébiac"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g473900"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473900",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "7 Boulevard Gérard D. Levesque Est"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Paspébiac"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "G0C 2K0"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473920",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Centre culturel de Paspébiac"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/ccp-logo-ccc-300x300-1.jpg"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://centre-culturel.villepaspebiac.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473940",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/membre/patrick-dubois/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Récits et perspectives numériques : Maryse Goudreau - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-11-07T13:57:19+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/10/f3-evenement-web-wordpress-4.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "1200"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "900"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Récits et perspectives numériques : Maryse Goudreau - Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://culturegaspesie.org/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f3-evenement-web-wordpress-4.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-16T21:31:21+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-07T13:57:19+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g475460"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f3-evenement-web-wordpress-4.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f3-evenement-web-wordpress-4.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1200"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "900"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475460",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475580",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475600",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475640",
+    "@type": [
+      "http://schema.org/VirtualLocation"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://us02web.zoom.us/meeting/register/tZEucu6hrzMsGdJQ0PVNXC1iL5Qi1P6jqEPb"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475660",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/07/cculture-gaspesie-sw.jpg"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-ca",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-ca",
+        "@value": "Alexandre Poulin : La Somme des êtres aimés - Culture Gaspésie"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-ca",
+        "@value": "Culture Gaspésie"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-ca",
+        "@value": "2024-09-24T14:42:24+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-ca",
+        "@value": "https://culturegaspesie.org/wp-content/uploads/2024/05/apoulin-tuxedo.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-ca",
+        "@value": "500"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-ca",
+        "@value": "500"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-ca",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Alexandre Poulin : La Somme des êtres aimés - Culture Gaspésie"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://culturegaspesie.org/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/apoulin-tuxedo.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-05-01T19:08:37+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-09-24T14:42:24+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/#breadcrumb"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g477480"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": "fr-CA"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/apoulin-tuxedo.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/apoulin-tuxedo.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "500"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "500"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477480",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@value": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477600",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@value": "https://culturegaspesie.org/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477620",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477660",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "La Salle Comble"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g477680"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477680",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "120 7e Rue Ouest"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Sainte-Anne-des-Monts"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "G4V 2L2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g477700",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Productions de la Salle Comble"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2022/08/d8246e12-8c4a-4e62-93c7-285dd0f494f0.jpg"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lasallecomble.com/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/513474b3-4687-4c3d-86d7-47e657fba0cf",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3268,7 +3431,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g465920"
+        "@id": "_:g460520"
       }
     ],
     "http://schema.org/eventStatus": [
@@ -3288,7 +3451,7 @@
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g465940"
+        "@id": "_:g460540"
       }
     ],
     "http://schema.org/startDate": [
@@ -3310,7 +3473,7 @@
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/0b73bac1-1a13-40d0-af81-121880a234d1",
+    "@id": "https://culturegaspesie.org/temporary/5170647f-3543-40f4-9ec7-140a6e8f6a7c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3326,7 +3489,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466440"
+        "@id": "_:g462640"
       }
     ],
     "http://schema.org/eventStatus": [
@@ -3346,7 +3509,7 @@
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466460"
+        "@id": "_:g462660"
       }
     ],
     "http://schema.org/startDate": [
@@ -3368,7 +3531,7 @@
     ]
   },
   {
-    "@id": "https://culturegaspesie.org/temporary/e2bbbf66-b750-4a10-913f-d0b85e98472e",
+    "@id": "https://culturegaspesie.org/temporary/7b2ca996-ea3d-438c-823f-1f6a307e447f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3384,7 +3547,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g467020"
+        "@id": "_:g463860"
       }
     ],
     "http://schema.org/eventStatus": [
@@ -3404,12 +3567,12 @@
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g467040"
+        "@id": "_:g463900"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g467060"
+        "@id": "_:g463920"
       }
     ],
     "http://schema.org/startDate": [
@@ -3421,6 +3584,570 @@
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/les-jolies-choses/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/aaa89d37-c83e-4c4b-b7b8-e8487bb9b298",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Flash numérique : Introduction à ChatGPT"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g464700"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f4-evenement-web-wordpress-1.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OnlineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g464720"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g464740"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-05T12:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-05T13:00:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/flash-numerique-intro-a-chatgpt/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/110dc0e0-b75c-47d4-89e8-0810fa3acffc",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Si je vous ai bien compris, vous êtes en train de dire…"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g466780"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/2024-12-06-guy-nantel.jpg"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g466820"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g466840"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-06T20:00:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12991/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/99f75f67-dafa-4ebd-91e7-a7c342f1e32c",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois, conteur \"Le cheval de bois\""
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g467340"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241207001-1152x648-fr-66b51454.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g467380"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g467400"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-07T19:30:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12989/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/eacaedc2-4e73-4a38-9137-0cae18ec5b8a",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Alexis"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g468540"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/alexis-tuxedo.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g468580"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-07T15:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-07T17:00:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexis/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/023e382a-6634-4f6f-9227-0384ec58f415",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois - Le cheval de bois"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g470660"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/culture-gaspesie-51.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g470680"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-07T19:30:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/e6713c59-44d9-488d-971e-922f55ce73b4",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois - Le cheval de bois"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g470720"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/08/culture-gaspesie-51.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g470740"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-08T15:00:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/patrick-dubois-le-cheval-de-bois/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/dcafb1e6-a44b-4f7a-8987-be2379c4d931",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Ateliers et veillée de danse avec \"Dans Cuisine\""
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g472660"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/11/dans-cuisine-wordpress.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g472700"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-07T14:00:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/activites-diverses/ateliers-et-veillee-de-danse-avec-dans-cuisine/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/3e1cc4bc-8d12-4b77-9ae9-1ceaea4f8c06",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Patrick Dubois, conteur \"Le cheval de bois\""
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g473880"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/09/j0s241208001-1152x648-fr-66b51bc7.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g473920"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g473940"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-08T15:00:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/12987/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/94e41d35-d933-4f52-9f78-200e2c0291eb",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Récits et perspectives numériques : Maryse Goudreau"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g475640"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/10/f3-evenement-web-wordpress-4.png"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OnlineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g475660"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-10T12:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-10T13:00:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/evenements-culture-gaspesie/recits-et-perspectives-numerique-maryse-goudreaus/"
+      }
+    ]
+  },
+  {
+    "@id": "https://culturegaspesie.org/temporary/b83f509c-2336-4877-9f0b-8d71904e321b",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Alexandre Poulin : La Somme des êtres aimés"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g477660"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@value": "https://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://culturegaspesie.org/wp-content/uploads/2024/05/apoulin-tuxedo.jpg"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@value": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g477700"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-11T19:30:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-11T21:30:00-05:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://culturegaspesie.org/evenement/spectacles-et-performances/alexandre-poulin-la-somme-des-etres-aimes/"
       }
     ]
   }
