@@ -1,0 +1,23 @@
+name: Fetch Co-Motion Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * 3'
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2
+        with:
+          mode: "fetch-push"
+          artifact: "co-motion-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "co-motion-events.jsonld"
+          page-url: "https://co-motion.ca/spectacles/?page="
+          entity-identifier: "a[href^='/spectacles']:not([href^='/spectacles/?'])"
+          is-paginated: "true"
+          headless: "true"
+          token: "${{ secrets.GITHUB_TOKEN }}"
