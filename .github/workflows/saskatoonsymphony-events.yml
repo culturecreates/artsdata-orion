@@ -17,5 +17,5 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "saskatoonsymphony-events.jsonld"
           page-url: "https://saskatoonsymphony.org/season/"
-          entity-identifier: "div.vem-custom-calendar-image a"
+          entity-identifier: "div.vem-more-details a"
           token: "${{ secrets.GITHUB_TOKEN }}"
