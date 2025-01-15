@@ -78,9 +78,14 @@
     "@type": [
       "http://schema.org/Offer"
     ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/latelier-dopera-de-luniversite-de-moncton-2025"
+      }
+    ],
     "http://schema.org/price": [
       {
-        "@value": "0"
+        "@value": "31,28,25"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -91,7 +96,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": ""
+        "@value": "2024-10-23T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -125,7 +130,7 @@
     ]
   },
   {
-    "@id": "_:g461140",
+    "@id": "_:g460840",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -147,12 +152,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g461200"
+        "@id": "_:g460900"
       }
     ]
   },
   {
-    "@id": "_:g461200",
+    "@id": "_:g460900",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -183,344 +188,7 @@
     ]
   },
   {
-    "@id": "_:g461160",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/alexandra-streliski"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "59,56"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461180",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461580",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g461640"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461640",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461600",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "FREE"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461620",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462020",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g462080"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462080",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462040",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/latelier-dopera-de-luniversite-de-moncton-2025"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "31,28,25"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-23T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462060",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462460",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g462520"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462520",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g462480",
+    "@id": "_:g460860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -552,7 +220,7 @@
     ]
   },
   {
-    "@id": "_:g462500",
+    "@id": "_:g460880",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -576,7 +244,7 @@
     ]
   },
   {
-    "@id": "_:g462920",
+    "@id": "_:g461400",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -598,12 +266,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g462980"
+        "@id": "_:g461460"
       }
     ]
   },
   {
-    "@id": "_:g462980",
+    "@id": "_:g461460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -634,7 +302,7 @@
     ]
   },
   {
-    "@id": "_:g462940",
+    "@id": "_:g461420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -666,7 +334,7 @@
     ]
   },
   {
-    "@id": "_:g462960",
+    "@id": "_:g461440",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -690,7 +358,7 @@
     ]
   },
   {
-    "@id": "_:g463380",
+    "@id": "_:g461840",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -712,12 +380,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g463440"
+        "@id": "_:g461900"
       }
     ]
   },
   {
-    "@id": "_:g463440",
+    "@id": "_:g461900",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -748,7 +416,7 @@
     ]
   },
   {
-    "@id": "_:g463400",
+    "@id": "_:g461860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -780,7 +448,7 @@
     ]
   },
   {
-    "@id": "_:g463420",
+    "@id": "_:g461880",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -804,7 +472,7 @@
     ]
   },
   {
-    "@id": "_:g463820",
+    "@id": "_:g462280",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -826,12 +494,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g463880"
+        "@id": "_:g462340"
       }
     ]
   },
   {
-    "@id": "_:g463880",
+    "@id": "_:g462340",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -862,7 +530,7 @@
     ]
   },
   {
-    "@id": "_:g463840",
+    "@id": "_:g462300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -894,7 +562,7 @@
     ]
   },
   {
-    "@id": "_:g463860",
+    "@id": "_:g462320",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -918,7 +586,7 @@
     ]
   },
   {
-    "@id": "_:g464260",
+    "@id": "_:g462740",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -940,12 +608,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g464320"
+        "@id": "_:g462800"
       }
     ]
   },
   {
-    "@id": "_:g464320",
+    "@id": "_:g462800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -976,7 +644,7 @@
     ]
   },
   {
-    "@id": "_:g464280",
+    "@id": "_:g462760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1008,7 +676,7 @@
     ]
   },
   {
-    "@id": "_:g464300",
+    "@id": "_:g462780",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1032,7 +700,7 @@
     ]
   },
   {
-    "@id": "_:g464700",
+    "@id": "_:g463200",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1054,12 +722,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g464760"
+        "@id": "_:g463260"
       }
     ]
   },
   {
-    "@id": "_:g464760",
+    "@id": "_:g463260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1090,7 +758,7 @@
     ]
   },
   {
-    "@id": "_:g464720",
+    "@id": "_:g463220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1122,7 +790,7 @@
     ]
   },
   {
-    "@id": "_:g464740",
+    "@id": "_:g463240",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1146,7 +814,7 @@
     ]
   },
   {
-    "@id": "_:g465140",
+    "@id": "_:g463640",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1168,12 +836,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g465200"
+        "@id": "_:g463700"
       }
     ]
   },
   {
-    "@id": "_:g465200",
+    "@id": "_:g463700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1204,7 +872,7 @@
     ]
   },
   {
-    "@id": "_:g465160",
+    "@id": "_:g463660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1236,7 +904,7 @@
     ]
   },
   {
-    "@id": "_:g465180",
+    "@id": "_:g463680",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1260,7 +928,7 @@
     ]
   },
   {
-    "@id": "_:g465580",
+    "@id": "_:g464080",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1282,12 +950,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g465640"
+        "@id": "_:g464140"
       }
     ]
   },
   {
-    "@id": "_:g465640",
+    "@id": "_:g464140",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1318,7 +986,7 @@
     ]
   },
   {
-    "@id": "_:g465600",
+    "@id": "_:g464100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1350,7 +1018,7 @@
     ]
   },
   {
-    "@id": "_:g465620",
+    "@id": "_:g464120",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1374,7 +1042,7 @@
     ]
   },
   {
-    "@id": "_:g466020",
+    "@id": "_:g464520",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1396,12 +1064,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g466080"
+        "@id": "_:g464580"
       }
     ]
   },
   {
-    "@id": "_:g466080",
+    "@id": "_:g464580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1432,7 +1100,7 @@
     ]
   },
   {
-    "@id": "_:g466040",
+    "@id": "_:g464540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1464,7 +1132,7 @@
     ]
   },
   {
-    "@id": "_:g466060",
+    "@id": "_:g464560",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1488,7 +1156,7 @@
     ]
   },
   {
-    "@id": "_:g466460",
+    "@id": "_:g464960",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1510,12 +1178,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g466520"
+        "@id": "_:g465020"
       }
     ]
   },
   {
-    "@id": "_:g466520",
+    "@id": "_:g465020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1546,7 +1214,7 @@
     ]
   },
   {
-    "@id": "_:g466480",
+    "@id": "_:g464980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1578,7 +1246,7 @@
     ]
   },
   {
-    "@id": "_:g466500",
+    "@id": "_:g465000",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1602,7 +1270,7 @@
     ]
   },
   {
-    "@id": "_:g466920",
+    "@id": "_:g465400",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1624,12 +1292,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g466980"
+        "@id": "_:g465460"
       }
     ]
   },
   {
-    "@id": "_:g466980",
+    "@id": "_:g465460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1660,7 +1328,7 @@
     ]
   },
   {
-    "@id": "_:g466940",
+    "@id": "_:g465420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1692,7 +1360,7 @@
     ]
   },
   {
-    "@id": "_:g466960",
+    "@id": "_:g465440",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1716,7 +1384,7 @@
     ]
   },
   {
-    "@id": "_:g467380",
+    "@id": "_:g465840",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1738,12 +1406,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g467440"
+        "@id": "_:g465900"
       }
     ]
   },
   {
-    "@id": "_:g467440",
+    "@id": "_:g465900",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1774,7 +1442,7 @@
     ]
   },
   {
-    "@id": "_:g467400",
+    "@id": "_:g465860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1806,7 +1474,7 @@
     ]
   },
   {
-    "@id": "_:g467420",
+    "@id": "_:g465880",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1830,7 +1498,7 @@
     ]
   },
   {
-    "@id": "_:g467820",
+    "@id": "_:g466320",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1852,12 +1520,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g467880"
+        "@id": "_:g466380"
       }
     ]
   },
   {
-    "@id": "_:g467880",
+    "@id": "_:g466380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1888,7 +1556,7 @@
     ]
   },
   {
-    "@id": "_:g467840",
+    "@id": "_:g466340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1920,7 +1588,7 @@
     ]
   },
   {
-    "@id": "_:g467860",
+    "@id": "_:g466360",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1944,7 +1612,7 @@
     ]
   },
   {
-    "@id": "_:g468260",
+    "@id": "_:g466780",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1966,12 +1634,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g468320"
+        "@id": "_:g466840"
       }
     ]
   },
   {
-    "@id": "_:g468320",
+    "@id": "_:g466840",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2002,7 +1670,7 @@
     ]
   },
   {
-    "@id": "_:g468280",
+    "@id": "_:g466800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2034,7 +1702,7 @@
     ]
   },
   {
-    "@id": "_:g468300",
+    "@id": "_:g466820",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2058,7 +1726,7 @@
     ]
   },
   {
-    "@id": "_:g468700",
+    "@id": "_:g467220",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2080,12 +1748,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g468760"
+        "@id": "_:g467280"
       }
     ]
   },
   {
-    "@id": "_:g468760",
+    "@id": "_:g467280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2116,7 +1784,7 @@
     ]
   },
   {
-    "@id": "_:g468720",
+    "@id": "_:g467240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2148,7 +1816,7 @@
     ]
   },
   {
-    "@id": "_:g468740",
+    "@id": "_:g467260",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2172,7 +1840,7 @@
     ]
   },
   {
-    "@id": "_:g469140",
+    "@id": "_:g467660",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2194,12 +1862,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g469200"
+        "@id": "_:g467720"
       }
     ]
   },
   {
-    "@id": "_:g469200",
+    "@id": "_:g467720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2230,7 +1898,7 @@
     ]
   },
   {
-    "@id": "_:g469160",
+    "@id": "_:g467680",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2262,7 +1930,7 @@
     ]
   },
   {
-    "@id": "_:g469180",
+    "@id": "_:g467700",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2286,7 +1954,7 @@
     ]
   },
   {
-    "@id": "_:g469580",
+    "@id": "_:g468100",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2308,12 +1976,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g469640"
+        "@id": "_:g468160"
       }
     ]
   },
   {
-    "@id": "_:g469640",
+    "@id": "_:g468160",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2344,7 +2012,7 @@
     ]
   },
   {
-    "@id": "_:g469600",
+    "@id": "_:g468120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2376,7 +2044,7 @@
     ]
   },
   {
-    "@id": "_:g469620",
+    "@id": "_:g468140",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2400,7 +2068,7 @@
     ]
   },
   {
-    "@id": "_:g470040",
+    "@id": "_:g468540",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2422,12 +2090,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g470100"
+        "@id": "_:g468600"
       }
     ]
   },
   {
-    "@id": "_:g470100",
+    "@id": "_:g468600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2458,7 +2126,7 @@
     ]
   },
   {
-    "@id": "_:g470060",
+    "@id": "_:g468560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2490,7 +2158,7 @@
     ]
   },
   {
-    "@id": "_:g470080",
+    "@id": "_:g468580",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2514,7 +2182,7 @@
     ]
   },
   {
-    "@id": "_:g470500",
+    "@id": "_:g468980",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2536,12 +2204,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g470560"
+        "@id": "_:g469040"
       }
     ]
   },
   {
-    "@id": "_:g470560",
+    "@id": "_:g469040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2572,7 +2240,7 @@
     ]
   },
   {
-    "@id": "_:g470520",
+    "@id": "_:g469000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2604,7 +2272,7 @@
     ]
   },
   {
-    "@id": "_:g470540",
+    "@id": "_:g469020",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2628,7 +2296,7 @@
     ]
   },
   {
-    "@id": "_:g470960",
+    "@id": "_:g469440",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2650,12 +2318,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g471020"
+        "@id": "_:g469500"
       }
     ]
   },
   {
-    "@id": "_:g471020",
+    "@id": "_:g469500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2686,7 +2354,7 @@
     ]
   },
   {
-    "@id": "_:g470980",
+    "@id": "_:g469460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2718,7 +2386,7 @@
     ]
   },
   {
-    "@id": "_:g471000",
+    "@id": "_:g469480",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2742,7 +2410,7 @@
     ]
   },
   {
-    "@id": "_:g471400",
+    "@id": "_:g469900",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2764,12 +2432,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g471460"
+        "@id": "_:g469960"
       }
     ]
   },
   {
-    "@id": "_:g471460",
+    "@id": "_:g469960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2800,7 +2468,7 @@
     ]
   },
   {
-    "@id": "_:g471420",
+    "@id": "_:g469920",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2832,7 +2500,7 @@
     ]
   },
   {
-    "@id": "_:g471440",
+    "@id": "_:g469940",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2856,7 +2524,7 @@
     ]
   },
   {
-    "@id": "_:g471840",
+    "@id": "_:g470340",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2878,12 +2546,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g471900"
+        "@id": "_:g470400"
       }
     ]
   },
   {
-    "@id": "_:g471900",
+    "@id": "_:g470400",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2914,7 +2582,7 @@
     ]
   },
   {
-    "@id": "_:g471860",
+    "@id": "_:g470360",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2946,7 +2614,7 @@
     ]
   },
   {
-    "@id": "_:g471880",
+    "@id": "_:g470380",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2970,7 +2638,7 @@
     ]
   },
   {
-    "@id": "_:g472280",
+    "@id": "_:g470780",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2992,12 +2660,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g472340"
+        "@id": "_:g470840"
       }
     ]
   },
   {
-    "@id": "_:g472340",
+    "@id": "_:g470840",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3028,7 +2696,7 @@
     ]
   },
   {
-    "@id": "_:g472300",
+    "@id": "_:g470800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3060,7 +2728,7 @@
     ]
   },
   {
-    "@id": "_:g472320",
+    "@id": "_:g470820",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3084,7 +2752,7 @@
     ]
   },
   {
-    "@id": "_:g472720",
+    "@id": "_:g471220",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3106,12 +2774,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g472780"
+        "@id": "_:g471280"
       }
     ]
   },
   {
-    "@id": "_:g472780",
+    "@id": "_:g471280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3142,7 +2810,7 @@
     ]
   },
   {
-    "@id": "_:g472740",
+    "@id": "_:g471240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3174,7 +2842,7 @@
     ]
   },
   {
-    "@id": "_:g472760",
+    "@id": "_:g471260",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3198,7 +2866,7 @@
     ]
   },
   {
-    "@id": "_:g473160",
+    "@id": "_:g471660",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3220,12 +2888,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g473220"
+        "@id": "_:g471720"
       }
     ]
   },
   {
-    "@id": "_:g473220",
+    "@id": "_:g471720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3256,7 +2924,7 @@
     ]
   },
   {
-    "@id": "_:g473180",
+    "@id": "_:g471680",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3288,7 +2956,7 @@
     ]
   },
   {
-    "@id": "_:g473200",
+    "@id": "_:g471700",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3312,7 +2980,7 @@
     ]
   },
   {
-    "@id": "_:g473600",
+    "@id": "_:g472100",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3334,12 +3002,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g473660"
+        "@id": "_:g472160"
       }
     ]
   },
   {
-    "@id": "_:g473660",
+    "@id": "_:g472160",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3370,7 +3038,7 @@
     ]
   },
   {
-    "@id": "_:g473620",
+    "@id": "_:g472120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3402,7 +3070,7 @@
     ]
   },
   {
-    "@id": "_:g473640",
+    "@id": "_:g472140",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3426,7 +3094,7 @@
     ]
   },
   {
-    "@id": "_:g474040",
+    "@id": "_:g472540",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3448,12 +3116,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g474100"
+        "@id": "_:g472600"
       }
     ]
   },
   {
-    "@id": "_:g474100",
+    "@id": "_:g472600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3484,7 +3152,7 @@
     ]
   },
   {
-    "@id": "_:g474060",
+    "@id": "_:g472560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3516,7 +3184,349 @@
     ]
   },
   {
+    "@id": "_:g472580",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g472980",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g473040"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473040",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473000",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/alan-jackson-et-george-strait-experience"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "58.00 - 48.00"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473020",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473440",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g473500"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473500",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473460",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/the-peking-acrobats"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "49,59,29"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g473480",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474060",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g474120"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474120",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
     "@id": "_:g474080",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/brent-butt"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "57.75"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-25T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474100",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3604,12 +3614,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/alan-jackson-et-george-strait-experience"
+        "@id": "https://capitol.tuxedobillet.com/main/ballet-jorgen"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "58.00 - 48.00"
+        "@value": "44,54,29"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -3620,7 +3630,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": ""
+        "@value": "2024-06-04T09:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -3654,7 +3664,7 @@
     ]
   },
   {
-    "@id": "_:g474960",
+    "@id": "_:g474940",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3676,127 +3686,13 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g475020"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475020",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g474980",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/the-peking-acrobats"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "49,59,29"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
+        "@id": "_:g475000"
       }
     ]
   },
   {
     "@id": "_:g475000",
     "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475580",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g475640"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475640",
-    "@type": [
       "http://schema.org/PostalAddress"
     ],
     "http://schema.org/streetAddress": [
@@ -3826,235 +3722,7 @@
     ]
   },
   {
-    "@id": "_:g475600",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/brent-butt"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "57.75"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-25T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475620",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g476020",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g476080"
-      }
-    ]
-  },
-  {
-    "@id": "_:g476080",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g476040",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/ballet-jorgen"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "44,54,29"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g476060",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g476460",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g476520"
-      }
-    ]
-  },
-  {
-    "@id": "_:g476520",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g476480",
+    "@id": "_:g474960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4086,7 +3754,7 @@
     ]
   },
   {
-    "@id": "_:g476500",
+    "@id": "_:g474980",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4110,7 +3778,7 @@
     ]
   },
   {
-    "@id": "_:g477060",
+    "@id": "_:g475540",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4132,12 +3800,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g477120"
+        "@id": "_:g475600"
       }
     ]
   },
   {
-    "@id": "_:g477120",
+    "@id": "_:g475600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4168,7 +3836,7 @@
     ]
   },
   {
-    "@id": "_:g477080",
+    "@id": "_:g475560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4200,7 +3868,7 @@
     ]
   },
   {
-    "@id": "_:g477100",
+    "@id": "_:g475580",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4224,7 +3892,7 @@
     ]
   },
   {
-    "@id": "_:g477500",
+    "@id": "_:g475980",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4246,12 +3914,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g477560"
+        "@id": "_:g476040"
       }
     ]
   },
   {
-    "@id": "_:g477560",
+    "@id": "_:g476040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4282,7 +3950,7 @@
     ]
   },
   {
-    "@id": "_:g477520",
+    "@id": "_:g476000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4314,7 +3982,7 @@
     ]
   },
   {
-    "@id": "_:g477540",
+    "@id": "_:g476020",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4338,7 +4006,7 @@
     ]
   },
   {
-    "@id": "_:g477980",
+    "@id": "_:g476440",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4360,12 +4028,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g478040"
+        "@id": "_:g476500"
       }
     ]
   },
   {
-    "@id": "_:g478040",
+    "@id": "_:g476500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4396,7 +4064,7 @@
     ]
   },
   {
-    "@id": "_:g478000",
+    "@id": "_:g476460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4428,7 +4096,7 @@
     ]
   },
   {
-    "@id": "_:g478020",
+    "@id": "_:g476480",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4452,7 +4120,7 @@
     ]
   },
   {
-    "@id": "_:g478600",
+    "@id": "_:g477080",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4474,12 +4142,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g478660"
+        "@id": "_:g477140"
       }
     ]
   },
   {
-    "@id": "_:g478660",
+    "@id": "_:g477140",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4510,7 +4178,7 @@
     ]
   },
   {
-    "@id": "_:g478620",
+    "@id": "_:g477100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4542,7 +4210,7 @@
     ]
   },
   {
-    "@id": "_:g478640",
+    "@id": "_:g477120",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4566,7 +4234,7 @@
     ]
   },
   {
-    "@id": "_:g479060",
+    "@id": "_:g477520",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4588,12 +4256,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g479120"
+        "@id": "_:g477580"
       }
     ]
   },
   {
-    "@id": "_:g479120",
+    "@id": "_:g477580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4624,7 +4292,7 @@
     ]
   },
   {
-    "@id": "_:g479080",
+    "@id": "_:g477540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4656,7 +4324,7 @@
     ]
   },
   {
-    "@id": "_:g479100",
+    "@id": "_:g477560",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4680,7 +4348,7 @@
     ]
   },
   {
-    "@id": "_:g479500",
+    "@id": "_:g477960",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4702,12 +4370,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g479560"
+        "@id": "_:g478020"
       }
     ]
   },
   {
-    "@id": "_:g479560",
+    "@id": "_:g478020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4738,7 +4406,7 @@
     ]
   },
   {
-    "@id": "_:g479520",
+    "@id": "_:g477980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4770,7 +4438,7 @@
     ]
   },
   {
-    "@id": "_:g479540",
+    "@id": "_:g478000",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4794,7 +4462,7 @@
     ]
   },
   {
-    "@id": "_:g479940",
+    "@id": "_:g478400",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4816,12 +4484,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g480000"
+        "@id": "_:g478460"
       }
     ]
   },
   {
-    "@id": "_:g480000",
+    "@id": "_:g478460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4852,7 +4520,7 @@
     ]
   },
   {
-    "@id": "_:g479960",
+    "@id": "_:g478420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4884,7 +4552,349 @@
     ]
   },
   {
-    "@id": "_:g479980",
+    "@id": "_:g478440",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478840",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g478900"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478900",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478860",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/twin-flames"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "40,17.39,FREE"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-07-29T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g478880",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479280",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g479340"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479340",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479300",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/martin-levac"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "49,46"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479320",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479760",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g479820"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479820",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479780",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/a-tribute-to-loretta-lynn-from-the-heart"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "48"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-09T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479800",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4972,12 +4982,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/twin-flames"
+        "@id": "https://capitol.tuxedobillet.com/main/brian-patafie"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "40,17.39,FREE"
+        "@value": "30"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -4988,7 +4998,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-07-29T10:00:00"
+        "@value": "2024-12-18T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -5086,12 +5096,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/martin-levac"
+        "@id": "https://capitol.tuxedobillet.com/main/steve-hofstetter-2025"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "49,46"
+        "@value": "47"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -5102,7 +5112,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
+        "@value": "2024-10-11T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -5136,7 +5146,7 @@
     ]
   },
   {
-    "@id": "_:g481280",
+    "@id": "_:g481260",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5158,127 +5168,13 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g481340"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481340",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481300",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/a-tribute-to-loretta-lynn-from-the-heart"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "48"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-09T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
+        "@id": "_:g481320"
       }
     ]
   },
   {
     "@id": "_:g481320",
     "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481900",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g481960"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481960",
-    "@type": [
       "http://schema.org/PostalAddress"
     ],
     "http://schema.org/streetAddress": [
@@ -5308,235 +5204,7 @@
     ]
   },
   {
-    "@id": "_:g481920",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/brian-patafie"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "30"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-12-18T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481940",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482360",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g482420"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482420",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482380",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/steve-hofstetter-2025"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "47"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-11T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482400",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482800",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g482860"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482860",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482820",
+    "@id": "_:g481280",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5568,7 +5236,7 @@
     ]
   },
   {
-    "@id": "_:g482840",
+    "@id": "_:g481300",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5592,7 +5260,7 @@
     ]
   },
   {
-    "@id": "_:g483240",
+    "@id": "_:g481700",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5614,12 +5282,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g483300"
+        "@id": "_:g481760"
       }
     ]
   },
   {
-    "@id": "_:g483300",
+    "@id": "_:g481760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5650,7 +5318,7 @@
     ]
   },
   {
-    "@id": "_:g483260",
+    "@id": "_:g481720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5682,7 +5350,7 @@
     ]
   },
   {
-    "@id": "_:g483280",
+    "@id": "_:g481740",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5706,7 +5374,7 @@
     ]
   },
   {
-    "@id": "_:g483680",
+    "@id": "_:g482140",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5728,12 +5396,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g483740"
+        "@id": "_:g482200"
       }
     ]
   },
   {
-    "@id": "_:g483740",
+    "@id": "_:g482200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5764,7 +5432,7 @@
     ]
   },
   {
-    "@id": "_:g483700",
+    "@id": "_:g482160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5796,7 +5464,7 @@
     ]
   },
   {
-    "@id": "_:g483720",
+    "@id": "_:g482180",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5820,7 +5488,7 @@
     ]
   },
   {
-    "@id": "_:g484120",
+    "@id": "_:g482580",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5842,12 +5510,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g484180"
+        "@id": "_:g482640"
       }
     ]
   },
   {
-    "@id": "_:g484180",
+    "@id": "_:g482640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5878,7 +5546,7 @@
     ]
   },
   {
-    "@id": "_:g484140",
+    "@id": "_:g482600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5910,7 +5578,7 @@
     ]
   },
   {
-    "@id": "_:g484160",
+    "@id": "_:g482620",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5934,7 +5602,7 @@
     ]
   },
   {
-    "@id": "_:g484560",
+    "@id": "_:g483040",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5956,12 +5624,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g484620"
+        "@id": "_:g483100"
       }
     ]
   },
   {
-    "@id": "_:g484620",
+    "@id": "_:g483100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5992,7 +5660,7 @@
     ]
   },
   {
-    "@id": "_:g484580",
+    "@id": "_:g483060",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6024,7 +5692,7 @@
     ]
   },
   {
-    "@id": "_:g484600",
+    "@id": "_:g483080",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6048,7 +5716,7 @@
     ]
   },
   {
-    "@id": "_:g485020",
+    "@id": "_:g483500",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -6070,12 +5738,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g485080"
+        "@id": "_:g483560"
       }
     ]
   },
   {
-    "@id": "_:g485080",
+    "@id": "_:g483560",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6106,7 +5774,7 @@
     ]
   },
   {
-    "@id": "_:g485040",
+    "@id": "_:g483520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6138,7 +5806,7 @@
     ]
   },
   {
-    "@id": "_:g485060",
+    "@id": "_:g483540",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6162,7 +5830,7 @@
     ]
   },
   {
-    "@id": "_:g485480",
+    "@id": "_:g483960",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -6184,12 +5852,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g485540"
+        "@id": "_:g484020"
       }
     ]
   },
   {
-    "@id": "_:g485540",
+    "@id": "_:g484020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6220,7 +5888,7 @@
     ]
   },
   {
-    "@id": "_:g485500",
+    "@id": "_:g483980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6252,7 +5920,7 @@
     ]
   },
   {
-    "@id": "_:g485520",
+    "@id": "_:g484000",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6276,7 +5944,7 @@
     ]
   },
   {
-    "@id": "_:g485940",
+    "@id": "_:g484400",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -6298,12 +5966,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g486000"
+        "@id": "_:g484460"
       }
     ]
   },
   {
-    "@id": "_:g486000",
+    "@id": "_:g484460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6334,7 +6002,7 @@
     ]
   },
   {
-    "@id": "_:g485960",
+    "@id": "_:g484420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6366,7 +6034,7 @@
     ]
   },
   {
-    "@id": "_:g485980",
+    "@id": "_:g484440",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6390,7 +6058,7 @@
     ]
   },
   {
-    "@id": "_:g486380",
+    "@id": "_:g484840",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -6412,12 +6080,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g486440"
+        "@id": "_:g484900"
       }
     ]
   },
   {
-    "@id": "_:g486440",
+    "@id": "_:g484900",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6448,7 +6116,7 @@
     ]
   },
   {
-    "@id": "_:g486400",
+    "@id": "_:g484860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6480,7 +6148,7 @@
     ]
   },
   {
-    "@id": "_:g486420",
+    "@id": "_:g484880",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6504,226 +6172,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/787a091f-6885-42b4-b6a9-9942023acb2e",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Art Opening - Norelice Mboutou (Lisy Lisy)"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/art-opening-norelice-mboutou-lisy-lisy"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-08T17:00:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-08T21:30:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g460380"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_529_field_41/original/norelice-mboutou-intro.jpg"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "The public is invited to the opening of the art exhibit Symphony of Color by visual artist Norelice Mboutou (Lisy Lisy) at the Capitol Theatre Art Gallery on We"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g460400"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g460420"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/art-opening-norelice-mboutou-lisy-lisy"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/d7ee2122-02b6-427b-a7b7-ab0115d2828e",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Alexandra Stréliski"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/alexandra-streliski"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-11T20:00:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-12T00:30:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461140"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_330_field_41/original/alexandra-streliski-intro.jpg"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Alexandra Stréliski is a Montreal based pianist who creates minimalist and cinematic music. Billboard calls her “one of the foremost new stars in modern clas"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g461160"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g461180"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/alexandra-streliski"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/bdae8130-1cb9-4386-b4db-e107f853caf7",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "The Addams Family (1991)"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/the-addams-family-1991"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-12T15:00:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-12T19:00:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461580"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_527_field_41/original/addams.family-1991.intro.jpg"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Join us for a FREE screening of the 1991 movie The Addams Family. 😈💀Guests can look forward to taking a selfie with Kevin the mascot 🐶 and fresh popc"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g461600"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g461620"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/the-addams-family-1991"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/eeac2a9e-c4f4-4302-8cd3-ebddab221298",
+    "@id": "https://capitol.nb.ca/temporary/bd06736a-6720-475d-8bcc-320d0310b499",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6756,7 +6205,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g462020"
+        "@id": "_:g460380"
       }
     ],
     "http://schema.org/image": [
@@ -6771,12 +6220,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g462040"
+        "@id": "_:g460400"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g462060"
+        "@id": "_:g460420"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6796,7 +6245,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/f2eb66cb-3bf8-4e2d-a625-babebc596bcd",
+    "@id": "https://capitol.nb.ca/temporary/25bcc367-ae93-4bfc-9048-063c4afb65aa",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6829,7 +6278,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g462460"
+        "@id": "_:g460840"
       }
     ],
     "http://schema.org/image": [
@@ -6844,12 +6293,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g462480"
+        "@id": "_:g460860"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g462500"
+        "@id": "_:g460880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6869,7 +6318,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/88198f54-ea94-4963-b9a1-dfb9644044dc",
+    "@id": "https://capitol.nb.ca/temporary/99d5f385-a72e-4f48-be16-abdac3da209f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6902,7 +6351,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g462920"
+        "@id": "_:g461400"
       }
     ],
     "http://schema.org/image": [
@@ -6917,12 +6366,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g462940"
+        "@id": "_:g461420"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g462960"
+        "@id": "_:g461440"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6942,7 +6391,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/f3c73035-7329-4b7a-9aa4-a22d7bc5a293",
+    "@id": "https://capitol.nb.ca/temporary/4ad1d7c7-7218-43ce-8eff-ba3a2168f84e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6975,12 +6424,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g463380"
+        "@id": "_:g461840"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_494_field_41/original/rdv-hubcap-700x460.png"
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_494_field_41/original/rendez-vous-franco-intro.jpg"
       }
     ],
     "http://schema.org/description": [
@@ -6990,12 +6439,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g463400"
+        "@id": "_:g461860"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g463420"
+        "@id": "_:g461880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7015,7 +6464,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/1906cc5c-6b97-411d-8bde-3f11cca8c8b0",
+    "@id": "https://capitol.nb.ca/temporary/351143a9-669b-4393-9e3e-0de2bb9207a5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7048,7 +6497,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g463820"
+        "@id": "_:g462280"
       }
     ],
     "http://schema.org/image": [
@@ -7063,12 +6512,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g463840"
+        "@id": "_:g462300"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g463860"
+        "@id": "_:g462320"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7088,7 +6537,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/e891ebd4-5130-47ac-8129-ca77d29fcf39",
+    "@id": "https://capitol.nb.ca/temporary/aad767b3-da6f-404c-87ae-7cdf1f3104f6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7121,7 +6570,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g464260"
+        "@id": "_:g462740"
       }
     ],
     "http://schema.org/image": [
@@ -7136,12 +6585,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g464280"
+        "@id": "_:g462760"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g464300"
+        "@id": "_:g462780"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7161,7 +6610,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/240acae1-3cdb-4f4e-9d49-0bf93a30d2b1",
+    "@id": "https://capitol.nb.ca/temporary/65f0a5bf-3dfb-4156-b8aa-537aee4096d2",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7194,7 +6643,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g464700"
+        "@id": "_:g463200"
       }
     ],
     "http://schema.org/image": [
@@ -7209,12 +6658,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g464720"
+        "@id": "_:g463220"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g464740"
+        "@id": "_:g463240"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7234,7 +6683,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/fac535d6-8521-4f73-ab68-654a0bf89d1e",
+    "@id": "https://capitol.nb.ca/temporary/33dc7767-d334-4d31-9f00-1918e1041b7a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7267,7 +6716,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g465140"
+        "@id": "_:g463640"
       }
     ],
     "http://schema.org/image": [
@@ -7282,12 +6731,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g465160"
+        "@id": "_:g463660"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g465180"
+        "@id": "_:g463680"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7307,7 +6756,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/52f2e097-f830-41c2-9406-a5208e382e2d",
+    "@id": "https://capitol.nb.ca/temporary/af2f9000-735b-4a39-af44-298e420d0934",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7340,7 +6789,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g465580"
+        "@id": "_:g464080"
       }
     ],
     "http://schema.org/image": [
@@ -7355,12 +6804,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g465600"
+        "@id": "_:g464100"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g465620"
+        "@id": "_:g464120"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7380,7 +6829,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/4ef1e07b-c395-40c4-8599-949ce3281bf8",
+    "@id": "https://capitol.nb.ca/temporary/e1545ca0-a69f-415d-8bdb-2cb8eb1eb74c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7413,7 +6862,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466020"
+        "@id": "_:g464520"
       }
     ],
     "http://schema.org/image": [
@@ -7428,12 +6877,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g466040"
+        "@id": "_:g464540"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466060"
+        "@id": "_:g464560"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7453,7 +6902,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/6b90f513-1391-44b0-bd0f-a301cc17edf5",
+    "@id": "https://capitol.nb.ca/temporary/7096a6fd-a9c2-4ab6-b3ee-5e99003e210f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7486,7 +6935,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466460"
+        "@id": "_:g464960"
       }
     ],
     "http://schema.org/image": [
@@ -7501,12 +6950,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g466480"
+        "@id": "_:g464980"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466500"
+        "@id": "_:g465000"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7526,7 +6975,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/5f883b71-6d9d-4686-afa9-1b4890cd30f1",
+    "@id": "https://capitol.nb.ca/temporary/989e7366-d1bc-4fd3-bd0c-394b7f0c2404",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7559,7 +7008,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466920"
+        "@id": "_:g465400"
       }
     ],
     "http://schema.org/image": [
@@ -7574,12 +7023,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g466940"
+        "@id": "_:g465420"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466960"
+        "@id": "_:g465440"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7599,7 +7048,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/d43b04f0-f9d8-4356-94e4-c363133b6202",
+    "@id": "https://capitol.nb.ca/temporary/fec0b51d-6f15-4031-bd9a-23080eac5613",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7632,7 +7081,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g467380"
+        "@id": "_:g465840"
       }
     ],
     "http://schema.org/image": [
@@ -7647,12 +7096,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g467400"
+        "@id": "_:g465860"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g467420"
+        "@id": "_:g465880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7672,7 +7121,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/89457384-3b04-4ec1-9a80-6480b200bc16",
+    "@id": "https://capitol.nb.ca/temporary/a7bf2e56-638f-4dfb-a36c-6e57b7e8455a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7705,7 +7154,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g467820"
+        "@id": "_:g466320"
       }
     ],
     "http://schema.org/image": [
@@ -7720,12 +7169,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g467840"
+        "@id": "_:g466340"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g467860"
+        "@id": "_:g466360"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7745,7 +7194,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/032bf5fd-0c09-4304-9ef6-89f69e4ede84",
+    "@id": "https://capitol.nb.ca/temporary/a6c20df6-ce13-40f2-96fb-4654b37f6a70",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7778,7 +7227,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g468260"
+        "@id": "_:g466780"
       }
     ],
     "http://schema.org/image": [
@@ -7793,12 +7242,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g468280"
+        "@id": "_:g466800"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g468300"
+        "@id": "_:g466820"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7818,7 +7267,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/246ed657-680e-4d40-930b-d8de1028a944",
+    "@id": "https://capitol.nb.ca/temporary/160a507a-30ff-4c2e-9765-b29b061edeb6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7851,7 +7300,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g468700"
+        "@id": "_:g467220"
       }
     ],
     "http://schema.org/image": [
@@ -7866,12 +7315,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g468720"
+        "@id": "_:g467240"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g468740"
+        "@id": "_:g467260"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7891,7 +7340,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/c4ae59c4-fc98-41de-8e05-79cebc8d5f55",
+    "@id": "https://capitol.nb.ca/temporary/6c0e7034-ad05-4eb9-a627-b97ea176943b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7924,7 +7373,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g469140"
+        "@id": "_:g467660"
       }
     ],
     "http://schema.org/image": [
@@ -7939,12 +7388,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g469160"
+        "@id": "_:g467680"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g469180"
+        "@id": "_:g467700"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7964,7 +7413,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/782c6f95-58e7-43f1-83b8-34946d9fbf16",
+    "@id": "https://capitol.nb.ca/temporary/4e49b8aa-f092-4ac2-b7af-a8a4d6f0a990",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7997,7 +7446,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g469580"
+        "@id": "_:g468100"
       }
     ],
     "http://schema.org/image": [
@@ -8012,12 +7461,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g469600"
+        "@id": "_:g468120"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g469620"
+        "@id": "_:g468140"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8037,7 +7486,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/afc9dbc2-ad75-493f-842a-df14bee887fe",
+    "@id": "https://capitol.nb.ca/temporary/ad89c073-385d-4ce2-93df-822be99fb211",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8070,7 +7519,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g470040"
+        "@id": "_:g468540"
       }
     ],
     "http://schema.org/image": [
@@ -8085,12 +7534,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g470060"
+        "@id": "_:g468560"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g470080"
+        "@id": "_:g468580"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8110,7 +7559,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/54fa79e1-88c6-4322-98aa-02fdd902b867",
+    "@id": "https://capitol.nb.ca/temporary/c360d8db-9d14-4d8d-b5a3-09ba86d248a7",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8143,7 +7592,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g470500"
+        "@id": "_:g468980"
       }
     ],
     "http://schema.org/image": [
@@ -8158,12 +7607,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g470520"
+        "@id": "_:g469000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g470540"
+        "@id": "_:g469020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8183,7 +7632,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/020acd31-9dc3-4e7e-8eaf-34adc5e9cb7d",
+    "@id": "https://capitol.nb.ca/temporary/1e2540ea-e745-461c-a33d-01fc8a220f28",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8216,7 +7665,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g470960"
+        "@id": "_:g469440"
       }
     ],
     "http://schema.org/image": [
@@ -8231,12 +7680,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g470980"
+        "@id": "_:g469460"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g471000"
+        "@id": "_:g469480"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8256,7 +7705,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/1681db55-d7f5-4f45-9eab-40b848803376",
+    "@id": "https://capitol.nb.ca/temporary/06841034-2b68-479a-8403-ccec7bcd3fe0",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8289,7 +7738,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g471400"
+        "@id": "_:g469900"
       }
     ],
     "http://schema.org/image": [
@@ -8304,12 +7753,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g471420"
+        "@id": "_:g469920"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g471440"
+        "@id": "_:g469940"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8329,7 +7778,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/beea512f-fb3b-4e51-976d-03ae021c2373",
+    "@id": "https://capitol.nb.ca/temporary/7bec75a1-3340-437a-88a7-902e1dba0cdd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8362,7 +7811,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g471840"
+        "@id": "_:g470340"
       }
     ],
     "http://schema.org/image": [
@@ -8377,12 +7826,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g471860"
+        "@id": "_:g470360"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g471880"
+        "@id": "_:g470380"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8402,7 +7851,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/d31cb3ca-5586-475a-91d6-3cb89b3b46b5",
+    "@id": "https://capitol.nb.ca/temporary/b434b03c-7b0c-4128-acf3-f77ac692fa06",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8435,7 +7884,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g472280"
+        "@id": "_:g470780"
       }
     ],
     "http://schema.org/image": [
@@ -8450,12 +7899,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g472300"
+        "@id": "_:g470800"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g472320"
+        "@id": "_:g470820"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8475,7 +7924,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/60df23f5-3cbb-4902-8557-299549fea08b",
+    "@id": "https://capitol.nb.ca/temporary/1c38422f-98ac-4957-99a6-7743befdd553",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8508,7 +7957,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g472720"
+        "@id": "_:g471220"
       }
     ],
     "http://schema.org/image": [
@@ -8523,12 +7972,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g472740"
+        "@id": "_:g471240"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g472760"
+        "@id": "_:g471260"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8548,7 +7997,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/6ec580f8-aff5-4f53-942a-948062c56e7d",
+    "@id": "https://capitol.nb.ca/temporary/3fbf7ff4-41ea-44a0-aa75-6d5cdd82524e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8581,7 +8030,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g473160"
+        "@id": "_:g471660"
       }
     ],
     "http://schema.org/image": [
@@ -8596,12 +8045,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g473180"
+        "@id": "_:g471680"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g473200"
+        "@id": "_:g471700"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8621,7 +8070,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/56520821-70c4-4c6a-a43d-b908935bbebc",
+    "@id": "https://capitol.nb.ca/temporary/d42d0588-b725-4878-a274-4cc6cd4f767e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8654,7 +8103,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g473600"
+        "@id": "_:g472100"
       }
     ],
     "http://schema.org/image": [
@@ -8669,12 +8118,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g473620"
+        "@id": "_:g472120"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g473640"
+        "@id": "_:g472140"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8694,7 +8143,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/6135d1f8-1368-4efc-8c08-570aa9e398ea",
+    "@id": "https://capitol.nb.ca/temporary/8ea078d6-4812-4b4d-a56d-d79972ae129d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8727,7 +8176,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g474040"
+        "@id": "_:g472540"
       }
     ],
     "http://schema.org/image": [
@@ -8742,12 +8191,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g474060"
+        "@id": "_:g472560"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g474080"
+        "@id": "_:g472580"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8767,7 +8216,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/fe49877e-0841-4f16-83b0-657751395056",
+    "@id": "https://capitol.nb.ca/temporary/e6763cf5-1bb9-4864-8a01-523f3ab7784a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8800,7 +8249,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g474500"
+        "@id": "_:g472980"
       }
     ],
     "http://schema.org/image": [
@@ -8815,12 +8264,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g474520"
+        "@id": "_:g473000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g474540"
+        "@id": "_:g473020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8840,7 +8289,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/1dd046e5-f7cf-4d31-9ee1-0df782df9550",
+    "@id": "https://capitol.nb.ca/temporary/861f2206-60ab-4fc5-a63c-dd0e9a1d67c4",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8873,7 +8322,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g474960"
+        "@id": "_:g473440"
       }
     ],
     "http://schema.org/image": [
@@ -8888,12 +8337,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g474980"
+        "@id": "_:g473460"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g475000"
+        "@id": "_:g473480"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8913,7 +8362,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/74c4f9ff-ca26-47a4-99fc-c09bf74787b5",
+    "@id": "https://capitol.nb.ca/temporary/0f6aeb41-e460-4a75-997e-fa72604d3621",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8946,7 +8395,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g475580"
+        "@id": "_:g474060"
       }
     ],
     "http://schema.org/image": [
@@ -8961,12 +8410,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g475600"
+        "@id": "_:g474080"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g475620"
+        "@id": "_:g474100"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8986,7 +8435,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/3c66678e-6b73-4556-9a56-358f1bef1cff",
+    "@id": "https://capitol.nb.ca/temporary/4417e770-a718-4a42-ba5e-170484eddc0b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9019,7 +8468,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g476020"
+        "@id": "_:g474500"
       }
     ],
     "http://schema.org/image": [
@@ -9034,12 +8483,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g476040"
+        "@id": "_:g474520"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g476060"
+        "@id": "_:g474540"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9059,7 +8508,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/94dd50e6-5adf-4bfb-acf8-dcca8aa28792",
+    "@id": "https://capitol.nb.ca/temporary/6473822a-12d8-40d9-8038-2b144303c1e2",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9092,7 +8541,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g476460"
+        "@id": "_:g474940"
       }
     ],
     "http://schema.org/image": [
@@ -9107,12 +8556,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g476480"
+        "@id": "_:g474960"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g476500"
+        "@id": "_:g474980"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9132,7 +8581,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/7b9e7262-af49-458b-94d1-157c57198961",
+    "@id": "https://capitol.nb.ca/temporary/7347ff52-efa2-405b-a909-06cd65210b8c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9165,7 +8614,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g477060"
+        "@id": "_:g475540"
       }
     ],
     "http://schema.org/image": [
@@ -9180,12 +8629,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g477080"
+        "@id": "_:g475560"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g477100"
+        "@id": "_:g475580"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9205,7 +8654,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/495e6b0c-7c4e-46e8-9349-b3d7ed442414",
+    "@id": "https://capitol.nb.ca/temporary/0807d1f4-63c9-4d07-bd33-6963aa9c61db",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9238,7 +8687,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g477500"
+        "@id": "_:g475980"
       }
     ],
     "http://schema.org/image": [
@@ -9253,12 +8702,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g477520"
+        "@id": "_:g476000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g477540"
+        "@id": "_:g476020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9278,7 +8727,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/9de4ddb2-68fa-4266-bf2b-536ae5a393fb",
+    "@id": "https://capitol.nb.ca/temporary/3a146430-b795-4e61-b1ed-c2631336c187",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9311,7 +8760,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g477980"
+        "@id": "_:g476440"
       }
     ],
     "http://schema.org/image": [
@@ -9326,12 +8775,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g478000"
+        "@id": "_:g476460"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g478020"
+        "@id": "_:g476480"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9351,7 +8800,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/bf5022d7-ea3e-4953-a39a-c227307cdb67",
+    "@id": "https://capitol.nb.ca/temporary/ea060a8b-f685-45f3-818d-ccf5e926e048",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9384,7 +8833,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g478600"
+        "@id": "_:g477080"
       }
     ],
     "http://schema.org/image": [
@@ -9399,12 +8848,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g478620"
+        "@id": "_:g477100"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g478640"
+        "@id": "_:g477120"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9424,7 +8873,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/80ad9285-d26b-4301-97e8-94b8f18f50e1",
+    "@id": "https://capitol.nb.ca/temporary/3ae3620b-396d-47ed-b84c-0739f567474b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9457,7 +8906,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g479060"
+        "@id": "_:g477520"
       }
     ],
     "http://schema.org/image": [
@@ -9472,12 +8921,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g479080"
+        "@id": "_:g477540"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g479100"
+        "@id": "_:g477560"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9497,7 +8946,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/c5614fc4-299e-4740-a964-2200f7fbc225",
+    "@id": "https://capitol.nb.ca/temporary/29de99dc-a089-45f1-badc-6dadd66d3080",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9530,7 +8979,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g479500"
+        "@id": "_:g477960"
       }
     ],
     "http://schema.org/image": [
@@ -9545,12 +8994,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g479520"
+        "@id": "_:g477980"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g479540"
+        "@id": "_:g478000"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9570,7 +9019,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/2a02af0b-498e-4d42-8ea6-4b32f8cf9719",
+    "@id": "https://capitol.nb.ca/temporary/bfd2cda2-c740-4693-ae7a-7a763f861816",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9603,7 +9052,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g479940"
+        "@id": "_:g478400"
       }
     ],
     "http://schema.org/image": [
@@ -9618,12 +9067,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g479960"
+        "@id": "_:g478420"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g479980"
+        "@id": "_:g478440"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9643,7 +9092,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/3ffe8f18-914e-43ac-b109-7a05fed5aec4",
+    "@id": "https://capitol.nb.ca/temporary/b9cd2a6f-7bb7-4dbf-a005-2b896ef13c0a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9676,7 +9125,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g480380"
+        "@id": "_:g478840"
       }
     ],
     "http://schema.org/image": [
@@ -9691,12 +9140,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g480400"
+        "@id": "_:g478860"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g480420"
+        "@id": "_:g478880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9716,7 +9165,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/2299d2cd-3846-43d0-b052-7de5ab3559ac",
+    "@id": "https://capitol.nb.ca/temporary/3e3bc96f-7e18-46cc-bcfd-7256d450166b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9749,7 +9198,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g480820"
+        "@id": "_:g479280"
       }
     ],
     "http://schema.org/image": [
@@ -9764,12 +9213,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g480840"
+        "@id": "_:g479300"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g480860"
+        "@id": "_:g479320"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9789,7 +9238,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/5819235e-1d39-4ea6-ab1d-93adfa7571f7",
+    "@id": "https://capitol.nb.ca/temporary/5ea5024d-9e97-483c-b597-c4eb1d90f75c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9822,7 +9271,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g481280"
+        "@id": "_:g479760"
       }
     ],
     "http://schema.org/image": [
@@ -9837,12 +9286,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g481300"
+        "@id": "_:g479780"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g481320"
+        "@id": "_:g479800"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9862,7 +9311,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/279943dd-4e3f-4846-8937-b14f2ace20c8",
+    "@id": "https://capitol.nb.ca/temporary/a3329433-b6e3-4682-847c-2e54c97da022",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9895,7 +9344,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g481900"
+        "@id": "_:g480380"
       }
     ],
     "http://schema.org/image": [
@@ -9910,12 +9359,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g481920"
+        "@id": "_:g480400"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g481940"
+        "@id": "_:g480420"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9935,7 +9384,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/068292c8-81a3-428b-b8cf-9d9763b0501b",
+    "@id": "https://capitol.nb.ca/temporary/01df0d0b-9adc-4531-9026-dcfa9ea8afaf",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9968,7 +9417,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g482360"
+        "@id": "_:g480820"
       }
     ],
     "http://schema.org/image": [
@@ -9983,12 +9432,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g482380"
+        "@id": "_:g480840"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g482400"
+        "@id": "_:g480860"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10008,7 +9457,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/8a21ec2c-1b1f-4226-902a-c912ea42003e",
+    "@id": "https://capitol.nb.ca/temporary/4956e86a-f6cf-4633-9903-3ae5c76cf778",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10041,7 +9490,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g482800"
+        "@id": "_:g481260"
       }
     ],
     "http://schema.org/image": [
@@ -10056,12 +9505,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g482820"
+        "@id": "_:g481280"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g482840"
+        "@id": "_:g481300"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10081,7 +9530,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/4c42dc2a-d5c0-4df4-80b7-e0af63ecc0ce",
+    "@id": "https://capitol.nb.ca/temporary/0b7a80cf-c98b-4c03-bd15-f5ee6d64b995",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10114,7 +9563,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g483240"
+        "@id": "_:g481700"
       }
     ],
     "http://schema.org/image": [
@@ -10129,12 +9578,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g483260"
+        "@id": "_:g481720"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g483280"
+        "@id": "_:g481740"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10154,7 +9603,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/7507b2ff-fd5d-44ad-8493-50b147708a63",
+    "@id": "https://capitol.nb.ca/temporary/263b2490-343e-49de-ae9e-0a4d2301807e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10187,7 +9636,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g483680"
+        "@id": "_:g482140"
       }
     ],
     "http://schema.org/image": [
@@ -10202,12 +9651,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g483700"
+        "@id": "_:g482160"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g483720"
+        "@id": "_:g482180"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10227,7 +9676,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/a80398f2-2f61-4062-9bca-5130ccc47fca",
+    "@id": "https://capitol.nb.ca/temporary/a83289a0-71f0-4a91-8242-1df55b66c771",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10260,7 +9709,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g484120"
+        "@id": "_:g482580"
       }
     ],
     "http://schema.org/image": [
@@ -10275,12 +9724,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g484140"
+        "@id": "_:g482600"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g484160"
+        "@id": "_:g482620"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10300,7 +9749,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/63eb49e0-3a77-4aa0-81a3-a98cd8f5151f",
+    "@id": "https://capitol.nb.ca/temporary/a9b16ffd-238e-4311-9f0d-1f1a454ef96e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10333,7 +9782,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g484560"
+        "@id": "_:g483040"
       }
     ],
     "http://schema.org/image": [
@@ -10348,12 +9797,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g484580"
+        "@id": "_:g483060"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g484600"
+        "@id": "_:g483080"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10373,7 +9822,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/4f0f6d72-3b6e-497c-b033-33c7c2e7054f",
+    "@id": "https://capitol.nb.ca/temporary/ca4ef2fe-c5d5-4202-bd7f-13ad6d7245dd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10406,7 +9855,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g485020"
+        "@id": "_:g483500"
       }
     ],
     "http://schema.org/image": [
@@ -10421,12 +9870,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g485040"
+        "@id": "_:g483520"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g485060"
+        "@id": "_:g483540"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10446,7 +9895,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/8f260a26-8748-4e2c-b53e-17357fd02ad6",
+    "@id": "https://capitol.nb.ca/temporary/0b69302c-eb07-41ab-933c-477fe6c521d5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10479,7 +9928,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g485480"
+        "@id": "_:g483960"
       }
     ],
     "http://schema.org/image": [
@@ -10494,12 +9943,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g485500"
+        "@id": "_:g483980"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g485520"
+        "@id": "_:g484000"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10519,7 +9968,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/77446ea1-9433-4a99-8f40-f859ba7e6fbe",
+    "@id": "https://capitol.nb.ca/temporary/25095b96-c5d6-4aca-bd0d-37fac7403ef5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10552,7 +10001,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g485940"
+        "@id": "_:g484400"
       }
     ],
     "http://schema.org/image": [
@@ -10567,12 +10016,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g485960"
+        "@id": "_:g484420"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g485980"
+        "@id": "_:g484440"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10592,7 +10041,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/02dda045-4a25-40f4-a8e4-de4899a0cfc5",
+    "@id": "https://capitol.nb.ca/temporary/eba8a6a3-dd6d-46c3-b171-f46901d60545",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10625,7 +10074,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g486380"
+        "@id": "_:g484840"
       }
     ],
     "http://schema.org/image": [
@@ -10640,12 +10089,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g486400"
+        "@id": "_:g484860"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g486420"
+        "@id": "_:g484880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
