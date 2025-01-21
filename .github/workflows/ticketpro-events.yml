@@ -29,7 +29,7 @@ jobs:
           artifact: "ticketpro-ca-west"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "ticketpro-west-events.jsonld"
-          page-url: "https://ww3.ticketpro.ca/?languageid=-1"
+          page-url: "https://ww2.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
 
@@ -43,6 +43,6 @@ jobs:
           artifact: "ticketpro-ca-atlantic"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "ticketpro-atlantic-events.jsonld"
-          page-url: "https://ww2.ticketpro.ca/?languageid=-1"
+          page-url: "https://ww3.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
