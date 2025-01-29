@@ -80,12 +80,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/matt-lang"
+        "@id": "https://capitol.tuxedobillet.com/main/cbcs-laugh-out-loud-hosted-by-ali-hassan"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "65,62"
+        "@value": "46.95"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -96,7 +96,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
+        "@value": "2024-10-30T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "@id": "_:g460840",
+    "@id": "_:g460860",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -152,12 +152,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g460900"
+        "@id": "_:g460920"
       }
     ]
   },
   {
-    "@id": "_:g460900",
+    "@id": "_:g460920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -184,44 +184,44 @@
     "http://schema.org/addressCountry": [
       {
         "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460860",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/luc-leblanc-ya-des-morceaux-qui-lachent"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "45.95"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
       }
     ]
   },
   {
     "@id": "_:g460880",
     "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/25th-anniversary-gala-hosted-by-nikki-payne"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "46.95"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-30T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g460900",
+    "@type": [
       "http://schema.org/Organization"
     ],
     "http://schema.org/name": [
@@ -240,194 +240,80 @@
       },
       {
         "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461400",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g461460"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461460",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
       }
     ]
   },
   {
     "@id": "_:g461420",
     "@type": [
-      "http://schema.org/Offer"
+      "http://schema.org/Place"
     ],
-    "http://schema.org/url": [
+    "http://schema.org/name": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/le-gala-des-rendez-vous-de-la-francophonie"
+        "@value": "Capitol Theatre"
       }
     ],
-    "http://schema.org/price": [
+    "http://schema.org/sameAs": [
       {
-        "@value": "46.95"
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
       }
     ],
-    "http://schema.org/priceCurrency": [
+    "http://schema.org/address": [
       {
-        "@value": "CAD"
+        "@id": "_:g461480"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461480",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
       }
     ],
-    "http://schema.org/validFrom": [
+    "http://schema.org/addressLocality": [
       {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-30T10:00:00"
+        "@value": "Moncton"
       }
     ],
-    "http://schema.org/availability": [
+    "http://schema.org/postalCode": [
       {
-        "@id": "http://schema.org/InStock"
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
       }
     ]
   },
   {
     "@id": "_:g461440",
     "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461840",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g461900"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461900",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461860",
-    "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/gala-du-25e-anniversaire-avec-pierre-yves-roy-desmarais"
+        "@id": "https://capitol.tuxedobillet.com/main/jeremy-hotz-tres-miserables"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "46.95"
+        "@value": "60,110"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -438,7 +324,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-10-30T10:00:00"
+        "@value": "2024-10-18T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -448,7 +334,7 @@
     ]
   },
   {
-    "@id": "_:g461880",
+    "@id": "_:g461460",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -472,7 +358,7 @@
     ]
   },
   {
-    "@id": "_:g462280",
+    "@id": "_:g461860",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -494,12 +380,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g462340"
+        "@id": "_:g461920"
       }
     ]
   },
   {
-    "@id": "_:g462340",
+    "@id": "_:g461920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -530,18 +416,132 @@
     ]
   },
   {
-    "@id": "_:g462300",
+    "@id": "_:g461880",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/dominique-fils-aime"
+        "@id": "https://capitol.tuxedobillet.com/main/the-addams-family"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "44,41"
+        "@value": "69 - 49 - 39"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-07T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461900",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462300",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g462360"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462360",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462320",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/maryna-krut"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "39,36,19"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -562,7 +562,7 @@
     ]
   },
   {
-    "@id": "_:g462320",
+    "@id": "_:g462340",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -650,12 +650,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/cbcs-laugh-out-loud-hosted-by-ali-hassan"
+        "@id": "https://capitol.tuxedobillet.com/main/choir-choir-choir-2025"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "46.95"
+        "@value": "44,41"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -666,7 +666,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-10-30T10:00:00"
+        "@value": "2024-06-04T09:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -700,7 +700,7 @@
     ]
   },
   {
-    "@id": "_:g463200",
+    "@id": "_:g463180",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -722,12 +722,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g463260"
+        "@id": "_:g463240"
       }
     ]
   },
   {
-    "@id": "_:g463260",
+    "@id": "_:g463240",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -758,18 +758,18 @@
     ]
   },
   {
-    "@id": "_:g463220",
+    "@id": "_:g463200",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/25th-anniversary-gala-hosted-by-nikki-payne"
+        "@id": "https://capitol.tuxedobillet.com/main/the-alphabet-of-awesome-science"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "46.95"
+        "@value": "Pay What You Will"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -780,7 +780,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-10-30T10:00:00"
+        "@value": "2024-06-04T09:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -790,7 +790,7 @@
     ]
   },
   {
-    "@id": "_:g463240",
+    "@id": "_:g463220",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -814,7 +814,7 @@
     ]
   },
   {
-    "@id": "_:g463640",
+    "@id": "_:g463620",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -836,12 +836,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g463700"
+        "@id": "_:g463680"
       }
     ]
   },
   {
-    "@id": "_:g463700",
+    "@id": "_:g463680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -872,18 +872,18 @@
     ]
   },
   {
-    "@id": "_:g463660",
+    "@id": "_:g463640",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/jeremy-hotz-tres-miserables"
+        "@id": "https://capitol.tuxedobillet.com/main/raine-hamilton"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "60,110"
+        "@value": "29,26"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -894,7 +894,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-10-18T10:00:00"
+        "@value": "2024-06-04T09:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -904,7 +904,7 @@
     ]
   },
   {
-    "@id": "_:g463680",
+    "@id": "_:g463660",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -992,12 +992,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/the-addams-family"
+        "@id": "https://capitol.tuxedobillet.com/main/au-dela-du-banc"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "69 - 49 - 39"
+        "@value": "0"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -1008,7 +1008,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-07T10:00:00"
+        "@value": "2025-01-10T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -1042,7 +1042,7 @@
     ]
   },
   {
-    "@id": "_:g464520",
+    "@id": "_:g464540",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1064,12 +1064,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g464580"
+        "@id": "_:g464600"
       }
     ]
   },
   {
-    "@id": "_:g464580",
+    "@id": "_:g464600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1100,13 +1100,13 @@
     ]
   },
   {
-    "@id": "_:g464540",
+    "@id": "_:g464560",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/maryna-krut"
+        "@id": "https://capitol.tuxedobillet.com/main/as-you-like-it-or-the-land-acknowledgment"
       }
     ],
     "http://schema.org/price": [
@@ -1132,7 +1132,7 @@
     ]
   },
   {
-    "@id": "_:g464560",
+    "@id": "_:g464580",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1156,7 +1156,7 @@
     ]
   },
   {
-    "@id": "_:g464960",
+    "@id": "_:g464980",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1178,12 +1178,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g465020"
+        "@id": "_:g465040"
       }
     ]
   },
   {
-    "@id": "_:g465020",
+    "@id": "_:g465040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1214,13 +1214,13 @@
     ]
   },
   {
-    "@id": "_:g464980",
+    "@id": "_:g465000",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/choir-choir-choir-2025"
+        "@id": "https://capitol.tuxedobillet.com/main/neev"
       }
     ],
     "http://schema.org/price": [
@@ -1246,7 +1246,7 @@
     ]
   },
   {
-    "@id": "_:g465000",
+    "@id": "_:g465020",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1266,194 +1266,80 @@
       },
       {
         "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465400",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g465460"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465460",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
       }
     ]
   },
   {
     "@id": "_:g465420",
     "@type": [
-      "http://schema.org/Offer"
+      "http://schema.org/Place"
     ],
-    "http://schema.org/url": [
+    "http://schema.org/name": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/the-alphabet-of-awesome-science"
+        "@value": "Capitol Theatre"
       }
     ],
-    "http://schema.org/price": [
+    "http://schema.org/sameAs": [
       {
-        "@value": "Pay What You Will"
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
       }
     ],
-    "http://schema.org/priceCurrency": [
+    "http://schema.org/address": [
       {
-        "@value": "CAD"
+        "@id": "_:g465480"
+      }
+    ]
+  },
+  {
+    "@id": "_:g465480",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
       }
     ],
-    "http://schema.org/validFrom": [
+    "http://schema.org/addressLocality": [
       {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
+        "@value": "Moncton"
       }
     ],
-    "http://schema.org/availability": [
+    "http://schema.org/postalCode": [
       {
-        "@id": "http://schema.org/InStock"
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
       }
     ]
   },
   {
     "@id": "_:g465440",
     "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465840",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g465900"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465900",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g465860",
-    "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/raine-hamilton"
+        "@id": "https://capitol.tuxedobillet.com/main/steve-patterson"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "29,26"
+        "@value": "49,46"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -1474,7 +1360,7 @@
     ]
   },
   {
-    "@id": "_:g465880",
+    "@id": "_:g465460",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1498,7 +1384,7 @@
     ]
   },
   {
-    "@id": "_:g466280",
+    "@id": "_:g465860",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1520,12 +1406,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g466340"
+        "@id": "_:g465920"
       }
     ]
   },
   {
-    "@id": "_:g466340",
+    "@id": "_:g465920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1556,18 +1442,18 @@
     ]
   },
   {
-    "@id": "_:g466300",
+    "@id": "_:g465880",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/au-dela-du-banc"
+        "@id": "https://capitol.tuxedobillet.com/main/chris-funk"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "0"
+        "@value": "44,41,19"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -1578,7 +1464,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-10T10:00:00"
+        "@value": "2024-06-04T09:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -1588,7 +1474,121 @@
     ]
   },
   {
+    "@id": "_:g465900",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466300",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g466360"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466360",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
     "@id": "_:g466320",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/un-espoir-eternel"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "40,17.39,FREE"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-07-29T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g466340",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1676,12 +1676,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/as-you-like-it-or-the-land-acknowledgment"
+        "@id": "https://capitol.tuxedobillet.com/main/the-barr-brothers"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "39,36,19"
+        "@value": "44,41"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -1790,12 +1790,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/neev"
+        "@id": "https://capitol.tuxedobillet.com/main/don-juan"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "44,41"
+        "@value": "46 - 56,32"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -1806,7 +1806,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
+        "@value": "2024-09-20T09:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -1840,7 +1840,7 @@
     ]
   },
   {
-    "@id": "_:g467640",
+    "@id": "_:g467660",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1862,12 +1862,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g467700"
+        "@id": "_:g467720"
       }
     ]
   },
   {
-    "@id": "_:g467700",
+    "@id": "_:g467720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1894,581 +1894,11 @@
     "http://schema.org/addressCountry": [
       {
         "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g467660",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/steve-patterson"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "49,46"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
       }
     ]
   },
   {
     "@id": "_:g467680",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468080",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g468140"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468140",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468100",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/chris-funk"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "44,41,19"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468120",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468520",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g468580"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468580",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468540",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/un-espoir-eternel"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "40,17.39,FREE"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-07-29T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468560",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468960",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g469020"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469020",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g468980",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/the-barr-brothers"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "44,41"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469000",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469400",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g469460"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469460",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469420",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/don-juan"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "46 - 56,32"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-09-20T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469440",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469840",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g469900"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469900",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g469860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2500,7 +1930,577 @@
     ]
   },
   {
+    "@id": "_:g467700",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468100",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g468160"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468160",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468120",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/forever-seger"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "57.83 - 60.43"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-08-02T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468140",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468540",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g468600"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468600",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468560",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/snowed-in-comedy-tour-2025"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "56,46"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-15T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468580",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g468980",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g469040"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469040",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469000",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/derek-edwards-2025"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "62"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-11-22T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469020",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469420",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g469480"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469480",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469440",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/kylie-fox"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "27"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-31T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469460",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469860",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g469920"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469920",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
     "@id": "_:g469880",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/requiem-de-faure"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "40,17.39,FREE"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-07-29T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g469900",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2588,12 +2588,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/forever-seger"
+        "@id": "https://capitol.tuxedobillet.com/main/matthieu-pepper"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "57.83 - 60.43"
+        "@value": "44,41"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -2604,7 +2604,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-08-02T10:00:00"
+        "@value": "2024-06-04T09:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -2702,12 +2702,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/snowed-in-comedy-tour-2025"
+        "@id": "https://capitol.tuxedobillet.com/main/alan-jackson-et-george-strait-experience"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "56,46"
+        "@value": "58.00 - 48.00"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -2718,7 +2718,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-15T10:00:00"
+        "@value": ""
       }
     ],
     "http://schema.org/availability": [
@@ -2752,7 +2752,7 @@
     ]
   },
   {
-    "@id": "_:g471200",
+    "@id": "_:g471220",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2774,12 +2774,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g471260"
+        "@id": "_:g471280"
       }
     ]
   },
   {
-    "@id": "_:g471260",
+    "@id": "_:g471280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2806,467 +2806,11 @@
     "http://schema.org/addressCountry": [
       {
         "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471220",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/derek-edwards-2025"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "62"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-22T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
       }
     ]
   },
   {
     "@id": "_:g471240",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471640",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g471700"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471700",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471660",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/requiem-de-faure"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "40,17.39,FREE"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-07-29T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g471680",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472080",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g472140"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472140",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472100",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/matthieu-pepper"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "44,41"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472120",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472520",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g472580"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472580",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472540",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/alan-jackson-et-george-strait-experience"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "58.00 - 48.00"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472560",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472960",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g473020"
-      }
-    ]
-  },
-  {
-    "@id": "_:g473020",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g472980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3298,7 +2842,7 @@
     ]
   },
   {
-    "@id": "_:g473000",
+    "@id": "_:g471260",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3322,7 +2866,7 @@
     ]
   },
   {
-    "@id": "_:g473760",
+    "@id": "_:g471980",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3344,12 +2888,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g473820"
+        "@id": "_:g472040"
       }
     ]
   },
   {
-    "@id": "_:g473820",
+    "@id": "_:g472040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3380,7 +2924,7 @@
     ]
   },
   {
-    "@id": "_:g473780",
+    "@id": "_:g472000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3412,7 +2956,7 @@
     ]
   },
   {
-    "@id": "_:g473800",
+    "@id": "_:g472020",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3436,7 +2980,7 @@
     ]
   },
   {
-    "@id": "_:g474220",
+    "@id": "_:g472420",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3458,12 +3002,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g474280"
+        "@id": "_:g472480"
       }
     ]
   },
   {
-    "@id": "_:g474280",
+    "@id": "_:g472480",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3494,7 +3038,7 @@
     ]
   },
   {
-    "@id": "_:g474240",
+    "@id": "_:g472440",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3526,7 +3070,7 @@
     ]
   },
   {
-    "@id": "_:g474260",
+    "@id": "_:g472460",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3550,7 +3094,7 @@
     ]
   },
   {
-    "@id": "_:g474660",
+    "@id": "_:g472860",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3572,12 +3116,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g474720"
+        "@id": "_:g472920"
       }
     ]
   },
   {
-    "@id": "_:g474720",
+    "@id": "_:g472920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3608,7 +3152,7 @@
     ]
   },
   {
-    "@id": "_:g474680",
+    "@id": "_:g472880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3640,7 +3184,7 @@
     ]
   },
   {
-    "@id": "_:g474700",
+    "@id": "_:g472900",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3664,7 +3208,7 @@
     ]
   },
   {
-    "@id": "_:g475260",
+    "@id": "_:g473460",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3686,12 +3230,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g475320"
+        "@id": "_:g473520"
       }
     ]
   },
   {
-    "@id": "_:g475320",
+    "@id": "_:g473520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3722,7 +3266,7 @@
     ]
   },
   {
-    "@id": "_:g475280",
+    "@id": "_:g473480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3754,7 +3298,7 @@
     ]
   },
   {
-    "@id": "_:g475300",
+    "@id": "_:g473500",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3778,7 +3322,7 @@
     ]
   },
   {
-    "@id": "_:g475700",
+    "@id": "_:g473920",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3800,12 +3344,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g475760"
+        "@id": "_:g473980"
       }
     ]
   },
   {
-    "@id": "_:g475760",
+    "@id": "_:g473980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3836,7 +3380,7 @@
     ]
   },
   {
-    "@id": "_:g475720",
+    "@id": "_:g473940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3868,7 +3412,7 @@
     ]
   },
   {
-    "@id": "_:g475740",
+    "@id": "_:g473960",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3892,7 +3436,7 @@
     ]
   },
   {
-    "@id": "_:g476140",
+    "@id": "_:g474380",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3914,12 +3458,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g476200"
+        "@id": "_:g474440"
       }
     ]
   },
   {
-    "@id": "_:g476200",
+    "@id": "_:g474440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3950,7 +3494,7 @@
     ]
   },
   {
-    "@id": "_:g476160",
+    "@id": "_:g474400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3982,7 +3526,463 @@
     ]
   },
   {
-    "@id": "_:g476180",
+    "@id": "_:g474420",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g474980",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g475040"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475040",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475000",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/mona-de-grenoble"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "44,41"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475020",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475420",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g475480"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475480",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475440",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/legends-show"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "59.99"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-31T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475460",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475860",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g475920"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475920",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475880",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/messmer"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "49,46"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475900",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g476300",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g476360"
+      }
+    ]
+  },
+  {
+    "@id": "_:g476360",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g476320",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/les-hay-babies"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "39,36"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-06-04T09:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g476340",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4070,12 +4070,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/mona-de-grenoble"
+        "@id": "https://capitol.tuxedobillet.com/main/patsy-gallant"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "44,41"
+        "@value": "49,46"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -4120,7 +4120,7 @@
     ]
   },
   {
-    "@id": "_:g477200",
+    "@id": "_:g477220",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4142,12 +4142,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g477260"
+        "@id": "_:g477280"
       }
     ]
   },
   {
-    "@id": "_:g477260",
+    "@id": "_:g477280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4174,353 +4174,11 @@
     "http://schema.org/addressCountry": [
       {
         "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g477220",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/messmer"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "49,46"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
       }
     ]
   },
   {
     "@id": "_:g477240",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g477660",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g477720"
-      }
-    ]
-  },
-  {
-    "@id": "_:g477720",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g477680",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/les-hay-babies"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "39,36"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g477700",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g478100",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g478160"
-      }
-    ]
-  },
-  {
-    "@id": "_:g478160",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g478120",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/patsy-gallant"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "49,46"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-06-04T09:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g478140",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g478540",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g478600"
-      }
-    ]
-  },
-  {
-    "@id": "_:g478600",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g478560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4552,7 +4210,7 @@
     ]
   },
   {
-    "@id": "_:g478580",
+    "@id": "_:g477260",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4576,7 +4234,7 @@
     ]
   },
   {
-    "@id": "_:g478980",
+    "@id": "_:g477680",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4598,12 +4256,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g479040"
+        "@id": "_:g477740"
       }
     ]
   },
   {
-    "@id": "_:g479040",
+    "@id": "_:g477740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4634,7 +4292,7 @@
     ]
   },
   {
-    "@id": "_:g479000",
+    "@id": "_:g477700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4666,7 +4324,7 @@
     ]
   },
   {
-    "@id": "_:g479020",
+    "@id": "_:g477720",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4690,7 +4348,7 @@
     ]
   },
   {
-    "@id": "_:g479420",
+    "@id": "_:g478120",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4712,12 +4370,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g479480"
+        "@id": "_:g478180"
       }
     ]
   },
   {
-    "@id": "_:g479480",
+    "@id": "_:g478180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4748,7 +4406,7 @@
     ]
   },
   {
-    "@id": "_:g479440",
+    "@id": "_:g478140",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4780,7 +4438,7 @@
     ]
   },
   {
-    "@id": "_:g479460",
+    "@id": "_:g478160",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4804,7 +4462,7 @@
     ]
   },
   {
-    "@id": "_:g480020",
+    "@id": "_:g478720",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4826,12 +4484,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g480080"
+        "@id": "_:g478780"
       }
     ]
   },
   {
-    "@id": "_:g480080",
+    "@id": "_:g478780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4862,7 +4520,7 @@
     ]
   },
   {
-    "@id": "_:g480040",
+    "@id": "_:g478740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4894,7 +4552,349 @@
     ]
   },
   {
+    "@id": "_:g478760",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479160",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g479220"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479220",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479180",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/steve-hofstetter-2025"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "47"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-11T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479200",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479600",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g479660"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479660",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479620",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/sarah-millican"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "55.26 - 63.96"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-10-04T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479640",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theater"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-197"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117090701"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480040",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Capitol Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-116"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q545543"
+      },
+      {
+        "@id": "https://scenesfrancophones.ca/id/509"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g480100"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480100",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "811 Main Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Moncton"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "E1C 1G1"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "NB"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ]
+  },
+  {
     "@id": "_:g480060",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.tuxedobillet.com/main/lucien-et-jimmy-the-janitor-senior-moments"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@value": "39.12"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2024-12-04T10:00:00"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g480080",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4982,12 +4982,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/steve-hofstetter-2025"
+        "@id": "https://capitol.tuxedobillet.com/main/lets-get-loud-2025"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "47"
+        "@value": "75,55"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -4998,7 +4998,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-10-11T10:00:00"
+        "@value": "2024-11-01T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -5096,12 +5096,12 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://capitol.tuxedobillet.com/main/sarah-millican"
+        "@id": "https://capitol.tuxedobillet.com/main/bee-gees-revisited-the-tribute-show"
       }
     ],
     "http://schema.org/price": [
       {
-        "@value": "55.26 - 63.96"
+        "@value": "56.50"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -5112,7 +5112,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-10-04T10:00:00"
+        "@value": "2024-10-30T10:00:00"
       }
     ],
     "http://schema.org/availability": [
@@ -5146,7 +5146,7 @@
     ]
   },
   {
-    "@id": "_:g481400",
+    "@id": "_:g481380",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5168,127 +5168,13 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g481460"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481460",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481420",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/lucien-et-jimmy-the-janitor-senior-moments"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "39.12"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-12-04T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
+        "@id": "_:g481440"
       }
     ]
   },
   {
     "@id": "_:g481440",
     "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481840",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g481900"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481900",
-    "@type": [
       "http://schema.org/PostalAddress"
     ],
     "http://schema.org/streetAddress": [
@@ -5318,235 +5204,7 @@
     ]
   },
   {
-    "@id": "_:g481860",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/lets-get-loud-2025"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "75,55"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-11-01T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481880",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482280",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g482340"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482340",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482300",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.tuxedobillet.com/main/bee-gees-revisited-the-tribute-show"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@value": "56.50"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2024-10-30T10:00:00"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482320",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theater"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K14-197"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q117090701"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482720",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Capitol Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-116"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q545543"
-      },
-      {
-        "@id": "https://scenesfrancophones.ca/id/509"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g482780"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482780",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "811 Main Street"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Moncton"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "E1C 1G1"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482740",
+    "@id": "_:g481400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5578,7 +5236,7 @@
     ]
   },
   {
-    "@id": "_:g482760",
+    "@id": "_:g481420",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5602,7 +5260,7 @@
     ]
   },
   {
-    "@id": "_:g483160",
+    "@id": "_:g481820",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5624,12 +5282,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g483220"
+        "@id": "_:g481880"
       }
     ]
   },
   {
-    "@id": "_:g483220",
+    "@id": "_:g481880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5660,7 +5318,7 @@
     ]
   },
   {
-    "@id": "_:g483180",
+    "@id": "_:g481840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5692,7 +5350,7 @@
     ]
   },
   {
-    "@id": "_:g483200",
+    "@id": "_:g481860",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5716,7 +5374,7 @@
     ]
   },
   {
-    "@id": "_:g483600",
+    "@id": "_:g482260",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5738,12 +5396,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g483660"
+        "@id": "_:g482320"
       }
     ]
   },
   {
-    "@id": "_:g483660",
+    "@id": "_:g482320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5774,7 +5432,7 @@
     ]
   },
   {
-    "@id": "_:g483620",
+    "@id": "_:g482280",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5806,7 +5464,7 @@
     ]
   },
   {
-    "@id": "_:g483640",
+    "@id": "_:g482300",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5830,7 +5488,7 @@
     ]
   },
   {
-    "@id": "_:g484060",
+    "@id": "_:g482700",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5852,12 +5510,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g484120"
+        "@id": "_:g482760"
       }
     ]
   },
   {
-    "@id": "_:g484120",
+    "@id": "_:g482760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5888,7 +5546,7 @@
     ]
   },
   {
-    "@id": "_:g484080",
+    "@id": "_:g482720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5920,7 +5578,7 @@
     ]
   },
   {
-    "@id": "_:g484100",
+    "@id": "_:g482740",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5944,7 +5602,7 @@
     ]
   },
   {
-    "@id": "_:g484520",
+    "@id": "_:g483140",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -5966,12 +5624,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g484580"
+        "@id": "_:g483200"
       }
     ]
   },
   {
-    "@id": "_:g484580",
+    "@id": "_:g483200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6002,7 +5660,7 @@
     ]
   },
   {
-    "@id": "_:g484540",
+    "@id": "_:g483160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6034,7 +5692,7 @@
     ]
   },
   {
-    "@id": "_:g484560",
+    "@id": "_:g483180",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6058,372 +5716,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/131a8014-9660-4334-a1a8-010adfecba34",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Matt Lang"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/matt-lang"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-22T19:30:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-22T23:30:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g460380"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_331_field_41/original/matt-lang-intro.jpg"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "After selling over 50 000 tickets on his recent tour More, new country rising star Matt Lang returns with All Night Longer, his third album and a brand new show"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g460400"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g460420"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/matt-lang"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/963d4820-4928-4801-bc45-c1ef5e87a017",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Luc LeBlanc : Y'a des morceaux qui lâchent"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/luc-leblanc-y-a-des-morceaux-qui-lachent"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-23T19:30:00,2025-01-25T15:00:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-25T19:30:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g460840"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_304_field_41/original/hubcap_lucleblanc_capitol-06-2024_v01-min.jpg"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Back by popular demand, the HubCap Comedy Festival presents an encore of his one-man show! After 49 years of being a ball of energy, the most hyped-up guy East "
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g460860"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g460880"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/luc-leblanc-y-a-des-morceaux-qui-lachent"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/03ac0cf5-326f-4cea-8157-291d43d17f6c",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Le Gala des Rendez-vous de la Francophonie"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/le-gala-des-rendez-vous-de-la-francophonie"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-24T19:30:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-25T00:00:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461400"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_494_field_41/original/rendez-vous-franco-intro.jpg"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Always warmly received, this gala showcases star comedians from the Acadian and Quebec scenes. Hosted by Garihanna&nbsp;Jean-Louis and featuring Ryan Doucette, "
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g461420"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g461440"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/le-gala-des-rendez-vous-de-la-francophonie"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/e458ce1b-6987-485a-bba3-341fe60d611e",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Gala du 25e Anniversaire avec Pierre-Yves Roy-Desmarais"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/gala-du-25e-anniversaire-avec-pierre-yves-roy-desmarais"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-25T19:30:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-26T00:00:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461840"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_496_field_41/original/pierre-yves--700-x-460-px-.png"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "For its 25th year, the HubCap comedy festival will be headlined by comedian Pierre-Yves Roy Desmarais, who will be premiering 45 minutes of his new show. Openin"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g461860"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g461880"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/gala-du-25e-anniversaire-avec-pierre-yves-roy-desmarais"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/a829a097-033d-4a1c-b0d8-b57c03341a19",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Dominique Fils-Aimé"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/dominique-fils-aime"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-26T19:30:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-27T00:00:00"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g462280"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_332_field_41/original/dominique-fils-aime-intro.jpg"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Dominique Fils-Aimé is a JUNO Award winning singer-songwriter from Montreal who puts the history of African-American musical culture into the heart of her work"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g462300"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g462320"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://capitol.nb.ca/en/tickets-events/dominique-fils-aime"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://capitol.nb.ca/temporary/4d045fcc-81bb-4b7f-aa4d-11a6525dc272",
+    "@id": "https://capitol.nb.ca/temporary/04ca599f-f2fd-4cb6-832f-0293d5069104",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6456,7 +5749,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g462740"
+        "@id": "_:g460380"
       }
     ],
     "http://schema.org/image": [
@@ -6471,12 +5764,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g462760"
+        "@id": "_:g460400"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g462780"
+        "@id": "_:g460420"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6496,7 +5789,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/1eca4c05-6337-4b1f-bfe8-6753253d6043",
+    "@id": "https://capitol.nb.ca/temporary/e8383e89-3c26-4442-a887-08499c1a0e4e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6529,7 +5822,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g463200"
+        "@id": "_:g460860"
       }
     ],
     "http://schema.org/image": [
@@ -6544,12 +5837,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g463220"
+        "@id": "_:g460880"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g463240"
+        "@id": "_:g460900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6569,7 +5862,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/2aafa273-bae8-404e-a126-4593d6e82925",
+    "@id": "https://capitol.nb.ca/temporary/160ac205-5697-4a86-8047-ad61bfbf2904",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6602,7 +5895,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g463640"
+        "@id": "_:g461420"
       }
     ],
     "http://schema.org/image": [
@@ -6617,12 +5910,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g463660"
+        "@id": "_:g461440"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g463680"
+        "@id": "_:g461460"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6642,7 +5935,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/08d83253-7343-47da-bc73-a197ce1d4397",
+    "@id": "https://capitol.nb.ca/temporary/365f5f38-996e-4fb1-93f7-4795b3842aaa",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6675,7 +5968,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g464080"
+        "@id": "_:g461860"
       }
     ],
     "http://schema.org/image": [
@@ -6690,12 +5983,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g464100"
+        "@id": "_:g461880"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g464120"
+        "@id": "_:g461900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6715,7 +6008,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/c4d775d0-a682-426b-b4c1-6b9af8e876f0",
+    "@id": "https://capitol.nb.ca/temporary/8cbe7d7a-7ab1-419f-ad55-422cfe03710e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6748,7 +6041,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g464520"
+        "@id": "_:g462300"
       }
     ],
     "http://schema.org/image": [
@@ -6763,12 +6056,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g464540"
+        "@id": "_:g462320"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g464560"
+        "@id": "_:g462340"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6788,7 +6081,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/05de21ab-9c8c-48f4-bbf6-68607b54578d",
+    "@id": "https://capitol.nb.ca/temporary/2660b19d-5cea-4c81-9a0a-6a6bff901997",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6821,7 +6114,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g464960"
+        "@id": "_:g462740"
       }
     ],
     "http://schema.org/image": [
@@ -6836,12 +6129,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g464980"
+        "@id": "_:g462760"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g465000"
+        "@id": "_:g462780"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6861,7 +6154,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/db7cfd95-ef49-4c14-bb60-b106c9420ee6",
+    "@id": "https://capitol.nb.ca/temporary/4d5dfe20-7a00-42dd-bcb6-9905a288bb39",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6894,7 +6187,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g465400"
+        "@id": "_:g463180"
       }
     ],
     "http://schema.org/image": [
@@ -6909,12 +6202,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g465420"
+        "@id": "_:g463200"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g465440"
+        "@id": "_:g463220"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6934,7 +6227,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/32b6ab3b-61ea-4f29-b2dd-02c0fda2d432",
+    "@id": "https://capitol.nb.ca/temporary/e7e8c978-90be-45af-8d05-e27cc456c9e0",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6967,7 +6260,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g465840"
+        "@id": "_:g463620"
       }
     ],
     "http://schema.org/image": [
@@ -6982,12 +6275,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g465860"
+        "@id": "_:g463640"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g465880"
+        "@id": "_:g463660"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7007,7 +6300,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/2e97367b-65c6-4ce5-893c-fdd91378758a",
+    "@id": "https://capitol.nb.ca/temporary/ae64ca68-ce8c-4d6a-907d-c4b1ff115693",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7040,7 +6333,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466280"
+        "@id": "_:g464080"
       }
     ],
     "http://schema.org/image": [
@@ -7055,12 +6348,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g466300"
+        "@id": "_:g464100"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466320"
+        "@id": "_:g464120"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7080,7 +6373,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/5c40a74f-84f7-4ea5-996a-c0b8366b8040",
+    "@id": "https://capitol.nb.ca/temporary/c535e1a8-bf10-4b3c-98ed-b18dafc083d1",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7113,7 +6406,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g466740"
+        "@id": "_:g464540"
       }
     ],
     "http://schema.org/image": [
@@ -7128,12 +6421,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g466760"
+        "@id": "_:g464560"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g466780"
+        "@id": "_:g464580"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7153,7 +6446,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/60d8fd1c-a4fe-4f1f-9e49-4d2159d11c5f",
+    "@id": "https://capitol.nb.ca/temporary/cde7790f-f313-4a14-b524-809d90b85119",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7186,7 +6479,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g467200"
+        "@id": "_:g464980"
       }
     ],
     "http://schema.org/image": [
@@ -7201,12 +6494,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g467220"
+        "@id": "_:g465000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g467240"
+        "@id": "_:g465020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7226,7 +6519,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/a32a6e04-8148-434a-b0a8-379f5d1919f8",
+    "@id": "https://capitol.nb.ca/temporary/64fa6c64-ceb4-44fa-aab1-5293fdf28e13",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7259,7 +6552,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g467640"
+        "@id": "_:g465420"
       }
     ],
     "http://schema.org/image": [
@@ -7274,12 +6567,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g467660"
+        "@id": "_:g465440"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g467680"
+        "@id": "_:g465460"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7299,7 +6592,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/530c8716-6d07-4718-b03a-d639466c7bda",
+    "@id": "https://capitol.nb.ca/temporary/cb5cf170-7976-47ca-a2bb-f3cc2cf1a807",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7332,7 +6625,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g468080"
+        "@id": "_:g465860"
       }
     ],
     "http://schema.org/image": [
@@ -7347,12 +6640,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g468100"
+        "@id": "_:g465880"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g468120"
+        "@id": "_:g465900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7372,7 +6665,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/61cff4c3-581c-443a-bda7-cadd0d032eab",
+    "@id": "https://capitol.nb.ca/temporary/9ee362a6-397a-45b4-8d66-8033abf88d91",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7405,7 +6698,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g468520"
+        "@id": "_:g466300"
       }
     ],
     "http://schema.org/image": [
@@ -7420,12 +6713,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g468540"
+        "@id": "_:g466320"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g468560"
+        "@id": "_:g466340"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7445,7 +6738,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/f6e005c5-dc42-4c67-985f-b16da30656b5",
+    "@id": "https://capitol.nb.ca/temporary/6c16f617-c959-4400-b6cd-a16b026381e5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7478,7 +6771,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g468960"
+        "@id": "_:g466740"
       }
     ],
     "http://schema.org/image": [
@@ -7493,12 +6786,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g468980"
+        "@id": "_:g466760"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g469000"
+        "@id": "_:g466780"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7518,7 +6811,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/fba3928c-6807-4a7b-a584-55327293befe",
+    "@id": "https://capitol.nb.ca/temporary/689a8781-70fb-4fa9-91ad-fb00a07f98cc",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7551,12 +6844,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g469400"
+        "@id": "_:g467200"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_454_field_41/original/don-juan-intro.jpg"
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_454_field_41/original/don-juan-intro--1-.jpg"
       }
     ],
     "http://schema.org/description": [
@@ -7566,12 +6859,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g469420"
+        "@id": "_:g467220"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g469440"
+        "@id": "_:g467240"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7591,7 +6884,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/584d9033-9f60-4f9c-b803-96633d679da8",
+    "@id": "https://capitol.nb.ca/temporary/2dd08481-0e94-4293-9a0c-e32a515f73f6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7624,7 +6917,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g469840"
+        "@id": "_:g467660"
       }
     ],
     "http://schema.org/image": [
@@ -7639,12 +6932,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g469860"
+        "@id": "_:g467680"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g469880"
+        "@id": "_:g467700"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7664,7 +6957,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/c61adaee-8147-4c45-8ba8-a9c26c403501",
+    "@id": "https://capitol.nb.ca/temporary/96e46687-a363-4144-8041-062f8b218123",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7697,7 +6990,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g470300"
+        "@id": "_:g468100"
       }
     ],
     "http://schema.org/image": [
@@ -7712,12 +7005,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g470320"
+        "@id": "_:g468120"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g470340"
+        "@id": "_:g468140"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7737,7 +7030,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/b4eef68f-aff7-4fcd-80bd-23e4db533e04",
+    "@id": "https://capitol.nb.ca/temporary/fa47ed8e-51db-4f15-98ae-9bcaac42c074",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7770,7 +7063,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g470760"
+        "@id": "_:g468540"
       }
     ],
     "http://schema.org/image": [
@@ -7785,12 +7078,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g470780"
+        "@id": "_:g468560"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g470800"
+        "@id": "_:g468580"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7810,7 +7103,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/16220808-dc64-46a2-b883-6dae3d86e6d7",
+    "@id": "https://capitol.nb.ca/temporary/d247d11a-bcbc-46ba-98e4-97713206a41f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7843,7 +7136,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g471200"
+        "@id": "_:g468980"
       }
     ],
     "http://schema.org/image": [
@@ -7858,12 +7151,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g471220"
+        "@id": "_:g469000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g471240"
+        "@id": "_:g469020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7883,7 +7176,80 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/0a1a702e-42fb-4bb3-9a80-e338ce8d58f7",
+    "@id": "https://capitol.nb.ca/temporary/6cfdadb1-25aa-467b-bad3-83bd7ec6e1de",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Kylie Fox"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events/kylie-fox"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-04-05T19:30:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-04-05T23:00:00"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g469420"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_542_field_41/original/kylie-fox-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Canadian folk-songstress Kylie Fox brings her acclaimed album Sequoia (2024) to the stage this Spring for the ‘There Are Only So Many Great Nights’ Tour. Jo"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g469440"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g469460"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events/kylie-fox"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/7cf3ac43-1874-487b-9a6b-5bc78a9e462d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7916,7 +7282,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g471640"
+        "@id": "_:g469860"
       }
     ],
     "http://schema.org/image": [
@@ -7931,12 +7297,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g471660"
+        "@id": "_:g469880"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g471680"
+        "@id": "_:g469900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7956,7 +7322,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/b616d9cd-4749-4a8c-a01d-68fb32abb814",
+    "@id": "https://capitol.nb.ca/temporary/6592dca7-e800-43bf-a699-b89b7b0f4db5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7989,7 +7355,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g472080"
+        "@id": "_:g470300"
       }
     ],
     "http://schema.org/image": [
@@ -8004,12 +7370,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g472100"
+        "@id": "_:g470320"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g472120"
+        "@id": "_:g470340"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8029,7 +7395,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/56ac1888-a27d-4c7e-bfb9-afa71c5ae743",
+    "@id": "https://capitol.nb.ca/temporary/cfc52ef7-e8c2-4e95-9251-5483d660e1b9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8062,7 +7428,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g472520"
+        "@id": "_:g470760"
       }
     ],
     "http://schema.org/image": [
@@ -8077,12 +7443,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g472540"
+        "@id": "_:g470780"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g472560"
+        "@id": "_:g470800"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8102,7 +7468,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/b537db17-3e89-4f7e-8fb7-78867d41d436",
+    "@id": "https://capitol.nb.ca/temporary/49e868f9-d1a2-4b03-982f-29dd0d7e1c64",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8135,7 +7501,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g472960"
+        "@id": "_:g471220"
       }
     ],
     "http://schema.org/image": [
@@ -8150,12 +7516,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g472980"
+        "@id": "_:g471240"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g473000"
+        "@id": "_:g471260"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8175,7 +7541,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/84ac017d-feb8-46bc-8052-23ff2036507c",
+    "@id": "https://capitol.nb.ca/temporary/a393764b-51dd-417f-ad46-d7d944053648",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8208,7 +7574,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g473760"
+        "@id": "_:g471980"
       }
     ],
     "http://schema.org/image": [
@@ -8223,12 +7589,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g473780"
+        "@id": "_:g472000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g473800"
+        "@id": "_:g472020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8248,7 +7614,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/23a109b4-1e7c-464c-b029-0708b1fc6323",
+    "@id": "https://capitol.nb.ca/temporary/729aa225-9951-4a4f-8849-cdf85f159e3d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8281,7 +7647,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g474220"
+        "@id": "_:g472420"
       }
     ],
     "http://schema.org/image": [
@@ -8296,12 +7662,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g474240"
+        "@id": "_:g472440"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g474260"
+        "@id": "_:g472460"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8321,7 +7687,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/8bff1657-76ed-418f-81fb-00c02c0f4f1e",
+    "@id": "https://capitol.nb.ca/temporary/e0093388-7072-4f0e-8e68-d6c12de8164f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8354,7 +7720,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g474660"
+        "@id": "_:g472860"
       }
     ],
     "http://schema.org/image": [
@@ -8369,12 +7735,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g474680"
+        "@id": "_:g472880"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g474700"
+        "@id": "_:g472900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8394,7 +7760,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/7768f1e6-3552-4a96-8f0e-8118acfc6960",
+    "@id": "https://capitol.nb.ca/temporary/94b41009-d013-46b4-a87f-498190c20dfa",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8427,7 +7793,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g475260"
+        "@id": "_:g473460"
       }
     ],
     "http://schema.org/image": [
@@ -8442,12 +7808,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g475280"
+        "@id": "_:g473480"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g475300"
+        "@id": "_:g473500"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8467,7 +7833,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/e4e0c514-7e2b-459c-abff-b67ed08c27d2",
+    "@id": "https://capitol.nb.ca/temporary/314a7d95-fbf2-4955-b48d-85246d34dced",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8500,7 +7866,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g475700"
+        "@id": "_:g473920"
       }
     ],
     "http://schema.org/image": [
@@ -8515,12 +7881,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g475720"
+        "@id": "_:g473940"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g475740"
+        "@id": "_:g473960"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8540,7 +7906,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/9b496e0d-cc40-4af6-818f-d8b515a3ff4a",
+    "@id": "https://capitol.nb.ca/temporary/44b8b530-40dc-44d9-9a3c-8a1447425ace",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8573,7 +7939,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g476140"
+        "@id": "_:g474380"
       }
     ],
     "http://schema.org/image": [
@@ -8588,12 +7954,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g476160"
+        "@id": "_:g474400"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g476180"
+        "@id": "_:g474420"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8613,7 +7979,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/f9ce6c4e-7529-4dc3-81af-1d0c6450c400",
+    "@id": "https://capitol.nb.ca/temporary/15864dbe-4d96-48b2-a116-031b17cfc67d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8646,7 +8012,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g476740"
+        "@id": "_:g474980"
       }
     ],
     "http://schema.org/image": [
@@ -8661,12 +8027,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g476760"
+        "@id": "_:g475000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g476780"
+        "@id": "_:g475020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8686,7 +8052,80 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/f04f4037-32c2-4cfb-b6b0-ff126e5cc122",
+    "@id": "https://capitol.nb.ca/temporary/6413b2c4-7def-4956-b0c5-ee7019869610",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Legends Show"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events/legends-show"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-05-18T15:00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-05-18T18:30:00"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g475420"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://capitol.nb.ca/images/stories/flexicontent/item_540_field_41/original/legends-show-intro.jpg"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Legends Show&nbsp;brings you some of North America's most exciting performers live on stage! Accompanied by the Rockin’ Royals Band, this show will feature th"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g475440"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g475460"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://capitol.nb.ca/en/tickets-events/legends-show"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://capitol.nb.ca/temporary/330eb997-0872-4f85-8bfe-b5555c47b4df",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8719,7 +8158,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g477200"
+        "@id": "_:g475860"
       }
     ],
     "http://schema.org/image": [
@@ -8734,12 +8173,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g477220"
+        "@id": "_:g475880"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g477240"
+        "@id": "_:g475900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8759,7 +8198,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/e28f238c-09a4-4951-88ac-d59191f06808",
+    "@id": "https://capitol.nb.ca/temporary/b6126100-cbdb-4182-8a91-8ef07f3eb8da",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8792,7 +8231,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g477660"
+        "@id": "_:g476300"
       }
     ],
     "http://schema.org/image": [
@@ -8807,12 +8246,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g477680"
+        "@id": "_:g476320"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g477700"
+        "@id": "_:g476340"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8832,7 +8271,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/a742382b-79ea-4c2c-902d-0f55480d3b67",
+    "@id": "https://capitol.nb.ca/temporary/4f483a3c-5786-465f-97bc-03bf1cddfb9d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8865,7 +8304,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g478100"
+        "@id": "_:g476740"
       }
     ],
     "http://schema.org/image": [
@@ -8880,12 +8319,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g478120"
+        "@id": "_:g476760"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g478140"
+        "@id": "_:g476780"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8905,7 +8344,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/91c0100c-da69-412a-acf3-8dfd90ec8802",
+    "@id": "https://capitol.nb.ca/temporary/464444f8-e7b5-47a0-81aa-218c8db6646f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8938,7 +8377,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g478540"
+        "@id": "_:g477220"
       }
     ],
     "http://schema.org/image": [
@@ -8953,12 +8392,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g478560"
+        "@id": "_:g477240"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g478580"
+        "@id": "_:g477260"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8978,7 +8417,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/6baedea4-4d83-408a-9bd7-6897e6d1332f",
+    "@id": "https://capitol.nb.ca/temporary/8ead054c-acdd-45d9-b7bd-43856f2fcecd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9011,7 +8450,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g478980"
+        "@id": "_:g477680"
       }
     ],
     "http://schema.org/image": [
@@ -9026,12 +8465,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g479000"
+        "@id": "_:g477700"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g479020"
+        "@id": "_:g477720"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9051,7 +8490,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/d8cb4ef4-bf2e-46da-9738-d30c90b87cd5",
+    "@id": "https://capitol.nb.ca/temporary/1dc78907-1f5c-4135-8ce2-a5be65a30060",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9084,7 +8523,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g479420"
+        "@id": "_:g478120"
       }
     ],
     "http://schema.org/image": [
@@ -9099,12 +8538,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g479440"
+        "@id": "_:g478140"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g479460"
+        "@id": "_:g478160"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9124,7 +8563,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/bdef34e0-4c57-4760-b08b-9cb85ecb2dd2",
+    "@id": "https://capitol.nb.ca/temporary/b691e103-8309-4b2c-a52f-c4e87fee5347",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9157,7 +8596,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g480020"
+        "@id": "_:g478720"
       }
     ],
     "http://schema.org/image": [
@@ -9172,12 +8611,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g480040"
+        "@id": "_:g478740"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g480060"
+        "@id": "_:g478760"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9197,7 +8636,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/007eef18-f7db-4a5d-9c56-853355bcf19b",
+    "@id": "https://capitol.nb.ca/temporary/bca88d9b-6ca8-4eff-931c-dca466069626",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9230,7 +8669,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g480480"
+        "@id": "_:g479160"
       }
     ],
     "http://schema.org/image": [
@@ -9245,12 +8684,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g480500"
+        "@id": "_:g479180"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g480520"
+        "@id": "_:g479200"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9270,7 +8709,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/d44a813f-bb65-4128-ae9f-d761dff4f344",
+    "@id": "https://capitol.nb.ca/temporary/11aec8e3-88d8-48b0-9433-6736af7299cd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9303,7 +8742,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g480940"
+        "@id": "_:g479600"
       }
     ],
     "http://schema.org/image": [
@@ -9318,12 +8757,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g480960"
+        "@id": "_:g479620"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g480980"
+        "@id": "_:g479640"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9343,7 +8782,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/58db14e3-c38f-456a-9629-9293fbccd948",
+    "@id": "https://capitol.nb.ca/temporary/36c0a13d-2418-4104-acd4-0cc0b21434fd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9376,7 +8815,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g481400"
+        "@id": "_:g480040"
       }
     ],
     "http://schema.org/image": [
@@ -9391,12 +8830,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g481420"
+        "@id": "_:g480060"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g481440"
+        "@id": "_:g480080"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9416,7 +8855,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/ad40417f-f78f-4acc-a997-1e551462ce1b",
+    "@id": "https://capitol.nb.ca/temporary/ff06a691-ff92-4a26-9acb-a9a7ffc6a1b7",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9449,7 +8888,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g481840"
+        "@id": "_:g480480"
       }
     ],
     "http://schema.org/image": [
@@ -9464,12 +8903,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g481860"
+        "@id": "_:g480500"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g481880"
+        "@id": "_:g480520"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9489,7 +8928,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/4e768c6c-3f09-47d0-9d5d-45cbac13eee1",
+    "@id": "https://capitol.nb.ca/temporary/075e7cd1-a91d-4954-8432-0e4032ce665a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9522,7 +8961,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g482280"
+        "@id": "_:g480940"
       }
     ],
     "http://schema.org/image": [
@@ -9537,12 +8976,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g482300"
+        "@id": "_:g480960"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g482320"
+        "@id": "_:g480980"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9562,7 +9001,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/5b770a7b-6904-4890-8387-c957e5e11474",
+    "@id": "https://capitol.nb.ca/temporary/de9f5143-91d0-4dc3-be43-6698858bb558",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9595,7 +9034,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g482720"
+        "@id": "_:g481380"
       }
     ],
     "http://schema.org/image": [
@@ -9610,12 +9049,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g482740"
+        "@id": "_:g481400"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g482760"
+        "@id": "_:g481420"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9635,7 +9074,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/da14a727-ffc7-4d3f-972a-4bd4aea3e5ca",
+    "@id": "https://capitol.nb.ca/temporary/b1a56b72-9c0b-48f2-89bb-e1b48a654cab",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9668,7 +9107,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g483160"
+        "@id": "_:g481820"
       }
     ],
     "http://schema.org/image": [
@@ -9683,12 +9122,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g483180"
+        "@id": "_:g481840"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g483200"
+        "@id": "_:g481860"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9708,7 +9147,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/850f544f-8fbd-499e-be63-942619d2fd59",
+    "@id": "https://capitol.nb.ca/temporary/a672709b-27a9-4bb4-850d-6f8dfea563c3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9741,7 +9180,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g483600"
+        "@id": "_:g482260"
       }
     ],
     "http://schema.org/image": [
@@ -9756,12 +9195,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g483620"
+        "@id": "_:g482280"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g483640"
+        "@id": "_:g482300"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9781,7 +9220,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/8d99e517-7bff-4eff-bbfa-9028c9e9ed3a",
+    "@id": "https://capitol.nb.ca/temporary/77624405-8392-427b-bd79-92bdea823358",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9814,7 +9253,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g484060"
+        "@id": "_:g482700"
       }
     ],
     "http://schema.org/image": [
@@ -9829,12 +9268,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g484080"
+        "@id": "_:g482720"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g484100"
+        "@id": "_:g482740"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9854,7 +9293,7 @@
     ]
   },
   {
-    "@id": "https://capitol.nb.ca/temporary/4367ce8b-b3e4-4689-820e-76c1219f5222",
+    "@id": "https://capitol.nb.ca/temporary/57418ad7-604b-4cae-8b6b-240968206d80",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9887,7 +9326,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g484520"
+        "@id": "_:g483140"
       }
     ],
     "http://schema.org/image": [
@@ -9902,12 +9341,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g484540"
+        "@id": "_:g483160"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g484560"
+        "@id": "_:g483180"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
