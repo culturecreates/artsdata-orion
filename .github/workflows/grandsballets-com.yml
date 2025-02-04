@@ -11,7 +11,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2
         with:
-          mode: "fetch"
+          mode: "fetch-push"
           artifact: "grandsballets-com"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "grandsballets-com.jsonld"
