@@ -1,0 +1,20 @@
+name: grandsballets-com
+
+on:
+  workflow_dispatch:
+ 
+      
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v2
+        with:
+          mode: "fetch"
+          artifact: "grandsballets-com"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "grandsballets-com.jsonld"
+          page-url: "https://grandsballets.com/en/performances/"
+          entity-identifier: "a.button[href*='/en/performances/detail/']"
+          token: "${{ secrets.GITHUB_TOKEN }}"
