@@ -15,7 +15,7 @@ jobs:
           mode: "fetch-push"
           artifact: "culturegaspesie-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "culturegaspesie-events.jsonld"
+          downloadFile: "culturegaspesie-org.jsonld"
           page-url: "https://culturegaspesie.org/event-sitemap.xml"
           entity-identifier: "loc"
           token: "${{ secrets.GITHUB_TOKEN }}"
