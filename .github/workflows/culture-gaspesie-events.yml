@@ -2,6 +2,8 @@ name: Fetch Culture Gaspésie Events
 
 on:
   workflow_dispatch:
+  schedule:
+  - cron: '30 6 * * 2'
     
 jobs:
   artsdata-fetch-and-push:
