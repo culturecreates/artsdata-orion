@@ -16,6 +16,6 @@ jobs:
           artifact: "theplayhouse-ca"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "theplayhouse-ca.jsonld"
-          page-url: "https://theplayhouse.ca/en/sitemap.xml,https://theplayhouse.ca/en/sitemap.xml"
+          page-url: "https://theplayhouse.ca/en/sitemap.xml,https://theplayhouse.ca/fr/sitemap.xml"
           entity-identifier: "loc"
           token: "${{ secrets.GITHUB_TOKEN }}"
