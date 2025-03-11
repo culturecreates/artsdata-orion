@@ -10,12 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@main
+        uses: culturecreates/artsdata-pipeline-action@v2
         with:
           mode: "fetch-push"
           artifact: "theplayhouse-ca"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          # downloadFile: "theplayhouse-ca.jsonld"
           page-url: "https://theplayhouse.ca/en/sitemap.xml,https://theplayhouse.ca/fr/sitemap.xml"
           entity-identifier: "loc"
           token: "${{ secrets.GITHUB_TOKEN }}"
