@@ -14,8 +14,7 @@ jobs:
         with:
           mode: "fetch-push"
           artifact: "co-motion-ca"
-          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "co-motion-events.jsonld"
+          publisher: "https://github.com/fjjulien#this"
           page-url: "https://co-motion.ca/spectacles/?page="
           entity-identifier: "a[href^='/spectacles']:not([href^='/spectacles/?'])"
           is-paginated: "true"
