@@ -14,7 +14,7 @@ jobs:
         with:
           mode: "fetch-push"
           artifact: "capitol-nb-ca"
-          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          publisher: "https://github.com/fjjulien#this"
           downloadFile: "capitolnb-events.jsonld"
           page-url: "https://capitol.nb.ca/en/tickets-events?start=,https://capitol.nb.ca/fr/spectacles-et-billets?start="
           entity-identifier: "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a"
