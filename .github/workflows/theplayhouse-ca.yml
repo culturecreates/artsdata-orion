@@ -14,7 +14,7 @@ jobs:
         with:
           mode: "fetch-push"
           artifact: "theplayhouse-ca"
-          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          publisher: "https://github.com/fjjulien#this"
           page-url: "https://theplayhouse.ca/en/sitemap.xml,https://theplayhouse.ca/fr/sitemap.xml"
           entity-identifier: "loc"
           token: "${{ secrets.GITHUB_TOKEN }}"
