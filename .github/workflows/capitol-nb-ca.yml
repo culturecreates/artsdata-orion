@@ -19,6 +19,5 @@ jobs:
           page-url: "https://capitol.nb.ca/en/tickets-events?start=,https://capitol.nb.ca/fr/spectacles-et-billets?start="
           entity-identifier: "div.fc-item-block-standard-wrapper.odd a, div.fc-item-block-standard-wrapper.even a"
           is-paginated: "0"
-          headless: "true"
           offset: "12"
           token: "${{ secrets.GITHUB_TOKEN }}"
