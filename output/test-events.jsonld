@@ -1,1 +1,209 @@
-Test Commit Update
+[
+  {
+    "@id": "_:g462460",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:g462480"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Centre des arts Juliette-Lassonde de Saint-Hyacinthe"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462480",
+    "@type": [
+      "https://schema.org/PostalAddress"
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q111668872"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@language": "fr",
+        "@value": "1705 rue Saint-Antoine"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@language": "fr",
+        "@value": "Saint-Hyacinthe"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@language": "fr",
+        "@value": "QC"
+      }
+    ],
+    "https://schema.org/postalCode": [
+      {
+        "@language": "fr",
+        "@value": "J2S 9E2"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@language": "fr",
+        "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462500",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Centre des arts Juliette-Lassonde de Saint-Hyacinthe"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@language": "fr",
+        "@value": "https://www.centredesarts.ca/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462520",
+    "@type": [
+      "https://schema.org/Offer"
+    ],
+    "https://schema.org/availability": [
+      {
+        "@language": "fr",
+        "@value": "http://schema.org/InStock"
+      }
+    ],
+    "https://schema.org/validFrom": [
+      {
+        "@language": "fr",
+        "@value": "2024-03-01"
+      }
+    ],
+    "https://schema.org/validThrough": [
+      {
+        "@language": "fr",
+        "@value": "2025-05-17"
+      }
+    ],
+    "https://schema.org/price": [
+      {
+        "@language": "fr",
+        "@value": "62.50"
+      }
+    ],
+    "https://schema.org/priceCurrency": [
+      {
+        "@language": "fr",
+        "@value": "CAD"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@language": "fr",
+        "@value": "https://centredesarts.tuxedobillet.com/main/moi-et-lautre-250517/20250517200000"
+      }
+    ]
+  },
+  {
+    "@id": "_:g462540",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Moi... et l'autre"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.centredesarts.ca/temporary/93a7292a-dce0-4af1-ac07-b725347bb102",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g462460"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g462500"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g462520"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g462540"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.centredesarts.ca/spectacle/moi-et-l-autre"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@language": "fr",
+        "@value": "2025-05-17T20:00:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@language": "fr",
+        "@value": "2025-05-17T23:00:00"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Moi... et l'autre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "1"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@language": "fr",
+        "@value": "https://www.centredesarts.ca/spectacle/moi-et-l-autre"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@language": "fr",
+        "@value": "https://www.centredesarts.ca/img-activites/moi-et-l-autre-theatre-1280x720-MD.webp"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  }
+]
