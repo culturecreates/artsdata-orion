@@ -9,13 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
           mode: "fetch-push"
           artifact: "spec-qc-ca-events"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "spec-qc-ca-events.jsonld"
           page-url: "https://spec.qc.ca/programmation"
-          # entity-identifier: ".headlining__component"
           entity-identifier: "div.programmation-programmation__results a"
           token: "${{ secrets.GITHUB_TOKEN }}"
