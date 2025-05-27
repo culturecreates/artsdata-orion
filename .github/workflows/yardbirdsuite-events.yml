@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
           mode: "fetch-push"
           artifact: "yardbirdsuite-com"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "yardbirdsuite-events.jsonld"
+          downloadFile: "output/yardbirdsuite-events.jsonld"
           page-url: "https://yardbirdsuite.com/espresso_events-sitemap.xml"
           entity-identifier: "loc"
           token: "${{ secrets.GITHUB_TOKEN }}"

@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
           mode: "fetch-push"
           artifact: "ticketpro-ca-quebec"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "ticketpro-quebec-events.jsonld"
+          downloadFile: "output/ticketpro-quebec-events.jsonld"
           page-url: "https://ww1.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
@@ -23,12 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
           mode: "fetch-push"
           artifact: "ticketpro-ca-west"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "ticketpro-west-events.jsonld"
+          downloadFile: "output/ticketpro-west-events.jsonld"
           page-url: "https://ww2.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
@@ -37,12 +37,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
           mode: "fetch-push"
           artifact: "ticketpro-ca-atlantic"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "ticketpro-atlantic-events.jsonld"
+          downloadFile: "output/ticketpro-atlantic-events.jsonld"
           page-url: "https://ww3.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"

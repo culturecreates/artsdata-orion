@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
           mode: "fetch-push"
           artifact: "reseauartactuel-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "rcaaq-events.jsonld"
+          downloadFile: "output/rcaaq-events.jsonld"
           page-url: "https://reseauartactuel.org/liste_evenements/page/"
           entity-identifier: "h3.tribe-events-list-event-title a"
           is-paginated: "true"

@@ -14,7 +14,7 @@ jobs:
           mode: "fetch-push"
           artifact: "spec-qc-ca-events"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "spec-qc-ca-events.jsonld"
+          downloadFile: "output/spec-qc-ca-events.jsonld"
           page-url: "https://spec.qc.ca/programmation"
           entity-identifier: "div.programmation-programmation__results a"
           token: "${{ secrets.GITHUB_TOKEN }}"

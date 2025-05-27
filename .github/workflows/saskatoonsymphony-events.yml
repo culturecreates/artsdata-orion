@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
           mode: "fetch-push"
           artifact: "saskatoonsymphony-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "saskatoonsymphony-events.jsonld"
+          downloadFile: "output/saskatoonsymphony-events.jsonld"
           page-url: "https://saskatoonsymphony.org/season/"
           entity-identifier: "div.vem-more-details a"
           token: "${{ secrets.GITHUB_TOKEN }}"
