@@ -2,8 +2,8 @@ name: Fetch capitol-nb-ca Events
 
 on:
   workflow_dispatch:
-  #schedule:
-  #  - cron: '0 12 * * 3' #runs every week on wednesday at noon UTC (around 7 AM EDT)
+  schedule:
+    - cron: '0 12 * * 3' #runs every week on wednesday at noon UTC (around 7 AM EDT)
 
 jobs:
   artsdata-fetch-and-push:
