@@ -1,23 +1,21 @@
----
 name: Fetch Agoradanse Events
-true:
+
+on:
   workflow_dispatch:
   schedule:
-  - cron: 0 0 1 * *
+    - cron: '0 0 1 * *'
+      
 jobs:
   artsdata-fetch-and-push:
     runs-on: ubuntu-latest
     steps:
-    - name: Action setup
-      uses: culturecreates/artsdata-pipeline-action@v3
-      with:
-        mode: fetch-push
-        artifact: agoradanse-com
-        publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-        downloadFile: output/agoradanse-events.jsonld
-        page-url: https://agoradanse.com/evenement/
-        entity-identifier: div.x-container.max a
-        token: "${{ secrets.GITHUB_TOKEN }}"
-'on':
-  schedule:
-  - cron: 0 0 2 * *
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+          mode: "fetch-push"
+          artifact: "agoradanse-com"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "output/agoradanse-events.jsonld"
+          page-url: "https://agoradanse.com/evenement/"
+          entity-identifier: "div.x-container.max a"
+          token: "${{ secrets.GITHUB_TOKEN }}"
