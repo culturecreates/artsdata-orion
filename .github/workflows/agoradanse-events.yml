@@ -2,7 +2,7 @@ name: Fetch Agoradanse Events
 on:
   workflow_dispatch:
   schedule:
-  - cron: 0 0 1 * *
+  - cron: 0 0 2 * *
 jobs:
   artsdata-fetch-and-push:
     runs-on: ubuntu-latest
