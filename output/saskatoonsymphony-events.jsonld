@@ -144,6 +144,95 @@
     ]
   },
   {
+    "@id": "https://saskatoonsymphony.org/temporary/3a0863aa-db1b-4896-8062-4659446624c5",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-09T20:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g461040"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO-SJO-Jazz-fest-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-09T22:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Paris on the Prairies"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Paris on the Prairies sees the Saskatoon Jazz Orchestra and Saskatoon Symphony Orchestra joining forces at the SaskTel Saskatchewan Jazz Festival for a musical adventure to Paris."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/86076f19-5b63-48e0-9c4f-c7bae00c867c",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/ef57167f-692f-497b-9de3-67a15708f556",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/fe1f8d88-3389-4b75-84da-da1b80f85a9c",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n8:00PM, Wednesday, July 9, 2025\nThe Broadway Theatre\n\n\n715 Broadway Ave\nSaskatoon, SK S7N 1B3\nGoogle Maps Directions\n\n\nGet Tickets\n\n\n\nParis on the Prairies sees the Saskatoon Jazz Orchestra and Saskatoon Symphony Orchestra joining forces at the SaskTel Saskatchewan Jazz Festival for a musical adventure to Paris. Featuring the brilliant multi Juno award winning composer/pianist David Braid and the evocative vocals styles of Saskatoon’s own Alexis Normand, this concert is guaranteed to transport you to the romance and charm of Paris — all right here on the prairies!\nSaskatoon Jazz Orchestra: https://saskatoonjazzorchestra.com/\nSaskatoon Symphony Orchestra: https://saskatoonsymphony.org/\nFor more information on the special guests please visit:\nhttp://www.davidbraid.com/\nhttps://alexisnormand.com/\nThis show is part of the ticketed program at The Broadway Theatre.\n\n\n\t\t"
+      }
+    ]
+  },
+  {
     "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/",
     "http://ogp.me/ns#locale": [
       {
@@ -235,13 +324,13 @@
     ]
   },
   {
-    "@id": "_:g467400",
+    "@id": "_:g470200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g467420"
+        "@id": "_:g470220"
       }
     ],
     "http://schema.org/name": [
@@ -252,7 +341,7 @@
     ]
   },
   {
-    "@id": "_:g467420",
+    "@id": "_:g470220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -284,6 +373,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/98e00339-1aa0-466d-9db9-8291eed1afb8",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-27T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g470200"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/05/MMInConcert_Saskatoon_1024x1024.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-27T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Murdoch Mysteries: Live in Concert"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Join us for an electrifying evening that pulls back the curtain on CBC’s hit series Murdoch Mysteries - live in concert with the Saskatoon Symphony Orchestra.\n\nHosted by series star Thomas Craig, this exclusive event explores how music for the series is brought to life with Emmy Award-winning composer Rob Carli. Blending television drama and live orchestral performance, witness …"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/ee9a763d-1c25-4e6c-a525-db6f794dae02",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/7ec71bad-ab04-4e34-8e09-7e142d82cf88",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/844ee089-b742-4f3b-8ac2-4186a16600f4",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Wednesday, August 27, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJoin us for an electrifying evening that pulls back the curtain on CBC’s hit series Murdoch Mysteries – live in concert with the Saskatoon Symphony Orchestra.\nHosted by series star Thomas Craig, this exclusive event explores how music for the series is brought to life with Emmy Award-winning composer Rob Carli. Blending television drama and live orchestral performance, witness the craft of how orchestral magic brings pivotal scenes to life. Then, watch the thrilling episode “Murder in F Major” on the big screen, accompanied by a live symphonic score.\nDon’t miss this mesmerizing evening fusing screen and stage – Murdoch Mysteries: Live in Concert is a one-of-a-kind event for the whole family.\nSecure your spot and step into a world where music meets mystery!\n\n\n\t\t"
       }
     ]
   },
@@ -379,13 +557,13 @@
     ]
   },
   {
-    "@id": "_:g473120",
+    "@id": "_:g479240",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g473140"
+        "@id": "_:g479260"
       }
     ],
     "http://schema.org/name": [
@@ -396,7 +574,7 @@
     ]
   },
   {
-    "@id": "_:g473140",
+    "@id": "_:g479260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -428,6 +606,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/a740a62c-35ff-412f-9bc4-62c5cbb46217",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-13T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g479240"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-R1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-13T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Four Seasons"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Renowned baroque violinist Julia Wedman returns home to lead the SSO in a celebration of 300 years of Vivaldi’s Four Seasons. Wedman has curated a program that is a perfect start to SSO95!"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/33fb1fd3-8b5a-4497-9fc2-4d9767f1d8ff",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/559a98f6-f1e8-493b-8d0f-04b87771a05d",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/19cd663d-864a-4ef1-a5b0-f6a701f81d63",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 13, 2025\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJulia Wedmanviolin\n\n\nThe Four SeasonsAntonio Vivaldi\n\n\nRenowned baroque violinist Julia Wedman returns home to lead the SSO in a spectacular celebration of the 300th anniversary of Vivaldi’s timeless Four Seasons.\nThe unique program curated by Wedman explores and complements the seasons in a way fit for a perfect start to our season!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -523,13 +790,13 @@
     ]
   },
   {
-    "@id": "_:g478780",
+    "@id": "_:g488800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g478800"
+        "@id": "_:g488820"
       }
     ],
     "http://schema.org/name": [
@@ -540,7 +807,7 @@
     ]
   },
   {
-    "@id": "_:g478800",
+    "@id": "_:g488820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -572,6 +839,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/b2d5a24a-3580-4b9b-bf40-d3a171da9b1a",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-27T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g488800"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-Tosca.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-27T09:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/tosca/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Tosca"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "“I lived for art…I lived for love”. Romance and tragedy meet face to face in Puccini’s epic masterpiece Tosca. Hear one of the most deeply moving operas as it was meant to be heard – with stunning voices and your SSO in full flight."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/d3b0d83b-53d6-4c1d-b093-d9f131f88a1a",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/tosca/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/cf30c04c-9875-411e-9e50-52647bacfe49",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/tosca/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/79608566-eea6-4935-bf06-e6846d781ab6",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/tosca/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 27, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJudith Yanconductor\nJoel Ivanydirector\n\n\nToscaGiacomo Puccini\n\n\n“I lived for art…I lived for love”\nRomance and tragedy meet face to face in Puccini’s epic masterpiece Tosca.\nWith the SSO and Saskatoon Opera now being one, this night allows you to hear one of the most deeply moving operas as it was meant to be heard – stunning voices and your SSO in full flight.\nThis semi-staged production features Maestra Judith Yan and the full orchestra in a partnership with the National Arts Centre Orchestra, Edmonton Opera, and the Yukon Arts Centre.\nDirected by renowned director Joel Ivany featuring rising star voices, and with its lush romantic orchestral score, Tosca promises to be a night to remember!\nAsk us about the subscriber Presale!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -667,13 +1023,13 @@
     ]
   },
   {
-    "@id": "_:g484420",
+    "@id": "_:g497700",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g484440"
+        "@id": "_:g497720"
       }
     ],
     "http://schema.org/name": [
@@ -684,7 +1040,7 @@
     ]
   },
   {
-    "@id": "_:g484440",
+    "@id": "_:g497720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -720,13 +1076,13 @@
     ]
   },
   {
-    "@id": "_:g484480",
+    "@id": "_:g497760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g484500"
+        "@id": "_:g497780"
       }
     ],
     "http://schema.org/name": [
@@ -737,7 +1093,7 @@
     ]
   },
   {
-    "@id": "_:g484500",
+    "@id": "_:g497780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -769,6 +1125,145 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/844638f8-fe62-4e39-9fc2-fe0865b0adf7",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-11T13:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g497700"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/02/2-HP3_SASK_SYMPHONY_1024x1024-_1SHOW.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-11T15:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Harry Potter and the Prisoner of Azkaban™ in Concert"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "CineConcerts is inviting fans back to the Wizarding World for an evening of music and magic in Harry Potter and the Prisoner of Azkaban™ in Concert. Relive the magic of Harry Potter™ soaring across the big screen in high- definition and experience the music of a live symphony orchestra performing John Williams’ unforgettable score. Get …"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/12fac183-4212-4672-a146-3746d2de2e7e",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-11T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g497760"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/02/2-HP3_SASK_SYMPHONY_1024x1024-_1SHOW.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-11T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Harry Potter and the Prisoner of Azkaban™ in Concert"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "CineConcerts is inviting fans back to the Wizarding World for an evening of music and magic in Harry Potter and the Prisoner of Azkaban™ in Concert. Relive the magic of Harry Potter™ soaring across the big screen in high- definition and experience the music of a live symphony orchestra performing John Williams’ unforgettable score. Get …"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/1858bd17-322a-4606-8bd0-b8432d3e36bc",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/10dbc1f1-92cb-43e9-bd3d-4bb2a6aa1051",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/b60ba90a-c9dd-484a-9d5e-2c9a11e56e4e",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n1:30PM, Saturday, October 11, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n7:30PM, Saturday, October 11, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nCineConcerts is inviting fans back to the Wizarding World for an evening of music and magic in Harry Potter and the Prisoner of Azkaban™ in Concert. Relive the magic of Harry Potter™ soaring across the big screen in high- definition and experience the music of a live symphony orchestra performing John Williams’ unforgettable score. Get ready to encounter a Dementor™, ride the Knight Bus™ and discover just who Sirius Black™ really is.\n\nAll characters and elements © & ™ Warner Bros. Entertainment Inc. Publishing Rights © JKR.\n\n\n\t\t"
       }
     ]
   },
@@ -864,13 +1359,13 @@
     ]
   },
   {
-    "@id": "_:g490240",
+    "@id": "_:g507980",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g490260"
+        "@id": "_:g508000"
       }
     ],
     "http://schema.org/name": [
@@ -881,7 +1376,7 @@
     ]
   },
   {
-    "@id": "_:g490260",
+    "@id": "_:g508000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -913,6 +1408,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/0bc1f425-abce-44fb-a793-93c6353b2a37",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-25T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g507980"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-25T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Space Between"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Multi-Grammy winner, Dame Evelyn Glennie is the centrepiece of a night of mystical story telling with Ho’s From Darkness to Light and we bring light to the darkness with Shostakovich’s 5th Symphony."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/912ad74f-03dc-45e7-9f28-6744fa606a82",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/25a0c9a6-4035-491c-8bb3-c9e286b4334d",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/4cfcd5fd-691e-4652-9ac0-b290e4428cd7",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, October 25, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nDame Evelyn Glenniepercussion\n\n\nFrom Darkness to LightVincent Ho*\nSymphony No 5 in D Minor, Op 47Dimitri Shostakovich\n\n\nA landmark night for the SSO as we’re joined by Maestro Karl Hirzer and superstar percussion Dame Evelyn Glennie.\nMulti-Grammy award winner, Glennie is one of the most sensational artists we’ve ever shared the stage with – the centrepiece of a night of mystical story telling when she performs Vincent Ho’s From Darkness to Light.\nKarl continues the theme bringing light to the darkness with Shostakovich’s towering 5th Symphony. An orchestral journey towards the light, the work stands as a testament to Shostakovich’s defiance in the face of political oppression.\n*Denotes Canadian composer.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -1008,13 +1592,13 @@
     ]
   },
   {
-    "@id": "_:g496500",
+    "@id": "_:g516840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g496520"
+        "@id": "_:g516860"
       }
     ],
     "http://schema.org/name": [
@@ -1025,7 +1609,7 @@
     ]
   },
   {
-    "@id": "_:g496520",
+    "@id": "_:g516860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1057,6 +1641,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/d70f5b21-a397-4169-8163-ebc970155262",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-11-08T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g516840"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M2.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-11-08T09:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/true-north/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "True North"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Karl Hirzer returns for a night worthy of glowing hearts as we celebrate the exceptional music that Canada has to offer. Plus, renowned oboist Bede Hanley returns home to Saskatoon for his SSO debut!"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/eb20a150-0a7d-48aa-a12a-cc53fccb5843",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/true-north/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/9272e5b9-2438-4caf-ad06-818329535db3",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/true-north/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/c90e8b1a-008d-49f7-ae11-ee730e12c818",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/true-north/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 8, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nBede Hanleyoboe\n\n\nLineageZosha di Castri*\nOboe ConcertoGary Kulesha*\nThe Grief Eater FiragaSonny Ray Day Rider*\nEndymionJean Coulthard*\nElysiumSamy Moussa*\n\n\nKarl Hirzer returns to the podium for a night worthy of glowing hearts. This celebration of the exceptional music that Canada has to offer is going to have you beaming with pride.\nRenowned oboist Bede Hanley returns home to Saskatoon for his SSO debut in a new concerto by Gary Kulesha. Vibrant and exciting, this new work written just for Hanley is an exhilarating showcase for this hometown artist to make his return!\nWe’ve been itching to bring you the music of Sonny Ray Day Rider for a few seasons now – his work Grief Eater Firaga is a must-hear musical experience.\n*Denotes Canadian composer.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -1152,13 +1825,13 @@
     ]
   },
   {
-    "@id": "_:g502460",
+    "@id": "_:g526340",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g502480"
+        "@id": "_:g526360"
       }
     ],
     "http://schema.org/name": [
@@ -1169,7 +1842,7 @@
     ]
   },
   {
-    "@id": "_:g502480",
+    "@id": "_:g526360",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1201,6 +1874,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/0676efb9-1a20-412f-bcca-5d2d81fd8e9c",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-11-22T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g526340"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/nat-geo-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-11-22T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Secrets of the Whales"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "From Academy Award®-winning filmmaker James Cameron, the Disney+ original series SECRETS OF THE WHALES features the work of acclaimed National Geographic photographer Brian Skerry. As a concert experience, this show includes highlights from the series paired with the extraordinary power of a live orchestra."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/88dccd72-d58e-41fc-a2c5-5841d71bf649",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/63f37484-4127-4d7d-ad5f-f8c1b389605c",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/3748e425-9ab9-4e79-ba51-129ceefcf760",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 22, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nFrom the creative genius of Academy Award®-winning filmmaker and National Geographic Explorer at Large James Cameron and acclaimed National Geographic Explorer and Photographer Brian Skerry, the Disney+ original series Secrets of the Whales takes audiences on an epic journey into the lives of whales, revealing that they are far more like us than ever imagined. \nFilmed over a period of three years across 24 global locations, Secrets of the Whales submerges audiences deep into the lives of five different whale families: orcas, humpbacks, belugas, narwhals, and sperm whales. Witness the incredible and tender moments as these majestic creatures make lifelong friendships, teach clan heritage and traditions to their young, and grieve deeply for the loss of loved ones—just like us.\nAs a concert experience, Secrets of the Whales features highlights from the four-part series paired with the triumphant performance of a live symphony orchestra.\nAbout the Composer\nAfter she was born, Raphaelle Thibaut suffered from a series of severe ear issues that led to single-sided deafness. At age 4, following doctor’s recommendation, she started an intense piano practice. Music became her path to recovery.  In 2015, after four years leading marketing at Google in Europe, she decided to pursue her lifelong passion for music and film scoring.\nRaphaelle has been a composer for global brands and major Hollywood productions like Incredibles 2 and The Act.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -1296,13 +2058,13 @@
     ]
   },
   {
-    "@id": "_:g508100",
+    "@id": "_:g535160",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g508120"
+        "@id": "_:g535180"
       }
     ],
     "http://schema.org/name": [
@@ -1313,7 +2075,7 @@
     ]
   },
   {
-    "@id": "_:g508120",
+    "@id": "_:g535180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1345,6 +2107,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/e589f490-355d-4458-b23b-a39ee4f326d6",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-06T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535160"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-P2.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-06T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "YXE Divas Xmas"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Haul out the holly! After our first electrifying YXE Divas show in 2024, we’re bursting with holiday cheer to bring the divas back for a night of pure festive joy!"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/23e93cc0-c089-4834-bc84-2365bf2ff1a3",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/8c43a503-11b9-4c60-8e69-d661cc069897",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/42411be4-d59b-4077-85b2-ad83125fe1a0",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, December 6, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJanna Sailorconductor\nand the YXE Divas\n\n\nHaul out the holly! After our first electrifying Yxe Divas show in 2024, we’re bursting with holiday cheer to bring the divas back for a night of pure festive joy!\nMaestra Janna Sailor and the Divas have all your favourite holiday hits, while the SSO won’t let you miss out on the seasonal classics.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -1440,13 +2291,13 @@
     ]
   },
   {
-    "@id": "_:g513780",
+    "@id": "_:g544040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g513800"
+        "@id": "_:g544060"
       }
     ],
     "http://schema.org/name": [
@@ -1457,7 +2308,7 @@
     ]
   },
   {
-    "@id": "_:g513800",
+    "@id": "_:g544060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1489,6 +2340,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/120b399e-ee91-4dec-ab50-d5f264b2d70f",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-12T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g544040"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-R2.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-12T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Handel's Messiah"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Karl Hirzer returns for Handel’s Messiah. We continue Saskatoon’s longest running holiday tradition with an all-Saskatchewan lineup of soloists and the SSO Chorus."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/d1917ec4-8c4a-4ff6-b422-0c5ef915c929",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/7f31746b-93d3-482b-a827-172e44c961f4",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/5b8d3499-b2ff-4098-a013-1a56b5a5adb1",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Friday, December 12, 2025\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nAndrea Ludwigmezzo-soprano\nSpencer McKnighttenor\nJayden Burrowsbass\nSSO Chorus\n\n\nMessiahGeorge Frideric Handel\n\n\nKarl Hirzer’s fall residency with the SSO wraps up as he returns for Handel’s Messiah.\nWith an all-Saskatchewan line of soloists and the SSO Chorus, we continue Saskatoon’s longest running holiday tradition.\nIf you saw last year’s Messiah, you know you’ll want to grab your seats soon – and if you missed it…don’t let this uplifting experience pass you by!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -1584,13 +2524,13 @@
     ]
   },
   {
-    "@id": "_:g519360",
+    "@id": "_:g553540",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g519380"
+        "@id": "_:g553560"
       }
     ],
     "http://schema.org/name": [
@@ -1601,7 +2541,7 @@
     ]
   },
   {
-    "@id": "_:g519380",
+    "@id": "_:g553560",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1633,6 +2573,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/2681c33d-0574-48f6-8e83-eb2cf2127496",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-13T14:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g553540"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-SAM.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-13T16:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Sing-Along Messiah"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "It's the return of Sing-Along Messiah! With an all-Saskatchewan line of soloists and the SSO Chorus, we continue our favourite tradition where you get to join in the chorus."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/a1a6b47f-3bea-4c83-a605-4c869154895f",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/ffe64484-8788-473b-8004-72655e26987b",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/c45f7347-5382-408c-a55d-84738e9c4ce6",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n2:00PM, Saturday, December 13, 2025\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nAndrea Ludwigmezzo-soprano\nSpencer McKnighttenor\nJayden Burrowsbass\nSSO Chorus\n\n\nMessiahGeorge Frideric Handel\n\n\nIt’s the return of Sing-Along Messiah!\nWith an all-Saskatchewan line of soloists and the SSO Chorus, we continue our favourite tradition where you get to join in the chorus.\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -1728,13 +2757,13 @@
     ]
   },
   {
-    "@id": "_:g524940",
+    "@id": "_:g562380",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g524960"
+        "@id": "_:g562400"
       }
     ],
     "http://schema.org/name": [
@@ -1745,7 +2774,7 @@
     ]
   },
   {
-    "@id": "_:g524960",
+    "@id": "_:g562400",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1777,6 +2806,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/22026a5c-e9dc-4ed4-8c26-3e39f867a278",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-14T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g562380"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-kashmir.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-14T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/kashmir/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Kashmir"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "The SSO is thrilled to partner with Saskatoon’s Kashmir for a brand new orchestral experience of the music of Led Zeppelin."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/0c125761-8dd1-49a3-abc0-648cc37360a5",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/kashmir/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/4a82cc05-10ed-4a54-b6fb-0e9100575d49",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/kashmir/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/674bf66f-e07d-4a33-9a9c-66dd2c1f50c1",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/kashmir/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Wednesday, January 14, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nLucas Waldinconductor\nKashmir\n\n\nThe SSO is thrilled to partner with Saskatoon’s Kashmir for a brand new orchestral experience of the music of Led Zeppelin.\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -1872,13 +2990,13 @@
     ]
   },
   {
-    "@id": "_:g530840",
+    "@id": "_:g571840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g530860"
+        "@id": "_:g571860"
       }
     ],
     "http://schema.org/name": [
@@ -1889,7 +3007,7 @@
     ]
   },
   {
-    "@id": "_:g530860",
+    "@id": "_:g571860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1921,6 +3039,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/6dcc2528-4036-4574-b884-6691317188bd",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-24T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g571840"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSo95-P3-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-24T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Beauty and the Beast"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Experience Disney’s classic Beauty and the Beast on the big screen with a live soundtrack provided by your SSO. With all the character voices you know and love, Beauty and the Beast comes to life in a whole new way with this magical movie in concert. "
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/8786bda8-77b5-4c0b-81fb-9d152ba0613d",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/679fd06f-53c5-4d34-919e-a448a807d9f4",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/e32b94d8-b2d4-44d0-afe2-2182b9d080d7",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, January 24, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nThe Saskatoon Symphony Orchestra will present a screening of Disney’s beloved animated classic, “Beauty and the Beast” with the Oscar®-winning score performed live to the film. The concert will be led by conductor Kevin Zakresky.\n“Beauty and the Beast” features an unforgettable score from eight-time Oscar®-winning composer Alan Menken, and original songs written by Menken and two-time Academy Award® winner Howard Ashman.\nDisney’s classic “Beauty and the Beast” captures the magical journey of Belle (voice of Paige O’Hara), an independent and intelligent, modern-day heroine who’s taken prisoner by a hideous beast (voice of Robby Benson) in his castle. Despite her precarious situation, Belle befriends the castle’s enchanted staff—a teapot, a candelabra and a mantel clock, among others—and ultimately learns to see beneath the Beast’s exterior to discover the heart and soul of a prince.\nAbout Disney Concerts\nDisney Concerts is the concert production and licensing division of Disney Music Group, the music arm of The Walt Disney Company.  Disney Concerts produces concerts and tours, and licenses Disney music and visual content to symphony orchestras, choruses and presenters on a worldwide basis. Disney Concerts’ concert packages include a variety of formats, such as “live-to-picture” film concerts, and themed instrumental and vocal compilation concerts that range from instrumental-only symphonic performances to multimedia productions featuring live vocalists and choirs.  Featuring concerts from the largest movie franchises in the world – from Walt Disney Pictures, Walt Disney Animation Studios, Marvel Studios, Lucasfilm, Pixar and 20th Century Studios – current titles include the Star Wars Film Concert Series, Toy Story, Disney Princess: The Concert, Coco, The Lion King, Up, Tim Burton’s The Nightmare Before Christmas, The Muppet Christmas Carol and Infinity Saga Concert Experience.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -2016,13 +3223,13 @@
     ]
   },
   {
-    "@id": "_:g537040",
+    "@id": "_:g580760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g537060"
+        "@id": "_:g580780"
       }
     ],
     "http://schema.org/name": [
@@ -2033,7 +3240,7 @@
     ]
   },
   {
-    "@id": "_:g537060",
+    "@id": "_:g580780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2065,6 +3272,95 @@
       {
         "@language": "en",
         "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/f8b76331-9dbb-4e81-8724-c52a9d3fb7b3",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-02-05T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g580760"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-R3.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-02-05T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Bach & Khayyam"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Even if more than 600 years separates the lives of Bach and Khayyam, these two genius were made to meet each other. Constantinople creates a dialogue, with the spiritual songs and arias of JS Bach in dialogue with poems of Omar Khayyam sung in Persian."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/09ed68aa-2cd0-492c-9e31-9bc8090e7dcf",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/4834dbe9-a47a-40bc-880c-9fb9e58455cf",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/84c78638-59e9-4e67-b915-acfe6c6f4143",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Thursday, February 5, 2026\nThe Broadway Theatre\n\n\n715 Broadway Ave\nSaskatoon, SK S7N 1B3\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nConstantinople\n\n\nEven if more than 600 years separates the life of John-Sebastien Bach (1685 -1750) and Omar Khayyam (1048 -1131), these two genius were made to meet each other.  Their visions of the world, as a perfect match of mathematics mastery and a super high level of spirituality, bring these two men in a delightful dialogue and traces a clear path to the sublime. In this program Constantinople brings these two artists into a dialogue, where the sacred and spirituality transcend borders. For this new creation Constantinople proposes arrangements of some of the most beautiful spiritual songs and arias of JS Bach in dialogue with poems of Omar Khayyam sung in Persian and responding to Bach’s songs.   \nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -2160,13 +3456,13 @@
     ]
   },
   {
-    "@id": "_:g543280",
+    "@id": "_:g589600",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g543300"
+        "@id": "_:g589620"
       }
     ],
     "http://schema.org/name": [
@@ -2177,7 +3473,7 @@
     ]
   },
   {
-    "@id": "_:g543300",
+    "@id": "_:g589620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2209,6 +3505,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/5b179af7-e49c-4e0b-9e39-deaac5833edd",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-02-14T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g589600"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M3.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-02-14T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Everything is Romantic"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Maestra Judith Yan, pianist Angela Cheng, and your SSO bring you some of the most heart stopping romantic music for your valentines including Tchaikovsky’s Romeo and Juliet and Rachmaninoff’s Piano Concerto No 2."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/c1e1ebaa-29d2-45db-b55c-b9054dbee827",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/91bd6d0a-4201-467c-a977-c07a32540038",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/800a5aef-ba97-450f-89b3-11979de2826d",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, February 14, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJudith Yanconductor\nAngela Chengpiano\n\n\nLove Theme, Adagio from SpartacusAram Khachaturian\nLyric for StringsGeorge Walker\nRomeo and Juliet, Fantasy OverturePiotr Ilyich Tchaikovsky\nPiano Concerto No 2 in C Minor, Op 18Sergei Rachmaninoff\n\n\nFall in love again and again with a romantic night at the symphony.\nMaestra Judith Yan and your SSO bring you some of the most heart stopping romantic music for your Valentine’s, from Tchaikovsky’s Romeo and Juliet to Khachaturian’s Love Theme, Adagio from Spartacus.\nPianist Angela Cheng, an SSO favourite artist, is back for the dramatic romance of Rachmaninoff’s Piano Concerto No 2. Often considered the most romantic piece of music ever written, it’s the centrepiece of a night curated for you and your funny valentine.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -2304,13 +3689,13 @@
     ]
   },
   {
-    "@id": "_:g548960",
+    "@id": "_:g599060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g548980"
+        "@id": "_:g599080"
       }
     ],
     "http://schema.org/name": [
@@ -2321,7 +3706,7 @@
     ]
   },
   {
-    "@id": "_:g548980",
+    "@id": "_:g599080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2353,6 +3738,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/733bcd23-4bf2-4dae-be60-d3f3bbc4dd74",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-03-07T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g599060"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M4.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-03-07T09:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Spring Fever"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Maestra Tania Miller joins us to shake off your winter blues with Schumann’s “Spring”. Our own Stephanie Unverricht takes centre stage for Mozart’s Bassoon Concerto paired with some Beethoven and Vaughan Williams."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/c01c9402-83fe-43d6-8b0f-b1954d06dce8",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/cd1b1bb7-3147-48b5-b86c-49551d1305c0",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/af7cf3bd-a2e0-49c7-a6c5-2471331dc88e",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 7, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nTania Millerconductor\nStephanie Unverrichtbassoon\n\n\nSymphony No. 1 “Spring”Schumann\nEgmont OvertureBeethoven\nFantasia on a Theme by Thomas TallisVaughan Williams\n\n\nMaestra Tania Miller and the SSO will shake off your winter blues for at least this one March night.\nThe SSO’s own Stephanie Unverricht takes centre stage for Mozart’s joyful and effervescent Bassoon Concerto paired alongside Beethoven’s Egmont Overture and Vaughan Williams’ Fantasia on a Theme by Thomas Tallis.\nSchumann’s first symphony gained its nickname “Spring” as the opening of this joyous work will warm your winter night as spring blooms forth.\nWinter may have you down, but we’ll be here to remind you that soon the world will be turning green again!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -2448,13 +3922,13 @@
     ]
   },
   {
-    "@id": "_:g554640",
+    "@id": "_:g607900",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g554660"
+        "@id": "_:g607920"
       }
     ],
     "http://schema.org/name": [
@@ -2465,7 +3939,7 @@
     ]
   },
   {
-    "@id": "_:g554660",
+    "@id": "_:g607920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2497,6 +3971,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/b480d1ef-bbe2-4aaf-96fc-624438c9a0b7",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-03-28T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g607900"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M5.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-03-28T09:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Night Seasons"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "You fell in love with Rebecca Dale’s Materna Requiem in 2020 when we gave the North American premiere. Now, joined by the virtuosic cellist Stéphane Tétreault, we’re thrilled to give the North American premiere of Dale’s new work Night Seasons."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/4c5cbeab-09f6-45ca-86d1-9248bf843118",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/fcfd011a-c66f-41cd-933e-993e926872fe",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/64d5bade-b316-4e1b-9146-f82f8b0972ad",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 28, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nAndrew Crustconductor\nStéphane Tétreaultcello\nChoir\n\n\nNight Seasons, concerto for cello, chorus, and orchestraRebecca Dale\nSymphony No 1 in C Minor, Op 68Johannes Brahms\n\n\nMaestro Andrew Crust made his SSO debut last season, and we instantly knew we needed him back on the podium!\nSSO audiences fell in love with the musicians of Rebecca Dale in 2020 when we gave the North American premiere of her Materna Requiem. Now, joined by the virtuosic cellist Stéphane Tetreault and choirs, we’re thrilled to give the North American premiere of Dale’s new work Night Seasons.\nEvocative and moving, Night Seasons was the perfect pairing for one of the greatest symphonies ever written. Brahms toiled for years before completing his symphony…and it was worth the wait.\nOnce again taking you on a journey from darkness to light, this concert promises to take your breath away.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\nAdd this concert to your subscription package and save! Single tickets are on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -2592,13 +4155,13 @@
     ]
   },
   {
-    "@id": "_:g560320",
+    "@id": "_:g617360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g560340"
+        "@id": "_:g617380"
       }
     ],
     "http://schema.org/name": [
@@ -2609,7 +4172,7 @@
     ]
   },
   {
-    "@id": "_:g560340",
+    "@id": "_:g617380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2641,6 +4204,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/e9bba0b9-81bf-4dde-a1a6-5fb12e3dd10f",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-04-11T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g617360"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-P4.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-04-11T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "A Change is Gonna Come"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "There is nothing like the soulful voice of an R&B diva, and we couldn’t be more thrilled to be bringing the powerhouse voice of Saskatoon’s very own Sonia Reid to the music of Whitney, Dion, Aretha, and so much more."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/c7b04de4-5bf3-498b-8f78-cf8eefd28ea3",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/2facf1d9-2ecf-4f61-bbe4-a6210cdb8c3b",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/e62b9ba8-9063-489b-9e2b-2276f5007630",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, April 11, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nSonia Reid\n\n\nThere is nothing like the powerful soulful voice of an R&B diva…and we couldn’t be more thrilled to be creating this new pops concert with Saskatoon’s very own Sonia Reid.\nMaking her SSO debut in 2024, we all knew some magic was happening and we needed to see what could develop.\nBringing Sonia’s powerhouse voice to the music of Whitney, Dion, Aretha, and so much more, we can’t wait to share this soulful night with you!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -2736,13 +4388,13 @@
     ]
   },
   {
-    "@id": "_:g565960",
+    "@id": "_:g626200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g565980"
+        "@id": "_:g626220"
       }
     ],
     "http://schema.org/name": [
@@ -2753,7 +4405,7 @@
     ]
   },
   {
-    "@id": "_:g565980",
+    "@id": "_:g626220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2785,6 +4437,95 @@
       {
         "@language": "en",
         "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/3cc7fd40-1ad3-442b-8b7a-787caa7ac8d5",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-05-02T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g626200"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M6.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-05-02T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Traveller"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dinuk Wijeratne and Kinan Azmeh each left their mark on the SSO and we need to bring these two friends together for an unforgettable concert. We’ve handed over the musical reins and these two superstars will take us on a journey."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/8a21b23d-a35b-41e6-847b-f5006435984e",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/d00d71bb-3ae4-446f-b724-b138dbbe54d6",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/dc957ed4-70c1-42dc-9795-eb59f0dc6b0a",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, May 2, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nDinuk Wijeratneconductor\nKinan Azmehclarinet\n\n\nWhat happens when we turn the concert over to two best friends? Magic. Astonishing, captivating magic.\nThe debuts of Dinuk Wijeratne and Kinan Azmeh left their mark on the SSO in the last few seasons – it meant we needed to bring these two friends together for a concert that will not be forgotten.\nA destination unknown, we’ve handed over the musical reigns to these two superstars to take us on a journey.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
       }
     ]
   },
@@ -2880,13 +4621,13 @@
     ]
   },
   {
-    "@id": "_:g572160",
+    "@id": "_:g635060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g572180"
+        "@id": "_:g635080"
       }
     ],
     "http://schema.org/name": [
@@ -2897,7 +4638,7 @@
     ]
   },
   {
-    "@id": "_:g572180",
+    "@id": "_:g635080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2933,1748 +4674,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0775bad1-6f82-42c5-8302-823d22f3f841",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-07-09T20:00:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461040"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO-SJO-Jazz-fest-1024x1024-1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-07-09T22:00:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Paris on the Prairies"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Paris on the Prairies sees the Saskatoon Jazz Orchestra and Saskatoon Symphony Orchestra joining forces at the SaskTel Saskatchewan Jazz Festival for a musical adventure to Paris."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/db1265c2-830d-4d0b-8c5b-7086519582c9",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/2490d58c-b26b-4048-a4c5-5faa2fc542fa",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/5c94f993-63b7-406c-88f7-0b673c690f3c",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/paris-on-the-prairies/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n8:00PM, Wednesday, July 9, 2025\nThe Broadway Theatre\n\n\n715 Broadway Ave\nSaskatoon, SK S7N 1B3\nGoogle Maps Directions\n\n\nGet Tickets\n\n\n\nParis on the Prairies sees the Saskatoon Jazz Orchestra and Saskatoon Symphony Orchestra joining forces at the SaskTel Saskatchewan Jazz Festival for a musical adventure to Paris. Featuring the brilliant multi Juno award winning composer/pianist David Braid and the evocative vocals styles of Saskatoon’s own Alexis Normand, this concert is guaranteed to transport you to the romance and charm of Paris — all right here on the prairies!\nSaskatoon Jazz Orchestra: https://saskatoonjazzorchestra.com/\nSaskatoon Symphony Orchestra: https://saskatoonsymphony.org/\nFor more information on the special guests please visit:\nhttp://www.davidbraid.com/\nhttps://alexisnormand.com/\nThis show is part of the ticketed program at The Broadway Theatre.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/e6688295-d558-4e8b-90af-4127276561b2",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-08-27T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g467400"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/05/MMInConcert_Saskatoon_1024x1024.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-08-27T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Murdoch Mysteries: Live in Concert"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Join us for an electrifying evening that pulls back the curtain on CBC’s hit series Murdoch Mysteries - live in concert with the Saskatoon Symphony Orchestra.\n\nHosted by series star Thomas Craig, this exclusive event explores how music for the series is brought to life with Emmy Award-winning composer Rob Carli. Blending television drama and live orchestral performance, witness …"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/55898802-783e-42f9-93d9-8305be3e120f",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/d35c89b5-ecb2-4f2d-b127-94ffa737a89b",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/4987634e-9edc-493e-bdb5-ff1feba67b35",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/murdoch-mysteries-live-in-concert/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Wednesday, August 27, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJoin us for an electrifying evening that pulls back the curtain on CBC’s hit series Murdoch Mysteries – live in concert with the Saskatoon Symphony Orchestra.\nHosted by series star Thomas Craig, this exclusive event explores how music for the series is brought to life with Emmy Award-winning composer Rob Carli. Blending television drama and live orchestral performance, witness the craft of how orchestral magic brings pivotal scenes to life. Then, watch the thrilling episode “Murder in F Major” on the big screen, accompanied by a live symphonic score.\nDon’t miss this mesmerizing evening fusing screen and stage – Murdoch Mysteries: Live in Concert is a one-of-a-kind event for the whole family.\nSecure your spot and step into a world where music meets mystery!\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/673fdb81-9b7a-46ff-82f9-44bb671b396d",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-09-13T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g473120"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-R1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-09-13T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Four Seasons"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Renowned baroque violinist Julia Wedman returns home to lead the SSO in a celebration of 300 years of Vivaldi’s Four Seasons. Wedman has curated a program that is a perfect start to SSO95!"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/1de7c6b4-fab1-4352-8a05-fd842a990a06",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/c850d3fe-a5f3-4f13-af1c-d5fabbf26a55",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/35caa262-05e8-4fce-add6-36b0dc1a85d3",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/four-seasons/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 13, 2025\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJulia Wedmanviolin\n\n\nThe Four SeasonsAntonio Vivaldi\n\n\nRenowned baroque violinist Julia Wedman returns home to lead the SSO in a spectacular celebration of the 300th anniversary of Vivaldi’s timeless Four Seasons.\nThe unique program curated by Wedman explores and complements the seasons in a way fit for a perfect start to our season!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/96136793-6707-43a3-b5e4-55aa20a4e1e0",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-09-27T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g478780"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-Tosca.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-09-27T09:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/tosca/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Tosca"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "“I lived for art…I lived for love”. Romance and tragedy meet face to face in Puccini’s epic masterpiece Tosca. Hear one of the most deeply moving operas as it was meant to be heard – with stunning voices and your SSO in full flight."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/5e492f71-1760-47f1-9d03-7e1690ab981e",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/tosca/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/b5dfe4b8-af64-4042-aa9d-51c264ad5781",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/tosca/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/c8fec574-8744-456f-915f-1ddec4159384",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/tosca/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 27, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJudith Yanconductor\nJoel Ivanydirector\n\n\nToscaGiacomo Puccini\n\n\n“I lived for art…I lived for love”\nRomance and tragedy meet face to face in Puccini’s epic masterpiece Tosca.\nWith the SSO and Saskatoon Opera now being one, this night allows you to hear one of the most deeply moving operas as it was meant to be heard – stunning voices and your SSO in full flight.\nThis semi-staged production features Maestra Judith Yan and the full orchestra in a partnership with the National Arts Centre Orchestra, Edmonton Opera, and the Yukon Arts Centre.\nDirected by renowned director Joel Ivany featuring rising star voices, and with its lush romantic orchestral score, Tosca promises to be a night to remember!\nAsk us about the subscriber Presale!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/2de39a8b-5c6c-4a72-a46d-f2f08ae6e1b0",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-11T13:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g484420"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/02/2-HP3_SASK_SYMPHONY_1024x1024-_1SHOW.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-11T15:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Harry Potter and the Prisoner of Azkaban™ in Concert"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "CineConcerts is inviting fans back to the Wizarding World for an evening of music and magic in Harry Potter and the Prisoner of Azkaban™ in Concert. Relive the magic of Harry Potter™ soaring across the big screen in high- definition and experience the music of a live symphony orchestra performing John Williams’ unforgettable score. Get …"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/085e5346-2540-4e21-b71c-f1733fed2aa7",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-11T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g484480"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/02/2-HP3_SASK_SYMPHONY_1024x1024-_1SHOW.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-11T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Harry Potter and the Prisoner of Azkaban™ in Concert"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "CineConcerts is inviting fans back to the Wizarding World for an evening of music and magic in Harry Potter and the Prisoner of Azkaban™ in Concert. Relive the magic of Harry Potter™ soaring across the big screen in high- definition and experience the music of a live symphony orchestra performing John Williams’ unforgettable score. Get …"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/a987b09e-c016-46d3-ae51-08d89cf4025d",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/636b7228-8db8-4715-a5aa-cd4af48666e8",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/f7110e8c-70c8-4253-a935-4b99fbdc70e8",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-prisoner-of-azkaban-in-concert/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n1:30PM, Saturday, October 11, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n7:30PM, Saturday, October 11, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nCineConcerts is inviting fans back to the Wizarding World for an evening of music and magic in Harry Potter and the Prisoner of Azkaban™ in Concert. Relive the magic of Harry Potter™ soaring across the big screen in high- definition and experience the music of a live symphony orchestra performing John Williams’ unforgettable score. Get ready to encounter a Dementor™, ride the Knight Bus™ and discover just who Sirius Black™ really is.\n\nAll characters and elements © & ™ Warner Bros. Entertainment Inc. Publishing Rights © JKR.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/e3a7f06c-49ac-400b-84ad-a6bfc78a14c4",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-25T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g490240"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-25T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "The Space Between"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Multi-Grammy winner, Dame Evelyn Glennie is the centrepiece of a night of mystical story telling with Ho’s From Darkness to Light and we bring light to the darkness with Shostakovich’s 5th Symphony."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/a6b42789-f89b-4d67-a4a6-77edc620cdb9",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/1801b5ce-2b1f-474a-8ff5-1096da2e4c6a",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/633dea95-5ca2-430b-b645-20e0f77b15d3",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-space-between/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, October 25, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nDame Evelyn Glenniepercussion\n\n\nFrom Darkness to LightVincent Ho*\nSymphony No 5 in D Minor, Op 47Dimitri Shostakovich\n\n\nA landmark night for the SSO as we’re joined by Maestro Karl Hirzer and superstar percussion Dame Evelyn Glennie.\nMulti-Grammy award winner, Glennie is one of the most sensational artists we’ve ever shared the stage with – the centrepiece of a night of mystical story telling when she performs Vincent Ho’s From Darkness to Light.\nKarl continues the theme bringing light to the darkness with Shostakovich’s towering 5th Symphony. An orchestral journey towards the light, the work stands as a testament to Shostakovich’s defiance in the face of political oppression.\n*Denotes Canadian composer.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/15be2335-823b-4808-9bc6-5ffb210a3a31",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-11-08T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g496500"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M2.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-11-08T09:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/true-north/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "True North"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Karl Hirzer returns for a night worthy of glowing hearts as we celebrate the exceptional music that Canada has to offer. Plus, renowned oboist Bede Hanley returns home to Saskatoon for his SSO debut!"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/2f682f68-e6c5-419d-8104-5f771cd460e1",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/true-north/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/7a56f2fd-c484-4fa3-abea-722aafa08342",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/true-north/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/e5fe69e4-742c-4df5-b0c1-71d3620094bb",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/true-north/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 8, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nBede Hanleyoboe\n\n\nLineageZosha di Castri*\nOboe ConcertoGary Kulesha*\nThe Grief Eater FiragaSonny Ray Day Rider*\nEndymionJean Coulthard*\nElysiumSamy Moussa*\n\n\nKarl Hirzer returns to the podium for a night worthy of glowing hearts. This celebration of the exceptional music that Canada has to offer is going to have you beaming with pride.\nRenowned oboist Bede Hanley returns home to Saskatoon for his SSO debut in a new concerto by Gary Kulesha. Vibrant and exciting, this new work written just for Hanley is an exhilarating showcase for this hometown artist to make his return!\nWe’ve been itching to bring you the music of Sonny Ray Day Rider for a few seasons now – his work Grief Eater Firaga is a must-hear musical experience.\n*Denotes Canadian composer.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/fcf9b852-9a3e-486b-89c8-2a7bb8f0ba48",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-11-22T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g502460"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/nat-geo-1024x1024-1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-11-22T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Secrets of the Whales"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "From Academy Award®-winning filmmaker James Cameron, the Disney+ original series SECRETS OF THE WHALES features the work of acclaimed National Geographic photographer Brian Skerry. As a concert experience, this show includes highlights from the series paired with the extraordinary power of a live orchestra."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/1850507e-0414-48c3-90b9-7ec44ff81454",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/38eb1e91-7794-4a29-b6ce-69f269864d53",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/b577034f-5cfd-4e63-9f31-00d182d16811",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 22, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nFrom the creative genius of Academy Award®-winning filmmaker and National Geographic Explorer at Large James Cameron and acclaimed National Geographic Explorer and Photographer Brian Skerry, the Disney+ original series Secrets of the Whales takes audiences on an epic journey into the lives of whales, revealing that they are far more like us than ever imagined. \nFilmed over a period of three years across 24 global locations, Secrets of the Whales submerges audiences deep into the lives of five different whale families: orcas, humpbacks, belugas, narwhals, and sperm whales. Witness the incredible and tender moments as these majestic creatures make lifelong friendships, teach clan heritage and traditions to their young, and grieve deeply for the loss of loved ones—just like us.\nAs a concert experience, Secrets of the Whales features highlights from the four-part series paired with the triumphant performance of a live symphony orchestra.\nAbout the Composer\nAfter she was born, Raphaelle Thibaut suffered from a series of severe ear issues that led to single-sided deafness. At age 4, following doctor’s recommendation, she started an intense piano practice. Music became her path to recovery.  In 2015, after four years leading marketing at Google in Europe, she decided to pursue her lifelong passion for music and film scoring.\nRaphaelle has been a composer for global brands and major Hollywood productions like Incredibles 2 and The Act.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/1e678d6b-f685-44cc-9b5c-c9d72218563c",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-06T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g508100"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-P2.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-06T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "YXE Divas Xmas"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Haul out the holly! After our first electrifying YXE Divas show in 2024, we’re bursting with holiday cheer to bring the divas back for a night of pure festive joy!"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/80fe4705-59fc-4f5d-a4be-4cc063eeb48f",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/5981b8c1-c3cc-4ad3-9ec2-736adb74037c",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/8ac1d410-49eb-486a-91ec-84942d39da66",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/yxe-divas-xmas-2/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, December 6, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJanna Sailorconductor\nand the YXE Divas\n\n\nHaul out the holly! After our first electrifying Yxe Divas show in 2024, we’re bursting with holiday cheer to bring the divas back for a night of pure festive joy!\nMaestra Janna Sailor and the Divas have all your favourite holiday hits, while the SSO won’t let you miss out on the seasonal classics.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/76805fb3-6b67-44ab-917a-54aedb45a785",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-12T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g513780"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-R2.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-12T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Handel's Messiah"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Karl Hirzer returns for Handel’s Messiah. We continue Saskatoon’s longest running holiday tradition with an all-Saskatchewan lineup of soloists and the SSO Chorus."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/25a90914-9320-4678-9c75-cebbd76fb69f",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/0f32f5db-cf60-45a0-b918-a1d4fb7dbc85",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/af750cbb-606d-4c08-add2-11a99c672638",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/handels-messiah-3/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Friday, December 12, 2025\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nAndrea Ludwigmezzo-soprano\nSpencer McKnighttenor\nJayden Burrowsbass\nSSO Chorus\n\n\nMessiahGeorge Frideric Handel\n\n\nKarl Hirzer’s fall residency with the SSO wraps up as he returns for Handel’s Messiah.\nWith an all-Saskatchewan line of soloists and the SSO Chorus, we continue Saskatoon’s longest running holiday tradition.\nIf you saw last year’s Messiah, you know you’ll want to grab your seats soon – and if you missed it…don’t let this uplifting experience pass you by!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/3285a81d-255e-456c-b4ac-c17d542fc415",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-13T14:00:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g519360"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-SAM.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-13T16:00:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Sing-Along Messiah"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "It's the return of Sing-Along Messiah! With an all-Saskatchewan line of soloists and the SSO Chorus, we continue our favourite tradition where you get to join in the chorus."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/5d9dde14-daa3-4027-8b41-5667f75fd876",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/aec17a82-e481-4437-acdb-6006954c7158",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/3125fcc7-c2af-46af-b04a-a73d63ef590b",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-3/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n2:00PM, Saturday, December 13, 2025\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nAndrea Ludwigmezzo-soprano\nSpencer McKnighttenor\nJayden Burrowsbass\nSSO Chorus\n\n\nMessiahGeorge Frideric Handel\n\n\nIt’s the return of Sing-Along Messiah!\nWith an all-Saskatchewan line of soloists and the SSO Chorus, we continue our favourite tradition where you get to join in the chorus.\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/71a86cf1-4057-4131-a2b0-c818c546e324",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-01-14T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g524940"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-kashmir.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-01-14T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/kashmir/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Kashmir"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "The SSO is thrilled to partner with Saskatoon’s Kashmir for a brand new orchestral experience of the music of Led Zeppelin."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/fbfb2cc8-ee83-4d51-afe6-0ddde78215b3",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/kashmir/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/f1afc4c4-4ea5-472c-a335-a0f19213ea43",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/kashmir/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/3e299dd3-df01-4e63-8619-747eff3c38af",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/kashmir/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Wednesday, January 14, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nLucas Waldinconductor\nKashmir\n\n\nThe SSO is thrilled to partner with Saskatoon’s Kashmir for a brand new orchestral experience of the music of Led Zeppelin.\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/df43e71d-445e-4440-bc82-45995408297c",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-01-24T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g530840"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSo95-P3-1024x1024-1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-01-24T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Beauty and the Beast"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Experience Disney’s classic Beauty and the Beast on the big screen with a live soundtrack provided by your SSO. With all the character voices you know and love, Beauty and the Beast comes to life in a whole new way with this magical movie in concert. "
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/b6ab8c60-ccd8-4436-95bf-6c3871e6c296",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/0af6516f-d9c0-4f41-a0b4-b5733f00a16f",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/e401b427-af3c-4312-9216-309f571da3cf",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/beauty-and-the-beast/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, January 24, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nThe Saskatoon Symphony Orchestra will present a screening of Disney’s beloved animated classic, “Beauty and the Beast” with the Oscar®-winning score performed live to the film. The concert will be led by conductor Kevin Zakresky.\n“Beauty and the Beast” features an unforgettable score from eight-time Oscar®-winning composer Alan Menken, and original songs written by Menken and two-time Academy Award® winner Howard Ashman.\nDisney’s classic “Beauty and the Beast” captures the magical journey of Belle (voice of Paige O’Hara), an independent and intelligent, modern-day heroine who’s taken prisoner by a hideous beast (voice of Robby Benson) in his castle. Despite her precarious situation, Belle befriends the castle’s enchanted staff—a teapot, a candelabra and a mantel clock, among others—and ultimately learns to see beneath the Beast’s exterior to discover the heart and soul of a prince.\nAbout Disney Concerts\nDisney Concerts is the concert production and licensing division of Disney Music Group, the music arm of The Walt Disney Company.  Disney Concerts produces concerts and tours, and licenses Disney music and visual content to symphony orchestras, choruses and presenters on a worldwide basis. Disney Concerts’ concert packages include a variety of formats, such as “live-to-picture” film concerts, and themed instrumental and vocal compilation concerts that range from instrumental-only symphonic performances to multimedia productions featuring live vocalists and choirs.  Featuring concerts from the largest movie franchises in the world – from Walt Disney Pictures, Walt Disney Animation Studios, Marvel Studios, Lucasfilm, Pixar and 20th Century Studios – current titles include the Star Wars Film Concert Series, Toy Story, Disney Princess: The Concert, Coco, The Lion King, Up, Tim Burton’s The Nightmare Before Christmas, The Muppet Christmas Carol and Infinity Saga Concert Experience.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/7b3b72e8-c113-45cc-b136-d87628215709",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-02-05T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g537040"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-R3.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-02-05T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Bach & Khayyam"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Even if more than 600 years separates the lives of Bach and Khayyam, these two genius were made to meet each other. Constantinople creates a dialogue, with the spiritual songs and arias of JS Bach in dialogue with poems of Omar Khayyam sung in Persian."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/e5850fc4-1979-4b19-a974-64b4904548d7",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/f474f31c-d9e4-42a0-bb7b-ed39d45c032c",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/3974f6dd-953b-43c7-9de3-708686d6df15",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/bach-khayyam/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Thursday, February 5, 2026\nThe Broadway Theatre\n\n\n715 Broadway Ave\nSaskatoon, SK S7N 1B3\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nConstantinople\n\n\nEven if more than 600 years separates the life of John-Sebastien Bach (1685 -1750) and Omar Khayyam (1048 -1131), these two genius were made to meet each other.  Their visions of the world, as a perfect match of mathematics mastery and a super high level of spirituality, bring these two men in a delightful dialogue and traces a clear path to the sublime. In this program Constantinople brings these two artists into a dialogue, where the sacred and spirituality transcend borders. For this new creation Constantinople proposes arrangements of some of the most beautiful spiritual songs and arias of JS Bach in dialogue with poems of Omar Khayyam sung in Persian and responding to Bach’s songs.   \nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/9182dd46-19c9-4087-97d3-a3e9080bdf08",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-02-14T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g543280"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M3.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-02-14T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Everything is Romantic"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Maestra Judith Yan, pianist Angela Cheng, and your SSO bring you some of the most heart stopping romantic music for your valentines including Tchaikovsky’s Romeo and Juliet and Rachmaninoff’s Piano Concerto No 2."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/a543f9f1-722f-4c8d-bac8-395191aa2167",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/5221d24a-0a04-471c-b273-f8fac6ebbd47",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/05e7195e-07b3-4d13-920a-7717de785087",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/everything-is-romantic/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, February 14, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nJudith Yanconductor\nAngela Chengpiano\n\n\nLove Theme, Adagio from SpartacusAram Khachaturian\nLyric for StringsGeorge Walker\nRomeo and Juliet, Fantasy OverturePiotr Ilyich Tchaikovsky\nPiano Concerto No 2 in C Minor, Op 18Sergei Rachmaninoff\n\n\nFall in love again and again with a romantic night at the symphony.\nMaestra Judith Yan and your SSO bring you some of the most heart stopping romantic music for your Valentine’s, from Tchaikovsky’s Romeo and Juliet to Khachaturian’s Love Theme, Adagio from Spartacus.\nPianist Angela Cheng, an SSO favourite artist, is back for the dramatic romance of Rachmaninoff’s Piano Concerto No 2. Often considered the most romantic piece of music ever written, it’s the centrepiece of a night curated for you and your funny valentine.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/cf68df46-66a0-4022-9e1d-eabd160bad28",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-03-07T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g548960"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M4.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-03-07T09:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Spring Fever"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Maestra Tania Miller joins us to shake off your winter blues with Schumann’s “Spring”. Our own Stephanie Unverricht takes centre stage for Mozart’s Bassoon Concerto paired with some Beethoven and Vaughan Williams."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/334cba86-401c-46a6-9f2a-8db13a39a827",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/2f4bd34c-6bce-46c3-88d4-4c18e90c8ba9",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/0f6dd7e4-4115-4fe1-b43d-2f162d537602",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/spring-fever/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 7, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nTania Millerconductor\nStephanie Unverrichtbassoon\n\n\nSymphony No. 1 “Spring”Schumann\nEgmont OvertureBeethoven\nFantasia on a Theme by Thomas TallisVaughan Williams\n\n\nMaestra Tania Miller and the SSO will shake off your winter blues for at least this one March night.\nThe SSO’s own Stephanie Unverricht takes centre stage for Mozart’s joyful and effervescent Bassoon Concerto paired alongside Beethoven’s Egmont Overture and Vaughan Williams’ Fantasia on a Theme by Thomas Tallis.\nSchumann’s first symphony gained its nickname “Spring” as the opening of this joyous work will warm your winter night as spring blooms forth.\nWinter may have you down, but we’ll be here to remind you that soon the world will be turning green again!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/a3142e06-5615-42fe-89b0-7c749c61c291",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-03-28T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g554640"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M5.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-03-28T09:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Night Seasons"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "You fell in love with Rebecca Dale’s Materna Requiem in 2020 when we gave the North American premiere. Now, joined by the virtuosic cellist Stéphane Tétreault, we’re thrilled to give the North American premiere of Dale’s new work Night Seasons."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/8c338a93-2b5c-422e-93fe-aeb485c581fe",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/ee94ecda-1f81-4b01-bf14-e43ba17ffcea",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/bac8fcd4-7cd2-4ff3-958f-aaa69b5a292e",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/night-seasons/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 28, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nAndrew Crustconductor\nStéphane Tétreaultcello\nChoir\n\n\nNight Seasons, concerto for cello, chorus, and orchestraRebecca Dale\nSymphony No 1 in C Minor, Op 68Johannes Brahms\n\n\nMaestro Andrew Crust made his SSO debut last season, and we instantly knew we needed him back on the podium!\nSSO audiences fell in love with the musicians of Rebecca Dale in 2020 when we gave the North American premiere of her Materna Requiem. Now, joined by the virtuosic cellist Stéphane Tetreault and choirs, we’re thrilled to give the North American premiere of Dale’s new work Night Seasons.\nEvocative and moving, Night Seasons was the perfect pairing for one of the greatest symphonies ever written. Brahms toiled for years before completing his symphony…and it was worth the wait.\nOnce again taking you on a journey from darkness to light, this concert promises to take your breath away.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\nAdd this concert to your subscription package and save! Single tickets are on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/17a2ca05-a8fe-440a-84ce-34f73200d542",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-04-11T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g560320"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-P4.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-04-11T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "A Change is Gonna Come"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "There is nothing like the soulful voice of an R&B diva, and we couldn’t be more thrilled to be bringing the powerhouse voice of Saskatoon’s very own Sonia Reid to the music of Whitney, Dion, Aretha, and so much more."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/f3f9b9c9-83d5-4739-ab9d-81e8d4eea097",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/429df7df-1189-4d48-a5d0-674703b18a90",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/b70b489e-6ce5-4818-8a1e-1adfa38372d9",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/a-change-is-gonna-come/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, April 11, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nSonia Reid\n\n\nThere is nothing like the powerful soulful voice of an R&B diva…and we couldn’t be more thrilled to be creating this new pops concert with Saskatoon’s very own Sonia Reid.\nMaking her SSO debut in 2024, we all knew some magic was happening and we needed to see what could develop.\nBringing Sonia’s powerhouse voice to the music of Whitney, Dion, Aretha, and so much more, we can’t wait to share this soulful night with you!\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/6473a4da-582c-4f8a-8f88-03a9f639e062",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-02T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g565960"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/SSO95-1024x1024-M6.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-02T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "The Traveller"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Dinuk Wijeratne and Kinan Azmeh each left their mark on the SSO and we need to bring these two friends together for an unforgettable concert. We’ve handed over the musical reins and these two superstars will take us on a journey."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/c907d3a0-678b-426f-8b5f-d4e48831a033",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/bddca395-d739-4505-9ae4-b643fd3e0364",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/a9b1a8d1-4ba3-481a-ae49-b6f3b17d338d",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/the-traveller/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, May 2, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe Today\n\n\n\nDinuk Wijeratneconductor\nKinan Azmehclarinet\n\n\nWhat happens when we turn the concert over to two best friends? Magic. Astonishing, captivating magic.\nThe debuts of Dinuk Wijeratne and Kinan Azmeh left their mark on the SSO in the last few seasons – it meant we needed to bring these two friends together for a concert that will not be forgotten.\nA destination unknown, we’ve handed over the musical reigns to these two superstars to take us on a journey.\nAdd this show to your subscription package and save!\nSingle tickets on sale July 2, 2025.\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/09b47d2e-cde2-4411-9aae-78268338ddec",
+    "@id": "https://saskatoonsymphony.org/temporary/a4d85da0-68a6-4579-a1e7-1696e1247108",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4686,7 +4686,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g572160"
+        "@id": "_:g635060"
       }
     ],
     "http://schema.org/image": [
@@ -4724,7 +4724,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/7105d18c-9dcd-4eeb-b623-95367e58bd65",
+    "@id": "https://saskatoonsymphony.org/temporary/c8f27411-e955-4dbd-aa48-da08dcc23925",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -4735,7 +4735,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/6fd310ef-ad9b-4e44-be13-734c65602ff2",
+    "@id": "https://saskatoonsymphony.org/temporary/71c1d2c3-b0c2-4c50-a9a1-cbe8c4c4754c",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4746,7 +4746,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/528f56ec-31aa-4b41-b665-a817d9b814f3",
+    "@id": "https://saskatoonsymphony.org/temporary/0da4ad3c-cf05-4cbe-8bb7-ba9a0c5a7e89",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
