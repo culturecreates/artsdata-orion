@@ -28,7 +28,7 @@
     "http://ogp.me/ns#url": [
       {
         "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/"
+        "@value": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
       }
     ],
     "http://ogp.me/ns#site_name": [
@@ -73,20 +73,12 @@
         "@value": "image/png"
       }
     ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://kiac.ca/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/",
     "@type": [
       "http://schema.org/WebPage"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
       }
     ],
     "http://schema.org/isPartOf": [
@@ -96,12 +88,12 @@
     ],
     "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/#primaryimage"
       }
     ],
     "http://schema.org/thumbnailUrl": [
@@ -123,12 +115,17 @@
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/#breadcrumb"
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/#breadcrumb"
       }
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g460740"
+        "@id": "_:g460720"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
       }
     ],
     "http://schema.org/name": [
@@ -167,19 +164,34 @@
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g460820"
+        "@id": "_:g460800"
       },
       {
-        "@id": "_:g467940"
+        "@id": "_:g475200"
       },
       {
-        "@id": "_:g474980"
+        "@id": "_:g489200"
       },
       {
-        "@id": "_:g482100"
+        "@id": "_:g502660"
       },
       {
-        "@id": "_:g489320"
+        "@id": "_:g516220"
+      },
+      {
+        "@id": "_:g529680"
+      },
+      {
+        "@id": "_:g543140"
+      },
+      {
+        "@id": "_:g556700"
+      },
+      {
+        "@id": "_:g570540"
+      },
+      {
+        "@id": "_:g584240"
       }
     ],
     "http://schema.org/name": [
@@ -208,7 +220,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/#primaryimage",
+    "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -242,14 +254,14 @@
     ]
   },
   {
-    "@id": "_:g460740",
+    "@id": "_:g460720",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
         "@language": "en",
-        "@value": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/"
+        "@value": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
       }
     ]
   },
@@ -292,82 +304,162 @@
     ]
   },
   {
-    "@id": "_:g460820",
+    "@id": "_:g460800",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
+      {
+        "@id": "_:g460820"
+      }
+    ],
+    "http://schema.org/query-input": [
       {
         "@id": "_:g460840"
       }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g460860"
-      }
     ]
   },
   {
-    "@id": "_:g467940",
+    "@id": "_:g475200",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g467960"
+        "@id": "_:g475220"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@id": "_:g467980"
+        "@id": "_:g475240"
       }
     ]
   },
   {
-    "@id": "_:g474980",
+    "@id": "_:g489200",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g475000"
+        "@id": "_:g489220"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@id": "_:g475020"
+        "@id": "_:g489240"
       }
     ]
   },
   {
-    "@id": "_:g482100",
+    "@id": "_:g502660",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g482120"
+        "@id": "_:g502680"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@id": "_:g482140"
+        "@id": "_:g502700"
       }
     ]
   },
   {
-    "@id": "_:g489320",
+    "@id": "_:g516220",
     "@type": [
       "http://schema.org/SearchAction"
     ],
     "http://schema.org/target": [
       {
-        "@id": "_:g489340"
+        "@id": "_:g516240"
       }
     ],
     "http://schema.org/query-input": [
       {
-        "@id": "_:g489360"
+        "@id": "_:g516260"
+      }
+    ]
+  },
+  {
+    "@id": "_:g529680",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g529700"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g529720"
+      }
+    ]
+  },
+  {
+    "@id": "_:g543140",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g543160"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g543180"
+      }
+    ]
+  },
+  {
+    "@id": "_:g556700",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g556720"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g556740"
+      }
+    ]
+  },
+  {
+    "@id": "_:g570540",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g570560"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g570580"
+      }
+    ]
+  },
+  {
+    "@id": "_:g584240",
+    "@type": [
+      "http://schema.org/SearchAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@id": "_:g584260"
+      }
+    ],
+    "http://schema.org/query-input": [
+      {
+        "@id": "_:g584280"
       }
     ]
   },
@@ -412,7 +504,7 @@
     ]
   },
   {
-    "@id": "_:g460840",
+    "@id": "_:g460820",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -424,7 +516,7 @@
     ]
   },
   {
-    "@id": "_:g460860",
+    "@id": "_:g460840",
     "@type": [
       "http://schema.org/PropertyValueSpecification"
     ],
@@ -470,22 +562,22 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g460880"
+        "@id": "_:g460860"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g460920"
+        "@id": "_:g460900"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g460940"
+        "@id": "_:g460920"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -517,7 +609,7 @@
     ]
   },
   {
-    "@id": "_:g460880",
+    "@id": "_:g460860",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -528,7 +620,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g460900"
+        "@id": "_:g460880"
       }
     ],
     "http://schema.org/sameAs": [
@@ -556,7 +648,7 @@
     ]
   },
   {
-    "@id": "_:g460920",
+    "@id": "_:g460900",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -591,7 +683,7 @@
     ]
   },
   {
-    "@id": "_:g460940",
+    "@id": "_:g460920",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -632,7 +724,7 @@
     ]
   },
   {
-    "@id": "_:g460900",
+    "@id": "_:g460880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -644,7 +736,7 @@
     ]
   },
   {
-    "@id": "_:g464800",
+    "@id": "_:g465120",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -667,7 +759,7 @@
     ]
   },
   {
-    "@id": "_:g464820",
+    "@id": "_:g465140",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -685,7 +777,3858 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/",
+    "@id": "https://kiac.ca/temporary/3e89e2ed-029f-443e-bce0-37941d234609",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/c7b433c8-8b20-4f58-9fc6-4cf1187d2439",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/5f540525-e55f-414b-8afe-00848945f405",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/3f3a93bc-991d-4c7a-9ac3-24c25e95067c",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/fcfe0866-2e0f-4214-a794-871583d78923",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/c373d961-4578-40c3-a7d3-5bc9221ced2b",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g465120"
+      },
+      {
+        "@id": "_:g465140"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/e8399986-d7b9-4cb0-a159-aeb4f973e476",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Dawson City Summer Concert Series – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2025-06-18T17:23:00+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2025/06/499855170_1183860150421972_5441863701057225949_n.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "2048"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1336"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/499855170_1183860150421972_5441863701057225949_n.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-04T20:37:09+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-18T17:23:00+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/#breadcrumb"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g475120"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Summer Concert Series &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/499855170_1183860150421972_5441863701057225949_n.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/499855170_1183860150421972_5441863701057225949_n.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2048"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1336"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475120",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475220",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475240",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@language": "en",
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-04T12:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-04T13:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g475260"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g475300"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Summer Concert Series"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "The Dawson City Summer Concert Series is a free lunch-time music series that takes places each Friday from 12:00-1:00pm, at the gazebo on the Dawson City Waterfront. Can’t make it [&hellip;]"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475260",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g475280"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/www.kiac.ca"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ]
+  },
+  {
+    "@id": "_:g475300",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g475280",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479440",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g479480",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Summer Concert Series"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/905e145d-3f22-46ab-bfde-b7781075be30",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/cc17bbf7-a7af-41f9-8441-0cf00d7c58ed",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/845d98b5-ebea-43cf-b845-9dcea10faa56",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/d4082007-f0ae-4146-b527-f65e111ae4c6",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/ae72d02f-2ab6-4f15-aa31-87194521271b",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/05447f7e-da62-4d1d-99a9-c25271725eb9",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g479440"
+      },
+      {
+        "@id": "_:g479480"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/f5669a23-4bb7-4b3e-86a7-cd93ac7a384c",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-summer-concert-series/2025-07-04/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Solstice Saint-jean RESCHEDULED: Brigitte Jardin + Ketchup & Mustard Old Time Gang at KIAC (FREE SHOW) – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-18-at-9.55.11 AM.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1361"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "721"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-18-at-9.55.11 AM.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-27T21:02:22+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/#breadcrumb"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g489120"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Solstice Saint-jean RESCHEDULED: Brigitte Jardin + Ketchup & Mustard Old Time Gang at KIAC (FREE SHOW) &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-18-at-9.55.11 AM.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-18-at-9.55.11 AM.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1361"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "721"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "_:g489120",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g489220",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g489240",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@language": "en",
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-04T19:30:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-04T22:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g489260"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g489300"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Solstice Saint-jean RESCHEDULED: Brigitte Jardin + Ketchup &#038; Mustard Old Time Gang at KIAC (FREE SHOW)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "L’événement du Solstice Saint-Jean, qui devait avoir lieu le 24 juin, est reporté à la semaine prochaine, le vendredi 4 juillet, à 20 h, au Klondike Institute of Art &amp; [&hellip;]"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g489260",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g489280"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/www.kiac.ca"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ]
+  },
+  {
+    "@id": "_:g489300",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g489280",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493100",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g493120",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Solstice Saint-jean RESCHEDULED: Brigitte Jardin + Ketchup & Mustard Old Time Gang at KIAC (FREE SHOW)"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/e96605c5-f4a1-4072-94ba-e11ad385b213",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/208dfe7c-b194-4236-a52a-81934fbbeff8",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/106168be-ef6e-46f9-8ff9-5d1d9d336de2",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/634402d6-f6c9-4bdb-93a6-b3fe3bc2e80d",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/fd156a39-0136-4509-b913-0c3f13d4bee6",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/1d27f199-63d4-4a46-aa20-e99df1b94284",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g493100"
+      },
+      {
+        "@id": "_:g493120"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/6ff16439-4828-4a25-b2a5-ca95cd637b2c",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-rescheduled-brigitte-jardin-ketchup-mustard-old-time-gang-at-kiac-free-show/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "DCAS / KIAC Annual General Meeting 2025 – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2025-06-19T01:49:14+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2025/06/AGM-2025-Event-Banner-e1750297564305.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "648"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "366"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/AGM-2025-Event-Banner-e1750297564305.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-19T01:47:15+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-19T01:49:14+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/#breadcrumb"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g502580"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "DCAS / KIAC Annual General Meeting 2025 &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/AGM-2025-Event-Banner-e1750297564305.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/AGM-2025-Event-Banner-e1750297564305.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "648"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "366"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502580",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502680",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502700",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@language": "en",
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-08T18:30:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-08T20:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g502720"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g502760"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "DCAS / KIAC Annual General Meeting 2025"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Arts Society / Klondike Institute of Art &amp; Culture 2025 Annual General Meeting Tuesday July 8, 6:30-8pm in the Dënäkär Zho / KIAC Ballroom Join us for the [&hellip;]"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502720",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g502740"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/www.kiac.ca"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502760",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g502740",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g506600",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g506620",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "DCAS / KIAC Annual General Meeting 2025"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/c183ce43-dbcc-4023-9522-dc1b174a2e8b",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/9925fda8-be7b-48fb-a01c-a523a0203fca",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/10546588-108c-4cc9-b43a-f60c848c49aa",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/92816d64-7f19-4caa-810d-7dbe13068e70",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/9069a1a5-ebc6-4dd8-a8e4-527b3b7c4d09",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/69cc3336-82e2-4abf-84cd-3ebbcadf85a6",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g506600"
+      },
+      {
+        "@id": "_:g506620"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/a1a8bc52-6993-4384-9675-f61698692e00",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dcas-kiac-annual-general-meeting/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/30802/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "– KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2025/07/ARTIST-IN-RESIDENCE.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "851"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "315"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/07/ARTIST-IN-RESIDENCE.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-03T20:58:49+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/#breadcrumb"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g516160"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "&#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/30802/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/07/ARTIST-IN-RESIDENCE.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/07/ARTIST-IN-RESIDENCE.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "851"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "315"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "_:g516160",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g516240",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g516260",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@language": "en",
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/30802/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-10T18:30:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-10T20:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g516280"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g516320"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "ARTIST TALK &amp; PERFORMANCE The Best Things in Life are Free: Presenting and Performing the Works of Dustin Sheldon / Calm Rivers Join us for an evening with Macaulay House [&hellip;]"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g516280",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g516300"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/www.kiac.ca"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ]
+  },
+  {
+    "@id": "_:g516320",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g516300",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g520180",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g520200",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/63a10766-2952-4fcb-8ad9-3d6a582dc98b",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/8536a08a-9334-4762-8629-b35b4e76f19c",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/9b4dc29a-e829-461b-8328-32afc2e594b6",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/699f1c51-755c-4cad-ad3c-2f42ba73e7bf",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/c8a59e1f-187d-43b7-9fab-acfbdc50eb4b",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/7ac0bb71-791f-4bc5-9939-446062b7ce10",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g520180"
+      },
+      {
+        "@id": "_:g520200"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/80ee690e-185b-4b3a-a59e-36532ea77ccc",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/30802/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Pride Decor Making Drop-in – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2025/06/dawson-pride-dropin-1024x1024.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/dawson-pride-dropin-scaled.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-24T21:08:00+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/#breadcrumb"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g529600"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Pride Decor Making Drop-in &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/dawson-pride-dropin-scaled.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/dawson-pride-dropin-scaled.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2048"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2048"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "_:g529600",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g529700",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g529720",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@language": "en",
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-11T17:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-11T21:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g529740"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g529780"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Pride Decor Making Drop-in"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Join us to prepare for the Dawson City Pride Parade with a decoration making drop-in in the KIAC classroom. We will have sign, wagon float, and general decor making supplies. [&hellip;]"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g529740",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g529760"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/www.kiac.ca"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ]
+  },
+  {
+    "@id": "_:g529780",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g529760",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g533580",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g533600",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Pride Decor Making Drop-in"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/63615e71-eb2e-461f-b468-5519c048ea54",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/8d0d4daa-30c5-4d33-8048-0b1505460660",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/d22e3776-56e2-4820-9be5-82ffb857174a",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/817f7aef-5d47-4a74-9cae-c773d6375a58",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/f59e8a5f-c00b-496b-a7ae-87611a0a3982",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/65eab294-0c4b-463d-b8c4-157bfc1145bf",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g533580"
+      },
+      {
+        "@id": "_:g533600"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/7742a304-d06a-43da-93dd-170441ae6c5e",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/pride-decor-making-drop-in/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Gwaandak Theatre Indigenous Summer Play Readings – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2025-06-18T17:21:51+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2025/06/ISPR-2025.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/ISPR-2025.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-18T17:20:44+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-18T17:21:51+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/#breadcrumb"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g543060"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Gwaandak Theatre Indigenous Summer Play Readings &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/ISPR-2025.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/ISPR-2025.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "_:g543060",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g543160",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g543180",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@language": "en",
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-13T17:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-13T19:30:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g543200"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g543240"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Gwaandak Theatre Indigenous Summer Play Readings"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Let us tell you a story… Join Gwaandak Theatre for our annual Indigenous Summer Play Readings! This Season, we are proud to be presenting two scripts that are new to [&hellip;]"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g543200",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g543220"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/www.kiac.ca"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ]
+  },
+  {
+    "@id": "_:g543240",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g543220",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g547000",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g547020",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Gwaandak Theatre Indigenous Summer Play Readings"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/a5c28678-009a-4242-83dc-7dcde5d20267",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/8b844045-63cd-43f6-9d9f-b3f5c5af94a3",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/4d73e4ba-8d01-4fc9-b833-aa1f84426613",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/40ba8474-20ae-49a6-b496-2716273fc3ec",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/d3d3bc1b-4991-4e8f-9b9a-cdafc78edc9e",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/9ebf2476-f0de-4c05-bfa8-54c5d81d4949",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g547000"
+      },
+      {
+        "@id": "_:g547020"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/b1a15c0b-8496-4908-96eb-d11c7638f2f3",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/gwaandak-theatre-indigenous-summer-play-readings/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Dawson City Pride – KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": "%"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-us",
+        "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-24-at-2.12.33 PM-733x1024.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "733"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://kiac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-24-at-2.12.33 PM.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-24T21:22:03+00:00"
+      }
+    ],
+    "http://schema.org/breadcrumb": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/#breadcrumb"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "_:g556620"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Pride &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "%"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-24-at-2.12.33 PM.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-24-at-2.12.33 PM.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1168"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1632"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "_:g556620",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g556720",
+    "@type": [
+      "http://schema.org/EntryPoint"
+    ],
+    "http://schema.org/urlTemplate": [
+      {
+        "@language": "en",
+        "@value": "https://kiac.ca/?s={search_term_string}"
+      }
+    ]
+  },
+  {
+    "@id": "_:g556740",
+    "@type": [
+      "http://schema.org/PropertyValueSpecification"
+    ],
+    "http://schema.org/valueRequired": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/valueName": [
+      {
+        "@language": "en",
+        "@value": "search_term_string"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-14T14:00:00-07:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-07-14T20:00:00-07:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g556760"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g556800"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Pride"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Pride will be held on July 14th in the park along the dike by the picnic shelter. Pride will begin with a flag raising at the fire hall [&hellip;]"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g556760",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g556780"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/www.kiac.ca"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Dënäkär Zho/Oddfellows Hall"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ]
+  },
+  {
+    "@id": "_:g556800",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "867-993-5005"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:g556780",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "902 2nd Avenue, Dawson City"
+      }
+    ]
+  },
+  {
+    "@id": "_:g560940",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/item": [
+      {
+        "@id": "https://kiac.ca"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Home"
+      }
+    ]
+  },
+  {
+    "@id": "_:g560980",
+    "@type": [
+      "https://schema.org/ListItem"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Dawson City Pride"
+      }
+    ],
+    "https://schema.org/position": [
+      {
+        "@language": "en",
+        "@value": "2"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/d5cdabe8-8ddb-4cda-afac-7680b59df06e",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/a6b99c4c-6378-4e0b-9501-22b410b5ac65",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/bcb392df-7213-4459-b9a4-f45c3ed5a5fd",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/d3a21c18-8525-4a87-9766-3352c4f916c5",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/69f02c85-4638-43ee-af0e-f994e0678621",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/483248c0-509d-4a25-8e4f-c8eb93bafa85",
+    "@type": [
+      "https://schema.org/BreadcrumbList"
+    ],
+    "https://schema.org/itemListElement": [
+      {
+        "@id": "_:g560940"
+      },
+      {
+        "@id": "_:g560980"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/c161664a-bad6-484d-96ad-b8b2dcd8cac9",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/dawson-city-pride/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/",
     "http://ogp.me/ns#locale": [
       {
         "@language": "en-us",
@@ -713,7 +4656,7 @@
     "http://ogp.me/ns#url": [
       {
         "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
+        "@value": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/"
       }
     ],
     "http://ogp.me/ns#site_name": [
@@ -731,7 +4674,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2025-02-07T21:52:33+00:00"
+        "@value": "2025-06-27T20:18:04+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -758,12 +4701,20 @@
         "@value": "image/jpeg"
       }
     ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://kiac.ca/wp-json/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/",
     "@type": [
       "http://schema.org/WebPage"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/"
       }
     ],
     "http://schema.org/isPartOf": [
@@ -773,12 +4724,12 @@
     ],
     "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/#primaryimage"
       }
     ],
     "http://schema.org/thumbnailUrl": [
@@ -789,28 +4740,23 @@
     "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2024-11-07T18:03:33+00:00"
+        "@value": "2025-06-27T20:11:59+00:00"
       }
     ],
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-02-07T21:52:33+00:00"
+        "@value": "2025-06-27T20:18:04+00:00"
       }
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/#breadcrumb"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/#breadcrumb"
       }
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g467860"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://kiac.ca/wp-json/"
+        "@id": "_:g570460"
       }
     ],
     "http://schema.org/name": [
@@ -833,7 +4779,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/#primaryimage",
+    "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -873,19 +4819,19 @@
     ]
   },
   {
-    "@id": "_:g467860",
+    "@id": "_:g570460",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
         "@language": "en",
-        "@value": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
+        "@value": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/"
       }
     ]
   },
   {
-    "@id": "_:g467960",
+    "@id": "_:g570560",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -897,7 +4843,7 @@
     ]
   },
   {
-    "@id": "_:g467980",
+    "@id": "_:g570580",
     "@type": [
       "http://schema.org/PropertyValueSpecification"
     ],
@@ -915,50 +4861,50 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/#event",
+    "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/#event",
     "@type": [
       "http://schema.org/Event"
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/#primaryimage"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-03T18:00:00-07:00"
+        "@value": "2025-07-15T18:00:00-07:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-03T20:00:00-07:00"
+        "@value": "2025-07-15T20:00:00-07:00"
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g468000"
+        "@id": "_:g570600"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g468040"
+        "@id": "_:g570640"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-07-15/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
       }
     ],
     "http://schema.org/name": [
@@ -970,7 +4916,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tuesdays, 6 &#8211; 8 p.m, KIAC Ballroom *some cancellations may occur, please check out the weekly newsletter for updates. Concert Band drop-in will be re-located on Tuesdays from Feb. 11 [&hellip;]"
+        "@value": "Tuesdays, 6 &#8211; 8 p.m, KIAC Ballroom *some cancellations may occur, please check out the weekly newsletter for updates. Concert Band drop-in will be taking a break from June 17th [&hellip;]"
       }
     ],
     "http://schema.org/eventAttendanceMode": [
@@ -985,7 +4931,7 @@
     ]
   },
   {
-    "@id": "_:g468000",
+    "@id": "_:g570600",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -996,12 +4942,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g468020"
+        "@id": "_:g570620"
       }
     ],
     "http://schema.org/sameAs": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/www.kiac.ca"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/www.kiac.ca"
       }
     ],
     "http://schema.org/name": [
@@ -1024,13 +4970,13 @@
     ]
   },
   {
-    "@id": "_:g468040",
+    "@id": "_:g570640",
     "@type": [
       "http://schema.org/Person"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
       }
     ],
     "http://schema.org/name": [
@@ -1059,7 +5005,7 @@
     ]
   },
   {
-    "@id": "_:g468020",
+    "@id": "_:g570620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1071,7 +5017,7 @@
     ]
   },
   {
-    "@id": "_:g471920",
+    "@id": "_:g574520",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1094,7 +5040,7 @@
     ]
   },
   {
-    "@id": "_:g471940",
+    "@id": "_:g574560",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1112,416 +5058,126 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/",
-    "http://ogp.me/ns#locale": [
+    "@id": "https://kiac.ca/temporary/68f18a7f-326a-415c-bdbb-001fdceff0e1",
+    "@type": [
+      "https://schema.org/WebSite"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@language": "en-us",
-        "@value": "en_US"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/2283bd7a-f5c4-4818-9e74-67362612f794",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/temporary/cbe268f3-3012-44f3-9aa4-5e3e27152762",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://kiac.ca/"
       }
     ],
-    "http://ogp.me/ns#type": [
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@language": "en-us",
-        "@value": "article"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
       }
     ],
-    "http://ogp.me/ns#title": [
+    "https://schema.org/name": [
       {
-        "@language": "en-us",
-        "@value": "25th Annual Yukon Riverside Arts Festival – KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-us",
-        "@value": "%"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-us",
+        "@language": "en",
         "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
       }
     ],
-    "article:publisher": [
-      {
-        "@language": "en-us",
-        "@value": "https://www.facebook.com/kiactweets/"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/wp-content/uploads/2025/04/2025_YRAF_Banner-01.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-us",
-        "@value": "1600"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-us",
-        "@value": "900"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-us",
-        "@value": "image/jpeg"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://kiac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/04/2025_YRAF_Banner-01.jpg"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-04-10T23:50:02+00:00"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/#breadcrumb"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g474900"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://kiac.ca/wp-json/"
-      }
-    ],
-    "http://schema.org/name": [
+    "https://schema.org/description": [
       {
         "@language": "en",
-        "@value": "25th Annual Yukon Riverside Arts Festival &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "%"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-US"
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/#primaryimage",
+    "@id": "https://kiac.ca/temporary/f60e538f-9180-425d-99b3-e125c23570ff",
     "@type": [
-      "http://schema.org/ImageObject"
+      "https://schema.org/WPHeader"
     ],
-    "http://schema.org/url": [
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/04/2025_YRAF_Banner-01.jpg"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/04/2025_YRAF_Banner-01.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1600"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "900"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-US"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
       }
     ]
   },
   {
-    "@id": "_:g474900",
+    "@id": "https://kiac.ca/temporary/d55b73de-ef4e-43ae-90eb-39e3f603bd19",
     "@type": [
-      "http://schema.org/ReadAction"
+      "https://schema.org/Organization"
     ],
-    "http://schema.org/target": [
+    "https://schema.org/url": [
       {
-        "@language": "en",
-        "@value": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475000",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475020",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-12T18:30:00-07:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-16T20:00:00-07:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g475040"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g475080"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
+        "@id": "https://kiac.ca/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "25th Annual Yukon Riverside Arts Festival"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "YUKON RIVERSIDE ARTS FESTIVAL 2025 JUNE 12 – 15 / 2025 / DAWSON CITY, YUKON Yukon Riverside Arts Festival (YRAF) is a celebration of art, music and summer in Canada’s North [&hellip;]"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475040",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/venue/klondike-institute-of-art-culture/"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g475060"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/www.kiac.ca"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Dënäkär Zho/Oddfellows Hall"
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "en",
-        "@value": "867-993-5005"
-      }
-    ]
-  },
-  {
-    "@id": "_:g475080",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Klondike Institute of Art &#038; Culture (KIAC)"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "en",
-        "@value": "867-993-5005"
-      }
-    ],
-    "http://schema.org/email": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ]
-  },
-  {
-    "@id": "_:g475060",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "en",
-        "@value": "902 2nd Avenue, Dawson City"
-      }
-    ]
-  },
-  {
-    "@id": "_:g479000",
-    "@type": [
-      "https://schema.org/ListItem"
-    ],
-    "https://schema.org/item": [
-      {
-        "@id": "https://kiac.ca"
-      }
-    ],
-    "https://schema.org/position": [
-      {
-        "@language": "en",
-        "@value": "1"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
       }
     ],
     "https://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Home"
+        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
       }
     ]
   },
   {
-    "@id": "_:g479040",
+    "@id": "https://kiac.ca/temporary/892c253c-05e4-438a-8ebb-ae4db160c04e",
     "@type": [
-      "https://schema.org/ListItem"
+      "https://schema.org/BreadcrumbList"
     ],
-    "https://schema.org/name": [
+    "https://schema.org/itemListElement": [
       {
-        "@language": "en",
-        "@value": "25th Annual Yukon Riverside Arts Festival"
+        "@id": "_:g574520"
+      },
+      {
+        "@id": "_:g574560"
       }
     ],
-    "https://schema.org/position": [
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@language": "en",
-        "@value": "2"
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/",
+    "@id": "https://kiac.ca/temporary/5c93e457-d69c-41ed-a573-33795c3d3c3f",
+    "@type": [
+      "https://schema.org/WPFooter"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in-2-2/2025-07-15/"
+      }
+    ]
+  },
+  {
+    "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/",
     "http://ogp.me/ns#locale": [
       {
         "@language": "en-us",
@@ -1537,7 +5193,7 @@
     "http://ogp.me/ns#title": [
       {
         "@language": "en-us",
-        "@value": "WEAVING THE MIDNIGHT SUN Opening Reception – KLONDIKE INSTITUTE OF ART & CULTURE"
+        "@value": "@canada.gov.ca - LIVE in Dawson City, Yukon – KLONDIKE INSTITUTE OF ART & CULTURE"
       }
     ],
     "http://ogp.me/ns#description": [
@@ -1549,7 +5205,7 @@
     "http://ogp.me/ns#url": [
       {
         "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
+        "@value": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "http://ogp.me/ns#site_name": [
@@ -1567,428 +5223,13 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2025-06-03T20:17:03+00:00"
+        "@value": "2025-06-18T17:25:23+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://kiac.ca/wp-content/uploads/2025/05/NFG-Exhibit-FB-Post.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-us",
-        "@value": "1640"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-us",
-        "@value": "924"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-us",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://kiac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/05/NFG-Exhibit-FB-Post.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-05-29T23:49:40+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-03T20:17:03+00:00"
-      }
-    ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/#breadcrumb"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g482020"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://kiac.ca/wp-json/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "WEAVING THE MIDNIGHT SUN Opening Reception &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "%"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-US"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/05/NFG-Exhibit-FB-Post.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/05/NFG-Exhibit-FB-Post.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1640"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "924"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-US"
-      }
-    ],
-    "http://schema.org/caption": [
-      {
-        "@language": "en",
-        "@value": "Northern Fibres Guild 2025 Exhibition \"Weaving the Midnight Sun\" in the ODD Gallery"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482020",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482120",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482140",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-12T19:00:00-07:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-12T22:00:00-07:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g482160"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g482200"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "WEAVING THE MIDNIGHT SUN Opening Reception"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Please join us for the opening reception of Weaving the Midnight Sun, a new exhibition celebrating the creativity and craftsmanship of Yukon fibre artists!  Date: June 12th, 2025 Time: 7pm &#8211; 10pm Location: ODD Gallery, [&hellip;]"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "_:g482160",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/venue/odd-gallery-3/"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g482180"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "ODD Gallery"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ]
-  },
-  {
-    "@id": "_:g482200",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "ODD Gallery"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/email": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ]
-  },
-  {
-    "@id": "_:g482180",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ]
-  },
-  {
-    "@id": "_:g486240",
-    "@type": [
-      "https://schema.org/ListItem"
-    ],
-    "https://schema.org/item": [
-      {
-        "@id": "https://kiac.ca"
-      }
-    ],
-    "https://schema.org/position": [
-      {
-        "@language": "en",
-        "@value": "1"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Home"
-      }
-    ]
-  },
-  {
-    "@id": "_:g486280",
-    "@type": [
-      "https://schema.org/ListItem"
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "WEAVING THE MIDNIGHT SUN Opening Reception"
-      }
-    ],
-    "https://schema.org/position": [
-      {
-        "@language": "en",
-        "@value": "2"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-us",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-us",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-us",
-        "@value": "Solstice Saint-Jean Concert at Dënäkär Zho / KIAC Ballroom – KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-us",
-        "@value": "%"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-us",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-us",
-        "@value": "https://www.facebook.com/kiactweets/"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-us",
-        "@value": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-03-at-2.50.31 PM-1024x416.png"
+        "@value": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-17-at-10.01.58 AM-1024x569.png"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -2000,7 +5241,7 @@
     "http://ogp.me/ns#image:height": [
       {
         "@language": "en-us",
-        "@value": "416"
+        "@value": "569"
       }
     ],
     "http://ogp.me/ns#image:type": [
@@ -2014,7 +5255,7 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "http://schema.org/isPartOf": [
@@ -2024,33 +5265,39 @@
     ],
     "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/#primaryimage"
       }
     ],
     "http://schema.org/thumbnailUrl": [
       {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-03-at-2.50.31 PM.png"
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-17-at-10.01.58 AM-scaled.png"
       }
     ],
     "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-03T21:53:04+00:00"
+        "@value": "2025-06-17T17:09:19+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-18T17:25:23+00:00"
       }
     ],
     "http://schema.org/breadcrumb": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/#breadcrumb"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/#breadcrumb"
       }
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g489240"
+        "@id": "_:g584160"
       }
     ],
     "https://api.w.org/": [
@@ -2061,7 +5308,7 @@
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Solstice Saint-Jean Concert at Dënäkär Zho / KIAC Ballroom &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+        "@value": "@canada.gov.ca - LIVE in Dawson City, Yukon &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
       }
     ],
     "http://schema.org/description": [
@@ -2078,30 +5325,30 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/#primaryimage",
+    "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-03-at-2.50.31 PM.png"
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-17-at-10.01.58 AM-scaled.png"
       }
     ],
     "http://schema.org/contentUrl": [
       {
-        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-03-at-2.50.31 PM.png"
+        "@id": "https://kiac.ca/wp-content/uploads/2025/06/Screenshot-2025-06-17-at-10.01.58 AM-scaled.png"
       }
     ],
     "http://schema.org/width": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "4048"
+        "@value": "2048"
       }
     ],
     "http://schema.org/height": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1644"
+        "@value": "1139"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -2112,19 +5359,19 @@
     ]
   },
   {
-    "@id": "_:g489240",
+    "@id": "_:g584160",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
         "@language": "en",
-        "@value": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
+        "@value": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ]
   },
   {
-    "@id": "_:g489340",
+    "@id": "_:g584260",
     "@type": [
       "http://schema.org/EntryPoint"
     ],
@@ -2136,7 +5383,7 @@
     ]
   },
   {
-    "@id": "_:g489360",
+    "@id": "_:g584280",
     "@type": [
       "http://schema.org/PropertyValueSpecification"
     ],
@@ -2154,62 +5401,62 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/#event",
+    "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/#event",
     "@type": [
       "http://schema.org/Event"
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/#primaryimage"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/#primaryimage"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-24T20:00:00-07:00"
+        "@value": "2025-07-26T19:30:00-07:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-24T23:00:00-07:00"
+        "@value": "2025-07-26T22:00:00-07:00"
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g489380"
+        "@id": "_:g584300"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g489420"
+        "@id": "_:g584340"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Solstice Saint-Jean Concert at Dënäkär Zho / KIAC Ballroom"
+        "@value": "@canada.gov.ca &#8211; LIVE in Dawson City, Yukon"
       }
     ],
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Dawson | Mardi 24 juin Profitez du soleil de minuit en assistant au concert du Solstice Saint-Jean à Dawson! Dès 20 h, le Klondike Institute of Art &amp; Culture (KIAC) vous invite [&hellip;]"
+        "@value": "The admin makes his journey to the Paris of the North for the first time &#8212; well folks &#8211; I will be honest, this is the show I have been [&hellip;]"
       }
     ],
     "http://schema.org/eventAttendanceMode": [
@@ -2224,7 +5471,7 @@
     ]
   },
   {
-    "@id": "_:g489380",
+    "@id": "_:g584300",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2235,12 +5482,12 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g489400"
+        "@id": "_:g584320"
       }
     ],
     "http://schema.org/sameAs": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/www.kiac.ca"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/www.kiac.ca"
       }
     ],
     "http://schema.org/name": [
@@ -2263,13 +5510,13 @@
     ]
   },
   {
-    "@id": "_:g489420",
+    "@id": "_:g584340",
     "@type": [
       "http://schema.org/Person"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "http://schema.org/name": [
@@ -2298,7 +5545,7 @@
     ]
   },
   {
-    "@id": "_:g489400",
+    "@id": "_:g584320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2310,7 +5557,7 @@
     ]
   },
   {
-    "@id": "_:g493380",
+    "@id": "_:g588120",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -2333,14 +5580,14 @@
     ]
   },
   {
-    "@id": "_:g493420",
+    "@id": "_:g588140",
     "@type": [
       "https://schema.org/ListItem"
     ],
     "https://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Solstice Saint-Jean Concert at Dënäkär Zho / KIAC Ballroom"
+        "@value": "@canada.gov.ca – LIVE in Dawson City, Yukon"
       }
     ],
     "https://schema.org/position": [
@@ -2351,29 +5598,29 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/1d8405cb-4a11-427c-92f6-9296a2f4a681",
+    "@id": "https://kiac.ca/temporary/6e394b56-add2-4792-a0ef-cdcab513ff91",
     "@type": [
       "https://schema.org/WebSite"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ec05f9d8-19f5-471a-8fdf-874c27141012",
+    "@id": "https://kiac.ca/temporary/3353759f-6a95-4e1e-989b-b3873c051a4b",
     "@type": [
       "https://schema.org/WebPage"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/5ece22a9-c555-48e4-8f03-b9829687e250",
+    "@id": "https://kiac.ca/temporary/eab305e3-33d6-44ba-a96b-c9125361a814",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -2384,7 +5631,7 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "https://schema.org/name": [
@@ -2401,18 +5648,18 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/5277e83f-0659-47b4-b32a-0cfda97658f0",
+    "@id": "https://kiac.ca/temporary/3ff30700-1458-46a3-a8c7-dc0b2e067fd6",
     "@type": [
       "https://schema.org/WPHeader"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/78e25b84-8feb-41a0-9d13-112a97d39b6a",
+    "@id": "https://kiac.ca/temporary/bf8e01e7-4662-449f-9cf8-6178b2dbc46c",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -2423,7 +5670,7 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ],
     "https://schema.org/name": [
@@ -2440,508 +5687,32 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/2f368e85-31c3-4a49-95b5-ab500f4f5ee5",
+    "@id": "https://kiac.ca/temporary/7eb0a40c-f217-48e3-9815-9d03c19e966c",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g464800"
+        "@id": "_:g588120"
       },
       {
-        "@id": "_:g464820"
+        "@id": "_:g588140"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/158d3622-0171-46dd-a12c-3666bd1e544f",
+    "@id": "https://kiac.ca/temporary/86c8f36d-ae43-46c7-8c40-fa7774b938c4",
     "@type": [
       "https://schema.org/WPFooter"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-03-24/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/dd655c0d-340e-45b3-b90d-d347f6d9126e",
-    "@type": [
-      "https://schema.org/WebSite"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/1466e883-b0fc-4e0e-9563-4adf1b7eaa41",
-    "@type": [
-      "https://schema.org/WebPage"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/2367ecde-10a3-4e83-91d5-b415feffb5d6",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/a86caf9b-d7ae-4ad0-a9aa-519ea03f3b7d",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/f6ddc7df-596f-4ea0-bcff-b6f590be11ea",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/6c352ecf-b79a-45b7-b61f-4399e6789a76",
-    "@type": [
-      "https://schema.org/BreadcrumbList"
-    ],
-    "https://schema.org/itemListElement": [
-      {
-        "@id": "_:g471920"
-      },
-      {
-        "@id": "_:g471940"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/04927046-06d8-411d-a92d-c397e54229db",
-    "@type": [
-      "https://schema.org/WPFooter"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hohtrey-edea-concert-band-drop-in/2025-06-03/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/bd330885-f65e-48eb-a2d1-ed76a5c85729",
-    "@type": [
-      "https://schema.org/WebSite"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/ef622d58-ba55-4d64-82ae-ebffc4adcfae",
-    "@type": [
-      "https://schema.org/WebPage"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/9527584c-dcd7-4305-82a7-ec195316006e",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/ae96d588-d1e3-48b1-8d1c-159e23cac9eb",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/d8feec6d-d471-44f1-8831-f76cf551c228",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/ec5a4dd2-6d31-4dad-83c1-8506d9b3eeb2",
-    "@type": [
-      "https://schema.org/BreadcrumbList"
-    ],
-    "https://schema.org/itemListElement": [
-      {
-        "@id": "_:g479000"
-      },
-      {
-        "@id": "_:g479040"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/96719f96-9787-4340-b68c-4677b0f4a3d8",
-    "@type": [
-      "https://schema.org/WPFooter"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/25th-annual-yukon-riverside-arts-festival/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/be72720d-739f-425d-93d7-4476e1870423",
-    "@type": [
-      "https://schema.org/WebSite"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/62fde787-3dd0-4cb4-ba62-5c270b0f6025",
-    "@type": [
-      "https://schema.org/WebPage"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/e9afc98a-956c-470c-a868-4bc0ebece084",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/ad8f9408-a095-4c4a-83af-fd1418213f19",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/5c63de5b-4f95-4432-ba82-79b75ebbd551",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/91791983-d548-483f-a6c0-625bac760bae",
-    "@type": [
-      "https://schema.org/BreadcrumbList"
-    ],
-    "https://schema.org/itemListElement": [
-      {
-        "@id": "_:g486240"
-      },
-      {
-        "@id": "_:g486280"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/cb705673-19c5-4918-87e5-6e0dfb736af6",
-    "@type": [
-      "https://schema.org/WPFooter"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/weaving-the-midnight-sun-opening-reception/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/34f3b7f2-e423-43bf-a755-e4e78e05ac6b",
-    "@type": [
-      "https://schema.org/WebSite"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/43688d47-f139-4e7f-959c-6ce7b0065136",
-    "@type": [
-      "https://schema.org/WebPage"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/099006a5-873a-460c-8bc0-7cb00ed50508",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/33d11211-5e4a-45d3-b116-9cf01ac6a864",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/d4ff7f94-d3f8-41c7-8ff4-fdf55f0f0349",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "https://kiac.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "KLONDIKE INSTITUTE OF ART & CULTURE"
-      }
-    ],
-    "https://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Arts, Culture, and Music at Dënäkär Zho in Dawson City, Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/4470edf5-85fc-4e84-8ac7-e4114200a7f0",
-    "@type": [
-      "https://schema.org/BreadcrumbList"
-    ],
-    "https://schema.org/itemListElement": [
-      {
-        "@id": "_:g493380"
-      },
-      {
-        "@id": "_:g493420"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
-      }
-    ]
-  },
-  {
-    "@id": "https://kiac.ca/temporary/873a3ce1-c8b0-46f1-9c16-c39dd69dcaea",
-    "@type": [
-      "https://schema.org/WPFooter"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/solstice-saint-jean-concert-at-denakar-zho-kiac-ballroom/"
+        "@id": "https://kiac.ca/calendar-of-events/canada-gov-ca-live-in-dawson-city-yukon/"
       }
     ]
   }
