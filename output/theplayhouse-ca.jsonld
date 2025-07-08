@@ -71,7 +71,7 @@
     ]
   },
   {
-    "@id": "https://theplayhouse.ca/sites/default/files/styles/featured_event_image/public/2025-06/Masquerade%20web%201%20pic.png?itok=K0XH-lWM",
+    "@id": "https://theplayhouse.ca/sites/default/files/styles/featured_event_image/public/2025-05/Magic%20Beans%20web%20pic.png?itok=sQVkQt9P",
     "@type": [
       "http://xmlns.com/foaf/0.1/Image"
     ],
@@ -86,6 +86,9 @@
         "@id": "https://theplayhouse.ca/en/schedule-and-tickets"
       },
       {
+        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1"
+      },
+      {
         "@id": "https://theplayhouse.ca/fr"
       },
       {
@@ -93,6 +96,9 @@
       },
       {
         "@id": "https://theplayhouse.ca/fr/horaire-et-billets"
+      },
+      {
+        "@id": "https://theplayhouse.ca/fr/horaire-et-billets/magic-beans-musical-1"
       }
     ]
   },
@@ -167,6 +173,38 @@
     ]
   },
   {
+    "@id": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1",
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en",
+        "@value": "Magic Beans The Musical | Fredericton Playhouse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en",
+        "@value": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en",
+        "@value": "Magic Beans The Musical"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en",
+        "@value": "https://theplayhouse.ca/sites/default/files/styles/large/public/2025-05/Magic%20Beans%20web%20pic.png?itok=eeHtRQzm"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1"
+      }
+    ]
+  },
+  {
     "@id": "https://theplayhouse.ca/fr/horaire-et-billets-calendrier",
     "http://ogp.me/ns#site_name": [
       {
@@ -233,70 +271,6 @@
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://theplayhouse.ca/fr/horaire-et-billets"
-      }
-    ]
-  },
-  {
-    "@id": "https://theplayhouse.ca/sites/default/files/styles/featured_event_image/public/2025-05/Magic%20Beans%20web%20pic.png?itok=sQVkQt9P",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Image"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://theplayhouse.ca/en"
-      },
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets-calendar"
-      },
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets"
-      },
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr/horaire-et-billets-calendrier"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr/horaire-et-billets"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr/horaire-et-billets/magic-beans-musical-1"
-      }
-    ]
-  },
-  {
-    "@id": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1",
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Magic Beans The Musical | Fredericton Playhouse"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en",
-        "@value": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "Magic Beans The Musical"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "https://theplayhouse.ca/sites/default/files/styles/large/public/2025-05/Magic%20Beans%20web%20pic.png?itok=eeHtRQzm"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/magic-beans-musical-1"
       }
     ]
   },
@@ -386,6 +360,26 @@
   },
   {
     "@id": "https://theplayhouse.ca/sites/default/files/styles/featured_event_image/public/2024-10/2025%20Fredericton%20Beatlemania%20pepper%201900x600.jpg?itok=lTXbBPb4",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Image"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://theplayhouse.ca/en"
+      },
+      {
+        "@id": "https://theplayhouse.ca/en/schedule-and-tickets"
+      },
+      {
+        "@id": "https://theplayhouse.ca/fr"
+      },
+      {
+        "@id": "https://theplayhouse.ca/fr/horaire-et-billets"
+      }
+    ]
+  },
+  {
+    "@id": "https://theplayhouse.ca/sites/default/files/styles/featured_event_image/public/2024-10/IMGD%20Queen%20Fredericton%201900x600.jpg?itok=D6vCZ4Ob",
     "@type": [
       "http://xmlns.com/foaf/0.1/Image"
     ],
@@ -892,7 +886,13 @@
         "@id": "https://theplayhouse.ca/en/schedule-and-tickets/nb-country-showcase-1"
       },
       {
+        "@id": "https://theplayhouse.ca/en/schedule-and-tickets"
+      },
+      {
         "@id": "https://theplayhouse.ca/fr/horaire-et-billets/nb-country-showcase-1"
+      },
+      {
+        "@id": "https://theplayhouse.ca/fr/horaire-et-billets"
       }
     ]
   },
@@ -1467,7 +1467,7 @@
     "http://schema.org/text": [
       {
         "@language": "en",
-        "@value": "The Fredericton Playhouse is a volunteer-directed, charitable organization that brings the magic of live performance to our community.  By providing our stage to local, Canadian, and international musicians, actors, dancers, and other artists, we create opportunities for inspiring cultural experiences and entertainment for audiences of all ages.\n\nThe Playhouse will be moving to the new performing arts centre (Hawkes Centre for the Arts) in 2027, and to get there requires community support. We have launched the Encore! Community Campaign to raise funds for capital construction costs, capital renewal to keep the spaces maintained over the lifetime of the building, and expanded access programs that will build on the wonderful programs the Playhouse currently provides so that everyone in our community can experience the magic of live performance. \n\n\n\tSupport the Encore! campaign with a monthly or annual pledge\n\tBecome a Corporate Partner and sponsor a show or the entire season\n\tVolunteer your time \n\tLeave a bequest in your will to the Fredericton Playhouse\n\n\nFind out more about the new performing arts centre (Hawkes Centre) here, and feel free to contact us with any questions. \n\nEvery gift helps us share the magic of live performance with more of our community than ever before. Thank you so much for your support!"
+        "@value": "The Fredericton Playhouse is a volunteer-directed, charitable organization that brings the magic of live performance to our community.  By providing our stage to local, Canadian, and international musicians, actors, dancers, and other artists, we create opportunities for inspiring cultural experiences and entertainment for audiences of all ages.\n\n\n\tBecome a Friend of the Fredericton Playhouse with a donation to our fundraising campaign\n\tBecome a Corporate Partner and sponsor a show or the entire season\n\tVolunteer your time \n\tLeave a bequest in your will to the Fredericton Playhouse\n\n\nEvery gift helps us share the magic of live performance with more of our community than ever before. Thank you so much for your support!"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2453,7 +2453,7 @@
     "http://schema.org/text": [
       {
         "@language": "en",
-        "@value": "At the Playhouse, we believe that the arts are an integral part of our lives and that it is essential to encourage and support access to the magic of live performances. With this in mind, we are proud to offer programs that ensure live artistic experiences are accessible to everyone in the Greater Fredericton area.\n\nOur programs will be doubling or even tripling when we move to the Ron & Erma Hawkes Centre for the Arts in 2027! To get there will require community support. \n\n\n\tSupport the Encore! campaign with a monthly or annual pledge\n\n\nFind out more about the new performing arts centre (Hawkes Centre) here, and feel free to contact us with any questions.  \n\nYour donation allows us to:\n\n\n\tExpand our community access programs such as special school matinée field trips to local students, many of whom have never been to the theatre before\n\tBuild a vibrant new performing arts centre space that will allow us to bring even more magic to the community. \n\tProvide free and discounted tickets through our Arts are for Everyone and Pay What You Will access programs to people in our community who face barriers to attending live performing arts \n\tDesign and deliver programs and services that make important connections between artists, audiences, and the community\n"
+        "@value": "Become a Friend of the Fredericton Playhouse\n\nWe believe everyone deserves to experience the joy and inspiration of live performance. That’s why Friends is all about making theatre experiences more accessible. Let’s bring enriching performances to more people in our community than ever before! \n\nTicket sales cover only a portion of the funding required to present programs at the Playhouse. We rely on our Friends to provide the additional support needed to make these special programs available to school children, local artists, and other deserving members of our community.\n\nYour donation allows us to provide:\n\n\n\tSpecial school matinée performances for local students, many of whom have never been to the theatre before\n\tPaid-for tickets, through our Arts are for Everyone program, to people in our community who face barriers to attending live performing arts \n\tDance, music, acting, and other workshops to children and youth through our Experience More! activities\n\tCreative residencies for local artists to develop their talents in the Playhouse through our InterMISSION program\n\tPaid-for tickets to our Kidstage Series of shows for young audiences and families \n\tDesign and deliver programs and services that make important connections between artists, audiences, and the community\n\n\nAll donations of $25 or more will receive a charitable tax receipt. \n\nThank you for your support! "
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4114,18 +4114,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g633460"
+        "@id": "_:g633260"
       },
       {
-        "@id": "_:g1405200"
+        "@id": "_:g1417660"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g633500"
+        "@id": "_:g633300"
       },
       {
-        "@id": "_:g1405240"
+        "@id": "_:g1417700"
       }
     ],
     "http://schema.org/organizer": [
@@ -4216,29 +4216,29 @@
     ]
   },
   {
-    "@id": "_:g633460",
+    "@id": "_:g633260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g633480"
+        "@id": "_:g633280"
       }
     ]
   },
   {
-    "@id": "_:g1405200",
+    "@id": "_:g1417660",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1405220"
+        "@id": "_:g1417680"
       }
     ]
   },
   {
-    "@id": "_:g633500",
+    "@id": "_:g633300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4266,7 +4266,7 @@
     ]
   },
   {
-    "@id": "_:g1405240",
+    "@id": "_:g1417700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4315,7 +4315,7 @@
     ]
   },
   {
-    "@id": "_:g633480",
+    "@id": "_:g633280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -9610,6 +9610,26 @@
     ]
   },
   {
+    "@id": "https://theplayhouse.ca/sites/default/files/styles/logo/public/2022-11/BAG%20logo%20sq.png?itok=8Vc-p9s5",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Image"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://theplayhouse.ca/en/our-programs/spotlight-series"
+      },
+      {
+        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/boom-x"
+      },
+      {
+        "@id": "https://theplayhouse.ca/fr/nos-programmes/series-spotlight"
+      },
+      {
+        "@id": "https://theplayhouse.ca/fr/horaire-et-billets/boom-x"
+      }
+    ]
+  },
+  {
     "@id": "https://theplayhouse.ca/sites/default/files/styles/logo/public/2024-05/BOTA%20logo%20sq.jpg?itok=GDt5bGBk",
     "@type": [
       "http://xmlns.com/foaf/0.1/Image"
@@ -12235,18 +12255,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g792040"
+        "@id": "_:g797520"
       },
       {
-        "@id": "_:g1558860"
+        "@id": "_:g1578940"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g792080"
+        "@id": "_:g797560"
       },
       {
-        "@id": "_:g1558900"
+        "@id": "_:g1578980"
       }
     ],
     "http://schema.org/organizer": [
@@ -12316,29 +12336,29 @@
     ]
   },
   {
-    "@id": "_:g792040",
+    "@id": "_:g797520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g792060"
+        "@id": "_:g797540"
       }
     ]
   },
   {
-    "@id": "_:g1558860",
+    "@id": "_:g1578940",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1558880"
+        "@id": "_:g1578960"
       }
     ]
   },
   {
-    "@id": "_:g792080",
+    "@id": "_:g797560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12366,7 +12386,7 @@
     ]
   },
   {
-    "@id": "_:g1558900",
+    "@id": "_:g1578980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12394,7 +12414,7 @@
     ]
   },
   {
-    "@id": "_:g792060",
+    "@id": "_:g797540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -12865,18 +12885,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g815760"
+        "@id": "_:g823580"
       },
       {
-        "@id": "_:g1581240"
+        "@id": "_:g1600540"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g815800"
+        "@id": "_:g823620"
       },
       {
-        "@id": "_:g1581280"
+        "@id": "_:g1600580"
       }
     ],
     "http://schema.org/organizer": [
@@ -12973,29 +12993,29 @@
     ]
   },
   {
-    "@id": "_:g815760",
+    "@id": "_:g823580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g815780"
+        "@id": "_:g823600"
       }
     ]
   },
   {
-    "@id": "_:g1581240",
+    "@id": "_:g1600540",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1581260"
+        "@id": "_:g1600560"
       }
     ]
   },
   {
-    "@id": "_:g815800",
+    "@id": "_:g823620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13023,7 +13043,7 @@
     ]
   },
   {
-    "@id": "_:g1581280",
+    "@id": "_:g1600580",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13051,7 +13071,7 @@
     ]
   },
   {
-    "@id": "_:g815780",
+    "@id": "_:g823600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -13253,18 +13273,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g827080"
+        "@id": "_:g835040"
       },
       {
-        "@id": "_:g1593000"
+        "@id": "_:g1611660"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g827120"
+        "@id": "_:g835080"
       },
       {
-        "@id": "_:g1593040"
+        "@id": "_:g1611700"
       }
     ],
     "http://schema.org/organizer": [
@@ -13361,29 +13381,29 @@
     ]
   },
   {
-    "@id": "_:g827080",
+    "@id": "_:g835040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g827100"
+        "@id": "_:g835060"
       }
     ]
   },
   {
-    "@id": "_:g1593000",
+    "@id": "_:g1611660",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1593020"
+        "@id": "_:g1611680"
       }
     ]
   },
   {
-    "@id": "_:g827120",
+    "@id": "_:g835080",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13411,7 +13431,7 @@
     ]
   },
   {
-    "@id": "_:g1593040",
+    "@id": "_:g1611700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13439,7 +13459,7 @@
     ]
   },
   {
-    "@id": "_:g827100",
+    "@id": "_:g835060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -13530,18 +13550,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g832420"
+        "@id": "_:g840420"
       },
       {
-        "@id": "_:g1597640"
+        "@id": "_:g1617020"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g832460"
+        "@id": "_:g840460"
       },
       {
-        "@id": "_:g1597680"
+        "@id": "_:g1617060"
       }
     ],
     "http://schema.org/organizer": [
@@ -13638,29 +13658,29 @@
     ]
   },
   {
-    "@id": "_:g832420",
+    "@id": "_:g840420",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g832440"
+        "@id": "_:g840440"
       }
     ]
   },
   {
-    "@id": "_:g1597640",
+    "@id": "_:g1617020",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1597660"
+        "@id": "_:g1617040"
       }
     ]
   },
   {
-    "@id": "_:g832460",
+    "@id": "_:g840460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13688,7 +13708,7 @@
     ]
   },
   {
-    "@id": "_:g1597680",
+    "@id": "_:g1617060",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13716,7 +13736,7 @@
     ]
   },
   {
-    "@id": "_:g832440",
+    "@id": "_:g840440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -13833,18 +13853,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g841400"
+        "@id": "_:g849140"
       },
       {
-        "@id": "_:g1606420"
+        "@id": "_:g1625860"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g841440"
+        "@id": "_:g849180"
       },
       {
-        "@id": "_:g1606460"
+        "@id": "_:g1625900"
       }
     ],
     "http://schema.org/organizer": [
@@ -13941,29 +13961,29 @@
     ]
   },
   {
-    "@id": "_:g841400",
+    "@id": "_:g849140",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g841420"
+        "@id": "_:g849160"
       }
     ]
   },
   {
-    "@id": "_:g1606420",
+    "@id": "_:g1625860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1606440"
+        "@id": "_:g1625880"
       }
     ]
   },
   {
-    "@id": "_:g841440",
+    "@id": "_:g849180",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13991,7 +14011,7 @@
     ]
   },
   {
-    "@id": "_:g1606460",
+    "@id": "_:g1625900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14019,7 +14039,7 @@
     ]
   },
   {
-    "@id": "_:g841420",
+    "@id": "_:g849160",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -14110,18 +14130,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g846680"
+        "@id": "_:g854620"
       },
       {
-        "@id": "_:g1611100"
+        "@id": "_:g1631200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g846720"
+        "@id": "_:g854660"
       },
       {
-        "@id": "_:g1611140"
+        "@id": "_:g1631240"
       }
     ],
     "http://schema.org/organizer": [
@@ -14218,29 +14238,29 @@
     ]
   },
   {
-    "@id": "_:g846680",
+    "@id": "_:g854620",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g846700"
+        "@id": "_:g854640"
       }
     ]
   },
   {
-    "@id": "_:g1611100",
+    "@id": "_:g1631200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1611120"
+        "@id": "_:g1631220"
       }
     ]
   },
   {
-    "@id": "_:g846720",
+    "@id": "_:g854660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14268,7 +14288,7 @@
     ]
   },
   {
-    "@id": "_:g1611140",
+    "@id": "_:g1631240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14296,7 +14316,7 @@
     ]
   },
   {
-    "@id": "_:g846700",
+    "@id": "_:g854640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -14465,18 +14485,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g855700"
+        "@id": "_:g863420"
       },
       {
-        "@id": "_:g1620220"
+        "@id": "_:g1640360"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g855740"
+        "@id": "_:g863460"
       },
       {
-        "@id": "_:g1620260"
+        "@id": "_:g1640400"
       }
     ],
     "http://schema.org/organizer": [
@@ -14573,29 +14593,29 @@
     ]
   },
   {
-    "@id": "_:g855700",
+    "@id": "_:g863420",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g855720"
+        "@id": "_:g863440"
       }
     ]
   },
   {
-    "@id": "_:g1620220",
+    "@id": "_:g1640360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1620240"
+        "@id": "_:g1640380"
       }
     ]
   },
   {
-    "@id": "_:g855740",
+    "@id": "_:g863460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14623,7 +14643,7 @@
     ]
   },
   {
-    "@id": "_:g1620260",
+    "@id": "_:g1640400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14651,7 +14671,7 @@
     ]
   },
   {
-    "@id": "_:g855720",
+    "@id": "_:g863440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -14742,18 +14762,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g861040"
+        "@id": "_:g868740"
       },
       {
-        "@id": "_:g1625540"
+        "@id": "_:g1645680"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g861080"
+        "@id": "_:g868780"
       },
       {
-        "@id": "_:g1625580"
+        "@id": "_:g1645720"
       }
     ],
     "http://schema.org/organizer": [
@@ -14850,29 +14870,29 @@
     ]
   },
   {
-    "@id": "_:g861040",
+    "@id": "_:g868740",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g861060"
+        "@id": "_:g868760"
       }
     ]
   },
   {
-    "@id": "_:g1625540",
+    "@id": "_:g1645680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1625560"
+        "@id": "_:g1645700"
       }
     ]
   },
   {
-    "@id": "_:g861080",
+    "@id": "_:g868780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14900,7 +14920,7 @@
     ]
   },
   {
-    "@id": "_:g1625580",
+    "@id": "_:g1645720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14928,7 +14948,7 @@
     ]
   },
   {
-    "@id": "_:g861060",
+    "@id": "_:g868760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -15357,18 +15377,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g876340"
+        "@id": "_:g883940"
       },
       {
-        "@id": "_:g1640920"
+        "@id": "_:g1661420"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g876380"
+        "@id": "_:g883980"
       },
       {
-        "@id": "_:g1640960"
+        "@id": "_:g1661460"
       }
     ],
     "http://schema.org/organizer": [
@@ -15465,29 +15485,29 @@
     ]
   },
   {
-    "@id": "_:g876340",
+    "@id": "_:g883940",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g876360"
+        "@id": "_:g883960"
       }
     ]
   },
   {
-    "@id": "_:g1640920",
+    "@id": "_:g1661420",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1640940"
+        "@id": "_:g1661440"
       }
     ]
   },
   {
-    "@id": "_:g876380",
+    "@id": "_:g883980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15515,7 +15535,7 @@
     ]
   },
   {
-    "@id": "_:g1640960",
+    "@id": "_:g1661460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15543,7 +15563,7 @@
     ]
   },
   {
-    "@id": "_:g876360",
+    "@id": "_:g883960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -15634,18 +15654,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g881700"
+        "@id": "_:g889240"
       },
       {
-        "@id": "_:g1646380"
+        "@id": "_:g1666800"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g881740"
+        "@id": "_:g889280"
       },
       {
-        "@id": "_:g1646420"
+        "@id": "_:g1666840"
       }
     ],
     "http://schema.org/organizer": [
@@ -15742,29 +15762,29 @@
     ]
   },
   {
-    "@id": "_:g881700",
+    "@id": "_:g889240",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g881720"
+        "@id": "_:g889260"
       }
     ]
   },
   {
-    "@id": "_:g1646380",
+    "@id": "_:g1666800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1646400"
+        "@id": "_:g1666820"
       }
     ]
   },
   {
-    "@id": "_:g881740",
+    "@id": "_:g889280",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15792,7 +15812,7 @@
     ]
   },
   {
-    "@id": "_:g1646420",
+    "@id": "_:g1666840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15820,7 +15840,7 @@
     ]
   },
   {
-    "@id": "_:g881720",
+    "@id": "_:g889260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -15911,18 +15931,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g887020"
+        "@id": "_:g894540"
       },
       {
-        "@id": "_:g1651500"
+        "@id": "_:g1671980"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g887060"
+        "@id": "_:g894580"
       },
       {
-        "@id": "_:g1651540"
+        "@id": "_:g1672020"
       }
     ],
     "http://schema.org/organizer": [
@@ -16019,29 +16039,29 @@
     ]
   },
   {
-    "@id": "_:g887020",
+    "@id": "_:g894540",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g887040"
+        "@id": "_:g894560"
       }
     ]
   },
   {
-    "@id": "_:g1651500",
+    "@id": "_:g1671980",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1651520"
+        "@id": "_:g1672000"
       }
     ]
   },
   {
-    "@id": "_:g887060",
+    "@id": "_:g894580",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16069,7 +16089,7 @@
     ]
   },
   {
-    "@id": "_:g1651540",
+    "@id": "_:g1672020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16097,7 +16117,7 @@
     ]
   },
   {
-    "@id": "_:g887040",
+    "@id": "_:g894560",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -16188,18 +16208,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g892220"
+        "@id": "_:g899860"
       },
       {
-        "@id": "_:g1657040"
+        "@id": "_:g1677300"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g892260"
+        "@id": "_:g899900"
       },
       {
-        "@id": "_:g1657080"
+        "@id": "_:g1677340"
       }
     ],
     "http://schema.org/organizer": [
@@ -16296,29 +16316,29 @@
     ]
   },
   {
-    "@id": "_:g892220",
+    "@id": "_:g899860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g892240"
+        "@id": "_:g899880"
       }
     ]
   },
   {
-    "@id": "_:g1657040",
+    "@id": "_:g1677300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1657060"
+        "@id": "_:g1677320"
       }
     ]
   },
   {
-    "@id": "_:g892260",
+    "@id": "_:g899900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16346,7 +16366,7 @@
     ]
   },
   {
-    "@id": "_:g1657080",
+    "@id": "_:g1677340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16374,7 +16394,7 @@
     ]
   },
   {
-    "@id": "_:g892240",
+    "@id": "_:g899880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -16651,18 +16671,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g905420"
+        "@id": "_:g912920"
       },
       {
-        "@id": "_:g1670280"
+        "@id": "_:g1690340"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g905460"
+        "@id": "_:g912960"
       },
       {
-        "@id": "_:g1670320"
+        "@id": "_:g1690380"
       }
     ],
     "http://schema.org/organizer": [
@@ -16759,29 +16779,29 @@
     ]
   },
   {
-    "@id": "_:g905420",
+    "@id": "_:g912920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g905440"
+        "@id": "_:g912940"
       }
     ]
   },
   {
-    "@id": "_:g1670280",
+    "@id": "_:g1690340",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1670300"
+        "@id": "_:g1690360"
       }
     ]
   },
   {
-    "@id": "_:g905460",
+    "@id": "_:g912960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16809,7 +16829,7 @@
     ]
   },
   {
-    "@id": "_:g1670320",
+    "@id": "_:g1690380",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16837,7 +16857,7 @@
     ]
   },
   {
-    "@id": "_:g905440",
+    "@id": "_:g912940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -16928,18 +16948,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g910800"
+        "@id": "_:g918480"
       },
       {
-        "@id": "_:g1675620"
+        "@id": "_:g1695680"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g910840"
+        "@id": "_:g918520"
       },
       {
-        "@id": "_:g1675660"
+        "@id": "_:g1695720"
       }
     ],
     "http://schema.org/organizer": [
@@ -17036,29 +17056,29 @@
     ]
   },
   {
-    "@id": "_:g910800",
+    "@id": "_:g918480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g910820"
+        "@id": "_:g918500"
       }
     ]
   },
   {
-    "@id": "_:g1675620",
+    "@id": "_:g1695680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1675640"
+        "@id": "_:g1695700"
       }
     ]
   },
   {
-    "@id": "_:g910840",
+    "@id": "_:g918520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17086,7 +17106,7 @@
     ]
   },
   {
-    "@id": "_:g1675660",
+    "@id": "_:g1695720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17114,7 +17134,7 @@
     ]
   },
   {
-    "@id": "_:g910820",
+    "@id": "_:g918500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -17205,18 +17225,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g915920"
+        "@id": "_:g923940"
       },
       {
-        "@id": "_:g1680960"
+        "@id": "_:g1700940"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g915960"
+        "@id": "_:g923980"
       },
       {
-        "@id": "_:g1681000"
+        "@id": "_:g1700980"
       }
     ],
     "http://schema.org/organizer": [
@@ -17321,29 +17341,29 @@
     ]
   },
   {
-    "@id": "_:g915920",
+    "@id": "_:g923940",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g915940"
+        "@id": "_:g923960"
       }
     ]
   },
   {
-    "@id": "_:g1680960",
+    "@id": "_:g1700940",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1680980"
+        "@id": "_:g1700960"
       }
     ]
   },
   {
-    "@id": "_:g915960",
+    "@id": "_:g923980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17371,7 +17391,7 @@
     ]
   },
   {
-    "@id": "_:g1681000",
+    "@id": "_:g1700980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17423,7 +17443,7 @@
     ]
   },
   {
-    "@id": "_:g915940",
+    "@id": "_:g923960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -17514,18 +17534,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g921520"
+        "@id": "_:g929400"
       },
       {
-        "@id": "_:g1686360"
+        "@id": "_:g1706420"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g921560"
+        "@id": "_:g929440"
       },
       {
-        "@id": "_:g1686400"
+        "@id": "_:g1706460"
       }
     ],
     "http://schema.org/organizer": [
@@ -17622,29 +17642,29 @@
     ]
   },
   {
-    "@id": "_:g921520",
+    "@id": "_:g929400",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g921540"
+        "@id": "_:g929420"
       }
     ]
   },
   {
-    "@id": "_:g1686360",
+    "@id": "_:g1706420",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1686380"
+        "@id": "_:g1706440"
       }
     ]
   },
   {
-    "@id": "_:g921560",
+    "@id": "_:g929440",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17672,7 +17692,7 @@
     ]
   },
   {
-    "@id": "_:g1686400",
+    "@id": "_:g1706460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17700,7 +17720,7 @@
     ]
   },
   {
-    "@id": "_:g921540",
+    "@id": "_:g929420",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -17825,20 +17845,6 @@
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://theplayhouse.ca/fr/nouvelles/appel-aux-candidatures-pour-la-distinction-playhouse-2025"
-      }
-    ]
-  },
-  {
-    "@id": "https://theplayhouse.ca/sites/default/files/styles/featured_event_image/public/2024-10/IMGD%20Queen%20Fredericton%201900x600.jpg?itok=D6vCZ4Ob",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Image"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr/horaire-et-billets"
       }
     ]
   },
@@ -18122,18 +18128,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g943760"
+        "@id": "_:g951660"
       },
       {
-        "@id": "_:g1707800"
+        "@id": "_:g1728700"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g943800"
+        "@id": "_:g951700"
       },
       {
-        "@id": "_:g1707840"
+        "@id": "_:g1728740"
       }
     ],
     "http://schema.org/organizer": [
@@ -18230,29 +18236,29 @@
     ]
   },
   {
-    "@id": "_:g943760",
+    "@id": "_:g951660",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g943780"
+        "@id": "_:g951680"
       }
     ]
   },
   {
-    "@id": "_:g1707800",
+    "@id": "_:g1728700",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1707820"
+        "@id": "_:g1728720"
       }
     ]
   },
   {
-    "@id": "_:g943800",
+    "@id": "_:g951700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18280,7 +18286,7 @@
     ]
   },
   {
-    "@id": "_:g1707840",
+    "@id": "_:g1728740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18308,7 +18314,7 @@
     ]
   },
   {
-    "@id": "_:g943780",
+    "@id": "_:g951680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -18399,18 +18405,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g948940"
+        "@id": "_:g956500"
       },
       {
-        "@id": "_:g1712260"
+        "@id": "_:g1733980"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g948980"
+        "@id": "_:g956540"
       },
       {
-        "@id": "_:g1712300"
+        "@id": "_:g1734020"
       }
     ],
     "http://schema.org/organizer": [
@@ -18507,29 +18513,29 @@
     ]
   },
   {
-    "@id": "_:g948940",
+    "@id": "_:g956500",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g948960"
+        "@id": "_:g956520"
       }
     ]
   },
   {
-    "@id": "_:g1712260",
+    "@id": "_:g1733980",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1712280"
+        "@id": "_:g1734000"
       }
     ]
   },
   {
-    "@id": "_:g948980",
+    "@id": "_:g956540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18557,7 +18563,7 @@
     ]
   },
   {
-    "@id": "_:g1712300",
+    "@id": "_:g1734020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18585,7 +18591,7 @@
     ]
   },
   {
-    "@id": "_:g948960",
+    "@id": "_:g956520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -18676,18 +18682,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g953500"
+        "@id": "_:g961720"
       },
       {
-        "@id": "_:g1717500"
+        "@id": "_:g1739260"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g953540"
+        "@id": "_:g961760"
       },
       {
-        "@id": "_:g1717540"
+        "@id": "_:g1739300"
       }
     ],
     "http://schema.org/organizer": [
@@ -18784,29 +18790,29 @@
     ]
   },
   {
-    "@id": "_:g953500",
+    "@id": "_:g961720",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g953520"
+        "@id": "_:g961740"
       }
     ]
   },
   {
-    "@id": "_:g1717500",
+    "@id": "_:g1739260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1717520"
+        "@id": "_:g1739280"
       }
     ]
   },
   {
-    "@id": "_:g953540",
+    "@id": "_:g961760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18834,7 +18840,7 @@
     ]
   },
   {
-    "@id": "_:g1717540",
+    "@id": "_:g1739300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18862,7 +18868,7 @@
     ]
   },
   {
-    "@id": "_:g953520",
+    "@id": "_:g961740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -18926,18 +18932,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g958920"
+        "@id": "_:g967040"
       },
       {
-        "@id": "_:g1722760"
+        "@id": "_:g1744520"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g958960"
+        "@id": "_:g967080"
       },
       {
-        "@id": "_:g1722800"
+        "@id": "_:g1744560"
       }
     ],
     "http://schema.org/organizer": [
@@ -18976,11 +18982,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Tom Papa is proud to present the Grateful Bread Tour!"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Tom Papa est fier de présenter la tournée Grateful Bread!"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -19007,29 +19013,29 @@
     ]
   },
   {
-    "@id": "_:g958920",
+    "@id": "_:g967040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g958940"
+        "@id": "_:g967060"
       }
     ]
   },
   {
-    "@id": "_:g1722760",
+    "@id": "_:g1744520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1722780"
+        "@id": "_:g1744540"
       }
     ]
   },
   {
-    "@id": "_:g958960",
+    "@id": "_:g967080",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19041,7 +19047,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -19057,7 +19063,7 @@
     ]
   },
   {
-    "@id": "_:g1722800",
+    "@id": "_:g1744560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19069,7 +19075,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -19085,7 +19091,7 @@
     ]
   },
   {
-    "@id": "_:g958940",
+    "@id": "_:g967060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -19176,18 +19182,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g965260"
+        "@id": "_:g973500"
       },
       {
-        "@id": "_:g1729280"
+        "@id": "_:g1750860"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g965300"
+        "@id": "_:g973540"
       },
       {
-        "@id": "_:g1729320"
+        "@id": "_:g1750900"
       }
     ],
     "http://schema.org/organizer": [
@@ -19284,29 +19290,29 @@
     ]
   },
   {
-    "@id": "_:g965260",
+    "@id": "_:g973500",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g965280"
+        "@id": "_:g973520"
       }
     ]
   },
   {
-    "@id": "_:g1729280",
+    "@id": "_:g1750860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1729300"
+        "@id": "_:g1750880"
       }
     ]
   },
   {
-    "@id": "_:g965300",
+    "@id": "_:g973540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19334,7 +19340,7 @@
     ]
   },
   {
-    "@id": "_:g1729320",
+    "@id": "_:g1750900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19362,7 +19368,7 @@
     ]
   },
   {
-    "@id": "_:g965280",
+    "@id": "_:g973520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -19426,18 +19432,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g970700"
+        "@id": "_:g978840"
       },
       {
-        "@id": "_:g1734420"
+        "@id": "_:g1756280"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g970740"
+        "@id": "_:g978880"
       },
       {
-        "@id": "_:g1734460"
+        "@id": "_:g1756320"
       }
     ],
     "http://schema.org/organizer": [
@@ -19476,11 +19482,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Join us for a powerful Truth and Reconciliation Day perfo"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Joignez-vous à nous pour une performance puissante par Th"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -19507,29 +19513,29 @@
     ]
   },
   {
-    "@id": "_:g970700",
+    "@id": "_:g978840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g970720"
+        "@id": "_:g978860"
       }
     ]
   },
   {
-    "@id": "_:g1734420",
+    "@id": "_:g1756280",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1734440"
+        "@id": "_:g1756300"
       }
     ]
   },
   {
-    "@id": "_:g970740",
+    "@id": "_:g978880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19541,7 +19547,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -19557,7 +19563,7 @@
     ]
   },
   {
-    "@id": "_:g1734460",
+    "@id": "_:g1756320",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19569,7 +19575,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -19585,7 +19591,7 @@
     ]
   },
   {
-    "@id": "_:g970720",
+    "@id": "_:g978860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -19649,18 +19655,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g979180"
+        "@id": "_:g987440"
       },
       {
-        "@id": "_:g1743040"
+        "@id": "_:g1764940"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g979220"
+        "@id": "_:g987480"
       },
       {
-        "@id": "_:g1743080"
+        "@id": "_:g1764980"
       }
     ],
     "http://schema.org/organizer": [
@@ -19699,11 +19705,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Enjoy the critically acclaimed horror classic Nosfera"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Assistez à la performance d’une trame sonore originale, c"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -19730,29 +19736,29 @@
     ]
   },
   {
-    "@id": "_:g979180",
+    "@id": "_:g987440",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g979200"
+        "@id": "_:g987460"
       }
     ]
   },
   {
-    "@id": "_:g1743040",
+    "@id": "_:g1764940",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1743060"
+        "@id": "_:g1764960"
       }
     ]
   },
   {
-    "@id": "_:g979220",
+    "@id": "_:g987480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19764,7 +19770,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -19780,7 +19786,7 @@
     ]
   },
   {
-    "@id": "_:g1743080",
+    "@id": "_:g1764980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19792,7 +19798,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -19808,7 +19814,7 @@
     ]
   },
   {
-    "@id": "_:g979200",
+    "@id": "_:g987460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -19883,6 +19889,50 @@
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://theplayhouse.ca/en/news"
+      }
+    ]
+  },
+  {
+    "@id": "https://theplayhouse.ca/en/news/employment-opportunity-assistant-technical-services-manager-0",
+    "@type": [
+      "http://schema.org/Article"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Employment Opportunity: Assistant Technical Services Manager"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://theplayhouse.ca/en/news"
+      },
+      {
+        "@id": "https://theplayhouse.ca/en/news/employment-opportunity-assistant-technical-services-manager-0"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en",
+        "@value": "Employment Opportunity: Assistant Technical Services Manager | Fredericton Playhouse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en",
+        "@value": "https://theplayhouse.ca/en/news/employment-opportunity-assistant-technical-services-manager-0"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en",
+        "@value": "Employment Opportunity: Assistant Technical Services Manager"
+      }
+    ],
+    "http://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "Assistant Technical Services Manager\n\nContract Full-Time\n\nFredericton Playhouse Inc., a charitable non-profit organization that manages and develops a 709-seat performance venue, has an exciting opportunity for an experienced Assistant Technical Services Manager to join our team. \n\nReporting to the Technical Services Manager, the Assistant Technical Services Manager plays a key role in the delivery of quality, effective technical services to users of the Fredericton Playhouse. \n\nWorking directly with artists, user groups and other team members, the successful candidate will have a desire to meet and exceed expectations in a customer-centric role. A member of the organization’s management team, they embrace collaboration, innovation and continuous improvement in their approach to their work. \n\nSpecifically, the Assistant Technical Services Manager’s duties include: \n\n\n\tWork directly with clients and artists to ascertain and meet their needs for technical services \n\tAct as the lead on site manager/supervisor for performances, rehearsal, and other activities  \n\tManage/Supervise the work of technical crews for each assigned event  \n\tAttend management meetings and participate in management team efforts such as organizational planning, improvement and monitoring  \n\tOther duties as may be prescribed by the Technical Services Manager \n\n\nQualifications \n\nThe successful candidate will have a proven ability to supervise a diverse compliment of full-time and casual employees in a unionized (IATSE) working environment. They will have a good working knowledge of various areas of technical services and theatrical production equipment and operations. \n\nThe ideal candidate: \n\n\n\tDemonstrates strong supervisory, organizational, problem-solving and interpersonal skills; \n\tWorks well under pressure, is able to work in a flexible schedule (including evenings and weekends); \n\tHas a personal passion for the performing arts. \n\n\nWe offer a competitive salary based on experience and training. In addition to a comprehensive benefits package, the starting salary range for this position is $1,500 to $2100 bi-weekly. \n\nInterested applicants are asked to send their cv and cover letter by July 21 to: \n \nDave Garson, Technical Services Manager \ndave@theplayhouse.ca \nDeadline: Monday, July 21, 2025 \n"
       }
     ]
   },
@@ -20083,18 +20133,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g990380"
+        "@id": "_:g998740"
       },
       {
-        "@id": "_:g1753580"
+        "@id": "_:g1775500"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g990420"
+        "@id": "_:g998780"
       },
       {
-        "@id": "_:g1753620"
+        "@id": "_:g1775540"
       }
     ],
     "http://schema.org/organizer": [
@@ -20133,11 +20183,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Experience the music of Canadian jazz legend Oscar Peters"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Faites l’expérience de la musique de la légende canadienn"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -20164,29 +20214,29 @@
     ]
   },
   {
-    "@id": "_:g990380",
+    "@id": "_:g998740",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g990400"
+        "@id": "_:g998760"
       }
     ]
   },
   {
-    "@id": "_:g1753580",
+    "@id": "_:g1775500",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1753600"
+        "@id": "_:g1775520"
       }
     ]
   },
   {
-    "@id": "_:g990420",
+    "@id": "_:g998780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20198,7 +20248,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20214,7 +20264,7 @@
     ]
   },
   {
-    "@id": "_:g1753620",
+    "@id": "_:g1775540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20226,7 +20276,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20242,7 +20292,7 @@
     ]
   },
   {
-    "@id": "_:g990400",
+    "@id": "_:g998760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20306,18 +20356,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g996620"
+        "@id": "_:g1004900"
       },
       {
-        "@id": "_:g1759200"
+        "@id": "_:g1781600"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g996660"
+        "@id": "_:g1004940"
       },
       {
-        "@id": "_:g1759240"
+        "@id": "_:g1781640"
       }
     ],
     "http://schema.org/organizer": [
@@ -20356,11 +20406,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Grammy-winning, Harvard-educated, Rock and Roll Hall of F"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Tom Morello, artiste, auteur-compositeur et militant, lau"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -20387,29 +20437,29 @@
     ]
   },
   {
-    "@id": "_:g996620",
+    "@id": "_:g1004900",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g996640"
+        "@id": "_:g1004920"
       }
     ]
   },
   {
-    "@id": "_:g1759200",
+    "@id": "_:g1781600",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1759220"
+        "@id": "_:g1781620"
       }
     ]
   },
   {
-    "@id": "_:g996660",
+    "@id": "_:g1004940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20421,7 +20471,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20437,7 +20487,7 @@
     ]
   },
   {
-    "@id": "_:g1759240",
+    "@id": "_:g1781640",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20449,7 +20499,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20465,7 +20515,7 @@
     ]
   },
   {
-    "@id": "_:g996640",
+    "@id": "_:g1004920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20529,18 +20579,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1002840"
+        "@id": "_:g1010920"
       },
       {
-        "@id": "_:g1765420"
+        "@id": "_:g1787720"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1002880"
+        "@id": "_:g1010960"
       },
       {
-        "@id": "_:g1765460"
+        "@id": "_:g1787760"
       }
     ],
     "http://schema.org/organizer": [
@@ -20579,11 +20629,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Jill Barber is a three-time Juno Award nominated singer-s"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Jill Barber est une auteure-compositrice-interprète nomin"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -20610,29 +20660,29 @@
     ]
   },
   {
-    "@id": "_:g1002840",
+    "@id": "_:g1010920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1002860"
+        "@id": "_:g1010940"
       }
     ]
   },
   {
-    "@id": "_:g1765420",
+    "@id": "_:g1787720",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1765440"
+        "@id": "_:g1787740"
       }
     ]
   },
   {
-    "@id": "_:g1002880",
+    "@id": "_:g1010960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20644,7 +20694,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20660,7 +20710,7 @@
     ]
   },
   {
-    "@id": "_:g1765460",
+    "@id": "_:g1787760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20672,7 +20722,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20688,7 +20738,7 @@
     ]
   },
   {
-    "@id": "_:g1002860",
+    "@id": "_:g1010940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20752,18 +20802,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1009400"
+        "@id": "_:g1017420"
       },
       {
-        "@id": "_:g1771900"
+        "@id": "_:g1794300"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1009440"
+        "@id": "_:g1017460"
       },
       {
-        "@id": "_:g1771940"
+        "@id": "_:g1794340"
       }
     ],
     "http://schema.org/organizer": [
@@ -20833,29 +20883,29 @@
     ]
   },
   {
-    "@id": "_:g1009400",
+    "@id": "_:g1017420",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1009420"
+        "@id": "_:g1017440"
       }
     ]
   },
   {
-    "@id": "_:g1771900",
+    "@id": "_:g1794300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1771920"
+        "@id": "_:g1794320"
       }
     ]
   },
   {
-    "@id": "_:g1009440",
+    "@id": "_:g1017460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20867,7 +20917,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20883,7 +20933,7 @@
     ]
   },
   {
-    "@id": "_:g1771940",
+    "@id": "_:g1794340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20895,7 +20945,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -20911,7 +20961,7 @@
     ]
   },
   {
-    "@id": "_:g1009420",
+    "@id": "_:g1017440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20981,18 +21031,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1015840"
+        "@id": "_:g1023780"
       },
       {
-        "@id": "_:g1778200"
+        "@id": "_:g1800780"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1015880"
+        "@id": "_:g1023820"
       },
       {
-        "@id": "_:g1778240"
+        "@id": "_:g1800820"
       }
     ],
     "http://schema.org/organizer": [
@@ -21062,29 +21112,29 @@
     ]
   },
   {
-    "@id": "_:g1015840",
+    "@id": "_:g1023780",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1015860"
+        "@id": "_:g1023800"
       }
     ]
   },
   {
-    "@id": "_:g1778200",
+    "@id": "_:g1800780",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1778220"
+        "@id": "_:g1800800"
       }
     ]
   },
   {
-    "@id": "_:g1015880",
+    "@id": "_:g1023820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21096,7 +21146,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21112,7 +21162,7 @@
     ]
   },
   {
-    "@id": "_:g1778240",
+    "@id": "_:g1800820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21124,7 +21174,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21140,7 +21190,7 @@
     ]
   },
   {
-    "@id": "_:g1015860",
+    "@id": "_:g1023800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21190,18 +21240,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1022320"
+        "@id": "_:g1030360"
       },
       {
-        "@id": "_:g1784740"
+        "@id": "_:g1807480"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1022360"
+        "@id": "_:g1030400"
       },
       {
-        "@id": "_:g1784780"
+        "@id": "_:g1807520"
       }
     ],
     "http://schema.org/organizer": [
@@ -21240,11 +21290,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "In the year of our Lord 2026, it’s a brand-new stand-up c"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "En l’an de grâce 2026, arrive un tout nouveau spectacle d"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -21271,29 +21321,29 @@
     ]
   },
   {
-    "@id": "_:g1022320",
+    "@id": "_:g1030360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1022340"
+        "@id": "_:g1030380"
       }
     ]
   },
   {
-    "@id": "_:g1784740",
+    "@id": "_:g1807480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1784760"
+        "@id": "_:g1807500"
       }
     ]
   },
   {
-    "@id": "_:g1022360",
+    "@id": "_:g1030400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21305,7 +21355,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21321,7 +21371,7 @@
     ]
   },
   {
-    "@id": "_:g1784780",
+    "@id": "_:g1807520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21333,7 +21383,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21349,7 +21399,7 @@
     ]
   },
   {
-    "@id": "_:g1022340",
+    "@id": "_:g1030380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21413,18 +21463,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1028600"
+        "@id": "_:g1036640"
       },
       {
-        "@id": "_:g1791040"
+        "@id": "_:g1813820"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1028640"
+        "@id": "_:g1036680"
       },
       {
-        "@id": "_:g1791080"
+        "@id": "_:g1813860"
       }
     ],
     "http://schema.org/organizer": [
@@ -21463,11 +21513,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "A comedic deep dive into the mysterious world of heterose"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Une plongée profonde et comique dans le monde mystérieux"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -21494,29 +21544,29 @@
     ]
   },
   {
-    "@id": "_:g1028600",
+    "@id": "_:g1036640",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1028620"
+        "@id": "_:g1036660"
       }
     ]
   },
   {
-    "@id": "_:g1791040",
+    "@id": "_:g1813820",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1791060"
+        "@id": "_:g1813840"
       }
     ]
   },
   {
-    "@id": "_:g1028640",
+    "@id": "_:g1036680",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21528,7 +21578,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21544,7 +21594,7 @@
     ]
   },
   {
-    "@id": "_:g1791080",
+    "@id": "_:g1813860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21556,7 +21606,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21572,7 +21622,7 @@
     ]
   },
   {
-    "@id": "_:g1028620",
+    "@id": "_:g1036660",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21636,18 +21686,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1035020"
+        "@id": "_:g1043300"
       },
       {
-        "@id": "_:g1797520"
+        "@id": "_:g1820480"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1035060"
+        "@id": "_:g1043340"
       },
       {
-        "@id": "_:g1797560"
+        "@id": "_:g1820520"
       }
     ],
     "http://schema.org/organizer": [
@@ -21686,11 +21736,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "A Kidoons and WYRD Production, in association with Th"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Une production de Kidoons et WYRD, en collaboration a"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -21717,29 +21767,29 @@
     ]
   },
   {
-    "@id": "_:g1035020",
+    "@id": "_:g1043300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1035040"
+        "@id": "_:g1043320"
       }
     ]
   },
   {
-    "@id": "_:g1797520",
+    "@id": "_:g1820480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1797540"
+        "@id": "_:g1820500"
       }
     ]
   },
   {
-    "@id": "_:g1035060",
+    "@id": "_:g1043340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21751,7 +21801,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-07"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21767,7 +21817,7 @@
     ]
   },
   {
-    "@id": "_:g1797560",
+    "@id": "_:g1820520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21779,7 +21829,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-07"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21795,7 +21845,7 @@
     ]
   },
   {
-    "@id": "_:g1035040",
+    "@id": "_:g1043320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21859,18 +21909,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1043360"
+        "@id": "_:g1051920"
       },
       {
-        "@id": "_:g1805800"
+        "@id": "_:g1829160"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1043400"
+        "@id": "_:g1051960"
       },
       {
-        "@id": "_:g1805840"
+        "@id": "_:g1829200"
       }
     ],
     "http://schema.org/organizer": [
@@ -21917,11 +21967,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Nomfusi is known for her vibrant mix of Afro-soul, jazz,"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Nomfusi est connue pour son mix vibrant d’afro-soul, de j"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -21948,29 +21998,29 @@
     ]
   },
   {
-    "@id": "_:g1043360",
+    "@id": "_:g1051920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1043380"
+        "@id": "_:g1051940"
       }
     ]
   },
   {
-    "@id": "_:g1805800",
+    "@id": "_:g1829160",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1805820"
+        "@id": "_:g1829180"
       }
     ]
   },
   {
-    "@id": "_:g1043400",
+    "@id": "_:g1051960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21982,7 +22032,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -21998,7 +22048,7 @@
     ]
   },
   {
-    "@id": "_:g1805840",
+    "@id": "_:g1829200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22010,7 +22060,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22050,7 +22100,7 @@
     ]
   },
   {
-    "@id": "_:g1043380",
+    "@id": "_:g1051940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22114,18 +22164,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1049880"
+        "@id": "_:g1058520"
       },
       {
-        "@id": "_:g1812280"
+        "@id": "_:g1835800"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1049920"
+        "@id": "_:g1058560"
       },
       {
-        "@id": "_:g1812320"
+        "@id": "_:g1835840"
       }
     ],
     "http://schema.org/organizer": [
@@ -22195,29 +22245,29 @@
     ]
   },
   {
-    "@id": "_:g1049880",
+    "@id": "_:g1058520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1049900"
+        "@id": "_:g1058540"
       }
     ]
   },
   {
-    "@id": "_:g1812280",
+    "@id": "_:g1835800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1812300"
+        "@id": "_:g1835820"
       }
     ]
   },
   {
-    "@id": "_:g1049920",
+    "@id": "_:g1058560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22229,7 +22279,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-04"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22245,7 +22295,7 @@
     ]
   },
   {
-    "@id": "_:g1812320",
+    "@id": "_:g1835840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22257,7 +22307,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-04"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22273,7 +22323,7 @@
     ]
   },
   {
-    "@id": "_:g1049900",
+    "@id": "_:g1058540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22337,18 +22387,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1058180"
+        "@id": "_:g1066360"
       },
       {
-        "@id": "_:g1820560"
+        "@id": "_:g1843840"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1058220"
+        "@id": "_:g1066400"
       },
       {
-        "@id": "_:g1820600"
+        "@id": "_:g1843880"
       }
     ],
     "http://schema.org/organizer": [
@@ -22387,11 +22437,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Legendary songs from the collections of legendary artists"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Des chansons légendaires, tirées de collections d’artiste"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -22418,29 +22468,29 @@
     ]
   },
   {
-    "@id": "_:g1058180",
+    "@id": "_:g1066360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1058200"
+        "@id": "_:g1066380"
       }
     ]
   },
   {
-    "@id": "_:g1820560",
+    "@id": "_:g1843840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1820580"
+        "@id": "_:g1843860"
       }
     ]
   },
   {
-    "@id": "_:g1058220",
+    "@id": "_:g1066400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22452,7 +22502,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22468,7 +22518,7 @@
     ]
   },
   {
-    "@id": "_:g1820600",
+    "@id": "_:g1843880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22480,7 +22530,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22496,7 +22546,7 @@
     ]
   },
   {
-    "@id": "_:g1058200",
+    "@id": "_:g1066380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22560,18 +22610,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1064360"
+        "@id": "_:g1072580"
       },
       {
-        "@id": "_:g1826720"
+        "@id": "_:g1850200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1064400"
+        "@id": "_:g1072620"
       },
       {
-        "@id": "_:g1826760"
+        "@id": "_:g1850240"
       }
     ],
     "http://schema.org/organizer": [
@@ -22610,11 +22660,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Dwayne Gretzky are Canada’s greatest party band and a can"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Dwayne Gretzky est le meilleur groupe de musique party du"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -22641,29 +22691,29 @@
     ]
   },
   {
-    "@id": "_:g1064360",
+    "@id": "_:g1072580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1064380"
+        "@id": "_:g1072600"
       }
     ]
   },
   {
-    "@id": "_:g1826720",
+    "@id": "_:g1850200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1826740"
+        "@id": "_:g1850220"
       }
     ]
   },
   {
-    "@id": "_:g1064400",
+    "@id": "_:g1072620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22675,7 +22725,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22691,7 +22741,7 @@
     ]
   },
   {
-    "@id": "_:g1826760",
+    "@id": "_:g1850240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22703,7 +22753,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22719,7 +22769,7 @@
     ]
   },
   {
-    "@id": "_:g1064380",
+    "@id": "_:g1072600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22783,18 +22833,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1070580"
+        "@id": "_:g1078680"
       },
       {
-        "@id": "_:g1832920"
+        "@id": "_:g1855780"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1070620"
+        "@id": "_:g1078720"
       },
       {
-        "@id": "_:g1832960"
+        "@id": "_:g1855820"
       }
     ],
     "http://schema.org/organizer": [
@@ -22833,11 +22883,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Everybody is a master of something. Blink, step, jum"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Tout le monde est maître de quelque chose. Cligner d"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -22864,29 +22914,29 @@
     ]
   },
   {
-    "@id": "_:g1070580",
+    "@id": "_:g1078680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1070600"
+        "@id": "_:g1078700"
       }
     ]
   },
   {
-    "@id": "_:g1832920",
+    "@id": "_:g1855780",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1832940"
+        "@id": "_:g1855800"
       }
     ]
   },
   {
-    "@id": "_:g1070620",
+    "@id": "_:g1078720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22898,7 +22948,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22914,7 +22964,7 @@
     ]
   },
   {
-    "@id": "_:g1832960",
+    "@id": "_:g1855820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22926,7 +22976,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -22942,7 +22992,7 @@
     ]
   },
   {
-    "@id": "_:g1070600",
+    "@id": "_:g1078700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -23006,18 +23056,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1076660"
+        "@id": "_:g1084700"
       },
       {
-        "@id": "_:g1838980"
+        "@id": "_:g1861760"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1076700"
+        "@id": "_:g1084740"
       },
       {
-        "@id": "_:g1839020"
+        "@id": "_:g1861800"
       }
     ],
     "http://schema.org/organizer": [
@@ -23064,11 +23114,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Hailing from Halifax, Wintersleep has been quietly reshap"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Originaire de Halifax, Wintersleep refaçonne tranquilleme"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -23095,29 +23145,29 @@
     ]
   },
   {
-    "@id": "_:g1076660",
+    "@id": "_:g1084700",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1076680"
+        "@id": "_:g1084720"
       }
     ]
   },
   {
-    "@id": "_:g1838980",
+    "@id": "_:g1861760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1839000"
+        "@id": "_:g1861780"
       }
     ]
   },
   {
-    "@id": "_:g1076700",
+    "@id": "_:g1084740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23129,7 +23179,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -23145,7 +23195,7 @@
     ]
   },
   {
-    "@id": "_:g1839020",
+    "@id": "_:g1861800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23157,7 +23207,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -23197,7 +23247,7 @@
     ]
   },
   {
-    "@id": "_:g1076680",
+    "@id": "_:g1084720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -23261,18 +23311,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1083180"
+        "@id": "_:g1091240"
       },
       {
-        "@id": "_:g1845480"
+        "@id": "_:g1868380"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1083220"
+        "@id": "_:g1091280"
       },
       {
-        "@id": "_:g1845520"
+        "@id": "_:g1868420"
       }
     ],
     "http://schema.org/organizer": [
@@ -23311,11 +23361,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Ballet Kelowna, known for its innovative performances in"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Ballet Kelowna, connu pour ses performances innovatrices"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -23342,41 +23392,41 @@
     ]
   },
   {
-    "@id": "_:g1083180",
+    "@id": "_:g1091240",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1083200"
+        "@id": "_:g1091260"
       }
     ]
   },
   {
-    "@id": "_:g1845480",
+    "@id": "_:g1868380",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1845500"
+        "@id": "_:g1868400"
       }
     ]
   },
   {
-    "@id": "_:g1083220",
+    "@id": "_:g1091280",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://tickets.theplayhouse.ca/online/mapSelect.asp?doWork::WSmap::loadMap=Load&createBO::WSmap=1&BOparam::WSmap::loadMap::performance_ids=F45BBBCC-F924-4F2E-83BA-72B54D2DC73C&sessionlanguage=EN"
+        "@id": "https://tickets.theplayhouse.ca/online/mapSelect.asp?doWork::WSmap::loadMap=Load&createBO::WSmap=1&BOparam::WSmap::loadMap::performance_ids=8A6AB474-9D64-4F47-A93F-B5A50CB3A860&sessionlanguage=EN"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -23392,19 +23442,19 @@
     ]
   },
   {
-    "@id": "_:g1845520",
+    "@id": "_:g1868420",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://tickets.theplayhouse.ca/online/mapSelect.asp?doWork::WSmap::loadMap=Load&createBO::WSmap=1&BOparam::WSmap::loadMap::performance_ids=F45BBBCC-F924-4F2E-83BA-72B54D2DC73C&sessionlanguage=FR"
+        "@id": "https://tickets.theplayhouse.ca/online/mapSelect.asp?doWork::WSmap::loadMap=Load&createBO::WSmap=1&BOparam::WSmap::loadMap::performance_ids=8A6AB474-9D64-4F47-A93F-B5A50CB3A860&sessionlanguage=FR"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -23420,7 +23470,7 @@
     ]
   },
   {
-    "@id": "_:g1083200",
+    "@id": "_:g1091260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -23511,18 +23561,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1089220"
+        "@id": "_:g1097380"
       },
       {
-        "@id": "_:g1851500"
+        "@id": "_:g1874440"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1089260"
+        "@id": "_:g1097420"
       },
       {
-        "@id": "_:g1851540"
+        "@id": "_:g1874480"
       }
     ],
     "http://schema.org/organizer": [
@@ -23619,29 +23669,29 @@
     ]
   },
   {
-    "@id": "_:g1089220",
+    "@id": "_:g1097380",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1089240"
+        "@id": "_:g1097400"
       }
     ]
   },
   {
-    "@id": "_:g1851500",
+    "@id": "_:g1874440",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1851520"
+        "@id": "_:g1874460"
       }
     ]
   },
   {
-    "@id": "_:g1089260",
+    "@id": "_:g1097420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23669,7 +23719,7 @@
     ]
   },
   {
-    "@id": "_:g1851540",
+    "@id": "_:g1874480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23697,7 +23747,7 @@
     ]
   },
   {
-    "@id": "_:g1089240",
+    "@id": "_:g1097400",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -23788,18 +23838,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1094380"
+        "@id": "_:g1102700"
       },
       {
-        "@id": "_:g1856900"
+        "@id": "_:g1879840"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1094420"
+        "@id": "_:g1102740"
       },
       {
-        "@id": "_:g1856940"
+        "@id": "_:g1879880"
       }
     ],
     "http://schema.org/organizer": [
@@ -23896,29 +23946,29 @@
     ]
   },
   {
-    "@id": "_:g1094380",
+    "@id": "_:g1102700",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1094400"
+        "@id": "_:g1102720"
       }
     ]
   },
   {
-    "@id": "_:g1856900",
+    "@id": "_:g1879840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1856920"
+        "@id": "_:g1879860"
       }
     ]
   },
   {
-    "@id": "_:g1094420",
+    "@id": "_:g1102740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23930,7 +23980,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-18"
+        "@value": "2025-07-04"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -23946,7 +23996,7 @@
     ]
   },
   {
-    "@id": "_:g1856940",
+    "@id": "_:g1879880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23958,7 +24008,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-18"
+        "@value": "2025-07-04"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -23974,7 +24024,7 @@
     ]
   },
   {
-    "@id": "_:g1094400",
+    "@id": "_:g1102720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24104,18 +24154,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1099620"
+        "@id": "_:g1108060"
       },
       {
-        "@id": "_:g1862180"
+        "@id": "_:g1885200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1099660"
+        "@id": "_:g1108100"
       },
       {
-        "@id": "_:g1862220"
+        "@id": "_:g1885240"
       }
     ],
     "http://schema.org/organizer": [
@@ -24185,29 +24235,29 @@
     ]
   },
   {
-    "@id": "_:g1099620",
+    "@id": "_:g1108060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1099640"
+        "@id": "_:g1108080"
       }
     ]
   },
   {
-    "@id": "_:g1862180",
+    "@id": "_:g1885200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1862200"
+        "@id": "_:g1885220"
       }
     ]
   },
   {
-    "@id": "_:g1099660",
+    "@id": "_:g1108100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24219,7 +24269,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-05-28"
+        "@value": "2025-07-04"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -24235,7 +24285,7 @@
     ]
   },
   {
-    "@id": "_:g1862220",
+    "@id": "_:g1885240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24247,7 +24297,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-05-28"
+        "@value": "2025-07-04"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -24263,7 +24313,7 @@
     ]
   },
   {
-    "@id": "_:g1099640",
+    "@id": "_:g1108080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24340,18 +24390,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1104080"
+        "@id": "_:g1113440"
       },
       {
-        "@id": "_:g1866920"
+        "@id": "_:g1890460"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1104120"
+        "@id": "_:g1113480"
       },
       {
-        "@id": "_:g1866960"
+        "@id": "_:g1890500"
       }
     ],
     "http://schema.org/organizer": [
@@ -24448,29 +24498,29 @@
     ]
   },
   {
-    "@id": "_:g1104080",
+    "@id": "_:g1113440",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1104100"
+        "@id": "_:g1113460"
       }
     ]
   },
   {
-    "@id": "_:g1866920",
+    "@id": "_:g1890460",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1866940"
+        "@id": "_:g1890480"
       }
     ]
   },
   {
-    "@id": "_:g1104120",
+    "@id": "_:g1113480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24498,7 +24548,7 @@
     ]
   },
   {
-    "@id": "_:g1866960",
+    "@id": "_:g1890500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24526,7 +24576,7 @@
     ]
   },
   {
-    "@id": "_:g1104100",
+    "@id": "_:g1113460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24661,18 +24711,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1117960"
+        "@id": "_:g1127340"
       },
       {
-        "@id": "_:g1876000"
+        "@id": "_:g1899980"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1118000"
+        "@id": "_:g1127380"
       },
       {
-        "@id": "_:g1876040"
+        "@id": "_:g1900020"
       }
     ],
     "http://schema.org/organizer": [
@@ -24769,29 +24819,29 @@
     ]
   },
   {
-    "@id": "_:g1117960",
+    "@id": "_:g1127340",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1117980"
+        "@id": "_:g1127360"
       }
     ]
   },
   {
-    "@id": "_:g1876000",
+    "@id": "_:g1899980",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1876020"
+        "@id": "_:g1900000"
       }
     ]
   },
   {
-    "@id": "_:g1118000",
+    "@id": "_:g1127380",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24819,7 +24869,7 @@
     ]
   },
   {
-    "@id": "_:g1876040",
+    "@id": "_:g1900020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24847,7 +24897,7 @@
     ]
   },
   {
-    "@id": "_:g1117980",
+    "@id": "_:g1127360",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24938,18 +24988,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1123300"
+        "@id": "_:g1132780"
       },
       {
-        "@id": "_:g1881040"
+        "@id": "_:g1905460"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1123340"
+        "@id": "_:g1132820"
       },
       {
-        "@id": "_:g1881080"
+        "@id": "_:g1905500"
       }
     ],
     "http://schema.org/organizer": [
@@ -25046,29 +25096,29 @@
     ]
   },
   {
-    "@id": "_:g1123300",
+    "@id": "_:g1132780",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1123320"
+        "@id": "_:g1132800"
       }
     ]
   },
   {
-    "@id": "_:g1881040",
+    "@id": "_:g1905460",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1881060"
+        "@id": "_:g1905480"
       }
     ]
   },
   {
-    "@id": "_:g1123340",
+    "@id": "_:g1132820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25080,7 +25130,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25096,7 +25146,7 @@
     ]
   },
   {
-    "@id": "_:g1881080",
+    "@id": "_:g1905500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25108,7 +25158,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25124,7 +25174,7 @@
     ]
   },
   {
-    "@id": "_:g1123320",
+    "@id": "_:g1132800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -25215,18 +25265,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1128600"
+        "@id": "_:g1138080"
       },
       {
-        "@id": "_:g1886320"
+        "@id": "_:g1910840"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1128640"
+        "@id": "_:g1138120"
       },
       {
-        "@id": "_:g1886360"
+        "@id": "_:g1910880"
       }
     ],
     "http://schema.org/organizer": [
@@ -25323,29 +25373,29 @@
     ]
   },
   {
-    "@id": "_:g1128600",
+    "@id": "_:g1138080",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1128620"
+        "@id": "_:g1138100"
       }
     ]
   },
   {
-    "@id": "_:g1886320",
+    "@id": "_:g1910840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1886340"
+        "@id": "_:g1910860"
       }
     ]
   },
   {
-    "@id": "_:g1128640",
+    "@id": "_:g1138120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25357,7 +25407,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25373,7 +25423,7 @@
     ]
   },
   {
-    "@id": "_:g1886360",
+    "@id": "_:g1910880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25385,7 +25435,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25401,7 +25451,7 @@
     ]
   },
   {
-    "@id": "_:g1128620",
+    "@id": "_:g1138100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -25492,18 +25542,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1133840"
+        "@id": "_:g1143440"
       },
       {
-        "@id": "_:g1891680"
+        "@id": "_:g1916160"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1133880"
+        "@id": "_:g1143480"
       },
       {
-        "@id": "_:g1891720"
+        "@id": "_:g1916200"
       }
     ],
     "http://schema.org/organizer": [
@@ -25600,29 +25650,29 @@
     ]
   },
   {
-    "@id": "_:g1133840",
+    "@id": "_:g1143440",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1133860"
+        "@id": "_:g1143460"
       }
     ]
   },
   {
-    "@id": "_:g1891680",
+    "@id": "_:g1916160",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1891700"
+        "@id": "_:g1916180"
       }
     ]
   },
   {
-    "@id": "_:g1133880",
+    "@id": "_:g1143480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25634,7 +25684,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25650,7 +25700,7 @@
     ]
   },
   {
-    "@id": "_:g1891720",
+    "@id": "_:g1916200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25662,7 +25712,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25678,7 +25728,7 @@
     ]
   },
   {
-    "@id": "_:g1133860",
+    "@id": "_:g1143460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -25769,18 +25819,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1139140"
+        "@id": "_:g1148820"
       },
       {
-        "@id": "_:g1896700"
+        "@id": "_:g1921480"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1139180"
+        "@id": "_:g1148860"
       },
       {
-        "@id": "_:g1896740"
+        "@id": "_:g1921520"
       }
     ],
     "http://schema.org/organizer": [
@@ -25877,29 +25927,29 @@
     ]
   },
   {
-    "@id": "_:g1139140",
+    "@id": "_:g1148820",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1139160"
+        "@id": "_:g1148840"
       }
     ]
   },
   {
-    "@id": "_:g1896700",
+    "@id": "_:g1921480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1896720"
+        "@id": "_:g1921500"
       }
     ]
   },
   {
-    "@id": "_:g1139180",
+    "@id": "_:g1148860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25911,7 +25961,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25927,7 +25977,7 @@
     ]
   },
   {
-    "@id": "_:g1896740",
+    "@id": "_:g1921520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25939,7 +25989,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-05"
+        "@value": "2025-07-03"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -25955,7 +26005,7 @@
     ]
   },
   {
-    "@id": "_:g1139160",
+    "@id": "_:g1148840",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26019,18 +26069,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1144580"
+        "@id": "_:g1154140"
       },
       {
-        "@id": "_:g1902080"
+        "@id": "_:g1926820"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1144620"
+        "@id": "_:g1154180"
       },
       {
-        "@id": "_:g1902120"
+        "@id": "_:g1926860"
       }
     ],
     "http://schema.org/organizer": [
@@ -26069,11 +26119,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Poor Cinderella."
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Pauvre Cendrillon."
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -26100,29 +26150,29 @@
     ]
   },
   {
-    "@id": "_:g1144580",
+    "@id": "_:g1154140",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1144600"
+        "@id": "_:g1154160"
       }
     ]
   },
   {
-    "@id": "_:g1902080",
+    "@id": "_:g1926820",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1902100"
+        "@id": "_:g1926840"
       }
     ]
   },
   {
-    "@id": "_:g1144620",
+    "@id": "_:g1154180",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26134,7 +26184,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26150,7 +26200,7 @@
     ]
   },
   {
-    "@id": "_:g1902120",
+    "@id": "_:g1926860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26162,7 +26212,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26178,7 +26228,7 @@
     ]
   },
   {
-    "@id": "_:g1144600",
+    "@id": "_:g1154160",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26248,18 +26298,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1150900"
+        "@id": "_:g1160300"
       },
       {
-        "@id": "_:g1908000"
+        "@id": "_:g1933000"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1150940"
+        "@id": "_:g1160340"
       },
       {
-        "@id": "_:g1908040"
+        "@id": "_:g1933040"
       }
     ],
     "http://schema.org/organizer": [
@@ -26298,11 +26348,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Poor Cinderella."
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Pauvre Cendrillon."
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -26329,29 +26379,29 @@
     ]
   },
   {
-    "@id": "_:g1150900",
+    "@id": "_:g1160300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1150920"
+        "@id": "_:g1160320"
       }
     ]
   },
   {
-    "@id": "_:g1908000",
+    "@id": "_:g1933000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1908020"
+        "@id": "_:g1933020"
       }
     ]
   },
   {
-    "@id": "_:g1150940",
+    "@id": "_:g1160340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26363,7 +26413,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26379,7 +26429,7 @@
     ]
   },
   {
-    "@id": "_:g1908040",
+    "@id": "_:g1933040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26391,7 +26441,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26407,7 +26457,7 @@
     ]
   },
   {
-    "@id": "_:g1150920",
+    "@id": "_:g1160320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26457,18 +26507,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1156940"
+        "@id": "_:g1166560"
       },
       {
-        "@id": "_:g1914020"
+        "@id": "_:g1939020"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1156980"
+        "@id": "_:g1166600"
       },
       {
-        "@id": "_:g1914060"
+        "@id": "_:g1939060"
       }
     ],
     "http://schema.org/organizer": [
@@ -26507,11 +26557,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Prepare yourself for an unforgettable one-man circus come"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Préparez-vous à vivre un spectacle de cirque humoristique"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -26538,29 +26588,29 @@
     ]
   },
   {
-    "@id": "_:g1156940",
+    "@id": "_:g1166560",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1156960"
+        "@id": "_:g1166580"
       }
     ]
   },
   {
-    "@id": "_:g1914020",
+    "@id": "_:g1939020",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1914040"
+        "@id": "_:g1939040"
       }
     ]
   },
   {
-    "@id": "_:g1156980",
+    "@id": "_:g1166600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26572,7 +26622,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26588,7 +26638,7 @@
     ]
   },
   {
-    "@id": "_:g1914060",
+    "@id": "_:g1939060",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26600,7 +26650,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26616,7 +26666,7 @@
     ]
   },
   {
-    "@id": "_:g1156960",
+    "@id": "_:g1166580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26680,18 +26730,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1163120"
+        "@id": "_:g1172580"
       },
       {
-        "@id": "_:g1920040"
+        "@id": "_:g1945060"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1163160"
+        "@id": "_:g1172620"
       },
       {
-        "@id": "_:g1920080"
+        "@id": "_:g1945100"
       }
     ],
     "http://schema.org/organizer": [
@@ -26730,11 +26780,11 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Tickets are available to 2025-26 Playhouse Member"
+        "@value": "Join Tunes and Tall Tales for a joyful, interactive music"
       },
       {
         "@language": "fr",
-        "@value": "Les billets sont disponibles aux Membres du Playh"
+        "@value": "Joignez-vous à Tunes and Tall Tales pour une aventure mus"
       }
     ],
     "http://schema.org/isAccessibleForFree": [
@@ -26761,29 +26811,29 @@
     ]
   },
   {
-    "@id": "_:g1163120",
+    "@id": "_:g1172580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1163140"
+        "@id": "_:g1172600"
       }
     ]
   },
   {
-    "@id": "_:g1920040",
+    "@id": "_:g1945060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1920060"
+        "@id": "_:g1945080"
       }
     ]
   },
   {
-    "@id": "_:g1163160",
+    "@id": "_:g1172620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26795,7 +26845,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26811,7 +26861,7 @@
     ]
   },
   {
-    "@id": "_:g1920080",
+    "@id": "_:g1945100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26823,7 +26873,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -26839,7 +26889,7 @@
     ]
   },
   {
-    "@id": "_:g1163140",
+    "@id": "_:g1172600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26903,18 +26953,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1168940"
+        "@id": "_:g1178500"
       },
       {
-        "@id": "_:g1925840"
+        "@id": "_:g1950960"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1168980"
+        "@id": "_:g1178540"
       },
       {
-        "@id": "_:g1925880"
+        "@id": "_:g1951000"
       }
     ],
     "http://schema.org/organizer": [
@@ -26984,29 +27034,29 @@
     ]
   },
   {
-    "@id": "_:g1168940",
+    "@id": "_:g1178500",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1168960"
+        "@id": "_:g1178520"
       }
     ]
   },
   {
-    "@id": "_:g1925840",
+    "@id": "_:g1950960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1925860"
+        "@id": "_:g1950980"
       }
     ]
   },
   {
-    "@id": "_:g1168980",
+    "@id": "_:g1178540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27018,7 +27068,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -27034,7 +27084,7 @@
     ]
   },
   {
-    "@id": "_:g1925880",
+    "@id": "_:g1951000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27046,7 +27096,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
+        "@value": "2025-07-02"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -27062,7 +27112,7 @@
     ]
   },
   {
-    "@id": "_:g1168960",
+    "@id": "_:g1178520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -27153,18 +27203,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1178560"
+        "@id": "_:g1188060"
       },
       {
-        "@id": "_:g1931700"
+        "@id": "_:g1956800"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1178600"
+        "@id": "_:g1188100"
       },
       {
-        "@id": "_:g1931740"
+        "@id": "_:g1956840"
       }
     ],
     "http://schema.org/organizer": [
@@ -27261,29 +27311,29 @@
     ]
   },
   {
-    "@id": "_:g1178560",
+    "@id": "_:g1188060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1178580"
+        "@id": "_:g1188080"
       }
     ]
   },
   {
-    "@id": "_:g1931700",
+    "@id": "_:g1956800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1931720"
+        "@id": "_:g1956820"
       }
     ]
   },
   {
-    "@id": "_:g1178600",
+    "@id": "_:g1188100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27311,7 +27361,7 @@
     ]
   },
   {
-    "@id": "_:g1931740",
+    "@id": "_:g1956840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27339,7 +27389,7 @@
     ]
   },
   {
-    "@id": "_:g1178580",
+    "@id": "_:g1188080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -27379,273 +27429,6 @@
       },
       {
         "@id": "https://theplayhouse.ca/fr/horaire-et-billets/ron-james-noise-between-our-ears"
-      }
-    ]
-  },
-  {
-    "@id": "https://theplayhouse.ca/en/schedule-and-tickets/masquerade-2025",
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Masquerade 2025 | Fredericton Playhouse"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en",
-        "@value": "https://theplayhouse.ca/en/schedule-and-tickets/masquerade-2025"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "Masquerade 2025"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "https://theplayhouse.ca/sites/default/files/styles/large/public/2025-06/Masquerade%20web%201%20pic.png?itok=vO5wry-g"
-      }
-    ]
-  },
-  {
-    "@id": "https://theplayhouse.ca/node/748",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/masquerade-2025"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr/horaire-et-billets/masquerade-2025"
-      }
-    ],
-    "http://schema.org/previousStartDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-07-05"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g1183300"
-      },
-      {
-        "@id": "_:g1937040"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g1183340"
-      },
-      {
-        "@id": "_:g1937080"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "https://www.theplayhouse.ca/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/masquerade-2025"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr/horaire-et-billets/masquerade-2025"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Masquerade 2025"
-      },
-      {
-        "@language": "fr",
-        "@value": "Masquerade 2025"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": ""
-      },
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/isAccessibleForFree": [
-      {
-        "@language": "en",
-        "@value": "True"
-      },
-      {
-        "@language": "fr",
-        "@value": "True"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-07-05T16:00:00-03:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-07-05T18:00:00-03:00"
-      }
-    ]
-  },
-  {
-    "@id": "https://theplayhouse.ca/fr/horaire-et-billets/masquerade-2025",
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "fr",
-        "@value": "Masquerade 2025 | Le Fredericton Playhouse"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "fr",
-        "@value": "https://theplayhouse.ca/fr/horaire-et-billets/masquerade-2025"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "fr",
-        "@value": "Masquerade 2025"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "fr",
-        "@value": "https://theplayhouse.ca/sites/default/files/styles/large/public/2025-06/Masquerade%20web%201%20pic.png?itok=vO5wry-g"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1183300",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g1183320"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1937040",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g1937060"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1183340",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/LimitedAvailability"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1937080",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-10"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/LimitedAvailability"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1183320",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "en",
-        "@value": "Fredericton Playhouse"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "en",
-        "@value": "Fredericton"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "en",
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "en",
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://theplayhouse.ca/sites/default/files/styles/hero_image/public/2025-06/Masquerade%20web%201%20pic.png?itok=ewIj8tvc",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Image"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://theplayhouse.ca/en/schedule-and-tickets/masquerade-2025"
-      },
-      {
-        "@id": "https://theplayhouse.ca/fr/horaire-et-billets/masquerade-2025"
       }
     ]
   },
@@ -27697,18 +27480,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1192340"
+        "@id": "_:g1197340"
       },
       {
-        "@id": "_:g1942240"
+        "@id": "_:g1962260"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1192380"
+        "@id": "_:g1197380"
       },
       {
-        "@id": "_:g1942280"
+        "@id": "_:g1962300"
       }
     ],
     "http://schema.org/organizer": [
@@ -27805,29 +27588,29 @@
     ]
   },
   {
-    "@id": "_:g1192340",
+    "@id": "_:g1197340",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1192360"
+        "@id": "_:g1197360"
       }
     ]
   },
   {
-    "@id": "_:g1942240",
+    "@id": "_:g1962260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1942260"
+        "@id": "_:g1962280"
       }
     ]
   },
   {
-    "@id": "_:g1192380",
+    "@id": "_:g1197380",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27855,7 +27638,7 @@
     ]
   },
   {
-    "@id": "_:g1942280",
+    "@id": "_:g1962300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27883,7 +27666,7 @@
     ]
   },
   {
-    "@id": "_:g1192360",
+    "@id": "_:g1197360",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -27974,18 +27757,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1197640"
+        "@id": "_:g1202640"
       },
       {
-        "@id": "_:g1946700"
+        "@id": "_:g1967500"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1197680"
+        "@id": "_:g1202680"
       },
       {
-        "@id": "_:g1946740"
+        "@id": "_:g1967540"
       }
     ],
     "http://schema.org/organizer": [
@@ -28082,29 +27865,29 @@
     ]
   },
   {
-    "@id": "_:g1197640",
+    "@id": "_:g1202640",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1197660"
+        "@id": "_:g1202660"
       }
     ]
   },
   {
-    "@id": "_:g1946700",
+    "@id": "_:g1967500",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1946720"
+        "@id": "_:g1967520"
       }
     ]
   },
   {
-    "@id": "_:g1197680",
+    "@id": "_:g1202680",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28132,7 +27915,7 @@
     ]
   },
   {
-    "@id": "_:g1946740",
+    "@id": "_:g1967540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28160,7 +27943,7 @@
     ]
   },
   {
-    "@id": "_:g1197660",
+    "@id": "_:g1202660",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -28251,18 +28034,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1202880"
+        "@id": "_:g1208020"
       },
       {
-        "@id": "_:g1952120"
+        "@id": "_:g1972760"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1202920"
+        "@id": "_:g1208060"
       },
       {
-        "@id": "_:g1952160"
+        "@id": "_:g1972800"
       }
     ],
     "http://schema.org/organizer": [
@@ -28359,29 +28142,29 @@
     ]
   },
   {
-    "@id": "_:g1202880",
+    "@id": "_:g1208020",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1202900"
+        "@id": "_:g1208040"
       }
     ]
   },
   {
-    "@id": "_:g1952120",
+    "@id": "_:g1972760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1952140"
+        "@id": "_:g1972780"
       }
     ]
   },
   {
-    "@id": "_:g1202920",
+    "@id": "_:g1208060",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28409,7 +28192,7 @@
     ]
   },
   {
-    "@id": "_:g1952160",
+    "@id": "_:g1972800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28437,7 +28220,7 @@
     ]
   },
   {
-    "@id": "_:g1202900",
+    "@id": "_:g1208040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -28528,18 +28311,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1208320"
+        "@id": "_:g1213360"
       },
       {
-        "@id": "_:g1957280"
+        "@id": "_:g1978100"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1208360"
+        "@id": "_:g1213400"
       },
       {
-        "@id": "_:g1957320"
+        "@id": "_:g1978140"
       }
     ],
     "http://schema.org/organizer": [
@@ -28636,29 +28419,29 @@
     ]
   },
   {
-    "@id": "_:g1208320",
+    "@id": "_:g1213360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1208340"
+        "@id": "_:g1213380"
       }
     ]
   },
   {
-    "@id": "_:g1957280",
+    "@id": "_:g1978100",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1957300"
+        "@id": "_:g1978120"
       }
     ]
   },
   {
-    "@id": "_:g1208360",
+    "@id": "_:g1213400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28686,7 +28469,7 @@
     ]
   },
   {
-    "@id": "_:g1957320",
+    "@id": "_:g1978140",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28714,7 +28497,7 @@
     ]
   },
   {
-    "@id": "_:g1208340",
+    "@id": "_:g1213380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -28778,18 +28561,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1213600"
+        "@id": "_:g1218740"
       },
       {
-        "@id": "_:g1962840"
+        "@id": "_:g1983500"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1213640"
+        "@id": "_:g1218780"
       },
       {
-        "@id": "_:g1962880"
+        "@id": "_:g1983540"
       }
     ],
     "http://schema.org/organizer": [
@@ -28859,29 +28642,29 @@
     ]
   },
   {
-    "@id": "_:g1213600",
+    "@id": "_:g1218740",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1213620"
+        "@id": "_:g1218760"
       }
     ]
   },
   {
-    "@id": "_:g1962840",
+    "@id": "_:g1983500",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1962860"
+        "@id": "_:g1983520"
       }
     ]
   },
   {
-    "@id": "_:g1213640",
+    "@id": "_:g1218780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28909,7 +28692,7 @@
     ]
   },
   {
-    "@id": "_:g1962880",
+    "@id": "_:g1983540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28937,7 +28720,7 @@
     ]
   },
   {
-    "@id": "_:g1213620",
+    "@id": "_:g1218760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29473,7 +29256,7 @@
     "http://schema.org/text": [
       {
         "@language": "fr",
-        "@value": "Le Fredericton Playhouse est un organisme de bienfaisance géré par des bénévoles qui partage la magie du spectacle avec notre communauté. En mettant notre scène à la disponibilité d’une multitude de musiciens, comédiens, danseurs et autres artistes, nous créons des expériences culturelles inspirantes et divertissons des publics de tous âges.\n\nLe Playhouse déménagera dans le nouveau centre des arts de la scène (le Centre des arts Hawkes) en 2027, et pour y arriver, il faut le soutien de la communauté. Nous avons lancé la Campagne Communautaire Encore! pour un recueil de fonds en support des coûts de construction d’immobilisations, des renouvellements futurs pour soutenir l’entretien des espaces pendant toute la durée de vie du bâtiment ainsi que des programmes d'accès élargis qui s'appuieront sur les merveilleux programmes que Playhouse propose actuellement afin que tous les membres de notre communauté puissent découvrir la magie de performances en direct.\n\n\n\tSoutenez la campagne Encore! avec un engagement mensuel ou annuel\n\tDevenir un partenaire corporatif\n\tDevenir bénévole\n\tFaites un don planifié au Fredericton Playhouse\n\n\nPour en savoir plus sur le nouveau centre des arts (Centre Hawkes), cliquez ici. \n\nChaque don nous aide à partager la magie du spectacle avec notre communauté comme jamais auparavant. Merci pour votre appui!\n"
+        "@value": "Le Fredericton Playhouse est un organisme de bienfaisance géré par des bénévoles qui partage la magie du spectacle avec notre communauté. En mettant notre scène à la disponibilité d’une multitude de musiciens, comédiens, danseurs et autres artistes, nous créons des expériences culturelles inspirantes et divertissons des publics de tous âges.\n\n\n\tDevenez Amis du Playhouse avec un don de notre campagne annuel\n\tDevenir un partenaire corporatif\n\tDevenir bénévole\n\tFaites un don planifié au Fredericton Playhouse\n\n\nChaque don nous aide à partager la magie du spectacle avec notre communauté comme jamais auparavant. Merci pour votre appui!\n"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -29555,7 +29338,7 @@
     "http://schema.org/text": [
       {
         "@language": "fr",
-        "@value": "Au Playhouse, nous croyons que les arts font partie intégrante de notre vie et qu’il est essentiel d’encourager et de favoriser l’accès aux spectacles. Dans cette optique, nous sommes fiers d’offrir des programmes qui garantissent l’accès aux arts de la scène pour toute la population du Grand Fredericton.\n\nNos programmes vont doubler et même tripler lorsque nous emménagerons dans le Centre des Arts Ron & Erma Hawkes en 2027!  Pour y arriver, il faudra un soutien communautaire. \n\n\n\tSoutenez la campagne Encore! avec un engagement mensuel ou annuel\n\n\nPour en savoir plus sur le nouveau centre des arts (Centre Hawkes), cliquez ici. \n\nVotre don nour permet de:\n\n\n\tÉtendre nos programmes d'accès communautaire tels que les sorties scolaires spéciales en matinée aux élèves locaux, dont beaucoup n'ont jamais été au théâtre auparavant.\n\tConstruire un nouvel espace dynamique au centre des arts qui nous permettra d'apporter encore plus de magie à la communauté.\n\t \n\n"
+        "@value": "Les Amis du Fredericton Playhouse\n\nNous croyons que nous méritons tous de vivre la joie du spectacle et d’être inspirés par elle. Voilà pourquoi les Amis veillent à faciliter l’accès à l’expérience de spectacle. Offrons ces performances enrichissantes à plus de membres de notre communauté que jamais auparavant!\n\nLa vente de billet ne couvre qu’une partie du financement nécessaire à la présentation des programmes au Playhouse. Nos Amis nous fournissent le soutien financier supplémentaire dont nous avons besoin pour offrir ces programmes spéciaux aux enfants d’âge scolaire, aux artistes locaux, et aux autres membres méritants de notre communauté. \n\nVotre don nous permet d'offrir:\n\n\n\tDes matinées scolaires aux élèves de la région, dont beaucoup ne sont jamais allé au théâtre\n\tDes billets gratuits aux gens de notre communauté qui rencontrent des obstacles d’accès aux arts de la scène, dans le cadre de notre programme Les arts sont pour tous\n\tDes ateliers de danse, de musique, de théâtre et autres aux enfants et aux jeunes à travers les activités de notre programme Trempez-vous!\n\tDes résidences de créations pour les artistes locaux afin qu’ils puissent développer leurs talents au Playhouse à travers notre programme InterMISSION\n\tDes billets gratuits pour les spectacles destinés au jeune public et aux familles de notre Série Jeunesse\n\tDes programmes et des services qui établissent des liens importants entre les artistes, le public et la communauté\n\n\nTous les dons de 25 $ ou plus recevront un reçu fiscal pour don de bienfaisance.\n"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -29647,7 +29430,7 @@
     ]
   },
   {
-    "@id": "_:g1405220",
+    "@id": "_:g1417680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29893,7 +29676,7 @@
     ]
   },
   {
-    "@id": "_:g1558880",
+    "@id": "_:g1578960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29923,7 +29706,7 @@
     ]
   },
   {
-    "@id": "_:g1581260",
+    "@id": "_:g1600560",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29953,7 +29736,7 @@
     ]
   },
   {
-    "@id": "_:g1593020",
+    "@id": "_:g1611680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29983,7 +29766,7 @@
     ]
   },
   {
-    "@id": "_:g1597660",
+    "@id": "_:g1617040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30039,7 +29822,7 @@
     ]
   },
   {
-    "@id": "_:g1606440",
+    "@id": "_:g1625880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30069,7 +29852,7 @@
     ]
   },
   {
-    "@id": "_:g1611120",
+    "@id": "_:g1631220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30099,7 +29882,7 @@
     ]
   },
   {
-    "@id": "_:g1620240",
+    "@id": "_:g1640380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30129,7 +29912,7 @@
     ]
   },
   {
-    "@id": "_:g1625560",
+    "@id": "_:g1645700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30159,7 +29942,7 @@
     ]
   },
   {
-    "@id": "_:g1640940",
+    "@id": "_:g1661440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30189,7 +29972,7 @@
     ]
   },
   {
-    "@id": "_:g1646400",
+    "@id": "_:g1666820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30219,7 +30002,7 @@
     ]
   },
   {
-    "@id": "_:g1651520",
+    "@id": "_:g1672000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30249,7 +30032,7 @@
     ]
   },
   {
-    "@id": "_:g1657060",
+    "@id": "_:g1677320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30279,7 +30062,7 @@
     ]
   },
   {
-    "@id": "_:g1670300",
+    "@id": "_:g1690360",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30309,7 +30092,7 @@
     ]
   },
   {
-    "@id": "_:g1675640",
+    "@id": "_:g1695700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30339,7 +30122,7 @@
     ]
   },
   {
-    "@id": "_:g1680980",
+    "@id": "_:g1700960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30369,7 +30152,7 @@
     ]
   },
   {
-    "@id": "_:g1686380",
+    "@id": "_:g1706440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30399,7 +30182,7 @@
     ]
   },
   {
-    "@id": "_:g1707820",
+    "@id": "_:g1728720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30429,7 +30212,7 @@
     ]
   },
   {
-    "@id": "_:g1712280",
+    "@id": "_:g1734000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30459,7 +30242,7 @@
     ]
   },
   {
-    "@id": "_:g1717520",
+    "@id": "_:g1739280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30489,7 +30272,7 @@
     ]
   },
   {
-    "@id": "_:g1722780",
+    "@id": "_:g1744540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30519,7 +30302,7 @@
     ]
   },
   {
-    "@id": "_:g1729300",
+    "@id": "_:g1750880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30549,7 +30332,7 @@
     ]
   },
   {
-    "@id": "_:g1734440",
+    "@id": "_:g1756300",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30579,7 +30362,7 @@
     ]
   },
   {
-    "@id": "_:g1743060",
+    "@id": "_:g1764960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30644,7 +30427,7 @@
     ]
   },
   {
-    "@id": "_:g1753600",
+    "@id": "_:g1775520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30674,7 +30457,7 @@
     ]
   },
   {
-    "@id": "_:g1759220",
+    "@id": "_:g1781620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30704,7 +30487,7 @@
     ]
   },
   {
-    "@id": "_:g1765440",
+    "@id": "_:g1787740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30734,7 +30517,7 @@
     ]
   },
   {
-    "@id": "_:g1771920",
+    "@id": "_:g1794320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30764,7 +30547,7 @@
     ]
   },
   {
-    "@id": "_:g1778220",
+    "@id": "_:g1800800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30794,7 +30577,7 @@
     ]
   },
   {
-    "@id": "_:g1784760",
+    "@id": "_:g1807500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30824,7 +30607,7 @@
     ]
   },
   {
-    "@id": "_:g1791060",
+    "@id": "_:g1813840",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30854,7 +30637,7 @@
     ]
   },
   {
-    "@id": "_:g1797540",
+    "@id": "_:g1820500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30884,7 +30667,7 @@
     ]
   },
   {
-    "@id": "_:g1805820",
+    "@id": "_:g1829180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30914,7 +30697,7 @@
     ]
   },
   {
-    "@id": "_:g1812300",
+    "@id": "_:g1835820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30944,7 +30727,7 @@
     ]
   },
   {
-    "@id": "_:g1820580",
+    "@id": "_:g1843860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30974,7 +30757,7 @@
     ]
   },
   {
-    "@id": "_:g1826740",
+    "@id": "_:g1850220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31004,7 +30787,7 @@
     ]
   },
   {
-    "@id": "_:g1832940",
+    "@id": "_:g1855800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31034,7 +30817,7 @@
     ]
   },
   {
-    "@id": "_:g1839000",
+    "@id": "_:g1861780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31064,7 +30847,7 @@
     ]
   },
   {
-    "@id": "_:g1845500",
+    "@id": "_:g1868400",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31094,7 +30877,7 @@
     ]
   },
   {
-    "@id": "_:g1851520",
+    "@id": "_:g1874460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31124,7 +30907,7 @@
     ]
   },
   {
-    "@id": "_:g1856920",
+    "@id": "_:g1879860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31154,7 +30937,7 @@
     ]
   },
   {
-    "@id": "_:g1862200",
+    "@id": "_:g1885220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31184,7 +30967,7 @@
     ]
   },
   {
-    "@id": "_:g1866940",
+    "@id": "_:g1890480",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31214,7 +30997,7 @@
     ]
   },
   {
-    "@id": "_:g1876020",
+    "@id": "_:g1900000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31244,7 +31027,7 @@
     ]
   },
   {
-    "@id": "_:g1881060",
+    "@id": "_:g1905480",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31274,7 +31057,7 @@
     ]
   },
   {
-    "@id": "_:g1886340",
+    "@id": "_:g1910860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31304,7 +31087,7 @@
     ]
   },
   {
-    "@id": "_:g1891700",
+    "@id": "_:g1916180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31334,7 +31117,7 @@
     ]
   },
   {
-    "@id": "_:g1896720",
+    "@id": "_:g1921500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31364,7 +31147,7 @@
     ]
   },
   {
-    "@id": "_:g1902100",
+    "@id": "_:g1926840",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31394,7 +31177,7 @@
     ]
   },
   {
-    "@id": "_:g1908020",
+    "@id": "_:g1933020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31424,7 +31207,7 @@
     ]
   },
   {
-    "@id": "_:g1914040",
+    "@id": "_:g1939040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31454,7 +31237,7 @@
     ]
   },
   {
-    "@id": "_:g1920060",
+    "@id": "_:g1945080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31484,7 +31267,7 @@
     ]
   },
   {
-    "@id": "_:g1925860",
+    "@id": "_:g1950980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31514,7 +31297,7 @@
     ]
   },
   {
-    "@id": "_:g1931720",
+    "@id": "_:g1956820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31544,7 +31327,7 @@
     ]
   },
   {
-    "@id": "_:g1937060",
+    "@id": "_:g1962280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31574,7 +31357,7 @@
     ]
   },
   {
-    "@id": "_:g1942260",
+    "@id": "_:g1967520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31604,7 +31387,7 @@
     ]
   },
   {
-    "@id": "_:g1946720",
+    "@id": "_:g1972780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31634,7 +31417,7 @@
     ]
   },
   {
-    "@id": "_:g1952140",
+    "@id": "_:g1978120",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31664,37 +31447,7 @@
     ]
   },
   {
-    "@id": "_:g1957300",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "fr",
-        "@value": "Fredericton Playhouse"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "fr",
-        "@value": "Fredericton"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "fr",
-        "@value": "NB"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "fr",
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1962860",
+    "@id": "_:g1983520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
