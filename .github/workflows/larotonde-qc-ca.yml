@@ -15,4 +15,5 @@ jobs:
           publisher: "https://github.com/fjjulien#this"
           page-url: "https://www.larotonde.qc.ca/sitemap.xml"
           entity-identifier: "a[href*='/programmation/']"
+          fetch-urls-headlessly: true
           token: "${{ secrets.GITHUB_TOKEN }}"
