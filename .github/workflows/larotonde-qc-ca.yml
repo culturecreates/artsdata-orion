@@ -1,4 +1,4 @@
-
+name: Fetch larotonde-qc-ca
 
 on:
   workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
         with:
           mode: "fetch-push"
           artifact: "larotonde-qc-ca"
-          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          publisher: "https://github.com/fjjulien#this"
           page-url: "https://www.larotonde.qc.ca/sitemap.xml"
           entity-identifier: "//a[contains(@href,\"/programmation/\")]"
           token: "${{ secrets.GITHUB_TOKEN }}"
