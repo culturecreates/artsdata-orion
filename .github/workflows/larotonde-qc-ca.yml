@@ -14,5 +14,5 @@ jobs:
           artifact: "larotonde-qc-ca"
           publisher: "https://github.com/fjjulien#this"
           page-url: "https://www.larotonde.qc.ca/sitemap.xml"
-          entity-identifier: "//a[contains(@href,\"/programmation/\")]"
+          entity-identifier: "//a[contains(@href,\"/programmation/\")]/@href"
           token: "${{ secrets.GITHUB_TOKEN }}"
