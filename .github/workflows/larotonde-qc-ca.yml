@@ -1,0 +1,18 @@
+
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+          mode: "fetch-push"
+          artifact: "larotonde-qc-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://www.larotonde.qc.ca/sitemap.xml"
+          entity-identifier: "//a[contains(@href,\"/programmation/\")]"
+          token: "${{ secrets.GITHUB_TOKEN }}"
