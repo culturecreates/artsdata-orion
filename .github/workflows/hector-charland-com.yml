@@ -1,0 +1,17 @@
+name: Fetch Hector-Charland
+on:
+  workflow_dispatch:
+ 
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Action setup
+      uses: culturecreates/artsdata-pipeline-action@v3
+      with:
+        mode: fetch-push
+        artifact: hector-charland-com
+        publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+        page-url: https://hector-charland.com/sitemaps-1-section-spectacles-1-sitemap.xml
+        entity-identifier: loc
+        token: "${{ secrets.GITHUB_TOKEN }}"
