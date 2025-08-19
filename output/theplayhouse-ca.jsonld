@@ -4166,18 +4166,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g652820"
+        "@id": "_:g659500"
       },
       {
-        "@id": "_:g1596780"
+        "@id": "_:g1638260"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g652860"
+        "@id": "_:g659540"
       },
       {
-        "@id": "_:g1596820"
+        "@id": "_:g1638300"
       }
     ],
     "http://schema.org/organizer": [
@@ -4201,16 +4201,6 @@
       {
         "@language": "fr",
         "@value": "Donovan Woods"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -4237,6 +4227,11 @@
       {
         "@type": "http://schema.org/Date",
         "@value": "2023-10-12T19:30:00-03:00"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
       }
     ]
   },
@@ -4268,29 +4263,29 @@
     ]
   },
   {
-    "@id": "_:g652820",
+    "@id": "_:g659500",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g652840"
+        "@id": "_:g659520"
       }
     ]
   },
   {
-    "@id": "_:g1596780",
+    "@id": "_:g1638260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1596800"
+        "@id": "_:g1638280"
       }
     ]
   },
   {
-    "@id": "_:g652860",
+    "@id": "_:g659540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4318,7 +4313,7 @@
     ]
   },
   {
-    "@id": "_:g1596820",
+    "@id": "_:g1638300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4367,7 +4362,7 @@
     ]
   },
   {
-    "@id": "_:g652840",
+    "@id": "_:g659520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -12534,18 +12529,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g829580"
+        "@id": "_:g844580"
       },
       {
-        "@id": "_:g1770680"
+        "@id": "_:g1819580"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g829620"
+        "@id": "_:g844620"
       },
       {
-        "@id": "_:g1770720"
+        "@id": "_:g1819620"
       }
     ],
     "http://schema.org/organizer": [
@@ -12569,16 +12564,6 @@
       {
         "@language": "fr",
         "@value": "The Barr Brothers"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -12612,32 +12597,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-05-09T21:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g829580",
+    "@id": "_:g844580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g829600"
+        "@id": "_:g844600"
       }
     ]
   },
   {
-    "@id": "_:g1770680",
+    "@id": "_:g1819580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1770700"
+        "@id": "_:g1819600"
       }
     ]
   },
   {
-    "@id": "_:g829620",
+    "@id": "_:g844620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12665,7 +12655,7 @@
     ]
   },
   {
-    "@id": "_:g1770720",
+    "@id": "_:g1819620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12693,7 +12683,7 @@
     ]
   },
   {
-    "@id": "_:g829600",
+    "@id": "_:g844600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -13275,18 +13265,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g864320"
+        "@id": "_:g880860"
       },
       {
-        "@id": "_:g1801160"
+        "@id": "_:g1852680"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g864360"
+        "@id": "_:g880900"
       },
       {
-        "@id": "_:g1801200"
+        "@id": "_:g1852720"
       }
     ],
     "http://schema.org/organizer": [
@@ -13310,16 +13300,6 @@
       {
         "@language": "fr",
         "@value": "Hells Bells: Celebrating the music of AC/DC"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -13353,6 +13333,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-24T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -13383,29 +13368,29 @@
     ]
   },
   {
-    "@id": "_:g864320",
+    "@id": "_:g880860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g864340"
+        "@id": "_:g880880"
       }
     ]
   },
   {
-    "@id": "_:g1801160",
+    "@id": "_:g1852680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1801180"
+        "@id": "_:g1852700"
       }
     ]
   },
   {
-    "@id": "_:g864360",
+    "@id": "_:g880900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13433,7 +13418,7 @@
     ]
   },
   {
-    "@id": "_:g1801200",
+    "@id": "_:g1852720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13461,7 +13446,7 @@
     ]
   },
   {
-    "@id": "_:g864340",
+    "@id": "_:g880880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -13552,18 +13537,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g870200"
+        "@id": "_:g887100"
       },
       {
-        "@id": "_:g1806820"
+        "@id": "_:g1858780"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g870240"
+        "@id": "_:g887140"
       },
       {
-        "@id": "_:g1806860"
+        "@id": "_:g1858820"
       }
     ],
     "http://schema.org/organizer": [
@@ -13587,16 +13572,6 @@
       {
         "@language": "fr",
         "@value": "Sandman: Celebrating the Music of Metallica"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -13630,6 +13605,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-14T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -13660,29 +13640,29 @@
     ]
   },
   {
-    "@id": "_:g870200",
+    "@id": "_:g887100",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g870220"
+        "@id": "_:g887120"
       }
     ]
   },
   {
-    "@id": "_:g1806820",
+    "@id": "_:g1858780",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1806840"
+        "@id": "_:g1858800"
       }
     ]
   },
   {
-    "@id": "_:g870240",
+    "@id": "_:g887140",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13710,7 +13690,7 @@
     ]
   },
   {
-    "@id": "_:g1806860",
+    "@id": "_:g1858820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13738,7 +13718,7 @@
     ]
   },
   {
-    "@id": "_:g870220",
+    "@id": "_:g887120",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -13895,18 +13875,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g880060"
+        "@id": "_:g897620"
       },
       {
-        "@id": "_:g1816840"
+        "@id": "_:g1869200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g880100"
+        "@id": "_:g897660"
       },
       {
-        "@id": "_:g1816880"
+        "@id": "_:g1869240"
       }
     ],
     "http://schema.org/organizer": [
@@ -13930,16 +13910,6 @@
       {
         "@language": "fr",
         "@value": "Bee Gees Revisited The Tribute Show"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -13973,6 +13943,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-15T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -14003,29 +13978,29 @@
     ]
   },
   {
-    "@id": "_:g880060",
+    "@id": "_:g897620",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g880080"
+        "@id": "_:g897640"
       }
     ]
   },
   {
-    "@id": "_:g1816840",
+    "@id": "_:g1869200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1816860"
+        "@id": "_:g1869220"
       }
     ]
   },
   {
-    "@id": "_:g880100",
+    "@id": "_:g897660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14053,7 +14028,7 @@
     ]
   },
   {
-    "@id": "_:g1816880",
+    "@id": "_:g1869240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14081,7 +14056,7 @@
     ]
   },
   {
-    "@id": "_:g880080",
+    "@id": "_:g897640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -14172,18 +14147,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g885920"
+        "@id": "_:g903320"
       },
       {
-        "@id": "_:g1822740"
+        "@id": "_:g1874480"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g885960"
+        "@id": "_:g903360"
       },
       {
-        "@id": "_:g1822780"
+        "@id": "_:g1874520"
       }
     ],
     "http://schema.org/organizer": [
@@ -14207,16 +14182,6 @@
       {
         "@language": "fr",
         "@value": "Queen: It's a Kinda Magic"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -14250,6 +14215,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-08-29T22:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -14280,29 +14250,29 @@
     ]
   },
   {
-    "@id": "_:g885920",
+    "@id": "_:g903320",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g885940"
+        "@id": "_:g903340"
       }
     ]
   },
   {
-    "@id": "_:g1822740",
+    "@id": "_:g1874480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1822760"
+        "@id": "_:g1874500"
       }
     ]
   },
   {
-    "@id": "_:g885960",
+    "@id": "_:g903360",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14330,7 +14300,7 @@
     ]
   },
   {
-    "@id": "_:g1822780",
+    "@id": "_:g1874520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14358,7 +14328,7 @@
     ]
   },
   {
-    "@id": "_:g885940",
+    "@id": "_:g903340",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -14527,18 +14497,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g895560"
+        "@id": "_:g913560"
       },
       {
-        "@id": "_:g1832480"
+        "@id": "_:g1884840"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g895600"
+        "@id": "_:g913600"
       },
       {
-        "@id": "_:g1832520"
+        "@id": "_:g1884880"
       }
     ],
     "http://schema.org/organizer": [
@@ -14562,16 +14532,6 @@
       {
         "@language": "fr",
         "@value": "The Peking Acrobats: matinée spéciale"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -14605,6 +14565,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-04-11T13:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -14635,29 +14600,29 @@
     ]
   },
   {
-    "@id": "_:g895560",
+    "@id": "_:g913560",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g895580"
+        "@id": "_:g913580"
       }
     ]
   },
   {
-    "@id": "_:g1832480",
+    "@id": "_:g1884840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1832500"
+        "@id": "_:g1884860"
       }
     ]
   },
   {
-    "@id": "_:g895600",
+    "@id": "_:g913600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14685,7 +14650,7 @@
     ]
   },
   {
-    "@id": "_:g1832520",
+    "@id": "_:g1884880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14713,7 +14678,7 @@
     ]
   },
   {
-    "@id": "_:g895580",
+    "@id": "_:g913580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -15142,18 +15107,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g912040"
+        "@id": "_:g930680"
       },
       {
-        "@id": "_:g1849260"
+        "@id": "_:g1901740"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g912080"
+        "@id": "_:g930720"
       },
       {
-        "@id": "_:g1849300"
+        "@id": "_:g1901780"
       }
     ],
     "http://schema.org/organizer": [
@@ -15177,16 +15142,6 @@
       {
         "@language": "fr",
         "@value": "Lucien & Jimmy the Janitor: Senior Moments"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -15220,6 +15175,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-01T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -15250,29 +15210,29 @@
     ]
   },
   {
-    "@id": "_:g912040",
+    "@id": "_:g930680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g912060"
+        "@id": "_:g930700"
       }
     ]
   },
   {
-    "@id": "_:g1849260",
+    "@id": "_:g1901740",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1849280"
+        "@id": "_:g1901760"
       }
     ]
   },
   {
-    "@id": "_:g912080",
+    "@id": "_:g930720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15300,7 +15260,7 @@
     ]
   },
   {
-    "@id": "_:g1849300",
+    "@id": "_:g1901780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15328,7 +15288,7 @@
     ]
   },
   {
-    "@id": "_:g912060",
+    "@id": "_:g930700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -15419,18 +15379,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g917900"
+        "@id": "_:g936680"
       },
       {
-        "@id": "_:g1854940"
+        "@id": "_:g1907760"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g917940"
+        "@id": "_:g936720"
       },
       {
-        "@id": "_:g1854980"
+        "@id": "_:g1907800"
       }
     ],
     "http://schema.org/organizer": [
@@ -15454,16 +15414,6 @@
       {
         "@language": "fr",
         "@value": "James Mullinger: Live in '25"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -15497,6 +15447,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-26T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -15527,29 +15482,29 @@
     ]
   },
   {
-    "@id": "_:g917900",
+    "@id": "_:g936680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g917920"
+        "@id": "_:g936700"
       }
     ]
   },
   {
-    "@id": "_:g1854940",
+    "@id": "_:g1907760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1854960"
+        "@id": "_:g1907780"
       }
     ]
   },
   {
-    "@id": "_:g917940",
+    "@id": "_:g936720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15577,7 +15532,7 @@
     ]
   },
   {
-    "@id": "_:g1854980",
+    "@id": "_:g1907800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15605,7 +15560,7 @@
     ]
   },
   {
-    "@id": "_:g917920",
+    "@id": "_:g936700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -15696,18 +15651,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g923460"
+        "@id": "_:g942860"
       },
       {
-        "@id": "_:g1860680"
+        "@id": "_:g1913860"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g923500"
+        "@id": "_:g942900"
       },
       {
-        "@id": "_:g1860720"
+        "@id": "_:g1913900"
       }
     ],
     "http://schema.org/organizer": [
@@ -15731,16 +15686,6 @@
       {
         "@language": "fr",
         "@value": "Luke Combs UK: A Tribute Show"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -15774,6 +15719,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-17T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -15804,29 +15754,29 @@
     ]
   },
   {
-    "@id": "_:g923460",
+    "@id": "_:g942860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g923480"
+        "@id": "_:g942880"
       }
     ]
   },
   {
-    "@id": "_:g1860680",
+    "@id": "_:g1913860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1860700"
+        "@id": "_:g1913880"
       }
     ]
   },
   {
-    "@id": "_:g923500",
+    "@id": "_:g942900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15854,7 +15804,7 @@
     ]
   },
   {
-    "@id": "_:g1860720",
+    "@id": "_:g1913900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -15882,7 +15832,7 @@
     ]
   },
   {
-    "@id": "_:g923480",
+    "@id": "_:g942880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -16159,18 +16109,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g937680"
+        "@id": "_:g957300"
       },
       {
-        "@id": "_:g1874900"
+        "@id": "_:g1928060"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g937720"
+        "@id": "_:g957340"
       },
       {
-        "@id": "_:g1874940"
+        "@id": "_:g1928100"
       }
     ],
     "http://schema.org/organizer": [
@@ -16194,16 +16144,6 @@
       {
         "@language": "fr",
         "@value": "Take It To The Limit: A Tribute To The Eagles"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -16237,6 +16177,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-05T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -16267,29 +16212,29 @@
     ]
   },
   {
-    "@id": "_:g937680",
+    "@id": "_:g957300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g937700"
+        "@id": "_:g957320"
       }
     ]
   },
   {
-    "@id": "_:g1874900",
+    "@id": "_:g1928060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1874920"
+        "@id": "_:g1928080"
       }
     ]
   },
   {
-    "@id": "_:g937720",
+    "@id": "_:g957340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16317,7 +16262,7 @@
     ]
   },
   {
-    "@id": "_:g1874940",
+    "@id": "_:g1928100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16345,7 +16290,7 @@
     ]
   },
   {
-    "@id": "_:g937700",
+    "@id": "_:g957320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -16436,18 +16381,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g943460"
+        "@id": "_:g963320"
       },
       {
-        "@id": "_:g1880780"
+        "@id": "_:g1934080"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g943500"
+        "@id": "_:g963360"
       },
       {
-        "@id": "_:g1880820"
+        "@id": "_:g1934120"
       }
     ],
     "http://schema.org/organizer": [
@@ -16471,16 +16416,6 @@
       {
         "@language": "fr",
         "@value": "The Last Waltz"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -16514,6 +16449,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-09T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -16544,29 +16484,29 @@
     ]
   },
   {
-    "@id": "_:g943460",
+    "@id": "_:g963320",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g943480"
+        "@id": "_:g963340"
       }
     ]
   },
   {
-    "@id": "_:g1880780",
+    "@id": "_:g1934080",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1880800"
+        "@id": "_:g1934100"
       }
     ]
   },
   {
-    "@id": "_:g943500",
+    "@id": "_:g963360",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16594,7 +16534,7 @@
     ]
   },
   {
-    "@id": "_:g1880820",
+    "@id": "_:g1934120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16622,7 +16562,7 @@
     ]
   },
   {
-    "@id": "_:g943480",
+    "@id": "_:g963340",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -16713,18 +16653,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g949360"
+        "@id": "_:g969460"
       },
       {
-        "@id": "_:g1886340"
+        "@id": "_:g1940080"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g949400"
+        "@id": "_:g969500"
       },
       {
-        "@id": "_:g1886380"
+        "@id": "_:g1940120"
       }
     ],
     "http://schema.org/organizer": [
@@ -16758,16 +16698,6 @@
         "@value": "Elisapie: Uvattini"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
-      }
-    ],
     "http://schema.org/description": [
       {
         "@language": "en",
@@ -16799,6 +16729,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-12T22:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -16829,29 +16764,29 @@
     ]
   },
   {
-    "@id": "_:g949360",
+    "@id": "_:g969460",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g949380"
+        "@id": "_:g969480"
       }
     ]
   },
   {
-    "@id": "_:g1886340",
+    "@id": "_:g1940080",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1886360"
+        "@id": "_:g1940100"
       }
     ]
   },
   {
-    "@id": "_:g949400",
+    "@id": "_:g969500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16879,7 +16814,7 @@
     ]
   },
   {
-    "@id": "_:g1886380",
+    "@id": "_:g1940120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -16931,7 +16866,7 @@
     ]
   },
   {
-    "@id": "_:g949380",
+    "@id": "_:g969480",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -17022,18 +16957,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g955220"
+        "@id": "_:g975580"
       },
       {
-        "@id": "_:g1892320"
+        "@id": "_:g1946280"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g955260"
+        "@id": "_:g975620"
       },
       {
-        "@id": "_:g1892360"
+        "@id": "_:g1946320"
       }
     ],
     "http://schema.org/organizer": [
@@ -17057,16 +16992,6 @@
       {
         "@language": "fr",
         "@value": "Bobcaygeon - A Tribute to the Tragically Hip"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -17100,6 +17025,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-22T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -17130,29 +17060,29 @@
     ]
   },
   {
-    "@id": "_:g955220",
+    "@id": "_:g975580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g955240"
+        "@id": "_:g975600"
       }
     ]
   },
   {
-    "@id": "_:g1892320",
+    "@id": "_:g1946280",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1892340"
+        "@id": "_:g1946300"
       }
     ]
   },
   {
-    "@id": "_:g955260",
+    "@id": "_:g975620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17180,7 +17110,7 @@
     ]
   },
   {
-    "@id": "_:g1892360",
+    "@id": "_:g1946320",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17208,7 +17138,7 @@
     ]
   },
   {
-    "@id": "_:g955240",
+    "@id": "_:g975600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -17686,18 +17616,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g978960"
+        "@id": "_:g1000480"
       },
       {
-        "@id": "_:g1916820"
+        "@id": "_:g1970920"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g979000"
+        "@id": "_:g1000520"
       },
       {
-        "@id": "_:g1916860"
+        "@id": "_:g1970960"
       }
     ],
     "http://schema.org/organizer": [
@@ -17721,16 +17651,6 @@
       {
         "@language": "fr",
         "@value": "Jess Moskaluke: Life For Me Tour"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -17764,6 +17684,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-06T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -17794,29 +17719,29 @@
     ]
   },
   {
-    "@id": "_:g978960",
+    "@id": "_:g1000480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g978980"
+        "@id": "_:g1000500"
       }
     ]
   },
   {
-    "@id": "_:g1916820",
+    "@id": "_:g1970920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1916840"
+        "@id": "_:g1970940"
       }
     ]
   },
   {
-    "@id": "_:g979000",
+    "@id": "_:g1000520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17844,7 +17769,7 @@
     ]
   },
   {
-    "@id": "_:g1916860",
+    "@id": "_:g1970960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -17872,7 +17797,7 @@
     ]
   },
   {
-    "@id": "_:g978980",
+    "@id": "_:g1000500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -17963,18 +17888,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g984660"
+        "@id": "_:g1005580"
       },
       {
-        "@id": "_:g1922480"
+        "@id": "_:g1976740"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g984700"
+        "@id": "_:g1005620"
       },
       {
-        "@id": "_:g1922520"
+        "@id": "_:g1976780"
       }
     ],
     "http://schema.org/organizer": [
@@ -17998,16 +17923,6 @@
       {
         "@language": "fr",
         "@value": "Soirée avant-première de la série Pleins feux 2025-26"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -18041,6 +17956,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-06-10T21:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -18071,29 +17991,29 @@
     ]
   },
   {
-    "@id": "_:g984660",
+    "@id": "_:g1005580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g984680"
+        "@id": "_:g1005600"
       }
     ]
   },
   {
-    "@id": "_:g1922480",
+    "@id": "_:g1976740",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1922500"
+        "@id": "_:g1976760"
       }
     ]
   },
   {
-    "@id": "_:g984700",
+    "@id": "_:g1005620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18121,7 +18041,7 @@
     ]
   },
   {
-    "@id": "_:g1922520",
+    "@id": "_:g1976780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18149,7 +18069,7 @@
     ]
   },
   {
-    "@id": "_:g984680",
+    "@id": "_:g1005600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -18240,18 +18160,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g990360"
+        "@id": "_:g1011580"
       },
       {
-        "@id": "_:g1928120"
+        "@id": "_:g1981940"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g990400"
+        "@id": "_:g1011620"
       },
       {
-        "@id": "_:g1928160"
+        "@id": "_:g1981980"
       }
     ],
     "http://schema.org/organizer": [
@@ -18275,16 +18195,6 @@
       {
         "@language": "fr",
         "@value": "Savio Joseph: Wonderstruck"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -18318,6 +18228,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-20T21:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -18348,29 +18263,29 @@
     ]
   },
   {
-    "@id": "_:g990360",
+    "@id": "_:g1011580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g990380"
+        "@id": "_:g1011600"
       }
     ]
   },
   {
-    "@id": "_:g1928120",
+    "@id": "_:g1981940",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1928140"
+        "@id": "_:g1981960"
       }
     ]
   },
   {
-    "@id": "_:g990400",
+    "@id": "_:g1011620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18398,7 +18313,7 @@
     ]
   },
   {
-    "@id": "_:g1928160",
+    "@id": "_:g1981980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18426,7 +18341,7 @@
     ]
   },
   {
-    "@id": "_:g990380",
+    "@id": "_:g1011600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -18490,18 +18405,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g996060"
+        "@id": "_:g1017580"
       },
       {
-        "@id": "_:g1933820"
+        "@id": "_:g1987800"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g996100"
+        "@id": "_:g1017620"
       },
       {
-        "@id": "_:g1933860"
+        "@id": "_:g1987840"
       }
     ],
     "http://schema.org/organizer": [
@@ -18525,16 +18440,6 @@
       {
         "@language": "fr",
         "@value": "Tom Papa: Grateful Bread Tour"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -18568,32 +18473,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-16T22:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g996060",
+    "@id": "_:g1017580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g996080"
+        "@id": "_:g1017600"
       }
     ]
   },
   {
-    "@id": "_:g1933820",
+    "@id": "_:g1987800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1933840"
+        "@id": "_:g1987820"
       }
     ]
   },
   {
-    "@id": "_:g996100",
+    "@id": "_:g1017620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18621,7 +18531,7 @@
     ]
   },
   {
-    "@id": "_:g1933860",
+    "@id": "_:g1987840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18649,7 +18559,7 @@
     ]
   },
   {
-    "@id": "_:g996080",
+    "@id": "_:g1017600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -18740,18 +18650,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1002820"
+        "@id": "_:g1024680"
       },
       {
-        "@id": "_:g1940620"
+        "@id": "_:g1994060"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1002860"
+        "@id": "_:g1024720"
       },
       {
-        "@id": "_:g1940660"
+        "@id": "_:g1994100"
       }
     ],
     "http://schema.org/organizer": [
@@ -18775,16 +18685,6 @@
       {
         "@language": "fr",
         "@value": "Country Boys: Christmas Edition"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -18818,6 +18718,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-05T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -18848,29 +18753,29 @@
     ]
   },
   {
-    "@id": "_:g1002820",
+    "@id": "_:g1024680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1002840"
+        "@id": "_:g1024700"
       }
     ]
   },
   {
-    "@id": "_:g1940620",
+    "@id": "_:g1994060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1940640"
+        "@id": "_:g1994080"
       }
     ]
   },
   {
-    "@id": "_:g1002860",
+    "@id": "_:g1024720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18898,7 +18803,7 @@
     ]
   },
   {
-    "@id": "_:g1940660",
+    "@id": "_:g1994100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -18926,7 +18831,7 @@
     ]
   },
   {
-    "@id": "_:g1002840",
+    "@id": "_:g1024700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -18990,18 +18895,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1008660"
+        "@id": "_:g1030700"
       },
       {
-        "@id": "_:g1946380"
+        "@id": "_:g1999940"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1008700"
+        "@id": "_:g1030740"
       },
       {
-        "@id": "_:g1946420"
+        "@id": "_:g1999980"
       }
     ],
     "http://schema.org/organizer": [
@@ -19025,16 +18930,6 @@
       {
         "@language": "fr",
         "@value": "The Hello Crows"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -19068,32 +18963,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-30T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1008660",
+    "@id": "_:g1030700",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1008680"
+        "@id": "_:g1030720"
       }
     ]
   },
   {
-    "@id": "_:g1946380",
+    "@id": "_:g1999940",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1946400"
+        "@id": "_:g1999960"
       }
     ]
   },
   {
-    "@id": "_:g1008700",
+    "@id": "_:g1030740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19121,7 +19021,7 @@
     ]
   },
   {
-    "@id": "_:g1946420",
+    "@id": "_:g1999980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19149,7 +19049,7 @@
     ]
   },
   {
-    "@id": "_:g1008680",
+    "@id": "_:g1030720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -19213,18 +19113,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1018100"
+        "@id": "_:g1040520"
       },
       {
-        "@id": "_:g1955620"
+        "@id": "_:g2009260"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1018140"
+        "@id": "_:g1040560"
       },
       {
-        "@id": "_:g1955660"
+        "@id": "_:g2009300"
       }
     ],
     "http://schema.org/organizer": [
@@ -19248,16 +19148,6 @@
       {
         "@language": "fr",
         "@value": "Nosferatu (1922)"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -19291,32 +19181,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-17T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1018100",
+    "@id": "_:g1040520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1018120"
+        "@id": "_:g1040540"
       }
     ]
   },
   {
-    "@id": "_:g1955620",
+    "@id": "_:g2009260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1955640"
+        "@id": "_:g2009280"
       }
     ]
   },
   {
-    "@id": "_:g1018140",
+    "@id": "_:g1040560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19344,7 +19239,7 @@
     ]
   },
   {
-    "@id": "_:g1955660",
+    "@id": "_:g2009300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19372,7 +19267,7 @@
     ]
   },
   {
-    "@id": "_:g1018120",
+    "@id": "_:g1040540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -19700,18 +19595,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1030860"
+        "@id": "_:g1053820"
       },
       {
-        "@id": "_:g1967280"
+        "@id": "_:g2021200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1030900"
+        "@id": "_:g1053860"
       },
       {
-        "@id": "_:g1967320"
+        "@id": "_:g2021240"
       }
     ],
     "http://schema.org/organizer": [
@@ -19735,16 +19630,6 @@
       {
         "@language": "fr",
         "@value": "Oscar Peterson Centennial Quartet"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -19778,32 +19663,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-03T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1030860",
+    "@id": "_:g1053820",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1030880"
+        "@id": "_:g1053840"
       }
     ]
   },
   {
-    "@id": "_:g1967280",
+    "@id": "_:g2021200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1967300"
+        "@id": "_:g2021220"
       }
     ]
   },
   {
-    "@id": "_:g1030900",
+    "@id": "_:g1053860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19831,7 +19721,7 @@
     ]
   },
   {
-    "@id": "_:g1967320",
+    "@id": "_:g2021240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -19859,7 +19749,7 @@
     ]
   },
   {
-    "@id": "_:g1030880",
+    "@id": "_:g1053840",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -19923,18 +19813,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1037480"
+        "@id": "_:g1060800"
       },
       {
-        "@id": "_:g1973800"
+        "@id": "_:g2028180"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1037520"
+        "@id": "_:g1060840"
       },
       {
-        "@id": "_:g1973840"
+        "@id": "_:g2028220"
       }
     ],
     "http://schema.org/organizer": [
@@ -19958,16 +19848,6 @@
       {
         "@language": "fr",
         "@value": "Tom Morello: A Night of Stories & Music"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -20001,32 +19881,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-05T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1037480",
+    "@id": "_:g1060800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1037500"
+        "@id": "_:g1060820"
       }
     ]
   },
   {
-    "@id": "_:g1973800",
+    "@id": "_:g2028180",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1973820"
+        "@id": "_:g2028200"
       }
     ]
   },
   {
-    "@id": "_:g1037520",
+    "@id": "_:g1060840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20054,7 +19939,7 @@
     ]
   },
   {
-    "@id": "_:g1973840",
+    "@id": "_:g2028220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20082,7 +19967,7 @@
     ]
   },
   {
-    "@id": "_:g1037500",
+    "@id": "_:g1060820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20146,18 +20031,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1043900"
+        "@id": "_:g1067760"
       },
       {
-        "@id": "_:g1980460"
+        "@id": "_:g2034860"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1043940"
+        "@id": "_:g1067800"
       },
       {
-        "@id": "_:g1980500"
+        "@id": "_:g2034900"
       }
     ],
     "http://schema.org/organizer": [
@@ -20181,16 +20066,6 @@
       {
         "@language": "fr",
         "@value": "A Holly Jolly Jill Barber Christmas"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -20224,32 +20099,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-04T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1043900",
+    "@id": "_:g1067760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1043920"
+        "@id": "_:g1067780"
       }
     ]
   },
   {
-    "@id": "_:g1980460",
+    "@id": "_:g2034860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1980480"
+        "@id": "_:g2034880"
       }
     ]
   },
   {
-    "@id": "_:g1043940",
+    "@id": "_:g1067800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20277,7 +20157,7 @@
     ]
   },
   {
-    "@id": "_:g1980500",
+    "@id": "_:g2034900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20305,7 +20185,7 @@
     ]
   },
   {
-    "@id": "_:g1043920",
+    "@id": "_:g1067780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20369,18 +20249,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1050900"
+        "@id": "_:g1075000"
       },
       {
-        "@id": "_:g1987580"
+        "@id": "_:g2042080"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1050940"
+        "@id": "_:g1075040"
       },
       {
-        "@id": "_:g1987620"
+        "@id": "_:g2042120"
       }
     ],
     "http://schema.org/organizer": [
@@ -20404,16 +20284,6 @@
       {
         "@language": "fr",
         "@value": "Choir! Choir! Choir!"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -20447,32 +20317,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-14T16:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1050900",
+    "@id": "_:g1075000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1050920"
+        "@id": "_:g1075020"
       }
     ]
   },
   {
-    "@id": "_:g1987580",
+    "@id": "_:g2042080",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1987600"
+        "@id": "_:g2042100"
       }
     ]
   },
   {
-    "@id": "_:g1050940",
+    "@id": "_:g1075040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20500,7 +20375,7 @@
     ]
   },
   {
-    "@id": "_:g1987620",
+    "@id": "_:g2042120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20528,7 +20403,7 @@
     ]
   },
   {
-    "@id": "_:g1050920",
+    "@id": "_:g1075020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20598,18 +20473,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1057840"
+        "@id": "_:g1082100"
       },
       {
-        "@id": "_:g1994580"
+        "@id": "_:g2048920"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1057880"
+        "@id": "_:g1082140"
       },
       {
-        "@id": "_:g1994620"
+        "@id": "_:g2048960"
       }
     ],
     "http://schema.org/organizer": [
@@ -20633,16 +20508,6 @@
       {
         "@language": "fr",
         "@value": "Choir! Choir! Choir!"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -20676,32 +20541,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-14T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1057840",
+    "@id": "_:g1082100",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1057860"
+        "@id": "_:g1082120"
       }
     ]
   },
   {
-    "@id": "_:g1994580",
+    "@id": "_:g2048920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1994600"
+        "@id": "_:g2048940"
       }
     ]
   },
   {
-    "@id": "_:g1057880",
+    "@id": "_:g1082140",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20729,7 +20599,7 @@
     ]
   },
   {
-    "@id": "_:g1994620",
+    "@id": "_:g2048960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20757,7 +20627,7 @@
     ]
   },
   {
-    "@id": "_:g1057860",
+    "@id": "_:g1082120",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -20807,18 +20677,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1064820"
+        "@id": "_:g1089300"
       },
       {
-        "@id": "_:g2001800"
+        "@id": "_:g2056040"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1064860"
+        "@id": "_:g1089340"
       },
       {
-        "@id": "_:g2001840"
+        "@id": "_:g2056080"
       }
     ],
     "http://schema.org/organizer": [
@@ -20842,16 +20712,6 @@
       {
         "@language": "fr",
         "@value": "Rhys Nicholson: Huge Big Party Congratulations"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -20885,32 +20745,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-01-17T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1064820",
+    "@id": "_:g1089300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1064840"
+        "@id": "_:g1089320"
       }
     ]
   },
   {
-    "@id": "_:g2001800",
+    "@id": "_:g2056040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2001820"
+        "@id": "_:g2056060"
       }
     ]
   },
   {
-    "@id": "_:g1064860",
+    "@id": "_:g1089340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20938,7 +20803,7 @@
     ]
   },
   {
-    "@id": "_:g2001840",
+    "@id": "_:g2056080",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -20966,7 +20831,7 @@
     ]
   },
   {
-    "@id": "_:g1064840",
+    "@id": "_:g1089320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21030,18 +20895,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1071500"
+        "@id": "_:g1096200"
       },
       {
-        "@id": "_:g2008620"
+        "@id": "_:g2062920"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1071540"
+        "@id": "_:g1096240"
       },
       {
-        "@id": "_:g2008660"
+        "@id": "_:g2062960"
       }
     ],
     "http://schema.org/organizer": [
@@ -21065,16 +20930,6 @@
       {
         "@language": "fr",
         "@value": "The Heterosexuals"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -21108,32 +20963,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-02-08T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1071500",
+    "@id": "_:g1096200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1071520"
+        "@id": "_:g1096220"
       }
     ]
   },
   {
-    "@id": "_:g2008620",
+    "@id": "_:g2062920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2008640"
+        "@id": "_:g2062940"
       }
     ]
   },
   {
-    "@id": "_:g1071540",
+    "@id": "_:g1096240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21161,7 +21021,7 @@
     ]
   },
   {
-    "@id": "_:g2008660",
+    "@id": "_:g2062960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21189,7 +21049,7 @@
     ]
   },
   {
-    "@id": "_:g1071520",
+    "@id": "_:g1096220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21253,18 +21113,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1078460"
+        "@id": "_:g1103380"
       },
       {
-        "@id": "_:g2015740"
+        "@id": "_:g2069980"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1078500"
+        "@id": "_:g1103420"
       },
       {
-        "@id": "_:g2015780"
+        "@id": "_:g2070020"
       }
     ],
     "http://schema.org/organizer": [
@@ -21288,16 +21148,6 @@
       {
         "@language": "fr",
         "@value": "BOOM X"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -21331,32 +21181,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-02-13T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1078460",
+    "@id": "_:g1103380",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1078480"
+        "@id": "_:g1103400"
       }
     ]
   },
   {
-    "@id": "_:g2015740",
+    "@id": "_:g2069980",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2015760"
+        "@id": "_:g2070000"
       }
     ]
   },
   {
-    "@id": "_:g1078500",
+    "@id": "_:g1103420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21384,7 +21239,7 @@
     ]
   },
   {
-    "@id": "_:g2015780",
+    "@id": "_:g2070020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21412,7 +21267,7 @@
     ]
   },
   {
-    "@id": "_:g1078480",
+    "@id": "_:g1103400",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21476,18 +21331,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1087940"
+        "@id": "_:g1113120"
       },
       {
-        "@id": "_:g2025280"
+        "@id": "_:g2079840"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1087980"
+        "@id": "_:g1113160"
       },
       {
-        "@id": "_:g2025320"
+        "@id": "_:g2079880"
       }
     ],
     "http://schema.org/organizer": [
@@ -21521,16 +21376,6 @@
         "@value": "Nomfusi"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
-      }
-    ],
     "http://schema.org/description": [
       {
         "@language": "en",
@@ -21562,32 +21407,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-02-20T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1087940",
+    "@id": "_:g1113120",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1087960"
+        "@id": "_:g1113140"
       }
     ]
   },
   {
-    "@id": "_:g2025280",
+    "@id": "_:g2079840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2025300"
+        "@id": "_:g2079860"
       }
     ]
   },
   {
-    "@id": "_:g1087980",
+    "@id": "_:g1113160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21615,7 +21465,7 @@
     ]
   },
   {
-    "@id": "_:g2025320",
+    "@id": "_:g2079880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21667,7 +21517,7 @@
     ]
   },
   {
-    "@id": "_:g1087960",
+    "@id": "_:g1113140",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21731,18 +21581,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1094960"
+        "@id": "_:g1120300"
       },
       {
-        "@id": "_:g2032200"
+        "@id": "_:g2087000"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1095000"
+        "@id": "_:g1120340"
       },
       {
-        "@id": "_:g2032240"
+        "@id": "_:g2087040"
       }
     ],
     "http://schema.org/organizer": [
@@ -21766,16 +21616,6 @@
       {
         "@language": "fr",
         "@value": "UPU"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -21809,32 +21649,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-03-05T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1094960",
+    "@id": "_:g1120300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1094980"
+        "@id": "_:g1120320"
       }
     ]
   },
   {
-    "@id": "_:g2032200",
+    "@id": "_:g2087000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2032220"
+        "@id": "_:g2087020"
       }
     ]
   },
   {
-    "@id": "_:g1095000",
+    "@id": "_:g1120340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21862,7 +21707,7 @@
     ]
   },
   {
-    "@id": "_:g2032240",
+    "@id": "_:g2087040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -21890,7 +21735,7 @@
     ]
   },
   {
-    "@id": "_:g1094980",
+    "@id": "_:g1120320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -21954,18 +21799,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1104180"
+        "@id": "_:g1129820"
       },
       {
-        "@id": "_:g2041440"
+        "@id": "_:g2096480"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1104220"
+        "@id": "_:g1129860"
       },
       {
-        "@id": "_:g2041480"
+        "@id": "_:g2096520"
       }
     ],
     "http://schema.org/organizer": [
@@ -21989,16 +21834,6 @@
       {
         "@language": "fr",
         "@value": "A Cabaret of Legends"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -22032,32 +21867,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-03-14T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1104180",
+    "@id": "_:g1129820",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1104200"
+        "@id": "_:g1129840"
       }
     ]
   },
   {
-    "@id": "_:g2041440",
+    "@id": "_:g2096480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2041460"
+        "@id": "_:g2096500"
       }
     ]
   },
   {
-    "@id": "_:g1104220",
+    "@id": "_:g1129860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22085,7 +21925,7 @@
     ]
   },
   {
-    "@id": "_:g2041480",
+    "@id": "_:g2096520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22113,7 +21953,7 @@
     ]
   },
   {
-    "@id": "_:g1104200",
+    "@id": "_:g1129840",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22177,18 +22017,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1110880"
+        "@id": "_:g1136680"
       },
       {
-        "@id": "_:g2048020"
+        "@id": "_:g2103400"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1110920"
+        "@id": "_:g1136720"
       },
       {
-        "@id": "_:g2048060"
+        "@id": "_:g2103440"
       }
     ],
     "http://schema.org/organizer": [
@@ -22212,16 +22052,6 @@
       {
         "@language": "fr",
         "@value": "Dwayne Gretzky"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -22255,32 +22085,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-03-26T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1110880",
+    "@id": "_:g1136680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1110900"
+        "@id": "_:g1136700"
       }
     ]
   },
   {
-    "@id": "_:g2048020",
+    "@id": "_:g2103400",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2048040"
+        "@id": "_:g2103420"
       }
     ]
   },
   {
-    "@id": "_:g1110920",
+    "@id": "_:g1136720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22308,7 +22143,7 @@
     ]
   },
   {
-    "@id": "_:g2048060",
+    "@id": "_:g2103440",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22336,7 +22171,7 @@
     ]
   },
   {
-    "@id": "_:g1110900",
+    "@id": "_:g1136700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22400,18 +22235,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1117640"
+        "@id": "_:g1143620"
       },
       {
-        "@id": "_:g2054800"
+        "@id": "_:g2110320"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1117680"
+        "@id": "_:g1143660"
       },
       {
-        "@id": "_:g2054840"
+        "@id": "_:g2110360"
       }
     ],
     "http://schema.org/organizer": [
@@ -22435,16 +22270,6 @@
       {
         "@language": "fr",
         "@value": "Gravity & Other Myths: Ten Thousand Hours"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -22478,32 +22303,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-04-17T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1117640",
+    "@id": "_:g1143620",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1117660"
+        "@id": "_:g1143640"
       }
     ]
   },
   {
-    "@id": "_:g2054800",
+    "@id": "_:g2110320",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2054820"
+        "@id": "_:g2110340"
       }
     ]
   },
   {
-    "@id": "_:g1117680",
+    "@id": "_:g1143660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22531,7 +22361,7 @@
     ]
   },
   {
-    "@id": "_:g2054840",
+    "@id": "_:g2110360",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22559,7 +22389,7 @@
     ]
   },
   {
-    "@id": "_:g1117660",
+    "@id": "_:g1143640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22623,18 +22453,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1124240"
+        "@id": "_:g1150360"
       },
       {
-        "@id": "_:g2061440"
+        "@id": "_:g2117040"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1124280"
+        "@id": "_:g1150400"
       },
       {
-        "@id": "_:g2061480"
+        "@id": "_:g2117080"
       }
     ],
     "http://schema.org/organizer": [
@@ -22668,16 +22498,6 @@
         "@value": "Wintersleep"
       }
     ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
-      }
-    ],
     "http://schema.org/description": [
       {
         "@language": "en",
@@ -22709,32 +22529,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-05-11T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1124240",
+    "@id": "_:g1150360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1124260"
+        "@id": "_:g1150380"
       }
     ]
   },
   {
-    "@id": "_:g2061440",
+    "@id": "_:g2117040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2061460"
+        "@id": "_:g2117060"
       }
     ]
   },
   {
-    "@id": "_:g1124280",
+    "@id": "_:g1150400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22762,7 +22587,7 @@
     ]
   },
   {
-    "@id": "_:g2061480",
+    "@id": "_:g2117080",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -22814,7 +22639,7 @@
     ]
   },
   {
-    "@id": "_:g1124260",
+    "@id": "_:g1150380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -22878,18 +22703,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1131280"
+        "@id": "_:g1157560"
       },
       {
-        "@id": "_:g2068560"
+        "@id": "_:g2124220"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1131320"
+        "@id": "_:g1157600"
       },
       {
-        "@id": "_:g2068600"
+        "@id": "_:g2124260"
       }
     ],
     "http://schema.org/organizer": [
@@ -22913,16 +22738,6 @@
       {
         "@language": "fr",
         "@value": "Ballet Kelowna: taqəš and Other Works"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -22956,32 +22771,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-05-25T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1131280",
+    "@id": "_:g1157560",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1131300"
+        "@id": "_:g1157580"
       }
     ]
   },
   {
-    "@id": "_:g2068560",
+    "@id": "_:g2124220",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2068580"
+        "@id": "_:g2124240"
       }
     ]
   },
   {
-    "@id": "_:g1131320",
+    "@id": "_:g1157600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23009,7 +22829,7 @@
     ]
   },
   {
-    "@id": "_:g2068600",
+    "@id": "_:g2124260",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23037,7 +22857,7 @@
     ]
   },
   {
-    "@id": "_:g1131300",
+    "@id": "_:g1157580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -23128,18 +22948,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1137780"
+        "@id": "_:g1164260"
       },
       {
-        "@id": "_:g2075100"
+        "@id": "_:g2130900"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1137820"
+        "@id": "_:g1164300"
       },
       {
-        "@id": "_:g2075140"
+        "@id": "_:g2130940"
       }
     ],
     "http://schema.org/organizer": [
@@ -23163,16 +22983,6 @@
       {
         "@language": "fr",
         "@value": "The Stampeders ...One More Time"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -23206,6 +23016,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-22T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -23236,29 +23051,29 @@
     ]
   },
   {
-    "@id": "_:g1137780",
+    "@id": "_:g1164260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1137800"
+        "@id": "_:g1164280"
       }
     ]
   },
   {
-    "@id": "_:g2075100",
+    "@id": "_:g2130900",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2075120"
+        "@id": "_:g2130920"
       }
     ]
   },
   {
-    "@id": "_:g1137820",
+    "@id": "_:g1164300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23286,7 +23101,7 @@
     ]
   },
   {
-    "@id": "_:g2075140",
+    "@id": "_:g2130940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23314,7 +23129,7 @@
     ]
   },
   {
-    "@id": "_:g1137800",
+    "@id": "_:g1164280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -23405,18 +23220,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1143640"
+        "@id": "_:g1170240"
       },
       {
-        "@id": "_:g2080940"
+        "@id": "_:g2136860"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1143680"
+        "@id": "_:g1170280"
       },
       {
-        "@id": "_:g2080980"
+        "@id": "_:g2136900"
       }
     ],
     "http://schema.org/organizer": [
@@ -23440,16 +23255,6 @@
       {
         "@language": "fr",
         "@value": "Golden Girls: The Laughs Continue"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -23483,6 +23288,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-29T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -23513,29 +23323,29 @@
     ]
   },
   {
-    "@id": "_:g1143640",
+    "@id": "_:g1170240",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1143660"
+        "@id": "_:g1170260"
       }
     ]
   },
   {
-    "@id": "_:g2080940",
+    "@id": "_:g2136860",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2080960"
+        "@id": "_:g2136880"
       }
     ]
   },
   {
-    "@id": "_:g1143680",
+    "@id": "_:g1170280",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23563,7 +23373,7 @@
     ]
   },
   {
-    "@id": "_:g2080980",
+    "@id": "_:g2136900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23591,7 +23401,7 @@
     ]
   },
   {
-    "@id": "_:g1143660",
+    "@id": "_:g1170260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -23804,18 +23614,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1158280"
+        "@id": "_:g1184900"
       },
       {
-        "@id": "_:g2090960"
+        "@id": "_:g2147280"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1158320"
+        "@id": "_:g1184940"
       },
       {
-        "@id": "_:g2091000"
+        "@id": "_:g2147320"
       }
     ],
     "http://schema.org/organizer": [
@@ -23839,16 +23649,6 @@
       {
         "@language": "fr",
         "@value": "Fredericton Comedy Classic"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -23882,6 +23682,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-27T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -23912,29 +23717,29 @@
     ]
   },
   {
-    "@id": "_:g1158280",
+    "@id": "_:g1184900",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1158300"
+        "@id": "_:g1184920"
       }
     ]
   },
   {
-    "@id": "_:g2090960",
+    "@id": "_:g2147280",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2090980"
+        "@id": "_:g2147300"
       }
     ]
   },
   {
-    "@id": "_:g1158320",
+    "@id": "_:g1184940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23962,7 +23767,7 @@
     ]
   },
   {
-    "@id": "_:g2091000",
+    "@id": "_:g2147320",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -23990,7 +23795,7 @@
     ]
   },
   {
-    "@id": "_:g1158300",
+    "@id": "_:g1184920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24081,18 +23886,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1164020"
+        "@id": "_:g1190900"
       },
       {
-        "@id": "_:g2096680"
+        "@id": "_:g2153360"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1164060"
+        "@id": "_:g1190940"
       },
       {
-        "@id": "_:g2096720"
+        "@id": "_:g2153400"
       }
     ],
     "http://schema.org/organizer": [
@@ -24116,16 +23921,6 @@
       {
         "@language": "fr",
         "@value": "NBCS: Future Legends of Country Music"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -24159,6 +23954,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-25T21:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -24189,29 +23989,29 @@
     ]
   },
   {
-    "@id": "_:g1164020",
+    "@id": "_:g1190900",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1164040"
+        "@id": "_:g1190920"
       }
     ]
   },
   {
-    "@id": "_:g2096680",
+    "@id": "_:g2153360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2096700"
+        "@id": "_:g2153380"
       }
     ]
   },
   {
-    "@id": "_:g1164060",
+    "@id": "_:g1190940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24239,7 +24039,7 @@
     ]
   },
   {
-    "@id": "_:g2096720",
+    "@id": "_:g2153400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24267,7 +24067,7 @@
     ]
   },
   {
-    "@id": "_:g1164040",
+    "@id": "_:g1190920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24358,18 +24158,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1169760"
+        "@id": "_:g1197060"
       },
       {
-        "@id": "_:g2102480"
+        "@id": "_:g2159200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1169800"
+        "@id": "_:g1197100"
       },
       {
-        "@id": "_:g2102520"
+        "@id": "_:g2159240"
       }
     ],
     "http://schema.org/organizer": [
@@ -24393,16 +24193,6 @@
       {
         "@language": "fr",
         "@value": "NBCS: Down Home Country Christmas"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -24436,6 +24226,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-06T21:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -24466,29 +24261,29 @@
     ]
   },
   {
-    "@id": "_:g1169760",
+    "@id": "_:g1197060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1169780"
+        "@id": "_:g1197080"
       }
     ]
   },
   {
-    "@id": "_:g2102480",
+    "@id": "_:g2159200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2102500"
+        "@id": "_:g2159220"
       }
     ]
   },
   {
-    "@id": "_:g1169800",
+    "@id": "_:g1197100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24516,7 +24311,7 @@
     ]
   },
   {
-    "@id": "_:g2102520",
+    "@id": "_:g2159240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24544,7 +24339,7 @@
     ]
   },
   {
-    "@id": "_:g1169780",
+    "@id": "_:g1197080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24635,18 +24430,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1175360"
+        "@id": "_:g1202920"
       },
       {
-        "@id": "_:g2108200"
+        "@id": "_:g2165280"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1175400"
+        "@id": "_:g1202960"
       },
       {
-        "@id": "_:g2108240"
+        "@id": "_:g2165320"
       }
     ],
     "http://schema.org/organizer": [
@@ -24670,16 +24465,6 @@
       {
         "@language": "fr",
         "@value": "NBCS: Rock n Roll Mania Returns to the Playhouse"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -24713,6 +24498,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-01-24T21:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -24743,29 +24533,29 @@
     ]
   },
   {
-    "@id": "_:g1175360",
+    "@id": "_:g1202920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1175380"
+        "@id": "_:g1202940"
       }
     ]
   },
   {
-    "@id": "_:g2108200",
+    "@id": "_:g2165280",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2108220"
+        "@id": "_:g2165300"
       }
     ]
   },
   {
-    "@id": "_:g1175400",
+    "@id": "_:g1202960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24793,7 +24583,7 @@
     ]
   },
   {
-    "@id": "_:g2108240",
+    "@id": "_:g2165320",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -24821,7 +24611,7 @@
     ]
   },
   {
-    "@id": "_:g1175380",
+    "@id": "_:g1202940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -24912,18 +24702,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1181100"
+        "@id": "_:g1208960"
       },
       {
-        "@id": "_:g2113960"
+        "@id": "_:g2171200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1181140"
+        "@id": "_:g1209000"
       },
       {
-        "@id": "_:g2114000"
+        "@id": "_:g2171240"
       }
     ],
     "http://schema.org/organizer": [
@@ -24947,16 +24737,6 @@
       {
         "@language": "fr",
         "@value": "NBCS: NB Showcase Talent Search"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -24990,6 +24770,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-04-18T21:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -25020,29 +24805,29 @@
     ]
   },
   {
-    "@id": "_:g1181100",
+    "@id": "_:g1208960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1181120"
+        "@id": "_:g1208980"
       }
     ]
   },
   {
-    "@id": "_:g2113960",
+    "@id": "_:g2171200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2113980"
+        "@id": "_:g2171220"
       }
     ]
   },
   {
-    "@id": "_:g1181140",
+    "@id": "_:g1209000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25070,7 +24855,7 @@
     ]
   },
   {
-    "@id": "_:g2114000",
+    "@id": "_:g2171240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25098,7 +24883,7 @@
     ]
   },
   {
-    "@id": "_:g1181120",
+    "@id": "_:g1208980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -25162,18 +24947,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1186840"
+        "@id": "_:g1214000"
       },
       {
-        "@id": "_:g2119760"
+        "@id": "_:g2177180"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1186880"
+        "@id": "_:g1214040"
       },
       {
-        "@id": "_:g2119800"
+        "@id": "_:g2177220"
       }
     ],
     "http://schema.org/organizer": [
@@ -25197,16 +24982,6 @@
       {
         "@language": "fr",
         "@value": "Cinderella: DuffleBag Theatre"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -25240,32 +25015,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-27T16:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1186840",
+    "@id": "_:g1214000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1186860"
+        "@id": "_:g1214020"
       }
     ]
   },
   {
-    "@id": "_:g2119760",
+    "@id": "_:g2177180",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2119780"
+        "@id": "_:g2177200"
       }
     ]
   },
   {
-    "@id": "_:g1186880",
+    "@id": "_:g1214040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25293,7 +25073,7 @@
     ]
   },
   {
-    "@id": "_:g2119800",
+    "@id": "_:g2177220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25321,7 +25101,7 @@
     ]
   },
   {
-    "@id": "_:g1186860",
+    "@id": "_:g1214020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -25391,18 +25171,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1193400"
+        "@id": "_:g1220840"
       },
       {
-        "@id": "_:g2126360"
+        "@id": "_:g2184080"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1193440"
+        "@id": "_:g1220880"
       },
       {
-        "@id": "_:g2126400"
+        "@id": "_:g2184120"
       }
     ],
     "http://schema.org/organizer": [
@@ -25426,16 +25206,6 @@
       {
         "@language": "fr",
         "@value": "Cinderella: DuffleBag Theatre"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -25469,32 +25239,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-27T20:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1193400",
+    "@id": "_:g1220840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1193420"
+        "@id": "_:g1220860"
       }
     ]
   },
   {
-    "@id": "_:g2126360",
+    "@id": "_:g2184080",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2126380"
+        "@id": "_:g2184100"
       }
     ]
   },
   {
-    "@id": "_:g1193440",
+    "@id": "_:g1220880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25522,7 +25297,7 @@
     ]
   },
   {
-    "@id": "_:g2126400",
+    "@id": "_:g2184120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25550,7 +25325,7 @@
     ]
   },
   {
-    "@id": "_:g1193420",
+    "@id": "_:g1220860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -25600,18 +25375,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1200120"
+        "@id": "_:g1226700"
       },
       {
-        "@id": "_:g2132960"
+        "@id": "_:g2190580"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1200160"
+        "@id": "_:g1226740"
       },
       {
-        "@id": "_:g2133000"
+        "@id": "_:g2190620"
       }
     ],
     "http://schema.org/organizer": [
@@ -25635,16 +25410,6 @@
       {
         "@language": "fr",
         "@value": "Circus Incognitus"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -25678,32 +25443,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-01-25T17:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1200120",
+    "@id": "_:g1226700",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1200140"
+        "@id": "_:g1226720"
       }
     ]
   },
   {
-    "@id": "_:g2132960",
+    "@id": "_:g2190580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2132980"
+        "@id": "_:g2190600"
       }
     ]
   },
   {
-    "@id": "_:g1200160",
+    "@id": "_:g1226740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25731,7 +25501,7 @@
     ]
   },
   {
-    "@id": "_:g2133000",
+    "@id": "_:g2190620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25759,7 +25529,7 @@
     ]
   },
   {
-    "@id": "_:g1200140",
+    "@id": "_:g1226720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -25823,18 +25593,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1206540"
+        "@id": "_:g1233320"
       },
       {
-        "@id": "_:g2139500"
+        "@id": "_:g2197180"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1206580"
+        "@id": "_:g1233360"
       },
       {
-        "@id": "_:g2139540"
+        "@id": "_:g2197220"
       }
     ],
     "http://schema.org/organizer": [
@@ -25858,16 +25628,6 @@
       {
         "@language": "fr",
         "@value": "Under the Same Sky"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -25901,32 +25661,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-03-07T17:00:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1206540",
+    "@id": "_:g1233320",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1206560"
+        "@id": "_:g1233340"
       }
     ]
   },
   {
-    "@id": "_:g2139500",
+    "@id": "_:g2197180",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2139520"
+        "@id": "_:g2197200"
       }
     ]
   },
   {
-    "@id": "_:g1206580",
+    "@id": "_:g1233360",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25954,7 +25719,7 @@
     ]
   },
   {
-    "@id": "_:g2139540",
+    "@id": "_:g2197220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -25982,7 +25747,7 @@
     ]
   },
   {
-    "@id": "_:g1206560",
+    "@id": "_:g1233340",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26046,18 +25811,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1212760"
+        "@id": "_:g1239800"
       },
       {
-        "@id": "_:g2145800"
+        "@id": "_:g2203480"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1212800"
+        "@id": "_:g1239840"
       },
       {
-        "@id": "_:g2145840"
+        "@id": "_:g2203520"
       }
     ],
     "http://schema.org/organizer": [
@@ -26081,16 +25846,6 @@
       {
         "@language": "fr",
         "@value": "Dino-Light"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -26124,32 +25879,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-05-02T17:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1212760",
+    "@id": "_:g1239800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1212780"
+        "@id": "_:g1239820"
       }
     ]
   },
   {
-    "@id": "_:g2145800",
+    "@id": "_:g2203480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2145820"
+        "@id": "_:g2203500"
       }
     ]
   },
   {
-    "@id": "_:g1212800",
+    "@id": "_:g1239840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26177,7 +25937,7 @@
     ]
   },
   {
-    "@id": "_:g2145840",
+    "@id": "_:g2203520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26205,7 +25965,7 @@
     ]
   },
   {
-    "@id": "_:g1212780",
+    "@id": "_:g1239820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26296,18 +26056,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1223220"
+        "@id": "_:g1250480"
       },
       {
-        "@id": "_:g2152060"
+        "@id": "_:g2209920"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1223260"
+        "@id": "_:g1250520"
       },
       {
-        "@id": "_:g2152100"
+        "@id": "_:g2209960"
       }
     ],
     "http://schema.org/organizer": [
@@ -26331,16 +26091,6 @@
       {
         "@language": "fr",
         "@value": "Ron James: The Noise Between Our Ears"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -26374,6 +26124,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-12T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -26404,29 +26159,29 @@
     ]
   },
   {
-    "@id": "_:g1223220",
+    "@id": "_:g1250480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1223240"
+        "@id": "_:g1250500"
       }
     ]
   },
   {
-    "@id": "_:g2152060",
+    "@id": "_:g2209920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2152080"
+        "@id": "_:g2209940"
       }
     ]
   },
   {
-    "@id": "_:g1223260",
+    "@id": "_:g1250520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26454,7 +26209,7 @@
     ]
   },
   {
-    "@id": "_:g2152100",
+    "@id": "_:g2209960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26482,7 +26237,7 @@
     ]
   },
   {
-    "@id": "_:g1223240",
+    "@id": "_:g1250500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26573,18 +26328,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1233260"
+        "@id": "_:g1260260"
       },
       {
-        "@id": "_:g2157920"
+        "@id": "_:g2215960"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1233300"
+        "@id": "_:g1260300"
       },
       {
-        "@id": "_:g2157960"
+        "@id": "_:g2216000"
       }
     ],
     "http://schema.org/organizer": [
@@ -26608,16 +26363,6 @@
       {
         "@language": "fr",
         "@value": "Christmas In Cape Breton"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -26651,6 +26396,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-13T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -26681,29 +26431,29 @@
     ]
   },
   {
-    "@id": "_:g1233260",
+    "@id": "_:g1260260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1233280"
+        "@id": "_:g1260280"
       }
     ]
   },
   {
-    "@id": "_:g2157920",
+    "@id": "_:g2215960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2157940"
+        "@id": "_:g2215980"
       }
     ]
   },
   {
-    "@id": "_:g1233300",
+    "@id": "_:g1260300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26731,7 +26481,7 @@
     ]
   },
   {
-    "@id": "_:g2157960",
+    "@id": "_:g2216000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -26759,7 +26509,7 @@
     ]
   },
   {
-    "@id": "_:g1233280",
+    "@id": "_:g1260280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -26850,18 +26600,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1238960"
+        "@id": "_:g1266040"
       },
       {
-        "@id": "_:g2163600"
+        "@id": "_:g2221840"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1239000"
+        "@id": "_:g1266080"
       },
       {
-        "@id": "_:g2163640"
+        "@id": "_:g2221880"
       }
     ],
     "http://schema.org/organizer": [
@@ -26885,16 +26635,6 @@
       {
         "@language": "fr",
         "@value": "The Suits"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -26928,6 +26668,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-04T16:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -26958,29 +26703,29 @@
     ]
   },
   {
-    "@id": "_:g1238960",
+    "@id": "_:g1266040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1238980"
+        "@id": "_:g1266060"
       }
     ]
   },
   {
-    "@id": "_:g2163600",
+    "@id": "_:g2221840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2163620"
+        "@id": "_:g2221860"
       }
     ]
   },
   {
-    "@id": "_:g1239000",
+    "@id": "_:g1266080",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27008,7 +26753,7 @@
     ]
   },
   {
-    "@id": "_:g2163640",
+    "@id": "_:g2221880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27036,7 +26781,7 @@
     ]
   },
   {
-    "@id": "_:g1238980",
+    "@id": "_:g1266060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -27127,18 +26872,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1244800"
+        "@id": "_:g1272120"
       },
       {
-        "@id": "_:g2169420"
+        "@id": "_:g2227760"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1244840"
+        "@id": "_:g1272160"
       },
       {
-        "@id": "_:g2169460"
+        "@id": "_:g2227800"
       }
     ],
     "http://schema.org/organizer": [
@@ -27162,16 +26907,6 @@
       {
         "@language": "fr",
         "@value": "Tom Green: Stompin' Comedy Tour"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -27205,6 +26940,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-03-25T21:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -27235,29 +26975,29 @@
     ]
   },
   {
-    "@id": "_:g1244800",
+    "@id": "_:g1272120",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1244820"
+        "@id": "_:g1272140"
       }
     ]
   },
   {
-    "@id": "_:g2169420",
+    "@id": "_:g2227760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2169440"
+        "@id": "_:g2227780"
       }
     ]
   },
   {
-    "@id": "_:g1244840",
+    "@id": "_:g1272160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27285,7 +27025,7 @@
     ]
   },
   {
-    "@id": "_:g2169460",
+    "@id": "_:g2227800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27313,7 +27053,7 @@
     ]
   },
   {
-    "@id": "_:g1244820",
+    "@id": "_:g1272140",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -27404,18 +27144,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1250640"
+        "@id": "_:g1278120"
       },
       {
-        "@id": "_:g2175140"
+        "@id": "_:g2233740"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1250680"
+        "@id": "_:g1278160"
       },
       {
-        "@id": "_:g2175180"
+        "@id": "_:g2233780"
       }
     ],
     "http://schema.org/organizer": [
@@ -27439,16 +27179,6 @@
       {
         "@language": "fr",
         "@value": "Brent Butt"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -27482,6 +27212,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-10T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -27512,29 +27247,29 @@
     ]
   },
   {
-    "@id": "_:g1250640",
+    "@id": "_:g1278120",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1250660"
+        "@id": "_:g1278140"
       }
     ]
   },
   {
-    "@id": "_:g2175140",
+    "@id": "_:g2233740",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2175160"
+        "@id": "_:g2233760"
       }
     ]
   },
   {
-    "@id": "_:g1250680",
+    "@id": "_:g1278160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27562,7 +27297,7 @@
     ]
   },
   {
-    "@id": "_:g2175180",
+    "@id": "_:g2233780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27590,7 +27325,7 @@
     ]
   },
   {
-    "@id": "_:g1250660",
+    "@id": "_:g1278140",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -27654,18 +27389,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1256420"
+        "@id": "_:g1284260"
       },
       {
-        "@id": "_:g2181000"
+        "@id": "_:g2239760"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1256460"
+        "@id": "_:g1284300"
       },
       {
-        "@id": "_:g2181040"
+        "@id": "_:g2239800"
       }
     ],
     "http://schema.org/organizer": [
@@ -27689,16 +27424,6 @@
       {
         "@language": "fr",
         "@value": "Martin Levac: A Tribute to Phil Collins & Genesis"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -27732,32 +27457,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-24T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1256420",
+    "@id": "_:g1284260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1256440"
+        "@id": "_:g1284280"
       }
     ]
   },
   {
-    "@id": "_:g2181000",
+    "@id": "_:g2239760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2181020"
+        "@id": "_:g2239780"
       }
     ]
   },
   {
-    "@id": "_:g1256460",
+    "@id": "_:g1284300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27785,7 +27515,7 @@
     ]
   },
   {
-    "@id": "_:g2181040",
+    "@id": "_:g2239800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -27813,7 +27543,7 @@
     ]
   },
   {
-    "@id": "_:g1256440",
+    "@id": "_:g1284280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -27904,18 +27634,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1273160"
+        "@id": "_:g1302440"
       },
       {
-        "@id": "_:g2190220"
+        "@id": "_:g2249260"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1273200"
+        "@id": "_:g1302480"
       },
       {
-        "@id": "_:g2190260"
+        "@id": "_:g2249300"
       }
     ],
     "http://schema.org/organizer": [
@@ -27939,16 +27669,6 @@
       {
         "@language": "fr",
         "@value": "The Rocky Horror Show"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -27982,6 +27702,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-30T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -28012,29 +27737,29 @@
     ]
   },
   {
-    "@id": "_:g1273160",
+    "@id": "_:g1302440",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1273180"
+        "@id": "_:g1302460"
       }
     ]
   },
   {
-    "@id": "_:g2190220",
+    "@id": "_:g2249260",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2190240"
+        "@id": "_:g2249280"
       }
     ]
   },
   {
-    "@id": "_:g1273200",
+    "@id": "_:g1302480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28062,7 +27787,7 @@
     ]
   },
   {
-    "@id": "_:g2190260",
+    "@id": "_:g2249300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28090,7 +27815,7 @@
     ]
   },
   {
-    "@id": "_:g1273180",
+    "@id": "_:g1302460",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -28340,18 +28065,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1283680"
+        "@id": "_:g1313300"
       },
       {
-        "@id": "_:g2200860"
+        "@id": "_:g2260200"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1283720"
+        "@id": "_:g1313340"
       },
       {
-        "@id": "_:g2200900"
+        "@id": "_:g2260240"
       }
     ],
     "http://schema.org/organizer": [
@@ -28375,16 +28100,6 @@
       {
         "@language": "fr",
         "@value": "The Rocky Horror Show"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -28418,32 +28133,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-31T20:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1283680",
+    "@id": "_:g1313300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1283700"
+        "@id": "_:g1313320"
       }
     ]
   },
   {
-    "@id": "_:g2200860",
+    "@id": "_:g2260200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2200880"
+        "@id": "_:g2260220"
       }
     ]
   },
   {
-    "@id": "_:g1283720",
+    "@id": "_:g1313340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28471,7 +28191,7 @@
     ]
   },
   {
-    "@id": "_:g2200900",
+    "@id": "_:g2260240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28499,7 +28219,7 @@
     ]
   },
   {
-    "@id": "_:g1283700",
+    "@id": "_:g1313320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -28549,18 +28269,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1289460"
+        "@id": "_:g1319480"
       },
       {
-        "@id": "_:g2206620"
+        "@id": "_:g2266180"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1289500"
+        "@id": "_:g1319520"
       },
       {
-        "@id": "_:g2206660"
+        "@id": "_:g2266220"
       }
     ],
     "http://schema.org/organizer": [
@@ -28584,16 +28304,6 @@
       {
         "@language": "fr",
         "@value": "The Rocky Horror Show"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -28627,32 +28337,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-31T23:59:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1289460",
+    "@id": "_:g1319480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1289480"
+        "@id": "_:g1319500"
       }
     ]
   },
   {
-    "@id": "_:g2206620",
+    "@id": "_:g2266180",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2206640"
+        "@id": "_:g2266200"
       }
     ]
   },
   {
-    "@id": "_:g1289500",
+    "@id": "_:g1319520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28680,7 +28395,7 @@
     ]
   },
   {
-    "@id": "_:g2206660",
+    "@id": "_:g2266220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28708,7 +28423,7 @@
     ]
   },
   {
-    "@id": "_:g1289480",
+    "@id": "_:g1319500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -28758,18 +28473,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1295160"
+        "@id": "_:g1325520"
       },
       {
-        "@id": "_:g2212480"
+        "@id": "_:g2272220"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1295200"
+        "@id": "_:g1325560"
       },
       {
-        "@id": "_:g2212520"
+        "@id": "_:g2272260"
       }
     ],
     "http://schema.org/organizer": [
@@ -28793,16 +28508,6 @@
       {
         "@language": "fr",
         "@value": "The Rocky Horror Show"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -28836,32 +28541,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-01T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1295160",
+    "@id": "_:g1325520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1295180"
+        "@id": "_:g1325540"
       }
     ]
   },
   {
-    "@id": "_:g2212480",
+    "@id": "_:g2272220",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2212500"
+        "@id": "_:g2272240"
       }
     ]
   },
   {
-    "@id": "_:g1295200",
+    "@id": "_:g1325560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28889,7 +28599,7 @@
     ]
   },
   {
-    "@id": "_:g2212520",
+    "@id": "_:g2272260",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -28917,7 +28627,7 @@
     ]
   },
   {
-    "@id": "_:g1295180",
+    "@id": "_:g1325540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -28994,18 +28704,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1300920"
+        "@id": "_:g1331620"
       },
       {
-        "@id": "_:g2218220"
+        "@id": "_:g2278220"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1300960"
+        "@id": "_:g1331660"
       },
       {
-        "@id": "_:g2218260"
+        "@id": "_:g2278260"
       }
     ],
     "http://schema.org/organizer": [
@@ -29029,16 +28739,6 @@
       {
         "@language": "fr",
         "@value": "Derek Seguin: Life of Leisure"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -29072,6 +28772,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-15T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -29102,29 +28807,29 @@
     ]
   },
   {
-    "@id": "_:g1300920",
+    "@id": "_:g1331620",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1300940"
+        "@id": "_:g1331640"
       }
     ]
   },
   {
-    "@id": "_:g2218220",
+    "@id": "_:g2278220",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2218240"
+        "@id": "_:g2278240"
       }
     ]
   },
   {
-    "@id": "_:g1300960",
+    "@id": "_:g1331660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -29152,7 +28857,7 @@
     ]
   },
   {
-    "@id": "_:g2218260",
+    "@id": "_:g2278260",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -29180,7 +28885,7 @@
     ]
   },
   {
-    "@id": "_:g1300940",
+    "@id": "_:g1331640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29326,18 +29031,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1317600"
+        "@id": "_:g1348960"
       },
       {
-        "@id": "_:g2235180"
+        "@id": "_:g2295780"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1317640"
+        "@id": "_:g1349000"
       },
       {
-        "@id": "_:g2235220"
+        "@id": "_:g2295820"
       }
     ],
     "http://schema.org/organizer": [
@@ -29361,16 +29066,6 @@
       {
         "@language": "fr",
         "@value": "Premier concert Signature: Une nuit à Hollywood"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -29404,6 +29099,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-09-23T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -29434,29 +29134,29 @@
     ]
   },
   {
-    "@id": "_:g1317600",
+    "@id": "_:g1348960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1317620"
+        "@id": "_:g1348980"
       }
     ]
   },
   {
-    "@id": "_:g2235180",
+    "@id": "_:g2295780",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2235200"
+        "@id": "_:g2295800"
       }
     ]
   },
   {
-    "@id": "_:g1317640",
+    "@id": "_:g1349000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -29484,7 +29184,7 @@
     ]
   },
   {
-    "@id": "_:g2235220",
+    "@id": "_:g2295820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -29512,7 +29212,7 @@
     ]
   },
   {
-    "@id": "_:g1317620",
+    "@id": "_:g1348980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29603,18 +29303,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1323340"
+        "@id": "_:g1355060"
       },
       {
-        "@id": "_:g2240920"
+        "@id": "_:g2301560"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1323380"
+        "@id": "_:g1355100"
       },
       {
-        "@id": "_:g2240960"
+        "@id": "_:g2301600"
       }
     ],
     "http://schema.org/organizer": [
@@ -29638,16 +29338,6 @@
       {
         "@language": "fr",
         "@value": "FSO: The Classics of Stage and Screen"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -29681,6 +29371,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-09T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -29711,29 +29406,29 @@
     ]
   },
   {
-    "@id": "_:g1323340",
+    "@id": "_:g1355060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1323360"
+        "@id": "_:g1355080"
       }
     ]
   },
   {
-    "@id": "_:g2240920",
+    "@id": "_:g2301560",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2240940"
+        "@id": "_:g2301580"
       }
     ]
   },
   {
-    "@id": "_:g1323380",
+    "@id": "_:g1355100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -29761,7 +29456,7 @@
     ]
   },
   {
-    "@id": "_:g2240960",
+    "@id": "_:g2301600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -29789,7 +29484,7 @@
     ]
   },
   {
-    "@id": "_:g1323360",
+    "@id": "_:g1355080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -29913,18 +29608,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1329040"
+        "@id": "_:g1360900"
       },
       {
-        "@id": "_:g2246620"
+        "@id": "_:g2307620"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1329080"
+        "@id": "_:g1360940"
       },
       {
-        "@id": "_:g2246660"
+        "@id": "_:g2307660"
       }
     ],
     "http://schema.org/organizer": [
@@ -29948,16 +29643,6 @@
       {
         "@language": "fr",
         "@value": "FSO: Seasonal Concert"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -29991,32 +29676,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-12-07T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1329040",
+    "@id": "_:g1360900",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1329060"
+        "@id": "_:g1360920"
       }
     ]
   },
   {
-    "@id": "_:g2246620",
+    "@id": "_:g2307620",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2246640"
+        "@id": "_:g2307640"
       }
     ]
   },
   {
-    "@id": "_:g1329080",
+    "@id": "_:g1360940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30044,7 +29734,7 @@
     ]
   },
   {
-    "@id": "_:g2246660",
+    "@id": "_:g2307660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30072,7 +29762,7 @@
     ]
   },
   {
-    "@id": "_:g1329060",
+    "@id": "_:g1360920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30149,18 +29839,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1334860"
+        "@id": "_:g1366960"
       },
       {
-        "@id": "_:g2252260"
+        "@id": "_:g2313680"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1334900"
+        "@id": "_:g1367000"
       },
       {
-        "@id": "_:g2252300"
+        "@id": "_:g2313720"
       }
     ],
     "http://schema.org/organizer": [
@@ -30184,16 +29874,6 @@
       {
         "@language": "fr",
         "@value": "Deuxième concert Signature: Aventure cosmique"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -30227,6 +29907,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-21T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -30257,29 +29942,29 @@
     ]
   },
   {
-    "@id": "_:g1334860",
+    "@id": "_:g1366960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1334880"
+        "@id": "_:g1366980"
       }
     ]
   },
   {
-    "@id": "_:g2252260",
+    "@id": "_:g2313680",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2252280"
+        "@id": "_:g2313700"
       }
     ]
   },
   {
-    "@id": "_:g1334900",
+    "@id": "_:g1367000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30307,7 +29992,7 @@
     ]
   },
   {
-    "@id": "_:g2252300",
+    "@id": "_:g2313720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30335,7 +30020,7 @@
     ]
   },
   {
-    "@id": "_:g1334880",
+    "@id": "_:g1366980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30426,18 +30111,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1340660"
+        "@id": "_:g1372720"
       },
       {
-        "@id": "_:g2257960"
+        "@id": "_:g2319640"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1340700"
+        "@id": "_:g1372760"
       },
       {
-        "@id": "_:g2258000"
+        "@id": "_:g2319680"
       }
     ],
     "http://schema.org/organizer": [
@@ -30461,16 +30146,6 @@
       {
         "@language": "fr",
         "@value": "Troisième concert Signature: Rêves inachevé"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -30504,6 +30179,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-13T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -30534,29 +30214,29 @@
     ]
   },
   {
-    "@id": "_:g1340660",
+    "@id": "_:g1372720",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1340680"
+        "@id": "_:g1372740"
       }
     ]
   },
   {
-    "@id": "_:g2257960",
+    "@id": "_:g2319640",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2257980"
+        "@id": "_:g2319660"
       }
     ]
   },
   {
-    "@id": "_:g1340700",
+    "@id": "_:g1372760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30584,7 +30264,7 @@
     ]
   },
   {
-    "@id": "_:g2258000",
+    "@id": "_:g2319680",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30612,7 +30292,7 @@
     ]
   },
   {
-    "@id": "_:g1340680",
+    "@id": "_:g1372740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30703,18 +30383,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1346380"
+        "@id": "_:g1378720"
       },
       {
-        "@id": "_:g2263660"
+        "@id": "_:g2325600"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1346420"
+        "@id": "_:g1378760"
       },
       {
-        "@id": "_:g2263700"
+        "@id": "_:g2325640"
       }
     ],
     "http://schema.org/organizer": [
@@ -30738,16 +30418,6 @@
       {
         "@language": "fr",
         "@value": "Quatrème concert Signature: Ode à la joie"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -30781,6 +30451,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-03-21T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -30811,29 +30486,29 @@
     ]
   },
   {
-    "@id": "_:g1346380",
+    "@id": "_:g1378720",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1346400"
+        "@id": "_:g1378740"
       }
     ]
   },
   {
-    "@id": "_:g2263660",
+    "@id": "_:g2325600",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2263680"
+        "@id": "_:g2325620"
       }
     ]
   },
   {
-    "@id": "_:g1346420",
+    "@id": "_:g1378760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30861,7 +30536,7 @@
     ]
   },
   {
-    "@id": "_:g2263700",
+    "@id": "_:g2325640",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -30889,7 +30564,7 @@
     ]
   },
   {
-    "@id": "_:g1346400",
+    "@id": "_:g1378740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -30980,18 +30655,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1352120"
+        "@id": "_:g1384000"
       },
       {
-        "@id": "_:g2269480"
+        "@id": "_:g2331560"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1352160"
+        "@id": "_:g1384040"
       },
       {
-        "@id": "_:g2269520"
+        "@id": "_:g2331600"
       }
     ],
     "http://schema.org/organizer": [
@@ -31015,16 +30690,6 @@
       {
         "@language": "fr",
         "@value": "Cinquième concert Signature: Lignes rythmiques"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -31058,6 +30723,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-05-12T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -31088,29 +30758,29 @@
     ]
   },
   {
-    "@id": "_:g1352120",
+    "@id": "_:g1384000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1352140"
+        "@id": "_:g1384020"
       }
     ]
   },
   {
-    "@id": "_:g2269480",
+    "@id": "_:g2331560",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2269500"
+        "@id": "_:g2331580"
       }
     ]
   },
   {
-    "@id": "_:g1352160",
+    "@id": "_:g1384040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31138,7 +30808,7 @@
     ]
   },
   {
-    "@id": "_:g2269520",
+    "@id": "_:g2331600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31166,7 +30836,7 @@
     ]
   },
   {
-    "@id": "_:g1352140",
+    "@id": "_:g1384020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31257,18 +30927,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1357880"
+        "@id": "_:g1390000"
       },
       {
-        "@id": "_:g2275300"
+        "@id": "_:g2337520"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1357920"
+        "@id": "_:g1390040"
       },
       {
-        "@id": "_:g2275340"
+        "@id": "_:g2337560"
       }
     ],
     "http://schema.org/organizer": [
@@ -31292,16 +30962,6 @@
       {
         "@language": "fr",
         "@value": "Dernier concert Signature: Cercles de vie"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -31335,6 +30995,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-06-02T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -31365,29 +31030,29 @@
     ]
   },
   {
-    "@id": "_:g1357880",
+    "@id": "_:g1390000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1357900"
+        "@id": "_:g1390020"
       }
     ]
   },
   {
-    "@id": "_:g2275300",
+    "@id": "_:g2337520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2275320"
+        "@id": "_:g2337540"
       }
     ]
   },
   {
-    "@id": "_:g1357920",
+    "@id": "_:g1390040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31415,7 +31080,7 @@
     ]
   },
   {
-    "@id": "_:g2275340",
+    "@id": "_:g2337560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31443,7 +31108,7 @@
     ]
   },
   {
-    "@id": "_:g1357900",
+    "@id": "_:g1390020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31534,18 +31199,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1367760"
+        "@id": "_:g1400080"
       },
       {
-        "@id": "_:g2281100"
+        "@id": "_:g2343480"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1367800"
+        "@id": "_:g1400120"
       },
       {
-        "@id": "_:g2281140"
+        "@id": "_:g2343520"
       }
     ],
     "http://schema.org/organizer": [
@@ -31569,16 +31234,6 @@
       {
         "@language": "fr",
         "@value": "Dallas Smith & His Band: One Night Only (unplugged)"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -31612,6 +31267,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-11-23T21:30:00-04:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -31642,29 +31302,29 @@
     ]
   },
   {
-    "@id": "_:g1367760",
+    "@id": "_:g1400080",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1367780"
+        "@id": "_:g1400100"
       }
     ]
   },
   {
-    "@id": "_:g2281100",
+    "@id": "_:g2343480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2281120"
+        "@id": "_:g2343500"
       }
     ]
   },
   {
-    "@id": "_:g1367800",
+    "@id": "_:g1400120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31692,7 +31352,7 @@
     ]
   },
   {
-    "@id": "_:g2281140",
+    "@id": "_:g2343520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31720,7 +31380,7 @@
     ]
   },
   {
-    "@id": "_:g1367780",
+    "@id": "_:g1400100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -31811,18 +31471,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1373460"
+        "@id": "_:g1405160"
       },
       {
-        "@id": "_:g2286920"
+        "@id": "_:g2349460"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1373500"
+        "@id": "_:g1405200"
       },
       {
-        "@id": "_:g2286960"
+        "@id": "_:g2349500"
       }
     ],
     "http://schema.org/organizer": [
@@ -31846,16 +31506,6 @@
       {
         "@language": "fr",
         "@value": "TNB Theatre School: Mean Girls High School Version"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -31889,6 +31539,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-04-24T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -31919,29 +31574,29 @@
     ]
   },
   {
-    "@id": "_:g1373460",
+    "@id": "_:g1405160",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1373480"
+        "@id": "_:g1405180"
       }
     ]
   },
   {
-    "@id": "_:g2286920",
+    "@id": "_:g2349460",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2286940"
+        "@id": "_:g2349480"
       }
     ]
   },
   {
-    "@id": "_:g1373500",
+    "@id": "_:g1405200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31969,7 +31624,7 @@
     ]
   },
   {
-    "@id": "_:g2286960",
+    "@id": "_:g2349500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -31997,7 +31652,7 @@
     ]
   },
   {
-    "@id": "_:g1373480",
+    "@id": "_:g1405180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -32162,18 +31817,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1383460"
+        "@id": "_:g1415600"
       },
       {
-        "@id": "_:g2296900"
+        "@id": "_:g2359840"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1383500"
+        "@id": "_:g1415640"
       },
       {
-        "@id": "_:g2296940"
+        "@id": "_:g2359880"
       }
     ],
     "http://schema.org/organizer": [
@@ -32197,16 +31852,6 @@
       {
         "@language": "fr",
         "@value": "TNB Theatre School: Mean Girls High School Version"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -32240,32 +31885,37 @@
         "@type": "http://schema.org/Date",
         "@value": "2026-04-25T16:00:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
-    "@id": "_:g1383460",
+    "@id": "_:g1415600",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1383480"
+        "@id": "_:g1415620"
       }
     ]
   },
   {
-    "@id": "_:g2296900",
+    "@id": "_:g2359840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2296920"
+        "@id": "_:g2359860"
       }
     ]
   },
   {
-    "@id": "_:g1383500",
+    "@id": "_:g1415640",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -32293,7 +31943,7 @@
     ]
   },
   {
-    "@id": "_:g2296940",
+    "@id": "_:g2359880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -32321,7 +31971,7 @@
     ]
   },
   {
-    "@id": "_:g1383480",
+    "@id": "_:g1415620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -32398,18 +32048,18 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g1389180"
+        "@id": "_:g1421600"
       },
       {
-        "@id": "_:g2302620"
+        "@id": "_:g2365920"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1389220"
+        "@id": "_:g1421640"
       },
       {
-        "@id": "_:g2302660"
+        "@id": "_:g2365960"
       }
     ],
     "http://schema.org/organizer": [
@@ -32433,16 +32083,6 @@
       {
         "@language": "fr",
         "@value": "Carmen"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@language": "en",
-        "@value": "OfflineEventAttendanceMode"
-      },
-      {
-        "@language": "fr",
-        "@value": "OfflineEventAttendanceMode"
       }
     ],
     "http://schema.org/description": [
@@ -32476,6 +32116,11 @@
         "@type": "http://schema.org/Date",
         "@value": "2025-10-08T21:30:00-03:00"
       }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
     ]
   },
   {
@@ -32506,29 +32151,29 @@
     ]
   },
   {
-    "@id": "_:g1389180",
+    "@id": "_:g1421600",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1389200"
+        "@id": "_:g1421620"
       }
     ]
   },
   {
-    "@id": "_:g2302620",
+    "@id": "_:g2365920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g2302640"
+        "@id": "_:g2365940"
       }
     ]
   },
   {
-    "@id": "_:g1389220",
+    "@id": "_:g1421640",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -32556,7 +32201,7 @@
     ]
   },
   {
-    "@id": "_:g2302660",
+    "@id": "_:g2365960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -32584,7 +32229,7 @@
     ]
   },
   {
-    "@id": "_:g1389200",
+    "@id": "_:g1421620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33227,7 +32872,7 @@
     ]
   },
   {
-    "@id": "_:g1596800",
+    "@id": "_:g1638280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33473,7 +33118,7 @@
     ]
   },
   {
-    "@id": "_:g1770700",
+    "@id": "_:g1819600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33503,7 +33148,7 @@
     ]
   },
   {
-    "@id": "_:g1801180",
+    "@id": "_:g1852700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33533,7 +33178,7 @@
     ]
   },
   {
-    "@id": "_:g1806840",
+    "@id": "_:g1858800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33563,7 +33208,7 @@
     ]
   },
   {
-    "@id": "_:g1816860",
+    "@id": "_:g1869220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33593,7 +33238,7 @@
     ]
   },
   {
-    "@id": "_:g1822760",
+    "@id": "_:g1874500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33623,7 +33268,7 @@
     ]
   },
   {
-    "@id": "_:g1832500",
+    "@id": "_:g1884860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33653,7 +33298,7 @@
     ]
   },
   {
-    "@id": "_:g1849280",
+    "@id": "_:g1901760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33683,7 +33328,7 @@
     ]
   },
   {
-    "@id": "_:g1854960",
+    "@id": "_:g1907780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33713,7 +33358,7 @@
     ]
   },
   {
-    "@id": "_:g1860700",
+    "@id": "_:g1913880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33743,7 +33388,7 @@
     ]
   },
   {
-    "@id": "_:g1874920",
+    "@id": "_:g1928080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33773,7 +33418,7 @@
     ]
   },
   {
-    "@id": "_:g1880800",
+    "@id": "_:g1934100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33803,7 +33448,7 @@
     ]
   },
   {
-    "@id": "_:g1886360",
+    "@id": "_:g1940100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33833,7 +33478,7 @@
     ]
   },
   {
-    "@id": "_:g1892340",
+    "@id": "_:g1946300",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33863,7 +33508,7 @@
     ]
   },
   {
-    "@id": "_:g1916840",
+    "@id": "_:g1970940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33893,7 +33538,7 @@
     ]
   },
   {
-    "@id": "_:g1922500",
+    "@id": "_:g1976760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33923,7 +33568,7 @@
     ]
   },
   {
-    "@id": "_:g1928140",
+    "@id": "_:g1981960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33953,7 +33598,7 @@
     ]
   },
   {
-    "@id": "_:g1933840",
+    "@id": "_:g1987820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -33983,7 +33628,7 @@
     ]
   },
   {
-    "@id": "_:g1940640",
+    "@id": "_:g1994080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34013,7 +33658,7 @@
     ]
   },
   {
-    "@id": "_:g1946400",
+    "@id": "_:g1999960",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34043,7 +33688,7 @@
     ]
   },
   {
-    "@id": "_:g1955640",
+    "@id": "_:g2009280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34073,7 +33718,7 @@
     ]
   },
   {
-    "@id": "_:g1967300",
+    "@id": "_:g2021220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34103,7 +33748,7 @@
     ]
   },
   {
-    "@id": "_:g1973820",
+    "@id": "_:g2028200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34133,7 +33778,7 @@
     ]
   },
   {
-    "@id": "_:g1980480",
+    "@id": "_:g2034880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34163,7 +33808,7 @@
     ]
   },
   {
-    "@id": "_:g1987600",
+    "@id": "_:g2042100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34193,7 +33838,7 @@
     ]
   },
   {
-    "@id": "_:g1994600",
+    "@id": "_:g2048940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34223,7 +33868,7 @@
     ]
   },
   {
-    "@id": "_:g2001820",
+    "@id": "_:g2056060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34253,7 +33898,7 @@
     ]
   },
   {
-    "@id": "_:g2008640",
+    "@id": "_:g2062940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34283,7 +33928,7 @@
     ]
   },
   {
-    "@id": "_:g2015760",
+    "@id": "_:g2070000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34313,7 +33958,7 @@
     ]
   },
   {
-    "@id": "_:g2025300",
+    "@id": "_:g2079860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34343,7 +33988,7 @@
     ]
   },
   {
-    "@id": "_:g2032220",
+    "@id": "_:g2087020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34373,7 +34018,7 @@
     ]
   },
   {
-    "@id": "_:g2041460",
+    "@id": "_:g2096500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34403,7 +34048,7 @@
     ]
   },
   {
-    "@id": "_:g2048040",
+    "@id": "_:g2103420",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34433,7 +34078,7 @@
     ]
   },
   {
-    "@id": "_:g2054820",
+    "@id": "_:g2110340",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34463,7 +34108,7 @@
     ]
   },
   {
-    "@id": "_:g2061460",
+    "@id": "_:g2117060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34493,7 +34138,7 @@
     ]
   },
   {
-    "@id": "_:g2068580",
+    "@id": "_:g2124240",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34523,7 +34168,7 @@
     ]
   },
   {
-    "@id": "_:g2075120",
+    "@id": "_:g2130920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34553,7 +34198,7 @@
     ]
   },
   {
-    "@id": "_:g2080960",
+    "@id": "_:g2136880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34583,7 +34228,7 @@
     ]
   },
   {
-    "@id": "_:g2090980",
+    "@id": "_:g2147300",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34613,7 +34258,7 @@
     ]
   },
   {
-    "@id": "_:g2096700",
+    "@id": "_:g2153380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34643,7 +34288,7 @@
     ]
   },
   {
-    "@id": "_:g2102500",
+    "@id": "_:g2159220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34673,7 +34318,7 @@
     ]
   },
   {
-    "@id": "_:g2108220",
+    "@id": "_:g2165300",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34703,7 +34348,7 @@
     ]
   },
   {
-    "@id": "_:g2113980",
+    "@id": "_:g2171220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34733,7 +34378,7 @@
     ]
   },
   {
-    "@id": "_:g2119780",
+    "@id": "_:g2177200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34763,7 +34408,7 @@
     ]
   },
   {
-    "@id": "_:g2126380",
+    "@id": "_:g2184100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34793,7 +34438,7 @@
     ]
   },
   {
-    "@id": "_:g2132980",
+    "@id": "_:g2190600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34823,7 +34468,7 @@
     ]
   },
   {
-    "@id": "_:g2139520",
+    "@id": "_:g2197200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34853,7 +34498,7 @@
     ]
   },
   {
-    "@id": "_:g2145820",
+    "@id": "_:g2203500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34883,7 +34528,7 @@
     ]
   },
   {
-    "@id": "_:g2152080",
+    "@id": "_:g2209940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34913,7 +34558,7 @@
     ]
   },
   {
-    "@id": "_:g2157940",
+    "@id": "_:g2215980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34943,7 +34588,7 @@
     ]
   },
   {
-    "@id": "_:g2163620",
+    "@id": "_:g2221860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -34973,7 +34618,7 @@
     ]
   },
   {
-    "@id": "_:g2169440",
+    "@id": "_:g2227780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35003,7 +34648,7 @@
     ]
   },
   {
-    "@id": "_:g2175160",
+    "@id": "_:g2233760",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35033,7 +34678,7 @@
     ]
   },
   {
-    "@id": "_:g2181020",
+    "@id": "_:g2239780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35063,7 +34708,7 @@
     ]
   },
   {
-    "@id": "_:g2190240",
+    "@id": "_:g2249280",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35093,7 +34738,7 @@
     ]
   },
   {
-    "@id": "_:g2200880",
+    "@id": "_:g2260220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35123,7 +34768,7 @@
     ]
   },
   {
-    "@id": "_:g2206640",
+    "@id": "_:g2266200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35153,7 +34798,7 @@
     ]
   },
   {
-    "@id": "_:g2212500",
+    "@id": "_:g2272240",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35183,7 +34828,7 @@
     ]
   },
   {
-    "@id": "_:g2218240",
+    "@id": "_:g2278240",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35254,7 +34899,7 @@
     ]
   },
   {
-    "@id": "_:g2235200",
+    "@id": "_:g2295800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35284,7 +34929,7 @@
     ]
   },
   {
-    "@id": "_:g2240940",
+    "@id": "_:g2301580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35314,7 +34959,7 @@
     ]
   },
   {
-    "@id": "_:g2246640",
+    "@id": "_:g2307640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35344,7 +34989,7 @@
     ]
   },
   {
-    "@id": "_:g2252280",
+    "@id": "_:g2313700",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35374,7 +35019,7 @@
     ]
   },
   {
-    "@id": "_:g2257980",
+    "@id": "_:g2319660",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35404,7 +35049,7 @@
     ]
   },
   {
-    "@id": "_:g2263680",
+    "@id": "_:g2325620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35434,7 +35079,7 @@
     ]
   },
   {
-    "@id": "_:g2269500",
+    "@id": "_:g2331580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35464,7 +35109,7 @@
     ]
   },
   {
-    "@id": "_:g2275320",
+    "@id": "_:g2337540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35494,7 +35139,7 @@
     ]
   },
   {
-    "@id": "_:g2281120",
+    "@id": "_:g2343500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35524,7 +35169,7 @@
     ]
   },
   {
-    "@id": "_:g2286940",
+    "@id": "_:g2349480",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35595,7 +35240,7 @@
     ]
   },
   {
-    "@id": "_:g2296920",
+    "@id": "_:g2359860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -35625,7 +35270,7 @@
     ]
   },
   {
-    "@id": "_:g2302640",
+    "@id": "_:g2365940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
