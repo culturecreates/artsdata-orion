@@ -11,11 +11,10 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
-          mode: "fetch-test"
+          mode: "fetch-push"
           artifact: "spec-qc-ca-events"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "output/spec-qc-ca-events.jsonld"
           page-url: "https://spec.qc.ca/programmation"
           entity-identifier: "div.programmation-programmation__results a"
           token: "${{ secrets.GITHUB_TOKEN }}"
-          report-callback-url: "https://webhook.site/3d45224a-3227-400b-ba44-c828e7e77e0e"
