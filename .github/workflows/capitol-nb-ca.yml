@@ -12,7 +12,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
-          mode: "fetch-push"
+          mode: "fetch-test"
           artifact: "capitol-nb-ca"
           publisher: "https://github.com/fjjulien#this"
           downloadFile: "output/capitolnb-events.jsonld"
