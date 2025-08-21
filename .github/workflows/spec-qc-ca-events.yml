@@ -18,4 +18,4 @@ jobs:
           page-url: "https://spec.qc.ca/programmation"
           entity-identifier: "div.programmation-programmation__results a"
           token: "${{ secrets.GITHUB_TOKEN }}"
-          callback-url: "https://webhook.site/3d45224a-3227-400b-ba44-c828e7e77e0e"
+          report-callback-url: "https://webhook.site/3d45224a-3227-400b-ba44-c828e7e77e0e"
