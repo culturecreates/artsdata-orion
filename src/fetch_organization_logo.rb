@@ -3,8 +3,8 @@ require 'nokogiri'
 require 'open-uri'
 
 BASE_URL = "https://staging.recon.artsdata.ca/extend/http%3A%2F%2Fkg.artsdata.ca%2Fcore/Organization"
-ORGANIZATION_WITH_LOGO_COUNT = 0 
-ERROR_COUNT = 0
+$organization_with_logo_count = 0 
+$error_count = 0
 
 
 def fetch_all_urls(limit = 200)
@@ -40,7 +40,7 @@ def fetch_rdfa(homepage)
     end
   rescue StandardError => e
     warn "Error fetching RDFa from #{homepage}: #{e.message}"
-    ERROR_COUNT += 1
+    $error_count += 1
   end
   graph
 end
@@ -76,7 +76,7 @@ def build_graph(orgs)
     next if logos.empty?
 
     puts "  Found #{logos.size} logos for #{homepage}"
-    ORGANIZATION_WITH_LOGO_COUNT += 1
+    $organization_with_logo_count += 1
 
     output_graph << [artsdata_uri, RDF.type, RDF::Vocab::SCHEMA.Organization]
     output_graph << [artsdata_uri, RDF::Vocab::SCHEMA.url, RDF::URI(homepage)]
@@ -96,5 +96,5 @@ File.open("output/organization_logo.jsonld", 'w') do |file|
 end
 
 puts "Total organizations found from recon API: #{artsdata_uri_url_mapping.size}"
-puts "Total organizations with logos found: #{ORGANIZATION_WITH_LOGO_COUNT}"
-puts "Total errors encountered while loading RDFa: #{ERROR_COUNT}"
+puts "Total organizations with logos found: #{$organization_with_logo_count}"
+puts "Total errors encountered while loading RDFa: #{$error_count}"
