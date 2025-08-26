@@ -3,6 +3,8 @@ require 'nokogiri'
 require 'open-uri'
 
 BASE_URL = "https://staging.recon.artsdata.ca/extend/http%3A%2F%2Fkg.artsdata.ca%2Fcore/Organization"
+ORGANIZATION_WITH_LOGO_COUNT = 0 
+ERROR_COUNT = 0
 
 
 def fetch_all_urls(limit = 200)
@@ -30,12 +32,15 @@ end
 
 def fetch_rdfa(homepage)
   graph = RDF::Graph.new
+  linkeddata_version = Gem::Specification.find_by_name('linkeddata').version.to_s
+  headers = { "User-Agent" => "artsdata-crawler/#{linkeddata_version}" }
   begin
-    RDF::Reader.for(:rdfa).new(URI.open(homepage), base_uri: homepage, logger: false) do |reader|
+    RDF::Reader.for(:rdfa).new(URI.open(homepage, headers), base_uri: homepage, logger: false) do |reader|
       graph << reader
     end
   rescue StandardError => e
     warn "Error fetching RDFa from #{homepage}: #{e.message}"
+    ERROR_COUNT += 1
   end
   graph
 end
@@ -70,6 +75,9 @@ def build_graph(orgs)
     logos = extract_logo(rdfa_graph, RDF::URI(homepage))
     next if logos.empty?
 
+    puts "  Found #{logos.size} logos for #{homepage}"
+    ORGANIZATION_WITH_LOGO_COUNT += 1
+
     output_graph << [artsdata_uri, RDF.type, RDF::Vocab::SCHEMA.Organization]
     output_graph << [artsdata_uri, RDF::Vocab::SCHEMA.url, RDF::URI(homepage)]
 
@@ -86,3 +94,7 @@ graph = build_graph(artsdata_uri_url_mapping)
 File.open("output/organization_logo.jsonld", 'w') do |file|
   file.puts(graph.dump(:jsonld))
 end
+
+puts "Total organizations found from recon API: #{artsdata_uri_url_mapping.size}"
+puts "Total organizations with logos found: #{ORGANIZATION_WITH_LOGO_COUNT}"
+puts "Total errors encountered while loading RDFa: #{ERROR_COUNT}"
