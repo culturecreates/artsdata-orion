@@ -1,0 +1,21 @@
+name: Fetch ADC-659 Entities
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: 0 0 1 6,12 *
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Action setup
+      uses: culturecreates/artsdata-pipeline-action@v3
+      with:
+        mode: fetch-push
+        artifact: adc659-ca
+        publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+        downloadFile: output/adc659-entities.jsonld
+        page-url: https://www.adc659.ca/members/?page_dbbb0=
+        entity-identifier: div.um-member-cover-e a
+        is-paginated: "true"
+        fetch-urls-headlessly: "true"
+        token: "${{ secrets.GITHUB_TOKEN }}"
