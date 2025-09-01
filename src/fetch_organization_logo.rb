@@ -7,39 +7,52 @@ $organization_with_logo_count = 0
 $error_count = 0
 
 
-def fetch_all_urls(limit = 200)
+def fetch_orgs_with_url(limit = 200)
   page = 1
-  url_map = []
+  orgs_with_url = []
+  retries = 3
 
   loop do
     url = URI("#{BASE_URL}?page=#{page}&limit=#{limit}")
     puts "Fetching: #{url}"
-    response = Net::HTTP.get(url)
-    data = JSON.parse(response)
+    begin
+      response = Net::HTTP.get_response(url)
+      if response.code.to_i >= 500
+        raise "Server error: #{response.code}"
+      end
+    rescue StandardError => e
+      warn "Error fetching organizations from #{url}: #{e.message}"
+      retries -= 1
+      if retries > 0
+        warn "Retrying... (#{retries} attempts left)"
+        sleep 1
+        retry
+      else
+        warn "Failed to fetch organizations after multiple attempts."
+      end
+    end
+    data = JSON.parse(response.body)
 
     break if data.empty?
 
-    data.each do |item|
-      if item['url']
-        url_map << { artsdata_uri: item['uri'], homepage: item['url'] }
-      end
-    end
+    orgs_with_url.concat(data.select { |item| item['url'] })
+
     page += 1
   end
 
-  url_map
+  orgs_with_url
 end
 
-def fetch_rdfa(homepage)
+def fetch_rdfa(homepage_url)
   graph = RDF::Graph.new
   linkeddata_version = Gem::Specification.find_by_name('linkeddata').version.to_s
   headers = { "User-Agent" => "artsdata-crawler/#{linkeddata_version}" }
   begin
-    RDF::Reader.for(:rdfa).new(URI.open(homepage, headers), base_uri: homepage, logger: false) do |reader|
+    RDF::Reader.for(:rdfa).new(URI.open(homepage_url, headers), base_uri: homepage_url, logger: false) do |reader|
       graph << reader
     end
   rescue StandardError => e
-    warn "Error fetching RDFa from #{homepage}: #{e.message}"
+    warn "Error fetching RDFa from #{homepage_url}: #{e.message}"
     $error_count += 1
   end
   graph
@@ -66,35 +79,42 @@ def build_graph(orgs)
   output_graph = RDF::Graph.new
 
   orgs.each_with_index do |org, index|
-    homepage = org[:homepage]
-    artsdata_uri = RDF::URI(org[:artsdata_uri])
-    puts "Fetching page #{index + 1}/#{orgs.size}, url: #{homepage}"
+    homepage_url = org['url']
+    artsdata_uri = RDF::URI(org['uri'])
+    organization_uri = RDF::URI(homepage_url + "#Organization")
+    organization_type = org['type'].split(',') || RDF::Vocab::SCHEMA.Organization
+    puts "Fetching page #{index + 1}/#{orgs.size}, url: #{homepage_url}"
 
-    rdfa_graph = fetch_rdfa(homepage)
+    rdfa_graph = fetch_rdfa(homepage_url)
 
-    logos = extract_logo(rdfa_graph, RDF::URI(homepage))
+    logos = extract_logo(rdfa_graph, RDF::URI(homepage_url))
     next if logos.empty?
 
-    puts "  Found #{logos.size} logos for #{homepage}"
+    puts "Found #{logos.size} logos for #{homepage_url}"
     $organization_with_logo_count += 1
 
-    output_graph << [artsdata_uri, RDF.type, RDF::Vocab::SCHEMA.Organization]
-    output_graph << [artsdata_uri, RDF::Vocab::SCHEMA.url, RDF::URI(homepage)]
+    organization_type.each do |type|
+      output_graph << [organization_uri, RDF.type, RDF::URI(type.strip())]
+    end    
+    output_graph << [organization_uri, RDF::Vocab::SCHEMA.url, RDF::URI(homepage_url)]
+    output_graph << [organization_uri, RDF::Vocab::SCHEMA.name, org['name']]
+    output_graph << [organization_uri, RDF::Vocab::SCHEMA.sameAs, artsdata_uri]
 
     logos.each do |logo|
-      output_graph << [artsdata_uri, RDF::Vocab::SCHEMA.logo, logo]
+      output_graph << [organization_uri, RDF::Vocab::SCHEMA.logo, logo]
     end
   end
 
   output_graph
 end
 
-artsdata_uri_url_mapping = fetch_all_urls()
-graph = build_graph(artsdata_uri_url_mapping)
+orgs_with_url = fetch_orgs_with_url()
+orgs_with_url = orgs_with_url.first(10)
+graph = build_graph(orgs_with_url)
 File.open("output/organization_logo.jsonld", 'w') do |file|
   file.puts(graph.dump(:jsonld))
 end
 
-puts "Total organizations found from recon API: #{artsdata_uri_url_mapping.size}"
+puts "Total organizations found from recon API: #{orgs_with_url.size}"
 puts "Total organizations with logos found: #{$organization_with_logo_count}"
 puts "Total errors encountered while loading RDFa: #{$error_count}"
