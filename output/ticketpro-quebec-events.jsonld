@@ -5,6 +5,10 @@
       {
         "@language": "en",
         "@value": "Ticketpro.ca - Vente de billets, Purchase tickets online"
+      },
+      {
+        "@language": "en",
+        "@value": "De Concert avec vous! Your ticket to the entertainment world!"
       }
     ],
     "http://ogp.me/ns#type": [
@@ -35,14 +39,24 @@
       {
         "@language": "en",
         "@value": "Ticketpro est le partenaire officiel de nombreux événements près de chez vous ! - Ticketpro is the official partner for many local events near you!"
+      },
+      {
+        "@language": "en",
+        "@value": "De Concert avec vous! Your ticket to the entertainment world!"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7142"
+      },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=6998"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7070"
+      },
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7141"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=6933"
@@ -55,6 +69,9 @@
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7056"
+      },
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7147"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=6971"
@@ -102,6 +119,9 @@
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7087"
       },
       {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7149"
+      },
+      {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7128"
       },
       {
@@ -114,13 +134,13 @@
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7064"
       },
       {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7098"
-      },
-      {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7068"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7091"
+      },
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7144"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7078"
@@ -157,9 +177,6 @@
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7139"
-      },
-      {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7054"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7035"
@@ -207,16 +224,13 @@
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7111"
       },
       {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7121"
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7148"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7137"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7089"
-      },
-      {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=6899"
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7114"
@@ -288,9 +302,6 @@
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7061"
       },
       {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7094"
-      },
-      {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=7105"
       },
       {
@@ -301,6 +312,1124 @@
       },
       {
         "@id": "https://ww1.ticketpro.ca/event.php?event_id=6880"
+      }
+    ]
+  },
+  {
+    "@id": "https://ticketpro.ca/event/1660508458",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://ticketpro.ca/place/9742830"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://tpropdc.ticketpro.ca/api/v1/resources/1660215717.jpeg?version=1"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g461360"
+      },
+      {
+        "@id": "_:g461380"
+      },
+      {
+        "@id": "_:g461400"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7142"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "64è Salon annuel de gemmes et minéraux - 24 au 26 octobre, 2025"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://ticketpro.ca/place/9742830",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g461340"
+      },
+      {
+        "@id": "_:g1180540"
+      },
+      {
+        "@id": "_:g1180720"
+      },
+      {
+        "@id": "_:g1191960"
+      },
+      {
+        "@id": "_:g1211960"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Palais des congrès de Montréal"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461360",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "10"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-22"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tpropdc.ticketpro.ca/en/pages/1660215817"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Adult"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461380",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "8"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-22"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tpropdc.ticketpro.ca/en/pages/1660215817"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "65 years +"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461400",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "8"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-22"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tpropdc.ticketpro.ca/en/pages/1660215817"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Student"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g461340",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1001, Place Jean-Paul-Riopelle"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2Z 1H2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1180540",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1001, Place Jean-Paul-Riopelle"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2Z 1H2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1180720",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1001, Place Jean-Paul-Riopelle"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2Z 1H2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1191960",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1001, Place Jean-Paul-Riopelle"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2Z 1H2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1211960",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1001, Place Jean-Paul-Riopelle"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2Z 1H2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://ticketpro.ca/event/1660216188",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-05-17T20:00:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://ticketpro.ca/place/1"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/api/v1/resources/1660215748.jpeg?version=0"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g484800"
+      },
+      {
+        "@id": "_:g484820"
+      },
+      {
+        "@id": "_:g484840"
+      },
+      {
+        "@id": "_:g484860"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7141"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Adamo - C'est ma vie... le temps de se dire au revoir"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://ticketpro.ca/place/1",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g484780"
+      },
+      {
+        "@id": "_:g502840"
+      },
+      {
+        "@id": "_:g521800"
+      },
+      {
+        "@id": "_:g532780"
+      },
+      {
+        "@id": "_:g584060"
+      },
+      {
+        "@id": "_:g763500"
+      },
+      {
+        "@id": "_:g809260"
+      },
+      {
+        "@id": "_:g850040"
+      },
+      {
+        "@id": "_:g937160"
+      },
+      {
+        "@id": "_:g961340"
+      },
+      {
+        "@id": "_:g1042780"
+      },
+      {
+        "@id": "_:g1074320"
+      },
+      {
+        "@id": "_:g1134400"
+      },
+      {
+        "@id": "_:g1248760"
+      },
+      {
+        "@id": "_:g1259700"
+      },
+      {
+        "@id": "_:g1291440"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Théâtre St-Denis"
+      },
+      {
+        "@value": "Théâtre St-Denis - Espace St-Denis"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484800",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.6232E2"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-27"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215814"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484820",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.3932E2"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-27"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215814"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484840",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.1633E2"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-27"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215814"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484860",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.5082E2"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-27"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215814"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484780",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g502840",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g521800",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g532780",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g584060",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g763500",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g809260",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g850040",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g937160",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g961340",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1042780",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1074320",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1134400",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1248760",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1259700",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1291440",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "1594 St-Denis"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H2X 3K2"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "Canada"
       }
     ]
   },
@@ -327,19 +1456,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g481320"
+        "@id": "_:g502860"
       },
       {
-        "@id": "_:g481340"
+        "@id": "_:g502880"
       },
       {
-        "@id": "_:g481360"
+        "@id": "_:g502900"
       },
       {
-        "@id": "_:g481380"
+        "@id": "_:g502920"
       },
       {
-        "@id": "_:g481400"
+        "@id": "_:g502940"
+      },
+      {
+        "@id": "_:g502960"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -364,65 +1496,7 @@
     ]
   },
   {
-    "@id": "https://ticketpro.ca/place/1",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g481300"
-      },
-      {
-        "@id": "_:g498940"
-      },
-      {
-        "@id": "_:g546800"
-      },
-      {
-        "@id": "_:g674220"
-      },
-      {
-        "@id": "_:g709100"
-      },
-      {
-        "@id": "_:g752540"
-      },
-      {
-        "@id": "_:g787720"
-      },
-      {
-        "@id": "_:g876860"
-      },
-      {
-        "@id": "_:g900160"
-      },
-      {
-        "@id": "_:g979000"
-      },
-      {
-        "@id": "_:g1068420"
-      },
-      {
-        "@id": "_:g1177300"
-      },
-      {
-        "@id": "_:g1187820"
-      },
-      {
-        "@id": "_:g1218280"
-      },
-      {
-        "@id": "_:g1229300"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Théâtre St-Denis - Espace St-Denis"
-      }
-    ]
-  },
-  {
-    "@id": "_:g481320",
+    "@id": "_:g502860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -460,7 +1534,7 @@
     ]
   },
   {
-    "@id": "_:g481340",
+    "@id": "_:g502880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -498,7 +1572,7 @@
     ]
   },
   {
-    "@id": "_:g481360",
+    "@id": "_:g502900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -536,7 +1610,7 @@
     ]
   },
   {
-    "@id": "_:g481380",
+    "@id": "_:g502920",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -574,7 +1648,7 @@
     ]
   },
   {
-    "@id": "_:g481400",
+    "@id": "_:g502940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -612,467 +1686,40 @@
     ]
   },
   {
-    "@id": "_:g481300",
+    "@id": "_:g502960",
     "@type": [
-      "http://schema.org/PostalAddress"
+      "http://schema.org/Offer"
     ],
-    "http://schema.org/streetAddress": [
+    "http://schema.org/price": [
       {
-        "@value": "1594 St-Denis"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "60"
       }
     ],
-    "http://schema.org/addressLocality": [
+    "http://schema.org/validFrom": [
       {
-        "@value": "Montréal"
+        "@type": "http://schema.org/Date",
+        "@value": "2025-06-19"
       }
     ],
-    "http://schema.org/postalCode": [
+    "http://schema.org/url": [
       {
-        "@value": "H2X 3K2"
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1654633168"
       }
     ],
-    "http://schema.org/addressRegion": [
+    "http://schema.org/name": [
       {
-        "@value": "QC"
+        "@value": "Obstructed View"
       }
     ],
-    "http://schema.org/addressCountry": [
+    "http://schema.org/priceCurrency": [
       {
-        "@value": "Canada"
+        "@value": "CAD"
       }
-    ]
-  },
-  {
-    "@id": "_:g498940",
-    "@type": [
-      "http://schema.org/PostalAddress"
     ],
-    "http://schema.org/streetAddress": [
+    "http://schema.org/availability": [
       {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g546800",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g674220",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g709100",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g752540",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g787720",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g876860",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g900160",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g979000",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1068420",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1177300",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1187820",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1218280",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1229300",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1594 St-Denis"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2X 3K2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
+        "@id": "http://schema.org/SoldOut"
       }
     ]
   },
@@ -1099,16 +1746,16 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g498960"
+        "@id": "_:g521820"
       },
       {
-        "@id": "_:g498980"
+        "@id": "_:g521840"
       },
       {
-        "@id": "_:g499000"
+        "@id": "_:g521860"
       },
       {
-        "@id": "_:g499020"
+        "@id": "_:g521880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -1133,7 +1780,7 @@
     ]
   },
   {
-    "@id": "_:g498960",
+    "@id": "_:g521820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1171,7 +1818,7 @@
     ]
   },
   {
-    "@id": "_:g498980",
+    "@id": "_:g521840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1209,7 +1856,7 @@
     ]
   },
   {
-    "@id": "_:g499000",
+    "@id": "_:g521860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1247,7 +1894,7 @@
     ]
   },
   {
-    "@id": "_:g499020",
+    "@id": "_:g521880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1285,6 +1932,296 @@
     ]
   },
   {
+    "@id": "https://ticketpro.ca/event/1660918672",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-21T18:00:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://ticketpro.ca/place/1"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/api/v1/resources/1661069820.jpeg?version=0"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g532800"
+      },
+      {
+        "@id": "_:g532820"
+      },
+      {
+        "@id": "_:g532840"
+      },
+      {
+        "@id": "_:g532860"
+      },
+      {
+        "@id": "_:g532880"
+      },
+      {
+        "@id": "_:g532900"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7147"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Babbu Maan - THE ONE MAAN SHOW 2025"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g532800",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "2.3919E2"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-28"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660896663"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g532820",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.5571E2"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-28"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660896663"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g532840",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.2696E2"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-28"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660896663"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g532860",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "9.147E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-28"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660896663"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g532880",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "7.273E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-28"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660896663"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g532900",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "6.238E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-28"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660896663"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
     "@id": "https://ticketpro.ca/event/1654863587",
     "@type": [
       "http://schema.org/Event"
@@ -1307,22 +2244,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g509540"
+        "@id": "_:g544800"
       },
       {
-        "@id": "_:g509560"
+        "@id": "_:g544820"
       },
       {
-        "@id": "_:g509580"
+        "@id": "_:g544840"
       },
       {
-        "@id": "_:g509600"
+        "@id": "_:g544860"
       },
       {
-        "@id": "_:g509620"
+        "@id": "_:g544880"
       },
       {
-        "@id": "_:g509640"
+        "@id": "_:g544900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -1353,66 +2290,66 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g509520"
+        "@id": "_:g544780"
       },
       {
-        "@id": "_:g565580"
+        "@id": "_:g603720"
       },
       {
-        "@id": "_:g575120"
+        "@id": "_:g613740"
       },
       {
-        "@id": "_:g635680"
+        "@id": "_:g679720"
       },
       {
-        "@id": "_:g683300"
+        "@id": "_:g728380"
       },
       {
-        "@id": "_:g856560"
+        "@id": "_:g915860"
       },
       {
-        "@id": "_:g865580"
+        "@id": "_:g925380"
       },
       {
-        "@id": "_:g888860"
+        "@id": "_:g949680"
       },
       {
-        "@id": "_:g1028660"
+        "@id": "_:g1093080"
       },
       {
-        "@id": "_:g1159360"
+        "@id": "_:g1229980"
       },
       {
-        "@id": "_:g1198340"
+        "@id": "_:g1270640"
       },
       {
-        "@id": "_:g1208700"
+        "@id": "_:g1281440"
       },
       {
-        "@id": "_:g1264640"
+        "@id": "_:g1328340"
       }
     ],
     "http://schema.org/name": [
       {
-        "@value": "Studio-Cabaret - Espace St-Denis"
+        "@value": "Studio-Cabaret"
       }
     ]
   },
   {
-    "@id": "_:g509540",
+    "@id": "_:g544800",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "5.695E1"
+        "@value": "5.795E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -1437,7 +2374,7 @@
     ]
   },
   {
-    "@id": "_:g509560",
+    "@id": "_:g544820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1450,7 +2387,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -1475,7 +2412,7 @@
     ]
   },
   {
-    "@id": "_:g509580",
+    "@id": "_:g544840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1488,7 +2425,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -1513,7 +2450,7 @@
     ]
   },
   {
-    "@id": "_:g509600",
+    "@id": "_:g544860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1526,7 +2463,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -1551,7 +2488,7 @@
     ]
   },
   {
-    "@id": "_:g509620",
+    "@id": "_:g544880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1564,7 +2501,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -1589,7 +2526,7 @@
     ]
   },
   {
-    "@id": "_:g509640",
+    "@id": "_:g544900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -1602,7 +2539,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -1627,7 +2564,7 @@
     ]
   },
   {
-    "@id": "_:g509520",
+    "@id": "_:g544780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1658,7 +2595,7 @@
     ]
   },
   {
-    "@id": "_:g565580",
+    "@id": "_:g603720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1689,7 +2626,7 @@
     ]
   },
   {
-    "@id": "_:g575120",
+    "@id": "_:g613740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1720,7 +2657,7 @@
     ]
   },
   {
-    "@id": "_:g635680",
+    "@id": "_:g679720",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1751,7 +2688,7 @@
     ]
   },
   {
-    "@id": "_:g683300",
+    "@id": "_:g728380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1782,7 +2719,7 @@
     ]
   },
   {
-    "@id": "_:g856560",
+    "@id": "_:g915860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1813,7 +2750,7 @@
     ]
   },
   {
-    "@id": "_:g865580",
+    "@id": "_:g925380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1844,7 +2781,7 @@
     ]
   },
   {
-    "@id": "_:g888860",
+    "@id": "_:g949680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1875,7 +2812,7 @@
     ]
   },
   {
-    "@id": "_:g1028660",
+    "@id": "_:g1093080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1906,7 +2843,7 @@
     ]
   },
   {
-    "@id": "_:g1159360",
+    "@id": "_:g1229980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1937,7 +2874,7 @@
     ]
   },
   {
-    "@id": "_:g1198340",
+    "@id": "_:g1270640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1968,7 +2905,7 @@
     ]
   },
   {
-    "@id": "_:g1208700",
+    "@id": "_:g1281440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1999,7 +2936,7 @@
     ]
   },
   {
-    "@id": "_:g1264640",
+    "@id": "_:g1328340",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2052,7 +2989,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g520800"
+        "@id": "_:g556500"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2083,43 +3020,43 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g520780"
+        "@id": "_:g556480"
       },
       {
-        "@id": "_:g556280"
+        "@id": "_:g594000"
       },
       {
-        "@id": "_:g619880"
+        "@id": "_:g662740"
       },
       {
-        "@id": "_:g651600"
+        "@id": "_:g704200"
       },
       {
-        "@id": "_:g692240"
+        "@id": "_:g737880"
       },
       {
-        "@id": "_:g718040"
+        "@id": "_:g772880"
       },
       {
-        "@id": "_:g814620"
+        "@id": "_:g871100"
       },
       {
-        "@id": "_:g847340"
+        "@id": "_:g906180"
       },
       {
-        "@id": "_:g918500"
+        "@id": "_:g980580"
       },
       {
-        "@id": "_:g927580"
+        "@id": "_:g990120"
       },
       {
-        "@id": "_:g1046780"
+        "@id": "_:g1111920"
       },
       {
-        "@id": "_:g1085860"
+        "@id": "_:g1152640"
       },
       {
-        "@id": "_:g1255420"
+        "@id": "_:g1318680"
       }
     ],
     "http://schema.org/name": [
@@ -2129,7 +3066,7 @@
     ]
   },
   {
-    "@id": "_:g520800",
+    "@id": "_:g556500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2167,7 +3104,7 @@
     ]
   },
   {
-    "@id": "_:g520780",
+    "@id": "_:g556480",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2198,7 +3135,7 @@
     ]
   },
   {
-    "@id": "_:g556280",
+    "@id": "_:g594000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2229,7 +3166,7 @@
     ]
   },
   {
-    "@id": "_:g619880",
+    "@id": "_:g662740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2260,7 +3197,7 @@
     ]
   },
   {
-    "@id": "_:g651600",
+    "@id": "_:g704200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2291,7 +3228,7 @@
     ]
   },
   {
-    "@id": "_:g692240",
+    "@id": "_:g737880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2322,7 +3259,7 @@
     ]
   },
   {
-    "@id": "_:g718040",
+    "@id": "_:g772880",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2353,7 +3290,7 @@
     ]
   },
   {
-    "@id": "_:g814620",
+    "@id": "_:g871100",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2384,7 +3321,7 @@
     ]
   },
   {
-    "@id": "_:g847340",
+    "@id": "_:g906180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2415,7 +3352,7 @@
     ]
   },
   {
-    "@id": "_:g918500",
+    "@id": "_:g980580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2446,7 +3383,7 @@
     ]
   },
   {
-    "@id": "_:g927580",
+    "@id": "_:g990120",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2477,7 +3414,7 @@
     ]
   },
   {
-    "@id": "_:g1046780",
+    "@id": "_:g1111920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2508,7 +3445,7 @@
     ]
   },
   {
-    "@id": "_:g1085860",
+    "@id": "_:g1152640",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2539,7 +3476,7 @@
     ]
   },
   {
-    "@id": "_:g1255420",
+    "@id": "_:g1318680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2592,10 +3529,10 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g546820"
+        "@id": "_:g584080"
       },
       {
-        "@id": "_:g546840"
+        "@id": "_:g584100"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2620,7 +3557,7 @@
     ]
   },
   {
-    "@id": "_:g546820",
+    "@id": "_:g584080",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2658,7 +3595,7 @@
     ]
   },
   {
-    "@id": "_:g546840",
+    "@id": "_:g584100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2718,7 +3655,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g556300"
+        "@id": "_:g594020"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2743,7 +3680,7 @@
     ]
   },
   {
-    "@id": "_:g556300",
+    "@id": "_:g594020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2803,10 +3740,10 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g565600"
+        "@id": "_:g603740"
       },
       {
-        "@id": "_:g565620"
+        "@id": "_:g603760"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2831,7 +3768,7 @@
     ]
   },
   {
-    "@id": "_:g565600",
+    "@id": "_:g603740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2869,7 +3806,7 @@
     ]
   },
   {
-    "@id": "_:g565620",
+    "@id": "_:g603760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2929,13 +3866,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g575140"
+        "@id": "_:g613760"
       },
       {
-        "@id": "_:g575160"
+        "@id": "_:g613780"
       },
       {
-        "@id": "_:g575180"
+        "@id": "_:g613800"
+      },
+      {
+        "@id": "_:g613820"
+      },
+      {
+        "@id": "_:g613840"
+      },
+      {
+        "@id": "_:g613860"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2960,20 +3906,20 @@
     ]
   },
   {
-    "@id": "_:g575140",
+    "@id": "_:g613760",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "5.895E1"
+        "@value": "5.995E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -2998,20 +3944,58 @@
     ]
   },
   {
-    "@id": "_:g575160",
+    "@id": "_:g613780",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "5.295E1"
+        "@value": "4.695E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1655429658"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Student | ID require at the door"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g613800",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "5.395E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -3036,20 +4020,58 @@
     ]
   },
   {
-    "@id": "_:g575180",
+    "@id": "_:g613820",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.595E1"
+        "@value": "4.695E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1655429658"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Student | ID require at the door"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g613840",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "4.695E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -3060,6 +4082,44 @@
     "http://schema.org/name": [
       {
         "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g613860",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "4.695E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-01"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1655429658"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Student | ID require at the door"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -3096,7 +4156,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g619900"
+        "@id": "_:g662760"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3121,7 +4181,7 @@
     ]
   },
   {
-    "@id": "_:g619900",
+    "@id": "_:g662760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3181,10 +4241,10 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g635700"
+        "@id": "_:g679740"
       },
       {
-        "@id": "_:g635720"
+        "@id": "_:g679760"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3209,7 +4269,7 @@
     ]
   },
   {
-    "@id": "_:g635700",
+    "@id": "_:g679740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3247,7 +4307,7 @@
     ]
   },
   {
-    "@id": "_:g635720",
+    "@id": "_:g679760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3307,7 +4367,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g651620"
+        "@id": "_:g704220"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3332,7 +4392,7 @@
     ]
   },
   {
-    "@id": "_:g651620",
+    "@id": "_:g704220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3351,91 +4411,6 @@
     "http://schema.org/url": [
       {
         "@id": "https://tproqc.ticketpro.ca/en/pages/1626570858"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Regular"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://ticketpro.ca/event/1652995126",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-08-30T18:00:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://ticketpro.ca/place/1"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/api/v1/resources/1652573714.jpeg?version=2"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g674240"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7098"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Gospel Night"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "_:g674240",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "60"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-02"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/1652687062"
       }
     ],
     "http://schema.org/name": [
@@ -3477,7 +4452,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g683320"
+        "@id": "_:g728400"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3502,7 +4477,7 @@
     ]
   },
   {
-    "@id": "_:g683320",
+    "@id": "_:g728400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3562,7 +4537,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g692260"
+        "@id": "_:g737900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3587,7 +4562,7 @@
     ]
   },
   {
-    "@id": "_:g692260",
+    "@id": "_:g737900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3647,7 +4622,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g700900"
+        "@id": "_:g754620"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3678,7 +4653,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g700880"
+        "@id": "_:g754600"
       }
     ],
     "http://schema.org/name": [
@@ -3688,7 +4663,7 @@
     ]
   },
   {
-    "@id": "_:g700900",
+    "@id": "_:g754620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3726,7 +4701,7 @@
     ]
   },
   {
-    "@id": "_:g700880",
+    "@id": "_:g754600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3779,10 +4754,10 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g709120"
+        "@id": "_:g763520"
       },
       {
-        "@id": "_:g709140"
+        "@id": "_:g763540"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3807,20 +4782,20 @@
     ]
   },
   {
-    "@id": "_:g709120",
+    "@id": "_:g763520",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "6.024E1"
+        "@value": "6.124E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-27"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -3845,20 +4820,20 @@
     ]
   },
   {
-    "@id": "_:g709140",
+    "@id": "_:g763540",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.874E1"
+        "@value": "4.974E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-27"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -3905,7 +4880,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g718060"
+        "@id": "_:g772900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3930,7 +4905,7 @@
     ]
   },
   {
-    "@id": "_:g718060",
+    "@id": "_:g772900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3990,31 +4965,31 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g733120"
+        "@id": "_:g788880"
       },
       {
-        "@id": "_:g733140"
+        "@id": "_:g788900"
       },
       {
-        "@id": "_:g733160"
+        "@id": "_:g788920"
       },
       {
-        "@id": "_:g733180"
+        "@id": "_:g788940"
       },
       {
-        "@id": "_:g733200"
+        "@id": "_:g788960"
       },
       {
-        "@id": "_:g733220"
+        "@id": "_:g788980"
       },
       {
-        "@id": "_:g733240"
+        "@id": "_:g789000"
       },
       {
-        "@id": "_:g733260"
+        "@id": "_:g789020"
       },
       {
-        "@id": "_:g733280"
+        "@id": "_:g789040"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4045,7 +5020,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g733100"
+        "@id": "_:g788860"
       }
     ],
     "http://schema.org/name": [
@@ -4055,7 +5030,7 @@
     ]
   },
   {
-    "@id": "_:g733120",
+    "@id": "_:g788880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4093,7 +5068,7 @@
     ]
   },
   {
-    "@id": "_:g733140",
+    "@id": "_:g788900",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4131,7 +5106,7 @@
     ]
   },
   {
-    "@id": "_:g733160",
+    "@id": "_:g788920",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4169,7 +5144,7 @@
     ]
   },
   {
-    "@id": "_:g733180",
+    "@id": "_:g788940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4207,7 +5182,7 @@
     ]
   },
   {
-    "@id": "_:g733200",
+    "@id": "_:g788960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4245,7 +5220,7 @@
     ]
   },
   {
-    "@id": "_:g733220",
+    "@id": "_:g788980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4283,7 +5258,7 @@
     ]
   },
   {
-    "@id": "_:g733240",
+    "@id": "_:g789000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4321,7 +5296,7 @@
     ]
   },
   {
-    "@id": "_:g733260",
+    "@id": "_:g789020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4359,7 +5334,7 @@
     ]
   },
   {
-    "@id": "_:g733280",
+    "@id": "_:g789040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4397,7 +5372,7 @@
     ]
   },
   {
-    "@id": "_:g733100",
+    "@id": "_:g788860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4450,19 +5425,19 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g752560"
+        "@id": "_:g809280"
       },
       {
-        "@id": "_:g752580"
+        "@id": "_:g809300"
       },
       {
-        "@id": "_:g752600"
+        "@id": "_:g809320"
       },
       {
-        "@id": "_:g752620"
+        "@id": "_:g809340"
       },
       {
-        "@id": "_:g752640"
+        "@id": "_:g809360"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4487,20 +5462,20 @@
     ]
   },
   {
-    "@id": "_:g752560",
+    "@id": "_:g809280",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "132"
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.355E2"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-20"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -4525,20 +5500,20 @@
     ]
   },
   {
-    "@id": "_:g752580",
+    "@id": "_:g809300",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "122"
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.255E2"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-20"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -4563,20 +5538,20 @@
     ]
   },
   {
-    "@id": "_:g752600",
+    "@id": "_:g809320",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "102"
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.045E2"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-20"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -4601,20 +5576,20 @@
     ]
   },
   {
-    "@id": "_:g752620",
+    "@id": "_:g809340",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "72"
+        "@value": "73"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-20"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -4639,20 +5614,20 @@
     ]
   },
   {
-    "@id": "_:g752640",
+    "@id": "_:g809360",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "52"
+        "@value": "53"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-01-20"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -4699,7 +5674,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g787740"
+        "@id": "_:g850060"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4724,7 +5699,7 @@
     ]
   },
   {
-    "@id": "_:g787740",
+    "@id": "_:g850060",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4784,19 +5759,19 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g796680"
+        "@id": "_:g859540"
       },
       {
-        "@id": "_:g796700"
+        "@id": "_:g859560"
       },
       {
-        "@id": "_:g796720"
+        "@id": "_:g859580"
       },
       {
-        "@id": "_:g796740"
+        "@id": "_:g859600"
       },
       {
-        "@id": "_:g796760"
+        "@id": "_:g859620"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4827,13 +5802,13 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g796660"
+        "@id": "_:g859520"
       },
       {
-        "@id": "_:g994580"
+        "@id": "_:g1061440"
       },
       {
-        "@id": "_:g1055880"
+        "@id": "_:g1121440"
       }
     ],
     "http://schema.org/name": [
@@ -4843,7 +5818,7 @@
     ]
   },
   {
-    "@id": "_:g796680",
+    "@id": "_:g859540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4876,12 +5851,12 @@
     ],
     "http://schema.org/availability": [
       {
-        "@id": "http://schema.org/InStock"
+        "@id": "http://schema.org/SoldOut"
       }
     ]
   },
   {
-    "@id": "_:g796700",
+    "@id": "_:g859560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4919,7 +5894,7 @@
     ]
   },
   {
-    "@id": "_:g796720",
+    "@id": "_:g859580",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4957,7 +5932,7 @@
     ]
   },
   {
-    "@id": "_:g796740",
+    "@id": "_:g859600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4995,7 +5970,7 @@
     ]
   },
   {
-    "@id": "_:g796760",
+    "@id": "_:g859620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5033,7 +6008,7 @@
     ]
   },
   {
-    "@id": "_:g796660",
+    "@id": "_:g859520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5064,7 +6039,7 @@
     ]
   },
   {
-    "@id": "_:g994580",
+    "@id": "_:g1061440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5095,7 +6070,7 @@
     ]
   },
   {
-    "@id": "_:g1055880",
+    "@id": "_:g1121440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5148,7 +6123,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g814640"
+        "@id": "_:g871120"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5173,7 +6148,7 @@
     ]
   },
   {
-    "@id": "_:g814640",
+    "@id": "_:g871120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5228,13 +6203,13 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g823400"
+        "@id": "_:g880700"
       },
       {
-        "@id": "_:g823420"
+        "@id": "_:g880720"
       },
       {
-        "@id": "_:g823440"
+        "@id": "_:g880740"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5265,7 +6240,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g823380"
+        "@id": "_:g880680"
       }
     ],
     "http://schema.org/name": [
@@ -5275,7 +6250,7 @@
     ]
   },
   {
-    "@id": "_:g823400",
+    "@id": "_:g880700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5313,7 +6288,7 @@
     ]
   },
   {
-    "@id": "_:g823420",
+    "@id": "_:g880720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5351,7 +6326,7 @@
     ]
   },
   {
-    "@id": "_:g823440",
+    "@id": "_:g880740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5389,7 +6364,7 @@
     ]
   },
   {
-    "@id": "_:g823380",
+    "@id": "_:g880680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5442,7 +6417,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g847360"
+        "@id": "_:g906200"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5467,7 +6442,7 @@
     ]
   },
   {
-    "@id": "_:g847360",
+    "@id": "_:g906200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5527,7 +6502,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g856580"
+        "@id": "_:g915880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5552,7 +6527,7 @@
     ]
   },
   {
-    "@id": "_:g856580",
+    "@id": "_:g915880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5612,22 +6587,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g865600"
+        "@id": "_:g925400"
       },
       {
-        "@id": "_:g865620"
+        "@id": "_:g925420"
       },
       {
-        "@id": "_:g865640"
+        "@id": "_:g925440"
       },
       {
-        "@id": "_:g865660"
+        "@id": "_:g925460"
       },
       {
-        "@id": "_:g865680"
+        "@id": "_:g925480"
       },
       {
-        "@id": "_:g865700"
+        "@id": "_:g925500"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5652,7 +6627,7 @@
     ]
   },
   {
-    "@id": "_:g865600",
+    "@id": "_:g925400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5665,7 +6640,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -5690,7 +6665,7 @@
     ]
   },
   {
-    "@id": "_:g865620",
+    "@id": "_:g925420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5703,7 +6678,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -5728,20 +6703,20 @@
     ]
   },
   {
-    "@id": "_:g865640",
+    "@id": "_:g925440",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "5.095E1"
+        "@value": "5.195E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -5766,7 +6741,7 @@
     ]
   },
   {
-    "@id": "_:g865660",
+    "@id": "_:g925460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5779,7 +6754,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -5804,7 +6779,7 @@
     ]
   },
   {
-    "@id": "_:g865680",
+    "@id": "_:g925480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5817,7 +6792,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -5842,7 +6817,7 @@
     ]
   },
   {
-    "@id": "_:g865700",
+    "@id": "_:g925500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5855,7 +6830,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -5902,25 +6877,25 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g876880"
+        "@id": "_:g937180"
       },
       {
-        "@id": "_:g876900"
+        "@id": "_:g937200"
       },
       {
-        "@id": "_:g876920"
+        "@id": "_:g937220"
       },
       {
-        "@id": "_:g876940"
+        "@id": "_:g937240"
       },
       {
-        "@id": "_:g876960"
+        "@id": "_:g937260"
       },
       {
-        "@id": "_:g876980"
+        "@id": "_:g937280"
       },
       {
-        "@id": "_:g877000"
+        "@id": "_:g937300"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5945,7 +6920,7 @@
     ]
   },
   {
-    "@id": "_:g876880",
+    "@id": "_:g937180",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5983,7 +6958,7 @@
     ]
   },
   {
-    "@id": "_:g876900",
+    "@id": "_:g937200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6021,7 +6996,7 @@
     ]
   },
   {
-    "@id": "_:g876920",
+    "@id": "_:g937220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6059,7 +7034,7 @@
     ]
   },
   {
-    "@id": "_:g876940",
+    "@id": "_:g937240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6097,7 +7072,7 @@
     ]
   },
   {
-    "@id": "_:g876960",
+    "@id": "_:g937260",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6135,7 +7110,7 @@
     ]
   },
   {
-    "@id": "_:g876980",
+    "@id": "_:g937280",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6173,7 +7148,7 @@
     ]
   },
   {
-    "@id": "_:g877000",
+    "@id": "_:g937300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6233,22 +7208,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g888880"
+        "@id": "_:g949700"
       },
       {
-        "@id": "_:g888900"
+        "@id": "_:g949720"
       },
       {
-        "@id": "_:g888920"
+        "@id": "_:g949740"
       },
       {
-        "@id": "_:g888940"
+        "@id": "_:g949760"
       },
       {
-        "@id": "_:g888960"
+        "@id": "_:g949780"
       },
       {
-        "@id": "_:g888980"
+        "@id": "_:g949800"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6273,7 +7248,7 @@
     ]
   },
   {
-    "@id": "_:g888880",
+    "@id": "_:g949700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6286,7 +7261,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6311,7 +7286,7 @@
     ]
   },
   {
-    "@id": "_:g888900",
+    "@id": "_:g949720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6324,7 +7299,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6349,20 +7324,20 @@
     ]
   },
   {
-    "@id": "_:g888920",
+    "@id": "_:g949740",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.595E1"
+        "@value": "4.245E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6387,7 +7362,7 @@
     ]
   },
   {
-    "@id": "_:g888940",
+    "@id": "_:g949760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6400,7 +7375,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6425,7 +7400,7 @@
     ]
   },
   {
-    "@id": "_:g888960",
+    "@id": "_:g949780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6438,7 +7413,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6463,7 +7438,7 @@
     ]
   },
   {
-    "@id": "_:g888980",
+    "@id": "_:g949800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6476,7 +7451,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6523,22 +7498,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g900180"
+        "@id": "_:g961360"
       },
       {
-        "@id": "_:g900200"
+        "@id": "_:g961380"
       },
       {
-        "@id": "_:g900220"
+        "@id": "_:g961400"
       },
       {
-        "@id": "_:g900240"
+        "@id": "_:g961420"
       },
       {
-        "@id": "_:g900260"
+        "@id": "_:g961440"
       },
       {
-        "@id": "_:g900280"
+        "@id": "_:g961460"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6563,20 +7538,20 @@
     ]
   },
   {
-    "@id": "_:g900180",
+    "@id": "_:g961360",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.95E1"
+        "@value": "5.05E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6601,20 +7576,20 @@
     ]
   },
   {
-    "@id": "_:g900200",
+    "@id": "_:g961380",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.45E1"
+        "@value": "4.55E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6639,20 +7614,20 @@
     ]
   },
   {
-    "@id": "_:g900220",
+    "@id": "_:g961400",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.45E1"
+        "@value": "4.55E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6677,20 +7652,20 @@
     ]
   },
   {
-    "@id": "_:g900240",
+    "@id": "_:g961420",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "3.85E1"
+        "@value": "3.55E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6715,20 +7690,20 @@
     ]
   },
   {
-    "@id": "_:g900260",
+    "@id": "_:g961440",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "3.85E1"
+        "@value": "3.55E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6753,20 +7728,20 @@
     ]
   },
   {
-    "@id": "_:g900280",
+    "@id": "_:g961460",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "3.05E1"
+        "@value": "2.75E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -6813,7 +7788,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g918520"
+        "@id": "_:g980600"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6838,7 +7813,7 @@
     ]
   },
   {
-    "@id": "_:g918520",
+    "@id": "_:g980600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6898,7 +7873,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g927600"
+        "@id": "_:g990140"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6923,7 +7898,7 @@
     ]
   },
   {
-    "@id": "_:g927600",
+    "@id": "_:g990140",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6983,40 +7958,40 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g936540"
+        "@id": "_:g999540"
       },
       {
-        "@id": "_:g936560"
+        "@id": "_:g999560"
       },
       {
-        "@id": "_:g936580"
+        "@id": "_:g999580"
       },
       {
-        "@id": "_:g936600"
+        "@id": "_:g999600"
       },
       {
-        "@id": "_:g936620"
+        "@id": "_:g999620"
       },
       {
-        "@id": "_:g936640"
+        "@id": "_:g999640"
       },
       {
-        "@id": "_:g937200"
+        "@id": "_:g1000140"
       },
       {
-        "@id": "_:g937220"
+        "@id": "_:g1000160"
       },
       {
-        "@id": "_:g937240"
+        "@id": "_:g1000180"
       },
       {
-        "@id": "_:g937260"
+        "@id": "_:g1000200"
       },
       {
-        "@id": "_:g937280"
+        "@id": "_:g1000220"
       },
       {
-        "@id": "_:g937300"
+        "@id": "_:g1000240"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7047,16 +8022,16 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g936520"
+        "@id": "_:g999520"
       },
       {
-        "@id": "_:g936680"
+        "@id": "_:g999660"
       },
       {
-        "@id": "_:g937180"
+        "@id": "_:g1000120"
       },
       {
-        "@id": "_:g937320"
+        "@id": "_:g1000260"
       }
     ],
     "http://schema.org/name": [
@@ -7066,7 +8041,7 @@
     ]
   },
   {
-    "@id": "_:g936540",
+    "@id": "_:g999540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7104,7 +8079,7 @@
     ]
   },
   {
-    "@id": "_:g936560",
+    "@id": "_:g999560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7142,7 +8117,7 @@
     ]
   },
   {
-    "@id": "_:g936580",
+    "@id": "_:g999580",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7180,7 +8155,7 @@
     ]
   },
   {
-    "@id": "_:g936600",
+    "@id": "_:g999600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7218,7 +8193,7 @@
     ]
   },
   {
-    "@id": "_:g936620",
+    "@id": "_:g999620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7256,7 +8231,7 @@
     ]
   },
   {
-    "@id": "_:g936640",
+    "@id": "_:g999640",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7294,7 +8269,7 @@
     ]
   },
   {
-    "@id": "_:g937200",
+    "@id": "_:g1000140",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7332,7 +8307,7 @@
     ]
   },
   {
-    "@id": "_:g937220",
+    "@id": "_:g1000160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7370,7 +8345,7 @@
     ]
   },
   {
-    "@id": "_:g937240",
+    "@id": "_:g1000180",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7408,7 +8383,7 @@
     ]
   },
   {
-    "@id": "_:g937260",
+    "@id": "_:g1000200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7446,7 +8421,7 @@
     ]
   },
   {
-    "@id": "_:g937280",
+    "@id": "_:g1000220",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7484,7 +8459,7 @@
     ]
   },
   {
-    "@id": "_:g937300",
+    "@id": "_:g1000240",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7522,7 +8497,7 @@
     ]
   },
   {
-    "@id": "_:g936520",
+    "@id": "_:g999520",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -7553,7 +8528,7 @@
     ]
   },
   {
-    "@id": "_:g936680",
+    "@id": "_:g999660",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -7584,7 +8559,7 @@
     ]
   },
   {
-    "@id": "_:g937180",
+    "@id": "_:g1000120",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -7615,7 +8590,7 @@
     ]
   },
   {
-    "@id": "_:g937320",
+    "@id": "_:g1000260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -7668,40 +8643,40 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g936700"
+        "@id": "_:g999680"
       },
       {
-        "@id": "_:g936720"
+        "@id": "_:g999700"
       },
       {
-        "@id": "_:g936740"
+        "@id": "_:g999720"
       },
       {
-        "@id": "_:g936760"
+        "@id": "_:g999740"
       },
       {
-        "@id": "_:g936780"
+        "@id": "_:g999760"
       },
       {
-        "@id": "_:g936800"
+        "@id": "_:g999780"
       },
       {
-        "@id": "_:g937340"
+        "@id": "_:g1000280"
       },
       {
-        "@id": "_:g937360"
+        "@id": "_:g1000300"
       },
       {
-        "@id": "_:g937380"
+        "@id": "_:g1000320"
       },
       {
-        "@id": "_:g937400"
+        "@id": "_:g1000340"
       },
       {
-        "@id": "_:g937420"
+        "@id": "_:g1000360"
       },
       {
-        "@id": "_:g937440"
+        "@id": "_:g1000380"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7726,7 +8701,7 @@
     ]
   },
   {
-    "@id": "_:g936700",
+    "@id": "_:g999680",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7764,7 +8739,7 @@
     ]
   },
   {
-    "@id": "_:g936720",
+    "@id": "_:g999700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7802,7 +8777,7 @@
     ]
   },
   {
-    "@id": "_:g936740",
+    "@id": "_:g999720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7840,7 +8815,7 @@
     ]
   },
   {
-    "@id": "_:g936760",
+    "@id": "_:g999740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7878,7 +8853,7 @@
     ]
   },
   {
-    "@id": "_:g936780",
+    "@id": "_:g999760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7916,7 +8891,7 @@
     ]
   },
   {
-    "@id": "_:g936800",
+    "@id": "_:g999780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7954,7 +8929,7 @@
     ]
   },
   {
-    "@id": "_:g937340",
+    "@id": "_:g1000280",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7992,7 +8967,7 @@
     ]
   },
   {
-    "@id": "_:g937360",
+    "@id": "_:g1000300",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8030,7 +9005,7 @@
     ]
   },
   {
-    "@id": "_:g937380",
+    "@id": "_:g1000320",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8068,7 +9043,7 @@
     ]
   },
   {
-    "@id": "_:g937400",
+    "@id": "_:g1000340",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8106,7 +9081,7 @@
     ]
   },
   {
-    "@id": "_:g937420",
+    "@id": "_:g1000360",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8144,7 +9119,7 @@
     ]
   },
   {
-    "@id": "_:g937440",
+    "@id": "_:g1000380",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8204,40 +9179,40 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g957580"
+        "@id": "_:g1020960"
       },
       {
-        "@id": "_:g957600"
+        "@id": "_:g1020980"
       },
       {
-        "@id": "_:g957620"
+        "@id": "_:g1021000"
       },
       {
-        "@id": "_:g957640"
+        "@id": "_:g1021020"
       },
       {
-        "@id": "_:g957660"
+        "@id": "_:g1021040"
       },
       {
-        "@id": "_:g957680"
+        "@id": "_:g1021060"
       },
       {
-        "@id": "_:g958200"
+        "@id": "_:g1021620"
       },
       {
-        "@id": "_:g958220"
+        "@id": "_:g1021640"
       },
       {
-        "@id": "_:g958240"
+        "@id": "_:g1021660"
       },
       {
-        "@id": "_:g958260"
+        "@id": "_:g1021680"
       },
       {
-        "@id": "_:g958280"
+        "@id": "_:g1021700"
       },
       {
-        "@id": "_:g958300"
+        "@id": "_:g1021720"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8268,16 +9243,16 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g957560"
+        "@id": "_:g1020940"
       },
       {
-        "@id": "_:g957700"
+        "@id": "_:g1021080"
       },
       {
-        "@id": "_:g958180"
+        "@id": "_:g1021600"
       },
       {
-        "@id": "_:g958320"
+        "@id": "_:g1021740"
       }
     ],
     "http://schema.org/name": [
@@ -8287,7 +9262,7 @@
     ]
   },
   {
-    "@id": "_:g957580",
+    "@id": "_:g1020960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8325,7 +9300,7 @@
     ]
   },
   {
-    "@id": "_:g957600",
+    "@id": "_:g1020980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8363,7 +9338,7 @@
     ]
   },
   {
-    "@id": "_:g957620",
+    "@id": "_:g1021000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8401,7 +9376,7 @@
     ]
   },
   {
-    "@id": "_:g957640",
+    "@id": "_:g1021020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8439,7 +9414,7 @@
     ]
   },
   {
-    "@id": "_:g957660",
+    "@id": "_:g1021040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8477,7 +9452,7 @@
     ]
   },
   {
-    "@id": "_:g957680",
+    "@id": "_:g1021060",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8515,7 +9490,7 @@
     ]
   },
   {
-    "@id": "_:g958200",
+    "@id": "_:g1021620",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8553,7 +9528,7 @@
     ]
   },
   {
-    "@id": "_:g958220",
+    "@id": "_:g1021640",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8591,7 +9566,7 @@
     ]
   },
   {
-    "@id": "_:g958240",
+    "@id": "_:g1021660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8629,7 +9604,7 @@
     ]
   },
   {
-    "@id": "_:g958260",
+    "@id": "_:g1021680",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8667,7 +9642,7 @@
     ]
   },
   {
-    "@id": "_:g958280",
+    "@id": "_:g1021700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8705,7 +9680,7 @@
     ]
   },
   {
-    "@id": "_:g958300",
+    "@id": "_:g1021720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8743,7 +9718,7 @@
     ]
   },
   {
-    "@id": "_:g957560",
+    "@id": "_:g1020940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -8774,7 +9749,7 @@
     ]
   },
   {
-    "@id": "_:g957700",
+    "@id": "_:g1021080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -8805,7 +9780,7 @@
     ]
   },
   {
-    "@id": "_:g958180",
+    "@id": "_:g1021600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -8836,7 +9811,7 @@
     ]
   },
   {
-    "@id": "_:g958320",
+    "@id": "_:g1021740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -8889,40 +9864,40 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g957720"
+        "@id": "_:g1021100"
       },
       {
-        "@id": "_:g957740"
+        "@id": "_:g1021120"
       },
       {
-        "@id": "_:g957760"
+        "@id": "_:g1021140"
       },
       {
-        "@id": "_:g957780"
+        "@id": "_:g1021160"
       },
       {
-        "@id": "_:g957800"
+        "@id": "_:g1021180"
       },
       {
-        "@id": "_:g957820"
+        "@id": "_:g1021200"
       },
       {
-        "@id": "_:g958340"
+        "@id": "_:g1021760"
       },
       {
-        "@id": "_:g958360"
+        "@id": "_:g1021780"
       },
       {
-        "@id": "_:g958380"
+        "@id": "_:g1021800"
       },
       {
-        "@id": "_:g958400"
+        "@id": "_:g1021820"
       },
       {
-        "@id": "_:g958420"
+        "@id": "_:g1021840"
       },
       {
-        "@id": "_:g958440"
+        "@id": "_:g1021860"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8947,7 +9922,7 @@
     ]
   },
   {
-    "@id": "_:g957720",
+    "@id": "_:g1021100",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8985,7 +9960,7 @@
     ]
   },
   {
-    "@id": "_:g957740",
+    "@id": "_:g1021120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9023,7 +9998,7 @@
     ]
   },
   {
-    "@id": "_:g957760",
+    "@id": "_:g1021140",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9061,7 +10036,7 @@
     ]
   },
   {
-    "@id": "_:g957780",
+    "@id": "_:g1021160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9099,7 +10074,7 @@
     ]
   },
   {
-    "@id": "_:g957800",
+    "@id": "_:g1021180",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9137,7 +10112,7 @@
     ]
   },
   {
-    "@id": "_:g957820",
+    "@id": "_:g1021200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9175,7 +10150,7 @@
     ]
   },
   {
-    "@id": "_:g958340",
+    "@id": "_:g1021760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9213,7 +10188,7 @@
     ]
   },
   {
-    "@id": "_:g958360",
+    "@id": "_:g1021780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9251,7 +10226,7 @@
     ]
   },
   {
-    "@id": "_:g958380",
+    "@id": "_:g1021800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9289,7 +10264,7 @@
     ]
   },
   {
-    "@id": "_:g958400",
+    "@id": "_:g1021820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9327,7 +10302,7 @@
     ]
   },
   {
-    "@id": "_:g958420",
+    "@id": "_:g1021840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9365,7 +10340,7 @@
     ]
   },
   {
-    "@id": "_:g958440",
+    "@id": "_:g1021860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9403,14 +10378,14 @@
     ]
   },
   {
-    "@id": "https://ticketpro.ca/event/1656919767",
+    "@id": "https://ticketpro.ca/event/1660216180",
     "@type": [
       "http://schema.org/Event"
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-08-28T20:00:00-04:00"
+        "@value": "2025-09-27T17:00:00-04:00"
       }
     ],
     "http://schema.org/location": [
@@ -9420,22 +10395,37 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://tprotsd.ticketpro.ca/api/v1/resources/1655575682.jpeg?version=2"
+        "@id": "https://tprotsd.ticketpro.ca/api/v1/resources/1661069801.jpeg?version=2"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g979020"
+        "@id": "_:g1042800"
+      },
+      {
+        "@id": "_:g1042820"
+      },
+      {
+        "@id": "_:g1042840"
+      },
+      {
+        "@id": "_:g1042860"
+      },
+      {
+        "@id": "_:g1042880"
+      },
+      {
+        "@id": "_:g1042900"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7121"
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7148"
       }
     ],
     "http://schema.org/name": [
       {
-        "@value": "MONTRÉAL SÉRIES - Projection série KABOUL"
+        "@value": "Most Valuable Prospects 15 - Édition Championnat : Kim Clavel vs. Sol Cudos"
       }
     ],
     "http://schema.org/eventAttendanceMode": [
@@ -9450,25 +10440,215 @@
     ]
   },
   {
-    "@id": "_:g979020",
+    "@id": "_:g1042800",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "15"
+        "@value": "450"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-15"
+        "@value": "2025-08-21"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/MontrealSeries"
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215813"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1042820",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "325"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-21"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215813"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1042840",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "200"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-21"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215813"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1042860",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "140"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-21"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215813"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1042880",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "90"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-21"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215813"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1042900",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "50"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-08-21"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1660215813"
       }
     ],
     "http://schema.org/name": [
@@ -9510,28 +10690,28 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g994600"
+        "@id": "_:g1061460"
       },
       {
-        "@id": "_:g994620"
+        "@id": "_:g1061480"
       },
       {
-        "@id": "_:g994640"
+        "@id": "_:g1061500"
       },
       {
-        "@id": "_:g994660"
+        "@id": "_:g1061520"
       },
       {
-        "@id": "_:g994680"
+        "@id": "_:g1061540"
       },
       {
-        "@id": "_:g994700"
+        "@id": "_:g1061560"
       },
       {
-        "@id": "_:g994720"
+        "@id": "_:g1061580"
       },
       {
-        "@id": "_:g994740"
+        "@id": "_:g1061600"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9556,7 +10736,7 @@
     ]
   },
   {
-    "@id": "_:g994600",
+    "@id": "_:g1061460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9594,7 +10774,7 @@
     ]
   },
   {
-    "@id": "_:g994620",
+    "@id": "_:g1061480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9632,7 +10812,7 @@
     ]
   },
   {
-    "@id": "_:g994640",
+    "@id": "_:g1061500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9670,7 +10850,7 @@
     ]
   },
   {
-    "@id": "_:g994660",
+    "@id": "_:g1061520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9708,7 +10888,7 @@
     ]
   },
   {
-    "@id": "_:g994680",
+    "@id": "_:g1061540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9746,7 +10926,7 @@
     ]
   },
   {
-    "@id": "_:g994700",
+    "@id": "_:g1061560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9784,7 +10964,7 @@
     ]
   },
   {
-    "@id": "_:g994720",
+    "@id": "_:g1061580",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9822,7 +11002,7 @@
     ]
   },
   {
-    "@id": "_:g994740",
+    "@id": "_:g1061600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9860,6 +11040,173 @@
     ]
   },
   {
+    "@id": "https://ticketpro.ca/event/1654863572",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-31T20:00:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://ticketpro.ca/place/1"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/api/v1/resources/1654640618.jpeg?version=2"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g1074340"
+      },
+      {
+        "@id": "_:g1074360"
+      },
+      {
+        "@id": "_:g1074380"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7114"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "PATRICE L'ECUYER"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1074340",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "6.695E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-01"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1654633174"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1074360",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "5.795E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-01"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1654633174"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "_:g1074380",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "4.245E1"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-09-01"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tprotsd.ticketpro.ca/en/pages/1654633174"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Regular"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
     "@id": "https://ticketpro.ca/event/1654863590",
     "@type": [
       "http://schema.org/Event"
@@ -9882,22 +11229,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1028680"
+        "@id": "_:g1093100"
       },
       {
-        "@id": "_:g1028700"
+        "@id": "_:g1093120"
       },
       {
-        "@id": "_:g1028720"
+        "@id": "_:g1093140"
       },
       {
-        "@id": "_:g1028740"
+        "@id": "_:g1093160"
       },
       {
-        "@id": "_:g1028760"
+        "@id": "_:g1093180"
       },
       {
-        "@id": "_:g1028780"
+        "@id": "_:g1093200"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9922,20 +11269,20 @@
     ]
   },
   {
-    "@id": "_:g1028680",
+    "@id": "_:g1093100",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "5.295E1"
+        "@value": "5.395E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -9960,7 +11307,7 @@
     ]
   },
   {
-    "@id": "_:g1028700",
+    "@id": "_:g1093120",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9973,7 +11320,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -9998,20 +11345,20 @@
     ]
   },
   {
-    "@id": "_:g1028720",
+    "@id": "_:g1093140",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.695E1"
+        "@value": "4.795E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -10036,7 +11383,7 @@
     ]
   },
   {
-    "@id": "_:g1028740",
+    "@id": "_:g1093160",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10049,7 +11396,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -10074,7 +11421,7 @@
     ]
   },
   {
-    "@id": "_:g1028760",
+    "@id": "_:g1093180",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10087,7 +11434,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -10112,7 +11459,7 @@
     ]
   },
   {
-    "@id": "_:g1028780",
+    "@id": "_:g1093200",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10125,7 +11472,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -10172,7 +11519,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1046800"
+        "@id": "_:g1111940"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10197,7 +11544,7 @@
     ]
   },
   {
-    "@id": "_:g1046800",
+    "@id": "_:g1111940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10257,28 +11604,28 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1055900"
+        "@id": "_:g1121460"
       },
       {
-        "@id": "_:g1055920"
+        "@id": "_:g1121480"
       },
       {
-        "@id": "_:g1055940"
+        "@id": "_:g1121500"
       },
       {
-        "@id": "_:g1055960"
+        "@id": "_:g1121520"
       },
       {
-        "@id": "_:g1055980"
+        "@id": "_:g1121540"
       },
       {
-        "@id": "_:g1056000"
+        "@id": "_:g1121560"
       },
       {
-        "@id": "_:g1056020"
+        "@id": "_:g1121580"
       },
       {
-        "@id": "_:g1056040"
+        "@id": "_:g1121600"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10303,7 +11650,7 @@
     ]
   },
   {
-    "@id": "_:g1055900",
+    "@id": "_:g1121460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10341,7 +11688,7 @@
     ]
   },
   {
-    "@id": "_:g1055920",
+    "@id": "_:g1121480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10379,7 +11726,7 @@
     ]
   },
   {
-    "@id": "_:g1055940",
+    "@id": "_:g1121500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10417,7 +11764,7 @@
     ]
   },
   {
-    "@id": "_:g1055960",
+    "@id": "_:g1121520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10455,7 +11802,7 @@
     ]
   },
   {
-    "@id": "_:g1055980",
+    "@id": "_:g1121540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10493,7 +11840,7 @@
     ]
   },
   {
-    "@id": "_:g1056000",
+    "@id": "_:g1121560",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10531,7 +11878,7 @@
     ]
   },
   {
-    "@id": "_:g1056020",
+    "@id": "_:g1121580",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10569,7 +11916,7 @@
     ]
   },
   {
-    "@id": "_:g1056040",
+    "@id": "_:g1121600",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10629,16 +11976,16 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1068440"
+        "@id": "_:g1134420"
       },
       {
-        "@id": "_:g1068460"
+        "@id": "_:g1134440"
       },
       {
-        "@id": "_:g1068480"
+        "@id": "_:g1134460"
       },
       {
-        "@id": "_:g1068500"
+        "@id": "_:g1134480"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10663,7 +12010,7 @@
     ]
   },
   {
-    "@id": "_:g1068440",
+    "@id": "_:g1134420",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10701,7 +12048,7 @@
     ]
   },
   {
-    "@id": "_:g1068460",
+    "@id": "_:g1134440",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10739,7 +12086,7 @@
     ]
   },
   {
-    "@id": "_:g1068480",
+    "@id": "_:g1134460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10777,7 +12124,7 @@
     ]
   },
   {
-    "@id": "_:g1068500",
+    "@id": "_:g1134480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10837,7 +12184,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1085880"
+        "@id": "_:g1152660"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10862,7 +12209,7 @@
     ]
   },
   {
-    "@id": "_:g1085880",
+    "@id": "_:g1152660",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -10922,7 +12269,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1095040"
+        "@id": "_:g1162260"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -10953,7 +12300,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1095020"
+        "@id": "_:g1162240"
       }
     ],
     "http://schema.org/name": [
@@ -10963,7 +12310,7 @@
     ]
   },
   {
-    "@id": "_:g1095040",
+    "@id": "_:g1162260",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11001,7 +12348,7 @@
     ]
   },
   {
-    "@id": "_:g1095020",
+    "@id": "_:g1162240",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -11054,10 +12401,10 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1103720"
+        "@id": "_:g1171380"
       },
       {
-        "@id": "_:g1103740"
+        "@id": "_:g1171400"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -11088,10 +12435,10 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g1103700"
+        "@id": "_:g1171360"
       },
       {
-        "@id": "_:g1132700"
+        "@id": "_:g1201900"
       }
     ],
     "http://schema.org/name": [
@@ -11101,7 +12448,7 @@
     ]
   },
   {
-    "@id": "_:g1103720",
+    "@id": "_:g1171380",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11139,7 +12486,7 @@
     ]
   },
   {
-    "@id": "_:g1103740",
+    "@id": "_:g1171400",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11177,7 +12524,7 @@
     ]
   },
   {
-    "@id": "_:g1103700",
+    "@id": "_:g1171360",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -11208,7 +12555,7 @@
     ]
   },
   {
-    "@id": "_:g1132700",
+    "@id": "_:g1201900",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -11261,22 +12608,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1112280"
+        "@id": "_:g1180560"
       },
       {
-        "@id": "_:g1112300"
+        "@id": "_:g1180580"
       },
       {
-        "@id": "_:g1112320"
+        "@id": "_:g1180600"
       },
       {
-        "@id": "_:g1112440"
+        "@id": "_:g1180740"
       },
       {
-        "@id": "_:g1112460"
+        "@id": "_:g1180760"
       },
       {
-        "@id": "_:g1112480"
+        "@id": "_:g1180780"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -11301,45 +12648,20 @@
     ]
   },
   {
-    "@id": "https://ticketpro.ca/place/9742830",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g1112260"
-      },
-      {
-        "@id": "_:g1112420"
-      },
-      {
-        "@id": "_:g1123180"
-      },
-      {
-        "@id": "_:g1142300"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Palais des congrès de Montréal"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1112280",
+    "@id": "_:g1180560",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "30"
+        "@value": "12"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-21"
+        "@value": "2025-09-03"
       }
     ],
     "http://schema.org/url": [
@@ -11349,7 +12671,7 @@
     ],
     "http://schema.org/name": [
       {
-        "@value": "Adult"
+        "@value": "SPECIAL OFFER 2 Adult"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -11364,20 +12686,20 @@
     ]
   },
   {
-    "@id": "_:g1112300",
+    "@id": "_:g1180580",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "19"
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.05E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-21"
+        "@value": "2025-09-03"
       }
     ],
     "http://schema.org/url": [
@@ -11387,7 +12709,7 @@
     ],
     "http://schema.org/name": [
       {
-        "@value": "Senior (65+)"
+        "@value": "SPECIAL OFFER Senior (65+)"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -11402,20 +12724,20 @@
     ]
   },
   {
-    "@id": "_:g1112320",
+    "@id": "_:g1180600",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "17"
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "8.5E0"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-21"
+        "@value": "2025-09-03"
       }
     ],
     "http://schema.org/url": [
@@ -11425,7 +12747,7 @@
     ],
     "http://schema.org/name": [
       {
-        "@value": "Student (18+)"
+        "@value": "SPECIAL OFFER Student (18+)"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -11440,20 +12762,20 @@
     ]
   },
   {
-    "@id": "_:g1112440",
+    "@id": "_:g1180740",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "30"
+        "@value": "12"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-21"
+        "@value": "2025-09-03"
       }
     ],
     "http://schema.org/url": [
@@ -11463,7 +12785,7 @@
     ],
     "http://schema.org/name": [
       {
-        "@value": "Adult"
+        "@value": "SPECIAL OFFER 2 Adult"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -11478,20 +12800,20 @@
     ]
   },
   {
-    "@id": "_:g1112460",
+    "@id": "_:g1180760",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "19"
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1.05E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-21"
+        "@value": "2025-09-03"
       }
     ],
     "http://schema.org/url": [
@@ -11501,7 +12823,7 @@
     ],
     "http://schema.org/name": [
       {
-        "@value": "Senior (65+)"
+        "@value": "SPECIAL OFFER Senior (65+)"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -11516,20 +12838,20 @@
     ]
   },
   {
-    "@id": "_:g1112480",
+    "@id": "_:g1180780",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "17"
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "8.5E0"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-21"
+        "@value": "2025-09-03"
       }
     ],
     "http://schema.org/url": [
@@ -11539,7 +12861,7 @@
     ],
     "http://schema.org/name": [
       {
-        "@value": "Student (18+)"
+        "@value": "SPECIAL OFFER Student (18+)"
       }
     ],
     "http://schema.org/priceCurrency": [
@@ -11550,130 +12872,6 @@
     "http://schema.org/availability": [
       {
         "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1112260",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1001, Place Jean-Paul-Riopelle"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2Z 1H2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1112420",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1001, Place Jean-Paul-Riopelle"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2Z 1H2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1123180",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1001, Place Jean-Paul-Riopelle"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2Z 1H2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1142300",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@value": "1001, Place Jean-Paul-Riopelle"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@value": "H2Z 1H2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@value": "Canada"
       }
     ]
   },
@@ -11700,16 +12898,16 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1123200"
+        "@id": "_:g1191980"
       },
       {
-        "@id": "_:g1123220"
+        "@id": "_:g1192000"
       },
       {
-        "@id": "_:g1123240"
+        "@id": "_:g1192020"
       },
       {
-        "@id": "_:g1123260"
+        "@id": "_:g1192040"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -11734,7 +12932,7 @@
     ]
   },
   {
-    "@id": "_:g1123200",
+    "@id": "_:g1191980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11772,7 +12970,7 @@
     ]
   },
   {
-    "@id": "_:g1123220",
+    "@id": "_:g1192000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11810,7 +13008,7 @@
     ]
   },
   {
-    "@id": "_:g1123240",
+    "@id": "_:g1192020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11848,7 +13046,7 @@
     ]
   },
   {
-    "@id": "_:g1123260",
+    "@id": "_:g1192040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11908,16 +13106,16 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1132720"
+        "@id": "_:g1201920"
       },
       {
-        "@id": "_:g1132740"
+        "@id": "_:g1201940"
       },
       {
-        "@id": "_:g1132760"
+        "@id": "_:g1201960"
       },
       {
-        "@id": "_:g1132780"
+        "@id": "_:g1201980"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -11942,7 +13140,7 @@
     ]
   },
   {
-    "@id": "_:g1132720",
+    "@id": "_:g1201920",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -11980,7 +13178,7 @@
     ]
   },
   {
-    "@id": "_:g1132740",
+    "@id": "_:g1201940",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12018,7 +13216,7 @@
     ]
   },
   {
-    "@id": "_:g1132760",
+    "@id": "_:g1201960",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12056,7 +13254,7 @@
     ]
   },
   {
-    "@id": "_:g1132780",
+    "@id": "_:g1201980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12116,16 +13314,16 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1142320"
+        "@id": "_:g1211980"
       },
       {
-        "@id": "_:g1142340"
+        "@id": "_:g1212000"
       },
       {
-        "@id": "_:g1142360"
+        "@id": "_:g1212020"
       },
       {
-        "@id": "_:g1142380"
+        "@id": "_:g1212040"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -12150,7 +13348,7 @@
     ]
   },
   {
-    "@id": "_:g1142320",
+    "@id": "_:g1211980",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12188,7 +13386,7 @@
     ]
   },
   {
-    "@id": "_:g1142340",
+    "@id": "_:g1212000",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12226,7 +13424,7 @@
     ]
   },
   {
-    "@id": "_:g1142360",
+    "@id": "_:g1212020",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12264,7 +13462,7 @@
     ]
   },
   {
-    "@id": "_:g1142380",
+    "@id": "_:g1212040",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12324,22 +13522,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1159380"
+        "@id": "_:g1230000"
       },
       {
-        "@id": "_:g1159400"
+        "@id": "_:g1230020"
       },
       {
-        "@id": "_:g1159420"
+        "@id": "_:g1230040"
       },
       {
-        "@id": "_:g1159440"
+        "@id": "_:g1230060"
       },
       {
-        "@id": "_:g1159460"
+        "@id": "_:g1230080"
       },
       {
-        "@id": "_:g1159480"
+        "@id": "_:g1230100"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -12364,20 +13562,20 @@
     ]
   },
   {
-    "@id": "_:g1159380",
+    "@id": "_:g1230000",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.995E1"
+        "@value": "5.095E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -12402,20 +13600,20 @@
     ]
   },
   {
-    "@id": "_:g1159400",
+    "@id": "_:g1230020",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "3.995E1"
+        "@value": "3.695E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -12440,20 +13638,20 @@
     ]
   },
   {
-    "@id": "_:g1159420",
+    "@id": "_:g1230040",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.595E1"
+        "@value": "4.695E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -12478,20 +13676,20 @@
     ]
   },
   {
-    "@id": "_:g1159440",
+    "@id": "_:g1230060",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "3.995E1"
+        "@value": "3.695E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -12516,20 +13714,20 @@
     ]
   },
   {
-    "@id": "_:g1159460",
+    "@id": "_:g1230080",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "3.995E1"
+        "@value": "3.695E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -12554,20 +13752,20 @@
     ]
   },
   {
-    "@id": "_:g1159480",
+    "@id": "_:g1230100",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "3.995E1"
+        "@value": "3.695E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-07-02"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -12614,22 +13812,22 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1177320"
+        "@id": "_:g1248780"
       },
       {
-        "@id": "_:g1177340"
+        "@id": "_:g1248800"
       },
       {
-        "@id": "_:g1177360"
+        "@id": "_:g1248820"
       },
       {
-        "@id": "_:g1177380"
+        "@id": "_:g1248840"
       },
       {
-        "@id": "_:g1177400"
+        "@id": "_:g1248860"
       },
       {
-        "@id": "_:g1177420"
+        "@id": "_:g1248880"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -12654,7 +13852,7 @@
     ]
   },
   {
-    "@id": "_:g1177320",
+    "@id": "_:g1248780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12692,7 +13890,7 @@
     ]
   },
   {
-    "@id": "_:g1177340",
+    "@id": "_:g1248800",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12730,7 +13928,7 @@
     ]
   },
   {
-    "@id": "_:g1177360",
+    "@id": "_:g1248820",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12768,7 +13966,7 @@
     ]
   },
   {
-    "@id": "_:g1177380",
+    "@id": "_:g1248840",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12806,7 +14004,7 @@
     ]
   },
   {
-    "@id": "_:g1177400",
+    "@id": "_:g1248860",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12844,7 +14042,7 @@
     ]
   },
   {
-    "@id": "_:g1177420",
+    "@id": "_:g1248880",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12904,16 +14102,16 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1187840"
+        "@id": "_:g1259720"
       },
       {
-        "@id": "_:g1187860"
+        "@id": "_:g1259740"
       },
       {
-        "@id": "_:g1187880"
+        "@id": "_:g1259760"
       },
       {
-        "@id": "_:g1187900"
+        "@id": "_:g1259780"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -12938,7 +14136,7 @@
     ]
   },
   {
-    "@id": "_:g1187840",
+    "@id": "_:g1259720",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -12976,7 +14174,7 @@
     ]
   },
   {
-    "@id": "_:g1187860",
+    "@id": "_:g1259740",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13014,7 +14212,7 @@
     ]
   },
   {
-    "@id": "_:g1187880",
+    "@id": "_:g1259760",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13052,7 +14250,7 @@
     ]
   },
   {
-    "@id": "_:g1187900",
+    "@id": "_:g1259780",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13112,16 +14310,16 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1198360"
+        "@id": "_:g1270660"
       },
       {
-        "@id": "_:g1198380"
+        "@id": "_:g1270680"
       },
       {
-        "@id": "_:g1198400"
+        "@id": "_:g1270700"
       },
       {
-        "@id": "_:g1198420"
+        "@id": "_:g1270720"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -13146,20 +14344,20 @@
     ]
   },
   {
-    "@id": "_:g1198360",
+    "@id": "_:g1270660",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "78"
+        "@value": "79"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-18"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -13184,20 +14382,20 @@
     ]
   },
   {
-    "@id": "_:g1198380",
+    "@id": "_:g1270680",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "72"
+        "@value": "73"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-18"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -13222,20 +14420,20 @@
     ]
   },
   {
-    "@id": "_:g1198400",
+    "@id": "_:g1270700",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "78"
+        "@value": "79"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-18"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -13260,20 +14458,20 @@
     ]
   },
   {
-    "@id": "_:g1198420",
+    "@id": "_:g1270720",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "72"
+        "@value": "73"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-06-18"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -13320,10 +14518,10 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1208720"
+        "@id": "_:g1281460"
       },
       {
-        "@id": "_:g1208740"
+        "@id": "_:g1281480"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -13348,7 +14546,7 @@
     ]
   },
   {
-    "@id": "_:g1208720",
+    "@id": "_:g1281460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13386,7 +14584,7 @@
     ]
   },
   {
-    "@id": "_:g1208740",
+    "@id": "_:g1281480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13446,19 +14644,19 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1218300"
+        "@id": "_:g1291460"
       },
       {
-        "@id": "_:g1218320"
+        "@id": "_:g1291480"
       },
       {
-        "@id": "_:g1218340"
+        "@id": "_:g1291500"
       },
       {
-        "@id": "_:g1218360"
+        "@id": "_:g1291520"
       },
       {
-        "@id": "_:g1218380"
+        "@id": "_:g1291540"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -13483,7 +14681,7 @@
     ]
   },
   {
-    "@id": "_:g1218300",
+    "@id": "_:g1291460",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13521,7 +14719,7 @@
     ]
   },
   {
-    "@id": "_:g1218320",
+    "@id": "_:g1291480",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13554,12 +14752,12 @@
     ],
     "http://schema.org/availability": [
       {
-        "@id": "http://schema.org/InStock"
+        "@id": "http://schema.org/SoldOut"
       }
     ]
   },
   {
-    "@id": "_:g1218340",
+    "@id": "_:g1291500",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13597,7 +14795,7 @@
     ]
   },
   {
-    "@id": "_:g1218360",
+    "@id": "_:g1291520",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13635,7 +14833,7 @@
     ]
   },
   {
-    "@id": "_:g1218380",
+    "@id": "_:g1291540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -13654,296 +14852,6 @@
     "http://schema.org/url": [
       {
         "@id": "https://tprotsd.ticketpro.ca/en/pages/1646644262"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Regular"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://ticketpro.ca/event/1652234370",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-09-02T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://ticketpro.ca/place/1"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/api/v1/resources/1651843045.jpeg?version=2"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g1229320"
-      },
-      {
-        "@id": "_:g1229340"
-      },
-      {
-        "@id": "_:g1229360"
-      },
-      {
-        "@id": "_:g1229380"
-      },
-      {
-        "@id": "_:g1229400"
-      },
-      {
-        "@id": "_:g1229420"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://ww1.ticketpro.ca/event.php?event_id=7094"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Theresa Caputo Live! The Experience"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1229320",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "1.505E2"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-06"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/1651843142"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Regular"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/SoldOut"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1229340",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "1.205E2"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-06"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/1651843142"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Regular"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/SoldOut"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1229360",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "1.105E2"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-06"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/1651843142"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Regular"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/SoldOut"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1229380",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "1.005E2"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-06"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/1651843142"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Regular"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/SoldOut"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1229400",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "8.05E1"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-06"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/1651843142"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Regular"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "_:g1229420",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "7.05E1"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-06-06"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://tprotsd.ticketpro.ca/en/pages/1651843142"
       }
     ],
     "http://schema.org/name": [
@@ -13985,7 +14893,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1255440"
+        "@id": "_:g1318700"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -14010,7 +14918,7 @@
     ]
   },
   {
-    "@id": "_:g1255440",
+    "@id": "_:g1318700",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -14070,19 +14978,19 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g1264660"
+        "@id": "_:g1328360"
       },
       {
-        "@id": "_:g1264680"
+        "@id": "_:g1328380"
       },
       {
-        "@id": "_:g1264700"
+        "@id": "_:g1328400"
       },
       {
-        "@id": "_:g1264720"
+        "@id": "_:g1328420"
       },
       {
-        "@id": "_:g1264740"
+        "@id": "_:g1328440"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -14107,20 +15015,20 @@
     ]
   },
   {
-    "@id": "_:g1264660",
+    "@id": "_:g1328360",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "1.4087E2"
+        "@value": "1.4187E2"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-02-10"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -14145,20 +15053,20 @@
     ]
   },
   {
-    "@id": "_:g1264680",
+    "@id": "_:g1328380",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "6.498999999999999E1"
+        "@value": "6.598999999999999E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-02-10"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -14183,20 +15091,20 @@
     ]
   },
   {
-    "@id": "_:g1264700",
+    "@id": "_:g1328400",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "6.498999999999999E1"
+        "@value": "6.598999999999999E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-02-10"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -14221,20 +15129,20 @@
     ]
   },
   {
-    "@id": "_:g1264720",
+    "@id": "_:g1328420",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "6.498999999999999E1"
+        "@value": "6.598999999999999E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-02-10"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
@@ -14259,20 +15167,20 @@
     ]
   },
   {
-    "@id": "_:g1264740",
+    "@id": "_:g1328440",
     "@type": [
       "http://schema.org/Offer"
     ],
     "http://schema.org/price": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.699E1"
+        "@value": "4.799E1"
       }
     ],
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-02-10"
+        "@value": "2025-09-01"
       }
     ],
     "http://schema.org/url": [
