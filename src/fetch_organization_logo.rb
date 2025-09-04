@@ -6,26 +6,11 @@ BASE_URL = "https://staging.recon.artsdata.ca/extend/http%3A%2F%2Fkg.artsdata.ca
 
 # rdfs:subClassOf* is not working
 ORGANIZATION_SUBTYPES = [
-  RDF::Vocab::SCHEMA.Airline,
-  RDF::Vocab::SCHEMA.Consortium,
-  RDF::Vocab::SCHEMA.Cooperative,
-  RDF::Vocab::SCHEMA.Corporation,
-  RDF::Vocab::SCHEMA.EducationalOrganization,
-  RDF::Vocab::SCHEMA.FundingScheme,
-  RDF::Vocab::SCHEMA.GovernmentOrganization,
-  RDF::Vocab::SCHEMA.LibrarySystem,
-  RDF::Vocab::SCHEMA.LocalBusiness,
-  RDF::Vocab::SCHEMA.MedicalOrganization,
-  RDF::Vocab::SCHEMA.NGO,
-  RDF::Vocab::SCHEMA.NewsMediaOrganization,
-  RDF::Vocab::SCHEMA.OnlineBusiness,
   RDF::Vocab::SCHEMA.PerformingGroup,
-  RDF::Vocab::SCHEMA.PoliticalParty,
-  RDF::Vocab::SCHEMA.Project,
-  RDF::Vocab::SCHEMA.ResearchOrganization,
-  RDF::Vocab::SCHEMA.SearchRescueOrganization,
   RDF::Vocab::SCHEMA.SportsOrganization,
-  RDF::Vocab::SCHEMA.WorkersUnion,
+  RDF::Vocab::SCHEMA.EducationalOrganization,
+  RDF::Vocab::SCHEMA.GovernmentOrganization,
+  RDF::Vocab::SCHEMA.LocalBusiness,
   RDF::Vocab::SCHEMA.Organization
 ]
 
