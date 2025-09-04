@@ -194,7 +194,6 @@ def build_graph(orgs)
 end
 
 orgs_with_url = fetch_orgs_with_url()
-orgs_with_url = orgs_with_url.first(100)
 graph = build_graph(orgs_with_url)
 File.open("output/organization_logo.jsonld", 'w') do |file|
   file.puts(graph.dump(:jsonld))
