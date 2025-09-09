@@ -1,0 +1,21 @@
+name: Fetch Jeanne and Peter Lougheed Performing Arts Centre Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 2'
+      
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+          mode: "fetch-push"
+          artifact: "camroselive-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadFile: "output/camroselive-events.jsonld"
+          page-url: "https://camroselive.ca/events-sitemap.xml"
+          entity-identifier: "loc"
+          token: "${{ secrets.GITHUB_TOKEN }}"
