@@ -12,7 +12,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
-          mode: "test-fetch-push"
+          mode: "fetch-push"
           artifact: "camroselive-ca"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "output/camroselive-events.jsonld"
