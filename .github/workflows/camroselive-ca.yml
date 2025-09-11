@@ -17,5 +17,6 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "output/camroselive-events.jsonld"
           page-url: "https://camroselive.ca/events-sitemap.xml"
-          entity-identifier: "loc"
+          entity-identifier: "td.left > a"
+          fetch-urls-headlessly: true
           token: "${{ secrets.GITHUB_TOKEN }}"
