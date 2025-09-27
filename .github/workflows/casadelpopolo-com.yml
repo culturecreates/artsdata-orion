@@ -1,0 +1,20 @@
+name: casadelpopolo-com
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 11 * * 4' #runs every week on thursday at noon UTC (around 6 AM ET)
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+          mode: "test-fetch-push"
+          artifact: "casadelpopolo-com"
+          publisher: "https://github.com/saumier#this"
+          page-url: "https://casadelpopolo.com/en"
+          entity-identifier: "//a[contains(., 'Buy tickets')]"
+          token: "${{ secrets.GITHUB_TOKEN }}"
