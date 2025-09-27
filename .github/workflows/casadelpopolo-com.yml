@@ -12,7 +12,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
-          mode: "fetch-test"
+          mode: "fetch-push"
           artifact: "casadelpopolo-com"
           publisher: "https://github.com/saumier#this"
           page-url: "https://casadelpopolo.com/en"
