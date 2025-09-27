@@ -17,4 +17,5 @@ jobs:
           publisher: "https://github.com/saumier#this"
           page-url: "https://casadelpopolo.com/en"
           entity-identifier: "//a[contains(., 'Buy tickets')]"
+          headless: true
           token: "${{ secrets.GITHUB_TOKEN }}"
