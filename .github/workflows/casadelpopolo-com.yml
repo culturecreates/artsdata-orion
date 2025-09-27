@@ -18,4 +18,5 @@ jobs:
           page-url: "https://casadelpopolo.com/en"
           entity-identifier: "//a[contains(., 'Buy tickets')]"
           headless: true
+          report-callback-url: https://webhook.site/2716ad6e-e9c6-41cf-8ecc-d1c633803d1c
           token: "${{ secrets.GITHUB_TOKEN }}"
