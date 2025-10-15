@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Action setup
-      uses: culturecreates/artsdata-pipeline-action@v3
+      uses: culturecreates/artsdata-pipeline-action@main
       with:
         mode: fetch-push
         artifact: adc659-ca
@@ -19,3 +19,79 @@ jobs:
         is-paginated: "true"
         fetch-urls-headlessly: "true"
         token: "${{ secrets.GITHUB_TOKEN }}"
+        xpath-config: |
+          {
+            "entity_type": "http://schema.org/Person",
+            "extract": {
+              "http://schema.org/email": {
+                "xpath": "//div[contains(@id,\"user_email-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://schema.org/name": {
+                "xpath": "//div[@class=\"um-name\"]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://schema.org/telephone": {
+                "xpath": "//div[contains(@id,\"phone_number-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://schema.org/url": {
+                "xpath": "//div[contains(@id,\"user_url-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://schema.org/addressLocality": {
+                "xpath": "//div[contains(@id,\"residence_province-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://schema.org/addressRegion": {
+                "xpath": "//div[contains(@id,\"residence_Region-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://www.wikidata.org/prop/direct/P2013": {
+                "xpath": "//div[contains(@id,\"facebook-113\")]/a",
+                "value": "@href",
+                "array": "true"
+              },
+              "http://www.wikidata.org/prop/direct/P2003": {
+                "xpath": "//div[contains(@id,\"instagram-113\")]/a",
+                "value": "@href",
+                "array": "true"
+              },
+              "http://schema.org/image": {
+                "xpath": "//img[contains(@class,\"um-avatar\")]",
+                "value": "@src",
+                "array": "true"
+              },
+              "www.adc659.ca/vocabulary#memberType": {
+                "xpath": "//div[contains(@id,\"role_select-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "www.adc659.ca/vocabulary#designDiscipline": {
+                "xpath": "//div[contains(@id,\"design_discipline-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "www.adc659.ca/vocabulary#pronounPreference": {
+                "xpath": "//div[contains(@id,\"pronoun_preference-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "www.adc659.ca/vocabulary#availableForWork": {
+                "xpath": "//div[contains(@id,\"available_for_work-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "www.adc659.ca/vocabulary#availableForAssistantassociate": {
+                "xpath": "//div[contains(@id,\"available_for_assistantassociate-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              }
+            }
+          }
