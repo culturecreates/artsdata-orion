@@ -43,7 +43,7 @@ jobs:
                 "value": "normalize-space(.)",
                 "array": "true"
               },
-              "http://schema.org/addressLocality": {
+              "http://schema.org/addressRegion": {
                 "xpath": "//div[contains(@id,\"residence_province-113\")]",
                 "value": "normalize-space(.)",
                 "array": "true"
@@ -63,33 +63,38 @@ jobs:
                 "value": "@href",
                 "array": "true"
               },
-              "http://schema.org/image": {
-                "xpath": "//img[contains(@class,\"um-avatar\")]",
-                "value": "@src",
-                "array": "true"
-              },
-              "www.adc659.ca/vocabulary#memberType": {
+              "http://www.adc659.ca/vocabulary#memberType": {
                 "xpath": "//div[contains(@id,\"role_select-113\")]",
                 "value": "normalize-space(.)",
                 "array": "true"
               },
-              "www.adc659.ca/vocabulary#designDiscipline": {
+              "http://www.adc659.ca/vocabulary#designDiscipline": {
                 "xpath": "//div[contains(@id,\"design_discipline-113\")]",
                 "value": "normalize-space(.)",
                 "array": "true"
               },
-              "www.adc659.ca/vocabulary#pronounPreference": {
+              "http://www.adc659.ca/vocabulary#pronounPreference": {
                 "xpath": "//div[contains(@id,\"pronoun_preference-113\")]",
                 "value": "normalize-space(.)",
                 "array": "true"
               },
-              "www.adc659.ca/vocabulary#availableForWork": {
+              "http://www.adc659.ca/vocabulary#availableForWork": {
                 "xpath": "//div[contains(@id,\"available_for_work-113\")]",
                 "value": "normalize-space(.)",
                 "array": "true"
               },
-              "www.adc659.ca/vocabulary#availableForAssistantassociate": {
+              "http://www.adc659.ca/vocabulary#availableForAssistantassociate": {
                 "xpath": "//div[contains(@id,\"available_for_assistantassociate-113\")]",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://schema.org/hasOccupation": {
+                "css": "div[id*='design_discipline-113']",
+                "value": "normalize-space(.)",
+                "array": "true"
+              },
+              "http://schema.org/knowsLanguage": {
+                "xpath": "//div[contains(@id,\"languages-113\")]",
                 "value": "normalize-space(.)",
                 "array": "true"
               }
