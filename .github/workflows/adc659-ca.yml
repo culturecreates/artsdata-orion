@@ -19,7 +19,7 @@ jobs:
         is-paginated: "true"
         fetch-urls-headlessly: "true"
         token: "${{ secrets.GITHUB_TOKEN }}"
-        xpath-config: |
+        html-extract-config: |
           {
             "entity_type": "http://schema.org/Person",
             "extract": {
