@@ -24,79 +24,70 @@ jobs:
             "entity_type": "http://schema.org/Person",
             "extract": {
               "http://schema.org/email": {
-                "xpath": "//div[contains(@id,\"user_email-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"user_email-113\")])",
                 "array": "true"
               },
               "http://schema.org/name": {
-                "xpath": "//div[@class=\"um-name\"]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[@class=\"um-name\"])",
                 "array": "true"
               },
               "http://schema.org/telephone": {
-                "xpath": "//div[contains(@id,\"phone_number-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"phone_number-113\")])",
                 "array": "true"
               },
               "http://schema.org/url": {
-                "xpath": "//div[contains(@id,\"user_url-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"user_url-113\")])",
                 "array": "true"
               },
               "http://schema.org/addressRegion": {
-                "xpath": "//div[contains(@id,\"residence_province-113\")]",
-                "value": "normalize-space(.)",
-                "array": "true"
-              },
-              "http://schema.org/addressRegion": {
-                "xpath": "//div[contains(@id,\"residence_Region-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"residence_Region-113\")])",
                 "array": "true"
               },
               "http://www.wikidata.org/prop/direct/P2013": {
-                "xpath": "//div[contains(@id,\"facebook-113\")]/a",
-                "value": "@href",
-                "array": "true"
+                "xpath": "//div[contains(@id,\"facebook-113\")]/a/@href",
+                "array": "true",
+                "uri": "true"
               },
               "http://www.wikidata.org/prop/direct/P2003": {
-                "xpath": "//div[contains(@id,\"instagram-113\")]/a",
-                "value": "@href",
-                "array": "true"
+                "xpath": "//div[contains(@id,\"instagram-113\")]/a/@href",
+                "array": "true",
+                "uri": "true"
               },
               "http://www.adc659.ca/vocabulary#memberType": {
-                "xpath": "//div[contains(@id,\"role_select-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"role_select-113\")])",
                 "array": "true"
               },
               "http://www.adc659.ca/vocabulary#designDiscipline": {
-                "xpath": "//div[contains(@id,\"design_discipline-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"design_discipline-113\")])",
                 "array": "true"
               },
               "http://www.adc659.ca/vocabulary#pronounPreference": {
-                "xpath": "//div[contains(@id,\"pronoun_preference-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"pronoun_preference-113\")])",
                 "array": "true"
               },
               "http://www.adc659.ca/vocabulary#availableForWork": {
-                "xpath": "//div[contains(@id,\"available_for_work-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"available_for_work-113\")])",
                 "array": "true"
               },
               "http://www.adc659.ca/vocabulary#availableForAssistantassociate": {
-                "xpath": "//div[contains(@id,\"available_for_assistantassociate-113\")]",
-                "value": "normalize-space(.)",
+                "xpath": "normalize-space(//div[contains(@id,\"available_for_assistantassociate-113\")])",
                 "array": "true"
               },
               "http://schema.org/hasOccupation": {
-                "css": "div[id*='design_discipline-113']",
-                "value": "normalize-space(.)",
-                "array": "true"
+                "xpath": "normalize-space(//div[contains(@id,'design_discipline-113')])",
+                "array": "true",
+                "transform": {
+                  "function": "split",
+                  "args": [","]
+                }
               },
               "http://schema.org/knowsLanguage": {
-                "xpath": "//div[contains(@id,\"languages-113\")]",
-                "value": "normalize-space(.)",
-                "array": "true"
+                "xpath": "normalize-space(//div[contains(@id,\"languages-113\")])",
+                "array": "true",
+                "transform": {
+                  "function": "split",
+                  "args": [","]
+                }
               }
             }
           }
