@@ -141,6 +141,7 @@ def build_graph(orgs)
     homepage_url = org['url']
     artsdata_uri = RDF::URI(org['uri'])
     organization_uri = RDF::URI(homepage_url + "#Organization")
+    organization_name = org['name']
     puts "Fetching page #{index + 1}/#{orgs.size}, url: #{homepage_url}"
 
     rdfa_graph = fetch_rdfa(homepage_url)
@@ -162,11 +163,27 @@ def build_graph(orgs)
         types.each do |t|
           output_graph << [organization_uri, RDF.type, t]
         end        
-        output_graph << [organization_uri, RDF::Vocab::SCHEMA.name, org['name']]
+        output_graph << [organization_uri, RDF::Vocab::SCHEMA.name, organization_name]
         output_graph << [organization_uri, RDF::Vocab::SCHEMA.sameAs, artsdata_uri]
 
-        logos.each do |logo|
-          output_graph << [organization_uri, RDF::Vocab::SCHEMA.logo, logo]
+        logos.each_with_index do |logo_uri, i|
+          image_object_uri = RDF::URI("#{homepage_url}#ImageObject#{i + 1}")
+          domain = URI.parse(homepage_url).host
+
+          output_graph << [organization_uri, RDF::Vocab::SCHEMA.logo, image_object_uri]
+
+          output_graph << [image_object_uri, RDF.type, RDF::Vocab::SCHEMA.ImageObject]
+          output_graph << [image_object_uri, RDF::Vocab::SCHEMA.url, logo_uri]
+          output_graph << [
+            image_object_uri,
+            RDF::Vocab::SCHEMA.disambiguatingDescription,
+            RDF::Literal.new("Image of #{organization_name}, sourced from #{domain}.")
+          ]
+          output_graph << [
+            image_object_uri,
+            RDF::Vocab::SCHEMA.usageInfo,
+            RDF::URI("https://kg.artsdata.ca/doc/image_policy")
+          ]
         end
       end
     rescue StandardError => e
