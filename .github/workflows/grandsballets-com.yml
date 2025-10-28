@@ -15,6 +15,5 @@ jobs:
           artifact: "grandsballets-com"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "output/grandsballets-com.jsonld"
-          page-url: "https://grandsballets.com/en/performances/"
-          entity-identifier: "a.button[href*='/en/performances/detail/']"
+          page-url: "https://grandsballets.com/"
           token: "${{ secrets.GITHUB_TOKEN }}"
