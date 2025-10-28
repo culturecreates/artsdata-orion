@@ -14,5 +14,5 @@ jobs:
         artifact: agoradanse-com
         publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
         downloadFile: output/agoradanse-events.jsonld
-        page-url: https://agoradanse.com/evenement/
+        page-url: https://agoradanse.com
         token: "${{ secrets.GITHUB_TOKEN }}"
