@@ -182,7 +182,7 @@ def build_graph(orgs)
           output_graph << [
             image_object_uri,
             RDF::Vocab::SCHEMA.usageInfo,
-            RDF::URI("https://kg.artsdata.ca/doc/image_policy")
+            RDF::URI("https://kg.artsdata.ca/doc/image-policy")
           ]
         end
       end
