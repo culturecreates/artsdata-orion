@@ -1,0 +1,19 @@
+name: Fetch Co-Motion Events
+
+on:
+  workflow_dispatch:
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+          mode: "fetch-push"
+          artifact: "co-motion-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://co-motion.ca"
+          headless: "true"
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          custum-databus-url: "http://staging.api.artsdata.ca/databus/"
