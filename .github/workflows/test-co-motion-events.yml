@@ -1,4 +1,4 @@
-name: Fetch Co-Motion Events
+name: Fetch Co-Motion Events - spider test
 
 on:
   workflow_dispatch:
@@ -16,4 +16,4 @@ jobs:
           page-url: "https://co-motion.ca"
           headless: "true"
           token: "${{ secrets.GITHUB_TOKEN }}"
-          custum-databus-url: "http://staging.api.artsdata.ca/databus/"
+          custom-databus-url: "http://staging.api.artsdata.ca/databus/"
