@@ -15,4 +15,5 @@ jobs:
         publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
         downloadFile: output/agoradanse-events.jsonld
         page-url: https://agoradanse.com
+        headless: true
         token: "${{ secrets.GITHUB_TOKEN }}"
