@@ -1,4 +1,4 @@
-name: Fetch Agoradanse Events
+name: Fetch Agoradanse Events - spider test
 on:
   workflow_dispatch:
   schedule:
@@ -17,3 +17,4 @@ jobs:
         page-url: https://agoradanse.com
         headless: true
         token: "${{ secrets.GITHUB_TOKEN }}"
+        custom-databus-url: "http://staging.api.artsdata.ca/databus/"
