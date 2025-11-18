@@ -1,238 +1,5 @@
 [
   {
-    "@id": "https://saskatoonsymphony.org/event/sunday-chamber-3/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-us",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-us",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-us",
-        "@value": "Sunday Chamber"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-us",
-        "@value": ""
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/event/sunday-chamber-3/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-us",
-        "@value": "Saskatoon Symphony Orchestra"
-      }
-    ],
-    "http://ogp.me/ns#updated_time": [
-      {
-        "@language": "en-us",
-        "@value": "2025-09-10T16:58:48+00:00"
-      }
-    ],
-    "article:published_time": [
-      {
-        "@language": "en-us",
-        "@value": "2025-08-25T15:18:30+00:00"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-us",
-        "@value": "2025-09-10T16:58:48+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2024/12/gold-violin-1024x1024-4.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:secure_url": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2024/12/gold-violin-1024x1024-4.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-us",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-us",
-        "@value": "1024"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-json/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sunday-chamber-3/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461180",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g461200"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Grosvenor Park Church"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461200",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "en",
-        "@value": "407 Cumberland Ave S"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "en",
-        "@value": "Saskatoon"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "en",
-        "@value": "S7H 2L3"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "en",
-        "@value": "Saskatchewan"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "en",
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/061c85d1-9757-478e-9da4-3d42899f30ab",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-11-16T14:00:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461180"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2024/12/gold-violin-1024x1024-4.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-11-16T15:00:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sunday-chamber-3/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Sunday Chamber"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Spend a lovely Sunday afternoon with the SSO Chamber Ensemble."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/96d6a05e-1749-4097-ac15-0a310143f570",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sunday-chamber-3/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/3bc4ca3b-fd30-4eab-aaa3-03d4c5088712",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sunday-chamber-3/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/37b8ba8a-3555-4ad3-bea1-e8ae20f64c52",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/sunday-chamber-3/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n2:00PM, Sunday, November 16, 2025\nGrosvenor Park Church\n\n\n407 Cumberland Ave S\nSaskatoon, Saskatchewan S7H 2L3\nGoogle Maps Directions\n\n\nFREE EVENT\n\n\n\nSofia MycykPiano\nSaskatoon Symphony Chamber Musicians\n\n\nClarinet Sonata in E-flat Major, Op. 120, No. 2 — I. Allegro amabileJohannes Brahms\nLike doves with grey wings embracingAnna Pidgorna\nFound Objects: On the Beach (selections)Jenni Brandon\nSuite de trois morceaux, Op.116 — III. ValseBenjamin Godard\nPiano Quintet in A Major, Op. 114, D. 667 (“Trout”) — IV. Tema con variazione. AndantinoFranz Schubert\n\n\nSpend a Sunday afternoon at a concert featuring the SSO Chamber Ensemble! Whether you are bringing your family, your friends, or just looking to enjoy beautiful music, this concert is a delightful way to spend an hour on Sunday, November 16th.\n\n\nThis is a free event.\n\n \n\n\n\n\t\t"
-      }
-    ]
-  },
-  {
     "@id": "https://saskatoonsymphony.org/event/secrets-of-the-whales/",
     "http://ogp.me/ns#locale": [
       {
@@ -273,7 +40,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2025-10-30T16:38:18+00:00"
+        "@value": "2025-11-13T16:40:19+00:00"
       }
     ],
     "article:published_time": [
@@ -285,7 +52,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2025-10-30T16:38:18+00:00"
+        "@value": "2025-11-13T16:40:19+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -324,13 +91,13 @@
     ]
   },
   {
-    "@id": "_:g475960",
+    "@id": "_:g461180",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g475980"
+        "@id": "_:g461200"
       }
     ],
     "http://schema.org/name": [
@@ -341,7 +108,7 @@
     ]
   },
   {
-    "@id": "_:g475980",
+    "@id": "_:g461200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -377,7 +144,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e4e7aa5d-8657-4b0e-a1ee-1dca87b1f520",
+    "@id": "https://saskatoonsymphony.org/temporary/259fb0cb-787c-4e03-81a0-3932affcb5cd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -389,7 +156,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g475960"
+        "@id": "_:g461180"
       }
     ],
     "http://schema.org/image": [
@@ -427,7 +194,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/685f900c-077c-4c11-a89c-3776570604f3",
+    "@id": "https://saskatoonsymphony.org/temporary/0a744eed-b897-4a3b-893c-4e88888b2677",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -438,7 +205,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3ec1e4cb-c887-46be-8b13-826044cf8bcc",
+    "@id": "https://saskatoonsymphony.org/temporary/a5a05fd0-f74c-4b19-be18-7b4a5dc8324d",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -449,7 +216,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/aa05acd9-a2b5-4fb2-bc70-7bf05088093d",
+    "@id": "https://saskatoonsymphony.org/temporary/435e1dcd-d929-4826-8e1b-fb353f7b41d0",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -461,7 +228,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 22, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nMonica Chenconductor\nPeter StoicheffNarrator\n\n\nFrom the creative genius of Academy Award®-winning filmmaker and National Geographic Explorer at Large James Cameron and acclaimed National Geographic Explorer and Photographer Brian Skerry, the Disney+ original series Secrets of the Whales takes audiences on an epic journey into the lives of whales, revealing that they are far more like us than ever imagined. \nFilmed over a period of three years across 24 global locations, Secrets of the Whales submerges audiences deep into the lives of five different whale families: orcas, humpbacks, belugas, narwhals, and sperm whales. Witness the incredible and tender moments as these majestic creatures make lifelong friendships, teach clan heritage and traditions to their young, and grieve deeply for the loss of loved ones—just like us.\nAs a concert experience, Secrets of the Whales features highlights from the four-part series paired with the triumphant performance of a live symphony orchestra.\nThis performance is conducted by Monica Chen and narrated by University of Saskatchewan President, Peter Stoicheff.\nAbout the Composer\nAfter she was born, Raphaelle Thibaut suffered from a series of severe ear issues that led to single-sided deafness. At age 4, following doctor’s recommendation, she started an intense piano practice. Music became her path to recovery.  In 2015, after four years leading marketing at Google in Europe, she decided to pursue her lifelong passion for music and film scoring.\nRaphaelle has been a composer for global brands and major Hollywood productions like Incredibles 2 and The Act.\nAdd this show to your subscription package and save!\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 22, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\nRead The Program\n\nMonica Chenconductor\nPeter StoicheffNarrator\n\n\nFrom the creative genius of Academy Award®-winning filmmaker and National Geographic Explorer at Large James Cameron and acclaimed National Geographic Explorer and Photographer Brian Skerry, the Disney+ original series Secrets of the Whales takes audiences on an epic journey into the lives of whales, revealing that they are far more like us than ever imagined. \nFilmed over a period of three years across 24 global locations, Secrets of the Whales submerges audiences deep into the lives of five different whale families: orcas, humpbacks, belugas, narwhals, and sperm whales. Witness the incredible and tender moments as these majestic creatures make lifelong friendships, teach clan heritage and traditions to their young, and grieve deeply for the loss of loved ones—just like us.\nAs a concert experience, Secrets of the Whales features highlights from the four-part series paired with the triumphant performance of a live symphony orchestra.\nThis performance is conducted by Monica Chen and narrated by University of Saskatchewan President, Peter Stoicheff.\nAbout the Composer\nAfter she was born, Raphaelle Thibaut suffered from a series of severe ear issues that led to single-sided deafness. At age 4, following doctor’s recommendation, she started an intense piano practice. Music became her path to recovery.  In 2015, after four years leading marketing at Google in Europe, she decided to pursue her lifelong passion for music and film scoring.\nRaphaelle has been a composer for global brands and major Hollywood productions like Incredibles 2 and The Act.\nAdd this show to your subscription package and save!\n\n\n\t\t"
       }
     ]
   },
@@ -506,7 +273,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2025-09-16T12:29:24+00:00"
+        "@value": "2025-11-17T11:33:15+00:00"
       }
     ],
     "article:published_time": [
@@ -518,7 +285,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2025-09-16T12:29:24+00:00"
+        "@value": "2025-11-17T11:33:15+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -557,13 +324,13 @@
     ]
   },
   {
-    "@id": "_:g491380",
+    "@id": "_:g475980",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g491400"
+        "@id": "_:g476000"
       }
     ],
     "http://schema.org/name": [
@@ -574,7 +341,7 @@
     ]
   },
   {
-    "@id": "_:g491400",
+    "@id": "_:g476000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -610,13 +377,13 @@
     ]
   },
   {
-    "@id": "_:g491440",
+    "@id": "_:g476040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g491460"
+        "@id": "_:g476060"
       }
     ],
     "http://schema.org/name": [
@@ -627,7 +394,7 @@
     ]
   },
   {
-    "@id": "_:g491460",
+    "@id": "_:g476060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -663,13 +430,13 @@
     ]
   },
   {
-    "@id": "_:g491500",
+    "@id": "_:g476100",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g491520"
+        "@id": "_:g476120"
       }
     ],
     "http://schema.org/name": [
@@ -680,7 +447,7 @@
     ]
   },
   {
-    "@id": "_:g491520",
+    "@id": "_:g476120",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -716,13 +483,13 @@
     ]
   },
   {
-    "@id": "_:g491560",
+    "@id": "_:g476160",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g491580"
+        "@id": "_:g476180"
       }
     ],
     "http://schema.org/name": [
@@ -733,7 +500,7 @@
     ]
   },
   {
-    "@id": "_:g491580",
+    "@id": "_:g476180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -769,7 +536,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b4a5a62c-d9c3-4731-81b0-eb39343eebe3",
+    "@id": "https://saskatoonsymphony.org/temporary/dc4f2181-c939-4865-99ea-a29ff48b7c8e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -781,7 +548,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g491380"
+        "@id": "_:g475980"
       }
     ],
     "http://schema.org/image": [
@@ -819,7 +586,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/8b9f3940-c98d-4cbd-a911-f2bb2fe64a62",
+    "@id": "https://saskatoonsymphony.org/temporary/27194a9a-376a-4c2e-8506-b1e3aaf91ceb",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -831,7 +598,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g491440"
+        "@id": "_:g476040"
       }
     ],
     "http://schema.org/image": [
@@ -869,7 +636,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/00715353-91a7-4e8f-bf12-a9c452d6b8cf",
+    "@id": "https://saskatoonsymphony.org/temporary/315f935e-2d22-4fdf-9feb-3da7058b365d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -881,7 +648,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g491500"
+        "@id": "_:g476100"
       }
     ],
     "http://schema.org/image": [
@@ -919,7 +686,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/5a113b3d-3873-4884-bf31-b7809aa7bdf4",
+    "@id": "https://saskatoonsymphony.org/temporary/283ab2a7-67ea-4418-8d42-6ec05d59c1e9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -931,7 +698,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g491560"
+        "@id": "_:g476160"
       }
     ],
     "http://schema.org/image": [
@@ -969,7 +736,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/4540dae3-b162-42f6-b5f4-20224cb6a4ac",
+    "@id": "https://saskatoonsymphony.org/temporary/b6d2d39f-6dd3-4b74-a7cb-2b829b5d6157",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -980,7 +747,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e4c76298-04aa-40c3-957b-feb91481a301",
+    "@id": "https://saskatoonsymphony.org/temporary/de12ccd5-d905-462a-984f-19e98559698d",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -991,7 +758,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b8e83bf2-d563-41ab-9ca5-2610efb3e226",
+    "@id": "https://saskatoonsymphony.org/temporary/3865e093-bd53-4d91-a6ea-d48b835a8293",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -1003,7 +770,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n10:00AM, Friday, November 28, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nRegister\n\n\n11:15AM, Friday, November 28, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nRegister\n\n\n10:00AM, Saturday, November 29, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nRegister\n\n\n11:15AM, Saturday, November 29, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nRegister\n\n\n\nJoin the Saskatoon Symphony Core Musicians for a walk through a Winter Wonderland to see the Sugar Plum Fairy! Featuring music of Tchaikovsky and other holiday favorites, we’ll celebrate the sparkle of winter and the warmth of the season.\nSpecifically designed for your mini-maestro, these parent and child experiences are perfect for your 2- to 4-year-old music lover.\nExplore music through movement, song and dance with SSO musicians. Let the music connect you and your child and send you both on a journey through melody, rhythm, colour, and beautiful sound.\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n10:00AM, Friday, November 28, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nCLASS FULL\n\n\n11:15AM, Friday, November 28, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nRegister\n\n\n10:00AM, Saturday, November 29, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nCLASS FULL\n\n\n11:15AM, Saturday, November 29, 2025\nNutrien Wonderhub\n\n\n950 Spadina Crescent E\nSaskatoon, SK S7K 3H6\nGoogle Maps Directions\n\n\nRegister\n\n\n\nJoin the Saskatoon Symphony Core Musicians for a walk through a Winter Wonderland to see the Sugar Plum Fairy! Featuring music of Tchaikovsky and other holiday favorites, we’ll celebrate the sparkle of winter and the warmth of the season.\nSpecifically designed for your mini-maestro, these parent and child experiences are perfect for your 2- to 4-year-old music lover.\nExplore music through movement, song and dance with SSO musicians. Let the music connect you and your child and send you both on a journey through melody, rhythm, colour, and beautiful sound.\n\n\n\t\t"
       }
     ]
   },
@@ -1048,7 +815,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2025-10-28T13:16:58+00:00"
+        "@value": "2025-11-14T14:44:25+00:00"
       }
     ],
     "article:published_time": [
@@ -1060,7 +827,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2025-10-28T13:16:58+00:00"
+        "@value": "2025-11-14T14:44:25+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -1099,13 +866,13 @@
     ]
   },
   {
-    "@id": "_:g509960",
+    "@id": "_:g494520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g509980"
+        "@id": "_:g494540"
       }
     ],
     "http://schema.org/name": [
@@ -1116,7 +883,7 @@
     ]
   },
   {
-    "@id": "_:g509980",
+    "@id": "_:g494540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1152,7 +919,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/93cb4797-28c4-4ef6-b7d0-936dc9247921",
+    "@id": "https://saskatoonsymphony.org/temporary/3f29860c-5f37-4119-9a4e-629cc2ef1ddf",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1164,7 +931,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g509960"
+        "@id": "_:g494520"
       }
     ],
     "http://schema.org/image": [
@@ -1202,7 +969,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e15ac58c-cf24-4797-9d1d-f70c631de88f",
+    "@id": "https://saskatoonsymphony.org/temporary/ac823448-7d50-48c2-bef7-3bac1495c3a0",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -1213,7 +980,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3001f4f1-1996-4f83-9d8a-f5fc1b1a2b9b",
+    "@id": "https://saskatoonsymphony.org/temporary/871c2711-37e8-4416-960f-3b18c2875a2d",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1224,7 +991,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/bc88183e-4ffa-423b-a3f3-9fc8d80262d2",
+    "@id": "https://saskatoonsymphony.org/temporary/41e14f24-fa43-4841-9cb2-e15b085dbeee",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -1236,7 +1003,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, December 6, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJanna Sailorconductor\nand the YXE Divas\nBetty Allison\nFalynn Baptiste\nElyse Evangelista\nEileen Laverty\nEllen Nasser\nSonia Reid\nwith surprise guests!\n\n\nHaul out the holly! After our first electrifying YXE Divas show in 2024, we’re bursting with holiday cheer to bring the divas back for a night of pure festive joy!\nMaestra Janna Sailor and the Divas have all your favourite holiday hits, while the SSO won’t let you miss out on the seasonal classics.\nAdd this show to your subscription package and save!\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, December 6, 2025\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJanna Sailorconductor\nAlex Brownhost\nand the YXE Divas\nBetty Allison\nFalynn Baptiste\nElyse Evangelista\nEileen Laverty\nEllen Nasser\nSonia Reid\nJessica Robinson\nwith surprise guests!\n\n\nHaul out the holly! After our first electrifying YXE Divas show in 2024, we’re bursting with holiday cheer to bring the divas back for a night of pure festive joy!\nMaestra Janna Sailor and the Divas have all your favourite holiday hits, while the SSO won’t let you miss out on the seasonal classics.\nAdd this show to your subscription package and save!\n\n\n\t\t"
       }
     ]
   },
@@ -1332,13 +1099,13 @@
     ]
   },
   {
-    "@id": "_:g524760",
+    "@id": "_:g509360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g524780"
+        "@id": "_:g509380"
       }
     ],
     "http://schema.org/name": [
@@ -1349,7 +1116,7 @@
     ]
   },
   {
-    "@id": "_:g524780",
+    "@id": "_:g509380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1385,7 +1152,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/dd276a33-5967-43bb-ae6b-9ee964304544",
+    "@id": "https://saskatoonsymphony.org/temporary/0ba255ad-ae67-4e77-a7ed-8df09b457a50",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1397,7 +1164,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g524760"
+        "@id": "_:g509360"
       }
     ],
     "http://schema.org/image": [
@@ -1435,7 +1202,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/94d50507-b4c2-45f2-a0e4-0daffe82a2d7",
+    "@id": "https://saskatoonsymphony.org/temporary/48fb96f1-3fa9-489a-b34c-21c76cd04c1e",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -1446,7 +1213,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2421df7a-fa88-4abc-96de-2bac7e323d8f",
+    "@id": "https://saskatoonsymphony.org/temporary/9b3f25bc-9ff7-4dfb-ba0e-4ef17896094a",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1457,7 +1224,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/4438711e-4932-47d5-8e20-8596eebb7816",
+    "@id": "https://saskatoonsymphony.org/temporary/e2116bb7-8901-41f4-b838-3e070cff749d",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -1565,13 +1332,13 @@
     ]
   },
   {
-    "@id": "_:g539460",
+    "@id": "_:g524200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g539480"
+        "@id": "_:g524220"
       }
     ],
     "http://schema.org/name": [
@@ -1582,7 +1349,7 @@
     ]
   },
   {
-    "@id": "_:g539480",
+    "@id": "_:g524220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1618,7 +1385,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0bae8612-bfa1-4156-b4a4-0167cac8c44c",
+    "@id": "https://saskatoonsymphony.org/temporary/975ff166-9de7-4102-9cb4-10132ce6ee24",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1630,7 +1397,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g539460"
+        "@id": "_:g524200"
       }
     ],
     "http://schema.org/image": [
@@ -1668,7 +1435,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/25aef7f8-131d-4d7b-8069-48ca5544b219",
+    "@id": "https://saskatoonsymphony.org/temporary/4ec9749f-1d87-4b63-8799-2f26aa489df1",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -1679,7 +1446,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/6bda4d7a-76f5-4757-9416-e2c9bd12245b",
+    "@id": "https://saskatoonsymphony.org/temporary/d0b1ee17-95c9-4f51-b2e4-a38fb0e08d72",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1690,7 +1457,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/65b37906-6197-46c2-9ba3-cb81a8bca1da",
+    "@id": "https://saskatoonsymphony.org/temporary/8f59d275-c290-4082-8846-75de3ab737c3",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -1798,13 +1565,13 @@
     ]
   },
   {
-    "@id": "_:g554200",
+    "@id": "_:g539000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g554220"
+        "@id": "_:g539020"
       }
     ],
     "http://schema.org/name": [
@@ -1815,7 +1582,7 @@
     ]
   },
   {
-    "@id": "_:g554220",
+    "@id": "_:g539020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1851,7 +1618,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/74c78073-5ee5-4cd3-b394-7239fd75b80b",
+    "@id": "https://saskatoonsymphony.org/temporary/c29e6710-0e64-4611-99b9-03b870d0a482",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1863,7 +1630,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g554200"
+        "@id": "_:g539000"
       }
     ],
     "http://schema.org/image": [
@@ -1901,7 +1668,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2015017c-55d9-488d-965f-78519eb85580",
+    "@id": "https://saskatoonsymphony.org/temporary/c523f183-54b6-45cd-babf-842ecf8fce63",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -1912,7 +1679,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/16b14a17-3d21-4a12-af19-4ac041be8780",
+    "@id": "https://saskatoonsymphony.org/temporary/1f79ba78-27c9-4964-a80a-0322f2f3a5bd",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1923,7 +1690,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/f1ad3c97-69bd-4f41-9792-eeb1307eaf76",
+    "@id": "https://saskatoonsymphony.org/temporary/f9f449dc-57ab-46de-9bbc-563669bda569",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -2031,13 +1798,13 @@
     ]
   },
   {
-    "@id": "_:g569400",
+    "@id": "_:g553840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g569420"
+        "@id": "_:g553860"
       }
     ],
     "http://schema.org/name": [
@@ -2048,7 +1815,7 @@
     ]
   },
   {
-    "@id": "_:g569420",
+    "@id": "_:g553860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2084,7 +1851,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/a2fd7fdb-470b-45e8-a509-63719a206826",
+    "@id": "https://saskatoonsymphony.org/temporary/4e43194a-8d24-4737-b945-412b1bacb16e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2096,7 +1863,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g569400"
+        "@id": "_:g553840"
       }
     ],
     "http://schema.org/image": [
@@ -2134,7 +1901,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2c5aa5d8-01c2-4535-862f-0e16f6ea4a86",
+    "@id": "https://saskatoonsymphony.org/temporary/872737d9-d4a5-4b0f-bdd2-e080d1800872",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -2145,7 +1912,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/807ee14b-445b-49cb-9a93-5eae3e498c72",
+    "@id": "https://saskatoonsymphony.org/temporary/1a00bfde-4ee6-4f06-aeda-39b8f0224045",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2156,7 +1923,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/6c7a3bd2-3e73-4db7-9313-9fe5ccbe116c",
+    "@id": "https://saskatoonsymphony.org/temporary/773df094-8281-4c38-9ec2-4f879b9abe2d",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -2264,13 +2031,13 @@
     ]
   },
   {
-    "@id": "_:g584820",
+    "@id": "_:g569400",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g584840"
+        "@id": "_:g569420"
       }
     ],
     "http://schema.org/name": [
@@ -2281,7 +2048,7 @@
     ]
   },
   {
-    "@id": "_:g584840",
+    "@id": "_:g569420",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2317,13 +2084,13 @@
     ]
   },
   {
-    "@id": "_:g584880",
+    "@id": "_:g569460",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g584900"
+        "@id": "_:g569480"
       }
     ],
     "http://schema.org/name": [
@@ -2334,7 +2101,7 @@
     ]
   },
   {
-    "@id": "_:g584900",
+    "@id": "_:g569480",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2370,13 +2137,13 @@
     ]
   },
   {
-    "@id": "_:g584940",
+    "@id": "_:g569520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g584960"
+        "@id": "_:g569540"
       }
     ],
     "http://schema.org/name": [
@@ -2387,7 +2154,7 @@
     ]
   },
   {
-    "@id": "_:g584960",
+    "@id": "_:g569540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2423,13 +2190,13 @@
     ]
   },
   {
-    "@id": "_:g585000",
+    "@id": "_:g569580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g585020"
+        "@id": "_:g569600"
       }
     ],
     "http://schema.org/name": [
@@ -2440,7 +2207,7 @@
     ]
   },
   {
-    "@id": "_:g585020",
+    "@id": "_:g569600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2476,7 +2243,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/a344f9a1-f625-418c-83be-ae36bc9cfff1",
+    "@id": "https://saskatoonsymphony.org/temporary/b64a0337-6fc9-415f-9632-c6955dce8583",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2488,7 +2255,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g584820"
+        "@id": "_:g569400"
       }
     ],
     "http://schema.org/image": [
@@ -2526,7 +2293,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/35143b83-2f57-4280-ad14-1385cf6dfb37",
+    "@id": "https://saskatoonsymphony.org/temporary/39e013ac-bd99-4c3c-99ff-1f207a319760",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2538,7 +2305,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g584880"
+        "@id": "_:g569460"
       }
     ],
     "http://schema.org/image": [
@@ -2576,7 +2343,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/42cf4c21-50e2-495a-a651-188c00bb5dfd",
+    "@id": "https://saskatoonsymphony.org/temporary/7a7d03ef-c1d3-49de-84f3-126cd4f10465",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2588,7 +2355,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g584940"
+        "@id": "_:g569520"
       }
     ],
     "http://schema.org/image": [
@@ -2626,7 +2393,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/35056dd0-565e-4c6f-988e-628a366689bc",
+    "@id": "https://saskatoonsymphony.org/temporary/65910f31-9901-459f-bc55-3dcc1f80c627",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2638,7 +2405,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g585000"
+        "@id": "_:g569580"
       }
     ],
     "http://schema.org/image": [
@@ -2676,7 +2443,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0e6e23ea-fb6b-48ba-b053-19a74c975dd1",
+    "@id": "https://saskatoonsymphony.org/temporary/071afd65-1921-478a-bf71-90d02be6a266",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -2687,7 +2454,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0c762001-4e7b-4f25-9628-97e0db9795de",
+    "@id": "https://saskatoonsymphony.org/temporary/975fed22-f790-4307-ad98-1acd89ffbb6e",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2698,7 +2465,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/5edfce6c-4632-4129-bd15-50cc531fbbae",
+    "@id": "https://saskatoonsymphony.org/temporary/7d622f24-cc5a-420b-b435-efb6d6f44b55",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -2806,13 +2573,13 @@
     ]
   },
   {
-    "@id": "_:g603400",
+    "@id": "_:g588060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g603420"
+        "@id": "_:g588080"
       }
     ],
     "http://schema.org/name": [
@@ -2823,7 +2590,7 @@
     ]
   },
   {
-    "@id": "_:g603420",
+    "@id": "_:g588080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2859,7 +2626,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e8631263-b499-4450-9e68-17848b67f612",
+    "@id": "https://saskatoonsymphony.org/temporary/90b94599-f81b-4ddc-9645-85a105624390",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2871,7 +2638,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g603400"
+        "@id": "_:g588060"
       }
     ],
     "http://schema.org/image": [
@@ -2909,7 +2676,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/dbac912d-2fb8-4940-853b-a4c8755afe2e",
+    "@id": "https://saskatoonsymphony.org/temporary/48084367-fc90-4e6c-9ed2-27c469b1da71",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -2920,7 +2687,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/19ab7359-995c-4a73-a1db-d9d3dc3de077",
+    "@id": "https://saskatoonsymphony.org/temporary/51567868-4107-444b-a8b1-d81cf8dd9e7c",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2931,7 +2698,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/91ebef91-b580-4cf5-826d-51f73bd7a4c9",
+    "@id": "https://saskatoonsymphony.org/temporary/667459ef-2543-45d6-9996-0755690ea949",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3039,13 +2806,13 @@
     ]
   },
   {
-    "@id": "_:g618120",
+    "@id": "_:g602720",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g618140"
+        "@id": "_:g602740"
       }
     ],
     "http://schema.org/name": [
@@ -3056,7 +2823,7 @@
     ]
   },
   {
-    "@id": "_:g618140",
+    "@id": "_:g602740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3092,7 +2859,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/52d39e8f-f674-4ba7-8885-84862e72b7ce",
+    "@id": "https://saskatoonsymphony.org/temporary/40a78de6-aef0-465f-8b64-9ffe101ff966",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3104,7 +2871,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g618120"
+        "@id": "_:g602720"
       }
     ],
     "http://schema.org/image": [
@@ -3142,7 +2909,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/7dd088ea-a8f2-4c46-9f95-5b11043a7172",
+    "@id": "https://saskatoonsymphony.org/temporary/e9b74aeb-cd5b-4f6a-a85f-e15dc9c55ee7",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3153,7 +2920,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ef28ff54-ad8a-4c06-8733-e5b1db0684c0",
+    "@id": "https://saskatoonsymphony.org/temporary/58012fb6-ab4f-4273-94b3-4d8ce8cbd58b",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3164,7 +2931,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/60b7565e-38f5-41bb-a3ac-5d500e37c1d7",
+    "@id": "https://saskatoonsymphony.org/temporary/fc0d02e8-4df8-4481-a19c-ebb8d8cd305b",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3272,13 +3039,13 @@
     ]
   },
   {
-    "@id": "_:g632920",
+    "@id": "_:g617540",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g632940"
+        "@id": "_:g617560"
       }
     ],
     "http://schema.org/name": [
@@ -3289,7 +3056,7 @@
     ]
   },
   {
-    "@id": "_:g632940",
+    "@id": "_:g617560",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3325,7 +3092,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3500d6ef-531f-4a09-842a-f9b0f1d7dc6e",
+    "@id": "https://saskatoonsymphony.org/temporary/ecad58e3-2a49-4189-bd42-37d34f91b6c5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3337,7 +3104,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g632920"
+        "@id": "_:g617540"
       }
     ],
     "http://schema.org/image": [
@@ -3375,7 +3142,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/35a37c00-0293-4ff9-b808-5245e77ecd27",
+    "@id": "https://saskatoonsymphony.org/temporary/83a7feb4-596d-4e28-a12b-6b2b27134a3c",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3386,7 +3153,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/decc4c5f-7bf0-4367-b608-e0f8460f37d3",
+    "@id": "https://saskatoonsymphony.org/temporary/5dcd1bf5-ec36-41d2-9a31-ee23940027dc",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3397,7 +3164,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/26398a18-0169-4f9d-a190-08b27db2f823",
+    "@id": "https://saskatoonsymphony.org/temporary/b63637e6-44df-48bc-9bdb-a5257c772163",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3505,13 +3272,13 @@
     ]
   },
   {
-    "@id": "_:g647880",
+    "@id": "_:g632420",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g647900"
+        "@id": "_:g632440"
       }
     ],
     "http://schema.org/name": [
@@ -3522,7 +3289,7 @@
     ]
   },
   {
-    "@id": "_:g647900",
+    "@id": "_:g632440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3558,7 +3325,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/f56fb4c7-7ad3-49ed-9ffc-6f5982be5040",
+    "@id": "https://saskatoonsymphony.org/temporary/deedc967-5535-4ca6-b29a-d3c3ea448213",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3570,7 +3337,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g647880"
+        "@id": "_:g632420"
       }
     ],
     "http://schema.org/image": [
@@ -3608,7 +3375,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/33e294e8-59be-4daf-b0aa-ccea96c1273b",
+    "@id": "https://saskatoonsymphony.org/temporary/8c9c876d-576a-4a36-b037-741afce9ee8d",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3619,7 +3386,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0a9f89ce-1829-4227-90d7-b8f11cdefef3",
+    "@id": "https://saskatoonsymphony.org/temporary/ee5a4b96-7d94-4adf-9979-2889d41fac71",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3630,7 +3397,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/58f28c70-8f7d-482f-8509-d72c4dee4832",
+    "@id": "https://saskatoonsymphony.org/temporary/0ef30dd5-af6f-4c25-8198-2ad0cb7b96e0",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3687,7 +3454,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2025-09-17T11:19:39+00:00"
+        "@value": "2025-11-17T14:10:27+00:00"
       }
     ],
     "article:published_time": [
@@ -3699,7 +3466,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2025-09-17T11:19:39+00:00"
+        "@value": "2025-11-17T14:10:27+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -3738,13 +3505,13 @@
     ]
   },
   {
-    "@id": "_:g662820",
+    "@id": "_:g647300",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g662840"
+        "@id": "_:g647320"
       }
     ],
     "http://schema.org/name": [
@@ -3755,7 +3522,7 @@
     ]
   },
   {
-    "@id": "_:g662840",
+    "@id": "_:g647320",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3791,13 +3558,13 @@
     ]
   },
   {
-    "@id": "_:g662880",
+    "@id": "_:g647360",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g662900"
+        "@id": "_:g647380"
       }
     ],
     "http://schema.org/name": [
@@ -3808,7 +3575,7 @@
     ]
   },
   {
-    "@id": "_:g662900",
+    "@id": "_:g647380",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3844,13 +3611,13 @@
     ]
   },
   {
-    "@id": "_:g662940",
+    "@id": "_:g647420",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g662960"
+        "@id": "_:g647440"
       }
     ],
     "http://schema.org/name": [
@@ -3861,7 +3628,7 @@
     ]
   },
   {
-    "@id": "_:g662960",
+    "@id": "_:g647440",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3897,13 +3664,13 @@
     ]
   },
   {
-    "@id": "_:g663000",
+    "@id": "_:g647480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663020"
+        "@id": "_:g647500"
       }
     ],
     "http://schema.org/name": [
@@ -3914,7 +3681,7 @@
     ]
   },
   {
-    "@id": "_:g663020",
+    "@id": "_:g647500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3950,13 +3717,13 @@
     ]
   },
   {
-    "@id": "_:g663060",
+    "@id": "_:g647540",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663080"
+        "@id": "_:g647560"
       }
     ],
     "http://schema.org/name": [
@@ -3967,7 +3734,7 @@
     ]
   },
   {
-    "@id": "_:g663080",
+    "@id": "_:g647560",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4003,13 +3770,13 @@
     ]
   },
   {
-    "@id": "_:g663120",
+    "@id": "_:g647600",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663140"
+        "@id": "_:g647620"
       }
     ],
     "http://schema.org/name": [
@@ -4020,7 +3787,7 @@
     ]
   },
   {
-    "@id": "_:g663140",
+    "@id": "_:g647620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4056,13 +3823,13 @@
     ]
   },
   {
-    "@id": "_:g663180",
+    "@id": "_:g647660",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663200"
+        "@id": "_:g647680"
       }
     ],
     "http://schema.org/name": [
@@ -4073,7 +3840,7 @@
     ]
   },
   {
-    "@id": "_:g663200",
+    "@id": "_:g647680",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4109,13 +3876,13 @@
     ]
   },
   {
-    "@id": "_:g663240",
+    "@id": "_:g647720",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663260"
+        "@id": "_:g647740"
       }
     ],
     "http://schema.org/name": [
@@ -4126,7 +3893,7 @@
     ]
   },
   {
-    "@id": "_:g663260",
+    "@id": "_:g647740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4162,13 +3929,13 @@
     ]
   },
   {
-    "@id": "_:g663300",
+    "@id": "_:g647780",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663320"
+        "@id": "_:g647800"
       }
     ],
     "http://schema.org/name": [
@@ -4179,7 +3946,7 @@
     ]
   },
   {
-    "@id": "_:g663320",
+    "@id": "_:g647800",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4215,13 +3982,13 @@
     ]
   },
   {
-    "@id": "_:g663360",
+    "@id": "_:g647840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663380"
+        "@id": "_:g647860"
       }
     ],
     "http://schema.org/name": [
@@ -4232,7 +3999,7 @@
     ]
   },
   {
-    "@id": "_:g663380",
+    "@id": "_:g647860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4268,13 +4035,13 @@
     ]
   },
   {
-    "@id": "_:g663420",
+    "@id": "_:g647900",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663440"
+        "@id": "_:g647920"
       }
     ],
     "http://schema.org/name": [
@@ -4285,7 +4052,7 @@
     ]
   },
   {
-    "@id": "_:g663440",
+    "@id": "_:g647920",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4321,13 +4088,13 @@
     ]
   },
   {
-    "@id": "_:g663500",
+    "@id": "_:g647960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g663520"
+        "@id": "_:g647980"
       }
     ],
     "http://schema.org/name": [
@@ -4338,7 +4105,7 @@
     ]
   },
   {
-    "@id": "_:g663520",
+    "@id": "_:g647980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4374,7 +4141,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/395ef459-3fc2-4e5a-85a3-ac232fb1cd37",
+    "@id": "https://saskatoonsymphony.org/temporary/4ac70134-98db-4c21-ad8a-22c6df4a4942",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4386,7 +4153,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g662820"
+        "@id": "_:g647300"
       }
     ],
     "http://schema.org/image": [
@@ -4414,7 +4181,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4424,7 +4191,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/4d1dc8c2-c1af-4658-8157-d3b9d7a10976",
+    "@id": "https://saskatoonsymphony.org/temporary/5ab7a14d-8f7d-4ad0-9ea5-d6cad33c7419",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4436,7 +4203,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g662880"
+        "@id": "_:g647360"
       }
     ],
     "http://schema.org/image": [
@@ -4464,7 +4231,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4474,7 +4241,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/a3eb5142-0a98-41e9-ac96-a8609435594a",
+    "@id": "https://saskatoonsymphony.org/temporary/97243551-827c-43c4-ba9d-135a82690c6d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4486,7 +4253,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g662940"
+        "@id": "_:g647420"
       }
     ],
     "http://schema.org/image": [
@@ -4514,7 +4281,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4524,7 +4291,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ae5cc825-c40f-480f-bc83-aeda04ef37e7",
+    "@id": "https://saskatoonsymphony.org/temporary/8208b7df-bc81-49a6-9388-61e303d3706c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4536,7 +4303,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663000"
+        "@id": "_:g647480"
       }
     ],
     "http://schema.org/image": [
@@ -4564,7 +4331,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4574,7 +4341,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/5ca266e2-1ba9-43ff-b144-2804fca050b5",
+    "@id": "https://saskatoonsymphony.org/temporary/290bf960-5a6e-48e5-90aa-8b542a2a74e3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4586,7 +4353,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663060"
+        "@id": "_:g647540"
       }
     ],
     "http://schema.org/image": [
@@ -4614,7 +4381,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4624,7 +4391,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/8ec6192f-a070-4b36-95e7-d4a2076e7206",
+    "@id": "https://saskatoonsymphony.org/temporary/4c66a421-05cc-43c8-ac71-c4e6a121afd6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4636,7 +4403,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663120"
+        "@id": "_:g647600"
       }
     ],
     "http://schema.org/image": [
@@ -4664,7 +4431,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4674,7 +4441,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e290d397-043b-4fd5-befa-99a912e2e7af",
+    "@id": "https://saskatoonsymphony.org/temporary/4f9b8cc4-76f4-4313-afb1-d6077fac5f18",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4686,7 +4453,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663180"
+        "@id": "_:g647660"
       }
     ],
     "http://schema.org/image": [
@@ -4714,7 +4481,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4724,7 +4491,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b65b95df-36a5-43ef-bc71-642b97134e48",
+    "@id": "https://saskatoonsymphony.org/temporary/aee11c0e-1b73-4004-ae25-ae7bc58d54ec",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4736,7 +4503,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663240"
+        "@id": "_:g647720"
       }
     ],
     "http://schema.org/image": [
@@ -4764,7 +4531,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4774,7 +4541,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/94a86fdb-ecc8-402b-a4c5-e9d474eff422",
+    "@id": "https://saskatoonsymphony.org/temporary/692b3fec-0936-4925-930e-94e1c660cbb9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4786,7 +4553,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663300"
+        "@id": "_:g647780"
       }
     ],
     "http://schema.org/image": [
@@ -4814,7 +4581,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4824,7 +4591,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/74daa446-be8f-45ea-8dc2-860fd580149c",
+    "@id": "https://saskatoonsymphony.org/temporary/d3f89afb-2fe6-4142-bc98-6b3be4894f17",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4836,7 +4603,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663360"
+        "@id": "_:g647840"
       }
     ],
     "http://schema.org/image": [
@@ -4864,7 +4631,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4874,7 +4641,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/422c3b7c-18f4-4f3a-bf1f-eddd434f1536",
+    "@id": "https://saskatoonsymphony.org/temporary/986b8029-64ae-4183-9403-d431b1306391",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4886,7 +4653,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663420"
+        "@id": "_:g647900"
       }
     ],
     "http://schema.org/image": [
@@ -4914,7 +4681,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4924,7 +4691,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/110b1244-36cf-4b85-b2f7-d08287d9c181",
+    "@id": "https://saskatoonsymphony.org/temporary/b74773c0-21b2-485b-99a9-c3975aebd67c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4936,7 +4703,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g663500"
+        "@id": "_:g647960"
       }
     ],
     "http://schema.org/image": [
@@ -4964,7 +4731,7 @@
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+        "@value": "It's time for another Book &amp; Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
       }
     ],
     "http://schema.org/eventStatus": [
@@ -4974,7 +4741,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/1e563ace-3344-407a-892f-50a4b467c9d9",
+    "@id": "https://saskatoonsymphony.org/temporary/8d7c91b7-41e1-4c4e-bd13-e47b5f027b96",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -4985,7 +4752,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/c713209c-919d-4436-b66c-89db8fa27b63",
+    "@id": "https://saskatoonsymphony.org/temporary/a9a89d48-64a8-401c-a76c-bbdb3ec28d84",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4996,7 +4763,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/c275069c-f593-4450-a039-37869f47d600",
+    "@id": "https://saskatoonsymphony.org/temporary/f932105f-bbf6-4b61-8bd7-ffa1924e7f56",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -5008,7 +4775,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n10:00AM, Thursday, April 9, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, April 10, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, April 11, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, April 12, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Thursday, April 16, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, April 17, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, April 18, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, April 19, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Thursday, April 23, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, April 24, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, April 25, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, April 26, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n\nIt’s time for another Book & Music Sale! The spring sale is Thursdays through Sundays from April 23rd to May 10th in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am – 6 pm each day.\nWe sell all kinds of reading, listening & viewing media!\nAll formats of books and music are sold, including:\n\nBooks: hardcover, softcover, trade, paperback, textbooks, booklets, sets, new, used, large print, signed by author\nMusic sheets and songbooks\nMusic: CDs, vinyl records (LPs, EPs, 33-1/3 rpm, 45 rpm, 78 rpm, even 16-2/3 rpm spoken word records), prerecorded cassette and 8-track tapes, sets, sealed, unsealed, coloured vinyl\nVideos: DVDs, prerecorded VHS and Beta cassette tapes, sets\n\nHow to find the Book & Music Sale:\n602B 51st Street E\n(Back Entrance)\nSaskatoon, SK\nClick here for more information about the Book & Music Sale.\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n10:00AM, Thursday, April 9, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, April 10, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, April 11, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, April 12, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Thursday, April 16, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, April 17, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, April 18, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, April 19, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Thursday, April 23, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, April 24, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, April 25, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, April 26, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n\nIt’s time for another Book & Music Sale! The spring sale is Thursdays through Sundays from April 9 to April 26 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am – 6 pm each day.\nWe sell all kinds of reading, listening & viewing media!\nAll formats of books and music are sold, including:\n\nBooks: hardcover, softcover, trade, paperback, textbooks, booklets, sets, new, used, large print, signed by author\nMusic sheets and songbooks\nMusic: CDs, vinyl records (LPs, EPs, 33-1/3 rpm, 45 rpm, 78 rpm, even 16-2/3 rpm spoken word records), prerecorded cassette and 8-track tapes, sets, sealed, unsealed, coloured vinyl\nVideos: DVDs, prerecorded VHS and Beta cassette tapes, sets\n\nHow to find the Book & Music Sale:\n602B 51st Street E\n(Back Entrance)\nSaskatoon, SK\nClick here for more information about the Book & Music Sale.\n\n\n\t\t"
       }
     ]
   },
@@ -5053,7 +4820,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2025-08-29T11:30:56+00:00"
+        "@value": "2025-11-17T12:47:28+00:00"
       }
     ],
     "article:published_time": [
@@ -5065,7 +4832,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2025-08-29T11:30:56+00:00"
+        "@value": "2025-11-17T12:47:28+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -5104,13 +4871,13 @@
     ]
   },
   {
-    "@id": "_:g688960",
+    "@id": "_:g673280",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g688980"
+        "@id": "_:g673300"
       }
     ],
     "http://schema.org/name": [
@@ -5121,7 +4888,7 @@
     ]
   },
   {
-    "@id": "_:g688980",
+    "@id": "_:g673300",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5157,7 +4924,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e9d259cc-bd39-479e-8dd6-8fa7810e4ff1",
+    "@id": "https://saskatoonsymphony.org/temporary/93f99a6d-0ccb-4dda-b6cb-40a28f27286a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5169,7 +4936,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g688960"
+        "@id": "_:g673280"
       }
     ],
     "http://schema.org/image": [
@@ -5207,7 +4974,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/026ab523-1502-405d-9e95-885c1b341fbc",
+    "@id": "https://saskatoonsymphony.org/temporary/303403b1-ebba-4eb1-9700-f946202a258e",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -5218,7 +4985,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/c220a957-3115-4c97-825b-824cf08512d8",
+    "@id": "https://saskatoonsymphony.org/temporary/8ae347bb-3339-4b16-ba8e-06d79077df83",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -5229,7 +4996,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/f2df9681-3091-4661-93ff-bb72e1681b6d",
+    "@id": "https://saskatoonsymphony.org/temporary/33d8ba84-a731-454d-921d-2c8b8b0d5364",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -5241,7 +5008,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, April 11, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nSonia Reid\n\n\nThere is nothing like the powerful soulful voice of an R&B diva…and we couldn’t be more thrilled to be creating this new pops concert with Saskatoon’s very own Sonia Reid.\nMaking her SSO debut in 2024, we all knew some magic was happening and we needed to see what could develop.\nBringing Sonia’s powerhouse voice to the music of Whitney, Dion, Aretha, and so much more, we can’t wait to share this soulful night with you!\nAdd this show to your subscription package and save!\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, April 11, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nSonia Reid\nJanna Sailorconductor\n\n\nThere is nothing like the powerful soulful voice of an R&B diva…and we couldn’t be more thrilled to be creating this new pops concert with Saskatoon’s very own Sonia Reid.\nMaking her SSO debut in 2024, we all knew some magic was happening and we needed to see what could develop.\nBringing Sonia’s powerhouse voice to the music of Whitney, Dion, Aretha, and so much more, we can’t wait to share this soulful night with you!\nAdd this show to your subscription package and save!\n\n\n\t\t"
       }
     ]
   },
@@ -5337,13 +5104,13 @@
     ]
   },
   {
-    "@id": "_:g704360",
+    "@id": "_:g688060",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g704380"
+        "@id": "_:g688080"
       }
     ],
     "http://schema.org/name": [
@@ -5354,7 +5121,7 @@
     ]
   },
   {
-    "@id": "_:g704380",
+    "@id": "_:g688080",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5390,13 +5157,13 @@
     ]
   },
   {
-    "@id": "_:g704420",
+    "@id": "_:g688120",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g704440"
+        "@id": "_:g688140"
       }
     ],
     "http://schema.org/name": [
@@ -5407,7 +5174,7 @@
     ]
   },
   {
-    "@id": "_:g704440",
+    "@id": "_:g688140",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5443,13 +5210,13 @@
     ]
   },
   {
-    "@id": "_:g704480",
+    "@id": "_:g688180",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g704500"
+        "@id": "_:g688200"
       }
     ],
     "http://schema.org/name": [
@@ -5460,7 +5227,7 @@
     ]
   },
   {
-    "@id": "_:g704500",
+    "@id": "_:g688200",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5496,13 +5263,13 @@
     ]
   },
   {
-    "@id": "_:g704540",
+    "@id": "_:g688240",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g704560"
+        "@id": "_:g688260"
       }
     ],
     "http://schema.org/name": [
@@ -5513,7 +5280,7 @@
     ]
   },
   {
-    "@id": "_:g704560",
+    "@id": "_:g688260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5549,7 +5316,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e91109c5-1463-4323-bad9-c9b393492402",
+    "@id": "https://saskatoonsymphony.org/temporary/c7dca5ef-83f5-443a-b2c8-8b2b31651568",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5561,7 +5328,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g704360"
+        "@id": "_:g688060"
       }
     ],
     "http://schema.org/image": [
@@ -5599,7 +5366,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/10dc8a10-3a22-4417-8662-69c1044d4497",
+    "@id": "https://saskatoonsymphony.org/temporary/2c86aed2-5bdd-4c22-9967-2effc3c754ea",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5611,7 +5378,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g704420"
+        "@id": "_:g688120"
       }
     ],
     "http://schema.org/image": [
@@ -5649,7 +5416,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d8e06454-71f8-44f1-8356-84925ac18138",
+    "@id": "https://saskatoonsymphony.org/temporary/a7c25f8c-6924-4e62-bcea-eab4b58a09e9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5661,7 +5428,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g704480"
+        "@id": "_:g688180"
       }
     ],
     "http://schema.org/image": [
@@ -5699,7 +5466,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/a20cbbe5-6957-4881-8d7f-1b1706f026ba",
+    "@id": "https://saskatoonsymphony.org/temporary/f494d51e-9f47-41a8-a7b0-639b752bda27",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5711,7 +5478,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g704540"
+        "@id": "_:g688240"
       }
     ],
     "http://schema.org/image": [
@@ -5749,7 +5516,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2c38d2e2-941d-48d5-b81e-5665cf75909a",
+    "@id": "https://saskatoonsymphony.org/temporary/7cdb22d7-bd62-49a7-b525-32d6a5cd01a4",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -5760,7 +5527,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3db2c6c7-56b2-45cd-a700-3fcc0b3f161d",
+    "@id": "https://saskatoonsymphony.org/temporary/d6183ee1-9a89-408f-ae35-e6c2e7e5c4e1",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -5771,7 +5538,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/a89d8d7b-4669-4087-a3d7-5cc66ca9986d",
+    "@id": "https://saskatoonsymphony.org/temporary/fdab6188-aaf8-4ecc-a55b-aa46f18f288c",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -5879,13 +5646,13 @@
     ]
   },
   {
-    "@id": "_:g722820",
+    "@id": "_:g705920",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g722840"
+        "@id": "_:g705940"
       }
     ],
     "http://schema.org/name": [
@@ -5896,7 +5663,7 @@
     ]
   },
   {
-    "@id": "_:g722840",
+    "@id": "_:g705940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -5932,7 +5699,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/db1e1381-8fc0-4683-9ee7-2038b67b4f51",
+    "@id": "https://saskatoonsymphony.org/temporary/162b7e69-f4ee-4713-9118-812830c8f291",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5944,7 +5711,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g722820"
+        "@id": "_:g705920"
       }
     ],
     "http://schema.org/image": [
@@ -5982,7 +5749,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/1e677c71-d327-49ef-bb77-021d29df0794",
+    "@id": "https://saskatoonsymphony.org/temporary/c410d14c-0d4f-453b-80ef-d2380e2ca5db",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -5993,7 +5760,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/43b850f8-9f01-4051-9f73-ff6297547ca1",
+    "@id": "https://saskatoonsymphony.org/temporary/6b64d7a9-5114-49d1-a5e0-1447d789beb8",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -6004,7 +5771,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d5257f3d-c4cc-4fff-a170-5f2358a6524d",
+    "@id": "https://saskatoonsymphony.org/temporary/da5f5a4e-a199-4568-a9ae-e08646ad7e51",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -6112,13 +5879,13 @@
     ]
   },
   {
-    "@id": "_:g737580",
+    "@id": "_:g720840",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g737600"
+        "@id": "_:g720860"
       }
     ],
     "http://schema.org/name": [
@@ -6129,7 +5896,7 @@
     ]
   },
   {
-    "@id": "_:g737600",
+    "@id": "_:g720860",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6165,7 +5932,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0ff27de3-4902-406a-9618-e1d03ff7c1ef",
+    "@id": "https://saskatoonsymphony.org/temporary/4e284bd7-759e-491c-a544-4252ce218f3c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6177,7 +5944,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g737580"
+        "@id": "_:g720840"
       }
     ],
     "http://schema.org/image": [
@@ -6215,7 +5982,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/003daf92-2cff-4fa3-8a37-5c2f334d0831",
+    "@id": "https://saskatoonsymphony.org/temporary/7f4fb9bc-4a77-4eb5-bd7e-5f823f82b6d3",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -6226,7 +5993,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ee0276ec-2619-4d12-bd03-fb3cab0c1112",
+    "@id": "https://saskatoonsymphony.org/temporary/b2b9ef4b-b5cc-4e5d-9518-087cf0a5e372",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -6237,7 +6004,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b0c0f569-869a-4f67-b899-88da201a7268",
+    "@id": "https://saskatoonsymphony.org/temporary/cb982fbe-fa19-4813-bb95-49cc99f77476",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -6345,13 +6112,13 @@
     ]
   },
   {
-    "@id": "_:g752340",
+    "@id": "_:g736280",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g752360"
+        "@id": "_:g736300"
       }
     ],
     "http://schema.org/name": [
@@ -6362,7 +6129,7 @@
     ]
   },
   {
-    "@id": "_:g752360",
+    "@id": "_:g736300",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6398,7 +6165,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b646c67e-f284-492f-a458-a5062c71342e",
+    "@id": "https://saskatoonsymphony.org/temporary/deca619a-4bef-4756-9cf2-5892a5bb1c78",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6410,7 +6177,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g752340"
+        "@id": "_:g736280"
       }
     ],
     "http://schema.org/image": [
@@ -6448,7 +6215,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/916f3f77-8b84-404d-a1e7-d878487f7d0a",
+    "@id": "https://saskatoonsymphony.org/temporary/ca8cbe4d-2ee1-4aef-95a7-93b8a02aa4cb",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -6459,7 +6226,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2c1aacd0-d231-43c0-bbb7-d49798b86073",
+    "@id": "https://saskatoonsymphony.org/temporary/956adf10-3ebb-46b1-b3d0-96f0731ea287",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -6470,7 +6237,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b9a59901-a0f5-4576-a92b-3d4b64acd83b",
+    "@id": "https://saskatoonsymphony.org/temporary/c1a476ce-4962-4452-9d80-e7c737dd15f6",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -6578,13 +6345,13 @@
     ]
   },
   {
-    "@id": "_:g767060",
+    "@id": "_:g751560",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g767080"
+        "@id": "_:g751580"
       }
     ],
     "http://schema.org/name": [
@@ -6595,7 +6362,7 @@
     ]
   },
   {
-    "@id": "_:g767080",
+    "@id": "_:g751580",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6631,7 +6398,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/fee0439a-50a9-4fb6-a0f4-1004b7d1f1cc",
+    "@id": "https://saskatoonsymphony.org/temporary/60ee1944-689e-4fa7-96d7-f70fbe36d67e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6643,7 +6410,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g767060"
+        "@id": "_:g751560"
       }
     ],
     "http://schema.org/image": [
@@ -6681,7 +6448,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/28069a2b-66c3-42a0-af75-7af902b8c322",
+    "@id": "https://saskatoonsymphony.org/temporary/e667c36f-2479-4f92-9a13-06b8cf58f457",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -6692,7 +6459,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e40fd0c9-04ca-4538-88df-96fb11586a70",
+    "@id": "https://saskatoonsymphony.org/temporary/b0a2dddb-1df6-4105-bea1-e7923cf0c7c4",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -6703,7 +6470,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/347a87eb-6a7e-4be9-ac32-cd800695baea",
+    "@id": "https://saskatoonsymphony.org/temporary/a22d8f5a-3ac2-4662-b5e8-3257a3164840",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -6811,13 +6578,13 @@
     ]
   },
   {
-    "@id": "_:g781900",
+    "@id": "_:g766960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g781920"
+        "@id": "_:g766980"
       }
     ],
     "http://schema.org/name": [
@@ -6828,7 +6595,7 @@
     ]
   },
   {
-    "@id": "_:g781920",
+    "@id": "_:g766980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6864,13 +6631,13 @@
     ]
   },
   {
-    "@id": "_:g781960",
+    "@id": "_:g767020",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g781980"
+        "@id": "_:g767040"
       }
     ],
     "http://schema.org/name": [
@@ -6881,7 +6648,7 @@
     ]
   },
   {
-    "@id": "_:g781980",
+    "@id": "_:g767040",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -6917,7 +6684,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/29aa836f-3701-4352-b5f3-a78d5a705303",
+    "@id": "https://saskatoonsymphony.org/temporary/8349508b-d5fc-4a96-9f7e-c686e05c7f3a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6929,7 +6696,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g781900"
+        "@id": "_:g766960"
       }
     ],
     "http://schema.org/image": [
@@ -6967,7 +6734,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e4d6da61-5761-49e3-a80b-77fbdade81ae",
+    "@id": "https://saskatoonsymphony.org/temporary/f25f3a18-8cd6-44ef-a5d0-95ff0789b3ac",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6979,7 +6746,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g781960"
+        "@id": "_:g767020"
       }
     ],
     "http://schema.org/image": [
@@ -7017,7 +6784,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/9b09fd33-991e-47cd-82c0-ab6538149471",
+    "@id": "https://saskatoonsymphony.org/temporary/bf7836cc-b362-4159-8e4e-7a70a268fdf7",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -7028,7 +6795,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0d8ab8f7-f000-47ff-87bd-c1f025d8faac",
+    "@id": "https://saskatoonsymphony.org/temporary/c4df3d08-1ef1-4ffc-a352-ca8b300895f0",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -7039,7 +6806,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2ad7adfa-c8ad-4fbb-8dc1-930880313088",
+    "@id": "https://saskatoonsymphony.org/temporary/c7f3d53f-22d3-41b7-8f49-cf79b4a34275",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
