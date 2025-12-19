@@ -113,14 +113,9 @@
         "@value": "2025-10-21T17:36:25+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/kiacs-artist-in-residency-program-is-open-for-new-applications-2026-27/#breadcrumb"
-      }
-    ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g460820"
+        "@id": "_:g460780"
       }
     ],
     "https://api.w.org/": [
@@ -160,32 +155,6 @@
     "http://schema.org/publisher": [
       {
         "@id": "https://kiac.ca/#organization"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "_:g460900"
-      },
-      {
-        "@id": "_:g479700"
-      },
-      {
-        "@id": "_:g498700"
-      },
-      {
-        "@id": "_:g517240"
-      },
-      {
-        "@id": "_:g536440"
-      },
-      {
-        "@id": "_:g554980"
-      },
-      {
-        "@id": "_:g573460"
-      },
-      {
-        "@id": "_:g592200"
       }
     ],
     "http://schema.org/name": [
@@ -254,7 +223,7 @@
     ]
   },
   {
-    "@id": "_:g460820",
+    "@id": "_:g460780",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -304,134 +273,6 @@
     ]
   },
   {
-    "@id": "_:g460900",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g460920"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g460940"
-      }
-    ]
-  },
-  {
-    "@id": "_:g479700",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g479720"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g479740"
-      }
-    ]
-  },
-  {
-    "@id": "_:g498700",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g498720"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g498740"
-      }
-    ]
-  },
-  {
-    "@id": "_:g517240",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g517260"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g517280"
-      }
-    ]
-  },
-  {
-    "@id": "_:g536440",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g536460"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g536480"
-      }
-    ]
-  },
-  {
-    "@id": "_:g554980",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g555000"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g555020"
-      }
-    ]
-  },
-  {
-    "@id": "_:g573460",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g573480"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g573500"
-      }
-    ]
-  },
-  {
-    "@id": "_:g592200",
-    "@type": [
-      "http://schema.org/SearchAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@id": "_:g592220"
-      }
-    ],
-    "http://schema.org/query-input": [
-      {
-        "@id": "_:g592240"
-      }
-    ]
-  },
-  {
     "@id": "https://kiac.ca/#/schema/logo/image/",
     "@type": [
       "http://schema.org/ImageObject"
@@ -472,36 +313,6 @@
     ]
   },
   {
-    "@id": "_:g460920",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g460940",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
-      }
-    ]
-  },
-  {
     "@id": "https://kiac.ca/calendar-of-events/kiacs-artist-in-residency-program-is-open-for-new-applications-2026-27/#event",
     "@type": [
       "http://schema.org/Event"
@@ -530,12 +341,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g460960"
+        "@id": "_:g460920"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g461000"
+        "@id": "_:g460960"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -572,7 +383,7 @@
     ]
   },
   {
-    "@id": "_:g460960",
+    "@id": "_:g460920",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -583,7 +394,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g460980"
+        "@id": "_:g460940"
       }
     ],
     "http://schema.org/sameAs": [
@@ -611,7 +422,7 @@
     ]
   },
   {
-    "@id": "_:g461000",
+    "@id": "_:g460960",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -646,7 +457,7 @@
     ]
   },
   {
-    "@id": "_:g460980",
+    "@id": "_:g460940",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -658,7 +469,7 @@
     ]
   },
   {
-    "@id": "_:g468720",
+    "@id": "_:g468740",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -681,7 +492,7 @@
     ]
   },
   {
-    "@id": "_:g468780",
+    "@id": "_:g468820",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -699,7 +510,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/3124ca23-56fc-493e-abae-d8a3cb8844dc",
+    "@id": "https://kiac.ca/temporary/9c6d6a5a-ade5-48e7-b4d8-eef0c3188d3b",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -710,7 +521,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/8cde4fa2-3bc4-4d0a-bd42-0a228292072e",
+    "@id": "https://kiac.ca/temporary/2fcdd700-e718-4071-bf0d-c14d892696e7",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -721,7 +532,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/c0b05543-0acf-46f3-9905-dd290de541be",
+    "@id": "https://kiac.ca/temporary/10e37e84-85e8-45be-a579-8dda349796d0",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -749,7 +560,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/764b230d-bb52-43c9-a190-ece80412cd0e",
+    "@id": "https://kiac.ca/temporary/86057447-883c-4e2f-b1fb-5134a27d8df2",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -760,7 +571,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/96bad26c-6375-4fd9-ba78-5aca9a7c91db",
+    "@id": "https://kiac.ca/temporary/5d2dc9af-1a7e-468e-b112-1f730a5a3601",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -788,16 +599,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ebb8a4f3-fc85-403d-bce5-36c1c9aa0b84",
+    "@id": "https://kiac.ca/temporary/de6a779a-1bfd-4034-b09d-e2fc028202bb",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g468720"
+        "@id": "_:g468740"
       },
       {
-        "@id": "_:g468780"
+        "@id": "_:g468820"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -807,7 +618,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/fc001a88-cc27-43b2-a20d-397b94637bb9",
+    "@id": "https://kiac.ca/temporary/3ea57d77-178c-462e-a822-c665db21cc9c",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -931,14 +742,9 @@
         "@value": "2025-11-20T17:54:46+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/odd-gallery-2027-28-open-call-for-exhibition-submissions-2/#breadcrumb"
-      }
-    ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g479620"
+        "@id": "_:g479400"
       }
     ],
     "https://api.w.org/": [
@@ -1000,7 +806,7 @@
     ]
   },
   {
-    "@id": "_:g479620",
+    "@id": "_:g479400",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -1008,36 +814,6 @@
       {
         "@language": "en",
         "@value": "https://kiac.ca/calendar-of-events/odd-gallery-2027-28-open-call-for-exhibition-submissions-2/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g479720",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g479740",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
       }
     ]
   },
@@ -1070,12 +846,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g479760"
+        "@id": "_:g479540"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g479800"
+        "@id": "_:g479580"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -1112,7 +888,7 @@
     ]
   },
   {
-    "@id": "_:g479760",
+    "@id": "_:g479540",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1123,7 +899,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g479780"
+        "@id": "_:g479560"
       }
     ],
     "http://schema.org/sameAs": [
@@ -1151,7 +927,7 @@
     ]
   },
   {
-    "@id": "_:g479800",
+    "@id": "_:g479580",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -1186,13 +962,13 @@
     ]
   },
   {
-    "@id": "_:g479780",
+    "@id": "_:g479560",
     "@type": [
       "http://schema.org/PostalAddress"
     ]
   },
   {
-    "@id": "_:g487780",
+    "@id": "_:g487460",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1215,7 +991,7 @@
     ]
   },
   {
-    "@id": "_:g487860",
+    "@id": "_:g487540",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1233,7 +1009,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/8c791566-f7c0-4e08-80ad-771132be8f62",
+    "@id": "https://kiac.ca/temporary/8b081294-a6aa-42c7-b2d7-c12da605b9e2",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -1244,7 +1020,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/1fb69823-9a10-451d-bcb6-4a939159b2f6",
+    "@id": "https://kiac.ca/temporary/7691e40b-52ab-421a-b04d-bc6a579db133",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -1255,7 +1031,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/31ffa1a7-0750-4d73-a10d-36c5bd7725fe",
+    "@id": "https://kiac.ca/temporary/7704324e-1d74-40dd-bc6b-783ac8dcd2fd",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -1283,7 +1059,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f2d5261c-d3a0-4b4e-86e0-40dfe576fc8b",
+    "@id": "https://kiac.ca/temporary/bb99ec04-3c1f-4485-b50d-0cb45ccad087",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1294,7 +1070,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/11cd63ee-c078-44f1-a6d9-60dafa5283c9",
+    "@id": "https://kiac.ca/temporary/be03b258-b4e0-425e-9fbc-b3d2a6b79e21",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -1322,16 +1098,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/96f7d749-416c-4954-9b28-6a55f5173e30",
+    "@id": "https://kiac.ca/temporary/46592b8b-520d-4e49-9a88-6c8d2c1b56de",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g487780"
+        "@id": "_:g487460"
       },
       {
-        "@id": "_:g487860"
+        "@id": "_:g487540"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -1341,7 +1117,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/6813f945-4b46-4914-8091-bca74a41ac22",
+    "@id": "https://kiac.ca/temporary/d49e3457-274e-49cc-a2a7-ed50b5d776cb",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -1368,7 +1144,7 @@
     "http://ogp.me/ns#title": [
       {
         "@language": "en-us",
-        "@value": "A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) & Jerome de los Santos (Piano) – KLONDIKE INSTITUTE OF ART & CULTURE"
+        "@value": "CANCELLED: A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) & Jerome de los Santos (Piano) – KLONDIKE INSTITUTE OF ART & CULTURE"
       }
     ],
     "http://ogp.me/ns#description": [
@@ -1393,6 +1169,12 @@
       {
         "@language": "en-us",
         "@value": "https://www.facebook.com/kiactweets/"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2025-12-18T18:19:46+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -1453,14 +1235,15 @@
         "@value": "2025-12-05T19:15:14+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
+    "http://schema.org/dateModified": [
       {
-        "@id": "https://kiac.ca/calendar-of-events/a-winter-themed-classical-music-concert-with-tessa-fackelmann-mezzo-soprano-jerome-de-los-santos-piano/#breadcrumb"
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-18T18:19:46+00:00"
       }
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g498620"
+        "@id": "_:g498020"
       }
     ],
     "https://api.w.org/": [
@@ -1471,7 +1254,7 @@
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) & Jerome de los Santos (Piano) &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
+        "@value": "CANCELLED: A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) & Jerome de los Santos (Piano) &#8211; KLONDIKE INSTITUTE OF ART &amp; CULTURE"
       }
     ],
     "http://schema.org/description": [
@@ -1522,7 +1305,7 @@
     ]
   },
   {
-    "@id": "_:g498620",
+    "@id": "_:g498020",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -1530,36 +1313,6 @@
       {
         "@language": "en",
         "@value": "https://kiac.ca/calendar-of-events/a-winter-themed-classical-music-concert-with-tessa-fackelmann-mezzo-soprano-jerome-de-los-santos-piano/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g498720",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g498740",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
       }
     ]
   },
@@ -1592,12 +1345,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g498760"
+        "@id": "_:g498160"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g498800"
+        "@id": "_:g498200"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -1613,7 +1366,7 @@
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) &#038; Jerome de los Santos (Piano)"
+        "@value": "CANCELLED: A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) &#038; Jerome de los Santos (Piano)"
       }
     ],
     "http://schema.org/description": [
@@ -1634,7 +1387,7 @@
     ]
   },
   {
-    "@id": "_:g498760",
+    "@id": "_:g498160",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -1645,7 +1398,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g498780"
+        "@id": "_:g498180"
       }
     ],
     "http://schema.org/sameAs": [
@@ -1673,7 +1426,7 @@
     ]
   },
   {
-    "@id": "_:g498800",
+    "@id": "_:g498200",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -1708,7 +1461,7 @@
     ]
   },
   {
-    "@id": "_:g498780",
+    "@id": "_:g498180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1720,7 +1473,7 @@
     ]
   },
   {
-    "@id": "_:g506420",
+    "@id": "_:g505760",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -1743,14 +1496,14 @@
     ]
   },
   {
-    "@id": "_:g506480",
+    "@id": "_:g505820",
     "@type": [
       "https://schema.org/ListItem"
     ],
     "https://schema.org/name": [
       {
         "@language": "en",
-        "@value": "A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) & Jerome de los Santos (Piano)"
+        "@value": "CANCELLED: A Winter-themed Classical Music Concert with Tessa Fackelmann (Mezzo Soprano) & Jerome de los Santos (Piano)"
       }
     ],
     "https://schema.org/position": [
@@ -1761,7 +1514,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ebcee702-e641-4cfa-bb92-679dc68ec61f",
+    "@id": "https://kiac.ca/temporary/2db88250-6a2a-4544-99f3-4a090a3094b5",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -1772,7 +1525,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f01c22fe-ba36-41b7-87e6-8fd3827307fa",
+    "@id": "https://kiac.ca/temporary/bcea34b5-5703-4050-9996-a0fbe6c57a03",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -1783,7 +1536,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/075c5241-a78f-41d2-b6f8-edf272a99af4",
+    "@id": "https://kiac.ca/temporary/7499f4cb-9327-49e9-b7a2-35ad53b56b8e",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -1811,7 +1564,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/0ac74534-003f-4ef3-bc51-9e2a2611a182",
+    "@id": "https://kiac.ca/temporary/06d50f59-e43c-4674-acfa-21e2f350e3a9",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1822,7 +1575,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/45fab68b-4c54-401f-872b-9dd267a71813",
+    "@id": "https://kiac.ca/temporary/01ae3538-f45e-4701-87e4-2a90eddf01ee",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -1850,16 +1603,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/9162f79b-9ebd-49a1-a563-24cee04d7ce1",
+    "@id": "https://kiac.ca/temporary/2145e7ad-029f-4477-821c-c1547d386bb6",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g506420"
+        "@id": "_:g505760"
       },
       {
-        "@id": "_:g506480"
+        "@id": "_:g505820"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -1869,7 +1622,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/4f2ac1ea-407f-4971-b4bc-3670932456a9",
+    "@id": "https://kiac.ca/temporary/cac2a9ef-84d8-46d6-ba8f-2ca0feb67594",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -1993,14 +1746,9 @@
         "@value": "2025-10-23T00:24:25+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-12-22/#breadcrumb"
-      }
-    ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g517160"
+        "@id": "_:g516340"
       }
     ],
     "https://api.w.org/": [
@@ -2062,7 +1810,7 @@
     ]
   },
   {
-    "@id": "_:g517160",
+    "@id": "_:g516340",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2070,36 +1818,6 @@
       {
         "@language": "en",
         "@value": "https://kiac.ca/calendar-of-events/hand-building-pottery-drop-in-3-2/2025-12-22/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g517260",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g517280",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
       }
     ]
   },
@@ -2132,17 +1850,17 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g517300"
+        "@id": "_:g516480"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g517340"
+        "@id": "_:g516520"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g517360"
+        "@id": "_:g516540"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -2179,7 +1897,7 @@
     ]
   },
   {
-    "@id": "_:g517300",
+    "@id": "_:g516480",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2190,7 +1908,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g517320"
+        "@id": "_:g516500"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2218,7 +1936,7 @@
     ]
   },
   {
-    "@id": "_:g517340",
+    "@id": "_:g516520",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -2253,7 +1971,7 @@
     ]
   },
   {
-    "@id": "_:g517360",
+    "@id": "_:g516540",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2294,7 +2012,7 @@
     ]
   },
   {
-    "@id": "_:g517320",
+    "@id": "_:g516500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2306,7 +2024,7 @@
     ]
   },
   {
-    "@id": "_:g525140",
+    "@id": "_:g524140",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -2329,7 +2047,7 @@
     ]
   },
   {
-    "@id": "_:g525200",
+    "@id": "_:g524200",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -2347,7 +2065,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/6b925c19-0b3b-4482-b829-74bfbf623016",
+    "@id": "https://kiac.ca/temporary/11649770-5348-4bb3-9d10-48c3805ad84b",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -2358,7 +2076,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/93d87fcc-3fc8-4d48-88ae-97835a46ea4b",
+    "@id": "https://kiac.ca/temporary/abae938c-40e3-4028-b54e-ad126a47b54f",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -2369,7 +2087,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/35d6a6f7-d937-4ebd-bffe-00ce04b706e7",
+    "@id": "https://kiac.ca/temporary/a8f9d7e0-8daa-4870-84e2-79981dbe1e3f",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -2397,7 +2115,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/174007ff-10ba-4797-8d14-17e6e1b7a86e",
+    "@id": "https://kiac.ca/temporary/e8a9f5bb-5d48-4952-9a65-621972352825",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2408,7 +2126,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/987f6226-dde5-4e18-a9d2-62efb6ba2b0a",
+    "@id": "https://kiac.ca/temporary/4532acb3-dd86-4c78-a863-4535a9efe2f9",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -2436,16 +2154,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/8112498e-18ac-450e-8abc-69f1ea1cb0e2",
+    "@id": "https://kiac.ca/temporary/900cbdfc-008b-4a21-a0d9-a8300395140e",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g525140"
+        "@id": "_:g524140"
       },
       {
-        "@id": "_:g525200"
+        "@id": "_:g524200"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2455,7 +2173,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/d4c5a78d-b796-4ee2-b0cb-6dcac31aa08e",
+    "@id": "https://kiac.ca/temporary/41c25fe1-ccf6-4a99-b7c1-810e72cf8bf1",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -2579,14 +2297,9 @@
         "@value": "2025-12-13T22:34:52+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/classic-cinema-rififi/#breadcrumb"
-      }
-    ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g536360"
+        "@id": "_:g535100"
       }
     ],
     "https://api.w.org/": [
@@ -2648,7 +2361,7 @@
     ]
   },
   {
-    "@id": "_:g536360",
+    "@id": "_:g535100",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -2656,36 +2369,6 @@
       {
         "@language": "en",
         "@value": "https://kiac.ca/calendar-of-events/classic-cinema-rififi/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g536460",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g536480",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
       }
     ]
   },
@@ -2718,12 +2401,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g536500"
+        "@id": "_:g535240"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g536540"
+        "@id": "_:g535280"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -2760,7 +2443,7 @@
     ]
   },
   {
-    "@id": "_:g536500",
+    "@id": "_:g535240",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -2771,7 +2454,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g536520"
+        "@id": "_:g535260"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2799,7 +2482,7 @@
     ]
   },
   {
-    "@id": "_:g536540",
+    "@id": "_:g535280",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -2834,7 +2517,7 @@
     ]
   },
   {
-    "@id": "_:g536520",
+    "@id": "_:g535260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2846,7 +2529,7 @@
     ]
   },
   {
-    "@id": "_:g544060",
+    "@id": "_:g542860",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -2869,7 +2552,7 @@
     ]
   },
   {
-    "@id": "_:g544120",
+    "@id": "_:g542920",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -2887,7 +2570,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/5f0de38b-07a8-4ff7-98e1-6df712db2a1b",
+    "@id": "https://kiac.ca/temporary/288fdbe8-2fa2-4999-aef1-684238b2ceef",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -2898,7 +2581,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/6ea2cc0c-6673-486f-8f8b-2beed7655a19",
+    "@id": "https://kiac.ca/temporary/453739dd-44ee-449d-b0b0-66890bcf1d57",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -2909,7 +2592,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/39c0f7a2-8125-409b-8ec5-3573d7eb77e6",
+    "@id": "https://kiac.ca/temporary/c95b4103-3511-40fa-8929-dac4263c7e77",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -2937,7 +2620,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/e462c53a-3e09-4765-8f0c-561eb36c4bbf",
+    "@id": "https://kiac.ca/temporary/d7697cce-220e-4eb9-b0b0-7e2b45e7830e",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2948,7 +2631,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/927c8723-24b6-4554-b2b3-bdd84c13540a",
+    "@id": "https://kiac.ca/temporary/d9ca56da-cd70-4b56-9263-80e05554eb7e",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -2976,16 +2659,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/056969c2-5696-4e7e-a4fc-b797cbed4f17",
+    "@id": "https://kiac.ca/temporary/61311af6-9b1f-4258-8766-8cf77499abd9",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g544060"
+        "@id": "_:g542860"
       },
       {
-        "@id": "_:g544120"
+        "@id": "_:g542920"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2995,7 +2678,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/f854160a-40de-4290-9106-88906767c02d",
+    "@id": "https://kiac.ca/temporary/5ddd9b2e-918b-4793-a60f-92ab238dfcc0",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -3107,14 +2790,9 @@
         "@value": "2025-11-14T18:19:05+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/queer-paint-night/2026-01-16/#breadcrumb"
-      }
-    ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g554900"
+        "@id": "_:g553440"
       }
     ],
     "https://api.w.org/": [
@@ -3176,7 +2854,7 @@
     ]
   },
   {
-    "@id": "_:g554900",
+    "@id": "_:g553440",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -3184,36 +2862,6 @@
       {
         "@language": "en",
         "@value": "https://kiac.ca/calendar-of-events/queer-paint-night/2026-01-16/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g555000",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g555020",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
       }
     ]
   },
@@ -3246,12 +2894,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g555040"
+        "@id": "_:g553580"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g555080"
+        "@id": "_:g553620"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -3288,7 +2936,7 @@
     ]
   },
   {
-    "@id": "_:g555040",
+    "@id": "_:g553580",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3299,7 +2947,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g555060"
+        "@id": "_:g553600"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3327,7 +2975,7 @@
     ]
   },
   {
-    "@id": "_:g555080",
+    "@id": "_:g553620",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -3362,7 +3010,7 @@
     ]
   },
   {
-    "@id": "_:g555060",
+    "@id": "_:g553600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3374,7 +3022,7 @@
     ]
   },
   {
-    "@id": "_:g562640",
+    "@id": "_:g561500",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -3397,7 +3045,7 @@
     ]
   },
   {
-    "@id": "_:g562700",
+    "@id": "_:g561580",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -3415,7 +3063,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/541a4874-84e8-411f-af65-7266ce0c5499",
+    "@id": "https://kiac.ca/temporary/e17caee5-bc98-49c3-bc7e-2775696708b0",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -3426,7 +3074,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/4105e8b0-fd02-4b25-8dec-b235d6d797cc",
+    "@id": "https://kiac.ca/temporary/d052317d-6bea-4287-8e7c-c3b123c5850f",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -3437,7 +3085,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/8f974e85-0b1d-4fab-89e8-8d3bacc56fe3",
+    "@id": "https://kiac.ca/temporary/8dd67d40-b685-49e4-a2d5-7c3631a8739b",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -3465,7 +3113,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/c6d66c49-d9ab-4f1d-a448-90890c33b16e",
+    "@id": "https://kiac.ca/temporary/5df49b6d-f1ae-47c8-a4d3-16117c62fa0a",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3476,7 +3124,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/b5b3046e-f990-4471-a00f-c367e0098f9b",
+    "@id": "https://kiac.ca/temporary/20eba379-406d-467f-b607-c489138b19c9",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -3504,16 +3152,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/3d493c25-dcbc-4cfe-8b69-fdfb66b7c75d",
+    "@id": "https://kiac.ca/temporary/8819a259-692d-4a75-a173-940222c30144",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g562640"
+        "@id": "_:g561500"
       },
       {
-        "@id": "_:g562700"
+        "@id": "_:g561580"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3523,7 +3171,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/b9b97903-d158-4271-913f-cd7b2933680f",
+    "@id": "https://kiac.ca/temporary/d8af7a3b-3bbc-461a-883b-e3414291e7d7",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -3647,14 +3295,9 @@
         "@value": "2025-12-18T00:13:08+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/foypac-photo-sessions-january-2026/#breadcrumb"
-      }
-    ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g573380"
+        "@id": "_:g572000"
       }
     ],
     "https://api.w.org/": [
@@ -3716,7 +3359,7 @@
     ]
   },
   {
-    "@id": "_:g573380",
+    "@id": "_:g572000",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -3724,36 +3367,6 @@
       {
         "@language": "en",
         "@value": "https://kiac.ca/calendar-of-events/foypac-photo-sessions-january-2026/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g573480",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g573500",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
       }
     ]
   },
@@ -3786,12 +3399,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g573520"
+        "@id": "_:g572140"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g573560"
+        "@id": "_:g572180"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -3828,7 +3441,7 @@
     ]
   },
   {
-    "@id": "_:g573520",
+    "@id": "_:g572140",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -3839,7 +3452,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g573540"
+        "@id": "_:g572160"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3867,7 +3480,7 @@
     ]
   },
   {
-    "@id": "_:g573560",
+    "@id": "_:g572180",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -3902,13 +3515,13 @@
     ]
   },
   {
-    "@id": "_:g573540",
+    "@id": "_:g572160",
     "@type": [
       "http://schema.org/PostalAddress"
     ]
   },
   {
-    "@id": "_:g581280",
+    "@id": "_:g579920",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -3931,7 +3544,7 @@
     ]
   },
   {
-    "@id": "_:g581340",
+    "@id": "_:g579980",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -3949,7 +3562,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/85e588fd-4cae-4667-8b3c-c783d4b7e4d8",
+    "@id": "https://kiac.ca/temporary/db174572-3f5c-4c0d-834d-23862c7e3000",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -3960,7 +3573,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/029fcc8f-aeed-41fa-80f5-026b7e7fd8bd",
+    "@id": "https://kiac.ca/temporary/d8ee02e3-4f43-40ed-9878-4031f5164f51",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -3971,7 +3584,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/d3f1dd13-716d-41e0-97c2-018e4fc93996",
+    "@id": "https://kiac.ca/temporary/173c2cd9-64b1-4f7f-9f65-20fa8ddb349c",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -3999,7 +3612,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/dae33b18-e3a7-4bd0-a7bf-50e36e029723",
+    "@id": "https://kiac.ca/temporary/dc5ea57a-8140-445c-8aa6-46ba976a3d36",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4010,7 +3623,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/c5d11a47-5cf7-4a62-8d7c-809058e0b1fa",
+    "@id": "https://kiac.ca/temporary/a5655a26-f0e8-49f1-bad1-66bdd4a691d1",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4038,16 +3651,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/6f8204bd-2cc5-4f88-968f-698248c40a07",
+    "@id": "https://kiac.ca/temporary/674e1202-5808-4abe-b920-962cd7bad547",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g581280"
+        "@id": "_:g579920"
       },
       {
-        "@id": "_:g581340"
+        "@id": "_:g579980"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4057,7 +3670,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/96dcf88f-6afb-415b-a12e-02fd4442072f",
+    "@id": "https://kiac.ca/temporary/463dcac4-2607-4cee-b5fc-3ba50e95f475",
     "@type": [
       "https://schema.org/WPFooter"
     ],
@@ -4181,14 +3794,9 @@
         "@value": "2025-12-14T21:48:46+00:00"
       }
     ],
-    "http://schema.org/breadcrumb": [
-      {
-        "@id": "https://kiac.ca/calendar-of-events/kids-dance-class-with-jen-suttis-2/#breadcrumb"
-      }
-    ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "_:g592120"
+        "@id": "_:g590460"
       }
     ],
     "https://api.w.org/": [
@@ -4250,7 +3858,7 @@
     ]
   },
   {
-    "@id": "_:g592120",
+    "@id": "_:g590460",
     "@type": [
       "http://schema.org/ReadAction"
     ],
@@ -4258,36 +3866,6 @@
       {
         "@language": "en",
         "@value": "https://kiac.ca/calendar-of-events/kids-dance-class-with-jen-suttis-2/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g592220",
-    "@type": [
-      "http://schema.org/EntryPoint"
-    ],
-    "http://schema.org/urlTemplate": [
-      {
-        "@language": "en",
-        "@value": "https://kiac.ca/?s={search_term_string}"
-      }
-    ]
-  },
-  {
-    "@id": "_:g592240",
-    "@type": [
-      "http://schema.org/PropertyValueSpecification"
-    ],
-    "http://schema.org/valueRequired": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/valueName": [
-      {
-        "@language": "en",
-        "@value": "search_term_string"
       }
     ]
   },
@@ -4320,12 +3898,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g592260"
+        "@id": "_:g590600"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g592300"
+        "@id": "_:g590640"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
@@ -4362,7 +3940,7 @@
     ]
   },
   {
-    "@id": "_:g592260",
+    "@id": "_:g590600",
     "@type": [
       "http://schema.org/Place"
     ],
@@ -4373,7 +3951,7 @@
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g592280"
+        "@id": "_:g590620"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4401,7 +3979,7 @@
     ]
   },
   {
-    "@id": "_:g592300",
+    "@id": "_:g590640",
     "@type": [
       "http://schema.org/Person"
     ],
@@ -4436,7 +4014,7 @@
     ]
   },
   {
-    "@id": "_:g592280",
+    "@id": "_:g590620",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4448,7 +4026,7 @@
     ]
   },
   {
-    "@id": "_:g600040",
+    "@id": "_:g598320",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -4471,7 +4049,7 @@
     ]
   },
   {
-    "@id": "_:g600100",
+    "@id": "_:g598380",
     "@type": [
       "https://schema.org/ListItem"
     ],
@@ -4489,7 +4067,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/14e7623d-113d-45e4-9044-731915cd27a4",
+    "@id": "https://kiac.ca/temporary/3158cdde-5dc6-480b-9d7f-db752b2c7209",
     "@type": [
       "https://schema.org/WebSite"
     ],
@@ -4500,7 +4078,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/7efd141d-cd91-4061-9a8f-3c72ce33f6ee",
+    "@id": "https://kiac.ca/temporary/17ef21b4-591c-49a1-bbe7-b62912e58330",
     "@type": [
       "https://schema.org/WebPage"
     ],
@@ -4511,7 +4089,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/ee6d2ac8-27f8-4204-97c1-0702c22cd0d9",
+    "@id": "https://kiac.ca/temporary/9634b9e0-c1f4-4aec-b0a9-f16106646693",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4539,7 +4117,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/bcb7dce3-0156-4326-875a-f467fbaa5d46",
+    "@id": "https://kiac.ca/temporary/46cc6371-b4ea-43ba-b095-7ffa7d6b716a",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4550,7 +4128,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/670b600f-5a6d-4a31-9a88-3f5bd800a7ff",
+    "@id": "https://kiac.ca/temporary/52f93284-62f9-4141-a4e0-633f2c8e086a",
     "@type": [
       "https://schema.org/Organization"
     ],
@@ -4578,16 +4156,16 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/1bfe33f4-e880-4346-b794-c1e8b5be528b",
+    "@id": "https://kiac.ca/temporary/4b2b5a1d-81c5-457f-873a-d2b5bc069299",
     "@type": [
       "https://schema.org/BreadcrumbList"
     ],
     "https://schema.org/itemListElement": [
       {
-        "@id": "_:g600040"
+        "@id": "_:g598320"
       },
       {
-        "@id": "_:g600100"
+        "@id": "_:g598380"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4597,7 +4175,7 @@
     ]
   },
   {
-    "@id": "https://kiac.ca/temporary/8387584c-b313-4c55-aa0e-46f1f54070f5",
+    "@id": "https://kiac.ca/temporary/6b10d6a1-e65d-4c2d-a379-adbd5103bd74",
     "@type": [
       "https://schema.org/WPFooter"
     ],
