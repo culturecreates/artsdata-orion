@@ -40,7 +40,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-09T15:32:56-05:00"
+        "@value": "2026-01-15T15:25:53-05:00"
       }
     ],
     "place:location:latitude": [
@@ -118,7 +118,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-09T15:32:56-05:00"
+        "@value": "2026-01-15T15:25:53-05:00"
       }
     ],
     "@type": [
@@ -129,43 +129,39 @@
         "@id": "https://levivier.ca/fr/concert/saison-2025-26/totem-electrique-xix"
       }
     ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-01-30T00:30:00-05:00"
-      },
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-02-02T00:30:00-05:00"
-      }
-    ],
     "http://schema.org/location": [
       {
-        "@id": "_:g461140"
+        "@id": "_:g461100"
       }
     ],
     "http://schema.org/offers": [
       {
+        "@id": "_:g461140"
+      },
+      {
+        "@id": "_:g461160"
+      },
+      {
         "@id": "_:g461180"
-      },
-      {
-        "@id": "_:g461200"
-      },
-      {
-        "@id": "_:g461220"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g461240"
+        "@id": "_:g461200"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g461260"
+        "@id": "_:g461220"
       }
     ],
     "http://schema.org/performer": [
+      {
+        "@id": "_:g461260"
+      },
+      {
+        "@id": "_:g461280"
+      },
       {
         "@id": "_:g461300"
       },
@@ -174,25 +170,16 @@
       },
       {
         "@id": "_:g461340"
-      },
-      {
-        "@id": "_:g461360"
-      },
-      {
-        "@id": "_:g461380"
       }
     ],
     "http://schema.org/subjectOf": [
       {
-        "@id": "_:g461400"
-      },
-      {
-        "@id": "_:g461420"
+        "@id": "_:g461360"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g461440"
+        "@id": "_:g461380"
       }
     ],
     "http://schema.org/name": [
@@ -206,13 +193,19 @@
         "@language": "fr",
         "@value": "Totem Électrique, un concert qui met à l’honneur la musique mixte est de retour pour une édition double avec des compositions originales pour Table de Babel, Orgue de Sirènes et électronique.Ce concert s’inscrit dans le cadre de la série Totem Électrique créée en 2009. Cette série a donné lieu à la création de plus de 100 œuvres musicales mixtes hors du commun spécialement composées pour les instruments inventés de Jean-François Laporte, qui sont combinés à une composante électrique ou électronique (bande sonore, traitement numérique en temps réel, électronique, amplification, etc.)."
       }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-30T00:30:00-05:00"
+      }
     ]
   },
   {
-    "@id": "_:g461140",
+    "@id": "_:g461100",
     "http://schema.org/address": [
       {
-        "@id": "_:g461160"
+        "@id": "_:g461120"
       }
     ],
     "http://schema.org/latitude": [
@@ -243,7 +236,7 @@
     ]
   },
   {
-    "@id": "_:g461180",
+    "@id": "_:g461140",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -272,7 +265,7 @@
     ]
   },
   {
-    "@id": "_:g461200",
+    "@id": "_:g461160",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -301,7 +294,7 @@
     ]
   },
   {
-    "@id": "_:g461220",
+    "@id": "_:g461180",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -330,7 +323,7 @@
     ]
   },
   {
-    "@id": "_:g461240",
+    "@id": "_:g461200",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -359,7 +352,7 @@
     ]
   },
   {
-    "@id": "_:g461260",
+    "@id": "_:g461220",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -370,7 +363,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g461280"
+        "@id": "_:g461240"
       }
     ],
     "http://schema.org/sameAs": [
@@ -398,7 +391,7 @@
     ]
   },
   {
-    "@id": "_:g461300",
+    "@id": "_:g461260",
     "http://schema.org/url": [
       {
         "@id": "http://totemcontemporain.com/"
@@ -432,7 +425,7 @@
     ]
   },
   {
-    "@id": "_:g461320",
+    "@id": "_:g461280",
     "http://schema.org/url": [
       {
         "@id": "http://brahms.ircam.fr/jean-francois-laporte"
@@ -481,7 +474,7 @@
     ]
   },
   {
-    "@id": "_:g461340",
+    "@id": "_:g461300",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/audreanne-filion"
@@ -522,7 +515,7 @@
     ]
   },
   {
-    "@id": "_:g461360",
+    "@id": "_:g461320",
     "http://schema.org/url": [
       {
         "@id": "http://lorifreedman.com/fr/bio/freedman_lo/Lori_Freedman"
@@ -580,7 +573,7 @@
     ]
   },
   {
-    "@id": "_:g461380",
+    "@id": "_:g461340",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/julie-delisle"
@@ -621,7 +614,7 @@
     ]
   },
   {
-    "@id": "_:g461400",
+    "@id": "_:g461360",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -644,33 +637,10 @@
     ]
   },
   {
-    "@id": "_:g461420",
-    "@type": [
-      "http://schema.org/VideoObject"
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://levivier.ca/sites/default/files/oembed_thumbnails/zzJsfg_5hw8nxTfUH3JUQ7Cf5pEkCLOYZPaQYiVLytw.jpg"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Sara Magnan : La Maison de Diev"
-      }
-    ],
-    "http://schema.org/uploadDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-01-20T01:00:04-05:00"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461440",
+    "@id": "_:g461380",
     "http://schema.org/author": [
       {
-        "@id": "_:g461460"
+        "@id": "_:g461400"
       }
     ],
     "http://schema.org/url": [
@@ -693,7 +663,7 @@
     "http://schema.org/lastReviewed": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-09T15:32:56-05:00"
+        "@value": "2026-01-15T15:25:53-05:00"
       }
     ],
     "http://schema.org/datePublished": [
@@ -705,7 +675,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-09T15:32:56-05:00"
+        "@value": "2026-01-15T15:25:53-05:00"
       }
     ],
     "@type": [
@@ -713,7 +683,7 @@
     ]
   },
   {
-    "@id": "_:g461160",
+    "@id": "_:g461120",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -755,7 +725,7 @@
     ]
   },
   {
-    "@id": "_:g461280",
+    "@id": "_:g461240",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -778,7 +748,7 @@
     ]
   },
   {
-    "@id": "_:g461460",
+    "@id": "_:g461400",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -789,7 +759,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g461480"
+        "@id": "_:g461420"
       }
     ],
     "http://schema.org/sameAs": [
@@ -817,7 +787,843 @@
     ]
   },
   {
-    "@id": "_:g461480",
+    "@id": "_:g461420",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/sites/default/files/levivier-logo-noir-cr_0.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "321"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "321"
+      }
+    ]
+  },
+  {
+    "@id": "https://levivier.ca/fr/concert/saison-2025-26/totem-electrique-xx",
+    "https://ogp.me/ns#site_name": [
+      {
+        "@language": "fr",
+        "@value": "Le Vivier"
+      }
+    ],
+    "https://ogp.me/ns#type": [
+      {
+        "@language": "fr",
+        "@value": "article"
+      }
+    ],
+    "https://ogp.me/ns#url": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/concert/saison-2025-26/totem-electrique-xx"
+      }
+    ],
+    "https://ogp.me/ns#title": [
+      {
+        "@language": "fr",
+        "@value": "Totem Électrique XX | Le Vivier"
+      }
+    ],
+    "https://ogp.me/ns#description": [
+      {
+        "@language": "fr",
+        "@value": "Totem Électrique, un concert qui met à l’honneur la musique mixte est de retour pour une édition double avec des compositions originales pour Table de Babel, Orgue de Sirènes et électronique.Ce concert s’inscrit dans le cadre de la série Totem Électrique créée en 2009. Cette série a donné lieu à la création de plus de 100 œuvres musicales mixtes hors du commun spécialement composées pour les instruments inventés de Jean-François Laporte, qui sont combinés à une composante électrique ou électronique (bande sonore, traitement numérique en temps réel, électronique, amplification, etc.)."
+      }
+    ],
+    "https://ogp.me/ns#image": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/sites/default/files/evenements/totem-electrique-jf-laporte.jpg"
+      }
+    ],
+    "https://ogp.me/ns#updated_time": [
+      {
+        "@language": "fr",
+        "@value": "2026-01-15T15:25:53-05:00"
+      }
+    ],
+    "place:location:latitude": [
+      {
+        "@language": "fr",
+        "@value": "45.513406"
+      }
+    ],
+    "place:location:longitude": [
+      {
+        "@language": "fr",
+        "@value": "-73.568532"
+      }
+    ],
+    "https://ogp.me/ns#street_address": [
+      {
+        "@language": "fr",
+        "@value": "100, rue Sherbrooke Est, local 2000"
+      }
+    ],
+    "https://ogp.me/ns#locality": [
+      {
+        "@language": "fr",
+        "@value": "Montréal"
+      }
+    ],
+    "https://ogp.me/ns#region": [
+      {
+        "@language": "fr",
+        "@value": "Québec"
+      }
+    ],
+    "https://ogp.me/ns#postal_code": [
+      {
+        "@language": "fr",
+        "@value": "H2X 1C3"
+      }
+    ],
+    "https://ogp.me/ns#country_name": [
+      {
+        "@language": "fr",
+        "@value": "Canada"
+      }
+    ],
+    "https://ogp.me/ns#email": [
+      {
+        "@language": "fr",
+        "@value": "info@levivier.ca"
+      }
+    ],
+    "https://ogp.me/ns#phone_number": [
+      {
+        "@language": "fr",
+        "@value": "(514) 903-7794"
+      }
+    ],
+    "https://ogp.me/ns#locale": [
+      {
+        "@language": "fr",
+        "@value": "fr_CA"
+      }
+    ],
+    "https://ogp.me/ns#locale:alternate": [
+      {
+        "@language": "fr",
+        "@value": "en_CA"
+      }
+    ],
+    "article:published_time": [
+      {
+        "@language": "fr",
+        "@value": "2026-01-15T15:20:54-05:00"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr",
+        "@value": "2026-01-15T15:25:53-05:00"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicEvent"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/concert/saison-2025-26/totem-electrique-xx"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g484180"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "_:g484220"
+      },
+      {
+        "@id": "_:g484240"
+      },
+      {
+        "@id": "_:g484260"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "_:g484280"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g484300"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g484340"
+      },
+      {
+        "@id": "_:g484360"
+      },
+      {
+        "@id": "_:g484380"
+      },
+      {
+        "@id": "_:g484400"
+      },
+      {
+        "@id": "_:g484420"
+      }
+    ],
+    "http://schema.org/subjectOf": [
+      {
+        "@id": "_:g484440"
+      },
+      {
+        "@id": "_:g484460"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "_:g484480"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Totem Électrique XX"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Totem Électrique, un concert qui met à l’honneur la musique mixte est de retour pour une édition double avec des compositions originales pour Table de Babel, Orgue de Sirènes et électronique.Ce concert s’inscrit dans le cadre de la série Totem Électrique créée en 2009. Cette série a donné lieu à la création de plus de 100 œuvres musicales mixtes hors du commun spécialement composées pour les instruments inventés de Jean-François Laporte, qui sont combinés à une composante électrique ou électronique (bande sonore, traitement numérique en temps réel, électronique, amplification, etc.)."
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-02-02T00:30:00-05:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484180",
+    "http://schema.org/address": [
+      {
+        "@id": "_:g484200"
+      }
+    ],
+    "http://schema.org/latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "4.5506799E1"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "-7.3567695E1"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/le-wilder/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Salle Bleue | Édifice Wilder"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Place"
+    ]
+  },
+  {
+    "@id": "_:g484220",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
+      }
+    ],
+    "http://schema.org/category": [
+      {
+        "@language": "fr",
+        "@value": "Billet solidaire&nbsp;"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "fr",
+        "@value": "35"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "fr",
+        "@value": "CAD"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Offer"
+    ]
+  },
+  {
+    "@id": "_:g484240",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
+      }
+    ],
+    "http://schema.org/category": [
+      {
+        "@language": "fr",
+        "@value": "Billet régulier"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "fr",
+        "@value": "25"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "fr",
+        "@value": "CAD"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Offer"
+    ]
+  },
+  {
+    "@id": "_:g484260",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
+      }
+    ],
+    "http://schema.org/category": [
+      {
+        "@language": "fr",
+        "@value": "Tarif réduit"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "fr",
+        "@value": "15"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "fr",
+        "@value": "CAD"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Offer"
+    ]
+  },
+  {
+    "@id": "_:g484280",
+    "http://schema.org/representativeOfPage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/sites/default/files/evenements/totem-electrique-jf-laporte.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@language": "fr",
+        "@value": "2824"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@language": "fr",
+        "@value": "1518"
+      }
+    ],
+    "@type": [
+      "http://schema.org/ImageObject"
+    ]
+  },
+  {
+    "@id": "_:g484300",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca"
+      }
+    ],
+    "http://schema.org/logo": [
+      {
+        "@id": "_:g484320"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/GroupeLeVivier/"
+      },
+      {
+        "@id": "https://www.instagram.com/groupelevivier/"
+      },
+      {
+        "@id": "https://www.youtube.com/channel/UCDCrHXbapyafAuoKOXflDKQ"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Le Vivier"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Le Vivier a pour mission de favoriser le développement des musiques nouvelles et d’offrir à tous, par la diffusion d’œuvres de qualité, une porte ouverte sur la culture."
+      }
+    ]
+  },
+  {
+    "@id": "_:g484340",
+    "http://schema.org/url": [
+      {
+        "@id": "http://totemcontemporain.com/"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://totemcontemporain.com/"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "http://totemcontemporain.com/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Productions Totem contemporain"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Les Productions Totem contemporain (PTC) se dédie essentiellement à la création, au développement, à la production et à la diffusion des instruments inventés et installations sonores de Jean-François Laporte.\r\n\r\nEn juillet 2004, l’organisme a investi l’Espace Totem qui se veut à la fois atelier et lieu de répétition pour le compositeur et son ensemble, lieu de résidence pour des artistes, puis lieu de diffusion.\r\n\r\nEn 2008, PTC mettait en place trois séries de concerts: Totem Danse met en valeur les instruments et installations des PTC en parallèle avec une œuvre..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/PerformingGroup"
+    ]
+  },
+  {
+    "@id": "_:g484360",
+    "http://schema.org/url": [
+      {
+        "@id": "http://brahms.ircam.fr/jean-francois-laporte"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Laporte"
+      },
+      {
+        "@id": "http://brahms.ircam.fr/jean-francois-laporte"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/membres/organismes/jean-francois-laporte"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Jean-François Laporte"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Jean-François"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Laporte"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Jean-François Laporte, artiste québécois présent sur la scène de l’art contemporain depuis le milieu des années 1990, poursuit une démarche hybride intégrant l’art sonore, la composition musicale, la performance, l’interprétation, l’installation ainsi que l’art numérique. Formé d’abord à l’Université de Montréal (Québec) puis à l’IRCAM (Paris, France), il construit sa démarche de composition sur l’écoute et l’observation active de la réalité de chaque phénomène. Depuis plus de dix ans, il consacre beaucoup d’énergie au développement et à la fabrication de nouveaux instruments de musique qu’il intègre à ses œuvres et, depuis 2002, à ses projets d’installations. Il travaille également beaucoup en collaboration avec le milieu de la danse contemporaine."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g484380",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/audreanne-filion"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/audreanne-filion"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Audréanne Filion"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Audréanne"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Filion"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Audréanne Filion est une violoncelliste, compositrice et improvisatrice montréalaise. Son travail se penche principalement sur les musiques de création, contemporaines et expérimentales. Formée au Conservatoire de Musique de Montréal, Audréanne détient un baccalauréat diplôme d’artiste en interprétation du violoncelle ainsi qu’un baccalauréat en composition électroacoustique."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g484400",
+    "http://schema.org/url": [
+      {
+        "@id": "http://lorifreedman.com/fr/bio/freedman_lo/Lori_Freedman"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://lorifreedman.com/fr/bio/freedman_lo/Lori_Freedman"
+      },
+      {
+        "@id": "https://soundcloud.com/sendmetotheclouds"
+      },
+      {
+        "@id": "https://facebook.com/lori.freedman.1"
+      },
+      {
+        "@id": "https://youtube.com/channel/UCETSbwFyavOE5jRYFz7BWPw/videos"
+      },
+      {
+        "@id": "https://fr.wikipedia.org/wiki/Lori_Freedman"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/membres/individus/lori-freedman"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Lori Freedman"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Lori"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Freedman"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Lori Freedman est membre du groupe international des musiciens «renaissance». La pratique artistique de Freedman s’étend sur toute la gamme. Avec un maximum d’intensité dans les courants de musique contemporaine et improvisée, elle est reconnue internationalement pour ses performances provocatrices et créatives. En tant qu’interprète de la musique écrite pour clarinette, elle a consacré et/ou créé des centaines d’œuvres. Tout en gérant un programme complet de spectacles (plus de 75 représentations publiques par année), d’enregistrements, de tournées et chef..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g484420",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/julie-delisle"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/julie-delisle"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Julie Delisle"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Julie "
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Delisle "
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Julie Delisle est une flûtiste, artiste sonore et musicologue originaire de Montréal. Elle a étudié la flûte moderne et baroque à la Hochschule für Musik Freiburg et au Conservatoire de musique de Montréal, puis les musiques numériques et les mathématiques à l’Université de Montréal. Après quelques années passées dans le monde orchestral, elle a commencé à enrichir sa palette sonore grâce à l’exploration de la musique électroacoustique, du sound design et de la programmation. Sa vision de la musique est inspirée par le psychédélisme des années soixante, la..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g484440",
+    "@type": [
+      "http://schema.org/VideoObject"
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://levivier.ca/sites/default/files/oembed_thumbnails/E8Kj5ZY1a4vdwUJpDMhnpK-B2rwogbccGvYvw_y6_uo.jpg"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "La Table de Babel"
+      }
+    ],
+    "http://schema.org/uploadDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-20T01:01:09-05:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484460",
+    "@type": [
+      "http://schema.org/VideoObject"
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://levivier.ca/sites/default/files/oembed_thumbnails/zzJsfg_5hw8nxTfUH3JUQ7Cf5pEkCLOYZPaQYiVLytw.jpg"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Sara Magnan : La Maison de Diev"
+      }
+    ],
+    "http://schema.org/uploadDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-01-20T01:00:04-05:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484480",
+    "http://schema.org/author": [
+      {
+        "@id": "_:g484500"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/concert/saison-2025-26/totem-electrique-xx"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/concert/saison-2025-26/totem-electrique-xx"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://schema.org/lastReviewed": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-15T15:25:53-05:00"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-15T15:20:54-05:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-01-15T15:25:53-05:00"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ]
+  },
+  {
+    "@id": "_:g484200",
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Salle Bleue | Édifice Wilder"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "fr",
+        "@value": "CA"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "fr",
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "fr",
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "fr",
+        "@value": "H3A 2H7"
+      }
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "fr",
+        "@value": "1435 Rue de Bleury #102"
+      }
+    ],
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ]
+  },
+  {
+    "@id": "_:g484320",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/sites/default/files/levivier-logo-noir-cr_0.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "321"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "321"
+      }
+    ]
+  },
+  {
+    "@id": "_:g484500",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca"
+      }
+    ],
+    "http://schema.org/logo": [
+      {
+        "@id": "_:g484520"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/GroupeLeVivier/"
+      },
+      {
+        "@id": "https://www.instagram.com/groupelevivier/"
+      },
+      {
+        "@id": "https://www.youtube.com/channel/UCDCrHXbapyafAuoKOXflDKQ"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Le Vivier"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Le Vivier a pour mission de favoriser le développement des musiques nouvelles et d’offrir à tous, par la diffusion d’œuvres de qualité, une porte ouverte sur la culture."
+      }
+    ]
+  },
+  {
+    "@id": "_:g484520",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -971,69 +1777,69 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g484620"
+        "@id": "_:g507160"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g484660"
+        "@id": "_:g507200"
       },
       {
-        "@id": "_:g484680"
+        "@id": "_:g507220"
       },
       {
-        "@id": "_:g484700"
+        "@id": "_:g507240"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g484720"
+        "@id": "_:g507260"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g484740"
+        "@id": "_:g507280"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g484780"
+        "@id": "_:g507320"
       },
       {
-        "@id": "_:g484800"
+        "@id": "_:g507340"
       },
       {
-        "@id": "_:g484820"
+        "@id": "_:g507360"
       },
       {
-        "@id": "_:g484840"
+        "@id": "_:g507380"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g484860"
+        "@id": "_:g507400"
       },
       {
-        "@id": "_:g484900"
+        "@id": "_:g507440"
       },
       {
-        "@id": "_:g484940"
+        "@id": "_:g507480"
       },
       {
-        "@id": "_:g484980"
+        "@id": "_:g507520"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g485020"
+        "@id": "_:g507560"
       },
       {
-        "@id": "_:g485040"
+        "@id": "_:g507580"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g485060"
+        "@id": "_:g507600"
       }
     ],
     "http://schema.org/name": [
@@ -1056,10 +1862,10 @@
     ]
   },
   {
-    "@id": "_:g484620",
+    "@id": "_:g507160",
     "http://schema.org/address": [
       {
-        "@id": "_:g484640"
+        "@id": "_:g507180"
       }
     ],
     "http://schema.org/latitude": [
@@ -1085,7 +1891,7 @@
     ]
   },
   {
-    "@id": "_:g484660",
+    "@id": "_:g507200",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/innovations-en-concert-resonances-de-cage"
@@ -1114,7 +1920,7 @@
     ]
   },
   {
-    "@id": "_:g484680",
+    "@id": "_:g507220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/innovations-en-concert-resonances-de-cage"
@@ -1143,7 +1949,7 @@
     ]
   },
   {
-    "@id": "_:g484700",
+    "@id": "_:g507240",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/innovations-en-concert-resonances-de-cage"
@@ -1172,7 +1978,7 @@
     ]
   },
   {
-    "@id": "_:g484720",
+    "@id": "_:g507260",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1201,7 +2007,7 @@
     ]
   },
   {
-    "@id": "_:g484740",
+    "@id": "_:g507280",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1212,7 +2018,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g484760"
+        "@id": "_:g507300"
       }
     ],
     "http://schema.org/sameAs": [
@@ -1240,7 +2046,7 @@
     ]
   },
   {
-    "@id": "_:g484780",
+    "@id": "_:g507320",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/jacob-tv"
@@ -1275,7 +2081,7 @@
     ]
   },
   {
-    "@id": "_:g484800",
+    "@id": "_:g507340",
     "http://schema.org/url": [
       {
         "@id": "https://johncage.org/"
@@ -1324,7 +2130,7 @@
     ]
   },
   {
-    "@id": "_:g484820",
+    "@id": "_:g507360",
     "http://schema.org/url": [
       {
         "@id": "https://www.cnvill.net/mfhome.htm"
@@ -1370,7 +2176,7 @@
     ]
   },
   {
-    "@id": "_:g484840",
+    "@id": "_:g507380",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/howard-skempton"
@@ -1405,7 +2211,7 @@
     ]
   },
   {
-    "@id": "_:g484860",
+    "@id": "_:g507400",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/sound"
@@ -1413,7 +2219,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g484880"
+        "@id": "_:g507420"
       }
     ],
     "http://schema.org/name": [
@@ -1433,7 +2239,7 @@
     ]
   },
   {
-    "@id": "_:g484900",
+    "@id": "_:g507440",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/landscape"
@@ -1441,7 +2247,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g484920"
+        "@id": "_:g507460"
       }
     ],
     "http://schema.org/name": [
@@ -1461,7 +2267,7 @@
     ]
   },
   {
-    "@id": "_:g484940",
+    "@id": "_:g507480",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/nature-pieces"
@@ -1469,7 +2275,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g484960"
+        "@id": "_:g507500"
       }
     ],
     "http://schema.org/name": [
@@ -1489,7 +2295,7 @@
     ]
   },
   {
-    "@id": "_:g484980",
+    "@id": "_:g507520",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/notte-stellati-vagli"
@@ -1497,7 +2303,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g485000"
+        "@id": "_:g507540"
       }
     ],
     "http://schema.org/name": [
@@ -1517,7 +2323,7 @@
     ]
   },
   {
-    "@id": "_:g485020",
+    "@id": "_:g507560",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/membres/organismes/isak-goldschneider"
@@ -1552,7 +2358,7 @@
     ]
   },
   {
-    "@id": "_:g485040",
+    "@id": "_:g507580",
     "http://schema.org/url": [
       {
         "@id": "https://innovationsenconcert.ca/"
@@ -1595,10 +2401,10 @@
     ]
   },
   {
-    "@id": "_:g485060",
+    "@id": "_:g507600",
     "http://schema.org/author": [
       {
-        "@id": "_:g485080"
+        "@id": "_:g507620"
       }
     ],
     "http://schema.org/url": [
@@ -1641,7 +2447,7 @@
     ]
   },
   {
-    "@id": "_:g484640",
+    "@id": "_:g507180",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -1683,7 +2489,7 @@
     ]
   },
   {
-    "@id": "_:g484760",
+    "@id": "_:g507300",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -1706,7 +2512,7 @@
     ]
   },
   {
-    "@id": "_:g484880",
+    "@id": "_:g507420",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/jacob-tv"
@@ -1741,7 +2547,7 @@
     ]
   },
   {
-    "@id": "_:g484920",
+    "@id": "_:g507460",
     "http://schema.org/url": [
       {
         "@id": "https://johncage.org/"
@@ -1784,7 +2590,7 @@
     ]
   },
   {
-    "@id": "_:g484960",
+    "@id": "_:g507500",
     "http://schema.org/url": [
       {
         "@id": "https://www.cnvill.net/mfhome.htm"
@@ -1824,7 +2630,7 @@
     ]
   },
   {
-    "@id": "_:g485000",
+    "@id": "_:g507540",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/howard-skempton"
@@ -1859,7 +2665,7 @@
     ]
   },
   {
-    "@id": "_:g485080",
+    "@id": "_:g507620",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1870,7 +2676,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g485100"
+        "@id": "_:g507640"
       }
     ],
     "http://schema.org/sameAs": [
@@ -1898,7 +2704,7 @@
     ]
   },
   {
-    "@id": "_:g485100",
+    "@id": "_:g507640",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -2052,45 +2858,45 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g509360"
+        "@id": "_:g532360"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g509400"
+        "@id": "_:g532400"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g509420"
+        "@id": "_:g532420"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g509460"
+        "@id": "_:g532460"
       },
       {
-        "@id": "_:g509480"
+        "@id": "_:g532480"
       },
       {
-        "@id": "_:g509500"
+        "@id": "_:g532500"
       },
       {
-        "@id": "_:g509520"
+        "@id": "_:g532520"
       },
       {
-        "@id": "_:g509540"
+        "@id": "_:g532540"
       },
       {
-        "@id": "_:g509560"
+        "@id": "_:g532560"
       },
       {
-        "@id": "_:g509580"
+        "@id": "_:g532580"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g509600"
+        "@id": "_:g532600"
       }
     ],
     "http://schema.org/name": [
@@ -2113,10 +2919,10 @@
     ]
   },
   {
-    "@id": "_:g509360",
+    "@id": "_:g532360",
     "http://schema.org/address": [
       {
-        "@id": "_:g509380"
+        "@id": "_:g532380"
       }
     ],
     "http://schema.org/latitude": [
@@ -2147,7 +2953,7 @@
     ]
   },
   {
-    "@id": "_:g509400",
+    "@id": "_:g532400",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2176,7 +2982,7 @@
     ]
   },
   {
-    "@id": "_:g509420",
+    "@id": "_:g532420",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2187,7 +2993,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g509440"
+        "@id": "_:g532440"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2215,7 +3021,7 @@
     ]
   },
   {
-    "@id": "_:g509460",
+    "@id": "_:g532460",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/joao-catalao"
@@ -2261,7 +3067,7 @@
     ]
   },
   {
-    "@id": "_:g509480",
+    "@id": "_:g532480",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/philip-hornsey"
@@ -2307,7 +3113,7 @@
     ]
   },
   {
-    "@id": "_:g509500",
+    "@id": "_:g532500",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/kristie-ibrahim"
@@ -2348,7 +3154,7 @@
     ]
   },
   {
-    "@id": "_:g509520",
+    "@id": "_:g532520",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandre-lavoie"
@@ -2383,7 +3189,7 @@
     ]
   },
   {
-    "@id": "_:g509540",
+    "@id": "_:g532540",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/fabrice-marandola-0"
@@ -2429,7 +3235,7 @@
     ]
   },
   {
-    "@id": "_:g509560",
+    "@id": "_:g532560",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/corinne-rene"
@@ -2470,7 +3276,7 @@
     ]
   },
   {
-    "@id": "_:g509580",
+    "@id": "_:g532580",
     "http://schema.org/url": [
       {
         "@id": "https://sixtrum.com/fr"
@@ -2510,10 +3316,10 @@
     ]
   },
   {
-    "@id": "_:g509600",
+    "@id": "_:g532600",
     "http://schema.org/author": [
       {
-        "@id": "_:g509620"
+        "@id": "_:g532620"
       }
     ],
     "http://schema.org/url": [
@@ -2556,7 +3362,7 @@
     ]
   },
   {
-    "@id": "_:g509380",
+    "@id": "_:g532380",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -2598,7 +3404,7 @@
     ]
   },
   {
-    "@id": "_:g509440",
+    "@id": "_:g532440",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -2621,7 +3427,7 @@
     ]
   },
   {
-    "@id": "_:g509620",
+    "@id": "_:g532620",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2632,7 +3438,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g509640"
+        "@id": "_:g532640"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2660,7 +3466,7 @@
     ]
   },
   {
-    "@id": "_:g509640",
+    "@id": "_:g532640",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -2723,7 +3529,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-12T12:47:49-05:00"
+        "@value": "2026-01-13T00:38:51-05:00"
       }
     ],
     "place:location:latitude": [
@@ -2801,7 +3607,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-12T12:47:49-05:00"
+        "@value": "2026-01-13T00:38:51-05:00"
       }
     ],
     "@type": [
@@ -2814,33 +3620,91 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g531380"
+        "@id": "_:g554920"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g531420"
+        "@id": "_:g554960"
       },
       {
-        "@id": "_:g531440"
+        "@id": "_:g554980"
       },
       {
-        "@id": "_:g531460"
+        "@id": "_:g555000"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g531480"
+        "@id": "_:g555020"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g531500"
+        "@id": "_:g555040"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555080"
+      },
+      {
+        "@id": "_:g555100"
+      },
+      {
+        "@id": "_:g555120"
+      },
+      {
+        "@id": "_:g555140"
+      },
+      {
+        "@id": "_:g555160"
+      },
+      {
+        "@id": "_:g555180"
+      },
+      {
+        "@id": "_:g555200"
+      },
+      {
+        "@id": "_:g555220"
+      },
+      {
+        "@id": "_:g555240"
+      }
+    ],
+    "http://schema.org/workPerformed": [
+      {
+        "@id": "_:g555260"
+      },
+      {
+        "@id": "_:g555300"
+      },
+      {
+        "@id": "_:g555340"
+      },
+      {
+        "@id": "_:g555380"
+      },
+      {
+        "@id": "_:g555420"
+      },
+      {
+        "@id": "_:g555460"
+      },
+      {
+        "@id": "_:g555500"
+      },
+      {
+        "@id": "_:g555540"
+      },
+      {
+        "@id": "_:g555580"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g531540"
+        "@id": "_:g555620"
       }
     ],
     "http://schema.org/name": [
@@ -2863,10 +3727,10 @@
     ]
   },
   {
-    "@id": "_:g531380",
+    "@id": "_:g554920",
     "http://schema.org/address": [
       {
-        "@id": "_:g531400"
+        "@id": "_:g554940"
       }
     ],
     "http://schema.org/latitude": [
@@ -2897,7 +3761,7 @@
     ]
   },
   {
-    "@id": "_:g531420",
+    "@id": "_:g554960",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/vivier-interuniversitaire-concert-annuel-10e-edition"
@@ -2926,7 +3790,7 @@
     ]
   },
   {
-    "@id": "_:g531440",
+    "@id": "_:g554980",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/vivier-interuniversitaire-concert-annuel-10e-edition"
@@ -2955,7 +3819,7 @@
     ]
   },
   {
-    "@id": "_:g531460",
+    "@id": "_:g555000",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/vivier-interuniversitaire-concert-annuel-10e-edition"
@@ -2984,7 +3848,7 @@
     ]
   },
   {
-    "@id": "_:g531480",
+    "@id": "_:g555020",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -3013,7 +3877,7 @@
     ]
   },
   {
-    "@id": "_:g531500",
+    "@id": "_:g555040",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3024,7 +3888,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g531520"
+        "@id": "_:g555060"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3052,10 +3916,690 @@
     ]
   },
   {
-    "@id": "_:g531540",
+    "@id": "_:g555080",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/nicholas-ma"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/nicholas-ma"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Nicholas Ma"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Nicholas"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Ma"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Université McGillComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555100",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/sebastien-goulet"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/sebastien-goulet"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Sébastien Goulet"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Sébastien"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Goulet"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Conservatoire de MontréalComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555120",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/yulin-yan"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://soundcloud.com/yulin-yan-543435110"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/yulin-yan"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Yulin Yan"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Yulin"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Yan"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Yulin Yan, née en 1998, est une compositrice de musique instrumentale et électroacoustique. Ses œuvres sont caractérisées par un timbre nuancé et une tension, soulignant l’ambiguïté de la perception de la réalité et de la fantaisie. Outre la couche sonore, l’intensité de ses œuvres est souvent créée par la référence à un contenu extra-musical, notamment la littérature, les éléments théâtraux, l’art olfactif ainsi que les questions sociales.\r\n\r\nLa musique de Yulin Yan a été programmée à diverses occasions, notamment au Code d’accès (Canada), Novalis..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555140",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/gabrielle-martin"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/gabrielle-martin"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Gabrielle Martin"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Gabrielle"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Martin"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Conservatoire de MontréalComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555160",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/edwin-h-ng"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/edwin-h-ng"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Edwin H. Ng"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Edwin"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "H. Ng"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Edwin H. Ng est compositeur canadien et scientifique des données basé à Montréal, et sa recherche musicale vise à transposer l’esthétique de la composition à base de paysages sonores dans le médium de la musique instrumentale. La composition à base de paysages sonores permet d’exprimer et de partager ses expériences personnelles au fur et à mesure qu’il découvre le monde environnant, et dans le même processus, d’élargir l’expérience d’écoute.Edwin a reçu un premier prix SOCAN pour jeunes compositeurs en 2022. Il a aussi reçu des bourses provenant de SOCAN et du CALQ.Edwin H. Ng poursuit présentement son doctorat en musique en composition à l’Université de Montréal sous la codirection de Jimmie LeBlanc et d’Ana Sokolović. Sa musique a été interprétée en Autriche, au Canada, en Finlande et en Russie."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555180",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/hannah-barnes"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/hannah-barnes"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Hannah A. Barnes"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Hannah A."
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Barnes"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Université McGillComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555200",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/alexandre-amat"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/alexandre-amat"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Alexandre Amat"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Alexandre"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Amat"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Alexandre Amat, né à La Rochelle (France) en 1993, est un compositeur de musique instrumentale. Après avoir étudié le cor d’harmonie et la musicologie, il suit les cours de composition de Jean-Louis Agobet au Conservatoire de Bordeaux, où il obtient son Diplôme d’Etudes Musicales en 2019. Il poursuit ensuite ses études à l’Université de Montréal où il obtient une maîtrise en composition et création sonore sous la direction de François-Hugues Leclair. Il est actuellement étudiant au Doctorat en composition à&nbsp;l’Université de Montréal sous la direction de Jimmie..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555220",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Lorenzo Paniconi"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Lorenzo"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Paniconi"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Université McGillComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555240",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/liam-ross-gibson"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/liam-ross-gibson"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Liam Ross Gibson"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Liam Ross"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Gibson"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Université McGillComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555260",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/assembly-line-apparitions"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555280"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Assembly Line Apparitions"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/assembly-line-apparitions"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555300",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/kaguya"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555320"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Kaguya"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/kaguya"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555340",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/foii"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555360"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "FoⅡ"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/foii"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555380",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/liminal"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555400"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "LIMINAL"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/liminal"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555420",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/invoking-sound-wind"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555440"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Invoking the Sound of Wind"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/invoking-sound-wind"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555460",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/now-begin-why-fear-end"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555480"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Now to begin -- Why fear the end"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/now-begin-why-fear-end"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555500",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/zone"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555520"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Zone"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/zone"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555540",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/i-couldnt-see-you-afar-aka-simple-spaces"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555560"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "i couldn't see you from afar (a.k.a. simple spaces)"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/i-couldnt-see-you-afar-aka-simple-spaces"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555580",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/le-vivier/repertoire/decapod"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g555600"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Decapod"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/le-vivier/repertoire/decapod"
+      }
+    ],
+    "@type": [
+      "http://schema.org/MusicComposition"
+    ]
+  },
+  {
+    "@id": "_:g555620",
     "http://schema.org/author": [
       {
-        "@id": "_:g531560"
+        "@id": "_:g555640"
       }
     ],
     "http://schema.org/url": [
@@ -3078,7 +4622,7 @@
     "http://schema.org/lastReviewed": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-12T12:47:49-05:00"
+        "@value": "2026-01-13T00:38:51-05:00"
       }
     ],
     "http://schema.org/datePublished": [
@@ -3090,7 +4634,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-12T12:47:49-05:00"
+        "@value": "2026-01-13T00:38:51-05:00"
       }
     ],
     "@type": [
@@ -3098,7 +4642,7 @@
     ]
   },
   {
-    "@id": "_:g531400",
+    "@id": "_:g554940",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -3140,7 +4684,7 @@
     ]
   },
   {
-    "@id": "_:g531520",
+    "@id": "_:g555060",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -3163,7 +4707,327 @@
     ]
   },
   {
-    "@id": "_:g531560",
+    "@id": "_:g555280",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/nicholas-ma"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/nicholas-ma"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Nicholas Ma"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Nicholas"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Ma"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555320",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/sebastien-goulet"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/sebastien-goulet"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Sébastien Goulet"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Sébastien"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Goulet"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555360",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/yulin-yan"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://soundcloud.com/yulin-yan-543435110"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/yulin-yan"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Yulin Yan"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Yulin"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Yan"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555400",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/gabrielle-martin"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/gabrielle-martin"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Gabrielle Martin"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Gabrielle"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Martin"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555440",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/edwin-h-ng"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/edwin-h-ng"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Edwin H. Ng"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Edwin"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "H. Ng"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555480",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/hannah-barnes"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/hannah-barnes"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Hannah A. Barnes"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Hannah A."
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Barnes"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555520",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/alexandre-amat"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/alexandre-amat"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Alexandre Amat"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Alexandre"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Amat"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555560",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Lorenzo Paniconi"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Lorenzo"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Paniconi"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555600",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/liam-ross-gibson"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/liam-ross-gibson"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Liam Ross Gibson"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Liam Ross"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Gibson"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g555640",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3174,7 +5038,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g531580"
+        "@id": "_:g555660"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3202,7 +5066,7 @@
     ]
   },
   {
-    "@id": "_:g531580",
+    "@id": "_:g555660",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -3356,65 +5220,65 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g551360"
+        "@id": "_:g584580"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g551400"
+        "@id": "_:g584620"
       },
       {
-        "@id": "_:g551420"
+        "@id": "_:g584640"
       },
       {
-        "@id": "_:g551440"
+        "@id": "_:g584660"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g551460"
+        "@id": "_:g584680"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g551480"
+        "@id": "_:g584700"
       },
       {
-        "@id": "_:g551520"
+        "@id": "_:g584740"
       },
       {
-        "@id": "_:g551540"
+        "@id": "_:g584760"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g551560"
+        "@id": "_:g584780"
       },
       {
-        "@id": "_:g551580"
+        "@id": "_:g584800"
       },
       {
-        "@id": "_:g551600"
+        "@id": "_:g584820"
       },
       {
-        "@id": "_:g551620"
+        "@id": "_:g584840"
       },
       {
-        "@id": "_:g551640"
+        "@id": "_:g584860"
       },
       {
-        "@id": "_:g551660"
+        "@id": "_:g584880"
       },
       {
-        "@id": "_:g551680"
+        "@id": "_:g584900"
       },
       {
-        "@id": "_:g551700"
+        "@id": "_:g584920"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g551720"
+        "@id": "_:g584940"
       }
     ],
     "http://schema.org/name": [
@@ -3437,10 +5301,10 @@
     ]
   },
   {
-    "@id": "_:g551360",
+    "@id": "_:g584580",
     "http://schema.org/address": [
       {
-        "@id": "_:g551380"
+        "@id": "_:g584600"
       }
     ],
     "http://schema.org/latitude": [
@@ -3471,7 +5335,7 @@
     ]
   },
   {
-    "@id": "_:g551400",
+    "@id": "_:g584620",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/supertotem-2-ensemble-supermusique-et-productions-totem-contemporain"
@@ -3500,7 +5364,7 @@
     ]
   },
   {
-    "@id": "_:g551420",
+    "@id": "_:g584640",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/supertotem-2-ensemble-supermusique-et-productions-totem-contemporain"
@@ -3529,7 +5393,7 @@
     ]
   },
   {
-    "@id": "_:g551440",
+    "@id": "_:g584660",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/supertotem-2-ensemble-supermusique-et-productions-totem-contemporain"
@@ -3558,7 +5422,7 @@
     ]
   },
   {
-    "@id": "_:g551460",
+    "@id": "_:g584680",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -3587,7 +5451,7 @@
     ]
   },
   {
-    "@id": "_:g551480",
+    "@id": "_:g584700",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3598,7 +5462,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g551500"
+        "@id": "_:g584720"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3626,7 +5490,7 @@
     ]
   },
   {
-    "@id": "_:g551520",
+    "@id": "_:g584740",
     "http://schema.org/url": [
       {
         "@id": "http://totemcontemporain.com/"
@@ -3660,7 +5524,7 @@
     ]
   },
   {
-    "@id": "_:g551540",
+    "@id": "_:g584760",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ensemble-supermusique"
@@ -3694,7 +5558,7 @@
     ]
   },
   {
-    "@id": "_:g551560",
+    "@id": "_:g584780",
     "http://schema.org/url": [
       {
         "@id": "http://brahms.ircam.fr/jean-francois-laporte"
@@ -3743,7 +5607,7 @@
     ]
   },
   {
-    "@id": "_:g551580",
+    "@id": "_:g584800",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/audreanne-filion"
@@ -3784,7 +5648,7 @@
     ]
   },
   {
-    "@id": "_:g551600",
+    "@id": "_:g584820",
     "http://schema.org/url": [
       {
         "@id": "https://www.emiliegirardcharest.com/"
@@ -3830,7 +5694,7 @@
     ]
   },
   {
-    "@id": "_:g551620",
+    "@id": "_:g584840",
     "http://schema.org/url": [
       {
         "@id": "http://totemcontemporain.com/"
@@ -3864,7 +5728,7 @@
     ]
   },
   {
-    "@id": "_:g551640",
+    "@id": "_:g584860",
     "http://schema.org/url": [
       {
         "@id": "https://jeanderome.com/"
@@ -3913,7 +5777,7 @@
     ]
   },
   {
-    "@id": "_:g551660",
+    "@id": "_:g584880",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/bernard-falaise"
@@ -3954,7 +5818,7 @@
     ]
   },
   {
-    "@id": "_:g551680",
+    "@id": "_:g584900",
     "http://schema.org/url": [
       {
         "@id": "https://actuellecd.com/fr/artiste/hetu_jo/Joane_H%C3%A9tu"
@@ -4003,7 +5867,7 @@
     ]
   },
   {
-    "@id": "_:g551700",
+    "@id": "_:g584920",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ensemble-supermusique"
@@ -4037,10 +5901,10 @@
     ]
   },
   {
-    "@id": "_:g551720",
+    "@id": "_:g584940",
     "http://schema.org/author": [
       {
-        "@id": "_:g551740"
+        "@id": "_:g584960"
       }
     ],
     "http://schema.org/url": [
@@ -4083,7 +5947,7 @@
     ]
   },
   {
-    "@id": "_:g551380",
+    "@id": "_:g584600",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -4125,7 +5989,7 @@
     ]
   },
   {
-    "@id": "_:g551500",
+    "@id": "_:g584720",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -4279,7 +6143,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g594500"
+        "@id": "_:g626960"
       }
     ],
     "http://schema.org/foundingDate": [
@@ -4290,7 +6154,7 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g594520"
+        "@id": "_:g626980"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4303,7 +6167,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g594540"
+        "@id": "_:g627000"
       }
     ],
     "http://schema.org/name": [
@@ -4320,7 +6184,7 @@
     ]
   },
   {
-    "@id": "_:g551740",
+    "@id": "_:g584960",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4331,7 +6195,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g551760"
+        "@id": "_:g584980"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4359,7 +6223,7 @@
     ]
   },
   {
-    "@id": "_:g551760",
+    "@id": "_:g584980",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -4513,17 +6377,17 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g575560"
+        "@id": "_:g608900"
       }
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g575580"
+        "@id": "_:g608920"
       }
     ],
     "http://schema.org/employee": [
       {
-        "@id": "_:g575600"
+        "@id": "_:g608940"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4533,7 +6397,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g575620"
+        "@id": "_:g608960"
       }
     ],
     "http://schema.org/name": [
@@ -4550,7 +6414,7 @@
     ]
   },
   {
-    "@id": "_:g575560",
+    "@id": "_:g608900",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -4579,7 +6443,7 @@
     ]
   },
   {
-    "@id": "_:g575580",
+    "@id": "_:g608920",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -4591,7 +6455,7 @@
     ]
   },
   {
-    "@id": "_:g575600",
+    "@id": "_:g608940",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -4609,10 +6473,10 @@
     ]
   },
   {
-    "@id": "_:g575620",
+    "@id": "_:g608960",
     "http://schema.org/author": [
       {
-        "@id": "_:g575640"
+        "@id": "_:g608980"
       }
     ],
     "http://schema.org/url": [
@@ -4655,7 +6519,7 @@
     ]
   },
   {
-    "@id": "_:g575640",
+    "@id": "_:g608980",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4666,7 +6530,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g575660"
+        "@id": "_:g609000"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4694,7 +6558,7 @@
     ]
   },
   {
-    "@id": "_:g575660",
+    "@id": "_:g609000",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -4717,7 +6581,7 @@
     ]
   },
   {
-    "@id": "_:g594500",
+    "@id": "_:g626960",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -4746,7 +6610,7 @@
     ]
   },
   {
-    "@id": "_:g594520",
+    "@id": "_:g626980",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -4758,10 +6622,10 @@
     ]
   },
   {
-    "@id": "_:g594540",
+    "@id": "_:g627000",
     "http://schema.org/author": [
       {
-        "@id": "_:g594560"
+        "@id": "_:g627020"
       }
     ],
     "http://schema.org/url": [
@@ -4804,7 +6668,7 @@
     ]
   },
   {
-    "@id": "_:g594560",
+    "@id": "_:g627020",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -4815,7 +6679,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g594580"
+        "@id": "_:g627040"
       }
     ],
     "http://schema.org/sameAs": [
@@ -4843,7 +6707,7 @@
     ]
   },
   {
-    "@id": "_:g594580",
+    "@id": "_:g627040",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -5125,84 +6989,84 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g629740"
+        "@id": "_:g662180"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g629780"
+        "@id": "_:g662220"
       },
       {
-        "@id": "_:g629800"
+        "@id": "_:g662240"
       },
       {
-        "@id": "_:g629820"
+        "@id": "_:g662260"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g629840"
+        "@id": "_:g662280"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g629860"
+        "@id": "_:g662300"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g629900"
+        "@id": "_:g662340"
       },
       {
-        "@id": "_:g629920"
+        "@id": "_:g662360"
       },
       {
-        "@id": "_:g629940"
+        "@id": "_:g662380"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g629960"
+        "@id": "_:g662400"
       },
       {
-        "@id": "_:g630000"
+        "@id": "_:g662440"
       },
       {
-        "@id": "_:g630040"
+        "@id": "_:g662480"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g630080"
+        "@id": "_:g662520"
       },
       {
-        "@id": "_:g630100"
+        "@id": "_:g662540"
       },
       {
-        "@id": "_:g630120"
+        "@id": "_:g662560"
       },
       {
-        "@id": "_:g630140"
+        "@id": "_:g662580"
       },
       {
-        "@id": "_:g630160"
+        "@id": "_:g662600"
       },
       {
-        "@id": "_:g630180"
+        "@id": "_:g662620"
       },
       {
-        "@id": "_:g630200"
+        "@id": "_:g662640"
       },
       {
-        "@id": "_:g630220"
+        "@id": "_:g662660"
       },
       {
-        "@id": "_:g630240"
+        "@id": "_:g662680"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g630260"
+        "@id": "_:g662700"
       }
     ],
     "http://schema.org/name": [
@@ -5225,10 +7089,10 @@
     ]
   },
   {
-    "@id": "_:g629740",
+    "@id": "_:g662180",
     "http://schema.org/address": [
       {
-        "@id": "_:g629760"
+        "@id": "_:g662200"
       }
     ],
     "http://schema.org/latitude": [
@@ -5259,7 +7123,7 @@
     ]
   },
   {
-    "@id": "_:g629780",
+    "@id": "_:g662220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/contrechamps-et-mcgill-contemporary-music-ensemble-definir-lespace"
@@ -5288,7 +7152,7 @@
     ]
   },
   {
-    "@id": "_:g629800",
+    "@id": "_:g662240",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/contrechamps-et-mcgill-contemporary-music-ensemble-definir-lespace"
@@ -5317,7 +7181,7 @@
     ]
   },
   {
-    "@id": "_:g629820",
+    "@id": "_:g662260",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/contrechamps-et-mcgill-contemporary-music-ensemble-definir-lespace"
@@ -5346,7 +7210,7 @@
     ]
   },
   {
-    "@id": "_:g629840",
+    "@id": "_:g662280",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -5375,7 +7239,7 @@
     ]
   },
   {
-    "@id": "_:g629860",
+    "@id": "_:g662300",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5386,7 +7250,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g629880"
+        "@id": "_:g662320"
       }
     ],
     "http://schema.org/sameAs": [
@@ -5414,7 +7278,7 @@
     ]
   },
   {
-    "@id": "_:g629900",
+    "@id": "_:g662340",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/sointu-aalto"
@@ -5460,7 +7324,7 @@
     ]
   },
   {
-    "@id": "_:g629920",
+    "@id": "_:g662360",
     "http://schema.org/url": [
       {
         "@id": "http://www.naomipinnock.co.uk/"
@@ -5506,7 +7370,7 @@
     ]
   },
   {
-    "@id": "_:g629940",
+    "@id": "_:g662380",
     "http://schema.org/url": [
       {
         "@id": "https://www.chiyokoszlavnics.org/"
@@ -5552,7 +7416,7 @@
     ]
   },
   {
-    "@id": "_:g629960",
+    "@id": "_:g662400",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/dream-water"
@@ -5566,7 +7430,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g629980"
+        "@id": "_:g662420"
       }
     ],
     "http://schema.org/name": [
@@ -5586,7 +7450,7 @@
     ]
   },
   {
-    "@id": "_:g630000",
+    "@id": "_:g662440",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/everything-changes"
@@ -5600,7 +7464,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g630020"
+        "@id": "_:g662460"
       }
     ],
     "http://schema.org/name": [
@@ -5620,7 +7484,7 @@
     ]
   },
   {
-    "@id": "_:g630040",
+    "@id": "_:g662480",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/oracles-i-v"
@@ -5634,7 +7498,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g630060"
+        "@id": "_:g662500"
       }
     ],
     "http://schema.org/name": [
@@ -5654,7 +7518,7 @@
     ]
   },
   {
-    "@id": "_:g630080",
+    "@id": "_:g662520",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/susanne-peters"
@@ -5700,7 +7564,7 @@
     ]
   },
   {
-    "@id": "_:g630100",
+    "@id": "_:g662540",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/laurent-bruttin"
@@ -5741,7 +7605,7 @@
     ]
   },
   {
-    "@id": "_:g630120",
+    "@id": "_:g662560",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/charles-pierron"
@@ -5782,7 +7646,7 @@
     ]
   },
   {
-    "@id": "_:g630140",
+    "@id": "_:g662580",
     "http://schema.org/url": [
       {
         "@id": "https://simonaeschimann.ch"
@@ -5831,7 +7695,7 @@
     ]
   },
   {
-    "@id": "_:g630160",
+    "@id": "_:g662600",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/hans-egidi"
@@ -5872,7 +7736,7 @@
     ]
   },
   {
-    "@id": "_:g630180",
+    "@id": "_:g662620",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/martina-brodbeck"
@@ -5913,7 +7777,7 @@
     ]
   },
   {
-    "@id": "_:g630200",
+    "@id": "_:g662640",
     "http://schema.org/url": [
       {
         "@id": "https://www.contrechamps.ch/fr"
@@ -5959,7 +7823,7 @@
     ]
   },
   {
-    "@id": "_:g630220",
+    "@id": "_:g662660",
     "http://schema.org/url": [
       {
         "@id": "https://www.melanieleonard.ca/"
@@ -6011,7 +7875,7 @@
     ]
   },
   {
-    "@id": "_:g630240",
+    "@id": "_:g662680",
     "http://schema.org/url": [
       {
         "@id": "https://www.mcgill.ca/music/ensembles/orchestras/mcgill-contemporary-music-ensemble"
@@ -6045,10 +7909,10 @@
     ]
   },
   {
-    "@id": "_:g630260",
+    "@id": "_:g662700",
     "http://schema.org/author": [
       {
-        "@id": "_:g630280"
+        "@id": "_:g662720"
       }
     ],
     "http://schema.org/url": [
@@ -6091,7 +7955,7 @@
     ]
   },
   {
-    "@id": "_:g629760",
+    "@id": "_:g662200",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -6133,7 +7997,7 @@
     ]
   },
   {
-    "@id": "_:g629880",
+    "@id": "_:g662320",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -6156,7 +8020,7 @@
     ]
   },
   {
-    "@id": "_:g629980",
+    "@id": "_:g662420",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/sointu-aalto"
@@ -6196,7 +8060,7 @@
     ]
   },
   {
-    "@id": "_:g630020",
+    "@id": "_:g662460",
     "http://schema.org/url": [
       {
         "@id": "http://www.naomipinnock.co.uk/"
@@ -6236,7 +8100,7 @@
     ]
   },
   {
-    "@id": "_:g630060",
+    "@id": "_:g662500",
     "http://schema.org/url": [
       {
         "@id": "https://www.chiyokoszlavnics.org/"
@@ -6276,7 +8140,7 @@
     ]
   },
   {
-    "@id": "_:g630280",
+    "@id": "_:g662720",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6287,7 +8151,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g630300"
+        "@id": "_:g662740"
       }
     ],
     "http://schema.org/sameAs": [
@@ -6315,7 +8179,7 @@
     ]
   },
   {
-    "@id": "_:g630300",
+    "@id": "_:g662740",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -6366,7 +8230,7 @@
     "https://ogp.me/ns#description": [
       {
         "@language": "fr",
-        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement."
+        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement.Alexandra Templier est une artiste vocale pluridisciplinaire. Sa démarche allie recherche théorique et exploration incarnée de la voix, du flamenco aux traditions vocales indiennes, en passant par la musique improvisée, ainsi que le corps en mouvement. Lauréate du festival Suma Flamenca (Madrid) et finaliste du Prix de la diversité en musique de Montréal, elle a présenté ses projets au Canada et à l’international. Soutenue par les principaux conseils des arts, elle développe des créations pluridisciplinaires autour de la résonance et de l’expérience contemporaine du sacré, tout en collaborant régulièrement avec des compagnies de danse contemporaine."
       }
     ],
     "https://ogp.me/ns#image": [
@@ -6378,7 +8242,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-16T15:52:48-05:00"
+        "@value": "2026-01-16T16:05:22-05:00"
       }
     ],
     "place:location:latitude": [
@@ -6456,7 +8320,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-16T15:52:48-05:00"
+        "@value": "2026-01-16T16:05:22-05:00"
       }
     ],
     "@type": [
@@ -6483,84 +8347,84 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g657200"
+        "@id": "_:g689720"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g657240"
+        "@id": "_:g689760"
       },
       {
-        "@id": "_:g657260"
+        "@id": "_:g689780"
       },
       {
-        "@id": "_:g657280"
+        "@id": "_:g689800"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g657300"
+        "@id": "_:g689820"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g657320"
+        "@id": "_:g689840"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g657360"
+        "@id": "_:g689880"
       },
       {
-        "@id": "_:g657380"
+        "@id": "_:g689900"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g657400"
+        "@id": "_:g689920"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g657460"
+        "@id": "_:g689980"
       },
       {
-        "@id": "_:g657480"
+        "@id": "_:g690000"
       },
       {
-        "@id": "_:g657500"
+        "@id": "_:g690020"
       },
       {
-        "@id": "_:g657520"
+        "@id": "_:g690040"
       },
       {
-        "@id": "_:g657540"
+        "@id": "_:g690060"
       },
       {
-        "@id": "_:g657560"
+        "@id": "_:g690080"
       },
       {
-        "@id": "_:g657580"
+        "@id": "_:g690100"
       },
       {
-        "@id": "_:g657600"
+        "@id": "_:g690120"
       },
       {
-        "@id": "_:g657620"
+        "@id": "_:g690140"
       },
       {
-        "@id": "_:g657640"
+        "@id": "_:g690160"
       },
       {
-        "@id": "_:g657660"
+        "@id": "_:g690180"
       },
       {
-        "@id": "_:g657680"
+        "@id": "_:g690200"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g657700"
+        "@id": "_:g690220"
       }
     ],
     "http://schema.org/name": [
@@ -6572,15 +8436,15 @@
     "http://schema.org/description": [
       {
         "@language": "fr",
-        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement."
+        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement.Alexandra Templier est une artiste vocale pluridisciplinaire. Sa démarche allie recherche théorique et exploration incarnée de la voix, du flamenco aux traditions vocales indiennes, en passant par la musique improvisée, ainsi que le corps en mouvement. Lauréate du festival Suma Flamenca (Madrid) et finaliste du Prix de la diversité en musique de Montréal, elle a présenté ses projets au Canada et à l’international. Soutenue par les principaux conseils des arts, elle développe des créations pluridisciplinaires autour de la résonance et de l’expérience contemporaine du sacré, tout en collaborant régulièrement avec des compagnies de danse contemporaine."
       }
     ]
   },
   {
-    "@id": "_:g657200",
+    "@id": "_:g689720",
     "http://schema.org/address": [
       {
-        "@id": "_:g657220"
+        "@id": "_:g689740"
       }
     ],
     "http://schema.org/latitude": [
@@ -6606,7 +8470,7 @@
     ]
   },
   {
-    "@id": "_:g657240",
+    "@id": "_:g689760",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/alexandra-templier-chant-2-le-murmure-du-vivant"
@@ -6635,7 +8499,7 @@
     ]
   },
   {
-    "@id": "_:g657260",
+    "@id": "_:g689780",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/alexandra-templier-chant-2-le-murmure-du-vivant"
@@ -6664,7 +8528,7 @@
     ]
   },
   {
-    "@id": "_:g657280",
+    "@id": "_:g689800",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/alexandra-templier-chant-2-le-murmure-du-vivant"
@@ -6693,7 +8557,7 @@
     ]
   },
   {
-    "@id": "_:g657300",
+    "@id": "_:g689820",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -6722,7 +8586,7 @@
     ]
   },
   {
-    "@id": "_:g657320",
+    "@id": "_:g689840",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6733,7 +8597,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g657340"
+        "@id": "_:g689860"
       }
     ],
     "http://schema.org/sameAs": [
@@ -6761,7 +8625,7 @@
     ]
   },
   {
-    "@id": "_:g657360",
+    "@id": "_:g689880",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandra-templier"
@@ -6813,7 +8677,7 @@
     ]
   },
   {
-    "@id": "_:g657380",
+    "@id": "_:g689900",
     "http://schema.org/url": [
       {
         "@id": "https://vanessamassera.com/"
@@ -6862,7 +8726,7 @@
     ]
   },
   {
-    "@id": "_:g657400",
+    "@id": "_:g689920",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/chant-2-le-murmure-du-vivant"
@@ -6876,10 +8740,10 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g657420"
+        "@id": "_:g689940"
       },
       {
-        "@id": "_:g657440"
+        "@id": "_:g689960"
       }
     ],
     "http://schema.org/name": [
@@ -6899,7 +8763,7 @@
     ]
   },
   {
-    "@id": "_:g657460",
+    "@id": "_:g689980",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandra-templier"
@@ -6951,7 +8815,7 @@
     ]
   },
   {
-    "@id": "_:g657480",
+    "@id": "_:g690000",
     "http://schema.org/url": [
       {
         "@id": "https://vanessamassera.com/"
@@ -7000,7 +8864,7 @@
     ]
   },
   {
-    "@id": "_:g657500",
+    "@id": "_:g690020",
     "http://schema.org/url": [
       {
         "@id": "http://dremeka.com/accueil/"
@@ -7046,7 +8910,7 @@
     ]
   },
   {
-    "@id": "_:g657520",
+    "@id": "_:g690040",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/audrey-bergeron"
@@ -7092,7 +8956,7 @@
     ]
   },
   {
-    "@id": "_:g657540",
+    "@id": "_:g690060",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ariane-dube-lavigne"
@@ -7133,7 +8997,7 @@
     ]
   },
   {
-    "@id": "_:g657560",
+    "@id": "_:g690080",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/marijoe-foucher"
@@ -7174,7 +9038,7 @@
     ]
   },
   {
-    "@id": "_:g657580",
+    "@id": "_:g690100",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/helene-messier"
@@ -7215,7 +9079,7 @@
     ]
   },
   {
-    "@id": "_:g657600",
+    "@id": "_:g690120",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ricardo-morejon"
@@ -7256,7 +9120,7 @@
     ]
   },
   {
-    "@id": "_:g657620",
+    "@id": "_:g690140",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/marie-helene-bellavance"
@@ -7297,7 +9161,7 @@
     ]
   },
   {
-    "@id": "_:g657640",
+    "@id": "_:g690160",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/josiane-leblanc"
@@ -7338,7 +9202,7 @@
     ]
   },
   {
-    "@id": "_:g657660",
+    "@id": "_:g690180",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/annie-gagnon"
@@ -7379,7 +9243,7 @@
     ]
   },
   {
-    "@id": "_:g657680",
+    "@id": "_:g690200",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/andree-martin"
@@ -7420,10 +9284,10 @@
     ]
   },
   {
-    "@id": "_:g657700",
+    "@id": "_:g690220",
     "http://schema.org/author": [
       {
-        "@id": "_:g657720"
+        "@id": "_:g690240"
       }
     ],
     "http://schema.org/url": [
@@ -7446,7 +9310,7 @@
     "http://schema.org/lastReviewed": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-12-16T15:52:48-05:00"
+        "@value": "2026-01-16T16:05:22-05:00"
       }
     ],
     "http://schema.org/datePublished": [
@@ -7458,7 +9322,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-12-16T15:52:48-05:00"
+        "@value": "2026-01-16T16:05:22-05:00"
       }
     ],
     "@type": [
@@ -7466,7 +9330,7 @@
     ]
   },
   {
-    "@id": "_:g657220",
+    "@id": "_:g689740",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -7508,7 +9372,7 @@
     ]
   },
   {
-    "@id": "_:g657340",
+    "@id": "_:g689860",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -7531,7 +9395,7 @@
     ]
   },
   {
-    "@id": "_:g657420",
+    "@id": "_:g689940",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandra-templier"
@@ -7577,7 +9441,7 @@
     ]
   },
   {
-    "@id": "_:g657440",
+    "@id": "_:g689960",
     "http://schema.org/url": [
       {
         "@id": "https://vanessamassera.com/"
@@ -7620,7 +9484,7 @@
     ]
   },
   {
-    "@id": "_:g657720",
+    "@id": "_:g690240",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -7631,7 +9495,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g657740"
+        "@id": "_:g690260"
       }
     ],
     "http://schema.org/sameAs": [
@@ -7659,7 +9523,7 @@
     ]
   },
   {
-    "@id": "_:g657740",
+    "@id": "_:g690260",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -7813,96 +9677,96 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g684820"
+        "@id": "_:g717420"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g684860"
+        "@id": "_:g717460"
       },
       {
-        "@id": "_:g684880"
+        "@id": "_:g717480"
       },
       {
-        "@id": "_:g684900"
+        "@id": "_:g717500"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g684920"
+        "@id": "_:g717520"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g684940"
+        "@id": "_:g717540"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g684980"
+        "@id": "_:g717580"
       },
       {
-        "@id": "_:g685000"
+        "@id": "_:g717600"
       },
       {
-        "@id": "_:g685020"
+        "@id": "_:g717620"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g685040"
+        "@id": "_:g717640"
       },
       {
-        "@id": "_:g685080"
+        "@id": "_:g717680"
       },
       {
-        "@id": "_:g685120"
+        "@id": "_:g717720"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g685160"
+        "@id": "_:g717760"
       },
       {
-        "@id": "_:g685180"
+        "@id": "_:g717780"
       },
       {
-        "@id": "_:g685200"
+        "@id": "_:g717800"
       },
       {
-        "@id": "_:g685220"
+        "@id": "_:g717820"
       },
       {
-        "@id": "_:g685240"
+        "@id": "_:g717840"
       },
       {
-        "@id": "_:g685260"
+        "@id": "_:g717860"
       },
       {
-        "@id": "_:g685280"
+        "@id": "_:g717880"
       },
       {
-        "@id": "_:g685300"
+        "@id": "_:g717900"
       },
       {
-        "@id": "_:g685320"
+        "@id": "_:g717920"
       },
       {
-        "@id": "_:g685340"
+        "@id": "_:g717940"
       },
       {
-        "@id": "_:g685360"
+        "@id": "_:g717960"
       },
       {
-        "@id": "_:g685380"
+        "@id": "_:g717980"
       },
       {
-        "@id": "_:g685400"
+        "@id": "_:g718000"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g685420"
+        "@id": "_:g718020"
       }
     ],
     "http://schema.org/name": [
@@ -7925,10 +9789,10 @@
     ]
   },
   {
-    "@id": "_:g684820",
+    "@id": "_:g717420",
     "http://schema.org/address": [
       {
-        "@id": "_:g684840"
+        "@id": "_:g717440"
       }
     ],
     "http://schema.org/name": [
@@ -7942,7 +9806,7 @@
     ]
   },
   {
-    "@id": "_:g684860",
+    "@id": "_:g717460",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/architek-percussion-et-contrechamps-kino-sonique"
@@ -7971,7 +9835,7 @@
     ]
   },
   {
-    "@id": "_:g684880",
+    "@id": "_:g717480",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/architek-percussion-et-contrechamps-kino-sonique"
@@ -8000,7 +9864,7 @@
     ]
   },
   {
-    "@id": "_:g684900",
+    "@id": "_:g717500",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/architek-percussion-et-contrechamps-kino-sonique"
@@ -8029,7 +9893,7 @@
     ]
   },
   {
-    "@id": "_:g684920",
+    "@id": "_:g717520",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -8058,7 +9922,7 @@
     ]
   },
   {
-    "@id": "_:g684940",
+    "@id": "_:g717540",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -8069,7 +9933,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g684960"
+        "@id": "_:g717560"
       }
     ],
     "http://schema.org/sameAs": [
@@ -8097,7 +9961,7 @@
     ]
   },
   {
-    "@id": "_:g684980",
+    "@id": "_:g717580",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/daniel-zea"
@@ -8138,7 +10002,7 @@
     ]
   },
   {
-    "@id": "_:g685000",
+    "@id": "_:g717600",
     "http://schema.org/url": [
       {
         "@id": "http://www.nicolelizee.com/"
@@ -8196,7 +10060,7 @@
     ]
   },
   {
-    "@id": "_:g685020",
+    "@id": "_:g717620",
     "http://schema.org/url": [
       {
         "@id": "https://alexandrebabel.com/"
@@ -8242,7 +10106,7 @@
     ]
   },
   {
-    "@id": "_:g685040",
+    "@id": "_:g717640",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/autorretrato-extendido"
@@ -8256,7 +10120,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g685060"
+        "@id": "_:g717660"
       }
     ],
     "http://schema.org/name": [
@@ -8282,7 +10146,7 @@
     ]
   },
   {
-    "@id": "_:g685080",
+    "@id": "_:g717680",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/nouvelle-oeuvre-6"
@@ -8296,7 +10160,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g685100"
+        "@id": "_:g717700"
       }
     ],
     "http://schema.org/name": [
@@ -8322,7 +10186,7 @@
     ]
   },
   {
-    "@id": "_:g685120",
+    "@id": "_:g717720",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/brown-gardener"
@@ -8336,7 +10200,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g685140"
+        "@id": "_:g717740"
       }
     ],
     "http://schema.org/name": [
@@ -8362,7 +10226,7 @@
     ]
   },
   {
-    "@id": "_:g685160",
+    "@id": "_:g717760",
     "http://schema.org/url": [
       {
         "@id": "https://www.benduinker.com/"
@@ -8408,7 +10272,7 @@
     ]
   },
   {
-    "@id": "_:g685180",
+    "@id": "_:g717780",
     "http://schema.org/url": [
       {
         "@id": "http://www.noambierstone.com/index.php/fr/"
@@ -8463,7 +10327,7 @@
     ]
   },
   {
-    "@id": "_:g685200",
+    "@id": "_:g717800",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexander-haupt"
@@ -8504,7 +10368,7 @@
     ]
   },
   {
-    "@id": "_:g685220",
+    "@id": "_:g717820",
     "http://schema.org/url": [
       {
         "@id": "http://alessandrovaliante.com/"
@@ -8559,7 +10423,7 @@
     ]
   },
   {
-    "@id": "_:g685240",
+    "@id": "_:g717840",
     "http://schema.org/url": [
       {
         "@id": "https://www.architekpercussion.com/"
@@ -8605,7 +10469,7 @@
     ]
   },
   {
-    "@id": "_:g685260",
+    "@id": "_:g717860",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/daniel-zea"
@@ -8646,7 +10510,7 @@
     ]
   },
   {
-    "@id": "_:g685280",
+    "@id": "_:g717880",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/susanne-peters"
@@ -8692,7 +10556,7 @@
     ]
   },
   {
-    "@id": "_:g685300",
+    "@id": "_:g717900",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/laurent-bruttin"
@@ -8733,7 +10597,7 @@
     ]
   },
   {
-    "@id": "_:g685320",
+    "@id": "_:g717920",
     "http://schema.org/url": [
       {
         "@id": "https://simonaeschimann.ch"
@@ -8782,7 +10646,7 @@
     ]
   },
   {
-    "@id": "_:g685340",
+    "@id": "_:g717940",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/charles-pierron"
@@ -8823,7 +10687,7 @@
     ]
   },
   {
-    "@id": "_:g685360",
+    "@id": "_:g717960",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/hans-egidi"
@@ -8864,7 +10728,7 @@
     ]
   },
   {
-    "@id": "_:g685380",
+    "@id": "_:g717980",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/martina-brodbeck"
@@ -8905,7 +10769,7 @@
     ]
   },
   {
-    "@id": "_:g685400",
+    "@id": "_:g718000",
     "http://schema.org/url": [
       {
         "@id": "https://www.contrechamps.ch/fr"
@@ -8951,10 +10815,10 @@
     ]
   },
   {
-    "@id": "_:g685420",
+    "@id": "_:g718020",
     "http://schema.org/author": [
       {
-        "@id": "_:g685440"
+        "@id": "_:g718040"
       }
     ],
     "http://schema.org/url": [
@@ -8997,7 +10861,7 @@
     ]
   },
   {
-    "@id": "_:g684840",
+    "@id": "_:g717440",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -9039,7 +10903,7 @@
     ]
   },
   {
-    "@id": "_:g684960",
+    "@id": "_:g717560",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -9062,7 +10926,7 @@
     ]
   },
   {
-    "@id": "_:g685060",
+    "@id": "_:g717660",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/daniel-zea"
@@ -9097,7 +10961,7 @@
     ]
   },
   {
-    "@id": "_:g685100",
+    "@id": "_:g717700",
     "http://schema.org/url": [
       {
         "@id": "http://www.nicolelizee.com/"
@@ -9149,7 +11013,7 @@
     ]
   },
   {
-    "@id": "_:g685140",
+    "@id": "_:g717740",
     "http://schema.org/url": [
       {
         "@id": "https://alexandrebabel.com/"
@@ -9189,7 +11053,7 @@
     ]
   },
   {
-    "@id": "_:g685440",
+    "@id": "_:g718040",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -9200,7 +11064,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g685460"
+        "@id": "_:g718060"
       }
     ],
     "http://schema.org/sameAs": [
@@ -9228,1230 +11092,7 @@
     ]
   },
   {
-    "@id": "_:g685460",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/sites/default/files/levivier-logo-noir-cr_0.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "321"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "321"
-      }
-    ]
-  },
-  {
-    "@id": "https://levivier.ca/fr/concert/saison-2025-26/megumi-masaki-hearing-ice-semaine-du-neuf",
-    "https://ogp.me/ns#site_name": [
-      {
-        "@language": "fr",
-        "@value": "Le Vivier"
-      }
-    ],
-    "https://ogp.me/ns#type": [
-      {
-        "@language": "fr",
-        "@value": "article"
-      }
-    ],
-    "https://ogp.me/ns#url": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/concert/saison-2025-26/megumi-masaki-hearing-ice-semaine-du-neuf"
-      }
-    ],
-    "https://ogp.me/ns#title": [
-      {
-        "@language": "fr",
-        "@value": "MEGUMI MASAKI - HEARING ICE / SEMAINE DU NEUF | Le Vivier"
-      }
-    ],
-    "https://ogp.me/ns#description": [
-      {
-        "@language": "fr",
-        "@value": "Le projet HEARING ICE de Megumi Masaki cherche à mobiliser un changement social et environnemental positif à travers le partage d’histoires personnelles, de faits scientifiques, de gestes et d’œuvres artistiques interactives."
-      }
-    ],
-    "https://ogp.me/ns#image": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/sites/default/files/evenements/s9-negumi-notxt_1.jpg"
-      }
-    ],
-    "https://ogp.me/ns#updated_time": [
-      {
-        "@language": "fr",
-        "@value": "2025-12-09T09:16:22-05:00"
-      }
-    ],
-    "place:location:latitude": [
-      {
-        "@language": "fr",
-        "@value": "45.513406"
-      }
-    ],
-    "place:location:longitude": [
-      {
-        "@language": "fr",
-        "@value": "-73.568532"
-      }
-    ],
-    "https://ogp.me/ns#street_address": [
-      {
-        "@language": "fr",
-        "@value": "100, rue Sherbrooke Est, local 2000"
-      }
-    ],
-    "https://ogp.me/ns#locality": [
-      {
-        "@language": "fr",
-        "@value": "Montréal"
-      }
-    ],
-    "https://ogp.me/ns#region": [
-      {
-        "@language": "fr",
-        "@value": "Québec"
-      }
-    ],
-    "https://ogp.me/ns#postal_code": [
-      {
-        "@language": "fr",
-        "@value": "H2X 1C3"
-      }
-    ],
-    "https://ogp.me/ns#country_name": [
-      {
-        "@language": "fr",
-        "@value": "Canada"
-      }
-    ],
-    "https://ogp.me/ns#email": [
-      {
-        "@language": "fr",
-        "@value": "info@levivier.ca"
-      }
-    ],
-    "https://ogp.me/ns#phone_number": [
-      {
-        "@language": "fr",
-        "@value": "(514) 903-7794"
-      }
-    ],
-    "https://ogp.me/ns#locale": [
-      {
-        "@language": "fr",
-        "@value": "fr_CA"
-      }
-    ],
-    "https://ogp.me/ns#locale:alternate": [
-      {
-        "@language": "fr",
-        "@value": "en_CA"
-      }
-    ],
-    "article:published_time": [
-      {
-        "@language": "fr",
-        "@value": "2025-12-04T14:17:57-05:00"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "fr",
-        "@value": "2025-12-09T09:16:22-05:00"
-      }
-    ],
-    "@type": [
-      "http://schema.org/MusicEvent"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/concert/saison-2025-26/megumi-masaki-hearing-ice-semaine-du-neuf"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g714960"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g715000"
-      },
-      {
-        "@id": "_:g715020"
-      },
-      {
-        "@id": "_:g715040"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "_:g715060"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "_:g715080"
-      }
-    ],
-    "http://schema.org/composer": [
-      {
-        "@id": "_:g715120"
-      },
-      {
-        "@id": "_:g715140"
-      },
-      {
-        "@id": "_:g715160"
-      },
-      {
-        "@id": "_:g715180"
-      }
-    ],
-    "http://schema.org/workPerformed": [
-      {
-        "@id": "_:g715200"
-      },
-      {
-        "@id": "_:g715240"
-      },
-      {
-        "@id": "_:g715280"
-      },
-      {
-        "@id": "_:g715320"
-      },
-      {
-        "@id": "_:g715360"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g715400"
-      },
-      {
-        "@id": "_:g715420"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "_:g715440"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "MEGUMI MASAKI - HEARING ICE / SEMAINE DU NEUF"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Le projet HEARING ICE de Megumi Masaki cherche à mobiliser un changement social et environnemental positif à travers le partage d’histoires personnelles, de faits scientifiques, de gestes et d’œuvres artistiques interactives."
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-03-03T00:30:00-05:00"
-      }
-    ]
-  },
-  {
-    "@id": "_:g714960",
-    "http://schema.org/address": [
-      {
-        "@id": "_:g714980"
-      }
-    ],
-    "http://schema.org/latitude": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "4.5506799E1"
-      }
-    ],
-    "http://schema.org/longitude": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#double",
-        "@value": "-7.3567695E1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Espace orange | Édifice Wilder"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Place"
-    ]
-  },
-  {
-    "@id": "_:g715000",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.tuxedobillet.com/levivier/megumi-masaki-hearing-ice"
-      }
-    ],
-    "http://schema.org/category": [
-      {
-        "@language": "fr",
-        "@value": "Billet solidaire&nbsp;"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "fr",
-        "@value": "45"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Offer"
-    ]
-  },
-  {
-    "@id": "_:g715020",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.tuxedobillet.com/levivier/megumi-masaki-hearing-ice"
-      }
-    ],
-    "http://schema.org/category": [
-      {
-        "@language": "fr",
-        "@value": "Billet régulier"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "fr",
-        "@value": "35"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Offer"
-    ]
-  },
-  {
-    "@id": "_:g715040",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.tuxedobillet.com/levivier/megumi-masaki-hearing-ice"
-      }
-    ],
-    "http://schema.org/category": [
-      {
-        "@language": "fr",
-        "@value": "Tarif réduit"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "fr",
-        "@value": "25"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Offer"
-    ]
-  },
-  {
-    "@id": "_:g715060",
-    "http://schema.org/representativeOfPage": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "true"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/sites/default/files/evenements/s9-negumi-notxt_1.jpg"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@language": "fr",
-        "@value": "1920"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@language": "fr",
-        "@value": "1080"
-      }
-    ],
-    "@type": [
-      "http://schema.org/ImageObject"
-    ]
-  },
-  {
-    "@id": "_:g715080",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca"
-      }
-    ],
-    "http://schema.org/logo": [
-      {
-        "@id": "_:g715100"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.facebook.com/GroupeLeVivier/"
-      },
-      {
-        "@id": "https://www.instagram.com/groupelevivier/"
-      },
-      {
-        "@id": "https://www.youtube.com/channel/UCDCrHXbapyafAuoKOXflDKQ"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Le Vivier"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Le Vivier a pour mission de favoriser le développement des musiques nouvelles et d’offrir à tous, par la diffusion d’œuvres de qualité, une porte ouverte sur la culture."
-      }
-    ]
-  },
-  {
-    "@id": "_:g715120",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Keith Hamel"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Keith"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Hamel"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Keith Hamel est à la fois compositeur et spécialiste en musique assistée par ordinateur. Le Dr Hamel compose de la musique acoustique et électroacoustique, et a remporté de nombreux prix dans ces deux domaines. Bon nombre de ses compositions récentes mettent l'accent sur l'interaction entre les interprètes en direct et les appareils électroniques contrôlés par ordinateur. Il a reçu des commandes de nombreux ensembles et organismes nationaux et internationaux, et ses œuvres ont été jouées au Canada, aux États-Unis, en Asie et en Europe. Chercheur actif dans le domaine de la musique assistée par ordinateur, le Dr Hamel est l'auteur du logiciel de notation musicale NoteAbilityPro, utilisé pour la gravure et l'édition musicales. Il est chercheur associé au Media and Graphics Interdisciplinary Centre (MAGIC) et à l'Institute for Computing, Information &amp; Cognitive Systems (ICICS)."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715140",
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.iancusson.com/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.iancusson.com/"
-      },
-      {
-        "@id": "https://soundcloud.com/ian-cusson"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/ian-cusson"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Ian Cusson"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Ian"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Cusson"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "D'origine métisse (communauté métisse de la baie Georgienne) et canadienne-française, son travail explore l'expérience des Autochtones canadiens, y compris l'histoire du peuple métis, l'hybridité de l'identité multiraciale et l'intersection des cultures occidentales et autochtones.\r\n\r\nIl a étudié la composition avec Jake Heggie (San Francisco) et Samuel Dolin, ainsi que le piano avec James Anagnoson à la Glenn Gould School. Il est le bénéficiaire de la bourse de développement professionnel Chalmers, ainsi que de subventions de la National Aboriginal Achievement Foundation, du..."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715160",
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.olliehawker.com/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.olliehawker.com/"
-      },
-      {
-        "@id": "https://www.instagram.com/ollie.p.hawker/"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/ollie-hawker"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Ollie Hawker"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Ollie"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Hawker"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Ollie Hawker (il/lui) est compositeur et praticien en musique communautaire, basé à Glasgow. Son travail récent allie une formation en arts sonores, axée sur la texture et le timbre, à son attrait pour l’harmonie simple et la quiétude. Sa musique recherche une clarté à la fois fragile et émouvante, susceptible d’être emportée par une forte rafale de vent.Ollie est titulaire d’une maîtrise en composition du Royal Conservatoire of Scotland, où il a étudié avec Linda Buckley et Alistair MacDonald, et a reçu le Kimie Composition Prize en 2020. Ses œuvres récentes ont été interprétées au Royaume-Uni par Standard Issue, Xenia Pestova Bennett, Marie Schreer (Riot Ensemble), The Willow Trio, Ipsa Collective et Psappha, ainsi qu’à l’international par le Bergamot Quartet (États-Unis), Megumi Masaki (Canada), Extended Music Collective (Belgique) et Inland Ocean (États-Unis/Belgique/Canada). Il a publié deux albums sur le label Why Keith Dropped the S : It’s So Easy Pt. 3: It’s Always This Easy (2022) et Behind Closed Eyes (2024).Ollie joue également de la scie musicale et a été qualifié de « virtuose » de cet instrument (Vox Carnyx). Il fait partie du trio audiovisuel Instruction Manual, dont l’album The Instruction Manual est paru chez Miúin en 2024. Il travaille comme praticien en musique communautaire pour plusieurs organismes caritatifs écossais, animant des ateliers musicaux destinés à des enfants et des adultes ayant des besoins de soutien particuliers. Ollie est membre du collectif artistique international Inland Ocean et sera musicien en résidence (« Embedded Musician ») de Chamber Music Scotland en 2026."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715180",
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.carmenbraden.com/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.carmenbraden.com/"
-      },
-      {
-        "@id": "https://www.facebook.com/CarmenBraden"
-      },
-      {
-        "@id": "https://www.instagram.com/blackicesounds/"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/carmen-braden"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Carmen Braden"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Carmen"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Braden"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Carmen Braden est une musicienne polyvalente, naviguant librement entre les genres, originaire du subarctique canadien. Lauréate des prix Western Canadian Music Award 2019 et 2020 dans la catégorie Compositeure classique de l’année, Carmen est compositrice et interprète, établie dans sa ville natale de Yellowknife, dans les Territoires du Nord-Ouest. Saluée comme « une musicienne talentueuse et audacieuse » (Up Here Magazine), Carmen est une Nordiste de toujours, dont la musique a été décrite comme « absolument splendide » (Ottawa Citizen). Son deuxième album studio, Songs of the Invisible Summer Stars (2019), a été nommé aux East Coast Music Awards dans la catégorie Album classique de l’année. Son premier album studio, Ravens, est paru en 2017 — les deux albums sont publiés sous l’étiquette Centrediscs.Née en 1985 à Whitehorse, au Yukon, Carmen a grandi à Yellowknife et a développé son amour de la musique auprès de Bill Gilday et Ardith Dean. Elle a obtenu le Baccalauréat international au Lester B. Pearson United World College of the Pacific, puis a poursuivi ses études auprès de Michelle Hewitt. En 2009, Carmen a reçu un baccalauréat en musique (composition) de l’Université Acadia, où elle a étudié avec Derek Charke et Stephen Naylor. Elle a obtenu une maîtrise en musique (composition) de l’Université de Calgary en 2015, étudiant auprès d’Allan Gordon Bell, Laurie Radford et David Eagle.Le travail de création de Carmen a été soutenu par le NWT Arts Council, le Conseil des arts du Canada, FACTOR et la Fondation SOCAN, tandis que son parcours universitaire a bénéficié du soutien du Conseil de recherches en sciences humaines du Canada."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715200",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/le-vivier/repertoire/melt-piano-live-interactive-electronics-and-video"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2022"
-      }
-    ],
-    "http://schema.org/composer": [
-      {
-        "@id": "_:g715220"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Melt for piano, live interactive electronics and video"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/le-vivier/repertoire/melt-piano-live-interactive-electronics-and-video"
-      }
-    ],
-    "@type": [
-      "http://schema.org/MusicComposition"
-    ]
-  },
-  {
-    "@id": "_:g715240",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/le-vivier/repertoire/frozen-road-piano-electronics-and-video"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2022"
-      }
-    ],
-    "http://schema.org/composer": [
-      {
-        "@id": "_:g715260"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Frozen Road for piano, electronics and video"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/le-vivier/repertoire/frozen-road-piano-electronics-and-video"
-      }
-    ],
-    "@type": [
-      "http://schema.org/MusicComposition"
-    ]
-  },
-  {
-    "@id": "_:g715280",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/le-vivier/repertoire/piano-games-piano-live-interactive-electronics-and-video-game"
-      }
-    ],
-    "http://schema.org/composer": [
-      {
-        "@id": "_:g715300"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Piano Games for piano, live interactive electronics and video game"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/le-vivier/repertoire/piano-games-piano-live-interactive-electronics-and-video-game"
-      }
-    ],
-    "@type": [
-      "http://schema.org/MusicComposition"
-    ]
-  },
-  {
-    "@id": "_:g715320",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/le-vivier/repertoire/and-bleak-blew-easterly-wind"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2022"
-      }
-    ],
-    "http://schema.org/composer": [
-      {
-        "@id": "_:g715340"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "And bleak blew the easterly wind"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/le-vivier/repertoire/and-bleak-blew-easterly-wind"
-      }
-    ],
-    "@type": [
-      "http://schema.org/MusicComposition"
-    ]
-  },
-  {
-    "@id": "_:g715360",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/le-vivier/repertoire/see-freeze-hear-thaw"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2022"
-      }
-    ],
-    "http://schema.org/composer": [
-      {
-        "@id": "_:g715380"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "See the Freeze, Hear the Thaw"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/le-vivier/repertoire/see-freeze-hear-thaw"
-      }
-    ],
-    "@type": [
-      "http://schema.org/MusicComposition"
-    ]
-  },
-  {
-    "@id": "_:g715400",
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.megumimasaki.com/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.megumimasaki.com/"
-      },
-      {
-        "@id": "https://www.instagram.com/megumi.masaki/"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/megumi-masaki"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Megumi Masaki"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Megumi"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Masaki"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Megumi Masaki est une pianiste canado-japonaise et une artiste de scène en multimédia. Elle repense le rôle du piano, de la pianiste et de l’espace de performance. Son travail explore de nouveaux modèles d’interaction et d’intégration du son, de l’image, du texte et du mouvement dans des œuvres multimédias, en utilisant des technologies innovantes : suivi gestuel pour générer et contrôler l’électronique et la vidéo en direct, visuels 3D, jeux vidéo contrôlés par le piano, capteurs textiles interactifs et intelligence artificielle. Elle ouvre ainsi de nouvelles possibilités à l’expression humaine et à sa capacité de façonner notre identité et notre compréhension du monde.Ses collaborations avec des compositeur·rice·s, artistes visuel·le·s, écrivain·e·s et chorégraphes ont donné lieu à 83 créations originales, et elle a créé plus de 180 œuvres en première mondiale dans 25 pays. Elle a publié trois films documentaires et quinze enregistrements (CD, DVD, vinyles et formats numériques) comprenant des œuvres pour piano solo, musique de chambre, électroacoustique et multimédia. En reconnaissance de l’impact significatif de ses réalisations, Megumi Masaki a été nommée Membre de l’Ordre du Manitoba et Fellow de la Société royale du Canada.La pratique artistique de Megumi est centrée sur les droits humains, les changements climatiques et les Appels à l’action de la Commission de vérité et réconciliation. Par une narration multimédia percutante, elle favorise le dialogue, la guérison collective et inspire des actions transformatrices."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715420",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Keith Hamel"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Keith"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Hamel"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Keith Hamel est à la fois compositeur et spécialiste en musique assistée par ordinateur. Le Dr Hamel compose de la musique acoustique et électroacoustique, et a remporté de nombreux prix dans ces deux domaines. Bon nombre de ses compositions récentes mettent l'accent sur l'interaction entre les interprètes en direct et les appareils électroniques contrôlés par ordinateur. Il a reçu des commandes de nombreux ensembles et organismes nationaux et internationaux, et ses œuvres ont été jouées au Canada, aux États-Unis, en Asie et en Europe. Chercheur actif dans le domaine de la musique assistée par ordinateur, le Dr Hamel est l'auteur du logiciel de notation musicale NoteAbilityPro, utilisé pour la gravure et l'édition musicales. Il est chercheur associé au Media and Graphics Interdisciplinary Centre (MAGIC) et à l'Institute for Computing, Information &amp; Cognitive Systems (ICICS)."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715440",
-    "http://schema.org/author": [
-      {
-        "@id": "_:g715460"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/concert/saison-2025-26/megumi-masaki-hearing-ice-semaine-du-neuf"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/concert/saison-2025-26/megumi-masaki-hearing-ice-semaine-du-neuf"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "fr",
-        "@value": "fr_CA"
-      }
-    ],
-    "http://schema.org/lastReviewed": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-09T09:16:22-05:00"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-04T14:17:57-05:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-12-09T09:16:22-05:00"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ]
-  },
-  {
-    "@id": "_:g714980",
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Espace orange | Édifice Wilder"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "fr",
-        "@value": "CA"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "fr",
-        "@value": "Montréal"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "fr",
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "fr",
-        "@value": "H3A 2H7"
-      }
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "fr",
-        "@value": "1435 Rue de Bleury #102"
-      }
-    ],
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ]
-  },
-  {
-    "@id": "_:g715100",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/sites/default/files/levivier-logo-noir-cr_0.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "321"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "321"
-      }
-    ]
-  },
-  {
-    "@id": "_:g715220",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Keith Hamel"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Keith"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Hamel"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715260",
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.iancusson.com/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.iancusson.com/"
-      },
-      {
-        "@id": "https://soundcloud.com/ian-cusson"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/ian-cusson"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Ian Cusson"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Ian"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Cusson"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715300",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/keith-hamel"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Keith Hamel"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Keith"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Hamel"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715340",
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.olliehawker.com/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.olliehawker.com/"
-      },
-      {
-        "@id": "https://www.instagram.com/ollie.p.hawker/"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/ollie-hawker"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Ollie Hawker"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Ollie"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Hawker"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715380",
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.carmenbraden.com/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.carmenbraden.com/"
-      },
-      {
-        "@id": "https://www.facebook.com/CarmenBraden"
-      },
-      {
-        "@id": "https://www.instagram.com/blackicesounds/"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/carmen-braden"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Carmen Braden"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Carmen"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Braden"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g715460",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca"
-      }
-    ],
-    "http://schema.org/logo": [
-      {
-        "@id": "_:g715480"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.facebook.com/GroupeLeVivier/"
-      },
-      {
-        "@id": "https://www.instagram.com/groupelevivier/"
-      },
-      {
-        "@id": "https://www.youtube.com/channel/UCDCrHXbapyafAuoKOXflDKQ"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Le Vivier"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Le Vivier a pour mission de favoriser le développement des musiques nouvelles et d’offrir à tous, par la diffusion d’œuvres de qualité, une porte ouverte sur la culture."
-      }
-    ]
-  },
-  {
-    "@id": "_:g715480",
+    "@id": "_:g718060",
     "@type": [
       "http://schema.org/ImageObject"
     ],
