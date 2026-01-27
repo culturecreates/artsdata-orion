@@ -131,37 +131,31 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g461100"
+        "@id": "_:g461140"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g461140"
-      },
-      {
-        "@id": "_:g461160"
-      },
-      {
         "@id": "_:g461180"
-      }
-    ],
-    "http://schema.org/image": [
+      },
       {
         "@id": "_:g461200"
-      }
-    ],
-    "http://schema.org/organizer": [
+      },
       {
         "@id": "_:g461220"
       }
     ],
-    "http://schema.org/performer": [
+    "http://schema.org/image": [
+      {
+        "@id": "_:g461240"
+      }
+    ],
+    "http://schema.org/organizer": [
       {
         "@id": "_:g461260"
-      },
-      {
-        "@id": "_:g461280"
-      },
+      }
+    ],
+    "http://schema.org/performer": [
       {
         "@id": "_:g461300"
       },
@@ -170,16 +164,22 @@
       },
       {
         "@id": "_:g461340"
+      },
+      {
+        "@id": "_:g461360"
+      },
+      {
+        "@id": "_:g461380"
       }
     ],
     "http://schema.org/subjectOf": [
       {
-        "@id": "_:g461360"
+        "@id": "_:g461400"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g461380"
+        "@id": "_:g461420"
       }
     ],
     "http://schema.org/name": [
@@ -202,10 +202,10 @@
     ]
   },
   {
-    "@id": "_:g461100",
+    "@id": "_:g461140",
     "http://schema.org/address": [
       {
-        "@id": "_:g461120"
+        "@id": "_:g461160"
       }
     ],
     "http://schema.org/latitude": [
@@ -236,7 +236,7 @@
     ]
   },
   {
-    "@id": "_:g461140",
+    "@id": "_:g461180",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -265,7 +265,7 @@
     ]
   },
   {
-    "@id": "_:g461160",
+    "@id": "_:g461200",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -294,7 +294,7 @@
     ]
   },
   {
-    "@id": "_:g461180",
+    "@id": "_:g461220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -323,7 +323,7 @@
     ]
   },
   {
-    "@id": "_:g461200",
+    "@id": "_:g461240",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -352,7 +352,7 @@
     ]
   },
   {
-    "@id": "_:g461220",
+    "@id": "_:g461260",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -363,7 +363,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g461240"
+        "@id": "_:g461280"
       }
     ],
     "http://schema.org/sameAs": [
@@ -391,7 +391,7 @@
     ]
   },
   {
-    "@id": "_:g461260",
+    "@id": "_:g461300",
     "http://schema.org/url": [
       {
         "@id": "http://totemcontemporain.com/"
@@ -425,7 +425,7 @@
     ]
   },
   {
-    "@id": "_:g461280",
+    "@id": "_:g461320",
     "http://schema.org/url": [
       {
         "@id": "http://brahms.ircam.fr/jean-francois-laporte"
@@ -474,7 +474,7 @@
     ]
   },
   {
-    "@id": "_:g461300",
+    "@id": "_:g461340",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/audreanne-filion"
@@ -515,7 +515,7 @@
     ]
   },
   {
-    "@id": "_:g461320",
+    "@id": "_:g461360",
     "http://schema.org/url": [
       {
         "@id": "http://lorifreedman.com/fr/bio/freedman_lo/Lori_Freedman"
@@ -573,7 +573,7 @@
     ]
   },
   {
-    "@id": "_:g461340",
+    "@id": "_:g461380",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/julie-delisle"
@@ -614,7 +614,7 @@
     ]
   },
   {
-    "@id": "_:g461360",
+    "@id": "_:g461400",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -637,10 +637,10 @@
     ]
   },
   {
-    "@id": "_:g461380",
+    "@id": "_:g461420",
     "http://schema.org/author": [
       {
-        "@id": "_:g461400"
+        "@id": "_:g461440"
       }
     ],
     "http://schema.org/url": [
@@ -683,7 +683,7 @@
     ]
   },
   {
-    "@id": "_:g461120",
+    "@id": "_:g461160",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -725,7 +725,7 @@
     ]
   },
   {
-    "@id": "_:g461240",
+    "@id": "_:g461280",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -748,7 +748,7 @@
     ]
   },
   {
-    "@id": "_:g461400",
+    "@id": "_:g461440",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -759,7 +759,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g461420"
+        "@id": "_:g461460"
       }
     ],
     "http://schema.org/sameAs": [
@@ -787,7 +787,7 @@
     ]
   },
   {
-    "@id": "_:g461420",
+    "@id": "_:g461460",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -941,58 +941,58 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g484180"
+        "@id": "_:g483900"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g484220"
+        "@id": "_:g483940"
       },
       {
-        "@id": "_:g484240"
+        "@id": "_:g483960"
       },
       {
-        "@id": "_:g484260"
+        "@id": "_:g483980"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g484280"
+        "@id": "_:g484000"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g484300"
+        "@id": "_:g484020"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g484340"
+        "@id": "_:g484060"
       },
       {
-        "@id": "_:g484360"
+        "@id": "_:g484080"
       },
       {
-        "@id": "_:g484380"
+        "@id": "_:g484100"
       },
       {
-        "@id": "_:g484400"
+        "@id": "_:g484120"
       },
       {
-        "@id": "_:g484420"
+        "@id": "_:g484140"
       }
     ],
     "http://schema.org/subjectOf": [
       {
-        "@id": "_:g484440"
+        "@id": "_:g484160"
       },
       {
-        "@id": "_:g484460"
+        "@id": "_:g484180"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g484480"
+        "@id": "_:g484200"
       }
     ],
     "http://schema.org/name": [
@@ -1015,10 +1015,10 @@
     ]
   },
   {
-    "@id": "_:g484180",
+    "@id": "_:g483900",
     "http://schema.org/address": [
       {
-        "@id": "_:g484200"
+        "@id": "_:g483920"
       }
     ],
     "http://schema.org/latitude": [
@@ -1049,7 +1049,7 @@
     ]
   },
   {
-    "@id": "_:g484220",
+    "@id": "_:g483940",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -1078,7 +1078,7 @@
     ]
   },
   {
-    "@id": "_:g484240",
+    "@id": "_:g483960",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -1107,7 +1107,7 @@
     ]
   },
   {
-    "@id": "_:g484260",
+    "@id": "_:g483980",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/totem-electrique-xix"
@@ -1136,7 +1136,7 @@
     ]
   },
   {
-    "@id": "_:g484280",
+    "@id": "_:g484000",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1165,7 +1165,7 @@
     ]
   },
   {
-    "@id": "_:g484300",
+    "@id": "_:g484020",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1176,7 +1176,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g484320"
+        "@id": "_:g484040"
       }
     ],
     "http://schema.org/sameAs": [
@@ -1204,7 +1204,7 @@
     ]
   },
   {
-    "@id": "_:g484340",
+    "@id": "_:g484060",
     "http://schema.org/url": [
       {
         "@id": "http://totemcontemporain.com/"
@@ -1238,7 +1238,7 @@
     ]
   },
   {
-    "@id": "_:g484360",
+    "@id": "_:g484080",
     "http://schema.org/url": [
       {
         "@id": "http://brahms.ircam.fr/jean-francois-laporte"
@@ -1287,7 +1287,7 @@
     ]
   },
   {
-    "@id": "_:g484380",
+    "@id": "_:g484100",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/audreanne-filion"
@@ -1328,7 +1328,7 @@
     ]
   },
   {
-    "@id": "_:g484400",
+    "@id": "_:g484120",
     "http://schema.org/url": [
       {
         "@id": "http://lorifreedman.com/fr/bio/freedman_lo/Lori_Freedman"
@@ -1386,7 +1386,7 @@
     ]
   },
   {
-    "@id": "_:g484420",
+    "@id": "_:g484140",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/julie-delisle"
@@ -1427,7 +1427,7 @@
     ]
   },
   {
-    "@id": "_:g484440",
+    "@id": "_:g484160",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -1450,7 +1450,7 @@
     ]
   },
   {
-    "@id": "_:g484460",
+    "@id": "_:g484180",
     "@type": [
       "http://schema.org/VideoObject"
     ],
@@ -1473,10 +1473,10 @@
     ]
   },
   {
-    "@id": "_:g484480",
+    "@id": "_:g484200",
     "http://schema.org/author": [
       {
-        "@id": "_:g484500"
+        "@id": "_:g484220"
       }
     ],
     "http://schema.org/url": [
@@ -1519,7 +1519,7 @@
     ]
   },
   {
-    "@id": "_:g484200",
+    "@id": "_:g483920",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -1561,7 +1561,7 @@
     ]
   },
   {
-    "@id": "_:g484320",
+    "@id": "_:g484040",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -1584,7 +1584,7 @@
     ]
   },
   {
-    "@id": "_:g484500",
+    "@id": "_:g484220",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -1595,7 +1595,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g484520"
+        "@id": "_:g484240"
       }
     ],
     "http://schema.org/sameAs": [
@@ -1623,7 +1623,7 @@
     ]
   },
   {
-    "@id": "_:g484520",
+    "@id": "_:g484240",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -1777,69 +1777,69 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g507160"
+        "@id": "_:g506980"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g507200"
+        "@id": "_:g507020"
       },
       {
-        "@id": "_:g507220"
+        "@id": "_:g507040"
       },
       {
-        "@id": "_:g507240"
+        "@id": "_:g507060"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g507260"
+        "@id": "_:g507080"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g507280"
+        "@id": "_:g507100"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g507320"
+        "@id": "_:g507140"
       },
       {
-        "@id": "_:g507340"
+        "@id": "_:g507160"
       },
       {
-        "@id": "_:g507360"
+        "@id": "_:g507180"
       },
       {
-        "@id": "_:g507380"
+        "@id": "_:g507200"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g507400"
+        "@id": "_:g507220"
       },
       {
-        "@id": "_:g507440"
+        "@id": "_:g507260"
       },
       {
-        "@id": "_:g507480"
+        "@id": "_:g507300"
       },
       {
-        "@id": "_:g507520"
+        "@id": "_:g507340"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g507560"
+        "@id": "_:g507380"
       },
       {
-        "@id": "_:g507580"
+        "@id": "_:g507400"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g507600"
+        "@id": "_:g507420"
       }
     ],
     "http://schema.org/name": [
@@ -1862,10 +1862,10 @@
     ]
   },
   {
-    "@id": "_:g507160",
+    "@id": "_:g506980",
     "http://schema.org/address": [
       {
-        "@id": "_:g507180"
+        "@id": "_:g507000"
       }
     ],
     "http://schema.org/latitude": [
@@ -1883,7 +1883,7 @@
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Espace Ste-Hilda 6341 Av. De Lorimier"
+        "@value": "Sainte-Hilda"
       }
     ],
     "@type": [
@@ -1891,7 +1891,7 @@
     ]
   },
   {
-    "@id": "_:g507200",
+    "@id": "_:g507020",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/innovations-en-concert-resonances-de-cage"
@@ -1920,7 +1920,7 @@
     ]
   },
   {
-    "@id": "_:g507220",
+    "@id": "_:g507040",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/innovations-en-concert-resonances-de-cage"
@@ -1949,7 +1949,7 @@
     ]
   },
   {
-    "@id": "_:g507240",
+    "@id": "_:g507060",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/innovations-en-concert-resonances-de-cage"
@@ -1978,7 +1978,7 @@
     ]
   },
   {
-    "@id": "_:g507260",
+    "@id": "_:g507080",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2007,7 +2007,7 @@
     ]
   },
   {
-    "@id": "_:g507280",
+    "@id": "_:g507100",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2018,7 +2018,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g507300"
+        "@id": "_:g507120"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2046,7 +2046,7 @@
     ]
   },
   {
-    "@id": "_:g507320",
+    "@id": "_:g507140",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/jacob-tv"
@@ -2081,7 +2081,7 @@
     ]
   },
   {
-    "@id": "_:g507340",
+    "@id": "_:g507160",
     "http://schema.org/url": [
       {
         "@id": "https://johncage.org/"
@@ -2130,7 +2130,7 @@
     ]
   },
   {
-    "@id": "_:g507360",
+    "@id": "_:g507180",
     "http://schema.org/url": [
       {
         "@id": "https://www.cnvill.net/mfhome.htm"
@@ -2176,7 +2176,7 @@
     ]
   },
   {
-    "@id": "_:g507380",
+    "@id": "_:g507200",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/howard-skempton"
@@ -2211,7 +2211,7 @@
     ]
   },
   {
-    "@id": "_:g507400",
+    "@id": "_:g507220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/sound"
@@ -2219,7 +2219,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g507420"
+        "@id": "_:g507240"
       }
     ],
     "http://schema.org/name": [
@@ -2239,7 +2239,7 @@
     ]
   },
   {
-    "@id": "_:g507440",
+    "@id": "_:g507260",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/landscape"
@@ -2247,7 +2247,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g507460"
+        "@id": "_:g507280"
       }
     ],
     "http://schema.org/name": [
@@ -2267,7 +2267,7 @@
     ]
   },
   {
-    "@id": "_:g507480",
+    "@id": "_:g507300",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/nature-pieces"
@@ -2275,7 +2275,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g507500"
+        "@id": "_:g507320"
       }
     ],
     "http://schema.org/name": [
@@ -2295,7 +2295,7 @@
     ]
   },
   {
-    "@id": "_:g507520",
+    "@id": "_:g507340",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/notte-stellati-vagli"
@@ -2303,7 +2303,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g507540"
+        "@id": "_:g507360"
       }
     ],
     "http://schema.org/name": [
@@ -2323,7 +2323,7 @@
     ]
   },
   {
-    "@id": "_:g507560",
+    "@id": "_:g507380",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/membres/organismes/isak-goldschneider"
@@ -2358,7 +2358,7 @@
     ]
   },
   {
-    "@id": "_:g507580",
+    "@id": "_:g507400",
     "http://schema.org/url": [
       {
         "@id": "https://innovationsenconcert.ca/"
@@ -2401,10 +2401,10 @@
     ]
   },
   {
-    "@id": "_:g507600",
+    "@id": "_:g507420",
     "http://schema.org/author": [
       {
-        "@id": "_:g507620"
+        "@id": "_:g507440"
       }
     ],
     "http://schema.org/url": [
@@ -2447,11 +2447,11 @@
     ]
   },
   {
-    "@id": "_:g507180",
+    "@id": "_:g507000",
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Espace Ste-Hilda 6341 Av. De Lorimier"
+        "@value": "Sainte-Hilda"
       }
     ],
     "http://schema.org/addressCountry": [
@@ -2489,7 +2489,7 @@
     ]
   },
   {
-    "@id": "_:g507300",
+    "@id": "_:g507120",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -2512,7 +2512,7 @@
     ]
   },
   {
-    "@id": "_:g507420",
+    "@id": "_:g507240",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/jacob-tv"
@@ -2547,7 +2547,7 @@
     ]
   },
   {
-    "@id": "_:g507460",
+    "@id": "_:g507280",
     "http://schema.org/url": [
       {
         "@id": "https://johncage.org/"
@@ -2590,7 +2590,7 @@
     ]
   },
   {
-    "@id": "_:g507500",
+    "@id": "_:g507320",
     "http://schema.org/url": [
       {
         "@id": "https://www.cnvill.net/mfhome.htm"
@@ -2630,7 +2630,7 @@
     ]
   },
   {
-    "@id": "_:g507540",
+    "@id": "_:g507360",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/howard-skempton"
@@ -2665,7 +2665,7 @@
     ]
   },
   {
-    "@id": "_:g507620",
+    "@id": "_:g507440",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2676,7 +2676,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g507640"
+        "@id": "_:g507460"
       }
     ],
     "http://schema.org/sameAs": [
@@ -2704,7 +2704,7 @@
     ]
   },
   {
-    "@id": "_:g507640",
+    "@id": "_:g507460",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -2858,45 +2858,45 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g532360"
+        "@id": "_:g531420"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g532400"
+        "@id": "_:g531460"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g532420"
+        "@id": "_:g531480"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g532460"
+        "@id": "_:g531520"
       },
       {
-        "@id": "_:g532480"
+        "@id": "_:g531540"
       },
       {
-        "@id": "_:g532500"
+        "@id": "_:g531560"
       },
       {
-        "@id": "_:g532520"
+        "@id": "_:g531580"
       },
       {
-        "@id": "_:g532540"
+        "@id": "_:g531600"
       },
       {
-        "@id": "_:g532560"
+        "@id": "_:g531620"
       },
       {
-        "@id": "_:g532580"
+        "@id": "_:g531640"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g532600"
+        "@id": "_:g531660"
       }
     ],
     "http://schema.org/name": [
@@ -2919,10 +2919,10 @@
     ]
   },
   {
-    "@id": "_:g532360",
+    "@id": "_:g531420",
     "http://schema.org/address": [
       {
-        "@id": "_:g532380"
+        "@id": "_:g531440"
       }
     ],
     "http://schema.org/latitude": [
@@ -2953,7 +2953,7 @@
     ]
   },
   {
-    "@id": "_:g532400",
+    "@id": "_:g531460",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2982,7 +2982,7 @@
     ]
   },
   {
-    "@id": "_:g532420",
+    "@id": "_:g531480",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -2993,7 +2993,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g532440"
+        "@id": "_:g531500"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3021,7 +3021,7 @@
     ]
   },
   {
-    "@id": "_:g532460",
+    "@id": "_:g531520",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/joao-catalao"
@@ -3067,7 +3067,7 @@
     ]
   },
   {
-    "@id": "_:g532480",
+    "@id": "_:g531540",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/philip-hornsey"
@@ -3113,7 +3113,7 @@
     ]
   },
   {
-    "@id": "_:g532500",
+    "@id": "_:g531560",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/kristie-ibrahim"
@@ -3154,7 +3154,7 @@
     ]
   },
   {
-    "@id": "_:g532520",
+    "@id": "_:g531580",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandre-lavoie"
@@ -3189,7 +3189,7 @@
     ]
   },
   {
-    "@id": "_:g532540",
+    "@id": "_:g531600",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/membres/organismes/fabrice-marandola-0"
@@ -3235,7 +3235,7 @@
     ]
   },
   {
-    "@id": "_:g532560",
+    "@id": "_:g531620",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/corinne-rene"
@@ -3276,7 +3276,7 @@
     ]
   },
   {
-    "@id": "_:g532580",
+    "@id": "_:g531640",
     "http://schema.org/url": [
       {
         "@id": "https://sixtrum.com/fr"
@@ -3316,10 +3316,10 @@
     ]
   },
   {
-    "@id": "_:g532600",
+    "@id": "_:g531660",
     "http://schema.org/author": [
       {
-        "@id": "_:g532620"
+        "@id": "_:g531680"
       }
     ],
     "http://schema.org/url": [
@@ -3362,7 +3362,7 @@
     ]
   },
   {
-    "@id": "_:g532380",
+    "@id": "_:g531440",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -3404,7 +3404,7 @@
     ]
   },
   {
-    "@id": "_:g532440",
+    "@id": "_:g531500",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -3427,7 +3427,7 @@
     ]
   },
   {
-    "@id": "_:g532620",
+    "@id": "_:g531680",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3438,7 +3438,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g532640"
+        "@id": "_:g531700"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3466,7 +3466,7 @@
     ]
   },
   {
-    "@id": "_:g532640",
+    "@id": "_:g531700",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -3529,7 +3529,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-13T00:38:51-05:00"
+        "@value": "2026-01-22T11:02:40-05:00"
       }
     ],
     "place:location:latitude": [
@@ -3607,7 +3607,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-13T00:38:51-05:00"
+        "@value": "2026-01-22T11:02:40-05:00"
       }
     ],
     "@type": [
@@ -3620,91 +3620,120 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g554920"
+        "@id": "_:g553580"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g554960"
+        "@id": "_:g553620"
       },
       {
-        "@id": "_:g554980"
+        "@id": "_:g553640"
       },
       {
-        "@id": "_:g555000"
+        "@id": "_:g553660"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g555020"
+        "@id": "_:g553680"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g555040"
+        "@id": "_:g553700"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555080"
+        "@id": "_:g553740"
       },
       {
-        "@id": "_:g555100"
+        "@id": "_:g553760"
       },
       {
-        "@id": "_:g555120"
+        "@id": "_:g553780"
       },
       {
-        "@id": "_:g555140"
+        "@id": "_:g553800"
       },
       {
-        "@id": "_:g555160"
+        "@id": "_:g553820"
       },
       {
-        "@id": "_:g555180"
+        "@id": "_:g553840"
       },
       {
-        "@id": "_:g555200"
+        "@id": "_:g553860"
       },
       {
-        "@id": "_:g555220"
+        "@id": "_:g553880"
       },
       {
-        "@id": "_:g555240"
+        "@id": "_:g553900"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g555260"
+        "@id": "_:g553920"
       },
       {
-        "@id": "_:g555300"
+        "@id": "_:g553960"
       },
       {
-        "@id": "_:g555340"
+        "@id": "_:g554000"
       },
       {
-        "@id": "_:g555380"
+        "@id": "_:g554040"
       },
       {
-        "@id": "_:g555420"
+        "@id": "_:g554080"
       },
       {
-        "@id": "_:g555460"
+        "@id": "_:g554120"
       },
       {
-        "@id": "_:g555500"
+        "@id": "_:g554160"
       },
       {
-        "@id": "_:g555540"
+        "@id": "_:g554200"
       },
       {
-        "@id": "_:g555580"
+        "@id": "_:g554240"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "_:g554280"
+      },
+      {
+        "@id": "_:g554300"
+      },
+      {
+        "@id": "_:g554320"
+      },
+      {
+        "@id": "_:g554340"
+      },
+      {
+        "@id": "_:g554360"
+      },
+      {
+        "@id": "_:g554380"
+      },
+      {
+        "@id": "_:g554400"
+      },
+      {
+        "@id": "_:g554420"
+      },
+      {
+        "@id": "_:g554440"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g555620"
+        "@id": "_:g554460"
       }
     ],
     "http://schema.org/name": [
@@ -3727,10 +3756,10 @@
     ]
   },
   {
-    "@id": "_:g554920",
+    "@id": "_:g553580",
     "http://schema.org/address": [
       {
-        "@id": "_:g554940"
+        "@id": "_:g553600"
       }
     ],
     "http://schema.org/latitude": [
@@ -3761,7 +3790,7 @@
     ]
   },
   {
-    "@id": "_:g554960",
+    "@id": "_:g553620",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/vivier-interuniversitaire-concert-annuel-10e-edition"
@@ -3790,7 +3819,7 @@
     ]
   },
   {
-    "@id": "_:g554980",
+    "@id": "_:g553640",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/vivier-interuniversitaire-concert-annuel-10e-edition"
@@ -3819,7 +3848,7 @@
     ]
   },
   {
-    "@id": "_:g555000",
+    "@id": "_:g553660",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/vivier-interuniversitaire-concert-annuel-10e-edition"
@@ -3848,7 +3877,7 @@
     ]
   },
   {
-    "@id": "_:g555020",
+    "@id": "_:g553680",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -3877,7 +3906,7 @@
     ]
   },
   {
-    "@id": "_:g555040",
+    "@id": "_:g553700",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -3888,7 +3917,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g555060"
+        "@id": "_:g553720"
       }
     ],
     "http://schema.org/sameAs": [
@@ -3916,7 +3945,7 @@
     ]
   },
   {
-    "@id": "_:g555080",
+    "@id": "_:g553740",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/nicholas-ma"
@@ -3957,7 +3986,7 @@
     ]
   },
   {
-    "@id": "_:g555100",
+    "@id": "_:g553760",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/sebastien-goulet"
@@ -3998,7 +4027,7 @@
     ]
   },
   {
-    "@id": "_:g555120",
+    "@id": "_:g553780",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/yulin-yan"
@@ -4044,7 +4073,7 @@
     ]
   },
   {
-    "@id": "_:g555140",
+    "@id": "_:g553800",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/gabrielle-martin"
@@ -4085,7 +4114,7 @@
     ]
   },
   {
-    "@id": "_:g555160",
+    "@id": "_:g553820",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/edwin-h-ng"
@@ -4126,7 +4155,7 @@
     ]
   },
   {
-    "@id": "_:g555180",
+    "@id": "_:g553840",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/hannah-barnes"
@@ -4167,7 +4196,7 @@
     ]
   },
   {
-    "@id": "_:g555200",
+    "@id": "_:g553860",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandre-amat"
@@ -4208,7 +4237,7 @@
     ]
   },
   {
-    "@id": "_:g555220",
+    "@id": "_:g553880",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
@@ -4249,7 +4278,7 @@
     ]
   },
   {
-    "@id": "_:g555240",
+    "@id": "_:g553900",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/liam-ross-gibson"
@@ -4290,7 +4319,7 @@
     ]
   },
   {
-    "@id": "_:g555260",
+    "@id": "_:g553920",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/assembly-line-apparitions"
@@ -4304,7 +4333,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555280"
+        "@id": "_:g553940"
       }
     ],
     "http://schema.org/name": [
@@ -4324,7 +4353,7 @@
     ]
   },
   {
-    "@id": "_:g555300",
+    "@id": "_:g553960",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/kaguya"
@@ -4338,7 +4367,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555320"
+        "@id": "_:g553980"
       }
     ],
     "http://schema.org/name": [
@@ -4358,7 +4387,7 @@
     ]
   },
   {
-    "@id": "_:g555340",
+    "@id": "_:g554000",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/foii"
@@ -4372,7 +4401,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555360"
+        "@id": "_:g554020"
       }
     ],
     "http://schema.org/name": [
@@ -4392,7 +4421,7 @@
     ]
   },
   {
-    "@id": "_:g555380",
+    "@id": "_:g554040",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/liminal"
@@ -4406,7 +4435,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555400"
+        "@id": "_:g554060"
       }
     ],
     "http://schema.org/name": [
@@ -4426,7 +4455,7 @@
     ]
   },
   {
-    "@id": "_:g555420",
+    "@id": "_:g554080",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/invoking-sound-wind"
@@ -4440,7 +4469,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555440"
+        "@id": "_:g554100"
       }
     ],
     "http://schema.org/name": [
@@ -4460,7 +4489,7 @@
     ]
   },
   {
-    "@id": "_:g555460",
+    "@id": "_:g554120",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/now-begin-why-fear-end"
@@ -4474,7 +4503,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555480"
+        "@id": "_:g554140"
       }
     ],
     "http://schema.org/name": [
@@ -4494,7 +4523,7 @@
     ]
   },
   {
-    "@id": "_:g555500",
+    "@id": "_:g554160",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/zone"
@@ -4508,7 +4537,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555520"
+        "@id": "_:g554180"
       }
     ],
     "http://schema.org/name": [
@@ -4528,7 +4557,7 @@
     ]
   },
   {
-    "@id": "_:g555540",
+    "@id": "_:g554200",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/i-couldnt-see-you-afar-aka-simple-spaces"
@@ -4542,7 +4571,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555560"
+        "@id": "_:g554220"
       }
     ],
     "http://schema.org/name": [
@@ -4562,7 +4591,7 @@
     ]
   },
   {
-    "@id": "_:g555580",
+    "@id": "_:g554240",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/decapod"
@@ -4576,7 +4605,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g555600"
+        "@id": "_:g554260"
       }
     ],
     "http://schema.org/name": [
@@ -4596,10 +4625,373 @@
     ]
   },
   {
-    "@id": "_:g555620",
+    "@id": "_:g554280",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Lorenzo Paniconi"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Lorenzo"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Paniconi"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Université McGillComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554300",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/antonin-granier"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/antonin-granier"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Antonin Granier"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Antonin"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Granier"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Antonin commence en tant que batteur avec Epitaphe : une formation mêlant metal extrême aux sonorités âpres et structures progressives. D’abord à Grenoble, puis à Londres, il prend goût aux percussions contemporaines, au théâtre musical, et aux œuvres pluriels, collectives. Il collabore régulièrement avec compositeurices, chorégraphes et metteur.euse.s en scène ; apportant son art de\r\nla frappe aux autres arts de la scène. Il est membre de Eptagon, collectif centré autour des musiques noises, metal, electroniques et semi-improvisés, des arts visuels et de la vidéo, basé..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554320",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/jenn-mong"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/jenn-mong"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Jenn Mong"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Jenn"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Mong"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554340",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/hannah-barnes"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/hannah-barnes"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Hannah A. Barnes"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Hannah A."
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Barnes"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Université McGillComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554360",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/kirby-lietz"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/kirby-lietz"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "KIRBY LIETZ"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "KIRBY"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "LIETZ"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Kirby Leitz est un saxophoniste et un éducateur qui vit actuellement à Montréal, au Québec. Sa production artistique vise à favoriser les liens et la camaraderie entre divers groupes musicaux et cultures. Il s'est produit dans tous les États-Unis lors de manifestations régionales et nationales, notamment au festival de musique contemporaine de l'université d'État de l'Indiana, au festival de musique nouvelle de l'université d'État de Bowling Green, au symposium international de saxophone du Navy Band et à la conférence de l'American Saxophone Alliance. Kirby s'est également..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554380",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/amelia-mcleod"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/amelia-mcleod"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "AMELIA MCLEOD"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "AMELIA"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "MCLEOD"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Amelia McLeod (elle) est saxophoniste et compositrice à Edmonton, en Alberta. Amelia a obtenu son baccalauréat en musique (saxophone) à l'Université de l'Alberta en 2024, sous la direction de William Street et d'Allison Balcetis. Elle poursuit actuellement une maîtrise en musique à l'Université McGill, à Montréal, sous la direction de Marie-Chantal Leclair."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554400",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/toby-kimura"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/toby-kimura"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "TOBY KIMURA"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "TOBY"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "KIMURA"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Toby Kimura (il/lui) est un saxophoniste canadien d'origine japonaise établi à Montréal, Québec. Inspiré par sa famille, notamment par les peintures de son&nbsp;obaasan et les berceuses de sa mère de Nouvelle-Écosse, Toby vise créer la musique comme une exploration du soi et de l'hybridité culturelle. En tant qu'artiste multiculturel, Toby cherche à réimaginer l'appartenance à travers les idiomes du monde contradictoire et expansif de la musique classique et contemporaine pour saxophone. Dans cette quête, Toby se produit régulièrement en solo et en ensemble et met en valeur..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554420",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/gabrielle-martin"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/gabrielle-martin"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Gabrielle Martin"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Gabrielle"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Martin"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Conservatoire de MontréalComposition"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554440",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/elissa-nakhleh"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/elissa-nakhleh"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Elissa Nakhleh"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Elissa"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Nakhleh"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Elissa a commencé à jouer le piano à l’âge de quatre ans. Elle s’est inscrite au conservatoire Sulhi al Wadi en Syrie, et après avoir obtenu le diplôme avec distinction marquant sa dixième année, elle a continué ses études à l’Institut Supérieur de Musique à Damas dans la classe de Professeure Victoria Snobar. Suivant cela, elle est allée à l’Université McGill à Montréal où elle obtient son baccalauréat en performance de piano dans la classe de Professeure Kyoko Hashimoto en 2022.&nbsp;\r\n\r\nElle a participé à la tournée de Cœur-Joie en France (2016), de Eyad..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g554460",
     "http://schema.org/author": [
       {
-        "@id": "_:g555640"
+        "@id": "_:g554480"
       }
     ],
     "http://schema.org/url": [
@@ -4622,7 +5014,7 @@
     "http://schema.org/lastReviewed": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-13T00:38:51-05:00"
+        "@value": "2026-01-22T11:02:40-05:00"
       }
     ],
     "http://schema.org/datePublished": [
@@ -4634,7 +5026,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-13T00:38:51-05:00"
+        "@value": "2026-01-22T11:02:40-05:00"
       }
     ],
     "@type": [
@@ -4642,7 +5034,7 @@
     ]
   },
   {
-    "@id": "_:g554940",
+    "@id": "_:g553600",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -4684,7 +5076,7 @@
     ]
   },
   {
-    "@id": "_:g555060",
+    "@id": "_:g553720",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -4707,7 +5099,7 @@
     ]
   },
   {
-    "@id": "_:g555280",
+    "@id": "_:g553940",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/nicholas-ma"
@@ -4742,7 +5134,7 @@
     ]
   },
   {
-    "@id": "_:g555320",
+    "@id": "_:g553980",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/sebastien-goulet"
@@ -4777,7 +5169,7 @@
     ]
   },
   {
-    "@id": "_:g555360",
+    "@id": "_:g554020",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/yulin-yan"
@@ -4817,7 +5209,7 @@
     ]
   },
   {
-    "@id": "_:g555400",
+    "@id": "_:g554060",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/gabrielle-martin"
@@ -4852,7 +5244,7 @@
     ]
   },
   {
-    "@id": "_:g555440",
+    "@id": "_:g554100",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/edwin-h-ng"
@@ -4887,7 +5279,7 @@
     ]
   },
   {
-    "@id": "_:g555480",
+    "@id": "_:g554140",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/hannah-barnes"
@@ -4922,7 +5314,7 @@
     ]
   },
   {
-    "@id": "_:g555520",
+    "@id": "_:g554180",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandre-amat"
@@ -4957,7 +5349,7 @@
     ]
   },
   {
-    "@id": "_:g555560",
+    "@id": "_:g554220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/lorenzo-paniconi"
@@ -4992,7 +5384,7 @@
     ]
   },
   {
-    "@id": "_:g555600",
+    "@id": "_:g554260",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/liam-ross-gibson"
@@ -5027,7 +5419,7 @@
     ]
   },
   {
-    "@id": "_:g555640",
+    "@id": "_:g554480",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5038,7 +5430,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g555660"
+        "@id": "_:g554500"
       }
     ],
     "http://schema.org/sameAs": [
@@ -5066,7 +5458,7 @@
     ]
   },
   {
-    "@id": "_:g555660",
+    "@id": "_:g554500",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -5220,65 +5612,65 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g584580"
+        "@id": "_:g586000"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g584620"
+        "@id": "_:g586040"
       },
       {
-        "@id": "_:g584640"
+        "@id": "_:g586060"
       },
       {
-        "@id": "_:g584660"
+        "@id": "_:g586080"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g584680"
+        "@id": "_:g586100"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g584700"
+        "@id": "_:g586120"
       },
       {
-        "@id": "_:g584740"
+        "@id": "_:g586160"
       },
       {
-        "@id": "_:g584760"
+        "@id": "_:g586180"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g584780"
+        "@id": "_:g586200"
       },
       {
-        "@id": "_:g584800"
+        "@id": "_:g586220"
       },
       {
-        "@id": "_:g584820"
+        "@id": "_:g586240"
       },
       {
-        "@id": "_:g584840"
+        "@id": "_:g586260"
       },
       {
-        "@id": "_:g584860"
+        "@id": "_:g586280"
       },
       {
-        "@id": "_:g584880"
+        "@id": "_:g586300"
       },
       {
-        "@id": "_:g584900"
+        "@id": "_:g586320"
       },
       {
-        "@id": "_:g584920"
+        "@id": "_:g586340"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g584940"
+        "@id": "_:g586360"
       }
     ],
     "http://schema.org/name": [
@@ -5301,10 +5693,10 @@
     ]
   },
   {
-    "@id": "_:g584580",
+    "@id": "_:g586000",
     "http://schema.org/address": [
       {
-        "@id": "_:g584600"
+        "@id": "_:g586020"
       }
     ],
     "http://schema.org/latitude": [
@@ -5335,7 +5727,7 @@
     ]
   },
   {
-    "@id": "_:g584620",
+    "@id": "_:g586040",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/supertotem-2-ensemble-supermusique-et-productions-totem-contemporain"
@@ -5364,7 +5756,7 @@
     ]
   },
   {
-    "@id": "_:g584640",
+    "@id": "_:g586060",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/supertotem-2-ensemble-supermusique-et-productions-totem-contemporain"
@@ -5393,7 +5785,7 @@
     ]
   },
   {
-    "@id": "_:g584660",
+    "@id": "_:g586080",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/supertotem-2-ensemble-supermusique-et-productions-totem-contemporain"
@@ -5422,7 +5814,7 @@
     ]
   },
   {
-    "@id": "_:g584680",
+    "@id": "_:g586100",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -5451,7 +5843,7 @@
     ]
   },
   {
-    "@id": "_:g584700",
+    "@id": "_:g586120",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -5462,7 +5854,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g584720"
+        "@id": "_:g586140"
       }
     ],
     "http://schema.org/sameAs": [
@@ -5490,7 +5882,7 @@
     ]
   },
   {
-    "@id": "_:g584740",
+    "@id": "_:g586160",
     "http://schema.org/url": [
       {
         "@id": "http://totemcontemporain.com/"
@@ -5524,7 +5916,7 @@
     ]
   },
   {
-    "@id": "_:g584760",
+    "@id": "_:g586180",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ensemble-supermusique"
@@ -5558,7 +5950,7 @@
     ]
   },
   {
-    "@id": "_:g584780",
+    "@id": "_:g586200",
     "http://schema.org/url": [
       {
         "@id": "http://brahms.ircam.fr/jean-francois-laporte"
@@ -5607,7 +5999,7 @@
     ]
   },
   {
-    "@id": "_:g584800",
+    "@id": "_:g586220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/audreanne-filion"
@@ -5648,7 +6040,7 @@
     ]
   },
   {
-    "@id": "_:g584820",
+    "@id": "_:g586240",
     "http://schema.org/url": [
       {
         "@id": "https://www.emiliegirardcharest.com/"
@@ -5694,7 +6086,7 @@
     ]
   },
   {
-    "@id": "_:g584840",
+    "@id": "_:g586260",
     "http://schema.org/url": [
       {
         "@id": "http://totemcontemporain.com/"
@@ -5728,7 +6120,7 @@
     ]
   },
   {
-    "@id": "_:g584860",
+    "@id": "_:g586280",
     "http://schema.org/url": [
       {
         "@id": "https://jeanderome.com/"
@@ -5777,7 +6169,7 @@
     ]
   },
   {
-    "@id": "_:g584880",
+    "@id": "_:g586300",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/bernard-falaise"
@@ -5818,7 +6210,7 @@
     ]
   },
   {
-    "@id": "_:g584900",
+    "@id": "_:g586320",
     "http://schema.org/url": [
       {
         "@id": "https://actuellecd.com/fr/artiste/hetu_jo/Joane_H%C3%A9tu"
@@ -5867,7 +6259,7 @@
     ]
   },
   {
-    "@id": "_:g584920",
+    "@id": "_:g586340",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ensemble-supermusique"
@@ -5901,10 +6293,10 @@
     ]
   },
   {
-    "@id": "_:g584940",
+    "@id": "_:g586360",
     "http://schema.org/author": [
       {
-        "@id": "_:g584960"
+        "@id": "_:g586380"
       }
     ],
     "http://schema.org/url": [
@@ -5947,7 +6339,7 @@
     ]
   },
   {
-    "@id": "_:g584600",
+    "@id": "_:g586020",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -5989,7 +6381,7 @@
     ]
   },
   {
-    "@id": "_:g584720",
+    "@id": "_:g586140",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -6143,7 +6535,7 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g626960"
+        "@id": "_:g627660"
       }
     ],
     "http://schema.org/foundingDate": [
@@ -6154,7 +6546,7 @@
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g626980"
+        "@id": "_:g627680"
       }
     ],
     "http://schema.org/sameAs": [
@@ -6167,7 +6559,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g627000"
+        "@id": "_:g627700"
       }
     ],
     "http://schema.org/name": [
@@ -6184,7 +6576,7 @@
     ]
   },
   {
-    "@id": "_:g584960",
+    "@id": "_:g586380",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6195,7 +6587,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g584980"
+        "@id": "_:g586400"
       }
     ],
     "http://schema.org/sameAs": [
@@ -6223,7 +6615,7 @@
     ]
   },
   {
-    "@id": "_:g584980",
+    "@id": "_:g586400",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -6377,17 +6769,17 @@
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g608900"
+        "@id": "_:g609900"
       }
     ],
     "http://schema.org/memberOf": [
       {
-        "@id": "_:g608920"
+        "@id": "_:g609920"
       }
     ],
     "http://schema.org/employee": [
       {
-        "@id": "_:g608940"
+        "@id": "_:g609940"
       }
     ],
     "http://schema.org/sameAs": [
@@ -6397,7 +6789,7 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g608960"
+        "@id": "_:g609960"
       }
     ],
     "http://schema.org/name": [
@@ -6414,7 +6806,7 @@
     ]
   },
   {
-    "@id": "_:g608900",
+    "@id": "_:g609900",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -6443,7 +6835,7 @@
     ]
   },
   {
-    "@id": "_:g608920",
+    "@id": "_:g609920",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -6455,7 +6847,7 @@
     ]
   },
   {
-    "@id": "_:g608940",
+    "@id": "_:g609940",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -6473,10 +6865,10 @@
     ]
   },
   {
-    "@id": "_:g608960",
+    "@id": "_:g609960",
     "http://schema.org/author": [
       {
-        "@id": "_:g608980"
+        "@id": "_:g609980"
       }
     ],
     "http://schema.org/url": [
@@ -6519,7 +6911,7 @@
     ]
   },
   {
-    "@id": "_:g608980",
+    "@id": "_:g609980",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6530,7 +6922,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g609000"
+        "@id": "_:g610000"
       }
     ],
     "http://schema.org/sameAs": [
@@ -6558,7 +6950,7 @@
     ]
   },
   {
-    "@id": "_:g609000",
+    "@id": "_:g610000",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -6581,7 +6973,7 @@
     ]
   },
   {
-    "@id": "_:g626960",
+    "@id": "_:g627660",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -6610,7 +7002,7 @@
     ]
   },
   {
-    "@id": "_:g626980",
+    "@id": "_:g627680",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -6622,10 +7014,10 @@
     ]
   },
   {
-    "@id": "_:g627000",
+    "@id": "_:g627700",
     "http://schema.org/author": [
       {
-        "@id": "_:g627020"
+        "@id": "_:g627720"
       }
     ],
     "http://schema.org/url": [
@@ -6668,7 +7060,7 @@
     ]
   },
   {
-    "@id": "_:g627020",
+    "@id": "_:g627720",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -6679,7 +7071,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g627040"
+        "@id": "_:g627740"
       }
     ],
     "http://schema.org/sameAs": [
@@ -6707,7 +7099,7 @@
     ]
   },
   {
-    "@id": "_:g627040",
+    "@id": "_:g627740",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -6770,7 +7162,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-10T15:28:04-05:00"
+        "@value": "2026-01-21T11:44:06-05:00"
       }
     ],
     "place:location:latitude": [
@@ -6848,7 +7240,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-10T15:28:04-05:00"
+        "@value": "2026-01-21T11:44:06-05:00"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6898,7 +7290,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-14T19:26:38-05:00"
+        "@value": "2026-01-22T16:26:00-05:00"
       }
     ],
     "place:location:latitude": [
@@ -6976,7 +7368,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-14T19:26:38-05:00"
+        "@value": "2026-01-22T16:26:00-05:00"
       }
     ],
     "@type": [
@@ -6989,71 +7381,42 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g662180"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "_:g662220"
-      },
-      {
-        "@id": "_:g662240"
-      },
-      {
-        "@id": "_:g662260"
+        "@id": "_:g662360"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g662280"
+        "@id": "_:g662400"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g662300"
+        "@id": "_:g662420"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g662340"
+        "@id": "_:g662460"
       },
       {
-        "@id": "_:g662360"
+        "@id": "_:g662480"
       },
       {
-        "@id": "_:g662380"
+        "@id": "_:g662500"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g662400"
-      },
-      {
-        "@id": "_:g662440"
-      },
-      {
-        "@id": "_:g662480"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
         "@id": "_:g662520"
-      },
-      {
-        "@id": "_:g662540"
       },
       {
         "@id": "_:g662560"
       },
       {
-        "@id": "_:g662580"
-      },
-      {
         "@id": "_:g662600"
-      },
-      {
-        "@id": "_:g662620"
-      },
+      }
+    ],
+    "http://schema.org/performer": [
       {
         "@id": "_:g662640"
       },
@@ -7062,11 +7425,29 @@
       },
       {
         "@id": "_:g662680"
+      },
+      {
+        "@id": "_:g662700"
+      },
+      {
+        "@id": "_:g662720"
+      },
+      {
+        "@id": "_:g662740"
+      },
+      {
+        "@id": "_:g662760"
+      },
+      {
+        "@id": "_:g662780"
+      },
+      {
+        "@id": "_:g662800"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g662700"
+        "@id": "_:g662820"
       }
     ],
     "http://schema.org/name": [
@@ -7089,10 +7470,10 @@
     ]
   },
   {
-    "@id": "_:g662180",
+    "@id": "_:g662360",
     "http://schema.org/address": [
       {
-        "@id": "_:g662200"
+        "@id": "_:g662380"
       }
     ],
     "http://schema.org/latitude": [
@@ -7123,94 +7504,7 @@
     ]
   },
   {
-    "@id": "_:g662220",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.tuxedobillet.com/levivier/contrechamps-et-mcgill-contemporary-music-ensemble-definir-lespace"
-      }
-    ],
-    "http://schema.org/category": [
-      {
-        "@language": "fr",
-        "@value": "Billet solidaire&nbsp;"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "fr",
-        "@value": "45"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Offer"
-    ]
-  },
-  {
-    "@id": "_:g662240",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.tuxedobillet.com/levivier/contrechamps-et-mcgill-contemporary-music-ensemble-definir-lespace"
-      }
-    ],
-    "http://schema.org/category": [
-      {
-        "@language": "fr",
-        "@value": "Billet régulier"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "fr",
-        "@value": "35"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Offer"
-    ]
-  },
-  {
-    "@id": "_:g662260",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.tuxedobillet.com/levivier/contrechamps-et-mcgill-contemporary-music-ensemble-definir-lespace"
-      }
-    ],
-    "http://schema.org/category": [
-      {
-        "@language": "fr",
-        "@value": "Tarif réduit"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "fr",
-        "@value": "25"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Offer"
-    ]
-  },
-  {
-    "@id": "_:g662280",
+    "@id": "_:g662400",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -7239,7 +7533,7 @@
     ]
   },
   {
-    "@id": "_:g662300",
+    "@id": "_:g662420",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -7250,7 +7544,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g662320"
+        "@id": "_:g662440"
       }
     ],
     "http://schema.org/sameAs": [
@@ -7278,7 +7572,7 @@
     ]
   },
   {
-    "@id": "_:g662340",
+    "@id": "_:g662460",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/sointu-aalto"
@@ -7324,7 +7618,7 @@
     ]
   },
   {
-    "@id": "_:g662360",
+    "@id": "_:g662480",
     "http://schema.org/url": [
       {
         "@id": "http://www.naomipinnock.co.uk/"
@@ -7370,7 +7664,7 @@
     ]
   },
   {
-    "@id": "_:g662380",
+    "@id": "_:g662500",
     "http://schema.org/url": [
       {
         "@id": "https://www.chiyokoszlavnics.org/"
@@ -7416,7 +7710,7 @@
     ]
   },
   {
-    "@id": "_:g662400",
+    "@id": "_:g662520",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/dream-water"
@@ -7430,7 +7724,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g662420"
+        "@id": "_:g662540"
       }
     ],
     "http://schema.org/name": [
@@ -7450,7 +7744,7 @@
     ]
   },
   {
-    "@id": "_:g662440",
+    "@id": "_:g662560",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/everything-changes"
@@ -7464,7 +7758,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g662460"
+        "@id": "_:g662580"
       }
     ],
     "http://schema.org/name": [
@@ -7484,7 +7778,7 @@
     ]
   },
   {
-    "@id": "_:g662480",
+    "@id": "_:g662600",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/oracles-i-v"
@@ -7498,7 +7792,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g662500"
+        "@id": "_:g662620"
       }
     ],
     "http://schema.org/name": [
@@ -7518,7 +7812,7 @@
     ]
   },
   {
-    "@id": "_:g662520",
+    "@id": "_:g662640",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/susanne-peters"
@@ -7564,7 +7858,7 @@
     ]
   },
   {
-    "@id": "_:g662540",
+    "@id": "_:g662660",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/laurent-bruttin"
@@ -7605,7 +7899,7 @@
     ]
   },
   {
-    "@id": "_:g662560",
+    "@id": "_:g662680",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/charles-pierron"
@@ -7646,7 +7940,7 @@
     ]
   },
   {
-    "@id": "_:g662580",
+    "@id": "_:g662700",
     "http://schema.org/url": [
       {
         "@id": "https://simonaeschimann.ch"
@@ -7695,7 +7989,7 @@
     ]
   },
   {
-    "@id": "_:g662600",
+    "@id": "_:g662720",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/hans-egidi"
@@ -7736,7 +8030,7 @@
     ]
   },
   {
-    "@id": "_:g662620",
+    "@id": "_:g662740",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/martina-brodbeck"
@@ -7777,7 +8071,7 @@
     ]
   },
   {
-    "@id": "_:g662640",
+    "@id": "_:g662760",
     "http://schema.org/url": [
       {
         "@id": "https://www.contrechamps.ch/fr"
@@ -7823,7 +8117,7 @@
     ]
   },
   {
-    "@id": "_:g662660",
+    "@id": "_:g662780",
     "http://schema.org/url": [
       {
         "@id": "https://www.melanieleonard.ca/"
@@ -7875,7 +8169,7 @@
     ]
   },
   {
-    "@id": "_:g662680",
+    "@id": "_:g662800",
     "http://schema.org/url": [
       {
         "@id": "https://www.mcgill.ca/music/ensembles/orchestras/mcgill-contemporary-music-ensemble"
@@ -7909,10 +8203,10 @@
     ]
   },
   {
-    "@id": "_:g662700",
+    "@id": "_:g662820",
     "http://schema.org/author": [
       {
-        "@id": "_:g662720"
+        "@id": "_:g662840"
       }
     ],
     "http://schema.org/url": [
@@ -7935,7 +8229,7 @@
     "http://schema.org/lastReviewed": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-12-14T19:26:38-05:00"
+        "@value": "2026-01-22T16:26:00-05:00"
       }
     ],
     "http://schema.org/datePublished": [
@@ -7947,7 +8241,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-12-14T19:26:38-05:00"
+        "@value": "2026-01-22T16:26:00-05:00"
       }
     ],
     "@type": [
@@ -7955,7 +8249,7 @@
     ]
   },
   {
-    "@id": "_:g662200",
+    "@id": "_:g662380",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -7997,7 +8291,7 @@
     ]
   },
   {
-    "@id": "_:g662320",
+    "@id": "_:g662440",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -8020,7 +8314,7 @@
     ]
   },
   {
-    "@id": "_:g662420",
+    "@id": "_:g662540",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/sointu-aalto"
@@ -8060,7 +8354,7 @@
     ]
   },
   {
-    "@id": "_:g662460",
+    "@id": "_:g662580",
     "http://schema.org/url": [
       {
         "@id": "http://www.naomipinnock.co.uk/"
@@ -8100,7 +8394,7 @@
     ]
   },
   {
-    "@id": "_:g662500",
+    "@id": "_:g662620",
     "http://schema.org/url": [
       {
         "@id": "https://www.chiyokoszlavnics.org/"
@@ -8140,7 +8434,7 @@
     ]
   },
   {
-    "@id": "_:g662720",
+    "@id": "_:g662840",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -8151,7 +8445,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g662740"
+        "@id": "_:g662860"
       }
     ],
     "http://schema.org/sameAs": [
@@ -8179,7 +8473,7 @@
     ]
   },
   {
-    "@id": "_:g662740",
+    "@id": "_:g662860",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -8230,7 +8524,7 @@
     "https://ogp.me/ns#description": [
       {
         "@language": "fr",
-        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement.Alexandra Templier est une artiste vocale pluridisciplinaire. Sa démarche allie recherche théorique et exploration incarnée de la voix, du flamenco aux traditions vocales indiennes, en passant par la musique improvisée, ainsi que le corps en mouvement. Lauréate du festival Suma Flamenca (Madrid) et finaliste du Prix de la diversité en musique de Montréal, elle a présenté ses projets au Canada et à l’international. Soutenue par les principaux conseils des arts, elle développe des créations pluridisciplinaires autour de la résonance et de l’expérience contemporaine du sacré, tout en collaborant régulièrement avec des compagnies de danse contemporaine."
+        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement.Alexandra Templier est une artiste vocale pluridisciplinaire. Sa démarche allie recherche théorique et exploration incarnée de la voix, du flamenco aux traditions vocales indiennes, en passant par la musique improvisée, ainsi que le corps en mouvement. Lauréate du festival Suma Flamenca (Madrid) et finaliste du Prix de la diversité en musique de Montréal, elle a présenté ses projets au Canada et à l’international. Soutenue par les principaux conseils des arts, elle développe des créations pluridisciplinaires autour de la résonance et de l’expérience contemporaine du sacré, tout en collaborant régulièrement avec des compagnies de danse contemporaine.Avant-première"
       }
     ],
     "https://ogp.me/ns#image": [
@@ -8242,7 +8536,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-16T16:05:22-05:00"
+        "@value": "2026-01-26T21:24:31-05:00"
       }
     ],
     "place:location:latitude": [
@@ -8320,7 +8614,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2026-01-16T16:05:22-05:00"
+        "@value": "2026-01-26T21:24:31-05:00"
       }
     ],
     "@type": [
@@ -8347,84 +8641,93 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g689720"
+        "@id": "_:g688760"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g689760"
+        "@id": "_:g688800"
       },
       {
-        "@id": "_:g689780"
+        "@id": "_:g688820"
       },
       {
-        "@id": "_:g689800"
+        "@id": "_:g688840"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "_:g689820"
+        "@id": "_:g688860"
       }
     ],
     "http://schema.org/organizer": [
       {
-        "@id": "_:g689840"
+        "@id": "_:g688880"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g689880"
+        "@id": "_:g688920"
       },
       {
-        "@id": "_:g689900"
+        "@id": "_:g688940"
       }
     ],
     "http://schema.org/workPerformed": [
       {
-        "@id": "_:g689920"
+        "@id": "_:g688960"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "_:g689980"
+        "@id": "_:g689020"
       },
       {
-        "@id": "_:g690000"
+        "@id": "_:g689040"
       },
       {
-        "@id": "_:g690020"
+        "@id": "_:g689060"
       },
       {
-        "@id": "_:g690040"
+        "@id": "_:g689080"
       },
       {
-        "@id": "_:g690060"
+        "@id": "_:g689100"
       },
       {
-        "@id": "_:g690080"
+        "@id": "_:g689120"
       },
       {
-        "@id": "_:g690100"
+        "@id": "_:g689140"
       },
       {
-        "@id": "_:g690120"
+        "@id": "_:g689160"
       },
       {
-        "@id": "_:g690140"
+        "@id": "_:g689180"
       },
       {
-        "@id": "_:g690160"
+        "@id": "_:g689200"
       },
       {
-        "@id": "_:g690180"
+        "@id": "_:g689220"
       },
       {
-        "@id": "_:g690200"
+        "@id": "_:g689240"
+      },
+      {
+        "@id": "_:g689260"
+      },
+      {
+        "@id": "_:g689280"
+      },
+      {
+        "@id": "_:g689300"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g690220"
+        "@id": "_:g689320"
       }
     ],
     "http://schema.org/name": [
@@ -8436,15 +8739,15 @@
     "http://schema.org/description": [
       {
         "@language": "fr",
-        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement.Alexandra Templier est une artiste vocale pluridisciplinaire. Sa démarche allie recherche théorique et exploration incarnée de la voix, du flamenco aux traditions vocales indiennes, en passant par la musique improvisée, ainsi que le corps en mouvement. Lauréate du festival Suma Flamenca (Madrid) et finaliste du Prix de la diversité en musique de Montréal, elle a présenté ses projets au Canada et à l’international. Soutenue par les principaux conseils des arts, elle développe des créations pluridisciplinaires autour de la résonance et de l’expérience contemporaine du sacré, tout en collaborant régulièrement avec des compagnies de danse contemporaine."
+        "@value": "Expérience immersive, musique improvisée (voix et électroacoustique), danse, arts visuelsLe Murmure du Vivant est un écosystème pluridisciplinaire où le son, le mouvement et le visuel se tissent de façon organique pour convier le public à une expérience transformative: écouter autrement pour penser autrement.Alexandra Templier est une artiste vocale pluridisciplinaire. Sa démarche allie recherche théorique et exploration incarnée de la voix, du flamenco aux traditions vocales indiennes, en passant par la musique improvisée, ainsi que le corps en mouvement. Lauréate du festival Suma Flamenca (Madrid) et finaliste du Prix de la diversité en musique de Montréal, elle a présenté ses projets au Canada et à l’international. Soutenue par les principaux conseils des arts, elle développe des créations pluridisciplinaires autour de la résonance et de l’expérience contemporaine du sacré, tout en collaborant régulièrement avec des compagnies de danse contemporaine.Avant-première"
       }
     ]
   },
   {
-    "@id": "_:g689720",
+    "@id": "_:g688760",
     "http://schema.org/address": [
       {
-        "@id": "_:g689740"
+        "@id": "_:g688780"
       }
     ],
     "http://schema.org/latitude": [
@@ -8462,7 +8765,7 @@
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Espace Ste-Hilda 6341 Av. De Lorimier"
+        "@value": "Sainte-Hilda"
       }
     ],
     "@type": [
@@ -8470,7 +8773,7 @@
     ]
   },
   {
-    "@id": "_:g689760",
+    "@id": "_:g688800",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/alexandra-templier-chant-2-le-murmure-du-vivant"
@@ -8499,7 +8802,7 @@
     ]
   },
   {
-    "@id": "_:g689780",
+    "@id": "_:g688820",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/alexandra-templier-chant-2-le-murmure-du-vivant"
@@ -8528,7 +8831,7 @@
     ]
   },
   {
-    "@id": "_:g689800",
+    "@id": "_:g688840",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/alexandra-templier-chant-2-le-murmure-du-vivant"
@@ -8557,7 +8860,7 @@
     ]
   },
   {
-    "@id": "_:g689820",
+    "@id": "_:g688860",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -8586,7 +8889,7 @@
     ]
   },
   {
-    "@id": "_:g689840",
+    "@id": "_:g688880",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -8597,7 +8900,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g689860"
+        "@id": "_:g688900"
       }
     ],
     "http://schema.org/sameAs": [
@@ -8625,7 +8928,7 @@
     ]
   },
   {
-    "@id": "_:g689880",
+    "@id": "_:g688920",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandra-templier"
@@ -8677,7 +8980,7 @@
     ]
   },
   {
-    "@id": "_:g689900",
+    "@id": "_:g688940",
     "http://schema.org/url": [
       {
         "@id": "https://vanessamassera.com/"
@@ -8726,7 +9029,7 @@
     ]
   },
   {
-    "@id": "_:g689920",
+    "@id": "_:g688960",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/chant-2-le-murmure-du-vivant"
@@ -8735,15 +9038,15 @@
     "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025"
+        "@value": "2026"
       }
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g689940"
+        "@id": "_:g688980"
       },
       {
-        "@id": "_:g689960"
+        "@id": "_:g689000"
       }
     ],
     "http://schema.org/name": [
@@ -8763,7 +9066,7 @@
     ]
   },
   {
-    "@id": "_:g689980",
+    "@id": "_:g689020",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandra-templier"
@@ -8815,7 +9118,7 @@
     ]
   },
   {
-    "@id": "_:g690000",
+    "@id": "_:g689040",
     "http://schema.org/url": [
       {
         "@id": "https://vanessamassera.com/"
@@ -8864,45 +9167,40 @@
     ]
   },
   {
-    "@id": "_:g690020",
+    "@id": "_:g689060",
     "http://schema.org/url": [
       {
-        "@id": "http://dremeka.com/accueil/"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://dremeka.com/accueil/"
+        "@id": "https://levivier.ca/fr/artistes/helene-messier"
       }
     ],
     "http://schema.org/identifier": [
       {
         "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/membres/individus/pierre-luc-senecal"
+        "@value": "https://levivier.ca/fr/artistes/helene-messier"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Pierre-Luc Senécal"
+        "@value": "Hélène Messier"
       }
     ],
     "http://schema.org/givenName": [
       {
         "@language": "fr",
-        "@value": "Pierre-Luc"
+        "@value": "Hélène "
       }
     ],
     "http://schema.org/familyName": [
       {
         "@language": "fr",
-        "@value": "Senécal"
+        "@value": "Messier "
       }
     ],
     "http://schema.org/description": [
       {
         "@language": "fr",
-        "@value": "Pierre-Luc Senécal est connu pour sa curiosité et sa passion invétérée pour le son. Compositeur et artiste sonore touche-à-tout, il réalise autant de la musique électroacoustique que des trames sonores pour la danse, le théâtre et le film. Profondément inspiré par les musiques rock, pop et heavy métal, il insuffle dans ses pièces électroniques sa sensibilité pour le lyrisme, le poétique ainsi qu’une énergie débordante. Sa pièce Urban Gardens a remporté le 3e prix JTTP 2017, le 3e prix SIME 2018 et été présentée au MA/IN Festival 2017. Sa musique a aussi été..."
+        "@value": "Hélène Messier a reçu son entraînement butō, principalement de Mario Veillette, en plus des professeurs suivants: Denyse Fujiwara, Paul Ibey, Jocelyne Montpetit, Yoshito, Ohno, Diego Pinon, Martine Viale et Yumiko Yoshioka. Elle a été interprète pour Mario Veillette, Katia-Marie Germain, ainsi que pour Ample Man Danse. Elle a également collaboré à plusieurs reprises avec Manuel Shink et Clarisse Delatour.Hélène est diplômée d'une maîtrise à l’UQAM où elle a étudié la relation entre la présence attentive aux impulsions internes et l’expérience du spirituel dans sa pratique en danse butō. Parallèlement, elle pratique la méditation pleine conscience depuis une dizaine d’année, en plus de pratiquer le modèle vivant depuis quatre ans. Ces pratiques font intrinsèquement partie de sa démarche artistique, nourrissant profondément sa quête spirituelle."
       }
     ],
     "@type": [
@@ -8910,7 +9208,48 @@
     ]
   },
   {
-    "@id": "_:g690040",
+    "@id": "_:g689080",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/marijoe-foucher"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/marijoe-foucher"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Marijoe Foucher"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Marijoe"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Foucher"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Marijoe&nbsp;Foucher est diplômée&nbsp;au&nbsp;Baccalauréat en&nbsp;danse&nbsp;contemporaine de l’UQAM (2013).&nbsp;Dès sa sortie, elle développe sa pratique d’interprète aux&nbsp;côtés&nbsp;de&nbsp;plusieurs chorégraphes, dont Emmanuel&nbsp;Jouthe, Anne-Flore de Rochambeau, Claudia Chan Tak et Philippe&nbsp;Dandonneau.&nbsp;Ces collaborations&nbsp;l’amènent&nbsp;à performer&nbsp;lors de&nbsp;différents&nbsp;festivals au Québec et à l’étranger.&nbsp;Ayant un fort intérêt pour l’interdisciplinarité et la dramaturgie,&nbsp;Marijoe&nbsp;accompagne des créateurs émergents&nbsp;comme œil extérieur&nbsp;dans le milieu de la danse et du théâtre. Elle s’implique également au sein du collectif&nbsp;Dans son salon comme interprète et répétitrice, et participe&nbsp;à&nbsp;&nbsp;la&nbsp;création d’œuvres de vidéodanse."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g689100",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/audrey-bergeron"
@@ -8956,7 +9295,7 @@
     ]
   },
   {
-    "@id": "_:g690060",
+    "@id": "_:g689120",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ariane-dube-lavigne"
@@ -8997,89 +9336,7 @@
     ]
   },
   {
-    "@id": "_:g690080",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/artistes/marijoe-foucher"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/marijoe-foucher"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Marijoe Foucher"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Marijoe"
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Foucher"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Marijoe&nbsp;Foucher est diplômée&nbsp;au&nbsp;Baccalauréat en&nbsp;danse&nbsp;contemporaine de l’UQAM (2013).&nbsp;Dès sa sortie, elle développe sa pratique d’interprète aux&nbsp;côtés&nbsp;de&nbsp;plusieurs chorégraphes, dont Emmanuel&nbsp;Jouthe, Anne-Flore de Rochambeau, Claudia Chan Tak et Philippe&nbsp;Dandonneau.&nbsp;Ces collaborations&nbsp;l’amènent&nbsp;à performer&nbsp;lors de&nbsp;différents&nbsp;festivals au Québec et à l’étranger.&nbsp;Ayant un fort intérêt pour l’interdisciplinarité et la dramaturgie,&nbsp;Marijoe&nbsp;accompagne des créateurs émergents&nbsp;comme œil extérieur&nbsp;dans le milieu de la danse et du théâtre. Elle s’implique également au sein du collectif&nbsp;Dans son salon comme interprète et répétitrice, et participe&nbsp;à&nbsp;&nbsp;la&nbsp;création d’œuvres de vidéodanse."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g690100",
-    "http://schema.org/url": [
-      {
-        "@id": "https://levivier.ca/fr/artistes/helene-messier"
-      }
-    ],
-    "http://schema.org/identifier": [
-      {
-        "@language": "fr",
-        "@value": "https://levivier.ca/fr/artistes/helene-messier"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Hélène Messier"
-      }
-    ],
-    "http://schema.org/givenName": [
-      {
-        "@language": "fr",
-        "@value": "Hélène "
-      }
-    ],
-    "http://schema.org/familyName": [
-      {
-        "@language": "fr",
-        "@value": "Messier "
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Hélène Messier a reçu son entraînement butō, principalement de Mario Veillette, en plus des professeurs suivants: Denyse Fujiwara, Paul Ibey, Jocelyne Montpetit, Yoshito, Ohno, Diego Pinon, Martine Viale et Yumiko Yoshioka. Elle a été interprète pour Mario Veillette, Katia-Marie Germain, ainsi que pour Ample Man Danse. Elle a également collaboré à plusieurs reprises avec Manuel Shink et Clarisse Delatour.Hélène est diplômée d'une maîtrise à l’UQAM où elle a étudié la relation entre la présence attentive aux impulsions internes et l’expérience du spirituel dans sa pratique en danse butō. Parallèlement, elle pratique la méditation pleine conscience depuis une dizaine d’année, en plus de pratiquer le modèle vivant depuis quatre ans. Ces pratiques font intrinsèquement partie de sa démarche artistique, nourrissant profondément sa quête spirituelle."
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "_:g690120",
+    "@id": "_:g689140",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/ricardo-morejon"
@@ -9120,7 +9377,7 @@
     ]
   },
   {
-    "@id": "_:g690140",
+    "@id": "_:g689160",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/marie-helene-bellavance"
@@ -9161,7 +9418,7 @@
     ]
   },
   {
-    "@id": "_:g690160",
+    "@id": "_:g689180",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/josiane-leblanc"
@@ -9202,7 +9459,7 @@
     ]
   },
   {
-    "@id": "_:g690180",
+    "@id": "_:g689200",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/annie-gagnon"
@@ -9243,7 +9500,7 @@
     ]
   },
   {
-    "@id": "_:g690200",
+    "@id": "_:g689220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/andree-martin"
@@ -9284,10 +9541,167 @@
     ]
   },
   {
-    "@id": "_:g690220",
+    "@id": "_:g689240",
+    "http://schema.org/url": [
+      {
+        "@id": "http://dremeka.com/accueil/"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://dremeka.com/accueil/"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/membres/individus/pierre-luc-senecal"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Pierre-Luc Senécal"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Pierre-Luc"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Senécal"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Pierre-Luc Senécal est connu pour sa curiosité et sa passion invétérée pour le son. Compositeur et artiste sonore touche-à-tout, il réalise autant de la musique électroacoustique que des trames sonores pour la danse, le théâtre et le film. Profondément inspiré par les musiques rock, pop et heavy métal, il insuffle dans ses pièces électroniques sa sensibilité pour le lyrisme, le poétique ainsi qu’une énergie débordante. Sa pièce Urban Gardens a remporté le 3e prix JTTP 2017, le 3e prix SIME 2018 et été présentée au MA/IN Festival 2017. Sa musique a aussi été..."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g689260",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/philippe-depelteau"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/philippe-depelteau"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Philippe Dépelteau"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Philippe"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Dépelteau"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Basé à Montréal (Québec, Canada), Philippe Dépelteau travaille comme danseur, performeur et collaborateur en arts vivants. Habité d’un geste habile et pur, il communique une danse à la fois sensible et réfléchie. Sa curiosité envers l’humain le mène à l’École de danse contemporaine de Montréal (2017-2020). Il aura le privilège d’y rencontrer Linda Rabin, Marc Boivin, Jamie Wright, Laura Toma, Peter Jasko et Andrew Harwood, ainsi que de collaborer avec les chorégraphes Clara Furey et Frédérick Gravel. Investi dans les liens qu’il tisse, il entame plusieurs collaborations artistiques dès sa sortie de l’EDCM.Héritier volontaire du petit prince de Saint-Exupéry, Philippe se laisse voyager par ses questionnements perpétuels, aussi essentiels qu’abstraits. Il s’engage donc intuitivement dans des recherches documentaires à portée sociale, environnementale, philosophique et identitaire. Avec son regard bienveillant sur la complexité du monde, il souhaite que le corps puisse évoquer de nouveaux rêves de société. Philippe se sent libre dans les structures malléables et les collaborations lui révèlent d’infinies possibilités."
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g689280",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/ariane-boulet"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/ariane-boulet"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Ariane Boulet"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Ariane "
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Boulet"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g689300",
+    "http://schema.org/url": [
+      {
+        "@id": "https://levivier.ca/fr/artistes/caroline-plante"
+      }
+    ],
+    "http://schema.org/identifier": [
+      {
+        "@language": "fr",
+        "@value": "https://levivier.ca/fr/artistes/caroline-plante"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Caroline Planté"
+      }
+    ],
+    "http://schema.org/givenName": [
+      {
+        "@language": "fr",
+        "@value": "Caroline"
+      }
+    ],
+    "http://schema.org/familyName": [
+      {
+        "@language": "fr",
+        "@value": "Planté"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "_:g689320",
     "http://schema.org/author": [
       {
-        "@id": "_:g690240"
+        "@id": "_:g689340"
       }
     ],
     "http://schema.org/url": [
@@ -9310,7 +9724,7 @@
     "http://schema.org/lastReviewed": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-16T16:05:22-05:00"
+        "@value": "2026-01-26T21:24:31-05:00"
       }
     ],
     "http://schema.org/datePublished": [
@@ -9322,7 +9736,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-01-16T16:05:22-05:00"
+        "@value": "2026-01-26T21:24:31-05:00"
       }
     ],
     "@type": [
@@ -9330,11 +9744,11 @@
     ]
   },
   {
-    "@id": "_:g689740",
+    "@id": "_:g688780",
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Espace Ste-Hilda 6341 Av. De Lorimier"
+        "@value": "Sainte-Hilda"
       }
     ],
     "http://schema.org/addressCountry": [
@@ -9372,7 +9786,7 @@
     ]
   },
   {
-    "@id": "_:g689860",
+    "@id": "_:g688900",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -9395,7 +9809,7 @@
     ]
   },
   {
-    "@id": "_:g689940",
+    "@id": "_:g688980",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexandra-templier"
@@ -9441,7 +9855,7 @@
     ]
   },
   {
-    "@id": "_:g689960",
+    "@id": "_:g689000",
     "http://schema.org/url": [
       {
         "@id": "https://vanessamassera.com/"
@@ -9484,7 +9898,7 @@
     ]
   },
   {
-    "@id": "_:g690240",
+    "@id": "_:g689340",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -9495,7 +9909,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g690260"
+        "@id": "_:g689360"
       }
     ],
     "http://schema.org/sameAs": [
@@ -9523,7 +9937,7 @@
     ]
   },
   {
-    "@id": "_:g690260",
+    "@id": "_:g689360",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -9586,7 +10000,7 @@
     "https://ogp.me/ns#updated_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-10T21:50:19-05:00"
+        "@value": "2026-01-20T13:25:26-05:00"
       }
     ],
     "place:location:latitude": [
@@ -9664,7 +10078,7 @@
     "article:modified_time": [
       {
         "@language": "fr",
-        "@value": "2025-12-10T21:50:19-05:00"
+        "@value": "2026-01-20T13:25:26-05:00"
       }
     ],
     "@type": [
@@ -9677,31 +10091,68 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g717420"
+        "@id": "_:g717140"
       }
     ],
     "http://schema.org/offers": [
       {
-        "@id": "_:g717460"
+        "@id": "_:g717180"
       },
+      {
+        "@id": "_:g717200"
+      },
+      {
+        "@id": "_:g717220"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "_:g717240"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "_:g717260"
+      }
+    ],
+    "http://schema.org/composer": [
+      {
+        "@id": "_:g717300"
+      },
+      {
+        "@id": "_:g717320"
+      },
+      {
+        "@id": "_:g717340"
+      }
+    ],
+    "http://schema.org/workPerformed": [
+      {
+        "@id": "_:g717360"
+      },
+      {
+        "@id": "_:g717400"
+      },
+      {
+        "@id": "_:g717440"
+      }
+    ],
+    "http://schema.org/performer": [
       {
         "@id": "_:g717480"
       },
       {
         "@id": "_:g717500"
-      }
-    ],
-    "http://schema.org/image": [
+      },
       {
         "@id": "_:g717520"
-      }
-    ],
-    "http://schema.org/organizer": [
+      },
       {
         "@id": "_:g717540"
-      }
-    ],
-    "http://schema.org/composer": [
+      },
+      {
+        "@id": "_:g717560"
+      },
       {
         "@id": "_:g717580"
       },
@@ -9710,63 +10161,26 @@
       },
       {
         "@id": "_:g717620"
-      }
-    ],
-    "http://schema.org/workPerformed": [
+      },
       {
         "@id": "_:g717640"
+      },
+      {
+        "@id": "_:g717660"
       },
       {
         "@id": "_:g717680"
       },
       {
+        "@id": "_:g717700"
+      },
+      {
         "@id": "_:g717720"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "_:g717760"
-      },
-      {
-        "@id": "_:g717780"
-      },
-      {
-        "@id": "_:g717800"
-      },
-      {
-        "@id": "_:g717820"
-      },
-      {
-        "@id": "_:g717840"
-      },
-      {
-        "@id": "_:g717860"
-      },
-      {
-        "@id": "_:g717880"
-      },
-      {
-        "@id": "_:g717900"
-      },
-      {
-        "@id": "_:g717920"
-      },
-      {
-        "@id": "_:g717940"
-      },
-      {
-        "@id": "_:g717960"
-      },
-      {
-        "@id": "_:g717980"
-      },
-      {
-        "@id": "_:g718000"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "_:g718020"
+        "@id": "_:g717740"
       }
     ],
     "http://schema.org/name": [
@@ -9784,15 +10198,15 @@
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-03-01T23:00:00-05:00"
+        "@value": "2026-03-02T00:30:00-05:00"
       }
     ]
   },
   {
-    "@id": "_:g717420",
+    "@id": "_:g717140",
     "http://schema.org/address": [
       {
-        "@id": "_:g717440"
+        "@id": "_:g717160"
       }
     ],
     "http://schema.org/name": [
@@ -9806,7 +10220,7 @@
     ]
   },
   {
-    "@id": "_:g717460",
+    "@id": "_:g717180",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/architek-percussion-et-contrechamps-kino-sonique"
@@ -9835,7 +10249,7 @@
     ]
   },
   {
-    "@id": "_:g717480",
+    "@id": "_:g717200",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/architek-percussion-et-contrechamps-kino-sonique"
@@ -9864,7 +10278,7 @@
     ]
   },
   {
-    "@id": "_:g717500",
+    "@id": "_:g717220",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.tuxedobillet.com/levivier/architek-percussion-et-contrechamps-kino-sonique"
@@ -9893,7 +10307,7 @@
     ]
   },
   {
-    "@id": "_:g717520",
+    "@id": "_:g717240",
     "http://schema.org/representativeOfPage": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -9922,7 +10336,7 @@
     ]
   },
   {
-    "@id": "_:g717540",
+    "@id": "_:g717260",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -9933,7 +10347,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g717560"
+        "@id": "_:g717280"
       }
     ],
     "http://schema.org/sameAs": [
@@ -9961,7 +10375,7 @@
     ]
   },
   {
-    "@id": "_:g717580",
+    "@id": "_:g717300",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/daniel-zea"
@@ -10002,7 +10416,7 @@
     ]
   },
   {
-    "@id": "_:g717600",
+    "@id": "_:g717320",
     "http://schema.org/url": [
       {
         "@id": "http://www.nicolelizee.com/"
@@ -10060,7 +10474,7 @@
     ]
   },
   {
-    "@id": "_:g717620",
+    "@id": "_:g717340",
     "http://schema.org/url": [
       {
         "@id": "https://alexandrebabel.com/"
@@ -10106,7 +10520,7 @@
     ]
   },
   {
-    "@id": "_:g717640",
+    "@id": "_:g717360",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/autorretrato-extendido"
@@ -10120,7 +10534,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g717660"
+        "@id": "_:g717380"
       }
     ],
     "http://schema.org/name": [
@@ -10146,7 +10560,7 @@
     ]
   },
   {
-    "@id": "_:g717680",
+    "@id": "_:g717400",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/nouvelle-oeuvre-6"
@@ -10160,7 +10574,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g717700"
+        "@id": "_:g717420"
       }
     ],
     "http://schema.org/name": [
@@ -10186,7 +10600,7 @@
     ]
   },
   {
-    "@id": "_:g717720",
+    "@id": "_:g717440",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/le-vivier/repertoire/brown-gardener"
@@ -10200,7 +10614,7 @@
     ],
     "http://schema.org/composer": [
       {
-        "@id": "_:g717740"
+        "@id": "_:g717460"
       }
     ],
     "http://schema.org/name": [
@@ -10226,7 +10640,7 @@
     ]
   },
   {
-    "@id": "_:g717760",
+    "@id": "_:g717480",
     "http://schema.org/url": [
       {
         "@id": "https://www.benduinker.com/"
@@ -10272,7 +10686,7 @@
     ]
   },
   {
-    "@id": "_:g717780",
+    "@id": "_:g717500",
     "http://schema.org/url": [
       {
         "@id": "http://www.noambierstone.com/index.php/fr/"
@@ -10327,7 +10741,7 @@
     ]
   },
   {
-    "@id": "_:g717800",
+    "@id": "_:g717520",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/alexander-haupt"
@@ -10368,7 +10782,7 @@
     ]
   },
   {
-    "@id": "_:g717820",
+    "@id": "_:g717540",
     "http://schema.org/url": [
       {
         "@id": "http://alessandrovaliante.com/"
@@ -10423,7 +10837,7 @@
     ]
   },
   {
-    "@id": "_:g717840",
+    "@id": "_:g717560",
     "http://schema.org/url": [
       {
         "@id": "https://www.architekpercussion.com/"
@@ -10469,7 +10883,7 @@
     ]
   },
   {
-    "@id": "_:g717860",
+    "@id": "_:g717580",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/daniel-zea"
@@ -10510,7 +10924,7 @@
     ]
   },
   {
-    "@id": "_:g717880",
+    "@id": "_:g717600",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/susanne-peters"
@@ -10556,7 +10970,7 @@
     ]
   },
   {
-    "@id": "_:g717900",
+    "@id": "_:g717620",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/laurent-bruttin"
@@ -10597,7 +11011,7 @@
     ]
   },
   {
-    "@id": "_:g717920",
+    "@id": "_:g717640",
     "http://schema.org/url": [
       {
         "@id": "https://simonaeschimann.ch"
@@ -10646,7 +11060,7 @@
     ]
   },
   {
-    "@id": "_:g717940",
+    "@id": "_:g717660",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/charles-pierron"
@@ -10687,7 +11101,7 @@
     ]
   },
   {
-    "@id": "_:g717960",
+    "@id": "_:g717680",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/hans-egidi"
@@ -10728,7 +11142,7 @@
     ]
   },
   {
-    "@id": "_:g717980",
+    "@id": "_:g717700",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/martina-brodbeck"
@@ -10769,7 +11183,7 @@
     ]
   },
   {
-    "@id": "_:g718000",
+    "@id": "_:g717720",
     "http://schema.org/url": [
       {
         "@id": "https://www.contrechamps.ch/fr"
@@ -10815,10 +11229,10 @@
     ]
   },
   {
-    "@id": "_:g718020",
+    "@id": "_:g717740",
     "http://schema.org/author": [
       {
-        "@id": "_:g718040"
+        "@id": "_:g717760"
       }
     ],
     "http://schema.org/url": [
@@ -10841,7 +11255,7 @@
     "http://schema.org/lastReviewed": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-12-10T21:50:19-05:00"
+        "@value": "2026-01-20T13:25:26-05:00"
       }
     ],
     "http://schema.org/datePublished": [
@@ -10853,7 +11267,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2025-12-10T21:50:19-05:00"
+        "@value": "2026-01-20T13:25:26-05:00"
       }
     ],
     "@type": [
@@ -10861,7 +11275,7 @@
     ]
   },
   {
-    "@id": "_:g717440",
+    "@id": "_:g717160",
     "http://schema.org/name": [
       {
         "@language": "fr",
@@ -10903,7 +11317,7 @@
     ]
   },
   {
-    "@id": "_:g717560",
+    "@id": "_:g717280",
     "@type": [
       "http://schema.org/ImageObject"
     ],
@@ -10926,7 +11340,7 @@
     ]
   },
   {
-    "@id": "_:g717660",
+    "@id": "_:g717380",
     "http://schema.org/url": [
       {
         "@id": "https://levivier.ca/fr/artistes/daniel-zea"
@@ -10961,7 +11375,7 @@
     ]
   },
   {
-    "@id": "_:g717700",
+    "@id": "_:g717420",
     "http://schema.org/url": [
       {
         "@id": "http://www.nicolelizee.com/"
@@ -11013,7 +11427,7 @@
     ]
   },
   {
-    "@id": "_:g717740",
+    "@id": "_:g717460",
     "http://schema.org/url": [
       {
         "@id": "https://alexandrebabel.com/"
@@ -11053,7 +11467,7 @@
     ]
   },
   {
-    "@id": "_:g718040",
+    "@id": "_:g717760",
     "@type": [
       "http://schema.org/Organization"
     ],
@@ -11064,7 +11478,7 @@
     ],
     "http://schema.org/logo": [
       {
-        "@id": "_:g718060"
+        "@id": "_:g717780"
       }
     ],
     "http://schema.org/sameAs": [
@@ -11092,7 +11506,7 @@
     ]
   },
   {
-    "@id": "_:g718060",
+    "@id": "_:g717780",
     "@type": [
       "http://schema.org/ImageObject"
     ],
