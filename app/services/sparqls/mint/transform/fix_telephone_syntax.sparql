@@ -31,17 +31,9 @@ WHERE {
     CONCAT(
       "+1-",
       REPLACE(
-        REPLACE(
-          REPLACE(
-            REPLACE(STR(?oldTelephone), "[^0-9]", ""),
-            "^(\\d{3})(\\d{3})(\\d{4})$",
-            "$1-$2-$3"
-          ),
-          "",
-          ""
-        ),
-        "",
-        ""
+        REPLACE(STR(?oldTelephone), "[^0-9]", ""),
+        "^(\\d{3})(\\d{3})(\\d{4})$",
+        "$1-$2-$3"
       )
     ) AS ?newTelephone
   )

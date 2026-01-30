@@ -74,6 +74,7 @@ GEM
       yaml-ld (~> 0.0, >= 0.0.3)
     logger (1.7.0)
     matrix (0.4.3)
+    minitest (5.27.0)
     multi_json (1.17.0)
     net-http-persistent (4.0.6)
       connection_pool (~> 2.2, >= 2.2.4)
@@ -223,7 +224,9 @@ PLATFORMS
 
 DEPENDENCIES
   linkeddata (~> 3.3)
+  minitest (~> 5.0)
   nokogiri (= 1.16.7)
+  sparql (~> 3.3)
 
 BUNDLED WITH
    2.6.2
