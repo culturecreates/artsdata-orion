@@ -6,9 +6,8 @@ class MintService
   # Transform an RDF graph by applying all configured SPARQL transformations
   #
   # @param graph [RDF::Graph] The input graph to transform
-  # @param entity_types [Array<String>] Optional entity types to filter transformations
   # @return [RDF::Graph] The transformed graph
-  def self.transform_graph(graph, entity_types = [])
+  def self.transform_graph(graph)
     repo = RDF::Repository.new
     graph.each { |stmt| repo << stmt }
     

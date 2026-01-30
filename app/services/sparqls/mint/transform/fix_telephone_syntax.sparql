@@ -38,6 +38,7 @@ WHERE {
     ) AS ?newTelephone
   )
   
-  # Only transform if not already in correct format
-  FILTER (!REGEX(STR(?oldTelephone), "^\\+"))
+  # Only transform if not already in correct RFC3966 format
+  # Check for proper international format starting with + and country code
+  FILTER (!REGEX(STR(?oldTelephone), "^\\+[1-9]"))
 }

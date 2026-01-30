@@ -36,7 +36,7 @@ For North American phone numbers (US/Canada), the transformation adds the `+1-` 
 ### Organization Minting
 - **`sparqls/mint/organization/construct_transform.sparql`**
   - SPARQL CONSTRUCT query for minting organization entities
-  - Includes telephone property for auditing and transformation
+  - Includes telephone property for extraction and transformation
 
 ### Service Layer
 - **`app/services/mint_service.rb`**

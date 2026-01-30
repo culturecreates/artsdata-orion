@@ -5,14 +5,15 @@
 
 # SHACL Shape for validating telephone numbers according to RFC3966
 # Telephone numbers should be in E.164 format with + prefix
+# Allows multiple hyphen-separated groups: +<country-code>-<area>-<exchange>-<number>
 
 schema:TelephoneShape
   a sh:NodeShape ;
-  sh:targetObjectsOf schema:telephone ;
+  sh:targetClass schema:Organization ;
   sh:property [
     sh:path schema:telephone ;
     sh:datatype xsd:string ;
-    sh:pattern "^\\+[1-9]\\d{0,2}-\\d{1,14}$" ;
+    sh:pattern "^\\+[1-9]\\d{0,2}(-\\d+)+$" ;
     sh:message "Telephone number should comply with RFC3966 format (e.g., +1-250-383-8124)" ;
     sh:severity sh:Warning ;
   ] .
@@ -24,7 +25,7 @@ schema:OrganizationTelephoneShape
   sh:property [
     sh:path schema:telephone ;
     sh:datatype xsd:string ;
-    sh:pattern "^\\+[1-9]\\d{0,2}-\\d{1,14}$" ;
+    sh:pattern "^\\+[1-9]\\d{0,2}(-\\d+)+$" ;
     sh:message "Organization telephone number should comply with RFC3966 format (e.g., +1-250-383-8124)" ;
     sh:severity sh:Warning ;
   ] .

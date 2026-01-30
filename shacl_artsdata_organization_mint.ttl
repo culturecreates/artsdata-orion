@@ -5,6 +5,7 @@
 
 # SHACL Shape for Organization minting - validates telephone numbers
 # This is used during the minting process to ensure data quality
+# Allows multiple hyphen-separated groups for RFC3966 compliance
 
 schema:OrganizationMintShape
   a sh:NodeShape ;
@@ -12,7 +13,7 @@ schema:OrganizationMintShape
   sh:property [
     sh:path schema:telephone ;
     sh:datatype xsd:string ;
-    sh:pattern "^\\+[1-9]\\d{0,2}-\\d{1,14}$" ;
+    sh:pattern "^\\+[1-9]\\d{0,2}(-\\d+)+$" ;
     sh:message "Telephone number must comply with RFC3966 format. Expected format: +<country-code>-<number> (e.g., +1-250-383-8124)" ;
     sh:severity sh:Warning ;
   ] ;

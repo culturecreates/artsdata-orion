@@ -60,11 +60,11 @@ class TelephoneTransformTest < Minitest::Test
   end
 
   def test_already_formatted_should_not_match
-    # Numbers already starting with + should not be transformed
+    # Numbers already starting with + and a country code should not be transformed
     phone = "+1-250-383-8124"
     
     # Verify our SPARQL has a filter to exclude already formatted numbers
-    assert @transform_sparql.include?('FILTER (!REGEX(STR(?oldTelephone), "^\\\\+"))'),
-           "SPARQL should filter out already formatted numbers"
+    assert @transform_sparql.include?('FILTER (!REGEX(STR(?oldTelephone), "^\\\\+[1-9]"))'),
+           "SPARQL should filter out already formatted numbers with proper international format"
   end
 end
