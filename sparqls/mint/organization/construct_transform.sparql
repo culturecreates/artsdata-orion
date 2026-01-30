@@ -1,0 +1,24 @@
+# SPARQL CONSTRUCT query to mint Organization entities
+# Includes telephone property for transformation
+
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+  ?organization a schema:Organization .
+  ?organization schema:name ?name .
+  ?organization schema:url ?url .
+  ?organization schema:email ?email .
+  ?organization schema:telephone ?telephone .
+  ?organization schema:address ?address .
+}
+WHERE {
+  ?organization a schema:Organization .
+  
+  OPTIONAL { ?organization schema:name ?name . }
+  OPTIONAL { ?organization schema:url ?url . }
+  OPTIONAL { ?organization schema:email ?email . }
+  OPTIONAL { ?organization schema:telephone ?telephone . }
+  OPTIONAL { ?organization schema:address ?address . }
+}

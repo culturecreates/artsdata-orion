@@ -1,0 +1,24 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# SHACL Shape for Organization minting - validates telephone numbers
+# This is used during the minting process to ensure data quality
+
+schema:OrganizationMintShape
+  a sh:NodeShape ;
+  sh:targetClass schema:Organization ;
+  sh:property [
+    sh:path schema:telephone ;
+    sh:datatype xsd:string ;
+    sh:pattern "^\\+[1-9]\\d{0,2}-\\d{1,14}$" ;
+    sh:message "Telephone number must comply with RFC3966 format. Expected format: +<country-code>-<number> (e.g., +1-250-383-8124)" ;
+    sh:severity sh:Warning ;
+  ] ;
+  sh:property [
+    sh:path schema:name ;
+    sh:minCount 1 ;
+    sh:message "Organization must have a name" ;
+    sh:severity sh:Warning ;
+  ] .

@@ -1,0 +1,51 @@
+# SPARQL UPDATE to fix telephone number syntax to comply with RFC3966
+# Adds +1- prefix to North American telephone numbers that lack it
+# Annotates transformed values with provenance using RDF-star
+
+PREFIX schema: <http://schema.org/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+DELETE {
+  ?subject schema:telephone ?oldTelephone .
+}
+INSERT {
+  # Insert the corrected telephone number
+  ?subject schema:telephone ?newTelephone .
+  
+  # Add RDF-star annotation for provenance
+  << ?subject schema:telephone ?newTelephone >> prov:wasGeneratedBy <https://github.com/culturecreates/artsdata-orion/blob/main/app/services/sparqls/mint/transform/fix_telephone_syntax.sparql> .
+}
+WHERE {
+  ?subject schema:telephone ?oldTelephone .
+  
+  # Filter for telephone numbers that match North American format without +1-
+  # Matches patterns like: 250-383-8124, (250) 383-8124, 250.383.8124, 2503838124
+  FILTER (
+    REGEX(STR(?oldTelephone), "^[2-9][0-9]{2}[-. ]?[0-9]{3}[-. ]?[0-9]{4}$") ||
+    REGEX(STR(?oldTelephone), "^\\([2-9][0-9]{2}\\)[ ]?[0-9]{3}[-. ]?[0-9]{4}$")
+  )
+  
+  # Remove any existing formatting and add +1- prefix
+  BIND(
+    CONCAT(
+      "+1-",
+      REPLACE(
+        REPLACE(
+          REPLACE(
+            REPLACE(STR(?oldTelephone), "[^0-9]", ""),
+            "^(\\d{3})(\\d{3})(\\d{4})$",
+            "$1-$2-$3"
+          ),
+          "",
+          ""
+        ),
+        "",
+        ""
+      )
+    ) AS ?newTelephone
+  )
+  
+  # Only transform if not already in correct format
+  FILTER (!REGEX(STR(?oldTelephone), "^\\+"))
+}

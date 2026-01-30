@@ -1,0 +1,30 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# SHACL Shape for validating telephone numbers according to RFC3966
+# Telephone numbers should be in E.164 format with + prefix
+
+schema:TelephoneShape
+  a sh:NodeShape ;
+  sh:targetObjectsOf schema:telephone ;
+  sh:property [
+    sh:path schema:telephone ;
+    sh:datatype xsd:string ;
+    sh:pattern "^\\+[1-9]\\d{0,2}-\\d{1,14}$" ;
+    sh:message "Telephone number should comply with RFC3966 format (e.g., +1-250-383-8124)" ;
+    sh:severity sh:Warning ;
+  ] .
+
+# Organization Shape - validates Organizations have proper telephone format
+schema:OrganizationTelephoneShape
+  a sh:NodeShape ;
+  sh:targetClass schema:Organization ;
+  sh:property [
+    sh:path schema:telephone ;
+    sh:datatype xsd:string ;
+    sh:pattern "^\\+[1-9]\\d{0,2}-\\d{1,14}$" ;
+    sh:message "Organization telephone number should comply with RFC3966 format (e.g., +1-250-383-8124)" ;
+    sh:severity sh:Warning ;
+  ] .
