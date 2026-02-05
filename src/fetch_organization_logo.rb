@@ -2,7 +2,7 @@ require 'linkeddata'
 require 'nokogiri'
 require 'open-uri'
 
-BASE_URL = "https://staging.recon.artsdata.ca/extend/http%3A%2F%2Fkg.artsdata.ca%2Fcore/Organization"
+BASE_URL = "https://recon.artsdata.ca/extend/http%3A%2F%2Fkg.artsdata.ca%2Fcore/Organization"
 
 # rdfs:subClassOf* is not working
 ORGANIZATION_SUBTYPES = [
