@@ -19,3 +19,5 @@ jobs:
           page-url: "https://kiac.ca/calendar-of-events/"
           entity-identifier: "div.tribe-events-pro-photo__event-featured-image-wrapper a"
           token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

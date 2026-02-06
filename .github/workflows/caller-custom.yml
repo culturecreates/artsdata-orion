@@ -27,3 +27,5 @@ jobs:
           page-url: "${{ inputs.page-url }}"
           entity-identifier: "${{ inputs.entity-identifier }}"
           token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

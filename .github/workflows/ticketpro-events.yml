@@ -18,6 +18,8 @@ jobs:
           page-url: "https://ww1.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
 
   fetch-west-events:
     runs-on: ubuntu-latest
@@ -32,6 +34,8 @@ jobs:
           page-url: "https://ww2.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
 
   fetch-atlantic-events:
     runs-on: ubuntu-latest
@@ -46,3 +50,5 @@ jobs:
           page-url: "https://ww3.ticketpro.ca/?languageid=-1"
           entity-identifier: "div.item.itemblockTextAnime a"
           token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

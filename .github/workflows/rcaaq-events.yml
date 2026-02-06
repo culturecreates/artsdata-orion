@@ -20,3 +20,5 @@ jobs:
           entity-identifier: "h3.tribe-events-list-event-title a"
           is-paginated: "true"
           token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

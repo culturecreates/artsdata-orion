@@ -20,3 +20,5 @@ jobs:
           entity-identifier: "loc"
           fetch-urls-headlessly: true
           token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

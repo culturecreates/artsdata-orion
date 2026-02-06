@@ -15,3 +15,5 @@ jobs:
         page-url: https://hector-charland.com/sitemaps-1-section-spectacles-1-sitemap.xml
         entity-identifier: loc
         token: "${{ secrets.GITHUB_TOKEN }}"
+        cloudflare-private-key: |
+            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
