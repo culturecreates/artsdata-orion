@@ -9,53 +9,6 @@ jobs:
   artsdata-fetch-and-push:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug private key format with Ruby
-        run: |
-          ruby << 'RUBY'
-          cloudflare_private_key = ENV['CLOUDFLARE_KEY']
-          
-          puts "=" * 50
-          puts "🔍 CLOUDFLARE PRIVATE KEY DEBUG"
-          puts "=" * 50
-          
-          if cloudflare_private_key.nil? || cloudflare_private_key.empty?
-            puts "❌ Key is nil or empty"
-            exit 1
-          end
-          
-          puts "✅ cloudflare_private_key present"
-          puts "Length: #{cloudflare_private_key.length}"
-          puts "Lines: #{cloudflare_private_key.lines.count}"
-          
-          first = cloudflare_private_key.lines.first&.strip
-          last = cloudflare_private_key.lines.last&.strip
-          
-          puts "First line: '#{first}'"
-          puts "Last line: '#{last}'"
-          
-          puts "Contains literal \\n: #{cloudflare_private_key.include?("\\n")}"
-          puts "Contains real newline: #{cloudflare_private_key.include?("\n")}"
-          
-          puts "\nFirst 100 chars (inspect):"
-          puts cloudflare_private_key[0..100].inspect
-          
-          puts "\nAll lines (first 5):"
-          cloudflare_private_key.lines.first(5).each_with_index do |line, i|
-            puts "Line #{i}: #{line.inspect}"
-          end
-          
-          puts "\nChecking for leading/trailing spaces:"
-          cloudflare_private_key.lines.each_with_index do |line, i|
-            if line != line.strip + "\n" && line != line.strip
-              puts "⚠️  Line #{i} has extra whitespace: #{line.inspect}"
-            end
-          end
-          
-          puts "=" * 50
-          RUBY
-        env:
-          CLOUDFLARE_KEY: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
-          
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
