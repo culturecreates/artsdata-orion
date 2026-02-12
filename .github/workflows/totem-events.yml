@@ -19,5 +19,4 @@ jobs:
           page-url: "https://totemcontemporain.com/fr/calendrier"
           entity-identifier: "h3.picto.padding-bottom-12 a"
           token: "${{ secrets.GITHUB_TOKEN }}"
-          cloudflare-private-key: |
-            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

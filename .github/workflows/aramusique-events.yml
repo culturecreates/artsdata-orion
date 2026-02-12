@@ -19,5 +19,4 @@ jobs:
           entity-identifier: "h3.tribe-events-calendar-list__event-title.tribe-common-h6.tribe-common-h4--min-medium a"
           is-paginated: "true"
           token: "${{ secrets.GITHUB_TOKEN }}"
-          cloudflare-private-key: |
-            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

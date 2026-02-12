@@ -87,5 +87,4 @@ jobs:
               }
             }
           }
-        cloudflare-private-key: |
-            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
+        cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

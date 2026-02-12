@@ -19,6 +19,5 @@ jobs:
           page-url: "https://yardbirdsuite.com/espresso_events-sitemap.xml"
           entity-identifier: "loc"
           token: "${{ secrets.GITHUB_TOKEN }}"
-          cloudflare-private-key: |
-            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
 

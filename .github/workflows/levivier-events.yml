@@ -19,5 +19,4 @@ jobs:
           page-url: "https://levivier.ca/fr"
           entity-identifier: "div.cont-even a"
           token: "${{ secrets.GITHUB_TOKEN }}"
-          cloudflare-private-key: |
-            ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
