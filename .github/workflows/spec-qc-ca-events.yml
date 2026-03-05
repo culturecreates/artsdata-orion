@@ -15,8 +15,7 @@ jobs:
           artifact: "spec-qc-ca-events"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "output/spec-qc-ca-events.jsonld"
-          page-url: "https://spec.qc.ca/programmation"
-          entity-identifier: "div.programmation-programmation__results a"
-          is-paginated: true
+          page-url: "https://spec.qc.ca/sitemaps-1-section-spectacles-1-sitemap.xml"
+          entity-identifier: "loc"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
