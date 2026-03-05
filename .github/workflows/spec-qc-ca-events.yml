@@ -17,5 +17,7 @@ jobs:
           downloadFile: "output/spec-qc-ca-events.jsonld"
           page-url: "https://spec.qc.ca/programmation"
           entity-identifier: "div.programmation-programmation__results a"
+          is-paginated: "TRUE"
+          offset: "1"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
