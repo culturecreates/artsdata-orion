@@ -14,4 +14,5 @@ jobs:
           artifact: "rendezvoustheatre-ca"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           page-url: "https://rendezvoustheatre.ca"
+          token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
