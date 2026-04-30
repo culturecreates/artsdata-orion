@@ -1,1 +1,17 @@
- https://rendezvoustheatre.ca
+name: rendezvoustheatre.ca
+
+on:
+  workflow_dispatch:
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+          mode: "fetch-push"
+          artifact: "rendezvoustheatre-ca"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://rendezvoustheatre.ca"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
