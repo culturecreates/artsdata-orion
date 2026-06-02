@@ -1,243 +1,5 @@
 [
   {
-    "@id": "https://saskatoonsymphony.org/event/finding-light/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-us",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-us",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-us",
-        "@value": "Finding Light"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-us",
-        "@value": ""
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/event/finding-light/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-us",
-        "@value": "Saskatoon Symphony Orchestra"
-      }
-    ],
-    "http://ogp.me/ns#updated_time": [
-      {
-        "@language": "en-us",
-        "@value": "2026-05-21T11:15:03+00:00"
-      }
-    ],
-    "article:published_time": [
-      {
-        "@language": "en-us",
-        "@value": "2025-03-09T09:56:33+00:00"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-us",
-        "@value": "2026-05-21T11:15:03+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/judith-yan.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:secure_url": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/judith-yan.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-us",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-us",
-        "@value": "1024"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-json/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/finding-light/"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461160",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "_:g461180"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Knox United Church"
-      }
-    ]
-  },
-  {
-    "@id": "_:g461180",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "en",
-        "@value": "838 Spadina Crescent E"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "en",
-        "@value": "Saskatoon"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "en",
-        "@value": "S7K 3H4"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "en",
-        "@value": "SK"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "en",
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/20abee43-e7aa-45a9-8386-1363ef154021",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-30T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "_:g461160"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/judith-yan.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-30T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/finding-light/"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/finding-light/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Finding Light"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "In a season tied together by its search for light in the darkness, Maestro Judith Yan finds the light with a special program including Pergolesi’s transcendent Stabat Mater featuring Saskatoon’s own Kateryna Khartova and Oli Guselle. "
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/de38435a-52d5-4e6f-b0ad-83ac6df453d9",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/finding-light/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/4525fb74-04d2-4bc0-9dce-2bb1582624f0",
-    "@type": [
-      "https://schema.org/WPHeader"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/finding-light/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/temporary/b024a795-2ea4-49df-b3dd-1f9ff4af8847",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/finding-light/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, May 30, 2026\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\nRead The Program\n\nJudith Yanconductor\nKateryna Khartovasoprano\nOli Gusellealto\n\n\nStabat MaterGiovanni Battista Pergolesi\nAdagio in G MinorRemo Giazotto, Attrib. Tomaso Albinoni\n\n\nMaestro Judith Yan returns to close out our season in a very special concert.\nIn a season that has been tied together by its search for light in the darkness, Judith has put together a program new and old to find the light.\nWritten in the dwindling light of his life, Pergolesi’s Stabat Mater is a transcendent work that feels as modern today as the day it was written, 290 years ago.\nJean-Jacques Rousseau praised the work as “the most perfect and touching duet to come from the pen of any composer”\nSaskatoon’s own Kateryna Khartova and Oli Guselle take centre stage for this arresting music.\nAdd this show to your subscription package and save!\nHere’s a sneak peak of the music:\n\n \n\n\n\t\t"
-      }
-    ]
-  },
-  {
     "@id": "https://saskatoonsymphony.org/event/croon/",
     "http://ogp.me/ns#locale": [
       {
@@ -329,13 +91,13 @@
     ]
   },
   {
-    "@id": "_:g475480",
+    "@id": "_:g461160",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g475500"
+        "@id": "_:g461180"
       }
     ],
     "http://schema.org/name": [
@@ -346,7 +108,7 @@
     ]
   },
   {
-    "@id": "_:g475500",
+    "@id": "_:g461180",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -382,7 +144,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/da8a03c8-46ec-416b-9545-52eff0e930f1",
+    "@id": "https://saskatoonsymphony.org/temporary/ef355ea6-e0c5-44a7-87cb-90c1daa29954",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -394,7 +156,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g475480"
+        "@id": "_:g461160"
       }
     ],
     "http://schema.org/image": [
@@ -437,7 +199,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/c960881c-1655-440d-8318-a7c4d6b8ad21",
+    "@id": "https://saskatoonsymphony.org/temporary/65026359-6299-461e-b57f-84aadea52313",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -448,7 +210,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2055e9fd-2569-470b-a558-5ec5c8391f8c",
+    "@id": "https://saskatoonsymphony.org/temporary/21c24413-b2ff-4605-9dc4-2a8b96b39157",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -459,7 +221,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/488e0f7d-af6f-4364-b46f-7a6ed69ce913",
+    "@id": "https://saskatoonsymphony.org/temporary/73045c13-a8a7-4101-9894-1d06cf5f8b7f",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -516,7 +278,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:31:29+00:00"
+        "@value": "2026-06-01T09:50:02+00:00"
       }
     ],
     "article:published_time": [
@@ -528,7 +290,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:31:29+00:00"
+        "@value": "2026-06-01T09:50:02+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -567,13 +329,13 @@
     ]
   },
   {
-    "@id": "_:g490100",
+    "@id": "_:g475280",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g490120"
+        "@id": "_:g475300"
       }
     ],
     "http://schema.org/name": [
@@ -584,7 +346,7 @@
     ]
   },
   {
-    "@id": "_:g490120",
+    "@id": "_:g475300",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -620,7 +382,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/c9f0c976-dd67-49b5-8d41-e5546cc95012",
+    "@id": "https://saskatoonsymphony.org/temporary/9d587828-e14d-4c39-95b1-2529c819389b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -632,7 +394,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g490100"
+        "@id": "_:g475280"
       }
     ],
     "http://schema.org/image": [
@@ -675,7 +437,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/1bca574f-210f-420b-a0d7-8b2ee15ba99d",
+    "@id": "https://saskatoonsymphony.org/temporary/74c81265-a64e-43b9-9d22-2c45d146611b",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -686,7 +448,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/868ac079-2a4a-47f6-8acd-0d4c3987d186",
+    "@id": "https://saskatoonsymphony.org/temporary/94a059b9-aa48-4b0f-9630-70344836c1b0",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -697,7 +459,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ea554c2a-4213-4c5c-a02d-5b0cf3700b40",
+    "@id": "https://saskatoonsymphony.org/temporary/29c4308a-4561-46b5-897a-dca925b1d0f1",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -709,7 +471,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 12, 2026\nSt John’s Cathedral\n\n\n 816 Spadina Crescent E\nSaskatoon, Saskatchewan S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nAlexa Haynes-Pilonconductor/cello\n\n\nLes ÉlémensJean-Frey Rebel\nSelections from both Handel’s and Telemann’s Water Music\nConcertos by Caldara, Durante, and Vivaldi\n\n\nAlexa Haynes-Pilon returns home to Saskatoon with a new baroque concert experience that she has designed just for this occasion. Baroque composers were captivated by the four elements—water, fire, air, and earth—and they found great curiosity in depicting the elements through musical imagery, using specific instrumentation and textures to evoke natural forces.\nAlexa will lead and solo with the SSO in the music of Jean-Frey Rebel’s Les Élémens, selections from both Handel’s and Telemann’s Water Music, and concertos by Caldara, Durante, and Vivaldi.\nWhile her career takes her around the globe performing and curating as a baroque specialist, Alexa’s roots in Saskatoon continue to call her home. Her 2023 debut with the SSO was a sold-out sensational performance that instantly meant we needed to bring her back again!\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 12, 2026\nSt John’s Cathedral\n\n\n 816 Spadina Crescent E\nSaskatoon, Saskatchewan S7K 3H4\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nAlexa Haynes-Pilonconductor/cello\n\n\nLes ÉlémensJean-Frey Rebel\nSelections from both Handel’s and Telemann’s Water Music\nConcertos by Caldara, Durante, and Vivaldi\n\n\nAlexa Haynes-Pilon returns home to Saskatoon with a new baroque concert experience that she has designed just for this occasion. Baroque composers were captivated by the four elements—water, fire, air, and earth—and they found great curiosity in depicting the elements through musical imagery, using specific instrumentation and textures to evoke natural forces.\nAlexa will lead and solo with the SSO in the music of Jean-Frey Rebel’s Les Élémens, selections from both Handel’s and Telemann’s Water Music, and concertos by Caldara, Durante, and Vivaldi.\nWhile her career takes her around the globe performing and curating as a baroque specialist, Alexa’s roots in Saskatoon continue to call her home. Her 2023 debut with the SSO was a sold-out sensational performance that instantly meant we needed to bring her back again!\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -754,7 +516,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-21T13:58:26+00:00"
+        "@value": "2026-06-01T09:57:09+00:00"
       }
     ],
     "article:published_time": [
@@ -766,31 +528,31 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-21T13:58:26+00:00"
+        "@value": "2026-06-01T09:57:09+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/At-the-Ballet-launch-1024x1024s-new.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/SSO-website-1024x1024-1.png"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/At-the-Ballet-launch-1024x1024s-new.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/SSO-website-1024x1024-1.png"
       }
     ],
     "http://ogp.me/ns#image:width": [
       {
         "@language": "en-us",
-        "@value": "1024"
+        "@value": "512"
       }
     ],
     "http://ogp.me/ns#image:height": [
       {
         "@language": "en-us",
-        "@value": "1024"
+        "@value": "513"
       }
     ],
     "https://api.w.org/": [
@@ -805,13 +567,13 @@
     ]
   },
   {
-    "@id": "_:g504320",
+    "@id": "_:g490040",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g504340"
+        "@id": "_:g490060"
       }
     ],
     "http://schema.org/name": [
@@ -822,7 +584,7 @@
     ]
   },
   {
-    "@id": "_:g504340",
+    "@id": "_:g490060",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -858,7 +620,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/87f14609-6833-4e40-b977-e7d6ff3b983f",
+    "@id": "https://saskatoonsymphony.org/temporary/b821e22d-5e8b-4da9-b726-f18e5e8359a7",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -870,12 +632,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g504320"
+        "@id": "_:g490040"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/At-the-Ballet-launch-1024x1024s-new.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/SSO-website-1024x1024-1.png"
       }
     ],
     "http://schema.org/endDate": [
@@ -913,7 +675,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d32149e1-0c82-4df9-9fb8-505666da2f2e",
+    "@id": "https://saskatoonsymphony.org/temporary/6c4daf0d-ce52-4ac6-9de5-2350ea2f0ef6",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -924,7 +686,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/042cdfed-7989-4cb7-9928-1d95f17571ce",
+    "@id": "https://saskatoonsymphony.org/temporary/6a6c18f5-44af-4ffc-8ee0-b6f8f1cea173",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -935,7 +697,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e275af64-b3d9-4ff4-92a5-7297bd20e16d",
+    "@id": "https://saskatoonsymphony.org/temporary/acceaba7-1577-4816-881c-add535db5ff0",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -947,7 +709,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 19, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nJudith YanConductor\nCurated by Keaton Leier\nFeaturing Keaton Leier With Artists of The National Ballet of Canada\n\n\nThere is always something remarkably special about showcasing talent that grew up right here in Saskatoon. In At the Ballet, the SSO is thrilled to showcase ballet artist and Saskatoon’s very own, Keaton Leier. \nLeier was born in Saskatoon, Saskatchewan and trained at the Royal Winnipeg Ballet School and Houston Ballet II. He danced with Atlanta Ballet for five seasons before joining The National Ballet of Canada in 2022. On top of performing in this concert, the program features a new work choreographed by Leier, with an original composition by Paul Leonard-Morgan. \nIn celebration of its 75th anniversary season, The National Ballet of Canada is ‘Sharing the Stage’ as part of this exciting performance, showcasing the company’s diverse repertoire and some of its renowned dancers.\nThis very special evening, many years in the making, features selections from great works in the ballet canon, both traditional and modern. Maestro Judith Yan, a world-renowned ballet conductor and long-time SSO collaborator, takes the podium with the SSO for this spectacular performance.\n\nIn collaboration with the Artists Climate Collective, Keaton is pushing to have the program and tour running as sustainably as possible. Keaton is co-founder and creative director of Artists Climate Collective, and founded The National Ballet of Canada Green Team, creating initiatives to further the company’s sustainable practices.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, September 19, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJudith YanConductor\nCurated by Keaton Leier\nFeaturing Keaton Leier With Artists of The National Ballet of Canada\n\n\nThere is always something remarkably special about showcasing talent that grew up right here in Saskatoon. In At the Ballet, the SSO is thrilled to showcase ballet artist and Saskatoon’s very own, Keaton Leier. \nLeier was born in Saskatoon, Saskatchewan and trained at the Royal Winnipeg Ballet School and Houston Ballet II. He danced with Atlanta Ballet for five seasons before joining The National Ballet of Canada in 2022. On top of performing in this concert, the program features a new work choreographed by Leier, with an original composition by Paul Leonard-Morgan. \nIn celebration of its 75th anniversary season, The National Ballet of Canada is ‘Sharing the Stage’ as part of this exciting performance, showcasing the company’s diverse repertoire and some of its renowned dancers.\nThis very special evening, many years in the making, features selections from great works in the ballet canon, both traditional and modern. Maestro Judith Yan, a world-renowned ballet conductor and long-time SSO collaborator, takes the podium with the SSO for this spectacular performance.\n\nIn collaboration with the Artists Climate Collective, Keaton is pushing to have the program and tour running as sustainably as possible. Keaton is co-founder and creative director of Artists Climate Collective, and founded The National Ballet of Canada Green Team, creating initiatives to further the company’s sustainable practices.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -992,7 +754,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:31:59+00:00"
+        "@value": "2026-06-01T09:56:46+00:00"
       }
     ],
     "article:published_time": [
@@ -1004,19 +766,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:31:59+00:00"
+        "@value": "2026-06-01T09:56:46+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Hunchback-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Untitled-1.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Hunchback-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Untitled-1.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -1043,13 +805,13 @@
     ]
   },
   {
-    "@id": "_:g518520",
+    "@id": "_:g504760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g518540"
+        "@id": "_:g504780"
       }
     ],
     "http://schema.org/name": [
@@ -1060,7 +822,7 @@
     ]
   },
   {
-    "@id": "_:g518540",
+    "@id": "_:g504780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1096,7 +858,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/76bc996c-e088-4301-bf75-a30aaaf17b18",
+    "@id": "https://saskatoonsymphony.org/temporary/1c5c3192-4d2d-4ee7-a910-ea1a134dc484",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1108,12 +870,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g518520"
+        "@id": "_:g504760"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Hunchback-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Untitled-1.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -1151,7 +913,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e25b19c1-8772-4676-bf90-6de2030ab25f",
+    "@id": "https://saskatoonsymphony.org/temporary/901aa7eb-0b33-48fc-967a-22f0eb4738a2",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -1162,7 +924,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/eb9a4215-e394-4f56-b1c2-35bfe5cfa67a",
+    "@id": "https://saskatoonsymphony.org/temporary/91452867-dee5-42a4-8a5a-f1a24b5f02ac",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1173,7 +935,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/1a5bb769-c5da-4d97-a41c-b61db9608d71",
+    "@id": "https://saskatoonsymphony.org/temporary/7759f9c0-0c83-4785-9e48-70a277a25304",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -1185,7 +947,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Thursday, October 1, 2026\nThe Roxy Theatre\n\n\n320 20th Street West\nSaskatoon, SK S7M 0X2\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nMichael Bridgedigital accordion\n\n\nAfter his sensational performance in 2024, where he improvised a full score for the silent film Phantom of the Opera, it was obvious that the audience needed more of Michael Bridge.\nNow returning to the historic Roxy Theatre, Bridge creates a new improvised score for the legendary silent film The Hunchback of Notre Dame. \nThe first film adaptation of Victor Hugo’s classic became an instant success and has remained one of the great silent feature films ever produced. \nMichael Bridge is a world-renowned digital accordionist who spins magic in these silent film experiences. \nBe immersed in Saskatoon’s very own historic Roxy Theatre and be transported back to the days of the silver screen…silence is golden!\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Thursday, October 1, 2026\nThe Roxy Theatre\n\n\n320 20th Street West\nSaskatoon, SK S7M 0X2\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nMichael Bridgedigital accordion\n\n\nAfter his sensational performance in 2024, where he improvised a full score for the silent film Phantom of the Opera, it was obvious that the audience needed more of Michael Bridge.\nNow returning to the historic Roxy Theatre, Bridge creates a new improvised score for the legendary silent film The Hunchback of Notre Dame. \nThe first film adaptation of Victor Hugo’s classic became an instant success and has remained one of the great silent feature films ever produced. \nMichael Bridge is a world-renowned digital accordionist who spins magic in these silent film experiences. \nBe immersed in Saskatoon’s very own historic Roxy Theatre and be transported back to the days of the silver screen…silence is golden!\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -1281,13 +1043,13 @@
     ]
   },
   {
-    "@id": "_:g533300",
+    "@id": "_:g519580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g533320"
+        "@id": "_:g519600"
       }
     ],
     "http://schema.org/name": [
@@ -1298,7 +1060,7 @@
     ]
   },
   {
-    "@id": "_:g533320",
+    "@id": "_:g519600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1334,13 +1096,13 @@
     ]
   },
   {
-    "@id": "_:g533360",
+    "@id": "_:g519640",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g533380"
+        "@id": "_:g519660"
       }
     ],
     "http://schema.org/name": [
@@ -1351,7 +1113,7 @@
     ]
   },
   {
-    "@id": "_:g533380",
+    "@id": "_:g519660",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1387,7 +1149,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/bd2bfa91-93fc-4ec7-916d-afa5e9f36cff",
+    "@id": "https://saskatoonsymphony.org/temporary/155b18ad-1b0f-4658-a451-280a47d24225",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1399,7 +1161,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g533300"
+        "@id": "_:g519580"
       }
     ],
     "http://schema.org/image": [
@@ -1442,7 +1204,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/802d3af9-43d4-48aa-ab75-6d65333a32f3",
+    "@id": "https://saskatoonsymphony.org/temporary/9149cf25-b3da-4752-aff0-9dc31cd653ca",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1454,7 +1216,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g533360"
+        "@id": "_:g519640"
       }
     ],
     "http://schema.org/image": [
@@ -1497,7 +1259,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/90115086-2a34-4d0d-8679-1f18eae870ec",
+    "@id": "https://saskatoonsymphony.org/temporary/248cdb67-e9a0-4aa0-9e09-a493b2e95165",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -1508,7 +1270,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d28afeed-fee9-4d9e-bf63-bb39b4986306",
+    "@id": "https://saskatoonsymphony.org/temporary/5c97da59-3606-41ef-a204-b90fba94d892",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1519,7 +1281,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/22905a9b-096e-4b45-a877-303d070d8758",
+    "@id": "https://saskatoonsymphony.org/temporary/6cd845ae-17c1-401c-9514-be31075bfb60",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -1532,6 +1294,1000 @@
       {
         "@language": "en",
         "@value": "\n\t\t\t\n\n\n1:30PM, Saturday, October 10, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n7:30PM, Saturday, October 10, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nCineConcerts is inviting fans back to the Wizarding World for an evening of music and magic in Harry Potter and the Goblet of Fire™ in Concert. Get ready to fight a dragon, swim with merpeople, and find out just who put Harry’s name in the Goblet of Fire™! For the first time ever, audiences can rediscover the magic of Harry Potter and the Goblet of Fire™ while a live symphony orchestra performs Patrick Doyle’s unforgettable score.\n\nAll characters and elements © & ™ Warner Bros. Entertainment Inc. Publishing Rights © JKR.\n\n\n\t\t"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-us",
+        "@value": ""
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ],
+    "http://ogp.me/ns#updated_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-06-01T14:09:28+00:00"
+      }
+    ],
+    "article:published_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-06-01T14:08:27+00:00"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-06-01T14:09:28+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:secure_url": [
+      {
+        "@language": "en-us",
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1025"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1024"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-json/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535480",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535500"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535500",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535540",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535560"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535560",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535600",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535620"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535620",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535660",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535680"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535680",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535720",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535740"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535740",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535780",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535800"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535800",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535840",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535860"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535860",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535900",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "_:g535920"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon Symphony Orchestra"
+      }
+    ]
+  },
+  {
+    "@id": "_:g535920",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "602 B 51st Street"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 7K3"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "Saskatchewan"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/8c8e3f84-62f3-404b-aa4e-01e8fbfa3568",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-15T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535480"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-15T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/02fcd861-d54d-413b-9721-5d70a8fa1741",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-16T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535540"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-16T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/89b99a7c-b541-4996-8348-07e71ae4f56d",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-17T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535600"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-17T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/d625fda7-a48a-4bf1-b337-1d9b6beb63c8",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-18T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535660"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-18T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/8f481fb1-b1ed-4830-9708-14a5fa6acbe3",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-22T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535720"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-22T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/d0bfb4b3-af80-43a9-90d5-c010dc8796ec",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-23T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535780"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-23T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/10c125c5-7cdc-470a-991e-3e6a95436e9a",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-24T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535840"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-24T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/75d07ca1-de76-42ee-bc35-6805a64b7cb2",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-25T10:00:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "_:g535900"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/06/booksale-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-25T18:00:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Book and Music Sale"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Our next sale is announced! The fall Book &amp; Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am - 6 pm each day."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/d96525c5-127a-4789-b9f0-2ae156b1f4ab",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/16a08c7f-d24a-4ecf-bfa2-dd96b8c0ce18",
+    "@type": [
+      "https://schema.org/WPHeader"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/temporary/c7c471bc-7f05-4971-aa62-485b84546326",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      }
+    ],
+    "https://schema.org/text": [
+      {
+        "@language": "en",
+        "@value": "\n\t\t\t\n\n\n10:00AM, Thursday, October 15, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, October 16, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, October 17, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, October 18, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Thursday, October 22, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Friday, October 23, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Saturday, October 24, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n10:00AM, Sunday, October 25, 2026\nSaskatoon Symphony Orchestra\n\n\n602 B 51st Street\nSaskatoon, Saskatchewan S7K 7K3\nGoogle Maps Directions\n\n\nFind Out More\n\n\n\nOur next sale is announced! The fall Book & Music sale will be held Thursdays through Sundays from October 15 to October 25 in the warehouse at 602B 51st Street E (entrance at the back). Sale hours are 10 am – 6 pm each day.\nWe sell all kinds of reading, listening & viewing media!\nAll formats of books and music are sold, including:\n\nBooks: hardcover, softcover, trade, paperback, textbooks, booklets, sets, new, used, large print, signed by author\nMusic sheets and songbooks\nMusic: CDs, vinyl records (LPs, EPs, 33-1/3 rpm, 45 rpm, 78 rpm, even 16-2/3 rpm spoken word records), prerecorded cassette and 8-track tapes, sets, sealed, unsealed, coloured vinyl\nVideos: DVDs, prerecorded VHS and Beta cassette tapes, sets\n\nHow to find the Book & Music Sale:\n602B 51st Street E\n(Back Entrance)\nSaskatoon, SK\nClick here for more information about the Book & Music Sale.\n\n\n\t\t"
       }
     ]
   },
@@ -1576,7 +2332,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:32:44+00:00"
+        "@value": "2026-06-01T09:59:38+00:00"
       }
     ],
     "article:published_time": [
@@ -1588,7 +2344,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:32:44+00:00"
+        "@value": "2026-06-01T09:59:38+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -1627,13 +2383,13 @@
     ]
   },
   {
-    "@id": "_:g549240",
+    "@id": "_:g557520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g549260"
+        "@id": "_:g557540"
       }
     ],
     "http://schema.org/name": [
@@ -1644,7 +2400,7 @@
     ]
   },
   {
-    "@id": "_:g549260",
+    "@id": "_:g557540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1680,13 +2436,13 @@
     ]
   },
   {
-    "@id": "_:g549300",
+    "@id": "_:g557580",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g549320"
+        "@id": "_:g557600"
       }
     ],
     "http://schema.org/name": [
@@ -1697,7 +2453,7 @@
     ]
   },
   {
-    "@id": "_:g549320",
+    "@id": "_:g557600",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -1733,7 +2489,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/076eb53a-81ae-4743-84fb-8583e0d96eb8",
+    "@id": "https://saskatoonsymphony.org/temporary/c0e63cb7-6f05-4246-b2b7-bb86e226649c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1745,7 +2501,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g549240"
+        "@id": "_:g557520"
       }
     ],
     "http://schema.org/image": [
@@ -1788,7 +2544,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/8d7d92cf-f9ae-43ad-9133-0db164c56161",
+    "@id": "https://saskatoonsymphony.org/temporary/60863419-8ec8-4b93-a493-f55e9ea39ff0",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1800,7 +2556,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g549300"
+        "@id": "_:g557580"
       }
     ],
     "http://schema.org/image": [
@@ -1843,7 +2599,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0acc7654-db0b-4233-aff4-55baf64b0015",
+    "@id": "https://saskatoonsymphony.org/temporary/45aafcee-59f2-4c23-b564-6da553a43302",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -1854,7 +2610,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/7e8e96e6-c5d4-4419-add0-21c6bedf92d5",
+    "@id": "https://saskatoonsymphony.org/temporary/88edb5b5-ea4e-4279-85fa-a2e945732802",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -1865,7 +2621,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ea3d4f9b-fa43-4c39-a9a4-3b1ddffd9f81",
+    "@id": "https://saskatoonsymphony.org/temporary/c4161462-1503-4dc9-8eb9-86e5a56cc9e6",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -1877,7 +2633,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:00PM, Sunday, October 18, 2026\nBacchus Lounge – Earls\n\n\n610 2nd Ave N\nSaskatoon, SK S7K 2C7\nGoogle Maps Directions\n\n\nSubscriber Presale\n\n\n7:00PM, Monday, October 19, 2026\nBacchus Lounge – Earls\n\n\n610 2nd Ave N\nSaskatoon, SK S7K 2C7\nGoogle Maps Directions\n\n\nSubscriber Presale\n\n\n\nJulie NesrallahCarmen\n\n\nCarmen on Tap is a hip and immersive opera experience that brings the power and virtuosity of the human voice to you in an intimate setting at The Bacchus Lounge at Earls as you savour an incredible meal & stellar cocktails. \nWe’re transforming Bacchus Lounge into the scene of an intimate passionate experience, with the action taking place all around you. This is all thanks to the creative genius of Canada’s Carmen, Julie Nesrallah. \nNesrallah leads a stellar cast in an abridged performance of Bizet’s Carmen that places the audience at the centre of the drama. While hearing some of the greatest music ever written, you may find yourself being the centre of Carmen’s flirtatious affection, or swept off your feet by the Torreador himself!\nBe seduced.\nPrends garde a toi!\nThis show is available as a subscriber presale.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:00PM, Sunday, October 18, 2026\nBacchus Lounge – Earls\n\n\n610 2nd Ave N\nSaskatoon, SK S7K 2C7\nGoogle Maps Directions\n\n\nFill Out The Contact Form\n\n\n7:00PM, Monday, October 19, 2026\nBacchus Lounge – Earls\n\n\n610 2nd Ave N\nSaskatoon, SK S7K 2C7\nGoogle Maps Directions\n\n\nFill Out The Contact Form\n\n\n\nJulie NesrallahCarmen\n\n\nCarmen on Tap is a hip and immersive opera experience that brings the power and virtuosity of the human voice to you in an intimate setting at The Bacchus Lounge at Earls as you savour an incredible meal & stellar cocktails. \nWe’re transforming Bacchus Lounge into the scene of an intimate passionate experience, with the action taking place all around you. This is all thanks to the creative genius of Canada’s Carmen, Julie Nesrallah. \nNesrallah leads a stellar cast in an abridged performance of Bizet’s Carmen that places the audience at the centre of the drama. While hearing some of the greatest music ever written, you may find yourself being the centre of Carmen’s flirtatious affection, or swept off your feet by the Torreador himself!\nBe seduced.\nPrends garde a toi!\nContact the SSO office to save your seats. You can call the office at 306-665-6414 or fill out the contact form and we will get back to you.\n\n\n\t\t"
       }
     ]
   },
@@ -1922,7 +2678,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:33:02+00:00"
+        "@value": "2026-06-01T09:56:18+00:00"
       }
     ],
     "article:published_time": [
@@ -1934,19 +2690,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:33:02+00:00"
+        "@value": "2026-06-01T09:56:18+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/amy-and-adele-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-1.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/amy-and-adele-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-1.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -1973,13 +2729,13 @@
     ]
   },
   {
-    "@id": "_:g565220",
+    "@id": "_:g572800",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g565240"
+        "@id": "_:g572820"
       }
     ],
     "http://schema.org/name": [
@@ -1990,7 +2746,7 @@
     ]
   },
   {
-    "@id": "_:g565240",
+    "@id": "_:g572820",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2026,7 +2782,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/1feaec8e-1b36-48c0-bde4-628bd91ee915",
+    "@id": "https://saskatoonsymphony.org/temporary/d740d93b-e538-4a7c-8493-c823b569c93b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2038,12 +2794,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g565220"
+        "@id": "_:g572800"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/amy-and-adele-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-1.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -2081,7 +2837,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/f1990361-fb10-4324-af3c-e36e6e11a044",
+    "@id": "https://saskatoonsymphony.org/temporary/11cf03a4-5027-4f1c-abe0-34659f4bc761",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -2092,7 +2848,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/124306da-ed36-49b6-b546-4c0981c0b730",
+    "@id": "https://saskatoonsymphony.org/temporary/cc7f681b-2fe8-4c80-8223-b8ebe443a92a",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2103,7 +2859,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e7531a53-dfa3-453b-bc5e-5ae2e69d2632",
+    "@id": "https://saskatoonsymphony.org/temporary/43206b4f-c99e-406a-950b-11b443af1349",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -2115,7 +2871,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, October 24, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nJanna Sailorconductor\nElyse Evangelistavocalist\n\n\nThe music of two powerhouse vocalists requires a powerhouse in their own right to bring it to life!\nSaskatoon’s own Elyse Evangelista takes centre stage after wowing our audiences as part of the YXE Divas team. In this brand new show Elyse shows off her unbelievable vocal range and power in hits from Amy Winehouse and Adele Adkins.\nWith Janna Sailor returning home to lead the SSO, the evening features hits like Skyfall, Rehab, Rumour Has It, Valerie, and so many more!\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, October 24, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJanna Sailorconductor\nElyse Evangelistavocalist\n\n\nThe music of two powerhouse vocalists requires a powerhouse in their own right to bring it to life!\nSaskatoon’s own Elyse Evangelista takes centre stage after wowing our audiences as part of the YXE Divas team. In this brand new show Elyse shows off her unbelievable vocal range and power in hits from Amy Winehouse and Adele Adkins.\nWith Janna Sailor returning home to lead the SSO, the evening features hits like Skyfall, Rehab, Rumour Has It, Valerie, and so many more!\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -2160,7 +2916,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:33:21+00:00"
+        "@value": "2026-06-01T09:55:57+00:00"
       }
     ],
     "article:published_time": [
@@ -2172,19 +2928,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:33:21+00:00"
+        "@value": "2026-06-01T09:55:57+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Picasso-1-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-2.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Picasso-1-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-2.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -2211,13 +2967,13 @@
     ]
   },
   {
-    "@id": "_:g580040",
+    "@id": "_:g587220",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g580060"
+        "@id": "_:g587240"
       }
     ],
     "http://schema.org/name": [
@@ -2228,7 +2984,7 @@
     ]
   },
   {
-    "@id": "_:g580060",
+    "@id": "_:g587240",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2264,7 +3020,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ed192cc7-e77e-42d8-afb0-fe105df03510",
+    "@id": "https://saskatoonsymphony.org/temporary/8a124f32-e1f2-4165-8ef7-e4cf99956017",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2276,12 +3032,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g580040"
+        "@id": "_:g587220"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Picasso-1-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-2.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -2319,7 +3075,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d0766337-3ec7-497a-8134-b035043fddd2",
+    "@id": "https://saskatoonsymphony.org/temporary/f33a158b-674f-44ae-8342-0bb8041cc49a",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -2330,7 +3086,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/4bc7df46-3e66-4cdf-a5f3-bfcadd4764aa",
+    "@id": "https://saskatoonsymphony.org/temporary/0d3fdbf3-db05-48a3-87cc-fdfd79600e2e",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2341,7 +3097,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b96a99f5-5e07-413f-83cb-a2c483b509b9",
+    "@id": "https://saskatoonsymphony.org/temporary/36993f6d-fd6f-4940-9d56-513c42a4f28e",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -2353,7 +3109,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 7, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nKevin Zakreskyconductor\n\n\nEl Sombrero de Tres Picos – Danza de la MolineroManuel de Falla\nGuitar Concerto – Allegro preciso – Poco menoHeitor Villa-Lobos\nSimple Symphony 3 – Sentimental SarabandeBenjamin Britten\nOverture for OrchestraGermaine Tailleferre\nRite of Spring – First Two MovementsIgor Stravinsky\nParade – Petite fille américaine / Acrobates / Suite au prelude du rideau rougeErik Satie\nPour PabloIgor Stravinsky / Bradley Hawkins\nSymphony No. 1 – First MovementSergei Prokofiev\nLa Création du Monde – Overture – 1st DanceDarius Milhaud\nGuitar Concerto – Second MovementHeitor Villa-Lobos\nJupiterGustav Holst\nTorre BermejaIsaac Albéniz\nScherzo – Symphony No. 1 in E-flatIgor Stravinsky\n\n\nSaskatoon has a special connection to the great Pablo Picasso thanks to the generous donation of more than 400 Picasso linocuts to the Remai Modern from the Frank and Ellen Remai Foundation.\nThe SSO is thrilled to present the Canadian debut of a brand new concert experience, the Picasso Symphony.\nCreated by Jason Paul and musically directed by Saskatoon-born Maestro Kevin Zakresky, this multi-media event features the music of Stravinsky, de Falla, Villa-Lobos, Britten, Satie, and more as the SSO underscores footage of Picasso bringing each of his artistic periods to life.\nA multimedia symphonic experience celebrating the life, works and times of the most prolific artist of all time, Pablo Picasso. This experience explores the artistic genius who revolutionized art and the way we view the painted canvas.\nSingle tickets on sale June 1, 2026\nProduced by JMP ENTERTAINMENT\nBooking by JMP ENTERTAINMENT\nCreated by JMP ENTERTAINMENT\nMusic Director – Kevin Zakresky\nTechnical Services – Black Ink Presents\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, November 7, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nKevin Zakreskyconductor\n\n\nEl Sombrero de Tres Picos – Danza de la MolineroManuel de Falla\nGuitar Concerto – Allegro preciso – Poco menoHeitor Villa-Lobos\nSimple Symphony 3 – Sentimental SarabandeBenjamin Britten\nOverture for OrchestraGermaine Tailleferre\nRite of Spring – First Two MovementsIgor Stravinsky\nParade – Petite fille américaine / Acrobates / Suite au prelude du rideau rougeErik Satie\nPour PabloIgor Stravinsky / Bradley Hawkins\nSymphony No. 1 – First MovementSergei Prokofiev\nLa Création du Monde – Overture – 1st DanceDarius Milhaud\nGuitar Concerto – Second MovementHeitor Villa-Lobos\nJupiterGustav Holst\nTorre BermejaIsaac Albéniz\nScherzo – Symphony No. 1 in E-flatIgor Stravinsky\n\n\nSaskatoon has a special connection to the great Pablo Picasso thanks to the generous donation of more than 400 Picasso linocuts to the Remai Modern from the Frank and Ellen Remai Foundation.\nThe SSO is thrilled to present the Canadian debut of a brand new concert experience, the Picasso Symphony.\nCreated by Jason Paul and musically directed by Saskatoon-born Maestro Kevin Zakresky, this multi-media event features the music of Stravinsky, de Falla, Villa-Lobos, Britten, Satie, and more as the SSO underscores footage of Picasso bringing each of his artistic periods to life.\nA multimedia symphonic experience celebrating the life, works and times of the most prolific artist of all time, Pablo Picasso. This experience explores the artistic genius who revolutionized art and the way we view the painted canvas.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\nProduced by JMP ENTERTAINMENT\nBooking by JMP ENTERTAINMENT\nCreated by JMP ENTERTAINMENT\nMusic Director – Kevin Zakresky\nTechnical Services – Black Ink Presents\n\n\n\t\t"
       }
     ]
   },
@@ -2398,7 +3154,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:33:49+00:00"
+        "@value": "2026-06-01T09:55:35+00:00"
       }
     ],
     "article:published_time": [
@@ -2410,19 +3166,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:33:49+00:00"
+        "@value": "2026-06-01T09:55:35+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Home-Alone-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/home-alone.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Home-Alone-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/home-alone.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -2449,13 +3205,13 @@
     ]
   },
   {
-    "@id": "_:g594240",
+    "@id": "_:g601980",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g594260"
+        "@id": "_:g602000"
       }
     ],
     "http://schema.org/name": [
@@ -2466,7 +3222,7 @@
     ]
   },
   {
-    "@id": "_:g594260",
+    "@id": "_:g602000",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2502,7 +3258,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/168e7068-e5dc-45e2-83eb-1708d4aa3ffc",
+    "@id": "https://saskatoonsymphony.org/temporary/46c17bbd-1fce-434b-b8ae-f0e0273c3c0b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2514,12 +3270,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g594240"
+        "@id": "_:g601980"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Home-Alone-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/home-alone.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -2557,7 +3313,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/fd20602b-bdee-4e7e-8cf9-8e25beb51c6b",
+    "@id": "https://saskatoonsymphony.org/temporary/be0170b4-24da-49f3-89fe-9c28a523bd3c",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -2568,7 +3324,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d8e0f936-5c62-4b62-a988-0cfc9a0610ce",
+    "@id": "https://saskatoonsymphony.org/temporary/6e1edd02-36f2-4029-ba8e-8ee74354b612",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2579,7 +3335,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/86e7eb3c-afe2-474d-8be0-ae6aec44df4b",
+    "@id": "https://saskatoonsymphony.org/temporary/9a59dfb3-28e2-4342-963c-b431dfd6c8d2",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -2591,7 +3347,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, December 5, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nJuliane Gallantconductor\n\n\nA true holiday favorite, this beloved comedy classic features renowned composer John Williams’ charming and delightful score performed live to picture by the Saskatoon Symphony Orchestra.  Macaulay Culkin stars as Kevin McCallister, an 8-year-old boy who’s accidentally left behind when his family leaves for Christmas vacation, and who must defend his home against two bungling thieves.  Hilarious and heart-warming, Home Alone is holiday fun for the entire family!\n© 1990 Twentieth Century Fox\nSingle tickets on sale June 1, 2026\n \n \n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, December 5, 2026\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJuliane Gallantconductor\n\n\nA true holiday favorite, this beloved comedy classic features renowned composer John Williams’ charming and delightful score performed live to picture by the Saskatoon Symphony Orchestra.  Macaulay Culkin stars as Kevin McCallister, an 8-year-old boy who’s accidentally left behind when his family leaves for Christmas vacation, and who must defend his home against two bungling thieves.  Hilarious and heart-warming, Home Alone is holiday fun for the entire family!\n© 1990 Twentieth Century Fox\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n \n \n\n\n\t\t"
       }
     ]
   },
@@ -2636,7 +3392,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:07+00:00"
+        "@value": "2026-06-01T09:54:52+00:00"
       }
     ],
     "article:published_time": [
@@ -2648,19 +3404,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:07+00:00"
+        "@value": "2026-06-01T09:54:52+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Messiah-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/messiah.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Messiah-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/messiah.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -2687,13 +3443,13 @@
     ]
   },
   {
-    "@id": "_:g608440",
+    "@id": "_:g616640",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g608460"
+        "@id": "_:g616660"
       }
     ],
     "http://schema.org/name": [
@@ -2704,7 +3460,7 @@
     ]
   },
   {
-    "@id": "_:g608460",
+    "@id": "_:g616660",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2740,7 +3496,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/51f1678d-ba1d-4708-b80f-670ebf334373",
+    "@id": "https://saskatoonsymphony.org/temporary/ce2564e3-c0d5-4ce5-880a-23cc2533ce79",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2752,12 +3508,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g608440"
+        "@id": "_:g616640"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Messiah-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/messiah.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -2795,7 +3551,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/78cbe293-1b14-428f-8e98-e8afc3338e1d",
+    "@id": "https://saskatoonsymphony.org/temporary/6043b45d-a1bf-468f-977b-885aaa05f9b7",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -2806,7 +3562,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/541b2efb-87e8-45e3-9d1a-b8b647267de1",
+    "@id": "https://saskatoonsymphony.org/temporary/3d2fc101-b5fd-4d8f-b5f4-93089c444485",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -2817,7 +3573,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/a4988f0b-f57e-4da8-9a8f-8a66b65ebce1",
+    "@id": "https://saskatoonsymphony.org/temporary/bdfe5c36-e4d0-4dfc-850a-44fbc09d1476",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -2829,7 +3585,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Friday, December 11, 2026\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nOli Gusellealto\nSpencer McKnighttenor\nNicholas Borgbass\nSSO ChorusDuff Warkentin & Kerry Agnew\n\n\nMessiahGeorge Frideric Handel\n\n\nPodium Partner Karl Hirzer returns to the intricate music of Handel for a third year in a row. If you had a chance to see the SSO and Chorus led by Hirzer in previous seasons, you know we’re in for a special treat. \nWe’re joined by soloists Casey Pedin, Oli Guselle, Spencer McKnight, and Nicholas Borg, and the SSO Chorus led by Kerry Agnew and Duff Warkentin.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Friday, December 11, 2026\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nOli Gusellealto\nSpencer McKnighttenor\nNicholas Borgbass\nSSO ChorusDuff Warkentin & Kerry Agnew\n\n\nMessiahGeorge Frideric Handel\n\n\nPodium Partner Karl Hirzer returns to the intricate music of Handel for a third year in a row. If you had a chance to see the SSO and Chorus led by Hirzer in previous seasons, you know we’re in for a special treat. \nWe’re joined by soloists Casey Peden, Oli Guselle, Spencer McKnight, and Nicholas Borg, and the SSO Chorus led by Kerry Agnew and Duff Warkentin.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -2874,7 +3630,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:29+00:00"
+        "@value": "2026-06-01T09:54:24+00:00"
       }
     ],
     "article:published_time": [
@@ -2886,7 +3642,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:29+00:00"
+        "@value": "2026-06-01T09:54:24+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -2925,13 +3681,13 @@
     ]
   },
   {
-    "@id": "_:g622640",
+    "@id": "_:g631400",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g622660"
+        "@id": "_:g631420"
       }
     ],
     "http://schema.org/name": [
@@ -2942,7 +3698,7 @@
     ]
   },
   {
-    "@id": "_:g622660",
+    "@id": "_:g631420",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -2978,7 +3734,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/fa30503d-3a8f-4480-b6d3-05ad450cddb1",
+    "@id": "https://saskatoonsymphony.org/temporary/bdd5983c-9fa5-4f3f-8577-05b62ddedc15",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2990,7 +3746,7 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g622640"
+        "@id": "_:g631400"
       }
     ],
     "http://schema.org/image": [
@@ -3033,7 +3789,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/228dd018-db27-49aa-9db2-847ec6abacf8",
+    "@id": "https://saskatoonsymphony.org/temporary/9cf54a22-e226-4bc0-951b-8cc6b1dcc27d",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3044,7 +3800,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/e6a92889-41fa-407e-8dec-e2f729df8ea2",
+    "@id": "https://saskatoonsymphony.org/temporary/8bf021dd-0fd6-43ca-9b16-d792ca18ec12",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3055,7 +3811,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/63486d43-f62d-4e82-ad72-0c5d0b445a5b",
+    "@id": "https://saskatoonsymphony.org/temporary/f2b9bd0d-5466-4564-b380-69b899ffe139",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3067,7 +3823,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n2:00PM, Saturday, December 12, 2026\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSubscriber Presale\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nOli Gusellealto\nSpencer McKnighttenor\nNicholas Borgbass\nSSO ChorusDuff Warkentin & Kerry Agnew\n\n\nIt’s the return of Sing-Along Messiah! Want to learn more? Visit our Sing-Along FAQs.\nWith an all-Saskatchewan line of soloists and the SSO Chorus, we continue our favourite tradition where you get to join in the chorus.\nSing-Along Messiah is dedicated to the memory of longtime SSO chorus member and friend, Kathleen Brannen. \nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n2:00PM, Saturday, December 12, 2026\nKnox United Church\n\n\n838 Spadina Crescent E\nSaskatoon, SK S7K 3H4\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nKarl Hirzerconductor\nCasey Pedensoprano\nOli Gusellealto\nSpencer McKnighttenor\nNicholas Borgbass\nSSO ChorusDuff Warkentin & Kerry Agnew\n\n\nIt’s the return of Sing-Along Messiah! Want to learn more? Visit our Sing-Along FAQs.\nWith an all-Saskatchewan line of soloists and the SSO Chorus, we continue our favourite tradition where you get to join in the chorus.\nSing-Along Messiah is dedicated to the memory of longtime SSO chorus member and friend, Kathleen Brannen. \nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -3112,7 +3868,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:45+00:00"
+        "@value": "2026-06-01T09:53:59+00:00"
       }
     ],
     "article:published_time": [
@@ -3124,19 +3880,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:45+00:00"
+        "@value": "2026-06-01T09:53:59+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/christmas-classics-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-3.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/christmas-classics-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-3.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -3163,13 +3919,13 @@
     ]
   },
   {
-    "@id": "_:g637520",
+    "@id": "_:g646200",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g637540"
+        "@id": "_:g646220"
       }
     ],
     "http://schema.org/name": [
@@ -3180,7 +3936,7 @@
     ]
   },
   {
-    "@id": "_:g637540",
+    "@id": "_:g646220",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3216,7 +3972,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/f2c620dc-50c1-4c19-a654-351a00a63b77",
+    "@id": "https://saskatoonsymphony.org/temporary/94034614-efa1-4ba2-b027-4e0737efd659",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3228,12 +3984,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g637520"
+        "@id": "_:g646200"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/christmas-classics-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-3.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -3271,7 +4027,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3fdf2081-7a6e-4eaf-8915-5d104d236773",
+    "@id": "https://saskatoonsymphony.org/temporary/b5be9bb4-7c8c-40fe-9e3c-ce8f20532fa3",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3282,7 +4038,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/57b56d87-8968-4499-a75b-c0d905874ca9",
+    "@id": "https://saskatoonsymphony.org/temporary/c5ef53b4-c473-46e1-aca3-1d7ee3608de3",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3293,7 +4049,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/1e5487bb-c976-4d35-9554-99e3db762f76",
+    "@id": "https://saskatoonsymphony.org/temporary/42b23dc7-e665-4dfb-b345-9a160633ff04",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3305,7 +4061,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Sunday, December 20, 2026\nSt John’s Cathedral\n\n\n 816 Spadina Crescent E\nSaskatoon, Saskatchewan S7K 3H4\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nSSO Chamber Ensemble\n\n\nA new holiday tradition has been born!\nJoin the SSO in the stunning acoustics of the history St John’s Cathedral on Spadina for this beautiful night of Christmas carols and holiday favourites.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Sunday, December 20, 2026\nSt John’s Cathedral\n\n\n 816 Spadina Crescent E\nSaskatoon, Saskatchewan S7K 3H4\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nSSO Chamber Ensemble\n\n\nA new holiday tradition has been born!\nJoin the SSO in the stunning acoustics of the history St John’s Cathedral on Spadina for this beautiful night of Christmas carols and holiday favourites.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -3350,7 +4106,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:59+00:00"
+        "@value": "2026-06-01T09:53:28+00:00"
       }
     ],
     "article:published_time": [
@@ -3362,19 +4118,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:34:59+00:00"
+        "@value": "2026-06-01T09:53:28+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/pirates-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-4.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/pirates-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-4.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -3401,13 +4157,13 @@
     ]
   },
   {
-    "@id": "_:g651720",
+    "@id": "_:g660960",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g651740"
+        "@id": "_:g660980"
       }
     ],
     "http://schema.org/name": [
@@ -3418,7 +4174,7 @@
     ]
   },
   {
-    "@id": "_:g651740",
+    "@id": "_:g660980",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3454,7 +4210,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ee95e5cc-dc06-4bb4-8fd1-07b83657e8ba",
+    "@id": "https://saskatoonsymphony.org/temporary/53208337-84a1-4b7d-9353-b1f0abeef68f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3466,12 +4222,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g651720"
+        "@id": "_:g660960"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/pirates-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-4.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -3509,7 +4265,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2334a7a2-4f59-4f9f-8318-08bd45c6955d",
+    "@id": "https://saskatoonsymphony.org/temporary/a34649f1-3301-4399-a086-9b6b452d6d22",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3520,7 +4276,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/26b8d801-3c79-4e11-9d48-f10b9afa7409",
+    "@id": "https://saskatoonsymphony.org/temporary/5599df71-404f-4a40-914a-eddba2d741c7",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3531,7 +4287,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/21b8c92f-6d17-45ab-9a14-45be149d7115",
+    "@id": "https://saskatoonsymphony.org/temporary/edb9eb9c-1e9e-4609-ba37-05e6d0ea5b77",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3543,7 +4299,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, January 23, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nThe Saskatoon Symphony Orchestra will present Disney’s Pirates of the Caribbean: The Curse of the Black Pearl in concert featuring Klaus Badelt & Hans Zimmer’s score performed live to the film. The concert will be conducted by Andrew Crust on January 23, 2027, at TCU Place.\nOscar® and GRAMMY® Award-winning composer Hans Zimmer and his production team have scored each Pirates of the Caribbean adventure for the franchise. The original score raised the bar for thematic complexity with its orchestral swashbuckling flavor accentuated by the use of horns for melody.\nPirates of the Caribbean: The Curse of the Black Pearl is based on the Pirates of the Caribbean attraction at Disney Parks and is the first installment of the film series. Set in the 18th century, Captain Jack Sparrow is roguish yet charming, as he sails the Caribbean on his ship the Black Pearl. But Jack’s idyllic life capsizes when his nemesis, the wily Captain Barbossa, steals Jack’s ship and later attacks the town of Port Royal, kidnapping the Governor’s beautiful daughter, Elizabeth Swann. In a gallant attempt to rescue her and recapture the Black Pearl, Elizabeth’s childhood friend, Will Turner, joins forces with Jack. Unbeknownst to Will, whose father once served with the crew of the Black Pearl, there is a curse that has doomed Barbossa and his men to live forever as the undead.\nAbout Disney Concerts\nDisney Concerts is the concert production and licensing division of Disney Music Group, the music arm of The Walt Disney Company. Disney Concerts produces concerts and tours, and licenses Disney music and visual content to symphony orchestras, choruses and presenters on a worldwide basis. Disney Concerts’ concert packages include a variety of formats, such as “live-to-picture” film concerts, and themed instrumental and vocal compilation concerts that range from instrumental-only symphonic performances to multimedia productions featuring live vocalists and choirs. Featuring concerts from the largest movie franchises in the world – from Walt Disney Pictures, Walt Disney Animation Studios, Marvel Studios, Lucasfilm, Pixar and 20th Century Studios – current titles include the Star Wars Film Concert Series, Toy Story, Disney Princess: The Concert, Coco, The Lion King, Up, Tim Burton’s The Nightmare Before Christmas, The Muppet Christmas Carol and Infinity Saga Concert Experience.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, January 23, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nThe Saskatoon Symphony Orchestra will present Disney’s Pirates of the Caribbean: The Curse of the Black Pearl in concert featuring Klaus Badelt & Hans Zimmer’s score performed live to the film. The concert will be conducted by Andrew Crust on January 23, 2027, at TCU Place.\nOscar® and GRAMMY® Award-winning composer Hans Zimmer and his production team have scored each Pirates of the Caribbean adventure for the franchise. The original score raised the bar for thematic complexity with its orchestral swashbuckling flavor accentuated by the use of horns for melody.\nPirates of the Caribbean: The Curse of the Black Pearl is based on the Pirates of the Caribbean attraction at Disney Parks and is the first installment of the film series. Set in the 18th century, Captain Jack Sparrow is roguish yet charming, as he sails the Caribbean on his ship the Black Pearl. But Jack’s idyllic life capsizes when his nemesis, the wily Captain Barbossa, steals Jack’s ship and later attacks the town of Port Royal, kidnapping the Governor’s beautiful daughter, Elizabeth Swann. In a gallant attempt to rescue her and recapture the Black Pearl, Elizabeth’s childhood friend, Will Turner, joins forces with Jack. Unbeknownst to Will, whose father once served with the crew of the Black Pearl, there is a curse that has doomed Barbossa and his men to live forever as the undead.\nAbout Disney Concerts\nDisney Concerts is the concert production and licensing division of Disney Music Group, the music arm of The Walt Disney Company. Disney Concerts produces concerts and tours, and licenses Disney music and visual content to symphony orchestras, choruses and presenters on a worldwide basis. Disney Concerts’ concert packages include a variety of formats, such as “live-to-picture” film concerts, and themed instrumental and vocal compilation concerts that range from instrumental-only symphonic performances to multimedia productions featuring live vocalists and choirs. Featuring concerts from the largest movie franchises in the world – from Walt Disney Pictures, Walt Disney Animation Studios, Marvel Studios, Lucasfilm, Pixar and 20th Century Studios – current titles include the Star Wars Film Concert Series, Toy Story, Disney Princess: The Concert, Coco, The Lion King, Up, Tim Burton’s The Nightmare Before Christmas, The Muppet Christmas Carol and Infinity Saga Concert Experience.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -3588,7 +4344,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:15+00:00"
+        "@value": "2026-06-01T09:52:55+00:00"
       }
     ],
     "article:published_time": [
@@ -3600,19 +4356,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:15+00:00"
+        "@value": "2026-06-01T09:52:55+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/in-love-again-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-5.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/in-love-again-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-5.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -3639,13 +4395,13 @@
     ]
   },
   {
-    "@id": "_:g665920",
+    "@id": "_:g675720",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g665940"
+        "@id": "_:g675740"
       }
     ],
     "http://schema.org/name": [
@@ -3656,7 +4412,7 @@
     ]
   },
   {
-    "@id": "_:g665940",
+    "@id": "_:g675740",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3692,7 +4448,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b968349b-a5d2-4e95-a884-041f0e6a4e80",
+    "@id": "https://saskatoonsymphony.org/temporary/c5ec5416-0f77-407b-9462-07d08fb15320",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3704,12 +4460,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g665920"
+        "@id": "_:g675720"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/in-love-again-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-5.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -3747,7 +4503,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/20b75393-2772-4366-8e58-7ef3929c9ad5",
+    "@id": "https://saskatoonsymphony.org/temporary/4178ed47-d949-47c7-be2e-cd19657169e9",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3758,7 +4514,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/cbce8f60-842c-4763-9cf7-abdb60057f6e",
+    "@id": "https://saskatoonsymphony.org/temporary/2693d9a1-0549-48ba-9aa3-97799fb6443f",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -3769,7 +4525,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d3bc7daa-6e08-4d1f-be84-1b7ca21d02c7",
+    "@id": "https://saskatoonsymphony.org/temporary/8bc71e60-34fe-4fac-811b-95beae48bee4",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -3781,7 +4537,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, February 13, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nKarl Hirzerconductor\nJohannes Mosercello\n\n\nCello ConcertoAntonín Dvořák\n\n\nA concert designed specifically for your Valentines’ weekend–full of romance, passion, and music!\nJohannes Moser is one of the world’s greatest cellists…and he just so happens to have a deep tie to Saskatoon.\nMoser’s mother, the world-renowned soprano Edith Wiens, grew up just north of Saskatoon, so it is always special to have Moser here for a performance. Known for his passionate and dramatic performances, showcasing his exceptional virtuosity, Moser will be performing Dvořák’s romantic Cello Concerto.\nThe evening opens with the Saskatoon Youth Orchestra taking the stage alongside some of their SSO mentors.\nKarl Hirzer leads the SSO in a night of ardent music that sets the tone for a romantic night at the symphony.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, February 13, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nKarl Hirzerconductor\nJohannes Mosercello\n\n\nCello ConcertoAntonín Dvořák\n\n\nA concert designed specifically for your Valentines’ weekend–full of romance, passion, and music!\nJohannes Moser is one of the world’s greatest cellists…and he just so happens to have a deep tie to Saskatoon.\nMoser’s mother, the world-renowned soprano Edith Wiens, grew up just north of Saskatoon, so it is always special to have Moser here for a performance. Known for his passionate and dramatic performances, showcasing his exceptional virtuosity, Moser will be performing Dvořák’s romantic Cello Concerto.\nThe evening opens with the Saskatoon Youth Orchestra taking the stage alongside some of their SSO mentors.\nKarl Hirzer leads the SSO in a night of ardent music that sets the tone for a romantic night at the symphony.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -3826,7 +4582,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:28+00:00"
+        "@value": "2026-06-01T09:52:31+00:00"
       }
     ],
     "article:published_time": [
@@ -3838,19 +4594,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:28+00:00"
+        "@value": "2026-06-01T09:52:31+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/all-beethoven-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-6.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/all-beethoven-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-6.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -3877,13 +4633,13 @@
     ]
   },
   {
-    "@id": "_:g680120",
+    "@id": "_:g690480",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g680140"
+        "@id": "_:g690500"
       }
     ],
     "http://schema.org/name": [
@@ -3894,7 +4650,7 @@
     ]
   },
   {
-    "@id": "_:g680140",
+    "@id": "_:g690500",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -3930,7 +4686,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3fbb64fd-274c-4062-a17b-f1d72b6bc764",
+    "@id": "https://saskatoonsymphony.org/temporary/b7f18721-60f5-4f0e-86ed-749dde647a18",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3942,12 +4698,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g680120"
+        "@id": "_:g690480"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/all-beethoven-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-6.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -3985,7 +4741,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/56b90042-e84a-4ad0-9bbf-a4fc76ae5cb8",
+    "@id": "https://saskatoonsymphony.org/temporary/40ffca66-ecde-4d07-894f-a00fab52079f",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -3996,7 +4752,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/00d77164-1b3d-4d4a-b9e1-01e6a3b86249",
+    "@id": "https://saskatoonsymphony.org/temporary/00307b7d-015f-4a5a-a6a2-0217b5b26255",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4007,7 +4763,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/9829787b-971b-47af-a37d-e3b82fddb1dd",
+    "@id": "https://saskatoonsymphony.org/temporary/519c68c0-aef1-429e-8c22-88644429d6b9",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -4019,7 +4775,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Thursday, February 25, 2027\nConvocation Hall\n\n\n107 Administration Place\nSaskatoon, Saskatchewan S7N 5A2\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nJohannes Mosercello\nMarc-André Hamelinpiano\n\n\nCello Sonata No. 4 in C Major, Op. 102, No. 1Ludwig van Beethoven\nCello Sonata No. 3 in A Major, Op. 69Ludwig van Beethoven\nCello Sonata No. 2 in G minor, Op. 5, No. 2Ludwig van Beethoven\nCello Sonata No. 5 in D Major, Op. 102, No. 2Ludwig van Beethoven\n\n\nTwo greats meet on stage for one special concert.\nRenowned cellist Johannes Moser is joined by superstar pianist Marc-André Hamelin for a concert featuring works for cello and piano by Ludwig van Beethoven. \n“…bravura flourishes of the strapping and exuberant…Johannes Moser” The New York Times\n“Melodic fragments were subtly shaded with minute variations of dynamics and tonal color. Moser deliberately paced the long cadenza, assaying the difficult leaps of register with total accuracy while allowing the music to speak directly in an unforced manner. By contrast the finale was taken at a lightning clip. Beneath the brilliance and verve of Moser’s playing, there was always expressive depth.” Miami Herald\n“A performer of near-superhuman technical prowess” (The New York Times), Marc-André Hamelin is known worldwide for his unrivaled blend of consummate musicianship and brilliant technique in the great works of the established repertoire, as well as for his intrepid exploration of the rarities of the 19th, 20th, and 21st centuries.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Thursday, February 25, 2027\nConvocation Hall\n\n\n107 Administration Place\nSaskatoon, Saskatchewan S7N 5A2\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJohannes Mosercello\nMarc-André Hamelinpiano\n\n\nCello Sonata No. 4 in C Major, Op. 102, No. 1Ludwig van Beethoven\nCello Sonata No. 3 in A Major, Op. 69Ludwig van Beethoven\nCello Sonata No. 2 in G minor, Op. 5, No. 2Ludwig van Beethoven\nCello Sonata No. 5 in D Major, Op. 102, No. 2Ludwig van Beethoven\n\n\nTwo greats meet on stage for one special concert.\nRenowned cellist Johannes Moser is joined by superstar pianist Marc-André Hamelin for a concert featuring works for cello and piano by Ludwig van Beethoven. \n“…bravura flourishes of the strapping and exuberant…Johannes Moser” The New York Times\n“Melodic fragments were subtly shaded with minute variations of dynamics and tonal color. Moser deliberately paced the long cadenza, assaying the difficult leaps of register with total accuracy while allowing the music to speak directly in an unforced manner. By contrast the finale was taken at a lightning clip. Beneath the brilliance and verve of Moser’s playing, there was always expressive depth.” Miami Herald\n“A performer of near-superhuman technical prowess” (The New York Times), Marc-André Hamelin is known worldwide for his unrivaled blend of consummate musicianship and brilliant technique in the great works of the established repertoire, as well as for his intrepid exploration of the rarities of the 19th, 20th, and 21st centuries.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -4064,7 +4820,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:40+00:00"
+        "@value": "2026-06-01T09:51:48+00:00"
       }
     ],
     "article:published_time": [
@@ -4076,19 +4832,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:40+00:00"
+        "@value": "2026-06-01T09:51:48+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/roman-holiday-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-7.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/roman-holiday-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-7.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -4115,13 +4871,13 @@
     ]
   },
   {
-    "@id": "_:g694840",
+    "@id": "_:g705240",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g694860"
+        "@id": "_:g705260"
       }
     ],
     "http://schema.org/name": [
@@ -4132,7 +4888,7 @@
     ]
   },
   {
-    "@id": "_:g694860",
+    "@id": "_:g705260",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4168,7 +4924,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3a78b8cf-2cee-448e-bccc-2c9dfb4ea200",
+    "@id": "https://saskatoonsymphony.org/temporary/e2d3320b-6b63-44de-813b-3a74e62200c3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4180,12 +4936,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g694840"
+        "@id": "_:g705240"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/roman-holiday-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-7.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -4223,7 +4979,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/8ebd2caa-5177-4eea-bdf1-7ae44ccd5c3a",
+    "@id": "https://saskatoonsymphony.org/temporary/1ec2c09f-e349-4615-85c5-5a425370f56e",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -4234,7 +4990,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/b5e2dec9-d3af-4edc-8ee7-24deea2d9820",
+    "@id": "https://saskatoonsymphony.org/temporary/19902161-277d-43ce-9c4a-4cfa94f79c12",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4245,7 +5001,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/9bf8d44c-f611-4150-894b-5c6fdcc2eec0",
+    "@id": "https://saskatoonsymphony.org/temporary/035938ba-b5b2-4031-8636-7816bee90d4c",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -4257,7 +5013,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 6, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nKarl Hirzerconductor\nRyan Davisviola\n\n\nHarold in Italy, Op. 16Hector Berlioz\nPines of RomeOttorino Respighi\n\n\nShake off those winter blues and take a much-needed trip to Rome!\nPodium partner Karl Hirzer leads the SSO in a musical journey to Italy featuring Saskatoon’s own Ryan Davis returning home to join the SSO for Hector Berlioz’ adventurous Harold in Italy.  \nAfter finding ourselves squarely in the musical language of Italy, the SSO walks with you through the Eternal City with Ottorino Respighi’s Pines of Rome. A musical photograph of areas of Rome that find themselves in the shades of trees, this work is amongst the most incredible and exhilarating ever written for orchestra.\nThis is a landmark night at the SSO, and one that will be remembered for years to come.\nCiao bella!\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 6, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nKarl Hirzerconductor\nRyan Davisviola\n\n\nHarold in Italy, Op. 16Hector Berlioz\nPines of RomeOttorino Respighi\n\n\nShake off those winter blues and take a much-needed trip to Rome!\nPodium partner Karl Hirzer leads the SSO in a musical journey to Italy featuring Saskatoon’s own Ryan Davis returning home to join the SSO for Hector Berlioz’ adventurous Harold in Italy.  \nAfter finding ourselves squarely in the musical language of Italy, the SSO walks with you through the Eternal City with Ottorino Respighi’s Pines of Rome. A musical photograph of areas of Rome that find themselves in the shades of trees, this work is amongst the most incredible and exhilarating ever written for orchestra.\nThis is a landmark night at the SSO, and one that will be remembered for years to come.\nCiao bella!\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -4302,7 +5058,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:54+00:00"
+        "@value": "2026-06-01T09:51:21+00:00"
       }
     ],
     "article:published_time": [
@@ -4314,19 +5070,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:35:54+00:00"
+        "@value": "2026-06-01T09:51:21+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/verve-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-8.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/verve-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-8.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -4353,13 +5109,13 @@
     ]
   },
   {
-    "@id": "_:g709580",
+    "@id": "_:g720000",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g709600"
+        "@id": "_:g720020"
       }
     ],
     "http://schema.org/name": [
@@ -4370,7 +5126,7 @@
     ]
   },
   {
-    "@id": "_:g709600",
+    "@id": "_:g720020",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4406,7 +5162,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/467280f5-3fc9-4f31-8dbd-f678c8cb4060",
+    "@id": "https://saskatoonsymphony.org/temporary/3cceb4c1-7b56-4d3e-9971-8ca215d1f809",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4418,12 +5174,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g709580"
+        "@id": "_:g720000"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/verve-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-8.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -4461,7 +5217,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2ca6abc5-c397-43ce-a96f-48c98c2da71b",
+    "@id": "https://saskatoonsymphony.org/temporary/8d930d57-dbd1-4a61-8ccc-25610bd96a8e",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -4472,7 +5228,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/ffddaaf3-6e8c-4f56-bcea-17a99497511c",
+    "@id": "https://saskatoonsymphony.org/temporary/63cd07c3-ee73-4ceb-ac6d-501b30f638ce",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4483,7 +5239,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0fd396cc-c7e3-4f9a-b933-daf052dbda5e",
+    "@id": "https://saskatoonsymphony.org/temporary/2536518f-90f3-47ae-bc72-a948fc245602",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -4495,7 +5251,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 20, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nTania Millerconductor\nAvery Guopiano\n\n\nPiano Concerto No. 1 in E♭ major, S.124Franz Liszt\nSymphony No. 7 in A major, Op. 92Ludwig van Beethoven\n\n\nMaestra Tania Miller is a force of nature on the podium. As a podium partner of the SSO, we’ve been lucky to enjoy the special relationship she has with the musicians and the energy, passion, and verve she brings to each and every moment of music.\nAvery Guo, winner of the 2024 Saskatchewan Concerto Competition, makes her SSO debut in Franz Liszt’s first Piano Concerto. This is music that is virtuosic, powerful, and designed to blow the audience away – a great fit for this young Saskatoon pianist!\nTania Miller then leads the SSO in Beethoven’s iconic 7th Symphony. One of the most thrilling and profound pieces of music ever written, the 7th stands the test of time; one of the great moments of human expression and connection, the music is the embodiment of joy, innovation, and rhythmic energy.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, March 20, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nTania Millerconductor\nAvery Guopiano\n\n\nPiano Concerto No. 1 in E♭ major, S.124Franz Liszt\nSymphony No. 7 in A major, Op. 92Ludwig van Beethoven\n\n\nMaestra Tania Miller is a force of nature on the podium. As a podium partner of the SSO, we’ve been lucky to enjoy the special relationship she has with the musicians and the energy, passion, and verve she brings to each and every moment of music.\nAvery Guo, winner of the 2024 Saskatchewan Concerto Competition, makes her SSO debut in Franz Liszt’s first Piano Concerto. This is music that is virtuosic, powerful, and designed to blow the audience away – a great fit for this young Saskatoon pianist!\nTania Miller then leads the SSO in Beethoven’s iconic 7th Symphony. One of the most thrilling and profound pieces of music ever written, the 7th stands the test of time; one of the great moments of human expression and connection, the music is the embodiment of joy, innovation, and rhythmic energy.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -4540,7 +5296,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:36:07+00:00"
+        "@value": "2026-06-01T09:50:53+00:00"
       }
     ],
     "article:published_time": [
@@ -4552,19 +5308,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:36:07+00:00"
+        "@value": "2026-06-01T09:50:53+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/HTTYD-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-9.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/HTTYD-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-9.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -4591,13 +5347,13 @@
     ]
   },
   {
-    "@id": "_:g723780",
+    "@id": "_:g734760",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g723800"
+        "@id": "_:g734780"
       }
     ],
     "http://schema.org/name": [
@@ -4608,7 +5364,7 @@
     ]
   },
   {
-    "@id": "_:g723800",
+    "@id": "_:g734780",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4644,7 +5400,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/2a13c06d-8ee1-4c2a-993b-708ac1b012ee",
+    "@id": "https://saskatoonsymphony.org/temporary/79c65696-c068-4892-9891-1c07c920c531",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4656,12 +5412,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g723780"
+        "@id": "_:g734760"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/HTTYD-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-9.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -4699,7 +5455,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/0cfc3f7d-5efc-4799-9991-9011685fa085",
+    "@id": "https://saskatoonsymphony.org/temporary/83244388-c837-4f23-97e2-fe80caec406c",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -4710,7 +5466,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d6850df1-f4f0-45b4-96d4-dcc67d6f4d13",
+    "@id": "https://saskatoonsymphony.org/temporary/81ec65c7-cbb4-4354-9add-64e88549dd7b",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4721,7 +5477,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/23684903-4665-4bc2-930a-e9de8b1a8ec7",
+    "@id": "https://saskatoonsymphony.org/temporary/994270d5-482b-42d4-9a04-08f49a4aeabb",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -4733,7 +5489,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, April 10, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nJuliane Gallantconductor\n\n\nA winner with audiences and critics alike, DreamWorks’ How to Train Your Dragon is a captivating and original story that combines humor, fire-breathing action and epic adventure! \nHiccup is a young Viking who defies tradition when he befriends one of his deadliest foes – a ferocious dragon he calls Toothless. Together, these unlikely heroes must fight against all odds to save both their worlds.\nHow To Train Your Dragon – In Concert features this acclaimed film presented in HD, with composer John Powell’s Academy Award®-nominated score performed live to picture by a full symphony orchestra in a thrilling experience for all ages.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, April 10, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJuliane Gallantconductor\n\n\nA winner with audiences and critics alike, DreamWorks’ How to Train Your Dragon is a captivating and original story that combines humor, fire-breathing action and epic adventure! \nHiccup is a young Viking who defies tradition when he befriends one of his deadliest foes – a ferocious dragon he calls Toothless. Together, these unlikely heroes must fight against all odds to save both their worlds.\nHow To Train Your Dragon – In Concert features this acclaimed film presented in HD, with composer John Powell’s Academy Award®-nominated score performed live to picture by a full symphony orchestra in a thrilling experience for all ages.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   },
@@ -4778,7 +5534,7 @@
     "http://ogp.me/ns#updated_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:36:25+00:00"
+        "@value": "2026-06-01T09:50:31+00:00"
       }
     ],
     "article:published_time": [
@@ -4790,19 +5546,19 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-05-19T13:36:25+00:00"
+        "@value": "2026-06-01T09:50:31+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/flamme-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-10.jpg"
       }
     ],
     "http://ogp.me/ns#image:secure_url": [
       {
         "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/flamme-launch-1024x1024s.jpg"
+        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-10.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -4829,13 +5585,13 @@
     ]
   },
   {
-    "@id": "_:g737980",
+    "@id": "_:g749520",
     "@type": [
       "http://schema.org/Place"
     ],
     "http://schema.org/address": [
       {
-        "@id": "_:g738000"
+        "@id": "_:g749540"
       }
     ],
     "http://schema.org/name": [
@@ -4846,7 +5602,7 @@
     ]
   },
   {
-    "@id": "_:g738000",
+    "@id": "_:g749540",
     "@type": [
       "http://schema.org/PostalAddress"
     ],
@@ -4882,7 +5638,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/3c33d5a5-d575-4c70-a74b-1ae878012f77",
+    "@id": "https://saskatoonsymphony.org/temporary/ae19421e-dc1b-47e8-81c6-c9f092b90cf6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4894,12 +5650,12 @@
     ],
     "http://schema.org/location": [
       {
-        "@id": "_:g737980"
+        "@id": "_:g749520"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/flamme-launch-1024x1024s.jpg"
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2026/03/Untitled-10.jpg"
       }
     ],
     "http://schema.org/endDate": [
@@ -4937,7 +5693,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/d001bc40-6d5c-4aee-9b44-b27b1d792f56",
+    "@id": "https://saskatoonsymphony.org/temporary/0c936271-9a56-4f0f-8c3a-c5f1dfa831ca",
     "@type": [
       "https://schema.org/Blog"
     ],
@@ -4948,7 +5704,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/eea5e2c1-9882-4c0b-b15b-d63c9aec02f6",
+    "@id": "https://saskatoonsymphony.org/temporary/b9c636fc-4c71-4e3f-a93f-2269d7535915",
     "@type": [
       "https://schema.org/WPHeader"
     ],
@@ -4959,7 +5715,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/temporary/90454d28-22ea-4030-8ac3-98a534a24f95",
+    "@id": "https://saskatoonsymphony.org/temporary/032242e3-7d80-4d78-92d2-337811cce205",
     "@type": [
       "https://schema.org/CreativeWork"
     ],
@@ -4971,7 +5727,7 @@
     "https://schema.org/text": [
       {
         "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, May 1, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSubscribe and Save\n\n\n\nJudith Yanconductor\nNikki Chooiviolin\n\n\nA concert designed specifically to connect directly with its audience, and through connection, move us forward. \nPodium Partner Judith Yan curates a unique concert experience as we move towards the flame. The evening features 5 brand new works by female composers (including Adriana Isabel Figueroa Manas and Kendra Harder) in a commissioning project entitled A Better World, supported by a generous donation from Carol Edwards. These works are interspersed throughout an evening of music where musical fire creates a new and better world. \nViolinist Nikki Chooi returns to the SSO after his 2015 debut in a brand new work co-commissioned by the SSO. Iman Habibi’s Atash was created in response to the devastating fires of 2023, and Habibi’s goal is to show our changing relationship with this powerful natural force, where the orchestra represents nature, and the soloist reacts to it as humans have done throughout history.\nOur earth, our society, each of us, finding a better world. Creating something from the ashes as we move towards the flame.\nSingle tickets on sale June 1, 2026\n\n\n\t\t"
+        "@value": "\n\t\t\t\n\n\n7:30PM, Saturday, May 1, 2027\nTCU Place, Sid Buckwold Theatre\n\n\n35 – 22nd Street East\nSaskatoon, SK S7K 0C8\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nJudith Yanconductor\nNikki Chooiviolin\n\n\nA concert designed specifically to connect directly with its audience, and through connection, move us forward. \nPodium Partner Judith Yan curates a unique concert experience as we move towards the flame. The evening features 5 brand new works by female composers (including Adriana Isabel Figueroa Manas and Kendra Harder) in a commissioning project entitled A Better World, supported by a generous donation from Carol Edwards. These works are interspersed throughout an evening of music where musical fire creates a new and better world. \nViolinist Nikki Chooi returns to the SSO after his 2015 debut in a brand new work co-commissioned by the SSO. Iman Habibi’s Atash was created in response to the devastating fires of 2023, and Habibi’s goal is to show our changing relationship with this powerful natural force, where the orchestra represents nature, and the soloist reacts to it as humans have done throughout history.\nOur earth, our society, each of us, finding a better world. Creating something from the ashes as we move towards the flame.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
       }
     ]
   }
