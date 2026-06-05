@@ -16,8 +16,8 @@ jobs:
           artifact: "reseauartactuel-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "output/rcaaq-events.jsonld"
-          page-url: "https://reseauartactuel.org/liste_evenements/page/"
-          entity-identifier: "h3.tribe-events-list-event-title a"
+          page-url: "https://reseauartactuel.org/evenements/page/"
+          entity-identifier: "a[href*='/evenement/']"
           is-paginated: "true"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
