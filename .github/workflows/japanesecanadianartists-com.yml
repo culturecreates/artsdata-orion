@@ -19,3 +19,4 @@ jobs:
           downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/japanesecanadianartists-com-events.jsonld"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
+          custom-databus-url: "http://staging.api.artsdata.ca/databus/"
