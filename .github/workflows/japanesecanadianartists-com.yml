@@ -2,9 +2,7 @@ name: japanesecanadianartists-com
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 4 * *'
-      
+
 jobs:
   artsdata-fetch-and-push:
     runs-on: ubuntu-latest
@@ -12,7 +10,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v4
         with:
-          mode: "fetch-push"
+          mode: "push"
           artifact: "japanesecanadianartists-com"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadFile: "output/japanesecanadianartists-com-events.jsonld"
