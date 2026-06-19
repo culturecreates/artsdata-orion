@@ -13,7 +13,6 @@ jobs:
           mode: "push"
           artifact: "japanesecanadianartists-com"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "output/japanesecanadianartists-com.jsonld"
           page-url: "https://japanesecanadianartists.com/artist/"
           entity-identifier: "h1.entry-title a"
           downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/japanesecanadianartists-com.jsonld"
