@@ -1,0 +1,3466 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://japanesecanadianartists.com/artist/mark-takeshi-mcgregor/#Agent> a schema:Person;
+  schema:name "Mark Takeshi McGregor";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/Mark1-1.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/place/Vancouver-BC> a schema:PostalAddress;
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/a-katsuyoshi-morita/#Agent> a schema:Person;
+  schema:name "Katsuyoshi Morita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Morita_K_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/place/Vancouver-British%20Columbia> a schema:PostalAddress;
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "British Columbia" .
+
+<https://japanesecanadianartists.com/artist/aiko-saita/#Agent> a schema:Person;
+  schema:name "Aiko Saita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Saita_A_600X600.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/aiko-suzuki/#Agent> a schema:Person;
+  schema:name "Aiko Suzuki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/London-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Suzuki_Aiko_600X600.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/place/London-Ontario> a schema:PostalAddress;
+  schema:addressLocality "London";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/ajon-moriyama/#Agent> a schema:Person;
+  schema:name "Ajon Moriyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Moriyama_Ajon_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/Toronto-Ontario> a schema:PostalAddress;
+  schema:addressLocality "Toronto";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/akemi-ito/#Agent> a schema:Person;
+  schema:name "Akemi Emma Ito";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/02/IMG_4756.jpg>;
+  schema:jobTitle "Illustrator" .
+
+<https://japanesecanadianartists.com/artist/akemi-nishidera/#Agent> a schema:Person;
+  schema:name "Akemi Nishidera";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nishidera_Akemi_600X600.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/artist/aki-hyodo/#Agent> a schema:Person;
+  schema:name "Aki Hyodo";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Stage_01_600X600.jpg>;
+  schema:jobTitle "Actress" .
+
+<https://japanesecanadianartists.com/place/Montreal-Quebec> a schema:PostalAddress;
+  schema:addressLocality "Montreal";
+  schema:addressRegion "Quebec" .
+
+<https://japanesecanadianartists.com/artist/aki-shimazaki/#Agent> a schema:Person;
+  schema:name "Aki Shimazaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Quebec-Montreal>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Shimazaki_A_600X600.jpg>;
+  schema:jobTitle "Novelist" .
+
+<https://japanesecanadianartists.com/place/Quebec-Montreal> a schema:PostalAddress;
+  schema:addressLocality "Quebec";
+  schema:addressRegion "Montreal" .
+
+<https://japanesecanadianartists.com/artist/akiko-tsuji/#Agent> a schema:Person;
+  schema:name "Akiko Tsuji";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Akiko-Tsuji.jpg>;
+  schema:jobTitle "Ikebana practitioner, doll maker" .
+
+<https://japanesecanadianartists.com/artist/akira-yoshikawa/#Agent> a schema:Person;
+  schema:name "Akira Yoshikawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yoshikawa_Akira_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/alan-itakura/#Agent> a schema:Person;
+  schema:name "Alan Itakura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Itakura_Alan_600X600.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/artist/alan-kondo/#Agent> a schema:Person;
+  schema:name "Alan Kondo";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Los%20Angeles-California>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mic_01_600X600.jpg>;
+  schema:jobTitle "Singer, Editor" .
+
+<https://japanesecanadianartists.com/place/Los%20Angeles-California> a schema:PostalAddress;
+  schema:addressLocality "Los Angeles";
+  schema:addressRegion "California" .
+
+<https://japanesecanadianartists.com/artist/alan-nakatsui/#Agent> a schema:Person;
+  schema:name "Alan Nakatsui";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Lake%20Country-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_01_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/Lake%20Country-BC> a schema:PostalAddress;
+  schema:addressLocality "Lake Country";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/alana-keiko-fleming/#Agent> a schema:Person;
+  schema:name "Alana Keiko Fleming";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/Alana_Keiko_Fleming_1200.jpg>;
+  schema:jobTitle "3D Animator, Graphic Designer" .
+
+<https://japanesecanadianartists.com/artist/ann-lee-and-gordon-switzer/#Agent> a schema:Person;
+  schema:name "Ann-Lee and Gordon Switzer";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Victoria-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Switzer_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/place/Victoria-British%20Columbia> a schema:PostalAddress;
+  schema:addressLocality "Victoria";
+  schema:addressRegion "British Columbia" .
+
+<https://japanesecanadianartists.com/artist/ann-sunahara/#Agent> a schema:Person;
+  schema:name "Ann Sunahara";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Ottawa-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sunahara_A_600X600.jpg>;
+  schema:jobTitle "Legal Scholar, author" .
+
+<https://japanesecanadianartists.com/place/Ottawa-Ontario> a schema:PostalAddress;
+  schema:addressLocality "Ottawa";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/ann-suzuki/#Agent> a schema:Person;
+  schema:name "Ann Suzuki";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Suzuki_Ann_600X600.jpg>;
+  schema:jobTitle "Textile Artist" .
+
+<https://japanesecanadianartists.com/artist/annie-koyama/#Agent> a schema:Person;
+  schema:name "Annie Koyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Koyama_Annie_600X600.jpg>;
+  schema:jobTitle "Publisher" .
+
+<https://japanesecanadianartists.com/artist/archie-nishihama/#Agent> a schema:Person;
+  schema:name "Archie Nishihama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/archie-nishihama-canada-ondo-none-600.jpg>;
+  schema:jobTitle "Musician, Composer" .
+
+<https://japanesecanadianartists.com/artist/aretha-aoki/#Agent> a schema:Person;
+  schema:name "Aretha Aoki";
+  schema:nationality "American";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Aretha-Aoki_photo-by-Alex-Escalante.jpg>;
+  schema:jobTitle "choreographer, performer" .
+
+<https://japanesecanadianartists.com/artist/art-miki/#Agent> a schema:Person;
+  schema:name "Art Miki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Miki_Art_02_600X600.jpg>;
+  schema:jobTitle "Community Activist" .
+
+<https://japanesecanadianartists.com/place/Winnipeg-Manitoba> a schema:PostalAddress;
+  schema:addressLocality "Winnipeg";
+  schema:addressRegion "Manitoba" .
+
+<https://japanesecanadianartists.com/artist/arthur-nishimura/#Agent> a schema:Person;
+  schema:name "Arthur Nishimura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nishimura-Tintagel-Cornwall-Dec.-24-1982-600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/place/Calgary-Alberta> a schema:PostalAddress;
+  schema:addressLocality "Calgary";
+  schema:addressRegion "Alberta" .
+
+<https://japanesecanadianartists.com/artist/audrey-kobayashi/#Agent> a schema:Person;
+  schema:name "Audrey Kobayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Kingston-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kobayashi_Audrey_600X600.jpg>;
+  schema:jobTitle "Professor" .
+
+<https://japanesecanadianartists.com/place/Kingston-Ontario> a schema:PostalAddress;
+  schema:addressLocality "Kingston";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/baco-ohama/#Agent> a schema:Person;
+  schema:name "Baco Ohama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ohama_Baco_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/banri-nakamura/#Agent> a schema:Person;
+  schema:name "Banri Nakamura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nakamura_Banri_600X600.jpg>;
+  schema:jobTitle "Interior Designer" .
+
+<https://japanesecanadianartists.com/artist/barb-miiko-gravlin/#Agent> a schema:Person;
+  schema:name "Barb Miiko Gravlin";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/miiko_600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/barry-broadfoot/#Agent> a schema:Person;
+  schema:name "Barry Broadfoot";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Broadfoot_Barry_600X600.jpg>;
+  schema:jobTitle "Oral Historian" .
+
+<https://japanesecanadianartists.com/artist/bart-uchida/#Agent> a schema:Person;
+  schema:name "Bart Uchida";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Uchida_Bart_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/beverly-horii/#Agent> a schema:Person;
+  schema:name "Beverly Horii";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Horii_Beverly_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/boko-suzuki/#Agent> a schema:Person;
+  schema:name "Boko Suzuki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Denver-Colorado>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Suzuki_Boko_600X600.jpg>;
+  schema:jobTitle "Director, composer, arranger" .
+
+<https://japanesecanadianartists.com/place/Denver-Colorado> a schema:PostalAddress;
+  schema:addressLocality "Denver";
+  schema:addressRegion "Colorado" .
+
+<https://japanesecanadianartists.com/artist/booming-tree-taiko/#Agent> a schema:Person;
+  schema:name "Booming Tree Taiko";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Edmonton-Alberta>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/03/Presentation1.jpg>;
+  schema:jobTitle "Taiko Group";
+  schema:memberOf "Booming Tree" .
+
+<https://japanesecanadianartists.com/place/Edmonton-Alberta> a schema:PostalAddress;
+  schema:addressLocality "Edmonton";
+  schema:addressRegion "Alberta" .
+
+<https://japanesecanadianartists.com/artist/brenda-kamino/#Agent> a schema:Person;
+  schema:name "Brenda Kamino";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kamino_Brenda_600X600.jpg>;
+  schema:jobTitle "Actress" .
+
+<https://japanesecanadianartists.com/artist/brent-hirose/#Agent> a schema:Person;
+  schema:name "Brent Hirose";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/BHHeadshot.jpg>;
+  schema:jobTitle "actor, writer, director, improviser, playwright" .
+
+<https://japanesecanadianartists.com/artist/brian-sano/#Agent> a schema:Person;
+  schema:name "Brian Sano";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sano_Brian_600X600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/bruce-kuwabara/#Agent> a schema:Person;
+  schema:name "Bruce Kuwabara";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kuwabara_Bruce_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/bruce-tatemichi/#Agent> a schema:Person;
+  schema:name "Bruce Tatemichi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Bruce-Tatemichi-600.jpg>;
+  schema:jobTitle "Jazz musician" .
+
+<https://japanesecanadianartists.com/artist/bryce-kanbara/#Agent> a schema:Person;
+  schema:name "Bryce Kanbara";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Kanbara_Bryce_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/butch-watanabe/#Agent> a schema:Person;
+  schema:name "Butch Watanabe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Watanabe_Butch_600X600.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/cameron-oshimo/#Agent> a schema:Person;
+  schema:name "Cameron Oshimo";
+  schema:address <https://japanesecanadianartists.com/place/Thunder%20Bay-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/205032_10150144505207637_5120700_n.jpg> .
+
+<https://japanesecanadianartists.com/place/Thunder%20Bay-Ontario> a schema:PostalAddress;
+  schema:addressLocality "Thunder Bay";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/camille-kiku-belair/#Agent> a schema:Person;
+  schema:name "Camille Kiku Belair";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/17309768_1464951680215963_2620140856625813783_n-1.jpg> .
+
+<https://japanesecanadianartists.com/artist/carol-oya/#Agent> a schema:Person;
+  schema:name "Carol Oya";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/CEO.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/carolyn-nakagawa/#Agent> a schema:Person;
+  schema:name "Carolyn Nakagawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/JavierSotres-May2016-2-crop-web.jpg>;
+  schema:jobTitle "Poet, playwriter" .
+
+<https://japanesecanadianartists.com/artist/catalina-yue/#Agent> a schema:Person;
+  schema:name "Catalina Yue";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/Catalina-Yue2.jpg>;
+  schema:jobTitle "singer, songwriter, actress, model, businesswoman" .
+
+<https://japanesecanadianartists.com/artist/chie-kamegaya/#Agent> a schema:Person;
+  schema:name "Chie Kamegaya";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/New%20Denver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kamegaya_C_600X600.jpg>;
+  schema:jobTitle "Author, Poet" .
+
+<https://japanesecanadianartists.com/place/New%20Denver-British%20Columbia> a schema:PostalAddress;
+  schema:addressLocality "New Denver";
+  schema:addressRegion "British Columbia" .
+
+<https://japanesecanadianartists.com/artist/chieri-uegaki/#Agent> a schema:Person;
+  schema:name "Chieri Uegaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/06/HIGH_RES_FINALS-0015.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/chika-buston/#Agent> a schema:Person;
+  schema:name "Chika Buston";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Chika-Toast-Collective.jpg>;
+  schema:jobTitle "acoustic fingerstyle-guitarist, vocalist, keyboardist" .
+
+<https://japanesecanadianartists.com/artist/chiyoko-izumi/#Agent> a schema:Person;
+  schema:name "Chiyoko Izumi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Hamilton-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Izumi_Chiyoko_600X600.jpg>;
+  schema:jobTitle "Dance Instructor" .
+
+<https://japanesecanadianartists.com/place/Hamilton-Ontario> a schema:PostalAddress;
+  schema:addressLocality "Hamilton";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/chiyoko-szlavnics/#Agent> a schema:Person;
+  schema:name "Chiyoko Szlavnics";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Szlavnics_Chiyoko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/chuck-tasaka/#Agent> a schema:Person;
+  schema:name "Chuck Tasaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Chuck-Tasaka-Book-Award-2015.jpg> .
+
+<https://japanesecanadianartists.com/artist/cindy-mochizuki/#Agent> a schema:Person;
+  schema:name "Cindy MOCHIZUKI";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/20150924_Cindy-Mochizuki16062-1.jpg>;
+  schema:jobTitle "Interdisciplinary Artist" .
+
+<https://japanesecanadianartists.com/artist/colleen-lanki/#Agent> a schema:Person;
+  schema:name "Colleen Lanki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/ColleenGreenStanding_800.jpg>;
+  schema:jobTitle "choreographer, performer" .
+
+<https://japanesecanadianartists.com/artist/dana-lacroix/#Agent> a schema:Person;
+  schema:name "Dana LaCroix";
+  schema:nationality "American";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/LaCroix_Dana_02_600X600.jpg>;
+  schema:jobTitle "Singer song writer" .
+
+<https://japanesecanadianartists.com/artist/daniel-teramura/#Agent> a schema:Person;
+  schema:name "Daniel Teramura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Teramura_Daniel_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/danielle-jette/#Agent> a schema:Person;
+  schema:name "Danielle Jette";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/01/linkedin_profile.jpg>;
+  schema:jobTitle "Graphic Designer, Illustrator" .
+
+<https://japanesecanadianartists.com/artist/daphne-marlatt/#Agent> a schema:Person;
+  schema:name "Daphne Marlatt";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Marlatt_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/david-aylward/#Agent> a schema:Person;
+  schema:name "David Aylward";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Book_03_600X600.jpg>;
+  schema:jobTitle "Translator" .
+
+<https://japanesecanadianartists.com/artist/david-fujiwara/#Agent> a schema:Person;
+  schema:name "David Fujiwara";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Fujiwara_David_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/david-kai/#Agent> a schema:Person;
+  schema:name "David Kai";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Grand%20Bend-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2019/02/DK2.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/place/Grand%20Bend-Ontario> a schema:PostalAddress;
+  schema:addressLocality "Grand Bend";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/david-kenji-fujino/#Agent> a schema:Person;
+  schema:name "David Kenji Fujino";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Fujino_David_600X600.jpg>;
+  schema:jobTitle "multidisciplinary artist" .
+
+<https://japanesecanadianartists.com/artist/david-shimotakahara/#Agent> a schema:Person;
+  schema:name "David Shimotakahara";
+  schema:nationality "American";
+  schema:address <https://japanesecanadianartists.com/place/Cleveland-Ohio>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Shimotakahara_David_600X600.jpg> .
+
+<https://japanesecanadianartists.com/place/Cleveland-Ohio> a schema:PostalAddress;
+  schema:addressLocality "Cleveland";
+  schema:addressRegion "Ohio" .
+
+<https://japanesecanadianartists.com/artist/david-suzuki/#Agent> a schema:Person;
+  schema:name "David Suzuki";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Suzuki_D_600X600.jpg>;
+  schema:jobTitle "Environmental Activist" .
+
+<https://japanesecanadianartists.com/artist/dawn-obokata/#Agent> a schema:Person;
+  schema:name "Dawn Obokata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Obokata_Dawn_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/denis-akiyama/#Agent> a schema:Person;
+  schema:name "Denis Akiyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Akiyama.jpg>;
+  schema:jobTitle "Actor" .
+
+<https://japanesecanadianartists.com/artist/denise-fujiwara/#Agent> a schema:Person;
+  schema:name "Denise Fujiwara";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Fujiwara_Denise_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/dennis-tanaka/#Agent> a schema:Person;
+  schema:name "Dennis Tanaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_06_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/densaku-fred-kondo/#Agent> a schema:Person;
+  schema:name "Densaku (Fred) Kondo";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kondo_Fred_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/diana-morita-cole/#Agent> a schema:Person;
+  schema:name "Diana Morita Cole";
+  schema:nationality "American";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Diana-Cole-bw-2015-250-600X600.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/dona-nabata/#Agent> a schema:Person;
+  schema:name "Dona Nabata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/image.jpeg>;
+  schema:jobTitle "Artist" .
+
+<https://japanesecanadianartists.com/artist/donna-wuest/#Agent> a schema:Person;
+  schema:name "Donna Wuest";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/2016-02-23-16.54.41_resized.png>;
+  schema:jobTitle "Writer, author" .
+
+<https://japanesecanadianartists.com/artist/donna-yamamoto/#Agent> a schema:Person;
+  schema:name "Donna Yamamoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamamoto_Donna_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/dorothy-livesay/#Agent> a schema:Person;
+  schema:name "Dorothy Livesay";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Livesay_Dorothy_600X600.jpg>;
+  schema:jobTitle "Poet" .
+
+<https://japanesecanadianartists.com/artist/ed-koyama/#Agent> a schema:Person;
+  schema:name "Ed Koyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Koyama_Ed_600X600.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/eiko-henmi/#Agent> a schema:Person;
+  schema:name "Eiko Henmi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Henmi_600X600.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/eiko-ishiwata/#Agent> a schema:Person;
+  schema:name "Eiko Ishiwata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/04/thumbnail_image.png>;
+  schema:jobTitle "Composer" .
+
+<https://japanesecanadianartists.com/artist/eileen-kage/#Agent> a schema:Person;
+  schema:name "Eileen Kage";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kage_Eileen_600X600.jpg>;
+  schema:jobTitle "Taiko drummer" .
+
+<https://japanesecanadianartists.com/artist/eileen-koyama/#Agent> a schema:Person;
+  schema:name "Eileen Koyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/crop3.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/elizabeth-hasegawa-agresta/#Agent> a schema:Person;
+  schema:name "Elizabeth Hasegawa Agresta";
+  schema:nationality "American";
+  schema:address <https://japanesecanadianartists.com/place/Stamford-Connecticut>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/ProfilePic.jpeg>;
+  schema:jobTitle "Artist" .
+
+<https://japanesecanadianartists.com/place/Stamford-Connecticut> a schema:PostalAddress;
+  schema:addressLocality "Stamford";
+  schema:addressRegion "Connecticut" .
+
+<https://japanesecanadianartists.com/artist/ellen-anderson/#Agent> a schema:Person;
+  schema:name "Ellen Anderson";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/EllenAnderson.jpg>;
+  schema:jobTitle "artist, writer, social activist" .
+
+<https://japanesecanadianartists.com/artist/emiko-morita/#Agent> a schema:Person;
+  schema:name "Emiko Morita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Morita_Emi_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/emma-nishimura/#Agent> a schema:Person;
+  schema:name "Emma Nishimura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Profile.Emma-Nishimura.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/eric-koyanagi/#Agent> a schema:Person;
+  schema:name "Eric Koyanagi";
+  schema:nationality "American";
+  schema:address <https://japanesecanadianartists.com/place/Los%20Angeles-California>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Koyanagi_Eric_600X600.jpg>;
+  schema:jobTitle "filmmaker, writer, editor" .
+
+<https://japanesecanadianartists.com/artist/ernie-yamaoka/#Agent> a schema:Person;
+  schema:name "Ernie Yamaoka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Monteal-Quebec>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamaoka_Ernie_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/Monteal-Quebec> a schema:PostalAddress;
+  schema:addressLocality "Monteal";
+  schema:addressRegion "Quebec" .
+
+<https://japanesecanadianartists.com/artist/eugene-ouchi/#Agent> a schema:Person;
+  schema:name "Eugene Ouchi";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ouchi_600_03.jpg>;
+  schema:jobTitle "printmaker, graphic designer" .
+
+<https://japanesecanadianartists.com/artist/frank-moritsugu/#Agent> a schema:Person;
+  schema:name "Frank Moritsugu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Moritsugu_F_600X600.jpg>;
+  schema:jobTitle "Journalist" .
+
+<https://japanesecanadianartists.com/artist/frank-nakashima/#Agent> a schema:Person;
+  schema:name "Frank Nakashima";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nakashima_Frank_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/fubuki-daiko/#Agent> a schema:Person;
+  schema:name "Fubuki Daiko";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Other";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Fubuki2_600X600.jpg>;
+  schema:memberOf "Fubuki Daiko" .
+
+<https://japanesecanadianartists.com/artist/fujiko-imajishi/#Agent> a schema:Person;
+  schema:name "Fujiko Imajishi";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Imajishi_Fujiko_600X600.jpg>;
+  schema:jobTitle "Concertmaster" .
+
+<https://japanesecanadianartists.com/artist/fumiko-greenaway/#Agent> a schema:Person;
+  schema:name "Fumiko Greenaway";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Nelson-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Greenaway_F_01_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/place/Nelson-BC> a schema:PostalAddress;
+  schema:addressLocality "Nelson";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/gabe-anderson/#Agent> a schema:Person;
+  schema:name "Gabe Anderson";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Anderson_Gabe_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/garry-kawasaki/#Agent> a schema:Person;
+  schema:name "Garry Kawasaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_06_600X600.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/gene-kinoshita/#Agent> a schema:Person;
+  schema:name "Gene Kinoshita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kinoshita_Gene_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/george-yabu/#Agent> a schema:Person;
+  schema:name "George Yabu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yabu_George_600X600.jpg>;
+  schema:jobTitle "Architect, Interior Designer" .
+
+<https://japanesecanadianartists.com/artist/george-yamada/#Agent> a schema:Person;
+  schema:name "George Yamada";
+  schema:nationality "American";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Typewriter_05_600X600.jpg>;
+  schema:jobTitle "Publisher, editor" .
+
+<https://japanesecanadianartists.com/artist/gerry-shikatani/#Agent> a schema:Person;
+  schema:name "Gerry Shikatani";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Shikatani_Gerry_600X600.jpg>;
+  schema:jobTitle "interdisciplinary artist" .
+
+<https://japanesecanadianartists.com/artist/gloria-kagawa/#Agent> a schema:Person;
+  schema:name "Gloria Kagawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/New%20Hamburg-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kagawa_Gloria_600X600.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/place/New%20Hamburg-Ontario> a schema:PostalAddress;
+  schema:addressLocality "New Hamburg";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/gordon-hashimoto/#Agent> a schema:Person;
+  schema:name "Gordon Hashimoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Quebec-Montreal>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hashimoto_Gordon_600X600.jpg>;
+  schema:jobTitle "Filmmaker" .
+
+<https://japanesecanadianartists.com/artist/gordy-tong/#Agent> a schema:Person;
+  schema:name "Gordy Tong";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/gordie.jpg> .
+
+<https://japanesecanadianartists.com/artist/grace-eiko-thomson/#Agent> a schema:Person;
+  schema:name "Grace Eiko Thomson";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Thomson_Grace_Eiko_600X600.jpg>;
+  schema:jobTitle "curator, historian, social activist" .
+
+<https://japanesecanadianartists.com/artist/grace-murao/#Agent> a schema:Person;
+  schema:name "Grace Murao";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Print_01_600X600.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/artist/grace-terakita/#Agent> a schema:Person;
+  schema:name "Grace Terakita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mic_04_600X600.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/harold-takayesu/#Agent> a schema:Person;
+  schema:name "Harold Takayesu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Hamilton-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Pottery_05_600X600.jpg>;
+  schema:jobTitle "ceramic artist" .
+
+<https://japanesecanadianartists.com/artist/harry-aoki/#Agent> a schema:Person;
+  schema:name "Harry Aoki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Aoki_Harry_600X600.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/harry-kumano/#Agent> a schema:Person;
+  schema:name "Harry Kumano";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mic_03_600X600.jpg>;
+  schema:jobTitle "Singer, Actor" .
+
+<https://japanesecanadianartists.com/artist/haruko-okano/#Agent> a schema:Person;
+  schema:name "Haruko Okano";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Okano_Haruko_600X600.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/artist/haruna-murota/#Agent> a schema:Person;
+  schema:name "Haruna Murota";
+  schema:nationality "Japanese";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/5429_thum.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/harvey-okawara/#Agent> a schema:Person;
+  schema:name "Harvey Okawara";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_01_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/heather-midori-yamada/#Agent> a schema:Person;
+  schema:name "Heather Midori Yamada";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamada_Heather_Midori_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/helen-koyama/#Agent> a schema:Person;
+  schema:name "Helen Koyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Koyama_3_600X600.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/henry-shimizu/#Agent> a schema:Person;
+  schema:name "Henry Shimizu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Victoria-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Henry-Shimizu-600.jpg>;
+  schema:jobTitle "Doctor" .
+
+<https://japanesecanadianartists.com/place/Victoria-BC> a schema:PostalAddress;
+  schema:addressLocality "Victoria";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/henry-takatsu/#Agent> a schema:Person;
+  schema:name "Henry Takatsu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/DSCN1701-3.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/hiro-kanagawa/#Agent> a schema:Person;
+  schema:name "Hiro Kanagawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/2017-Headshot-1.jpg>;
+  schema:jobTitle "Actor, Playwright, Screenwriter" .
+
+<https://japanesecanadianartists.com/artist/hiroe-hoshi-aka-negma/#Agent> a schema:Person;
+  schema:name "Hiroe Hoshi aka Negma";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Victoria-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Negma-W.jpg>;
+  schema:jobTitle "Belly dancer" .
+
+<https://japanesecanadianartists.com/artist/hiroko-okata/#Agent> a schema:Person;
+  schema:name "Hiroko Okata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Okata_Hiroko_600X600.jpg>;
+  schema:jobTitle "shodo artist" .
+
+<https://japanesecanadianartists.com/artist/hiromi-goto/#Agent> a schema:Person;
+  schema:name "Hiromi Goto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Goto_Hiromi_600X600.jpg>;
+  schema:jobTitle "Writer, author" .
+
+<https://japanesecanadianartists.com/artist/hiroshi-harada/#Agent> a schema:Person;
+  schema:name "Hiroshi Harada";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Tools_01_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/hiroshi-koshiyama/#Agent> a schema:Person;
+  schema:name "Hiroshi Koshiyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Koshiyama_Hiroshi_600X600.jpg>;
+  schema:jobTitle "Taiko drummer" .
+
+<https://japanesecanadianartists.com/artist/hiroshi-yamamoto/#Agent> a schema:Person;
+  schema:name "Hiroshi Yamamoto";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamamoto_Hiroshi_600X600.jpg>;
+  schema:jobTitle "nihonga and sumi-e painter" .
+
+<https://japanesecanadianartists.com/artist/hitoko-okada/#Agent> a schema:Person;
+  schema:name "Hitoko Okada";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Hamilton-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/01/File-2017-02-19-8-23-21-PM.jpeg>;
+  schema:jobTitle "Fibre Artist, Craft Maker" .
+
+<https://japanesecanadianartists.com/artist/hitoshi-sugiyama/#Agent> a schema:Person;
+  schema:name "Hitoshi Sugiyama";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/09/Hitoshi_Image.jpg> .
+
+<https://japanesecanadianartists.com/artist/hollis-ho/#Agent> a schema:Person;
+  schema:name "Hollis Ho";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Hollis-Ho-exhibition-spring_600B.jpg>;
+  schema:jobTitle "ikebana teacher and practitioner" .
+
+<https://japanesecanadianartists.com/artist/ian-nishio/#Agent> a schema:Person;
+  schema:name "Ian Nishio";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ian-Nishio-600.jpg>;
+  schema:jobTitle "Bassist" .
+
+<https://japanesecanadianartists.com/artist/isao-sanami-morrill/#Agent> a schema:Person;
+  schema:name "Isao Sanami Morrill";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Morrill_Isao_Sanami_600X600.jpg>;
+  schema:jobTitle "Potter" .
+
+<https://japanesecanadianartists.com/artist/jack-kobayashi/#Agent> a schema:Person;
+  schema:name "Jack Kobayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Whitehorse-Yukon>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kobayashi_Jack_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/Whitehorse-Yukon> a schema:PostalAddress;
+  schema:addressLocality "Whitehorse";
+  schema:addressRegion "Yukon" .
+
+<https://japanesecanadianartists.com/artist/james-jun-jim-koyanagi/#Agent> a schema:Person;
+  schema:name "James Jun (Jim) Koyanagi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Burlington-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Koyanagi_James_Jun_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/Burlington-Ontario> a schema:PostalAddress;
+  schema:addressLocality "Burlington";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/jamie-parker/#Agent> a schema:Person;
+  schema:name "Jamie Parker";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Parker_J_600X600.jpg>;
+  schema:jobTitle "Pianist" .
+
+<https://japanesecanadianartists.com/artist/janet-horne-cozens/#Agent> a schema:Person;
+  schema:name "Janet Horne Cozens";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Burlington-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Horne_Cozens_Janet_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/japanese-manga-school/#Agent> a schema:Person;
+  schema:name "JAPANESE MANGA SCHOOL";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/logo.png>;
+  schema:memberOf "JAPANESE MANGA SCHOOL" .
+
+<https://japanesecanadianartists.com/artist/jared-matsunaga-turnbull/#Agent> a schema:Person;
+  schema:name "Jared Matsunaga-Turnbull";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Edmonton-Alberta>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/JM-T-photo-bw-smaller-1.jpeg>;
+  schema:jobTitle "Director, Dramaturg, Actor, Educator, Playwright" .
+
+<https://japanesecanadianartists.com/artist/jason-moriyama/#Agent> a schema:Person;
+  schema:name "Jason Moriyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Moriyama_Jason_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/jay-hirabayashi/#Agent> a schema:Person;
+  schema:name "Jay Hirabayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hirabayashi_Jay_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/jeannette-hirasawa-moore/#Agent> a schema:Person;
+  schema:name "Jeannette Hirasawa Moore";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Moore_Jeannette_Hirasawa_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/jeff-chiba-stearns/#Agent> a schema:Person;
+  schema:name "Jeff Chiba Stearns";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Stearns_J_600X600.jpg>;
+  schema:jobTitle "Animator, Documentary Filmmaker" .
+
+<https://japanesecanadianartists.com/artist/jeff-hamada/#Agent> a schema:Person;
+  schema:name "Jeff Hamada";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/jeffhamada.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/artist/jess/#Agent> a schema:Person;
+  schema:name "Jess";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Jess_01_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/jesse-nishihata/#Agent> a schema:Person;
+  schema:name "Jesse Nishihata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nishihata_Jesse_600X600.jpg>;
+  schema:jobTitle "Documentary Filmmaker" .
+
+<https://japanesecanadianartists.com/artist/jo-anne-maikawa/#Agent> a schema:Person;
+  schema:name "Jo Anne Maikawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/20141210_163656_1400-1.jpg> .
+
+<https://japanesecanadianartists.com/artist/joan-fairs/#Agent> a schema:Person;
+  schema:name "Joan Fairs";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/20161211_111431-1-e1510859625447_500.jpg>;
+  schema:jobTitle "Ikebana Instructor" .
+
+<https://japanesecanadianartists.com/artist/joanne-soroka/#Agent> a schema:Person;
+  schema:name "Joanne Soroka";
+  schema:address <https://japanesecanadianartists.com/place/Edinburgh-Scotland>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Soroka_Joanne_600X600.jpg>;
+  schema:jobTitle "Textile Artist" .
+
+<https://japanesecanadianartists.com/place/Edinburgh-Scotland> a schema:PostalAddress;
+  schema:addressLocality "Edinburgh";
+  schema:addressRegion "Scotland" .
+
+<https://japanesecanadianartists.com/artist/joe-naito/#Agent> a schema:Person;
+  schema:name "Joe Naito";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Kelowna-BC> .
+
+<https://japanesecanadianartists.com/place/Kelowna-BC> a schema:PostalAddress;
+  schema:addressLocality "Kelowna";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/joe-naito/#Agent> schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_04_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/john-endo-greenaway/#Agent> a schema:Person;
+  schema:name "John Endo Greenaway";
+  schema:nationality "Canada";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Thumbnails_Batch_1_Assorted_600X60016-1.jpg>;
+  schema:jobTitle "Graphic designer, musician, composer" .
+
+<https://japanesecanadianartists.com/artist/john-ikeda/#Agent> a schema:Person;
+  schema:name "John Ikeda";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/St.%20Bernardin-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ikeda_John_600X600.jpg>;
+  schema:jobTitle "Ceramicist" .
+
+<https://japanesecanadianartists.com/place/St.%20Bernardin-Ontario> a schema:PostalAddress;
+  schema:addressLocality "St. Bernardin";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/john-ota/#Agent> a schema:Person;
+  schema:name "John Ota";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Ota_John_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/john-saisho/#Agent> a schema:Person;
+  schema:name "John Saisho";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_01_600X600.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/jon-kimura-parker/#Agent> a schema:Person;
+  schema:name "Jon Kimura Parker";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Parker_Jon_Kimura_600X600.jpg>;
+  schema:jobTitle "Pianist" .
+
+<https://japanesecanadianartists.com/artist/jon-sasaki/#Agent> a schema:Person;
+  schema:name "Jon Sasaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/46_microbes-swabbed-from-cassons-palette.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/joni-inouye/#Agent> a schema:Person;
+  schema:name "Joni Inouye";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Inouye_Joni_600X600.jpg>;
+  schema:jobTitle "Interior Designer" .
+
+<https://japanesecanadianartists.com/artist/joni-moriyama/#Agent> a schema:Person;
+  schema:name "Joni Moriyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Moriyama_Joni_600X600.jpg>;
+  schema:jobTitle "Ceramic Artist" .
+
+<https://japanesecanadianartists.com/artist/joy-kogawa/#Agent> a schema:Person;
+  schema:name "Joy Kogawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kogawa_Joy_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/joyce-harumi-kamikura/#Agent> a schema:Person;
+  schema:name "Joyce Harumi Kamikura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Richmond-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/IMG_0505.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/place/Richmond-BC> a schema:PostalAddress;
+  schema:addressLocality "Richmond";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/joyce-kamikura/#Agent> a schema:Person;
+  schema:name "Joyce Kamikura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Richmond-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kakimura_Joyce_600X600.jpg>;
+  schema:jobTitle "Painter, print-maker" .
+
+<https://japanesecanadianartists.com/artist/judy-nakagawa/#Agent> a schema:Person;
+  schema:name "Judy Nakagawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Judy-Nakagawa.jpg>;
+  schema:jobTitle "Sculptor" .
+
+<https://japanesecanadianartists.com/artist/julie-tamiko-manning/#Agent> a schema:Person;
+  schema:name "Julie Tamiko Manning";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/07/JulieTamikoManning-Headshot_crop.jpg>;
+  schema:jobTitle "actor, theatre creator" .
+
+<https://japanesecanadianartists.com/artist/june-fukumura/#Agent> a schema:Person;
+  schema:name "June Fukumura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/June-Headshot-edit.jpg>;
+  schema:jobTitle "Theatre Artist" .
+
+<https://japanesecanadianartists.com/artist/junichi-hashimoto/#Agent> a schema:Person;
+  schema:name "Junichi Hashimoto";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hashimoto_Junichi_600X600.jpg>;
+  schema:jobTitle "Architect, watercolour artist" .
+
+<https://japanesecanadianartists.com/artist/junko-nishinoiri/#Agent> a schema:Person;
+  schema:name "Junko Nishinoiri";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Print_01_600X600.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/artist/justine-wong/#Agent> a schema:Person;
+  schema:name "Justine Wong";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/06/download.jpeg>;
+  schema:jobTitle "Illustrator" .
+
+<https://japanesecanadianartists.com/artist/kan-azuma/#Agent> a schema:Person;
+  schema:name "Kan Azuma";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/01/ngc_.ex-76-295_web.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/kanau-uyeyama/#Agent> a schema:Person;
+  schema:name "Kanau Uyeyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Uyeyama_Kanau_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/kaneko-johkoh/#Agent> a schema:Person;
+  schema:name "Kaneko Johkoh";
+  schema:nationality "Japanese";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Johkoh_K_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/kanon-suzuki-hewitt/#Agent> a schema:Person;
+  schema:name "Kanon Suzuki Hewitt";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/0N9A2071-Edit-1200.jpg>;
+  schema:jobTitle "stage manager, designer, playwright, performer" .
+
+<https://japanesecanadianartists.com/artist/kaori-kasai/#Agent> a schema:Person;
+  schema:name "Kaori Kasai";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/DSC_2547-copy-copy-copy.jpg>;
+  schema:jobTitle "Artist-in-Motion" .
+
+<https://japanesecanadianartists.com/artist/kasha-konaka/#Agent> a schema:Person;
+  schema:name "Kasha Konaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/01/INSTAGRAM-0003.jpg>;
+  schema:jobTitle "Cirucus Artist" .
+
+<https://japanesecanadianartists.com/artist/katherine-kathi-adachi/#Agent> a schema:Person;
+  schema:name "Katherine (Kathi) Adachi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Adachi_Katherine_600X600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/kathlyn-horibe/#Agent> a schema:Person;
+  schema:name "Kathlyn Horibe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Typewriter_02_600X600-1.jpg>;
+  schema:jobTitle "Journalist" .
+
+<https://japanesecanadianartists.com/artist/kathryn-hatashita-lee/#Agent> a schema:Person;
+  schema:name "Kathryn Hatashita-Lee";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Hatashita-Lee-6600-copy-1200x792.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/katsuhiko-takada/#Agent> a schema:Person;
+  schema:name "Katsuhiko Takada";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/Katsuhiko-Takada.jpg> .
+
+<https://japanesecanadianartists.com/artist/kaya/#Agent> a schema:Person;
+  schema:name "Kaya";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/KK-2017-05-26-20.02.17_600.jpg>;
+  schema:jobTitle "Vocalist" .
+
+<https://japanesecanadianartists.com/artist/kayla-isomura/#Agent> a schema:Person;
+  schema:name "Kayla Isomura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/SNY01932-1.jpg>;
+  schema:jobTitle "Writer, photographer" .
+
+<https://japanesecanadianartists.com/artist/kayo-hosaka/#Agent> a schema:Person;
+  schema:name "Kayo Hosaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/02/IMG_9317-1.jpg>;
+  schema:jobTitle "Craft Artist" .
+
+<https://japanesecanadianartists.com/artist/kayo-jane-miki/#Agent> a schema:Person;
+  schema:name "Kayo Jane Miki";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Miki_Kayo_Jane_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/kayoko-tanaka/#Agent> a schema:Person;
+  schema:name "Kayoko Tanaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/KT-1.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/kazuko-tanaka/#Agent> a schema:Person;
+  schema:name "Kazuko Tanaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tanaka_Kazuko_600X600.jpg>;
+  schema:jobTitle "Ikebana Artist" .
+
+<https://japanesecanadianartists.com/artist/kazuo-hamasaki/#Agent> a schema:Person;
+  schema:name "Kazuo Hamasaki";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hamasaki_K01.jpg> .
+
+<https://japanesecanadianartists.com/artist/kazuo-nakamura/#Agent> a schema:Person;
+  schema:name "Kazuo Nakamura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nakamura_Kazuo_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/ken-adachi/#Agent> a schema:Person;
+  schema:name "Ken Adachi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Adachi_Ken_600X600.jpg>;
+  schema:jobTitle "Author, Journalist" .
+
+<https://japanesecanadianartists.com/artist/ken-fukushima/#Agent> a schema:Person;
+  schema:name "Ken Fukushima";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Fukushima_Ken_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/kenji-nagai/#Agent> a schema:Person;
+  schema:name "Kenji Nagai";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nagai_Kenji_600X600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/keri-latimer/#Agent> a schema:Person;
+  schema:name "Keri Latimer";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Keri-Winter.jpg>;
+  schema:jobTitle "songwriter, film composer" .
+
+<https://japanesecanadianartists.com/artist/kerri-sakamoto/#Agent> a schema:Person;
+  schema:name "Kerri Sakamoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sakamoto_Kerri_600X600.jpg>;
+  schema:jobTitle "novelist, screenplay writer, art critic" .
+
+<https://japanesecanadianartists.com/artist/kerry-nagata/#Agent> a schema:Person;
+  schema:name "Kerry Nagata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nagata_Kerri_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/kevin-deforest/#Agent> a schema:Person;
+  schema:name "Kevin DeForest";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/de_Forest_Kevin_600X600.jpg>;
+  schema:jobTitle "visual and multimedia artist" .
+
+<https://japanesecanadianartists.com/artist/kevin-irie/#Agent> a schema:Person;
+  schema:name "Kevin Irie";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Irie_Kevin_600X600.jpg>;
+  schema:jobTitle "Poet" .
+
+<https://japanesecanadianartists.com/artist/kim-moritsugu/#Agent> a schema:Person;
+  schema:name "Kim Moritsugu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/Kim_Moritsugu300pixels.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/kim-nagata/#Agent> a schema:Person;
+  schema:name "Kim Nagata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Tools_02_600X600.jpg>;
+  schema:jobTitle "Metalsmith" .
+
+<https://japanesecanadianartists.com/artist/kimiko-muraoka-koyanagi/#Agent> a schema:Person;
+  schema:name "Kimiko Muraoka Koyanagi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Burlington-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Koyanagi_Kimiko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/kinichi-shigeno/#Agent> a schema:Person;
+  schema:name "Kinichi Shigeno";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Shigeno_Kinichi_600X600.jpg>;
+  schema:jobTitle "ceramicist" .
+
+<https://japanesecanadianartists.com/artist/kita-no-taiko/#Agent> a schema:Person;
+  schema:name "Kita no Taiko";
+  schema:address <https://japanesecanadianartists.com/place/Edmonton-Alberta>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/25529196232_a10e1e7c7c_z-1.jpg>;
+  schema:memberOf "Kita no Taiko" .
+
+<https://japanesecanadianartists.com/artist/kiyoko-boycott/#Agent> a schema:Person;
+  schema:name "Kiyoko Boycott";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Steveston-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/group.Emperor-visit.2009_1200.jpg>;
+  schema:jobTitle "ikebana teacher and practitioner" .
+
+<https://japanesecanadianartists.com/place/Steveston-BC> a schema:PostalAddress;
+  schema:addressLocality "Steveston";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/kiyoshi-izumi/#Agent> a schema:Person;
+  schema:name "Kiyoshi Izumi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Saskatchewan-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Izumi_Kiyoshi_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/Saskatchewan-BC> a schema:PostalAddress;
+  schema:addressLocality "Saskatchewan";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/kiyoshi-matsuzaki/#Agent> a schema:Person;
+  schema:name "Kiyoshi Matsuzaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Matsuzaki_Kiyoshi_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/kokoro-dance/#Agent> a schema:Person;
+  schema:name "Kokoro Dance";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/02/embryotrophic-cavatina-1-photo-by-Chris-Randle.jpg>;
+  schema:memberOf "Kokoro Dance" .
+
+<https://japanesecanadianartists.com/artist/kumano/#Agent> a schema:Person;
+  schema:name "Kumano";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kumano_cover_600.jpg>;
+  schema:jobTitle "Synth Music Artist" .
+
+<https://japanesecanadianartists.com/artist/kunio-suyama/#Agent> a schema:Person;
+  schema:name "Kunio Suyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kunio-Suyama-600.jpg>;
+  schema:jobTitle "Actor, Singer, Emcee" .
+
+<https://japanesecanadianartists.com/artist/kunji-ikeda/#Agent> a schema:Person;
+  schema:name "Kunji Ikeda";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Ikeda_M_01_600X600.jpg>;
+  schema:jobTitle "Theatre artist" .
+
+<https://japanesecanadianartists.com/artist/kyo-maclear/#Agent> a schema:Person;
+  schema:name "Kyo Maclear";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/kyomaclear.jpg>;
+  schema:jobTitle "writer, essayist, author" .
+
+<https://japanesecanadianartists.com/artist/laura-fukumoto/#Agent> a schema:Person;
+  schema:name "Laura Fukumoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/1730-soft.jpg> .
+
+<https://japanesecanadianartists.com/artist/laura-suzuki/#Agent> a schema:Person;
+  schema:name "Laura Suzuki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Suzuki_L_03_600X600.jpg>;
+  schema:jobTitle "graphic designer" .
+
+<https://japanesecanadianartists.com/artist/lemon-creek-harmonica-band/#Agent> a schema:Person;
+  schema:name "Lemon Creek Harmonica Band";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Lemon_Creek_600X600.jpg>;
+  schema:jobTitle "Harmonica band";
+  schema:memberOf "Lemon Creek Harmonica Band" .
+
+<https://japanesecanadianartists.com/artist/leslie-sasaki/#Agent> a schema:Person;
+  schema:name "Leslie Sasaki";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sasaki_Leslie_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/leslie-shimotakahara/#Agent> a schema:Person;
+  schema:name "Leslie Shimotakahara";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/image057-sml.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/place/Toronto-BC> a schema:PostalAddress;
+  schema:addressLocality "Toronto";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/lillian-michiko-blakey/#Agent> a schema:Person;
+  schema:name "Lillian Michiko Blakey";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Blakey_Lillian_600X600.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/artist/lillian-nakamura-maguire/#Agent> a schema:Person;
+  schema:name "Lillian Nakamura Maguire";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Whitehorse-Yukon>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/IMG_6148.jpg>;
+  schema:jobTitle "Playwright" .
+
+<https://japanesecanadianartists.com/artist/lily-ide/#Agent> a schema:Person;
+  schema:name "Lily Ide";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mic_02_600X600.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/lily-washimoto/#Agent> a schema:Person;
+  schema:name "Lily Washimoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mic_02_600X600.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/linda-ohama/#Agent> a schema:Person;
+  schema:name "Linda Ohama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ohama_Linda_600X600.jpg>;
+  schema:jobTitle "Filmmaker" .
+
+<https://japanesecanadianartists.com/artist/linda-uyehara-hoffman/#Agent> a schema:Person;
+  schema:name "Linda Uyehara Hoffman";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Uyehara_Hoffman_Linda_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/linz-kenyon/#Agent> a schema:Person;
+  schema:name "Linz Kenyon";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Armstrong-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Record_01_600X600.jpg>;
+  schema:jobTitle "writer, composer, actor, musician" .
+
+<https://japanesecanadianartists.com/place/Armstrong-BC> a schema:PostalAddress;
+  schema:addressLocality "Armstrong";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/lisa-betts-lacroix/#Agent> a schema:Person;
+  schema:name "Lisa Betts-LaCroix";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Betts-Lacroix_Lisa_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/lorne-hawryluk/#Agent> a schema:Person;
+  schema:name "Lorne Hawryluk";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Stage_03_600X600.jpg>;
+  schema:jobTitle "Actor" .
+
+<https://japanesecanadianartists.com/artist/lotus-miyashita/#Agent> a schema:Person;
+  schema:name "Lotus Miyashita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Miyashita_Lotus_600X600.jpg>;
+  schema:jobTitle "graphic designer" .
+
+<https://japanesecanadianartists.com/artist/louise-noguchi/#Agent> a schema:Person;
+  schema:name "Louise Noguchi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Noguchi_Louise_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/lynne-kutsukake/#Agent> a schema:Person;
+  schema:name "Lynne Kutsukake";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Headshot-1.jpg>;
+  schema:jobTitle "novelist, short story writer" .
+
+<https://japanesecanadianartists.com/artist/m-a-tateishi/#Agent> a schema:Person;
+  schema:name "M.A. Tateishi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/m.a.tateishi_web-1.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/machiko-yamamoto/#Agent> a schema:Person;
+  schema:name "Machiko Yamamoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Fabric_01_600X600.jpg>;
+  schema:jobTitle "Textile Designer" .
+
+<https://japanesecanadianartists.com/artist/mami-mizutani/#Agent> a schema:Person;
+  schema:name "Mami Mizutani";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/unnamed-2.jpg>;
+  schema:jobTitle "Soap maker" .
+
+<https://japanesecanadianartists.com/artist/manami-hara/#Agent> a schema:Person;
+  schema:name "Manami Hara";
+  schema:nationality "Japanese";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hara_Manami_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/margaret-ishii/#Agent> a schema:Person;
+  schema:name "Margaret Ishii";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_06_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/margaret-issenman/#Agent> a schema:Person;
+  schema:name "Margaret Issenman";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Halifax-Nova%20Scotia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Issenman_Margaret_600X600.jpg>;
+  schema:jobTitle "graphic designer" .
+
+<https://japanesecanadianartists.com/place/Halifax-Nova%20Scotia> a schema:PostalAddress;
+  schema:addressLocality "Halifax";
+  schema:addressRegion "Nova Scotia" .
+
+<https://japanesecanadianartists.com/artist/mariko-sato/#Agent> a schema:Person;
+  schema:name "Mariko Sato";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sato_Mariko_600X600.jpg>;
+  schema:jobTitle "Pianist" .
+
+<https://japanesecanadianartists.com/artist/marjene-matsunaga-turnbull/#Agent> a schema:Person;
+  schema:name "Marjene Matsunaga Turnbull";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Matsunaga_Turnbull_Marjene_600X600.jpg>;
+  schema:jobTitle "ceramicist, doll-maker" .
+
+<https://japanesecanadianartists.com/artist/mark-toyama/#Agent> a schema:Person;
+  schema:name "Mark Toyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Toyama_M_600X600.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/marlene-howell/#Agent> a schema:Person;
+  schema:name "Marlene Howell";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Victoria-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/01/Royal-Colwood-Golf-Club-2017-Art-Exhibition-Komodo-Dragon.jpg>;
+  schema:jobTitle "Artist" .
+
+<https://japanesecanadianartists.com/artist/martin-kobayakawa/#Agent> a schema:Person;
+  schema:name "Martin Kobayakawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kobayakawa_Martin_600X600.jpg>;
+  schema:jobTitle "Guitarist, Songwriter" .
+
+<https://japanesecanadianartists.com/artist/mary-adachi/#Agent> a schema:Person;
+  schema:name "Mary Adachi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Typewriter_04_600X600.jpg>;
+  schema:jobTitle "Editor" .
+
+<https://japanesecanadianartists.com/artist/mary-akemi-morris/#Agent> a schema:Person;
+  schema:name "Mary Akemi Morris";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/London-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/Halong-Bay-Vietnam.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/maryka-omatsu/#Agent> a schema:Person;
+  schema:name "Maryka Omatsu";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Omatsu_M_600X600.jpg>;
+  schema:jobTitle "Lawyer, Author" .
+
+<https://japanesecanadianartists.com/artist/mas-funo/#Agent> a schema:Person;
+  schema:name "Mas Funo";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mas-for-JC-directory-2-2.jpeg>;
+  schema:jobTitle "Potter" .
+
+<https://japanesecanadianartists.com/artist/masa-inokuchi/#Agent> a schema:Person;
+  schema:name "Masa Inokuchi";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Inokuchi_Masa_600X600.jpg>;
+  schema:jobTitle "violin-maker and craftsperson" .
+
+<https://japanesecanadianartists.com/artist/masaki-watanabe/#Agent> a schema:Person;
+  schema:name "Masaki Watanabe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Watanabe_M_600X600.jpg>;
+  schema:jobTitle "Journalist, Translator, Jazz Musician" .
+
+<https://japanesecanadianartists.com/artist/masako-fukawa/#Agent> a schema:Person;
+  schema:name "Masako Fukawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Fukawa_Mas_600X600.jpg>;
+  schema:jobTitle "educator, writer" .
+
+<https://japanesecanadianartists.com/artist/masako-yamaguchi/#Agent> a schema:Person;
+  schema:name "Masako Yamaguchi";
+  schema:nationality "Japanese";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Koto_01_600X600.jpg>;
+  schema:jobTitle "Koto player" .
+
+<https://japanesecanadianartists.com/artist/megumi-masaki/#Agent> a schema:Person;
+  schema:name "Megumi Masaki";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Masaki_Megumi_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/meiko-ando/#Agent> a schema:Person;
+  schema:name "Meiko Ando";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Ando_Mieko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/mia-ohki/#Agent> a schema:Person;
+  schema:name "Mia Ohki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Edmonton-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/20170819_164129_386.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/artist/michael-fukushima/#Agent> a schema:Person;
+  schema:name "Michael Fukushima";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Fukushima_Michael_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/michael-hoshiko/#Agent> a schema:Person;
+  schema:name "Michael Hoshiko";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hoshiko_Michael_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/michael-tora-speier/#Agent> a schema:Person;
+  schema:name "Michael Tora Speier";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Speier_Michael_Tora_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/michiko-nakamura/#Agent> a schema:Person;
+  schema:name "Michiko Nakamura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nakamura_Michiko_600X600.jpg>;
+  schema:jobTitle "ceramic artist" .
+
+<https://japanesecanadianartists.com/artist/midge-ayukawa/#Agent> a schema:Person;
+  schema:name "Midge Ayukawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Victoria-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ayukawa_Midge_600X600.jpg>;
+  schema:jobTitle "Historian" .
+
+<https://japanesecanadianartists.com/artist/midi-onodera/#Agent> a schema:Person;
+  schema:name "Midi Onodera";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Onodera_Midi_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/mieko-ouchi/#Agent> a schema:Person;
+  schema:name "Mieko Ouchi";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ouchi_Mieko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/mike-sasaki/#Agent> a schema:Person;
+  schema:name "Mike Sasaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/EtsyPortraitFinalCol.jpg> .
+
+<https://japanesecanadianartists.com/artist/miki-dare/#Agent> a schema:Person;
+  schema:name "Miki Dare";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/Stars-Rise-photo.jpg> .
+
+<https://japanesecanadianartists.com/artist/miki-inokuchi/#Agent> a schema:Person;
+  schema:name "Miki Inokuchi";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Inokochi_Miki_600X600.jpg>;
+  schema:jobTitle "violin-maker and craftsperson" .
+
+<https://japanesecanadianartists.com/artist/mikuro-mika/#Agent> a schema:Person;
+  schema:name "Mikuro Mika";
+  schema:nationality "Candian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/15203208_1706351953015394_8433750967924035429_n.jpg>;
+  schema:jobTitle "Singer,Songwriter" .
+
+<https://japanesecanadianartists.com/artist/minako-takahashi/#Agent> a schema:Person;
+  schema:name "Minako Takahashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Minako-Takahashi-600.jpg>;
+  schema:jobTitle "Visual and Mixed Media Artist" .
+
+<https://japanesecanadianartists.com/artist/mio-sakamoto/#Agent> a schema:Person;
+  schema:name "Mio Sakamoto";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/09/Mio-Sakamoto-Headshot-copy-scaled.jpg> .
+
+<https://japanesecanadianartists.com/artist/mitch-miyagawa/#Agent> a schema:Person;
+  schema:name "Mitch Miyagawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Ottawa-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Miyagawa_Mitch_600X600.jpg>;
+  schema:jobTitle "filmmaker, writer" .
+
+<https://japanesecanadianartists.com/artist/mitsu-ikemura/#Agent> a schema:Person;
+  schema:name "Mitsu Ikemura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Victoria-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ikemura_Mitsu_600X600.jpg>;
+  schema:jobTitle "Mixed media artist" .
+
+<https://japanesecanadianartists.com/artist/mitsugi-kikuchi/#Agent> a schema:Person;
+  schema:name "Mitsugi Kikuchi";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kikuchi_Mitsugi_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/mitsuru-cope/#Agent> a schema:Person;
+  schema:name "Mitsuru Cope";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Cope_Mitsuru_600X600.jpg>;
+  schema:jobTitle "ceramicist, painter" .
+
+<https://japanesecanadianartists.com/artist/miya-turnbull/#Agent> a schema:Person;
+  schema:name "Miya Turnbull";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Halifax-Nova%20Scotia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Turnbull_M_600X600.jpg>;
+  schema:jobTitle "multidisciplinary artist" .
+
+<https://japanesecanadianartists.com/artist/miyo-ishiwata/#Agent> a schema:Person;
+  schema:name "Miyo Ishiwata";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Ishiwata_M_600X600.jpg>;
+  schema:jobTitle "Poet" .
+
+<https://japanesecanadianartists.com/artist/miyo-tominaga/#Agent> a schema:Person;
+  schema:name "Miyo Tominaga";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tominaga_Miyo_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/mona-oikawa/#Agent> a schema:Person;
+  schema:name "Mona Oikawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Oikawa_M_600X600.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/mui-ling-teh/#Agent> a schema:Person;
+  schema:name "Mui-Ling Teh";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Mui-Ling-Teh-Profile-Picture.jpg>;
+  schema:jobTitle "artist, photographer, poet" .
+
+<https://japanesecanadianartists.com/artist/muriel-kitagawa/#Agent> a schema:Person;
+  schema:name "Muriel Kitagawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Kitagawa_Muriel_600X600-1.jpg> .
+
+<https://japanesecanadianartists.com/artist/nagata-shachu/#Agent> a schema:Person;
+  schema:name "Nagata Shachu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/DSC7633.jpg>;
+  schema:jobTitle "Taiko Group";
+  schema:memberOf "Nagata Shachu" .
+
+<https://japanesecanadianartists.com/artist/nanako-aramaki/#Agent> a schema:Person;
+  schema:name "Nanako Aramaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/London-England>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/05/03841-©alfredomena.jpg>;
+  schema:jobTitle "Flamenco Dancer" .
+
+<https://japanesecanadianartists.com/place/London-England> a schema:PostalAddress;
+  schema:addressLocality "London";
+  schema:addressRegion "England" .
+
+<https://japanesecanadianartists.com/artist/nancy-peng/#Agent> a schema:Person;
+  schema:name "Nancy Peng";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/St.%20Jacobs-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/2017-Nancy-Peng-bio-portrait.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/place/St.%20Jacobs-Ontario> a schema:PostalAddress;
+  schema:addressLocality "St. Jacobs";
+  schema:addressRegion "Ontario" .
+
+<https://japanesecanadianartists.com/artist/nancy-tatebe/#Agent> a schema:Person;
+  schema:name "Nancy Tatebe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tatebe_Nancy_600X600.jpg>;
+  schema:jobTitle "Filmmaker" .
+
+<https://japanesecanadianartists.com/artist/naoko-furue/#Agent> a schema:Person;
+  schema:name "Naoko Furue";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Furue_Naoko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/naoko-matsubara/#Agent> a schema:Person;
+  schema:name "Naoko Matsubara";
+  schema:nationality "Japanese";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Matsubara_Naoko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/naomi-guilbert/#Agent> a schema:Person;
+  schema:name "Naomi Guilbert";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Guilbert_Naomi_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/naomi-sawada/#Agent> a schema:Person;
+  schema:name "Naomi Sawada";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Naomi-Sawada-bio-image-758x766.jpg> .
+
+<https://japanesecanadianartists.com/artist/natalie-purschwitz/#Agent> a schema:Person;
+  schema:name "Natalie Purschwitz";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/NP.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/natsuko-ohama/#Agent> a schema:Person;
+  schema:name "Natsuko Ohama";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ohama_Natsuko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/nicole-yukiko/#Agent> a schema:Person;
+  schema:name "Nicole Yukiko";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/Nicole_Yukiko_1200.jpg>;
+  schema:jobTitle "Performer, Creator" .
+
+<https://japanesecanadianartists.com/artist/noboru-kubo/#Agent> a schema:Person;
+  schema:name "Noboru Kubo";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kubo_Noboru_600X600.jpg>;
+  schema:jobTitle "Potter" .
+
+<https://japanesecanadianartists.com/artist/noboru-sawai/#Agent> a schema:Person;
+  schema:name "Noboru Sawai";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sawai_Noboru_600X600.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/artist/nobu-mccarthy/#Agent> a schema:Person;
+  schema:name "Nobu McCarthy";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/McCarthy_Nobu_03_600X600.jpg>;
+  schema:jobTitle "Actress" .
+
+<https://japanesecanadianartists.com/artist/nobuo-kubota/#Agent> a schema:Person;
+  schema:name "Nobuo Kubota";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kubota_Nobuo_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/noriko-imai/#Agent> a schema:Person;
+  schema:name "Noriko Imai";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Quebec-Montreal>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Imai_Noriko_600X600.jpg>;
+  schema:jobTitle "Watercolour, calligraphy, sumi-e artist" .
+
+<https://japanesecanadianartists.com/artist/noriko-kim-kobayashi/#Agent> a schema:Person;
+  schema:name "Noriko Kim Kobayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Taiko_03_600X600.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/noriko-yamamoto/#Agent> a schema:Person;
+  schema:name "Noriko Yamamoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/NorikoYamamoto-S.jpg>;
+  schema:jobTitle "mime, dancer, choreographer, Silent Storyteller, visual artist" .
+
+<https://japanesecanadianartists.com/artist/norman-takeuchi/#Agent> a schema:Person;
+  schema:name "Norman Takeuchi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Ottawa-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Norman-Takeuchi.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/number-one-son/#Agent> a schema:Person;
+  schema:name "Number One Son";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Number-One-Son_600X600.jpg>;
+  schema:jobTitle "Band";
+  schema:memberOf "Number One Son" .
+
+<https://japanesecanadianartists.com/artist/ohama/#Agent> a schema:Person;
+  schema:name "Ohama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Rainier-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ohama_600X600.jpg>;
+  schema:jobTitle "Composer, Performer" .
+
+<https://japanesecanadianartists.com/place/Rainier-Alberta> a schema:PostalAddress;
+  schema:addressLocality "Rainier";
+  schema:addressRegion "Alberta" .
+
+<https://japanesecanadianartists.com/artist/pat-adachi/#Agent> a schema:Person;
+  schema:name "Pat Adachi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Adachi_Pat_600X600.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/peter-kosaka/#Agent> a schema:Person;
+  schema:name "Peter Kosaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kosaka_Peter_600X600.jpg>;
+  schema:jobTitle "Actor" .
+
+<https://japanesecanadianartists.com/artist/peter-wakayama/#Agent> a schema:Person;
+  schema:name "Peter Wakayama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Wakayama_Peter_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/rachel-greenaway/#Agent> a schema:Person;
+  schema:name "Rachel Greenaway";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Nelson-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/RM_Greenaway_600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/rachel-sachiko-mercer/#Agent> a schema:Person;
+  schema:name "Rachel Sachiko Mercer";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/London-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/RM-cropped-1.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/randall-okita/#Agent> a schema:Person;
+  schema:name "Randall Okita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/Randall-Okita-Portrait-small.jpg>;
+  schema:jobTitle "Visual Artist, filmmaker" .
+
+<https://japanesecanadianartists.com/artist/randy-enomoto/#Agent> a schema:Person;
+  schema:name "Randy Enomoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Enomoto_Randy_600X600.jpg>;
+  schema:jobTitle "Editor" .
+
+<https://japanesecanadianartists.com/artist/raymond-moriyama/#Agent> a schema:Person;
+  schema:name "Raymond Moriyama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Moriyama_Raymond_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/raymond-nakamura/#Agent> a schema:Person;
+  schema:name "Raymond Nakamura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/arms-crossed-1.jpg> .
+
+<https://japanesecanadianartists.com/artist/real-akazawa-eguchi/#Agent> a schema:Person;
+  schema:name "Real (Akazawa) Eguchi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Eguchi_Real_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/renay-egami/#Agent> a schema:Person;
+  schema:name "Renay Egami";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Kelowna-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Egami_Renay_600X600.jpg>;
+  schema:jobTitle "multimedia artist" .
+
+<https://japanesecanadianartists.com/artist/rene-ohashi/#Agent> a schema:Person;
+  schema:name "Rene Ohashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ohashi_Rene_600X600.jpg>;
+  schema:jobTitle "Cinematographer" .
+
+<https://japanesecanadianartists.com/artist/rick-shiomi/#Agent> a schema:Person;
+  schema:name "Rick Shiomi";
+  schema:address <https://japanesecanadianartists.com/place/Minneapolis-Minnesota>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Shiomi_Rick_600X600.jpg>;
+  schema:jobTitle "Theatre artist" .
+
+<https://japanesecanadianartists.com/place/Minneapolis-Minnesota> a schema:PostalAddress;
+  schema:addressLocality "Minneapolis";
+  schema:addressRegion "Minnesota" .
+
+<https://japanesecanadianartists.com/artist/robert-hideki-uchida/#Agent> a schema:Person;
+  schema:name "Robert Hideki Uchida";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/IMG_6354.jpg>;
+  schema:jobTitle "Violinist" .
+
+<https://japanesecanadianartists.com/artist/robert-hirano/#Agent> a schema:Person;
+  schema:name "Robert Hirano";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hirano_Robert_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/robert-ito/#Agent> a schema:Person;
+  schema:name "Robert Ito";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Iro_R_600X600.jpg>;
+  schema:jobTitle "Film actor" .
+
+<https://japanesecanadianartists.com/artist/robert-shiozaki/#Agent> a schema:Person;
+  schema:name "Robert Shiozaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Robert-Shiozaki-600.jpg>;
+  schema:jobTitle "ceramic artist" .
+
+<https://japanesecanadianartists.com/artist/robert-yamashita/#Agent> a schema:Person;
+  schema:name "Robert Yamashita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamashita_R_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/roland-kawano/#Agent> a schema:Person;
+  schema:name "Roland Kawano";
+  schema:nationality "Canadian";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kawano_Roland_600X600.jpg>;
+  schema:jobTitle "Priest, Editor" .
+
+<https://japanesecanadianartists.com/artist/ron-kanashiro/#Agent> a schema:Person;
+  schema:name "Ron Kanashiro";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kanashiro_Ron_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/ron-korb/#Agent> a schema:Person;
+  schema:name "Ron Korb";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Korb_Ron_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/ronald-kato/#Agent> a schema:Person;
+  schema:name "Ronald Kato";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kato_Ronald_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/roy-ito/#Agent> a schema:Person;
+  schema:name "Roy Ito";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Hamilton-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ito_Roy_600X600.jpg>;
+  schema:jobTitle "Writer, historian, author" .
+
+<https://japanesecanadianartists.com/artist/roy-k-kiyooka/#Agent> a schema:Person;
+  schema:name "Roy K. Kiyooka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Kiyooka_Roy_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/roy-kumano/#Agent> a schema:Person;
+  schema:name "Roy Kumano";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Kumano_Roy_600X600.jpg>;
+  schema:jobTitle "Musician, Thespian" .
+
+<https://japanesecanadianartists.com/artist/roy-kusano/#Agent> a schema:Person;
+  schema:name "Roy Kusano";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_04_600X600.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/roy-matsui/#Agent> a schema:Person;
+  schema:name "Roy Matsui";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Matsui_Roy_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/roy-miki/#Agent> a schema:Person;
+  schema:name "Roy Miki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Miki_Roy_600X600.jpg>;
+  schema:jobTitle "Poet" .
+
+<https://japanesecanadianartists.com/artist/roy-miya/#Agent> a schema:Person;
+  schema:name "Roy Miya";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_07_600X600.jpg>;
+  schema:jobTitle "Musician" .
+
+<https://japanesecanadianartists.com/artist/roy-onami/#Agent> a schema:Person;
+  schema:name "Roy Onami";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Onami_Roy_600X600.jpg>;
+  schema:jobTitle "graphic designer, painter" .
+
+<https://japanesecanadianartists.com/artist/roy-tomomichi-sumi/#Agent> a schema:Person;
+  schema:name "Roy Tomomichi Sumi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Roy-Sumi-600.jpg>;
+  schema:jobTitle "Bonsai master" .
+
+<https://japanesecanadianartists.com/artist/ruby-truly/#Agent> a schema:Person;
+  schema:name "Ruby Truly";
+  schema:nationality "American";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Truly_Ruby_600X600.jpg>;
+  schema:jobTitle "actor, filmmaker" .
+
+<https://japanesecanadianartists.com/artist/rui-umezawa/#Agent> a schema:Person;
+  schema:name "Rui Umezawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Umezawa_R_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/ruth-ohi/#Agent> a schema:Person;
+  schema:name "Ruth Ohi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ohi_R_600X600.jpg>;
+  schema:jobTitle "Writer and Illustrator" .
+
+<https://japanesecanadianartists.com/artist/ruth-ozeki/#Agent> a schema:Person;
+  schema:name "Ruth Ozeki";
+  schema:nationality "American-Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ozeki_R_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/ruth-yamada/#Agent> a schema:Person;
+  schema:name "Ruth Yamada";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamada_Ruth_600X600.jpg>;
+  schema:jobTitle "sumi-e artist, watercolour painter" .
+
+<https://japanesecanadianartists.com/artist/ryan-takatsu/#Agent> a schema:Person;
+  schema:name "Ryan Takatsu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Ryan-T-MOD.jpg>;
+  schema:jobTitle "designer, video artist, cultural equity advocate" .
+
+<https://japanesecanadianartists.com/artist/sachi-yamabe/#Agent> a schema:Person;
+  schema:name "Sachi Yamabe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamabe_Sachi_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/sachiko-burgin/#Agent> a schema:Person;
+  schema:name "Sachiko Burgin";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/IMG_9461.jpg>;
+  schema:jobTitle "Hand-Knitting Pattern Designer" .
+
+<https://japanesecanadianartists.com/artist/sachiko-murakami/#Agent> a schema:Person;
+  schema:name "Sachiko Murakami";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Murakami_Square.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/sadashi-inuzuka/#Agent> a schema:Person;
+  schema:name "Sadashi Inuzuka";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Inuzuka_Sadashi_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/saeko-usukawa/#Agent> a schema:Person;
+  schema:name "Saeko Usukawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Usukawa_S_600X600.jpg>;
+  schema:jobTitle "Editor" .
+
+<https://japanesecanadianartists.com/artist/sally-ito/#Agent> a schema:Person;
+  schema:name "Sally Ito";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Ito_Sally_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/sally-nakamura/#Agent> a schema:Person;
+  schema:name "Sally Nakamura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mic_04_600X600.jpg>;
+  schema:jobTitle "singer, actor, entertainer" .
+
+<https://japanesecanadianartists.com/artist/sam-furuya/#Agent> a schema:Person;
+  schema:name "Sam Furuya";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Mic_01_600X600.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/san-murata/#Agent> a schema:Person;
+  schema:name "San Murata";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Murata_San_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/sandra-sasaki/#Agent> a schema:Person;
+  schema:name "Sandra Sasaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/InteriorDesign_01_600X600.jpg>;
+  schema:jobTitle "Interior Designer" .
+
+<https://japanesecanadianartists.com/artist/sandy-usami/#Agent> a schema:Person;
+  schema:name "Sandy Usami";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Usami_Sandy_600X600.jpg>;
+  schema:jobTitle "Designer" .
+
+<https://japanesecanadianartists.com/artist/sansei-choir/#Agent> a schema:Person;
+  schema:name "Sansei Choir";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Choral_01_600X600.jpg>;
+  schema:jobTitle "Choir";
+  schema:memberOf "Sansei Choir" .
+
+<https://japanesecanadianartists.com/artist/sansei-north-productions/#Agent> a schema:Person;
+  schema:name "Sansei North Productions";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Stage_02_600X600.jpg>;
+  schema:jobTitle "Play";
+  schema:memberOf "Sansei North" .
+
+<https://japanesecanadianartists.com/artist/sansho-daiko/#Agent> a schema:Person;
+  schema:name "Sansho Daiko";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Sansho2_600X600.jpg>;
+  schema:memberOf "Sansho Daiko" .
+
+<https://japanesecanadianartists.com/artist/satoshi-saito/#Agent> a schema:Person;
+  schema:name "Satoshi Saito";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Saito_Satoshi_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/sayaka-isojima/#Agent> a schema:Person;
+  schema:name "Sayaka Isojima";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/IMG_4394-1-1200.jpg>;
+  schema:jobTitle "Ikebana artist" .
+
+<https://japanesecanadianartists.com/artist/scott-kokichi-kusano/#Agent> a schema:Person;
+  schema:name "Scott Kokichi Kusano";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/03/KokichiwShinobue600px.png> .
+
+<https://japanesecanadianartists.com/artist/setsuko-onishi-moulton/#Agent> a schema:Person;
+  schema:name "Setsuko Onishi Moulton";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Moulton_SO_600X600.jpg>;
+  schema:jobTitle "Printmaker" .
+
+<https://japanesecanadianartists.com/artist/sharon-sasaki/#Agent> a schema:Person;
+  schema:name "Sharon Sasaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/Sasaki_IMG_1184_700.jpg>;
+  schema:jobTitle "Family Physician, Visual collage artist, Science Fiction Author" .
+
+<https://japanesecanadianartists.com/artist/sherri-kajiwara/#Agent> a schema:Person;
+  schema:name "Sherri Kajiwara";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/IMG_5166.jpg>;
+  schema:jobTitle "Director, curator" .
+
+<https://japanesecanadianartists.com/artist/shin-sugino/#Agent> a schema:Person;
+  schema:name "Shin Sugino";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sugino_S_600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/shinobu-homma/#Agent> a schema:Person;
+  schema:name "Chibi Taiko";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/shomma_01.jpg>;
+  schema:memberOf "Chibi Taiko" .
+
+<https://japanesecanadianartists.com/artist/shinobu-mizukoshi/#Agent> a schema:Person;
+  schema:name "Shinobu Mizukoshi";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/IMG_1479.jpg> .
+
+<https://japanesecanadianartists.com/artist/shinsuke-minegishi/#Agent> a schema:Person;
+  schema:name "Shinsuke Minegishi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/DSC00073.jpg>;
+  schema:jobTitle "studio technician, instructor" .
+
+<https://japanesecanadianartists.com/artist/shinya-kumazawa/#Agent> a schema:Person;
+  schema:name "Shinya Kumazawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/portrait-square.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/shion-skye-carter/#Agent> a schema:Person;
+  schema:name "Shion Skye Carter";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-Canada>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/01/Shion_headshot.jpg>;
+  schema:jobTitle "Performing Artist" .
+
+<https://japanesecanadianartists.com/place/Vancouver-Canada> a schema:PostalAddress;
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "Canada" .
+
+<https://japanesecanadianartists.com/artist/shizuka-kai/#Agent> a schema:Person;
+  schema:name "Shizuka Kai";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/05/IMG_2400edit-2.jpg>;
+  schema:jobTitle "Theatre Artist" .
+
+<https://japanesecanadianartists.com/artist/shizuo-kato/#Agent> a schema:Person;
+  schema:name "Shizuo Kato";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Paint_01_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/shizuye-takashima/#Agent> a schema:Person;
+  schema:name "Shizuye Takashima";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Takashima_Shizuye_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/shozo-ushiroguchi/#Agent> a schema:Person;
+  schema:name "Shozo Ushiroguchi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Ushiroguchi_S_600X600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/shun-sasabuchi/#Agent> a schema:Person;
+  schema:name "Shun Sasabuchi";
+  schema:nationality "Japanese";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sasabuchi_Shun_600X600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/sophia-wolfe/#Agent> a schema:Person;
+  schema:name "Sophia Wolfe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-Canada>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/04/DSC01097.jpg> .
+
+<https://japanesecanadianartists.com/artist/soramaru-takayama/#Agent> a schema:Person;
+  schema:name "Soramaru Takayama";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/sora.jpg>;
+  schema:jobTitle "Poet" .
+
+<https://japanesecanadianartists.com/artist/soyo-kagemori/#Agent> a schema:Person;
+  schema:name "Soyo Kagemori";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Tea_01_600X600.jpg>;
+  schema:jobTitle "Sado practitioner" .
+
+<https://japanesecanadianartists.com/artist/stan-shikatani/#Agent> a schema:Person;
+  schema:name "Stan Shikatani";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/Design_05_600X600.jpg>;
+  schema:jobTitle "graphic designer" .
+
+<https://japanesecanadianartists.com/artist/stan-taniwa/#Agent> a schema:Person;
+  schema:name "Stan Taniwa";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Taniwa_Stan_600X600.jpg>;
+  schema:jobTitle "Muralist, ceramicist" .
+
+<https://japanesecanadianartists.com/artist/stanley-fukawa/#Agent> a schema:Person;
+  schema:name "Stanley Fukawa";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Fukawa_Stan_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/stanley-hiroaki-osaka/#Agent> a schema:Person;
+  schema:name "Stanley Hiroaki Osaka";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Richmond-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_03_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/stephanie-eiko-nakagawa/#Agent> a schema:Person;
+  schema:name "Stephanie Eiko Nakagawa";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/S-Nakagawa-Headshot-1200.jpg>;
+  schema:jobTitle "Opera Performer" .
+
+<https://japanesecanadianartists.com/artist/steve-sunao-shigematsu/#Agent> a schema:Person;
+  schema:name "Steve Sunao Shigematsu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Raymond-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/06/Steve-Shigematsu-Pic-600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/place/Raymond-Alberta> a schema:PostalAddress;
+  schema:addressLocality "Raymond";
+  schema:addressRegion "Alberta" .
+
+<https://japanesecanadianartists.com/artist/steven-nunoda/#Agent> a schema:Person;
+  schema:name "Steven Nunoda";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nunoda_Steven_600X600.jpg>;
+  schema:jobTitle "multidisciplinary artist" .
+
+<https://japanesecanadianartists.com/artist/sue-obata/#Agent> a schema:Person;
+  schema:name "Sue Obata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Obata_Sue_600X600.jpg>;
+  schema:jobTitle "Glass Artist" .
+
+<https://japanesecanadianartists.com/artist/sue-sumi-tabuchi/#Agent> a schema:Person;
+  schema:name "Sue Sumi Tabuchi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Brushes_01_600X600.jpg>;
+  schema:jobTitle "sumi-e artist" .
+
+<https://japanesecanadianartists.com/artist/suezan-aikins/#Agent> a schema:Person;
+  schema:name "Suezan Aikins";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Aikins_Suezan_600X600.jpg>;
+  schema:jobTitle "Koto player" .
+
+<https://japanesecanadianartists.com/artist/sukeo-mokujin-sameshima/#Agent> a schema:Person;
+  schema:name "Sukeo Mokujin Sameshima";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Coaldale-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Typewriter_02_600X600.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/place/Coaldale-Alberta> a schema:PostalAddress;
+  schema:addressLocality "Coaldale";
+  schema:addressRegion "Alberta" .
+
+<https://japanesecanadianartists.com/artist/susan-aihoshi/#Agent> a schema:Person;
+  schema:name "Susan Aihoshi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/IMG_0488.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/susan-dunstan/#Agent> a schema:Person;
+  schema:name "Susan Dunstan";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Dunstan_Susan_600X600.jpg>;
+  schema:jobTitle "singer, voice teacher, musical theatre performer" .
+
+<https://japanesecanadianartists.com/artist/susanne-tabata/#Agent> a schema:Person;
+  schema:name "Susanne Tabata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tabata_Susanne_600X600.jpg>;
+  schema:jobTitle "documentarian, digital media creator" .
+
+<https://japanesecanadianartists.com/artist/suzanne-yoko-hartmann/#Agent> a schema:Person;
+  schema:name "Suzanne Elki Yoko Hartmann";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Suzanne-1.jpg>;
+  schema:jobTitle "Freelance Writer" .
+
+<https://japanesecanadianartists.com/artist/taiga-chiba/#Agent> a schema:Person;
+  schema:name "Taiga Chiba";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Chiba_Taiga_600X600.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/artist/takako-masumoto/#Agent> a schema:Person;
+  schema:name "Takako Masumoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Masumoto_Takako_600X600.jpg>;
+  schema:jobTitle "Textile Artist" .
+
+<https://japanesecanadianartists.com/artist/takako-suzuki/#Agent> a schema:Person;
+  schema:name "Takako Suzuki";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Pottery_03_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/takako-yanagida-lordly/#Agent> a schema:Person;
+  schema:name "Takako Yanagida-Lordly";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yanagida_Lordly_Takako_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/takako-yokoyama/#Agent> a schema:Person;
+  schema:name "Takako Yokoyama";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yokoyama_Takako_600X600.jpg>;
+  schema:jobTitle "tea ceremony and ikebana practitioner" .
+
+<https://japanesecanadianartists.com/artist/takao-tanabe/#Agent> a schema:Person;
+  schema:name "Takao Tanabe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Parksville-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tanabe_Takao_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/place/Parksville-BC> a schema:PostalAddress;
+  schema:addressLocality "Parksville";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/takashi-tsuji/#Agent> a schema:Person;
+  schema:name "Takashi Tsuji";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tsuji_Takashi_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/takashi-yamashita/#Agent> a schema:Person;
+  schema:name "Takashi Yamashita";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamashita_Takashi_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/takeo-ujo-nakano/#Agent> a schema:Person;
+  schema:name "Takeo Ujo Nakano";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nakano_TU_600X600.jpg>;
+  schema:jobTitle "Poet" .
+
+<https://japanesecanadianartists.com/artist/takeo-yamashiro/#Agent> a schema:Person;
+  schema:name "Takeo Yamashiro";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yamashiro_Takeo_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/takuro-kamata/#Agent> a schema:Person;
+  schema:name "Takuro Kamata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kamata_Takuro_600X600.jpg>;
+  schema:jobTitle "artist" .
+
+<https://japanesecanadianartists.com/artist/tamai-kobayashi/#Agent> a schema:Person;
+  schema:name "Tamai Kobayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kobayashi_Tamai_600X600.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/tamio-wakayama/#Agent> a schema:Person;
+  schema:name "Tamio Wakayama";
+  schema:nationality "Canada";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Wakayama_Tamio_600X600.jpg>;
+  schema:jobTitle "photographer, writer, author" .
+
+<https://japanesecanadianartists.com/artist/tamotsu-tongu/#Agent> a schema:Person;
+  schema:name "Tamotsu Tongu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Burnaby-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tongu_Tamotsu_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/Burnaby-BC> a schema:PostalAddress;
+  schema:addressLocality "Burnaby";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/tamura-toshiko/#Agent> a schema:Person;
+  schema:name "Tamura Toshiko";
+  schema:nationality "Japanese";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/02/Toshiko_Tamura-e1582579512558.jpg>;
+  schema:jobTitle "author, artist" .
+
+<https://japanesecanadianartists.com/artist/tashme-productions/#Agent> a schema:Person;
+  schema:name "Tashme Productions";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/07/1_MAIproduction_TheTashmeProject-1.jpg>;
+  schema:memberOf "Tashme Productions" .
+
+<https://japanesecanadianartists.com/artist/tatsuo-kage/#Agent> a schema:Person;
+  schema:name "Tatsuo Kage";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kage_Tatsuo_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/ted-teshima/#Agent> a schema:Person;
+  schema:name "Ted Teshima";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Teshima_Ted_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/teresa-kobayashi/#Agent> a schema:Person;
+  schema:name "Teresa Kobayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_05_600X600.jpg>;
+  schema:jobTitle "Musician, Dancer" .
+
+<https://japanesecanadianartists.com/artist/terrie-hamazaki/#Agent> a schema:Person;
+  schema:name "Terrie Hamazaki";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/02/IMG_3873.jpg>;
+  schema:jobTitle "Writer" .
+
+<https://japanesecanadianartists.com/artist/terry-watada/#Agent> a schema:Person;
+  schema:name "Terry Watada";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Thumbnails_Batch_1_Assorted_600X60073.jpg> .
+
+<https://japanesecanadianartists.com/artist/teruko-kobayashi-2/#Agent> a schema:Person;
+  schema:name "Teruko Kobayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kobayashi_Terry_600X600.jpg>;
+  schema:jobTitle "Art historian" .
+
+<https://japanesecanadianartists.com/artist/teruo-adachi/#Agent> a schema:Person;
+  schema:name "Teruo Adachi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Adachi_Terry_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/tetsuro-shigematsu/#Agent> a schema:Person;
+  schema:name "Tetsuro Shigematsu";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Shigematsu_Tetsuro_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/the-asia-minors/#Agent> a schema:Person;
+  schema:name "The Asia Minors";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_09_600X600.jpg>;
+  schema:jobTitle "Band";
+  schema:memberOf "The Asia Minors" .
+
+<https://japanesecanadianartists.com/artist/the-embers/#Agent> a schema:Person;
+  schema:name "The Embers";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_08_600X600.jpg>;
+  schema:jobTitle "Rock emsemble";
+  schema:memberOf "The Embers" .
+
+<https://japanesecanadianartists.com/artist/the-singing-knights/#Agent> a schema:Person;
+  schema:name "The Singing Knights";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_02_600X600.jpg>;
+  schema:jobTitle "Folk band";
+  schema:memberOf "The Singing Knights" .
+
+<https://japanesecanadianartists.com/artist/tim-tamashiro/#Agent> a schema:Person;
+  schema:name "Tim Tamashiro";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Tamashiro_T_600X600.jpg>;
+  schema:jobTitle "Singer" .
+
+<https://japanesecanadianartists.com/artist/tom-morimoto/#Agent> a schema:Person;
+  schema:name "Tom Morimoto";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Morimoto_Tom_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/tom-motomochi/#Agent> a schema:Person;
+  schema:name "Tom Motomochi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_04_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/artist/tom-sando/#Agent> a schema:Person;
+  schema:name "Tom Sando";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Edmonton-Alberta>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sando_Tom_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/tomiyo-sasaki/#Agent> a schema:Person;
+  schema:name "Tomiyo Sasaki";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sasaki_T_600X600.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/tomizo-yamamoto/#Agent> a schema:Person;
+  schema:name "Tomizo Yamamoto";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/North%20Vancouver-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Architecture_07_600X600.jpg>;
+  schema:jobTitle "Architect" .
+
+<https://japanesecanadianartists.com/place/North%20Vancouver-BC> a schema:PostalAddress;
+  schema:addressLocality "North Vancouver";
+  schema:addressRegion "BC" .
+
+<https://japanesecanadianartists.com/artist/tomo-hattori/#Agent> a schema:Person;
+  schema:name "Tomo Hattori";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Hattori_Tomo_600X600.jpg>;
+  schema:jobTitle "Literary Critic" .
+
+<https://japanesecanadianartists.com/artist/tomoko-kodama/#Agent> a schema:Person;
+  schema:name "Tomoko Kodama";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kodama_Tomoko_600X600.jpg>;
+  schema:jobTitle "sumi-e painter" .
+
+<https://japanesecanadianartists.com/artist/tomoko-makabe/#Agent> a schema:Person;
+  schema:name "Tomoko Makabe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Makabe_Tomoko_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/toru-fujibayashi/#Agent> a schema:Person;
+  schema:name "Toru Fujibayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Nelson-BC>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/DSCN0145.jpg>;
+  schema:jobTitle "Sculptor" .
+
+<https://japanesecanadianartists.com/artist/toshiko-yoshikawa/#Agent> a schema:Person;
+  schema:name "Toshiko Yoshikawa";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Yoshikawa_Toshiko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/toyo-takata/#Agent> a schema:Person;
+  schema:name "Toyo Takata";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Takata_Toyo_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/toyoshi-yoshi-yoshihara/#Agent> a schema:Person;
+  schema:name "Toyoshi (Yoshi) Yoshihara";
+  schema:nationality "Japanese";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Yoshihara_Toyoshi_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/troy-suzuki/#Agent> a schema:Person;
+  schema:name "Troy Suzuki";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Suzuki_Troy_600X600.jpg>;
+  schema:jobTitle "Filmmaker" .
+
+<https://japanesecanadianartists.com/artist/tsuneko-kokubo/#Agent> a schema:Person;
+  schema:name "Tsuneko Kokubo";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kokubo_Tsuneko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/tsutao-machida/#Agent> a schema:Person;
+  schema:name "Tsutao Machida";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/IMG_9882.jpg> .
+
+<https://japanesecanadianartists.com/artist/uminari-taiko/#Agent> a schema:Person;
+  schema:name "Uminari Taiko";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver%20Island-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/02/UT-logo-Circle-and-Title-white-background-no-border.jpg>;
+  schema:jobTitle "Taiko Group";
+  schema:memberOf "Uminari Taiko" .
+
+<https://japanesecanadianartists.com/place/Vancouver%20Island-British%20Columbia>
+  a schema:PostalAddress;
+  schema:addressLocality "Vancouver Island";
+  schema:addressRegion "British Columbia" .
+
+<https://japanesecanadianartists.com/artist/uzume-taiko/#Agent> a schema:Person;
+  schema:name "Uzume Taiko";
+  schema:nationality "Canada";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Other";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/06/Uzume_Taiko_600X600.jpg>;
+  schema:memberOf "Uzume Taiko" .
+
+<https://japanesecanadianartists.com/artist/vancouver-japanese-gardeners-association/#Agent>
+  a schema:Person;
+  schema:name "Van. Japanese Gardeners Assoc.";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/VJGA_05.jpg> .
+
+<https://japanesecanadianartists.com/artist/vancouver-taiko-society/#Agent> a schema:Person;
+  schema:name "Vancouver Taiko Society";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/By-Joe-43.jpg>;
+  schema:memberOf "Vancouver Taiko Society" .
+
+<https://japanesecanadianartists.com/artist/vernon-hakkaku/#Agent> a schema:Person;
+  schema:name "Vernon Hakkaku";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Music_03_600X600.jpg>;
+  schema:jobTitle "Pianist" .
+
+<https://japanesecanadianartists.com/artist/victor-sawa/#Agent> a schema:Person;
+  schema:name "Victor Sawa";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sawa_Victor_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/vincent-noguchi/#Agent> a schema:Person;
+  schema:name "Vincent Noguchi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Noguchi_Vincent_600X600.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/vivien-nishi/#Agent> a schema:Person;
+  schema:name "Vivien Nishi";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Nishi_Vivien_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/walter-sunahara/#Agent> a schema:Person;
+  schema:name "Walter Sunahara";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sunahara_Walter_600X600.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/warabe-aska/#Agent> a schema:Person;
+  schema:name "Warabe Aska";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Warabe_Aska_600X600.jpg>;
+  schema:jobTitle "Painter, Illustrator" .
+
+<https://japanesecanadianartists.com/artist/warren-hoyano/#Agent> a schema:Person;
+  schema:name "Warren Hoyano";
+  schema:nationality "Canadian";
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/12/Hoyano.HeadShot.jpg> .
+
+<https://japanesecanadianartists.com/artist/warren-sonoda/#Agent> a schema:Person;
+  schema:name "Warren P. Sonoda";
+  schema:nationality "Canadian";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2020/01/download.png>;
+  schema:jobTitle "Filmmaker" .
+
+<https://japanesecanadianartists.com/artist/wasteland-gardens-the-japanese-canadian-internment-in-canada/#Agent>
+  a schema:Person;
+  schema:name "Wasteland Gardens";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Tape_01_600X600.jpg>;
+  schema:jobTitle "radio documentary";
+  schema:memberOf "Wasteland Gardens: the Japanese Canadian Internment in Canada" .
+
+<https://japanesecanadianartists.com/artist/will-shintani/#Agent> a schema:Person;
+  schema:name "Will Shintani";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2019/08/will-shintani-INPRNT-profile.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/yayoi-hirano/#Agent> a schema:Person;
+  schema:name "Yayoi Hirano";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Yayoi-Noriko-head-shot.jpg>;
+  schema:jobTitle "Dancer" .
+
+<https://japanesecanadianartists.com/artist/yoichi-shimizu/#Agent> a schema:Person;
+  schema:name "Yoichi Shimizu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Tools_01_600X600.jpg>;
+  schema:jobTitle "graphic designer" .
+
+<https://japanesecanadianartists.com/artist/yoko-galvin/#Agent> a schema:Person;
+  schema:name "Yoko Galvin";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Calgary-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/11/DSC_0413.jpg>;
+  schema:jobTitle "Visual Artist" .
+
+<https://japanesecanadianartists.com/artist/yoko-oike-wong/#Agent> a schema:Person;
+  schema:name "Yoko Oike-Wong";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Edmonton-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Oike-Wong_Yoko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/yon-shimizu/#Agent> a schema:Person;
+  schema:name "Yon Shimizu";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Shimizu_Yon_600X600.jpg>;
+  schema:jobTitle "Author" .
+
+<https://japanesecanadianartists.com/artist/yosh-inouye/#Agent> a schema:Person;
+  schema:name "Yosh Inouye";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-Ontario>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Inouye_Yosh_600X600.jpg>;
+  schema:jobTitle "photographer and graphic designer" .
+
+<https://japanesecanadianartists.com/artist/yoshie-bancroft/#Agent> a schema:Person;
+  schema:name "Yoshie Bancroft";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Yoshie-Bancroft-1.jpg>;
+  schema:jobTitle "Actor, Theatre Creator" .
+
+<https://japanesecanadianartists.com/artist/yoshiko-godo/#Agent> a schema:Person;
+  schema:name "Yoshiko Godo";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/IMG_0169.jpg>;
+  schema:jobTitle "Potter" .
+
+<https://japanesecanadianartists.com/artist/yoshiko-sunahara/#Agent> a schema:Person;
+  schema:name "Yoshiko Sunahara";
+  schema:nationality "Canadian";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Sunahara_Yoshiko_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/yoshimaru-abe/#Agent> a schema:Person;
+  schema:name "Yoshimaru Abe";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Winnipeg-Manitoba>;
+  schema:gender "Male";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/Abe_Y_600X600.jpg>;
+  schema:jobTitle "Entertainer, Artist, Haiku Poet, Garden Designer" .
+
+<https://japanesecanadianartists.com/artist/yukari-ochiai/#Agent> a schema:Person;
+  schema:name "Yukari Ochiai";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Montreal-Quebec>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Ochiai_Yukari_600X600.jpg>;
+  schema:jobTitle "painter and graphic artist" .
+
+<https://japanesecanadianartists.com/artist/yukiko-onley/#Agent> a schema:Person;
+  schema:name "Yukiko Onley";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/03/20140219_082_TM-copy-copy-copy.jpg>;
+  schema:jobTitle "Photographer" .
+
+<https://japanesecanadianartists.com/artist/yumie-kono/#Agent> a schema:Person;
+  schema:name "Yumie Kono";
+  schema:nationality "Japanese";
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kono_Yumie_600X600.jpg> .
+
+<https://japanesecanadianartists.com/artist/yurie-hoyoyon/#Agent> a schema:Person;
+  schema:name "Yurie Hoyoyon";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/09/yuriehoyoyon1.jpg>;
+  schema:jobTitle "illustrator, graphic designer, portrait artist, greeting cards artist, voice actress" .
+
+<https://japanesecanadianartists.com/artist/yuriko-iga/#Agent> a schema:Person;
+  schema:name "Yuriko Iga";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2018/02/478533_10152404858345657_715421871_o.jpg> .
+
+<https://japanesecanadianartists.com/artist/yuriko-igarashi-kitamura/#Agent> a schema:Person;
+  schema:name "Yuriko Igarashi Kitamura";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/a-Alberta>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/07/Kitamura_Yuriko_600X600.jpg>;
+  schema:jobTitle "watercolour painter" .
+
+<https://japanesecanadianartists.com/place/a-Alberta> a schema:PostalAddress;
+  schema:addressLocality "a";
+  schema:addressRegion "Alberta" .
+
+<https://japanesecanadianartists.com/artist/yuriko-kubota/#Agent> a schema:Person;
+  schema:name "Yuriko Kubota";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Toronto-BC>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/10/on-earth-kai-for-web.jpg>;
+  schema:jobTitle "Painter" .
+
+<https://japanesecanadianartists.com/artist/yvonne-wakabayashi/#Agent> a schema:Person;
+  schema:name "Yvonne Wakabayashi";
+  schema:nationality "Canadian";
+  schema:address <https://japanesecanadianartists.com/place/Vancouver-British%20Columbia>;
+  schema:gender "Female";
+  schema:image <https://japanesecanadianartists.com/wp-content/uploads/2017/08/ART_Craft_2393-600.jpg> .
