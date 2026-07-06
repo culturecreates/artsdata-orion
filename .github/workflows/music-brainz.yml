@@ -22,7 +22,7 @@ jobs:
           pip install -r src/music-brainz/requirements.txt
 
       - name: Fetch data
-        run: python src/musicbraninz/script.py
+        run: python ./src/music-brainz/main.py
 
       - name: Commit and push changes
         run: |
@@ -43,4 +43,4 @@ jobs:
           mode: "push"
           artifact: "music-brainz"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/music-brainz-artists.ttlSuha3004"
+          downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/music-brainz-artists.ttl"
