@@ -19,7 +19,8 @@
     schema1:name "My Brightest Diamond" ;
     schema1:sameAs <https://isni.org/isni/0000000088230484> .
 
-<https://musicbrainz.org/artist/228c8e85-3c62-492c-99b4-811039ed6045> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/228c8e85-3c62-492c-99b4-811039ed6045> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Choir! Choir! Choir!" .
 
@@ -28,7 +29,8 @@
     schema1:gender schema1:Female ;
     schema1:name "Florence K" .
 
-<https://musicbrainz.org/artist/39b2c0db-1837-4e1b-b3d1-dcb6f9425cfe> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/39b2c0db-1837-4e1b-b3d1-dcb6f9425cfe> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Le Vent du Nord" ;
     schema1:sameAs <https://isni.org/isni/0000000119586652> .
@@ -45,7 +47,8 @@
     schema1:name "Patrick Watson" ;
     schema1:sameAs <https://isni.org/isni/0000000078488959> .
 
-<https://musicbrainz.org/artist/5aeb21a3-4606-4a0d-8369-50c768d1e99a> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/5aeb21a3-4606-4a0d-8369-50c768d1e99a> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:disambiguatingDescription "Canadian indie pop band" ;
     schema1:name "Stars" ;
@@ -68,17 +71,20 @@
     schema1:gender schema1:Female ;
     schema1:name "Ellen Doty" .
 
-<https://musicbrainz.org/artist/6b52e1be-f27a-433c-b51a-3f2d63abc2ba> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/6b52e1be-f27a-433c-b51a-3f2d63abc2ba> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Blue Rodeo" ;
     schema1:sameAs <https://isni.org/isni/0000000110112821> .
 
-<https://musicbrainz.org/artist/79ed4d95-2053-4c48-b7e1-0e8b236b3e20> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/79ed4d95-2053-4c48-b7e1-0e8b236b3e20> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:disambiguatingDescription "Halifax-based pop/rock band" ;
     schema1:name "Port Cities" .
 
-<https://musicbrainz.org/artist/7e9fa943-91ca-4650-98b7-878e149cae64> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/7e9fa943-91ca-4650-98b7-878e149cae64> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Le Trio BBQ" .
 
@@ -87,16 +93,19 @@
     schema1:gender schema1:Female ;
     schema1:name "Cecile Doo-Kingue" .
 
-<https://musicbrainz.org/artist/832c110a-723e-43f6-b881-0dde7a242dd0> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/832c110a-723e-43f6-b881-0dde7a242dd0> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:disambiguatingDescription "Canadian roots rock band" ;
     schema1:name "Skydiggers" .
 
-<https://musicbrainz.org/artist/8b6bde4a-b9ca-4856-af61-bedd3de87964> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/8b6bde4a-b9ca-4856-af61-bedd3de87964> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Florian Hoefner Group" .
 
-<https://musicbrainz.org/artist/8b84eead-e5ce-4c86-9569-db6fc5ad1028> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/8b84eead-e5ce-4c86-9569-db6fc5ad1028> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Amos the Transparent" .
 
@@ -105,7 +114,8 @@
     schema1:gender schema1:Male ;
     schema1:name "Joseph Edgar" .
 
-<https://musicbrainz.org/artist/9eee650d-cba4-4af3-9bfc-6f785d32b53b> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/9eee650d-cba4-4af3-9bfc-6f785d32b53b> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Doc Walker" .
 
@@ -115,11 +125,13 @@
     schema1:gender schema1:Male ;
     schema1:name "Doug Paisley" .
 
-<https://musicbrainz.org/artist/b6eda9d3-1420-4767-b807-1a9efbf835f3> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/b6eda9d3-1420-4767-b807-1a9efbf835f3> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Sultans of String" .
 
-<https://musicbrainz.org/artist/b7e55351-8afe-4153-90b1-9d181640a196> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/b7e55351-8afe-4153-90b1-9d181640a196> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Natalie MacMaster & Donnell Leahy" .
 
@@ -139,7 +151,8 @@
     schema1:gender schema1:Female ;
     schema1:name "Katie Moore" .
 
-<https://musicbrainz.org/artist/d983ff62-9469-4e0b-a1b8-464974eba541> a schema1:MusicGroup ;
+<https://musicbrainz.org/artist/d983ff62-9469-4e0b-a1b8-464974eba541> a schema1:MusicGroup,
+        schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Leahy" ;
     schema1:sameAs <https://isni.org/isni/0000000115409122> .
