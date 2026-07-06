@@ -194,6 +194,10 @@ class MusicBrainzRDFBuilder:
 
         self.graph.add((artist_uri, RDF.type, artist_type))
 
+        # Check if the type is a MusicGroup, and infer Organization if true
+        if artist_type == SCHEMA.MusicGroup:
+            self.graph.add((artist_uri, RDF.type, SCHEMA.Organization))
+
         # Name
 
         if artist.get("name"):
