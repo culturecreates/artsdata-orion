@@ -27,7 +27,7 @@ from SPARQLWrapper import JSON, SPARQLWrapper
 
 GRAPHDB_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
 
-OUTPUT_FILE = "output/musicbrainz_artists.ttl"
+OUTPUT_FILE = "output/music-brainz-artists.ttl"
 
 USER_AGENT = (
     "ArtsData-MusicBrainz-Harvester/1.0"
