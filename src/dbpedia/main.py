@@ -49,7 +49,7 @@ WHERE {
         STRSTARTS(STR(?wikidata),"https://www.wikidata.org/") ||
         STRSTARTS(STR(?wikidata),"http://www.wikidata.org/")
     )
-} LIMIT 100
+} LIMIT 1000
 """
 
 
@@ -270,7 +270,7 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
         add_literal_values(
             graph,
             subject,
-            SCHEMA.disabmbiguatingDescription,
+            SCHEMA.disambiguatingDescription,
             current_item.get(str(DBO.description), []),
             languages={"en", "fr"},
         )
