@@ -49,7 +49,7 @@ WHERE {
         STRSTARTS(STR(?wikidata),"https://www.wikidata.org/") ||
         STRSTARTS(STR(?wikidata),"http://www.wikidata.org/")
     )
-} 
+} LIMIT 100
 """
 
 
