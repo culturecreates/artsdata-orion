@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,9 +30,16 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
+          
+          # Initialize and pull LFS files on the runner environment
+          git lfs install
+          
           git pull
           git add "output/dbpedia-entities.ttl"
           git commit -m "Added dbpedia-entities generated."
+          
+          # Git will automatically handle pushing the large payload to LFS storage 
+          # and the tracking pointer file to your core tree
           git push
 
   artsdata-push:
@@ -43,4 +52,6 @@ jobs:
           mode: "push"
           artifact: "dbpedia"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/dbpedia-entities.ttl"
+          # CRITICAL: raw.githubusercontent.com only returns the LFS pointer (a few bytes).
+          # Use the media URL format below to download the actual 200MB+ object file from LFS storage.
+          downloadUrl: "https://github.com/${{ github.repository }}/media/${{ github.ref_name }}/output/dbpedia-entities.ttl"

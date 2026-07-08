@@ -67,23 +67,29 @@ class ArtsdataEntity:
 # SPARQL
 # ---------------------------------------------------------------------------
 
-def execute_sparql(endpoint: str, query: str):
-    response = requests.get(
-        endpoint,
-        params={
-            "query": query,
-            "format": "json",
-        },
-        headers={
-            "Accept": "application/sparql-results+json",
-            "User-Agent": "ArtsdataDBpediaBot/1.0 (https://artsdata.ca/;)"
-        },
-        timeout=120,
-    )
+def execute_sparql(endpoint: str, query: str, retries=3):
+    for attempt in range(retries):
+        try:
+            response = requests.get(
+                endpoint,
+                params={
+                    "query": query,
+                    "format": "json",
+                },
+                headers=HEADERS,
+                timeout=120,
+            )
 
-    response.raise_for_status()
+            response.raise_for_status()
+            return response.json()
 
-    return response.json()
+        except requests.RequestException as e:
+            print(f"Attempt {attempt + 1} failed: {e}")
+
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -159,6 +165,10 @@ def resolve_dbpedia_uris(entities: List[ArtsdataEntity]) -> Dict[str, str]:
             WIKIDATA_ENDPOINT,
             build_wikidata_query(batch),
         )
+
+        if results is None:
+            print(f"Skipping batch {start}-{start + len(batch)}")
+            continue
 
         for row in results["results"]["bindings"]:
             qid = row["item"]["value"].split("/")[-1]
