@@ -49,7 +49,7 @@ WHERE {
         STRSTARTS(STR(?wikidata),"https://www.wikidata.org/") ||
         STRSTARTS(STR(?wikidata),"http://www.wikidata.org/")
     )
-}
+} LIMIT 10
 """
 
 
@@ -202,6 +202,8 @@ def add_uri_values(graph, subject, predicate, values):
 
 
 def add_literal_values(graph, subject, predicate, values, languages=None):
+    seen_languages = set()
+
     for item in values:
         value = item.get("value")
         if not value:
@@ -209,13 +211,17 @@ def add_literal_values(graph, subject, predicate, values, languages=None):
 
         lang = item.get("lang")
 
-        if languages and lang not in languages:
+        # Skip if it's a language we don't care about, or if we've already added it
+        if (languages and lang not in languages) or (lang in seen_languages):
             continue
 
         if lang:
             graph.add((subject, predicate, Literal(value, lang=lang)))
+            seen_languages.add(lang)
         else:
             graph.add((subject, predicate, Literal(value)))
+            # If you also want to limit non-language/default literals to just one:
+            # seen_languages.add(None)
 
 
 def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str], ) -> Graph:
@@ -248,14 +254,15 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
 
         # type
         if types is not None:
-            type_values = {t.get("value") for t in types}
-            if str(DBO.Person) in type_values:
-                graph.add((subject, RDF.type, SCHEMA.Person))
-            elif str(DBO.Organisation) in type_values:
-                graph.add((subject, RDF.type, SCHEMA.Organization))
-            # Add all types
             for entity_type in types:
-                graph.add((subject, RDF.type, URIRef(entity_type['value'])))
+                type_val = entity_type['value']
+
+                graph.add((subject, RDF.type, URIRef(type_val)))
+
+                if type_val == str(DBO.Person):
+                    graph.add((subject, RDF.type, SCHEMA.Person))
+                elif type_val == str(DBO.Organisation):
+                    graph.add((subject, RDF.type, SCHEMA.Organization))
 
         # label
         add_literal_values(
