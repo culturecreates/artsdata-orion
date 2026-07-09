@@ -37,8 +37,6 @@ jobs:
           
           git add .gitattributes
           
-          git pull --rebase
-          
           git add "output/dbpedia-entities.ttl"
           git commit -m "Added dbpedia-entities generated."
           
