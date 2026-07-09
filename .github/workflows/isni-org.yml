@@ -1,4 +1,4 @@
-name: Fetch Music Brainz Artists
+name: Fetch ISNI Entities
 
 on:
   workflow_dispatch:
@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -19,18 +21,26 @@ jobs:
       - name: Install Requirements
         run: |
           python -m pip install --upgrade pip
-          pip install -r src/music-brainz/requirements.txt
+          pip install -r src/isni/requirements.txt
 
       - name: Fetch data
-        run: python ./src/music-brainz/main.py
+        run: python ./src/isni/main.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git pull
-          git add "output/music-brainz-artists.ttl"
-          git commit -m "Added music-brainz artists generated."
+          
+          git lfs install
+          
+          git lfs track "output/isni-entities.ttl"
+          
+          git add .gitattributes
+          
+          git add "output/isni-entities.ttl"
+          git commit -m "Added isni-entities generated."
+          
+          git commit -m "Added isni-entities generated via LFS."
           git push
 
   artsdata-push:
@@ -41,6 +51,6 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v4
         with:
           mode: "push"
-          artifact: "music-brainz"
+          artifact: "isni-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/music-brainz-artists.ttl"
+          downloadUrl: "https://github.com/${{ github.repository }}/media/${{ github.ref_name }}/output/isni-entities.ttl"
