@@ -215,7 +215,6 @@ def save_graph(graph: Graph, filename: str) -> None:
     logging.info(f"Successfully serialized %d RDF triples to ${OUTPUT_FILE}", len(graph))
 
 
-
 def main() -> None:
     records = {}
 
