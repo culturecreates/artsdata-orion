@@ -34,7 +34,7 @@ QID_PATTERN = re.compile(r"Q\d+$")
 
 SUPPORTED_LANGS = {"en", "fr"}
 
-BATCH_SIZE = 20
+BATCH_SIZE = 100
 
 ARTSDATA_QUERY = """
 PREFIX schema: <http://schema.org/>
