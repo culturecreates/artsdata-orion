@@ -51,7 +51,7 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v4
         with:
           mode: "push"
-          artifact: "dbpedia"
+          artifact: "dbpedia-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           # CRITICAL: raw.githubusercontent.com only returns the LFS pointer (a few bytes).
           # Use the media URL format below to download the actual 200MB+ object file from LFS storage.
