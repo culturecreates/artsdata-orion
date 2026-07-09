@@ -31,15 +31,18 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           
-          # Initialize and pull LFS files on the runner environment
           git lfs install
           
-          git pull
+          git lfs track "output/dbpedia-entities.ttl"
+          
+          git add .gitattributes
+          
+          git pull --rebase
+          
           git add "output/dbpedia-entities.ttl"
           git commit -m "Added dbpedia-entities generated."
           
-          # Git will automatically handle pushing the large payload to LFS storage 
-          # and the tracking pointer file to your core tree
+          git commit -m "Added dbpedia-entities generated via LFS."
           git push
 
   artsdata-push:
