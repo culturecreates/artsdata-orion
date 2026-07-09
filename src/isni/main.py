@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -73,6 +74,7 @@ def fetch_isni_record(session: requests.Session, isni: str) -> Optional[str]:
         "version": "1.1",
         "operation": "searchRetrieve",
         "maximumRecords": 1,
+        "recordSchema": "isni-b"
     }
     headers = {"User-Agent": "ArtsdataBot/1.0"}
 
@@ -207,6 +209,12 @@ def build_rdf(records: Dict[str, Dict[str, Any]]) -> Graph:
 ###############################################################################
 # Execution Execution Flow
 ###############################################################################
+def save_graph(graph: Graph, filename: str) -> None:
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    graph.serialize(OUTPUT_FILE, format="turtle")
+    logging.info(f"Successfully serialized %d RDF triples to ${OUTPUT_FILE}", len(graph))
+
+
 
 def main() -> None:
     records = {}
@@ -237,8 +245,7 @@ def main() -> None:
 
     # Build and export graph data
     graph = build_rdf(records)
-    graph.serialize(OUTPUT_FILE, format="turtle")
-    logging.info(f"Successfully serialized %d RDF triples to ${OUTPUT_FILE}", len(graph))
+    save_graph(graph, OUTPUT_FILE)
 
 
 if __name__ == "__main__":
