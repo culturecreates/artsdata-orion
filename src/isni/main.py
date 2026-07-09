@@ -9,7 +9,7 @@ from typing import Any, Dict, List, Optional, Set
 
 import requests
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import OWL, RDF, RDFS, SKOS
+from rdflib.namespace import RDF, RDFS, SKOS
 
 ###############################################################################
 # Configuration
