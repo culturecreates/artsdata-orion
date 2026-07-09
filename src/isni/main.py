@@ -1,20 +1,23 @@
 from __future__ import annotations
 
 import logging
+import os
 import re
 import time
 import xml.etree.ElementTree as ET
-from typing import Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional, Set
 
 import requests
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import RDF, RDFS, OWL, SKOS
+from rdflib.namespace import RDF, RDFS, SKOS
 
 ###############################################################################
 # Configuration
 ###############################################################################
+OUTPUT_FILE = "output/isni-entities.ttl"
 
 ARTSDATA_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
+ISNI_SRU_ENDPOINT = "https://isni.oclc.org/sru/DB=1.2/"
 
 SPARQL_QUERY = """
 PREFIX schema: <http://schema.org/>
@@ -26,10 +29,8 @@ WHERE {
            schema:sameAs ?isni .
 
     FILTER(STRSTARTS(STR(?isni),"https://isni.org/"))
-} LIMIT 10
+}
 """
-
-ISNI_ENDPOINT = "https://isni.org/isni/{isni}"
 
 SCHEMA = Namespace("http://schema.org/")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
@@ -37,295 +38,213 @@ ISNI = Namespace("https://isni.org/isni/")
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(levelname)s %(message)s",
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 
+
 ###############################################################################
-# Step 1
+# Network Operations
 ###############################################################################
 
-
-def fetch_isnis_from_artsdata() -> List[Dict]:
-    """
-    Execute the SPARQL query against Artsdata.
-    """
-
+def fetch_isnis_from_artsdata(session: requests.Session) -> List[Dict[str, Any]]:
+    """Execute the SPARQL query against Artsdata."""
     logging.info("Fetching ISNIs from Artsdata...")
-
-    response = requests.get(
-        ARTSDATA_ENDPOINT,
-        params={
-            "query": SPARQL_QUERY,
-            "format": "json",
-        },
-        headers={
-            "Accept": "application/sparql-results+json",
-            "User-Agent": "ArtsdataDBpediaBot/1.0 (https://artsdata.ca/;)"
-        },
-        timeout=120,
-    )
-
-    response.raise_for_status()
-
-    data =  response.json()
-    return data["results"]["bindings"]
+    try:
+        response = session.get(
+            ARTSDATA_ENDPOINT,
+            params={"query": SPARQL_QUERY, "format": "json"},
+            headers={
+                "Accept": "application/sparql-results+json",
+                "User-Agent": "ArtsdataDBpediaBot/1.0 (https://artsdata.ca/;)"
+            },
+            timeout=120,
+        )
+        response.raise_for_status()
+        return response.json().get("results", {}).get("bindings", [])
+    except requests.exceptions.RequestException as exc:
+        logging.error("Failed to query Artsdata endpoint: %s", exc)
+        return []
 
 
-###############################################################################
-# Step 2
-###############################################################################
-
-
-def normalise_isni(uri: str) -> Optional[str]:
-    """
-    Extract the ISNI digits.
-
-    https://isni.org/isni/000000012146438X
-    ->
-    000000012146438X
-    """
-
-    match = re.search(r"([0-9X]{16})$", uri)
-
-    if match:
-        return match.group(1)
-
-    return None
-
-
-def extract_unique_isnis(bindings: List[Dict]) -> Set[str]:
-    """
-    Produce a unique set of ISNIs.
-    """
-
-    isnis = set()
-
-    for row in bindings:
-
-        uri = row.get("isni").get("value")
-
-        isni = normalise_isni(uri)
-
-        if isni:
-            isnis.add(isni)
-
-    logging.info("Found %d unique ISNIs", len(isnis))
-
-    return isnis
-
-
-###############################################################################
-# Step 3
-###############################################################################
-
-
-def fetch_isni_record(isni: str) -> Optional[str]:
-    """
-    Download one ISNI record as JSON-LD or RDF/XML.
-
-    Returns the response text.
-    """
-
-    url = ISNI_ENDPOINT.format(isni=isni)
-
-    headers = {
-        "Accept": "application/ld+json, application/rdf+xml;q=0.9",
-        "User-Agent": "ArtsdataDBpediaBot/1.0 (https://artsdata.ca/)"
+def fetch_isni_record(session: requests.Session, isni: str) -> Optional[str]:
+    """Fetch one ISNI record from the OCLC SRU API using an active session."""
+    params = {
+        "query": f'pica.isn = "{isni}"',
+        "version": "1.1",
+        "operation": "searchRetrieve",
+        "maximumRecords": 1,
+        "recordSchema": "isni-b"
     }
+    headers = {"User-Agent": "ArtsdataBot/1.0"}
 
     try:
-        response = requests.get(
-            url,
+        response = session.get(
+            ISNI_SRU_ENDPOINT,
+            params=params,
             headers=headers,
-            timeout=60,
-            allow_redirects=True,
+            timeout=30,
         )
-
         response.raise_for_status()
-
-        logging.info(
-            "Fetched %s (%s)",
-            isni,
-            response.headers.get("Content-Type"),
-        )
-
         return response.text
-
-    except Exception as exc:
-        logging.warning("Failed %s (%s)", isni, exc)
+    except requests.exceptions.RequestException as exc:
+        logging.warning("Failed to retrieve record for ISNI %s: %s", isni, exc)
         return None
 
 
 ###############################################################################
-# XML Parsing
+# Data Parsing & Normalization
 ###############################################################################
 
+def normalise_isni(uri: str) -> Optional[str]:
+    """Extract the 16-character ISNI token from a URI string."""
+    match = re.search(r"([0-9X]{16})$", uri)
+    return match.group(1) if match else None
 
-def text(element):
-    return element.text.strip() if element is not None and element.text else None
+
+def extract_unique_isnis(bindings: List[Dict[str, Any]]) -> Set[str]:
+    """Extract a deduplicated set of normalized ISNIs from bindings."""
+    isnis = set()
+    for row in bindings:
+        uri = row.get("isni", {}).get("value")
+        if uri:
+            isni = normalise_isni(uri)
+            if isni:
+                isnis.add(isni)
+    logging.info("Identified %d unique valid ISNIs", len(isnis))
+    return isnis
 
 
-def parse_isni_xml(xml: str) -> Dict:
-    """
-    Parse useful metadata from the ISNI XML.
+def parse_isni_xml(xml_content: str) -> Dict[str, Any]:
+    """Parse MARC-like XML schemas returned by the OCLC SRU."""
+    root = ET.fromstring(xml_content)
 
-    This parser intentionally extracts only the most useful fields.
-    More fields can easily be added later.
-    """
-
-    ns = {
-        "srw": "http://www.loc.gov/zing/srw/",
-    }
-
-    root = ET.fromstring(xml)
+    # Strip namespace prefixes dynamically for easier internal element selection
+    for elem in root.iter():
+        if "}" in elem.tag:
+            elem.tag = elem.tag.split("}", 1)[1]
 
     data = {
         "name": None,
-        "description": None,
         "alternate_names": [],
-        "occupations": [],
-        "countries": [],
+        "same_as": [],
+        "type": "Organization",
     }
 
-    #
-    # The SRU response contains MARC XML.
-    # Rather than depending on every MARC field,
-    # simply iterate through all values.
-    #
+    # Determine Entity Type (Person vs Organization)
+    type_field = root.find(".//datafield[@tag='002@']/subfield[@code='0']")
+    if type_field is not None and type_field.text:
+        code = type_field.text.lower()
+        if len(code) >= 2 and code[1] == "p":
+            data["type"] = "Person"
 
-    for elem in root.iter():
+    # Preferred Name Resolution
+    for tag in ["028C", "028@", "029C", "029A"]:
+        df = root.find(f".//datafield[@tag='{tag}']")
+        if df is not None:
+            a = df.find("./subfield[@code='a']")
+            d = df.find("./subfield[@code='d']")
 
-        value = text(elem)
+            if d is not None and d.text and a is not None and a.text:
+                data["name"] = f"{d.text.strip()} {a.text.strip()}"
+                break
+            elif a is not None and a.text:
+                data["name"] = a.text.strip()
+                break
 
-        if not value:
-            continue
+    # Alternate Names Collection
+    for tag in ["028A", "028Z", "029Z", "033A"]:
+        for df in root.findall(f".//datafield[@tag='{tag}']"):
+            a = df.find("./subfield[@code='a']")
+            if a is not None and a.text:
+                val = a.text.strip()
+                if val != data["name"]:
+                    data["alternate_names"].append(val)
 
-        tag = elem.tag.lower()
+    # External Identifiers (SameAs targets)
+    for field in root.findall(".//datafield[@tag='810']/subfield"):
+        if field.text and field.text.strip().startswith("http"):
+            data["same_as"].append(field.text.strip())
 
-        if data["name"] is None and "name" in tag:
-            data["name"] = value
-
-        if "occupation" in tag:
-            data["occupations"].append(value)
-
-        if "country" in tag:
-            data["countries"].append(value)
-
-        if "description" in tag:
-            data["description"] = value
+    # Final cleanup & structural sorting
+    data["alternate_names"] = sorted(set(data["alternate_names"]))
+    data["same_as"] = sorted(set(data["same_as"]))
 
     return data
 
 
 ###############################################################################
-# Step 4
+# Graph Compilation
 ###############################################################################
 
-
-def build_rdf(records: Dict[str, Dict]) -> Graph:
-    """
-    Transform ISNI records into RDF.
-    """
-
+def build_rdf(records: Dict[str, Dict[str, Any]]) -> Graph:
+    """Transform structured ISNI records into an rdflib Graph object."""
     graph = Graph()
-
     graph.bind("schema", SCHEMA)
     graph.bind("dcterms", DCTERMS)
     graph.bind("skos", SKOS)
 
     for isni, record in records.items():
+        subject = ISNI[isni]  # Generates URIRef cleanly via __getitem__
 
-        subject = URIRef(ISNI + isni)
+        # Assert Type
+        rdf_type = SCHEMA.Person if record["type"] == "Person" else SCHEMA.Organization
+        graph.add((subject, RDF.type, rdf_type))
 
-        graph.add((subject, RDF.type, SCHEMA.Person))
-
-        graph.add((subject, OWL.sameAs, subject))
-
+        # Assert Primary Label
         if record["name"]:
-            graph.add(
-                (
-                    subject,
-                    RDFS.label,
-                    Literal(record["name"]),
-                )
-            )
+            graph.add((subject, RDFS.label, Literal(record["name"])))
 
-        if record["description"]:
-            graph.add(
-                (
-                    subject,
-                    DCTERMS.description,
-                    Literal(record["description"]),
-                )
-            )
+        # Assert Alternate Identifiers
+        for uri in record["same_as"]:
+            graph.add((subject, SCHEMA.sameAs, URIRef(uri)))
 
-        for occupation in record["occupations"]:
-            graph.add(
-                (
-                    subject,
-                    SCHEMA.hasOccupation,
-                    Literal(occupation),
-                )
-            )
-
-        for country in record["countries"]:
-            graph.add(
-                (
-                    subject,
-                    SCHEMA.homeLocation,
-                    Literal(country),
-                )
-            )
-
+        # Assert Alternate Labels
         for alt in record["alternate_names"]:
-            graph.add(
-                (
-                    subject,
-                    SKOS.altLabel,
-                    Literal(alt),
-                )
-            )
+            graph.add((subject, SCHEMA.alternateName, Literal(alt)))
 
     return graph
 
 
 ###############################################################################
-# Main
+# Execution Execution Flow
 ###############################################################################
+def save_graph(graph: Graph, filename: str) -> None:
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    graph.serialize(OUTPUT_FILE, format="turtle")
+    logging.info(f"Successfully serialized %d RDF triples to ${OUTPUT_FILE}", len(graph))
 
 
-def main():
-
-    bindings = fetch_isnis_from_artsdata()
-
-    isnis = extract_unique_isnis(bindings)
-
+def main() -> None:
     records = {}
 
-    for index, isni in enumerate(sorted(isnis), start=1):
+    # Using a requests connection session pool to reuse TCP connections
+    with requests.Session() as session:
+        bindings = fetch_isnis_from_artsdata(session)
+        if not bindings:
+            logging.error("No data fetched from Artsdata. Exiting.")
+            return
 
-        logging.info("[%d/%d] %s", index, len(isnis), isni)
+        isnis = extract_unique_isnis(bindings)
 
-        xml = fetch_isni_record(isni)
+        for index, isni in enumerate(sorted(isnis), start=1):
+            logging.info("[%d/%d] Processing ISNI: %s", index, len(isnis), isni)
 
-        if not xml:
-            continue
+            xml = fetch_isni_record(session, isni)
+            if not xml:
+                continue
 
-        try:
+            try:
+                records[isni] = parse_isni_xml(xml)
+            except Exception as exc:
+                logging.error("Failed parsing record XML for %s: %s", isni, exc)
 
-            records[isni] = parse_isni_xml(xml)
+            # Politeness delay between batch records
+            time.sleep(0.2)
 
-        except Exception as exc:
-
-            logging.warning("%s : %s", isni, exc)
-
-        time.sleep(0.2)
-
+    # Build and export graph data
     graph = build_rdf(records)
-
-    graph.serialize("isni.ttl", format="turtle")
-
-    logging.info("Generated %d RDF triples", len(graph))
+    save_graph(graph, OUTPUT_FILE)
 
 
 if __name__ == "__main__":
