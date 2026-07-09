@@ -13,6 +13,7 @@ from rdflib.namespace import OWL, RDF, RDFS, SKOS
 ###############################################################################
 # Configuration
 ###############################################################################
+OUTPUT_FILE = "output/isni-entities.ttl"
 
 ARTSDATA_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
 ISNI_SRU_ENDPOINT = "https://isni.oclc.org/sru/DB=1.2/"
@@ -27,7 +28,7 @@ WHERE {
            schema:sameAs ?isni .
 
     FILTER(STRSTARTS(STR(?isni),"https://isni.org/"))
-} LIMIT 10
+}
 """
 
 SCHEMA = Namespace("http://schema.org/")
@@ -236,8 +237,8 @@ def main() -> None:
 
     # Build and export graph data
     graph = build_rdf(records)
-    graph.serialize("isni-main.ttl", format="turtle")
-    logging.info("Successfully serialized %d RDF triples to isni-main.ttl", len(graph))
+    graph.serialize(OUTPUT_FILE, format="turtle")
+    logging.info(f"Successfully serialized %d RDF triples to ${OUTPUT_FILE}", len(graph))
 
 
 if __name__ == "__main__":
