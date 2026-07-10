@@ -10,7 +10,7 @@ Steps:
 5. Serialize RDF graph into Turtle.
 
 """
-
+import logging
 import time
 from typing import Dict, List, Optional
 from urllib.parse import urlparse
@@ -61,6 +61,8 @@ GENDER_MAP = {
     "Male": URIRef("http://schema.org/Male"),
     "Female": URIRef("http://schema.org/Female"),
 }
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 
 
 # ------------------------------------------------------------------------------
@@ -166,7 +168,8 @@ class MusicBrainzRDFBuilder:
             return response.json()
 
         except Exception as ex:
-            print(f"Error retrieving {artist_id}: {ex}")
+            logging.error(f"Error retrieving {artist_id}: {ex}")
+
             return None
 
     # --------------------------------------------------------------------------
@@ -187,7 +190,7 @@ class MusicBrainzRDFBuilder:
         if artist_type is None:
             if type_id and type_id not in self.unknown_artist_types:
                 self.unknown_artist_types.add(type_id)
-                print(
+                logging.warning(
                     f"Unknown MusicBrainz type-id: {type_id} "
                     f"(type='{artist.get('type')}', artist='{artist.get('name')}')"
                 )
@@ -244,7 +247,7 @@ class MusicBrainzRDFBuilder:
 
         urls = self.fetch_musicbrainz_urls()
 
-        print(f"Found {len(urls)} MusicBrainz artists")
+        logging.info(f"Found {len(urls)} MusicBrainz artists")
 
         for index, url in enumerate(urls, start=1):
 
@@ -253,9 +256,7 @@ class MusicBrainzRDFBuilder:
             if not artist_id:
                 continue
 
-            print(
-                f"[{index}/{len(urls)}] Fetching {artist_id}"
-            )
+            logging.info(f"[{index}/{len(urls)}] Fetching {artist_id}")
 
             artist = self.fetch_artist(artist_id)
 
@@ -264,7 +265,7 @@ class MusicBrainzRDFBuilder:
 
         self.save(OUTPUT_FILE)
 
-        print(f"Graph written to {OUTPUT_FILE}")
+        logging.info(f"Graph written to {OUTPUT_FILE}")
 
 
 # ------------------------------------------------------------------------------

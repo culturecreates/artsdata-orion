@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import re
+import logging
 import time
 import urllib.parse
 from dataclasses import dataclass
@@ -52,6 +53,8 @@ WHERE {
 }
 """
 
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+
 
 # ---------------------------------------------------------------------------
 # Data classes
@@ -84,7 +87,7 @@ def execute_sparql(endpoint: str, query: str, retries=3):
             return response.json()
 
         except requests.RequestException as e:
-            print(f"Attempt {attempt + 1} failed: {e}")
+            logging.error(f"Attempt {attempt + 1} failed: {e}")
 
             if attempt < retries - 1:
                 time.sleep(2 ** attempt)
@@ -97,7 +100,7 @@ def execute_sparql(endpoint: str, query: str, retries=3):
 # ---------------------------------------------------------------------------
 
 def fetch_artsdata_entities() -> List[ArtsdataEntity]:
-    print("Fetching Artsdata entities...")
+    logging.info("Fetching Artsdata entities...")
 
     results = execute_sparql(ARTSDATA_ENDPOINT, ARTSDATA_QUERY)
 
@@ -114,7 +117,7 @@ def fetch_artsdata_entities() -> List[ArtsdataEntity]:
 
         entities.append(ArtsdataEntity(wikidata_uri=wikidata_uri, qid=match.group()))
 
-    print(f"Found {len(entities)} entities")
+    logging.info(f"Found {len(entities)} entities")
 
     return entities
 
@@ -149,7 +152,7 @@ BIND(URI(CONCAT("http://dbpedia.org/resource/", ?wikiTitle)) AS ?dbpediaUri)
 
 
 def resolve_dbpedia_uris(entities: List[ArtsdataEntity]) -> Dict[str, str]:
-    print("Resolving DBpedia URIs...")
+    logging.info("Resolving DBpedia URIs...")
 
     mapping = {}
 
@@ -159,7 +162,7 @@ def resolve_dbpedia_uris(entities: List[ArtsdataEntity]) -> Dict[str, str]:
 
         batch = qids[start:start + BATCH_SIZE]
 
-        print(f"Processing batch {start}-{start + len(batch)}")
+        logging.info(f"Processing batch {start}-{start + len(batch)}")
 
         results = execute_sparql(
             WIKIDATA_ENDPOINT,
@@ -167,7 +170,7 @@ def resolve_dbpedia_uris(entities: List[ArtsdataEntity]) -> Dict[str, str]:
         )
 
         if results is None:
-            print(f"Skipping batch {start}-{start + len(batch)}")
+            logging.warning(f"Skipping batch {start}-{start + len(batch)}")
             continue
 
         for row in results["results"]["bindings"]:
@@ -177,7 +180,7 @@ def resolve_dbpedia_uris(entities: List[ArtsdataEntity]) -> Dict[str, str]:
 
         time.sleep(1)
 
-    print(f"Resolved {len(mapping)} DBpedia resources")
+    logging.error(f"Resolved {len(mapping)} DBpedia resources")
 
     return mapping
 
@@ -257,7 +260,7 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
         current_item = data.get(dbpedia_uri, {})
 
         if len(current_item) == 0:
-            print(f"DBpedia URI {dbpedia_uri} has no item")
+            logging.error(f"DBpedia URI {dbpedia_uri} has no item")
             continue
 
         types = current_item.get(str(RDF.type), [])
@@ -348,8 +351,7 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
 def save_graph(graph: Graph, filename: str) -> None:
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     graph.serialize(filename, format="turtle")
-
-    print(f"Generated {filename}")
+    logging.info("Successfully serialized %d RDF triples to %s", len(graph), filename)
 
 
 # ---------------------------------------------------------------------------
