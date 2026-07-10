@@ -53,6 +53,14 @@ WHERE {
 }
 """
 
+ALLOWED_SAMEAS_DOMAINS = {
+    "dbpedia.org",
+    "wikidata.org",
+    "www.wikidata.org",
+    "musicbrainz.org",
+    "www.musicbrainz.org",
+}
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 
 
@@ -207,11 +215,19 @@ def fetch_dbpedia_json(dbpedia_uri: str) -> Optional[dict]:
 # RDF
 # ---------------------------------------------------------------------------
 
-def add_uri_values(graph, subject, predicate, values):
+def add_uri_values(graph, subject, predicate, values, allowed_domains=None):
     for item in values:
         value = item.get("value")
-        if value:
-            graph.add((subject, predicate, URIRef(value)))
+        if not value:
+            continue
+
+        if allowed_domains:
+            domain = urllib.urlparse(value).netloc.lower()
+
+            if domain not in allowed_domains:
+                continue
+
+        graph.add((subject, predicate, URIRef(value)))
 
 
 def add_literal_values(graph, subject, predicate, values, languages=None):
@@ -233,8 +249,7 @@ def add_literal_values(graph, subject, predicate, values, languages=None):
             seen_languages.add(lang)
         else:
             graph.add((subject, predicate, Literal(value)))
-            # If you also want to limit non-language/default literals to just one:
-            # seen_languages.add(None)
+
 
 
 def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str], ) -> Graph:
@@ -276,58 +291,30 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
                     graph.add((subject, RDF.type, SCHEMA.Organization))
 
         # label
-        add_literal_values(
-            graph,
-            subject,
-            SCHEMA.name,
-            current_item.get(str(RDFS.label), []),
-            languages={"en", "fr"},
-        )
+        add_literal_values(graph, subject, SCHEMA.name, current_item.get(str(RDFS.label), []),
+                           languages={"en", "fr"})
 
         # description
-        add_literal_values(
-            graph,
-            subject,
-            SCHEMA.disambiguatingDescription,
-            current_item.get(str(DBO.description), []),
-            languages={"en", "fr"},
-        )
+        add_literal_values(graph, subject, SCHEMA.disambiguatingDescription,
+                           current_item.get(str(DBO.description), []), languages={"en", "fr"})
 
         # sameAs
-        add_uri_values(
-            graph,
-            subject,
-            SCHEMA.sameAs,
-            current_item.get(str(OWL.sameAs), []),
-        )
+        # sameAs
+        add_uri_values(graph, subject, SCHEMA.sameAs, current_item.get(str(OWL.sameAs), []),
+                       allowed_domains=ALLOWED_SAMEAS_DOMAINS)
 
         birth_date = current_item.get(str(DBO.birthDate), [])
         if len(birth_date) > 0:
             graph.add((subject, SCHEMA.birthDate, Literal(birth_date[0].get("value"), datatype=XSD.date)))
 
         # External Link
-        add_uri_values(
-            graph,
-            subject,
-            SCHEMA.url,
-            current_item.get(str(DBO.wikiPageExternalLink), []),
-        )
+        add_uri_values(graph, subject, SCHEMA.url, current_item.get(str(DBO.wikiPageExternalLink), []))
 
         # homepage
-        add_uri_values(
-            graph,
-            subject,
-            SCHEMA.url,
-            current_item.get(str(DBP.homepage), []),
-        )
+        add_uri_values(graph, subject, SCHEMA.url, current_item.get(str(DBP.homepage), []))
 
         # thumbnail
-        add_uri_values(
-            graph,
-            subject,
-            SCHEMA.image,
-            current_item.get(str(DBO.thumbnail), []),
-        )
+        add_uri_values(graph, subject, SCHEMA.image, current_item.get(str(DBO.thumbnail), []), )
 
         # occupation
         for occupation in current_item.get(str(DBP.occupation), []):
