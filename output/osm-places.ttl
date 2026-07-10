@@ -1,0 +1,14 @@
+@prefix schema1: <http://schema.org/> .
+
+<https://www.openstreetmap.org/relation/6769649> a schema1:Place ;
+    schema1:address <https://www.openstreetmap.org/relation/6769649/address> ;
+    schema1:name "Chan Centre for the Performing Arts" ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q4231899> ;
+    schema1:url "https://chancentre.com/" .
+
+<https://www.openstreetmap.org/relation/6769649/address> a schema1:PostalAddress ;
+    schema1:addressLocality "Vancouver" ;
+    schema1:addressRegion "BC" ;
+    schema1:postalCode "V6T 1Z1" ;
+    schema1:streetAddress "6265 Crescent Road" .
+
