@@ -30,7 +30,7 @@ WHERE {
            schema:sameAs ?isni .
 
     FILTER(STRSTARTS(STR(?isni),"https://isni.org/"))
-} LIMIT 50
+}
 """
 
 SCHEMA = Namespace("http://schema.org/")
@@ -135,12 +135,11 @@ def parse_isni_xml(xml_content: str) -> Dict[str, Any]:
             data["type"] = "Person"
 
     # Process Primary/Preferred Name Tags
-    # The first valid name found becomes data["name"], others become alternate_names
     primary_tags = ["028C", "028@", "029C", "029A"]
 
     for tag in primary_tags:
-        df = root.find(f".//datafield[@tag='{tag}']")
-        if df is not None:
+        # CHANGED: Use findall to iterate through ALL matching datafields, not just the first one
+        for df in root.findall(f".//datafield[@tag='{tag}']"):
             a = df.find("./subfield[@code='a']")
             d = df.find("./subfield[@code='d']")
 
@@ -152,10 +151,10 @@ def parse_isni_xml(xml_content: str) -> Dict[str, Any]:
 
             if resolved_name:
                 if data["name"] is None:
-                    # Capture only the very first name found
+                    # Capture only the very first name found across all fields
                     data["name"] = resolved_name
                 elif resolved_name != data["name"]:
-                    # Push the rest of the primary names into alternate_names
+                    # All other distinct names are now safely appended
                     data["alternate_names"].append(resolved_name)
 
     # Final cleanup & structural sorting
