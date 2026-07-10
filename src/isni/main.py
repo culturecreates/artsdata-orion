@@ -182,13 +182,15 @@ def build_rdf(records: Dict[str, Dict[str, Any]]) -> Graph:
     for isni, record in records.items():
         subject = ISNI[isni]  # Generates URIRef cleanly via __getitem__
 
-        # Assert Type
-        rdf_type = SCHEMA.Person if record["type"] == "Person" else SCHEMA.Organization
-        graph.add((subject, RDF.type, rdf_type))
-
         # Assert Primary Label
         if record["name"]:
-            graph.add((subject, RDFS.label, Literal(record["name"])))
+            # Assert Type
+            rdf_type = SCHEMA.Person if record["type"] == "Person" else SCHEMA.Organization
+            graph.add((subject, RDF.type, rdf_type))
+
+            graph.add((subject, SCHEMA.name, Literal(record["name"])))
+        else:
+            continue
 
         # Assert Alternate Identifiers
         for uri in record["same_as"]:
