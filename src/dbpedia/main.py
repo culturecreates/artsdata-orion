@@ -4,7 +4,7 @@ import os
 import re
 import logging
 import time
-import urllib.parse
+from urllib.parse import unquote, urlparse
 from dataclasses import dataclass
 from typing import Dict, List, Optional
 
@@ -222,7 +222,7 @@ def add_uri_values(graph, subject, predicate, values, allowed_domains=None):
             continue
 
         if allowed_domains:
-            domain = urllib.urlparse(value).netloc.lower()
+            domain = urlparse(value).netloc.lower()
 
             if domain not in allowed_domains:
                 continue
@@ -259,9 +259,7 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
 
     for entity in entities:
 
-        dbpedia_uri = urllib.parse.unquote(
-            dbpedia_mapping.get(entity.qid, "")
-        )
+        dbpedia_uri = unquote(dbpedia_mapping.get(entity.qid, ""))
 
         if not dbpedia_uri:
             continue
