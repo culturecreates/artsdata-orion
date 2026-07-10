@@ -30,7 +30,7 @@ WHERE {
            schema:sameAs ?isni .
 
     FILTER(STRSTARTS(STR(?isni),"https://isni.org/"))
-}
+} LIMIT 50
 """
 
 SCHEMA = Namespace("http://schema.org/")
@@ -124,7 +124,6 @@ def parse_isni_xml(xml_content: str) -> Dict[str, Any]:
     data = {
         "name": None,
         "alternate_names": [],
-        "same_as": [],
         "type": "Organization",
     }
 
@@ -135,37 +134,32 @@ def parse_isni_xml(xml_content: str) -> Dict[str, Any]:
         if len(code) >= 2 and code[1] == "p":
             data["type"] = "Person"
 
-    # Preferred Name Resolution
-    for tag in ["028C", "028@", "029C", "029A"]:
+    # Process Primary/Preferred Name Tags
+    # The first valid name found becomes data["name"], others become alternate_names
+    primary_tags = ["028C", "028@", "029C", "029A"]
+
+    for tag in primary_tags:
         df = root.find(f".//datafield[@tag='{tag}']")
         if df is not None:
             a = df.find("./subfield[@code='a']")
             d = df.find("./subfield[@code='d']")
 
+            resolved_name = None
             if d is not None and d.text and a is not None and a.text:
-                data["name"] = f"{d.text.strip()} {a.text.strip()}"
-                break
+                resolved_name = f"{d.text.strip()} {a.text.strip()}"
             elif a is not None and a.text:
-                data["name"] = a.text.strip()
-                break
+                resolved_name = a.text.strip()
 
-    # Alternate Names Collection
-    for tag in ["028A", "028Z", "029Z", "033A"]:
-        for df in root.findall(f".//datafield[@tag='{tag}']"):
-            a = df.find("./subfield[@code='a']")
-            if a is not None and a.text:
-                val = a.text.strip()
-                if val != data["name"]:
-                    data["alternate_names"].append(val)
-
-    # External Identifiers (SameAs targets)
-    for field in root.findall(".//datafield[@tag='810']/subfield"):
-        if field.text and field.text.strip().startswith("http"):
-            data["same_as"].append(field.text.strip())
+            if resolved_name:
+                if data["name"] is None:
+                    # Capture only the very first name found
+                    data["name"] = resolved_name
+                elif resolved_name != data["name"]:
+                    # Push the rest of the primary names into alternate_names
+                    data["alternate_names"].append(resolved_name)
 
     # Final cleanup & structural sorting
     data["alternate_names"] = sorted(set(data["alternate_names"]))
-    data["same_as"] = sorted(set(data["same_as"]))
 
     return data
 
@@ -191,10 +185,6 @@ def build_rdf(records: Dict[str, Dict[str, Any]]) -> Graph:
             graph.add((subject, SCHEMA.name, Literal(record["name"])))
         else:
             continue
-
-        # Assert Alternate Identifiers
-        for uri in record["same_as"]:
-            graph.add((subject, SCHEMA.sameAs, URIRef(uri)))
 
         # Assert Alternate Labels
         for alt in record["alternate_names"]:
