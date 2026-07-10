@@ -170,7 +170,7 @@ def resolve_dbpedia_uris(entities: List[ArtsdataEntity]) -> Dict[str, str]:
         )
 
         if results is None:
-            logging.error(f"Skipping batch {start}-{start + len(batch)}")
+            logging.warning(f"Skipping batch {start}-{start + len(batch)}")
             continue
 
         for row in results["results"]["bindings"]:
