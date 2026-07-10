@@ -21,7 +21,7 @@ WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
 
 HEADERS = {
     "Accept": "application/sparql-results+json",
-    "User-Agent": "Artsdata DBpedia Enrichment/1.0",
+    "User-Agent": "ArtsdataBot/1.0",
 }
 
 SCHEMA = Namespace("http://schema.org/")
@@ -249,7 +249,6 @@ def add_literal_values(graph, subject, predicate, values, languages=None):
             seen_languages.add(lang)
         else:
             graph.add((subject, predicate, Literal(value)))
-
 
 
 def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str], ) -> Graph:

@@ -29,9 +29,7 @@ GRAPHDB_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
 
 OUTPUT_FILE = "output/music-brainz-artists.ttl"
 
-USER_AGENT = (
-    "ArtsData-MusicBrainz-Harvester/1.0"
-)
+USER_AGENT = ("ArtsdataBot/1.0")
 
 REQUEST_DELAY_SECONDS = 1.1
 
