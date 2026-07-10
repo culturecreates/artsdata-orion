@@ -9,15 +9,16 @@ from typing import Any, Dict, List, Optional, Set
 
 import requests
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import RDF, RDFS, SKOS
+from rdflib.namespace import RDF, RDFS
 
 ###############################################################################
 # Configuration
 ###############################################################################
-OUTPUT_FILE = "output/isni-entities.ttl"
 
 ARTSDATA_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
 ISNI_SRU_ENDPOINT = "https://isni.oclc.org/sru/DB=1.2/"
+
+OUTPUT_FILE = "output/isni-entities.ttl"
 
 SPARQL_QUERY = """
 PREFIX schema: <http://schema.org/>
@@ -36,11 +37,7 @@ SCHEMA = Namespace("http://schema.org/")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 ISNI = Namespace("https://isni.org/isni/")
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 
 
 ###############################################################################
@@ -74,22 +71,22 @@ def fetch_isni_record(session: requests.Session, isni: str) -> Optional[str]:
         "version": "1.1",
         "operation": "searchRetrieve",
         "maximumRecords": 1,
-        "recordSchema": "isni-b"
     }
     headers = {"User-Agent": "ArtsdataBot/1.0"}
 
     try:
-        response = session.get(
-            ISNI_SRU_ENDPOINT,
-            params=params,
-            headers=headers,
-            timeout=30,
-        )
+        response = session.get(ISNI_SRU_ENDPOINT, params=params, headers=headers, timeout=30)
         response.raise_for_status()
         return response.text
     except requests.exceptions.RequestException as exc:
         logging.warning("Failed to retrieve record for ISNI %s: %s", isni, exc)
         return None
+
+
+def save_graph(graph: Graph, filename: str) -> None:
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    graph.serialize(filename, format="turtle")
+    logging.info("Successfully serialized %d RDF triples to %s", len(graph), filename)
 
 
 ###############################################################################
@@ -181,8 +178,6 @@ def build_rdf(records: Dict[str, Dict[str, Any]]) -> Graph:
     """Transform structured ISNI records into an rdflib Graph object."""
     graph = Graph()
     graph.bind("schema", SCHEMA)
-    graph.bind("dcterms", DCTERMS)
-    graph.bind("skos", SKOS)
 
     for isni, record in records.items():
         subject = ISNI[isni]  # Generates URIRef cleanly via __getitem__
@@ -209,11 +204,6 @@ def build_rdf(records: Dict[str, Dict[str, Any]]) -> Graph:
 ###############################################################################
 # Execution Execution Flow
 ###############################################################################
-def save_graph(graph: Graph, filename: str) -> None:
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
-    graph.serialize(OUTPUT_FILE, format="turtle")
-    logging.info(f"Successfully serialized %d RDF triples to ${OUTPUT_FILE}", len(graph))
-
 
 def main() -> None:
     records = {}

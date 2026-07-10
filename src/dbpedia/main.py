@@ -267,11 +267,9 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
             for entity_type in types:
                 type_val = entity_type['value']
 
-                graph.add((subject, RDF.type, URIRef(type_val)))
-
                 if type_val == str(DBO.Person):
                     graph.add((subject, RDF.type, SCHEMA.Person))
-                elif type_val == str(DBO.Organisation):
+                else:
                     graph.add((subject, RDF.type, SCHEMA.Organization))
 
         # label
