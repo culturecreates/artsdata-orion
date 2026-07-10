@@ -1,41 +1,38 @@
 import logging
 import requests
+import os
 from rdflib import Graph, Literal, Namespace, URIRef, BNode
 from rdflib.namespace import RDF, XSD
 from SPARQLWrapper import JSON, POST, SPARQLWrapper
 
 # Configure logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Namespaces
 SCHEMA = Namespace("http://schema.org/")
-WIKIDATA_PROC = Namespace("http://www.wikidata.org/prop/direct/")
-
 # Endpoints
 ARTSDATA_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
 
 WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
 OSM_API_URL = "https://api.openstreetmap.org/api/0.6/relation/{}.json"
 
-USER_AGENT = "ArtsdataOSMBridgeVerifier/1.0 (your_email@example.com)"
+USER_AGENT = "ArtsdataBot/1.0"
+
+OUTPUT_FILE = "output/osm-places.ttl"
+
 ARTSDATA_SPARQL = query = """
     PREFIX schema: <http://schema.org/>
-SELECT DISTINCT ?place ?wikidata_uri ?postalCode WHERE {
+    SELECT DISTINCT ?place ?wikidata_uri ?postalCode WHERE {
     ?place a schema:Place ;
     schema:sameAs ?wikidata_uri .
     FILTER(STRSTARTS(STR(?wikidata_uri), "http://www.wikidata.org/") ||
         STRSTARTS(STR(?wikidata_uri), "https://www.wikidata.org/"))
-    # Optional address fetching for verification later
-    OPTIONAL {
-        ?place schema:address ?address .
-        OPTIONAL {
-            ?address schema:postalCode ?postalCode .
-        }
-    }
+    
+    #  postal code fetching for verification later
+    ?place schema:address ?address .
+    ?address schema:postalCode ?postalCode .
 }
-    """
+"""
 
 
 def query_artsdata():
@@ -53,9 +50,6 @@ def query_artsdata():
                 "artsdata_uri": result["place"]["value"],
                 "wikidata_uri": result["wikidata_uri"]["value"],
                 "address": {
-                    "street": result.get("street", {}).get("value", ""),
-                    "locality": result.get("locality", {}).get("value", ""),
-                    "region": result.get("region", {}).get("value", ""),
                     "postalCode": result.get("postalCode", {}).get("value", ""),
                 },
             }
@@ -91,7 +85,7 @@ def batch_query_wikidata(wikidata_uris, chunk_size=40):
         PREFIX wdt: <http://www.wikidata.org/prop/direct/>
         SELECT ?wd_entity ?osm_relation_id WHERE {{
             VALUES ?wd_entity {{ {wd_entities} }}
-            ?wd_entity wdt:P402 ?osm_relation_id .
+            ?wd_entity wdt:P402 ?osm_relation_id . #P402 OpenStreetMap relation ID
         }}
         """
         sparql.setQuery(query)
@@ -155,6 +149,12 @@ def verify_address(artsdata_addr, osm_tags):
         return False
 
 
+def save_graph(graph: Graph, filename: str) -> None:
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    graph.serialize(filename, format="turtle")
+    logging.info("Successfully serialized %d RDF triples to %s", len(graph), filename)
+
+
 def main():
     # 1. Fetch from Artsdata
     artsdata_places = query_artsdata()
@@ -168,9 +168,9 @@ def main():
     wd_to_osm_map = batch_query_wikidata(wd_uris)
 
     # Initialize Output Graph
-    output_graph = Graph()
+    graph = Graph()
     # Explicitly bind "schema" to match your expected output prefix
-    output_graph.bind("schema", SCHEMA)
+    graph.bind("schema", SCHEMA)
 
     # Process entities
     for place in artsdata_places:
@@ -187,36 +187,34 @@ def main():
 
         tags = osm_element.get("tags", {})
 
-        # 5. Verify Artsdata Postal Address against OSM Address
+        # 5. Verify Artsdata Postal Code against OSM Postal Code
         if not verify_address(place["address"], tags):
-            logging.info(f"Address verification failed for {place['artsdata_uri']} (osm_id: {osm_id}). Skipping.")
+            logging.info(f"Postal Code verification failed for {place['artsdata_uri']} (osm_id: {osm_id}). Skipping.")
             continue
 
         # 6. Generate RDF (Using OSM Relation as the Primary Subject)
         osm_uri = URIRef(f"https://www.openstreetmap.org/relation/{osm_id}")
 
         # Define schema:Place type
-        output_graph.add((osm_uri, RDF.type, SCHEMA.Place))
+        graph.add((osm_uri, RDF.type, SCHEMA.Place))
 
         # schema:name from OSM
         name = tags.get("name") or tags.get("official_name")
         if name:
-            output_graph.add((osm_uri, SCHEMA.name, Literal(name)))
+            graph.add((osm_uri, SCHEMA.name, Literal(name)))
 
         # schema:sameAs -> Wikidata URI
-        output_graph.add((osm_uri, SCHEMA.sameAs, URIRef(wd_uri)))
+        graph.add((osm_uri, SCHEMA.sameAs, URIRef(wd_uri)))
 
         # schema:url -> OSM website tag
         website = tags.get("website") or tags.get("url")
         if website:
-            output_graph.add((osm_uri, SCHEMA.url, Literal(website)))
+            graph.add((osm_uri, SCHEMA.url, Literal(website)))
 
         # schema:disambiguatingDescription (Optional description tag from OSM)
         description = tags.get("description") or tags.get("note")
         if description:
-            output_graph.add(
-                (osm_uri, SCHEMA.disambiguatingDescription, Literal(description))
-            )
+            graph.add((osm_uri, SCHEMA.disambiguatingDescription, Literal(description)))
 
         # schema:geo handling using a Blank Node [ schema:lat ... ; schema:long ... ]
         # Note: Standard schema.org uses schema:longitude, but matching your example key 'schema:long'
@@ -228,37 +226,36 @@ def main():
 
         if lat and lon:
             geo_node = BNode()  # Blank node for structural pairing
-            output_graph.add((osm_uri, SCHEMA.geo, geo_node))
-            output_graph.add((geo_node, SCHEMA.latitude, Literal(lat, datatype=XSD.float)))
-            output_graph.add((geo_node, SCHEMA_LONG, Literal(lon, datatype=XSD.float)))
+            graph.add((osm_uri, SCHEMA.geo, geo_node))
+            graph.add((geo_node, SCHEMA.latitude, Literal(lat, datatype=XSD.float)))
+            graph.add((geo_node, SCHEMA_LONG, Literal(lon, datatype=XSD.float)))
 
         # schema:address -> Minted from OSM URI subpath
         if tags.get("addr:street") or tags.get("addr:postcode") or tags.get("addr:city"):
             address_uri = URIRef(f"https://www.openstreetmap.org/relation/{osm_id}/address")
-            output_graph.add((osm_uri, SCHEMA.address, address_uri))
-            output_graph.add((address_uri, RDF.type, SCHEMA.PostalAddress))
+            graph.add((osm_uri, SCHEMA.address, address_uri))
+            graph.add((address_uri, RDF.type, SCHEMA.PostalAddress))
 
             if tags.get("addr:city"):
-                output_graph.add((address_uri, SCHEMA.addressLocality, Literal(tags.get("addr:city"))))
+                graph.add((address_uri, SCHEMA.addressLocality, Literal(tags.get("addr:city"))))
 
             # Map province/state to Region
             region = tags.get("addr:province") or tags.get("addr:state") or tags.get("addr:region")
             if region:
-                output_graph.add((address_uri, SCHEMA.addressRegion, Literal(region)))
+                graph.add((address_uri, SCHEMA.addressRegion, Literal(region)))
 
             if tags.get("addr:postcode"):
-                output_graph.add((address_uri, SCHEMA.postalCode, Literal(tags.get("addr:postcode"))))
+                graph.add((address_uri, SCHEMA.postalCode, Literal(tags.get("addr:postcode"))))
 
             if tags.get("addr:street"):
                 # Combine housenumber and street name if both exist
                 housenumber = tags.get("addr:housenumber", "").strip()
                 street_name = tags.get("addr:street", "").strip()
                 street_full = f"{housenumber} {street_name}".strip()
-                output_graph.add((address_uri, SCHEMA.streetAddress, Literal(street_full)))
+                graph.add((address_uri, SCHEMA.streetAddress, Literal(street_full)))
 
     # Output final Turtle format
-    print("\n--- Generated RDF Graph (Turtle) ---")
-    print(output_graph.serialize("osm.ttl", format="turtle"))
+    save_graph(graph, OUTPUT_FILE)
 
 
 if __name__ == "__main__":
