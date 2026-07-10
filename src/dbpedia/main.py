@@ -95,7 +95,7 @@ def execute_sparql(endpoint: str, query: str, retries=3):
             return response.json()
 
         except requests.RequestException as e:
-            logging.error(f"Attempt {attempt + 1} failed: {e}")
+            logging.warning(f"Attempt {attempt + 1} failed: {e}")
 
             if attempt < retries - 1:
                 time.sleep(2 ** attempt)
@@ -188,7 +188,7 @@ def resolve_dbpedia_uris(entities: List[ArtsdataEntity]) -> Dict[str, str]:
 
         time.sleep(1)
 
-    logging.error(f"Resolved {len(mapping)} DBpedia resources")
+    logging.info(f"Resolved {len(mapping)} DBpedia resources")
 
     return mapping
 
@@ -273,7 +273,7 @@ def build_graph(entities: List[ArtsdataEntity], dbpedia_mapping: Dict[str, str],
         current_item = data.get(dbpedia_uri, {})
 
         if len(current_item) == 0:
-            logging.error(f"DBpedia URI {dbpedia_uri} has no item")
+            logging.warning(f"DBpedia URI {dbpedia_uri} has no item")
             continue
 
         types = current_item.get(str(RDF.type), [])
