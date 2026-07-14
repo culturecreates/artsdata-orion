@@ -15,7 +15,7 @@ GOOGLE_KG_API_URL = "https://kgsearch.googleapis.com/v1/entities:search"
 
 # Replace with your actual Google Knowledge Graph API Key
 GOOGLE_KG_API_KEY = os.getenv("GOOGLE_KG_API_KEY")
-OUTPUT_TTL_FILE = "output/google-kg-entities"
+OUTPUT_TTL_FILE = "output/google-kg-entities.ttl"
 
 # Chunks for both Wikidata parsing and Google KG Lookups
 BATCH_SIZE = 100
