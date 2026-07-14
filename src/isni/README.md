@@ -2,7 +2,7 @@
 
 A lightweight, production-ready Python pipeline that harvests entity data from **Artsdata**, links it via **ISNI URIs** to query the official **OCLC SRU API**, extracts expanded entity details (names, alternate names, and entity types) from the raw MARC-like XML payload, and serializes the resulting graph into a pristine RDF Turtle (`.ttl`) file.
 
-This pipeline is designed to cross-reference and enrich identity linkages, translating complex traditional library metadata into clean, standardized Schema.org data models.
+This pipeline is designed to run automatically via GitHub Actions, publishing updates back to the Artsdata lifecycle engine.
 
 ---
 
@@ -21,10 +21,10 @@ This pipeline is designed to cross-reference and enrich identity linkages, trans
 ```text
 ├── .github/
 │   └── workflows/
-│       └── isni-org.yml
+│       └── isni-org.yml    # CI/CD GitHub Action Automation
 ├── output/
 │   └── isni-entities.ttl     # Output RDF Graph (Generated)
 └── src/
     └── isni-resolver/
         ├── main.py            # Main Python script execution engine
-        └── requirements.txt   # Production dependencies (requests, rdflib)
+        └── requirements.txt   # Script dependencies

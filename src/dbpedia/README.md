@@ -2,7 +2,7 @@
 
 A lightweight, production-ready Python pipeline that harvests entity data from **Artsdata**, links it via **Wikidata** to resolve canonical **DBpedia URIs**, extracts expanded entity details in optimized batches from **DBpedia Data Services**, and serializes the resulting graph into a pristine RDF Turtle (`.ttl`) file. 
 
-This pipeline is designed to cross-reference and enrich identity linkages, translating complex traditional ontologies into clean, standardized Schema.org data models.
+This pipeline is designed to run automatically via GitHub Actions, publishing updates back to the Artsdata lifecycle engine.
 
 ---
 
@@ -27,4 +27,4 @@ This pipeline is designed to cross-reference and enrich identity linkages, trans
 └── src/
     └── dbpedia-resolver/
         ├── main.py            # Main Python script execution engine
-        └── requirements.txt   # Production dependencies
+        └── requirements.txt   # Script dependencies

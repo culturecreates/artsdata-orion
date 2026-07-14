@@ -2,7 +2,7 @@
 
 A production-ready Python pipeline that harvests artist identity references from **Artsdata**, extracts unique **MusicBrainz UUIDs**, dynamically enriches them using the official **MusicBrainz API**, and maps the resolved details into a standardized RDF Turtle (`.ttl`) knowledge graph matching the `schema.org` vocabulary.
 
-This pipeline is optimized to synchronize cross-domain culture registries, normalizing properties across disjoint metadata ecosystems.
+This pipeline is designed to run automatically via GitHub Actions, publishing updates back to the Artsdata lifecycle engine.
 
 ---
 
@@ -21,10 +21,10 @@ This pipeline is optimized to synchronize cross-domain culture registries, norma
 ```text
 ├── .github/
 │   └── workflows/
-│       └── music-brainz-org.yml
+│       └── music-brainz-org.yml    # CI/CD GitHub Action Automation
 ├── output/
-│   └── music-brainz-artists.ttl  # Generated Output RDF Graph
+│   └── music-brainz-artists.ttl  # Output RDF Graph (Generated)
 └── src/
     └── musicbrainz-enricher/
-        ├── main.py                # Main script pipeline implementation 
+        ├── main.py                # Main Python script execution engine
         └── requirements.txt       # Script dependencies
