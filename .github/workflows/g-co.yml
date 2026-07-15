@@ -47,6 +47,6 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v4
         with:
           mode: "push"
-          artifact: "google-kg"
+          artifact: "g-co"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/google-kg-entities.ttl"
