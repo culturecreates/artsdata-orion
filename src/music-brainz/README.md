@@ -28,3 +28,11 @@ This pipeline is designed to run automatically via GitHub Actions, publishing up
     └── musicbrainz-enricher/
         ├── main.py                # Main Python script execution engine
         └── requirements.txt       # Script dependencies
+```
+
+## Normalized canonical URIs
+The script uses **http** as the normalized protocol.
+
+`http://musicbrainz.org/artist/{artist_id}`
+
+This follows and alligns with the Wikidata normalized URIs generated for MusicBrainz using [wdtn:P434](https://query.wikidata.org/#PREFIX%20wdtn%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect-normalized%2F%3E%0Aselect%20%2a%20where%20%7B%3Fa%20wdtn%3AP434%20%3Fid%7D%0Alimit%20100%0A). See **formatter URI for RDF resource** property in [P434](https://www.wikidata.org/wiki/Property:P434)
