@@ -1,6 +1,6 @@
 # MusicBrainz Artist Enrichment Pipeline for Artsdata
 
-A production-ready Python pipeline that harvests artist identity references from **Artsdata**, extracts unique **MusicBrainz UUIDs**, dynamically enriches them using the official **MusicBrainz API**, and maps the resolved details into a standardized RDF Turtle (`.ttl`) knowledge graph matching the `schema.org` vocabulary.
+A production-ready Python pipeline that harvests artist identity references from **Artsdata**, extracts unique **MusicBrainz UUIDs**, dynamically enriches them using the official **[MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)**, and maps the resolved details into a standardized RDF Turtle (`.ttl`) knowledge graph matching the `schema.org` vocabulary.
 
 This pipeline is designed to run automatically via GitHub Actions, publishing updates back to the Artsdata lifecycle engine.
 
