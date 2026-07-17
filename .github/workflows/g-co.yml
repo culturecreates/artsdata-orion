@@ -35,9 +35,14 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git pull
-          git add "output/google-kg-entities.ttl"
-          git commit -m "Added google-kg-entities generated."
-          git push
+          git add "output/music-brainz-artists.ttl"
+          # Only commit and push if there are actual modified or new files staged
+          if ! git diff --cached --quiet; then
+            git commit -m "Added music-brainz artists generated."
+            git push
+          else
+            echo "No changes detected in music-brainz-artists.ttl. Skipping commit."
+          fi
 
   artsdata-push:
     runs-on: ubuntu-latest
