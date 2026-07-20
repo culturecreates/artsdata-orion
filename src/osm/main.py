@@ -216,6 +216,18 @@ def main():
         if description:
             graph.add((osm_uri, SCHEMA.disambiguatingDescription, Literal(description)))
 
+        # Note: Standard schema.org uses schema:longitude, but matching your example key 'schema:long'
+
+        # OSM relations store centroids under 'lat'/'lon' if calculated, or check tags
+        lat = osm_element.get("lat")
+        lon = osm_element.get("lon")
+
+        if lat and lon:
+            geo_node = BNode()  # Blank node for structural pairing
+            graph.add((osm_uri, SCHEMA.geo, geo_node))
+            graph.add((geo_node, SCHEMA.latitude, Literal(lat, datatype=XSD.float)))
+            graph.add((geo_node, SCHEMA.longitude, Literal(lon, datatype=XSD.float)))
+
         # schema:address -> Minted from OSM URI subpath
         if tags.get("addr:street") or tags.get("addr:postcode") or tags.get("addr:city"):
             address_uri = URIRef(f"https://www.openstreetmap.org/relation/{osm_id}/address")
