@@ -216,20 +216,6 @@ def main():
         if description:
             graph.add((osm_uri, SCHEMA.disambiguatingDescription, Literal(description)))
 
-        # schema:geo handling using a Blank Node [ schema:lat ... ; schema:long ... ]
-        # Note: Standard schema.org uses schema:longitude, but matching your example key 'schema:long'
-        SCHEMA_LONG = URIRef("http://schema.org/long")
-
-        # OSM relations store centroids under 'lat'/'lon' if calculated, or check tags
-        lat = osm_element.get("lat") or tags.get("node_hint_lat")
-        lon = osm_element.get("lon") or tags.get("node_hint_lon")
-
-        if lat and lon:
-            geo_node = BNode()  # Blank node for structural pairing
-            graph.add((osm_uri, SCHEMA.geo, geo_node))
-            graph.add((geo_node, SCHEMA.latitude, Literal(lat, datatype=XSD.float)))
-            graph.add((geo_node, SCHEMA_LONG, Literal(lon, datatype=XSD.float)))
-
         # schema:address -> Minted from OSM URI subpath
         if tags.get("addr:street") or tags.get("addr:postcode") or tags.get("addr:city"):
             address_uri = URIRef(f"https://www.openstreetmap.org/relation/{osm_id}/address")
@@ -240,7 +226,7 @@ def main():
                 graph.add((address_uri, SCHEMA.addressLocality, Literal(tags.get("addr:city"))))
 
             # Map province/state to Region
-            region = tags.get("addr:province") or tags.get("addr:state") or tags.get("addr:region")
+            region = tags.get("addr:province")
             if region:
                 graph.add((address_uri, SCHEMA.addressRegion, Literal(region)))
 
