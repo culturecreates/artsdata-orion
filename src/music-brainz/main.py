@@ -39,7 +39,7 @@ REQUEST_DELAY_SECONDS = 1.1
 
 SCHEMA = Namespace("http://schema.org/")
 DBO = Namespace("http://dbpedia.org/ontology/")
-MB = Namespace("https://musicbrainz.org/")
+MB = Namespace("http://musicbrainz.org/")
 AD = Namespace("https://data.artsdata.ca/resource/")
 
 # ------------------------------------------------------------------------------
@@ -178,7 +178,7 @@ class MusicBrainzRDFBuilder:
 
         artist_id = artist["id"]
 
-        artist_uri = URIRef(f"https://musicbrainz.org/artist/{artist_id}")
+        artist_uri = URIRef(f"http://musicbrainz.org/artist/{artist_id}")
 
         artist_type = MB_ARTIST_TYPE_MAP.get(artist.get("type-id"),
                                              DBO.Agent)  # fallback if MusicBrainz has an unknown type
