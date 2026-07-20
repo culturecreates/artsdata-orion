@@ -46,6 +46,6 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v4
         with:
           mode: "push"
-          artifact: "music-brainz-org"
+          artifact: "musicbrainz-org"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/music-brainz-artists.ttl"
