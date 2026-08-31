@@ -64,7 +64,7 @@ def fetch_isnis_from_artsdata(session: requests.Session) -> List[Dict[str, Any]]
         return []
 
 
-def fetch_isni_record(session: requests.Session, isni: str) -> Optional[str]:
+def fetch_isni_record(session: requests.Session, isni: str) -> Optional[bytes]:
     """Fetch one ISNI record from the OCLC SRU API using an active session."""
     params = {
         "query": f'pica.isn = "{isni}"',
@@ -77,7 +77,7 @@ def fetch_isni_record(session: requests.Session, isni: str) -> Optional[str]:
     try:
         response = session.get(ISNI_SRU_ENDPOINT, params=params, headers=headers, timeout=30)
         response.raise_for_status()
-        return response.text
+        return response.content
     except requests.exceptions.RequestException as exc:
         logging.warning("Failed to retrieve record for ISNI %s: %s", isni, exc)
         return None
@@ -112,7 +112,7 @@ def extract_unique_isnis(bindings: List[Dict[str, Any]]) -> Set[str]:
     return isnis
 
 
-def parse_isni_xml(xml_content: str) -> Dict[str, Any]:
+def parse_isni_xml(xml_content: bytes) -> Dict[str, Any]:
     """Parse MARC-like XML schemas returned by the OCLC SRU."""
     root = ET.fromstring(xml_content)
 
