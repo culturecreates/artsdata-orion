@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://agoradanse.com/evenement/euphoric-thresholds/",
+    "@id": "https://agoradanse.com/evenement/vtal/",
     "http://ogp.me/ns#locale": [
       {
         "@language": "fr-fr",
@@ -16,13 +16,19 @@
     "http://ogp.me/ns#title": [
       {
         "@language": "fr-fr",
-        "@value": "Alexandre Morin+ Mathieu Leroux - Agora de la danse"
+        "@value": "V!TAL | Ismaël Mouaraki  - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "fr-fr",
+        "@value": "V!TAL de Ismaël Mouaraki surgit comme un manifeste, viscéral et nécessaire."
       }
     ],
     "http://ogp.me/ns#url": [
       {
         "@language": "fr-fr",
-        "@value": "https://agoradanse.com/evenement/euphoric-thresholds/"
+        "@value": "https://agoradanse.com/evenement/vtal/"
       }
     ],
     "http://ogp.me/ns#site_name": [
@@ -31,16 +37,10 @@
         "@value": "Agora de la danse"
       }
     ],
-    "article:modified_time": [
-      {
-        "@language": "fr-fr",
-        "@value": "2026-06-11T15:00:37+00:00"
-      }
-    ],
     "http://ogp.me/ns#image": [
       {
         "@language": "fr-fr",
-        "@value": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Show1_VTAL_C_Sylvie-Ann-Pare.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -66,7 +66,7 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/"
+        "@id": "https://agoradanse.com/evenement/vtal/"
       }
     ],
     "http://schema.org/isPartOf": [
@@ -76,34 +76,28 @@
     ],
     "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/#primaryimage"
+        "@id": "https://agoradanse.com/evenement/vtal/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/#primaryimage"
+        "@id": "https://agoradanse.com/evenement/vtal/#primaryimage"
       }
     ],
     "http://schema.org/thumbnailUrl": [
       {
-        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show1_VTAL_C_Sylvie-Ann-Pare.jpg"
       }
     ],
     "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-03-31T14:43:49+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-06-11T15:00:37+00:00"
+        "@value": "2026-08-26T15:01:35+00:00"
       }
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "https://agoradanse.com/genid/a371765785ebd924"
+        "@id": "https://agoradanse.com/genid/1b66358b9dc45f1d"
       }
     ],
     "https://api.w.org/": [
@@ -114,7 +108,13 @@
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Euphoric Thresholds - Agora de la danse"
+        "@value": "V!TAL - Agora de la danse"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "V!TAL de Ismaël Mouaraki surgit comme un manifeste, viscéral et nécessaire."
       }
     ],
     "http://schema.org/inLanguage": [
@@ -154,18 +154,18 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/evenement/euphoric-thresholds/#primaryimage",
+    "@id": "https://agoradanse.com/evenement/vtal/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show1_VTAL_C_Sylvie-Ann-Pare.jpg"
       }
     ],
     "http://schema.org/contentUrl": [
       {
-        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show1_VTAL_C_Sylvie-Ann-Pare.jpg"
       }
     ],
     "http://schema.org/width": [
@@ -185,17 +185,89 @@
         "@language": "fr",
         "@value": "fr-FR"
       }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "fr",
+        "@value": "V!TAL © Sylvie-Ann-Paré"
+      }
     ]
   },
   {
-    "@id": "https://agoradanse.com/genid/a371765785ebd924",
+    "@id": "https://agoradanse.com/genid/1b66358b9dc45f1d",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
         "@language": "fr",
-        "@value": "https://agoradanse.com/evenement/euphoric-thresholds/"
+        "@value": "https://agoradanse.com/evenement/vtal/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/9c50c3ab09ef94dd",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show1_VTAL_C_Sylvie-Ann-Pare.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-09-23"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-09-26"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/evenement/vtal/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/vtal/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "V!TAL - Ismaël Mouaraki "
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "V!TAL de Ismaël Mouaraki surgit comme un manifeste, viscéral et nécessaire."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "fr",
+        "@value": "T60M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
       }
     ]
   },
@@ -284,61 +356,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/59607746-910a-4ce9-b5e5-082310967216",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Euphoric Thresholds"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Énergie brute, géométrie scénique et pulsations électroniques. Dans l’espace intime de l’Agora de la danse, le duo Morin/Leroux signe une proposition physique où cinq interprètes cherchent le point de bascule entre exaltation et dépassement."
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@language": "fr",
-        "@value": "T60M"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://agoradanse.com/en/event/euphoric-thresholds/",
+    "@id": "https://agoradanse.com/en/event/vtal/",
     "http://ogp.me/ns#locale": [
       {
         "@language": "en-us",
@@ -354,13 +372,13 @@
     "http://ogp.me/ns#title": [
       {
         "@language": "en-us",
-        "@value": "Alexandre Morin+ Mathieu Leroux - Agora de la danse"
+        "@value": "V!TAL | Ismaël Mouaraki - Agora de la danse"
       }
     ],
     "http://ogp.me/ns#url": [
       {
         "@language": "en-us",
-        "@value": "https://agoradanse.com/en/event/euphoric-thresholds/"
+        "@value": "https://agoradanse.com/en/event/vtal/"
       }
     ],
     "http://ogp.me/ns#site_name": [
@@ -369,16 +387,10 @@
         "@value": "Agora de la danse"
       }
     ],
-    "article:modified_time": [
-      {
-        "@language": "en-us",
-        "@value": "2026-06-11T15:01:49+00:00"
-      }
-    ],
     "http://ogp.me/ns#image": [
       {
         "@language": "en-us",
-        "@value": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/VTAL_C_Sylvie-Ann-Pare_1920x1080.jpg"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -404,7 +416,7 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/"
+        "@id": "https://agoradanse.com/en/event/vtal/"
       }
     ],
     "http://schema.org/isPartOf": [
@@ -414,34 +426,28 @@
     ],
     "http://schema.org/primaryImageOfPage": [
       {
-        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/#primaryimage"
+        "@id": "https://agoradanse.com/en/event/vtal/#primaryimage"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/#primaryimage"
+        "@id": "https://agoradanse.com/en/event/vtal/#primaryimage"
       }
     ],
     "http://schema.org/thumbnailUrl": [
       {
-        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/VTAL_C_Sylvie-Ann-Pare_1920x1080.jpg"
       }
     ],
     "http://schema.org/datePublished": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-03-31T14:43:49+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-06-11T15:01:49+00:00"
+        "@value": "2026-08-26T15:01:35+00:00"
       }
     ],
     "http://schema.org/potentialAction": [
       {
-        "@id": "https://agoradanse.com/genid/6fd84f54090bc44e"
+        "@id": "https://agoradanse.com/genid/c36facf8a7121d2c"
       }
     ],
     "https://api.w.org/": [
@@ -452,7 +458,7 @@
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Euphoric Thresholds - Agora de la danse"
+        "@value": "V!TAL - Agora de la danse"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -492,18 +498,18 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/en/event/euphoric-thresholds/#primaryimage",
+    "@id": "https://agoradanse.com/en/event/vtal/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/VTAL_C_Sylvie-Ann-Pare_1920x1080.jpg"
       }
     ],
     "http://schema.org/contentUrl": [
       {
-        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/VTAL_C_Sylvie-Ann-Pare_1920x1080.jpg"
       }
     ],
     "http://schema.org/width": [
@@ -523,17 +529,89 @@
         "@language": "en",
         "@value": "en-US"
       }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "en",
+        "@value": "V!TAL © Sylvie-Ann-Paré"
+      }
     ]
   },
   {
-    "@id": "https://agoradanse.com/genid/6fd84f54090bc44e",
+    "@id": "https://agoradanse.com/genid/c36facf8a7121d2c",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
         "@language": "en",
-        "@value": "https://agoradanse.com/en/event/euphoric-thresholds/"
+        "@value": "https://agoradanse.com/en/event/vtal/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/17834881e2d40a20",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/VTAL_C_Sylvie-Ann-Pare_1920x1080.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-09-23"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-09-26"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/en/event/vtal/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/vtal/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "V!TAL - Ismaël Mouaraki"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Joy as an act of resistance — a powerful force takes shape on stage."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "en",
+        "@value": "T60M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
       }
     ]
   },
@@ -596,7 +674,1375 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/db5dcf2d-0783-4142-b50f-8d5b4d2162d0",
+    "@id": "https://agoradanse.com/evenement/monad/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-fr",
+        "@value": "fr_FR"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-fr",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-fr",
+        "@value": "Mōnad | Alexandra ‘Spicey’ Landé + Jai Nitai  Lotus - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/evenement/monad/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-fr",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-fr",
+        "@value": "2026-08-26T18:23:16+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-fr",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-fr",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-fr",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/monad/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/evenement/monad/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/evenement/monad/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T15:00:35+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T18:23:16+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/5053a654bc74d708"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Mōnad - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/monad/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "fr",
+        "@value": "Monad © Murielle-Truly Bien-Aime"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/5053a654bc74d708",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "fr",
+        "@value": "https://agoradanse.com/evenement/monad/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/29723f6f4dd161e2",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-09-30"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-02"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/evenement/monad/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/monad/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Mōnad - Alexandra ‘Spicey’ Landé + Jai Nitai  Lotus"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Comment approcher les différentes incarnations d’une même vie ?"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "fr",
+        "@value": "T70M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/millepertuis-2026/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-fr",
+        "@value": "fr_FR"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-fr",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-fr",
+        "@value": "Millepertuis | Sovann Rochon-Prom Tep - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/evenement/millepertuis-2026/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-fr",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-fr",
+        "@value": "2026-08-26T18:41:34+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-fr",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-fr",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-fr",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/millepertuis-2026/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/evenement/millepertuis-2026/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/evenement/millepertuis-2026/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:59:10+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T18:41:34+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/28a60f086e275d7b"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Millepertuis - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/millepertuis-2026/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "fr",
+        "@value": "Millepertuis © Do Phan Hoi"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/28a60f086e275d7b",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "fr",
+        "@value": "https://agoradanse.com/evenement/millepertuis-2026/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/210eac71c6f4ea3b",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-07"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-09"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/evenement/millepertuis-2026/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/millepertuis-2026/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Millepertuis - Sovann Rochon-Prom Tep"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Une traversée, une éclosion."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "fr",
+        "@value": "T60M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/les-murs-resonnent/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-fr",
+        "@value": "fr_FR"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-fr",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-fr",
+        "@value": "Les murs résonnent | Philippe Meunier + Ian Yaworski  - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/evenement/les-murs-resonnent/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-fr",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-fr",
+        "@value": "2026-08-26T18:26:55+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-fr",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-fr",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-fr",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/les-murs-resonnent/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/evenement/les-murs-resonnent/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/evenement/les-murs-resonnent/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:58:46+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T18:26:55+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/8b5eeef4efb66ceb"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Les murs résonnent - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/les-murs-resonnent/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "fr",
+        "@value": "Les murs resonnent © Vitor Munhoz"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/8b5eeef4efb66ceb",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "fr",
+        "@value": "https://agoradanse.com/evenement/les-murs-resonnent/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/cc83bab3d9030485",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-21"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-24"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/evenement/les-murs-resonnent/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/les-murs-resonnent/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Les murs résonnent - Philippe Meunier + Ian Yaworski "
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Le passé frappe du pied — et le présent résonne."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "fr",
+        "@value": "T60M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/coil/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-fr",
+        "@value": "fr_FR"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-fr",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-fr",
+        "@value": "COIL | Dana Gingras - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/evenement/coil/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-fr",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-fr",
+        "@value": "2026-08-26T19:19:49+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-fr",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-fr",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-fr",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/coil/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/evenement/coil/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/evenement/coil/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:55:46+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T19:19:49+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/e87015313ea9a6ac"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "COIL - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/coil/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/e87015313ea9a6ac",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "fr",
+        "@value": "https://agoradanse.com/evenement/coil/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/aa1e526e2dba4c34",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-04"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/evenement/coil/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/coil/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "COIL - Dana Gingras"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "COIL – défaire, refaire, faire."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "fr",
+        "@value": "T55M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/laffront-des-chimeres/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-fr",
+        "@value": "fr_FR"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-fr",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-fr",
+        "@value": "L’affront des chimères | Georges-Nicolas Tremblay - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/evenement/laffront-des-chimeres/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-fr",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-fr",
+        "@value": "2026-08-26T16:33:34+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-fr",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-fr",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-fr",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/laffront-des-chimeres/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/evenement/laffront-des-chimeres/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/evenement/laffront-des-chimeres/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:55:09+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T16:33:34+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/383b2c145886c410"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "L'affront des chimères - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/laffront-des-chimeres/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "fr",
+        "@value": "L'affront des chimères © Sarah-Seené"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/383b2c145886c410",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "fr",
+        "@value": "https://agoradanse.com/evenement/laffront-des-chimeres/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/5c744cf6b6f6a609",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene.jpg"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/evenement/laffront-des-chimeres/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/laffront-des-chimeres/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "L'affront des chimères - Georges-Nicolas Tremblay"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Dans une lumière aveuglante, un cri retentit."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "fr",
+        "@value": "T55M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/euphoric-thresholds/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr-fr",
+        "@value": "fr_FR"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr-fr",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr-fr",
+        "@value": "Alexandre Morin+ Mathieu Leroux - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/evenement/euphoric-thresholds/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr-fr",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "fr-fr",
+        "@value": "2026-08-26T17:08:28+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr-fr",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr-fr",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr-fr",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "fr-fr",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-03-31T14:43:49+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T17:08:28+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/a371765785ebd924"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Euphoric Thresholds - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/evenement/euphoric-thresholds/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "fr",
+        "@value": "fr-FR"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/a371765785ebd924",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "fr",
+        "@value": "https://agoradanse.com/evenement/euphoric-thresholds/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/2c500d3860a74855",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -605,48 +2051,36 @@
         "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
       }
     ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-02"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-06"
-      }
-    ],
     "http://schema.org/location": [
       {
-        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+        "@id": "https://agoradanse.com/genid/b07de82799f8a375"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/"
+        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/"
+        "@id": "https://agoradanse.com/evenement/euphoric-thresholds/"
       }
     ],
     "http://schema.org/name": [
       {
-        "@language": "en",
+        "@language": "fr",
         "@value": "Euphoric Thresholds"
       }
     ],
     "http://schema.org/description": [
       {
-        "@language": "en",
-        "@value": "Raw energy, spatial geometries, and electronic pulses. In the intimate setting of Agora de la danse, the Morin/Leroux duo delivers a physical performance in which five performers search for the tipping point between exhilaration and transcendence."
+        "@language": "fr",
+        "@value": "Énergie brute, géométrie scénique et pulsations électroniques. Dans l’espace intime de l’Agora de la danse, le duo Morin/Leroux signe une proposition physique où cinq interprètes cherchent le point de bascule entre exaltation et dépassement."
       }
     ],
     "http://schema.org/duration": [
       {
-        "@language": "en",
+        "@language": "fr",
         "@value": "T60M"
       }
     ],
@@ -702,7 +2136,7 @@
     "article:modified_time": [
       {
         "@language": "fr-fr",
-        "@value": "2026-06-16T14:15:21+00:00"
+        "@value": "2026-08-26T17:07:51+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -766,7 +2200,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-06-16T14:15:21+00:00"
+        "@value": "2026-08-26T17:07:51+00:00"
       }
     ],
     "http://schema.org/potentialAction": [
@@ -851,7 +2285,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/9950f18b-66e3-4a57-a483-aa0f4ad98c9e",
+    "@id": "https://agoradanse.com/genid/3176f71f476909d3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -890,6 +2324,1452 @@
     "http://schema.org/duration": [
       {
         "@language": "fr",
+        "@value": "T60M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/monad/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Mōnad | Alexandra 'Spicey' Landé +  Jai Nitai Lotus - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/en/event/monad/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-08-26T18:47:12+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/monad/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/en/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/en/event/monad/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/en/event/monad/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T15:00:35+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T18:47:12+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/0292596048f8adde"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/en/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Mōnad - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/monad/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "en",
+        "@value": "Monad © Murielle-Truly Bien-Aime"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/0292596048f8adde",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://agoradanse.com/en/event/monad/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/aceb0c0266e1755d",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Show2-Ebnfloh-Alexandra-Spicey-Lande-Jai-Nitai-Lotus-Monad-1-©-Murielle-Truly-Bien-Aime.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-09-30"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-02"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/en/event/monad/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/monad/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Mōnad - Alexandra 'Spicey' Landé +  Jai Nitai Lotus"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "How do we approach the different incarnations of a single life?"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "en",
+        "@value": "T70M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/millepertuis-2026/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Millepertuis | Sovann Rochon-Prom Tep - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/en/event/millepertuis-2026/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-08-26T18:42:40+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi-1.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/millepertuis-2026/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/en/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/en/event/millepertuis-2026/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/en/event/millepertuis-2026/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi-1.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:59:10+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T18:42:40+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/611c614eaafdfdfc"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/en/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Millepertuis - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/millepertuis-2026/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi-1.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi-1.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "en",
+        "@value": "Millepertuis © Do Phan Hoi"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/611c614eaafdfdfc",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://agoradanse.com/en/event/millepertuis-2026/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/b35ae2d3de021649",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Millepertuis-by-Do-Phan-Hoi-1.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-07"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-09"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/en/event/millepertuis-2026/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/millepertuis-2026/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Millepertuis - Sovann Rochon-Prom Tep"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "A passage, an unfolding."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "en",
+        "@value": "T60M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/les-murs-resonnent/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Les murs résonnent | Philippe Meunier + Ian Yaworski  - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/en/event/les-murs-resonnent/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-08-26T18:46:25+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz-1.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/les-murs-resonnent/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/en/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/en/event/les-murs-resonnent/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/en/event/les-murs-resonnent/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz-1.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:58:46+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T18:46:25+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/6db8d1705e79b6f8"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/en/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Les murs résonnent - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/les-murs-resonnent/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz-1.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz-1.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "en",
+        "@value": "Les murs resonnent © Vitor Munhoz"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/6db8d1705e79b6f8",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://agoradanse.com/en/event/les-murs-resonnent/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/444d284c26ea3a3e",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Les-murs-resonnent-by-Vitor-Munhoz-1.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-21"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-24"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/en/event/les-murs-resonnent/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/les-murs-resonnent/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Les murs résonnent - Philippe Meunier + Ian Yaworski "
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "The past stomps its feet, and the present resonates."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "en",
+        "@value": "T60M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/coil/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "COIL | Dana Gingras - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/en/event/coil/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-08-26T19:27:17+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson-1.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/coil/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/en/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/en/event/coil/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/en/event/coil/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson-1.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:55:46+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T19:27:17+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/6b50f1e40c35243d"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/en/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "COIL - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/coil/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson-1.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson-1.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/6b50f1e40c35243d",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://agoradanse.com/en/event/coil/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/fe7bd35f964939ce",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/COIL-2-by-Sara-Jane-Chiasson-1.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-04"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/en/event/coil/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/coil/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "COIL - Dana Gingras"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "COIL – undo, redo, do."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "en",
+        "@value": "T55M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/laffront-des-chimeres/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "L’affront des chimères | Georges-Nicolas Tremblay - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/en/event/laffront-des-chimeres/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-08-26T16:21:28+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene-1.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/laffront-des-chimeres/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/en/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/en/event/laffront-des-chimeres/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/en/event/laffront-des-chimeres/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene-1.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T14:55:09+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T16:21:28+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/340658ff4f835e0c"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/en/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "L'affront des chimères - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/laffront-des-chimeres/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene-1.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene-1.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ],
+    "http://schema.org/caption": [
+      {
+        "@language": "en",
+        "@value": "L'affront des chimères © Sarah-Seené"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/340658ff4f835e0c",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://agoradanse.com/en/event/laffront-des-chimeres/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/4cbfab479b20104a",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/06/Laffront-des-chimeres-by-Sarah-Seene-1.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-05"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-05"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/en/event/laffront-des-chimeres/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/laffront-des-chimeres/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "L'affront des chimères - Georges-Nicolas Tremblay"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "In a blinding light, a scream rings out."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "en",
+        "@value": "T55M"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/euphoric-thresholds/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-us",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-us",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-us",
+        "@value": "Alexandre Morin+ Mathieu Leroux - Agora de la danse"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/en/event/euphoric-thresholds/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-us",
+        "@value": "Agora de la danse"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-us",
+        "@value": "2026-08-26T18:44:12+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-us",
+        "@value": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-us",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-us",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-us",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://agoradanse.com/en/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-03-31T14:43:49+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-08-26T18:44:12+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://agoradanse.com/genid/6fd84f54090bc44e"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://agoradanse.com/en/wp-json/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Euphoric Thresholds - Agora de la danse"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/en/event/euphoric-thresholds/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-US"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/6fd84f54090bc44e",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://agoradanse.com/en/event/euphoric-thresholds/"
+      }
+    ]
+  },
+  {
+    "@id": "https://agoradanse.com/genid/3b3c78221fa10b85",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://agoradanse.com/wp-content/uploads/2026/03/Euphoric-Thresholds-12.jpg"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-02"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-06"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://agoradanse.com/genid/cdfc4afc18fa00c0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://agoradanse.com/en/event/euphoric-thresholds/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Euphoric Thresholds"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Raw energy, spatial geometries, and electronic pulses. In the intimate setting of Agora de la danse, the Morin/Leroux duo delivers a physical performance in which five performers search for the tipping point between exhilaration and transcendence."
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "en",
         "@value": "T60M"
       }
     ],
@@ -945,7 +3825,7 @@
     "article:modified_time": [
       {
         "@language": "en-us",
-        "@value": "2026-06-16T14:19:13+00:00"
+        "@value": "2026-08-26T18:43:30+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -1009,7 +3889,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-06-16T14:19:13+00:00"
+        "@value": "2026-08-26T18:43:30+00:00"
       }
     ],
     "http://schema.org/potentialAction": [
@@ -1094,7 +3974,7 @@
     ]
   },
   {
-    "@id": "https://agoradanse.com/temporary/638741c4-d8de-42e9-9911-29dcb61348d1",
+    "@id": "https://agoradanse.com/genid/2392032e79f17a48",
     "@type": [
       "http://schema.org/Event"
     ],
