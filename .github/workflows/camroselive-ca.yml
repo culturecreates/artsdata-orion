@@ -18,6 +18,5 @@ jobs:
           downloadFile: "output/camroselive-events.jsonld"
           page-url: "https://camroselive.ca/events-sitemap.xml"
           entity-identifier: "loc"
-          fetch-urls-headlessly: true
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
