@@ -14,10 +14,11 @@ jobs:
         artifact: adc659-ca
         publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
         downloadFile: output/adc659-entities.jsonld
-        page-url: https://www.adc659.ca/members/?page_Jgayh=
+        page-url: https://www.adc659.ca/members/
         entity-identifier: div.um-member-cover-e a
         is-paginated: "true"
         fetch-urls-headlessly: "true"
+        auto-detect-page-param: "true"
         token: "${{ secrets.GITHUB_TOKEN }}"
         html-extract-config: |
           {
