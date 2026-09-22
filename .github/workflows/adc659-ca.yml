@@ -7,44 +7,6 @@ jobs:
   artsdata-fetch-and-push:
     runs-on: ubuntu-latest
     steps:
-    - name: Discover current pagination param
-      id: discover
-      run: |
-        npm init -y >/dev/null 2>&1
-        npm install --no-save playwright >/dev/null 2>&1
-        npx --yes playwright install --with-deps chromium >/dev/null 2>&1
-        node <<'EOF' > discover_output.txt
-        const { chromium } = require('playwright');
-        (async () => {
-          const browser = await chromium.launch();
-          const page = await browser.newPage();
-          let found = null;
-          page.on('request', req => {
-            const m = req.url().match(/page_[A-Za-z0-9]+=/);
-            if (m && !found) found = m[0];
-          });
-          try {
-            await page.goto('https://www.adc659.ca/members/', { waitUntil: 'networkidle', timeout: 30000 });
-          } catch (e) {
-            console.error('Navigation error:', e.message);
-          }
-          await browser.close();
-          if (!found) {
-            console.error('NOTFOUND');
-            process.exit(1);
-          }
-          console.log(`FOUND=${found}`);
-        })();
-        EOF
-        cat discover_output.txt
-        FOUND_LINE=$(grep '^FOUND=' discover_output.txt || true)
-        if [ -z "$FOUND_LINE" ]; then
-          echo "::error::Could not detect pagination param via network requests — UM directory markup or AJAX flow may have changed further."
-          exit 1
-        fi
-        PARAM="${FOUND_LINE#FOUND=}"
-        echo "page_url=https://www.adc659.ca/members/?${PARAM}" >> "$GITHUB_OUTPUT"
-
     - name: Action setup
       uses: culturecreates/artsdata-pipeline-action@v4
       with:
@@ -52,10 +14,11 @@ jobs:
         artifact: adc659-ca
         publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
         downloadFile: output/adc659-entities.jsonld
-        page-url: ${{ steps.discover.outputs.page_url }}
+        page-url: https://www.adc659.ca/members/
         entity-identifier: div.um-member-cover-e a
         is-paginated: "true"
         fetch-urls-headlessly: "true"
+        auto-detect-page-param: "true"
         token: "${{ secrets.GITHUB_TOKEN }}"
         html-extract-config: |
           {
