@@ -1,287 +1,5 @@
 [
   {
-    "@id": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-us",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-us",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-us",
-        "@value": "Hunchback of Notre Dame"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-us",
-        "@value": ""
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-us",
-        "@value": "Saskatoon Symphony Orchestra"
-      }
-    ],
-    "http://ogp.me/ns#updated_time": [
-      {
-        "@language": "en-us",
-        "@value": "2026-07-20T10:54:32+00:00"
-      }
-    ],
-    "article:published_time": [
-      {
-        "@language": "en-us",
-        "@value": "2025-03-09T09:42:07+00:00"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-us",
-        "@value": "2026-07-20T10:54:32+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Untitled-1.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:secure_url": [
-      {
-        "@language": "en-us",
-        "@value": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Untitled-1.jpg"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-us",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-us",
-        "@value": "1024"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-json/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/83430705ee4d9d1d",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-01T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://saskatoonsymphony.org/genid/b797424559be5696"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/03/Untitled-1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-01T09:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Hunchback of Notre Dame"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Returning to the historic Roxy Theatre, Michael Bridge creates a new improvised score for the legendary silent film The Hunchback of Notre Dame."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/b797424559be5696",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "https://saskatoonsymphony.org/genid/5457d53ab4da4735"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "The Roxy Theatre"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/5457d53ab4da4735",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "en",
-        "@value": "320 20th Street West"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "en",
-        "@value": "Saskatoon"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "en",
-        "@value": "S7M 0X2"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "en",
-        "@value": "SK"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "en",
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/7dbce269732f695b",
-    "@type": [
-      "https://schema.org/Blog"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/carmen-on-tap/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/amy-and-adele/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/sunday-chamber-4/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/picasso-symphony/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/donor-gala/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/time-for-toddlers-10/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/home-alone/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/handels-messiah-4/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-4/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/christmas-classics-at-the-cathedral/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/home-for-the-holidays-4/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/pirates-of-the-caribbean/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/time-for-toddlers-11/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/in-love-again/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/all-beethoven/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/roman-holiday/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/verve/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale-2/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/how-to-train-your-dragon/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/vers-la-flamme/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/mothers-day-5/"
-      },
-      {
-        "@id": "https://saskatoonsymphony.org/event/time-for-toddlers-12/"
-      }
-    ]
-  },
-  {
     "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/",
     "http://ogp.me/ns#locale": [
       {
@@ -369,6 +87,249 @@
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/genid/84f03d020de430c6",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-10T13:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://saskatoonsymphony.org/genid/2bb497ef89a1d654"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/09/HP4-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-10T15:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Harry Potter and the Goblet of Fire™ in Concert"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Get ready to fight a dragon, swim with merpeople, and find out just who put Harry’s name in the Goblet of Fire™! For the first time ever, audiences can rediscover the magic of Harry Potter and the Goblet of Fire™ while a live symphony orchestra performs Patrick Doyle’s unforgettable score."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/genid/2bb497ef89a1d654",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "https://saskatoonsymphony.org/genid/a8b7089e44b678a4"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "TCU Place, Sid Buckwold Theatre"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/genid/a8b7089e44b678a4",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "35 - 22nd Street East"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Saskatoon"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "S7K 0C8"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "SK"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/genid/5a59e5e7f5640365",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-10T19:30:00-06:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://saskatoonsymphony.org/genid/2bb497ef89a1d654"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/09/HP4-1024x1024-1.jpg"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-10T21:30:00-06:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Harry Potter and the Goblet of Fire™ in Concert"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Get ready to fight a dragon, swim with merpeople, and find out just who put Harry’s name in the Goblet of Fire™! For the first time ever, audiences can rediscover the magic of Harry Potter and the Goblet of Fire™ while a live symphony orchestra performs Patrick Doyle’s unforgettable score."
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ]
+  },
+  {
+    "@id": "https://saskatoonsymphony.org/genid/7dbce269732f695b",
+    "@type": [
+      "https://schema.org/Blog"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/carmen-on-tap/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/amy-and-adele/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/sunday-chamber-4/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/picasso-symphony/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/donor-gala/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/time-for-toddlers-10/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/home-alone/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/handels-messiah-4/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/sing-along-messiah-4/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/christmas-classics-at-the-cathedral/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/home-for-the-holidays-4/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/pirates-of-the-caribbean/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/time-for-toddlers-11/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/in-love-again/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/all-beethoven/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/roman-holiday/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/verve/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/book-and-music-sale-2/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/how-to-train-your-dragon/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/vers-la-flamme/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/mothers-day-5/"
+      },
+      {
+        "@id": "https://saskatoonsymphony.org/event/time-for-toddlers-12/"
       }
     ]
   },
@@ -2472,9 +2433,6 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/"
-      },
-      {
         "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
       },
       {
@@ -2549,186 +2507,6 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/60d2c43ca2da6549",
-    "@type": [
-      "https://schema.org/CreativeWork"
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/hunchback-of-notre-dame/"
-      }
-    ],
-    "https://schema.org/text": [
-      {
-        "@language": "en",
-        "@value": "\n\t\t\t\n\n\n7:30PM, Thursday, October 1, 2026\nThe Roxy Theatre\n\n\n320 20th Street West\nSaskatoon, SK S7M 0X2\nGoogle Maps Directions\n\n\nSave Your Seats\n\n\n\nMichael Bridgedigital accordion\n\n\nAfter his sensational performance in 2024, where he improvised a full score for the silent film Phantom of the Opera, it was obvious that the audience needed more of Michael Bridge.\nNow returning to the historic Roxy Theatre, Bridge creates a new improvised score for the legendary silent film The Hunchback of Notre Dame. \nThe first film adaptation of Victor Hugo’s classic became an instant success and has remained one of the great silent feature films ever produced. \nMichael Bridge is a world-renowned digital accordionist who spins magic in these silent film experiences. \nBe immersed in Saskatoon’s very own historic Roxy Theatre and be transported back to the days of the silver screen…silence is golden!\nCheck out a bit of what to expect here.\nIf you’re thinking about attending multiple shows, bundle your tickets and save!\n\n\n\t\t"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/4bfd213d2b7223dd",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-10T13:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://saskatoonsymphony.org/genid/2bb497ef89a1d654"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/09/HP4-1024x1024-1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-10T15:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Harry Potter and the Goblet of Fire™ in Concert"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Get ready to fight a dragon, swim with merpeople, and find out just who put Harry’s name in the Goblet of Fire™! For the first time ever, audiences can rediscover the magic of Harry Potter and the Goblet of Fire™ while a live symphony orchestra performs Patrick Doyle’s unforgettable score."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/2bb497ef89a1d654",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "https://saskatoonsymphony.org/genid/a8b7089e44b678a4"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "TCU Place, Sid Buckwold Theatre"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/a8b7089e44b678a4",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "en",
-        "@value": "35 - 22nd Street East"
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "en",
-        "@value": "Saskatoon"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "en",
-        "@value": "S7K 0C8"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "en",
-        "@value": "SK"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "en",
-        "@value": "Canada"
-      }
-    ]
-  },
-  {
-    "@id": "https://saskatoonsymphony.org/genid/547bcb393e34add8",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-10T19:30:00-06:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://saskatoonsymphony.org/genid/2bb497ef89a1d654"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://saskatoonsymphony.org/wp-content/uploads/2025/09/HP4-1024x1024-1.jpg"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-10T21:30:00-06:00"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://saskatoonsymphony.org/event/harry-potter-and-the-goblet-of-fire-in-concert/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Harry Potter and the Goblet of Fire™ in Concert"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Get ready to fight a dragon, swim with merpeople, and find out just who put Harry’s name in the Goblet of Fire™! For the first time ever, audiences can rediscover the magic of Harry Potter and the Goblet of Fire™ while a live symphony orchestra performs Patrick Doyle’s unforgettable score."
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ]
-  },
-  {
     "@id": "https://saskatoonsymphony.org/genid/4a9adca3016f76e7",
     "@type": [
       "https://schema.org/CreativeWork"
@@ -2746,7 +2524,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/d6bb46fc29ed1d29",
+    "@id": "https://saskatoonsymphony.org/genid/4db7b7e146e54530",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2854,7 +2632,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/f83e76e3052981b3",
+    "@id": "https://saskatoonsymphony.org/genid/923f92504aeb85fe",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2909,7 +2687,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/c2db25b884ef0e6f",
+    "@id": "https://saskatoonsymphony.org/genid/73c3b02408d8925d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2964,7 +2742,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/569978ea36fd703b",
+    "@id": "https://saskatoonsymphony.org/genid/c711951a7cbb95dd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3019,7 +2797,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/32233a532b68d576",
+    "@id": "https://saskatoonsymphony.org/genid/d91ba9d26ed255e2",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3074,7 +2852,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/ddd0c5a6ee3d25ba",
+    "@id": "https://saskatoonsymphony.org/genid/067f24169bc87d0e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3129,7 +2907,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/bad66e6116abfeea",
+    "@id": "https://saskatoonsymphony.org/genid/9f2746a360c40295",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3184,7 +2962,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/71f3f8b8d19543bd",
+    "@id": "https://saskatoonsymphony.org/genid/dbf2351709b1763c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3256,7 +3034,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/2e3166a38db4cd90",
+    "@id": "https://saskatoonsymphony.org/genid/744a7b9eb50dfc5c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3364,7 +3142,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/b2461e97efa288e7",
+    "@id": "https://saskatoonsymphony.org/genid/62deb35e8157766e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3436,7 +3214,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/1b8fa47459b6406d",
+    "@id": "https://saskatoonsymphony.org/genid/3b47a7dc8ad1cb20",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3508,7 +3286,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/069c83e24ca95d38",
+    "@id": "https://saskatoonsymphony.org/genid/a2f8bbf9c5dc346d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3633,7 +3411,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/64c5cb35933dffe9",
+    "@id": "https://saskatoonsymphony.org/genid/4079b8dbf268e9c2",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3705,7 +3483,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/91f4f6e26af3701a",
+    "@id": "https://saskatoonsymphony.org/genid/78569232cb2b6442",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3777,7 +3555,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/a8fc1fd33eba9d82",
+    "@id": "https://saskatoonsymphony.org/genid/ee7580522bd10477",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3885,7 +3663,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/4cab83c933e683ae",
+    "@id": "https://saskatoonsymphony.org/genid/6ee665612cd8a63b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3940,7 +3718,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/bc141b284574f65f",
+    "@id": "https://saskatoonsymphony.org/genid/bb00fb77ae6556cd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3995,7 +3773,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/b96606c2b7515fe1",
+    "@id": "https://saskatoonsymphony.org/genid/b5c3e4a12f49fe1f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4067,7 +3845,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/be0643ce9bc6f4ac",
+    "@id": "https://saskatoonsymphony.org/genid/f6029ce8ff08bf72",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4139,7 +3917,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/b04a93322f9f92f2",
+    "@id": "https://saskatoonsymphony.org/genid/4e9bd21e715c605d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4264,7 +4042,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/d764f637eca419e7",
+    "@id": "https://saskatoonsymphony.org/genid/2e589f2a4449603f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4336,7 +4114,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/01a70064d9fe16e6",
+    "@id": "https://saskatoonsymphony.org/genid/d1632478fe3a2e74",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4461,7 +4239,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/d6280bbab0aac5be",
+    "@id": "https://saskatoonsymphony.org/genid/32357865353d618d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4528,7 +4306,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/79c6fcd2b6f826b9",
+    "@id": "https://saskatoonsymphony.org/genid/4ae74d93e6281065",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4600,7 +4378,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/e2e8e5a84f6e4073",
+    "@id": "https://saskatoonsymphony.org/genid/cd46d0264db1ea69",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4655,7 +4433,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/f51dac3844f105b2",
+    "@id": "https://saskatoonsymphony.org/genid/9aeefcb99cd7841a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4710,7 +4488,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/d214747a13538351",
+    "@id": "https://saskatoonsymphony.org/genid/f8b0602e6d09ffbc",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4765,7 +4543,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/a812c2c6aaec7785",
+    "@id": "https://saskatoonsymphony.org/genid/888e817668a8fd72",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4837,7 +4615,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/32be58109104c3f1",
+    "@id": "https://saskatoonsymphony.org/genid/d9f34b07f84705fd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4909,7 +4687,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/eb80be7d2013ff77",
+    "@id": "https://saskatoonsymphony.org/genid/3eeb8e6e4bdb5004",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5034,7 +4812,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/9017858a97cec7b9",
+    "@id": "https://saskatoonsymphony.org/genid/c0f4f0a3bbf532c3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5106,7 +4884,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/82ac3d8e4644125e",
+    "@id": "https://saskatoonsymphony.org/genid/3e8fc2cd7905dab8",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5178,7 +4956,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/eb303a8e12d8bbc0",
+    "@id": "https://saskatoonsymphony.org/genid/d8a977ed29f5b289",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5233,7 +5011,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/8d3a6ef768220a6c",
+    "@id": "https://saskatoonsymphony.org/genid/d25c8f1ad7e449a5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5288,7 +5066,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/fe8f131aaf748985",
+    "@id": "https://saskatoonsymphony.org/genid/91fad0b9dbbc63a1",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5343,7 +5121,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/2956d6b0c24d4947",
+    "@id": "https://saskatoonsymphony.org/genid/99efd921d00d7c57",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5398,7 +5176,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/2869702be86a8595",
+    "@id": "https://saskatoonsymphony.org/genid/d066bc0fe1bb1157",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5453,7 +5231,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/064d8ae2064a019e",
+    "@id": "https://saskatoonsymphony.org/genid/a2f856a98045066d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5508,7 +5286,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/55c52392ab82bfd4",
+    "@id": "https://saskatoonsymphony.org/genid/67ceb2c7e6921f5d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5563,7 +5341,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/1e27265f2a6897d4",
+    "@id": "https://saskatoonsymphony.org/genid/70f770e860f166e4",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5618,7 +5396,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/339193b8f8f241a5",
+    "@id": "https://saskatoonsymphony.org/genid/13567fadfcbafe65",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5673,7 +5451,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/6ec3d5d9e7f475de",
+    "@id": "https://saskatoonsymphony.org/genid/60becb02eee59990",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5728,7 +5506,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/521f28cc69af0526",
+    "@id": "https://saskatoonsymphony.org/genid/89a7b32a0d6e096d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5783,7 +5561,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/db978ea9c4917b67",
+    "@id": "https://saskatoonsymphony.org/genid/1e8c8ef90d8d4296",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5855,7 +5633,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/b13c204d3a67b41e",
+    "@id": "https://saskatoonsymphony.org/genid/495fa7d8e66ce29c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5927,7 +5705,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/c35120b8ee26c944",
+    "@id": "https://saskatoonsymphony.org/genid/2e8e3faa8fcd8f49",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5999,7 +5777,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/87243f40e10403e1",
+    "@id": "https://saskatoonsymphony.org/genid/7d1162bf5ede1cf3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6071,7 +5849,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/64d8ca905ed8e29e",
+    "@id": "https://saskatoonsymphony.org/genid/1ea15ec52c0280ed",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6126,7 +5904,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/0f1b904b19ecb2d6",
+    "@id": "https://saskatoonsymphony.org/genid/1d95bc7d98feba4b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6181,7 +5959,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/058e7c390cabc734",
+    "@id": "https://saskatoonsymphony.org/genid/2abfbf34d9ef990f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6236,7 +6014,7 @@
     ]
   },
   {
-    "@id": "https://saskatoonsymphony.org/genid/215948399d5cd6ee",
+    "@id": "https://saskatoonsymphony.org/genid/fed0acb80d2939e4",
     "@type": [
       "http://schema.org/Event"
     ],
