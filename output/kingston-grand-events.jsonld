@@ -1,828 +1,5 @@
 [
   {
-    "@id": "https://www.kingstongrand.ca/events/flashback-2026",
-    "https://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      }
-    ],
-    "https://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "FLASHBACK"
-      }
-    ],
-    "https://ogp.me/ns#description": [
-      {
-        "@language": "en",
-        "@value": "Back in Canada by popular demand and direct from Las Vegas, the entertainment capital of the world… from the creators of OH WHAT A NIGHT and “FOUR BY FOUR” comes their latest show… “FLASHBACK”! This incredible musical experience celebrates the music of five different legendary groups including Motown… The Beach Boys… The Beatles… The Bee Gees… as well as Frankie Valli and the Four Seasons."
-      }
-    ],
-    "https://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/Flashback%20-%20Tour%202026%20-%201x1%20-%203300x3300-72dpi%20copy.jpeg"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/flashback-2026"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.kingstongrand.ca/events/flashback-2026#3045",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://www.kingstongrand.ca/events/flashback-2026"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/7438c623c6065e73"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-05T23:00:00+00:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4240"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/flashback-2026"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "FLASHBACK"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Back in Canada by popular demand and direct from Las Vegas, the entertainment capital of the world… from the creators of  OH WHAT A NIGHT and “FOUR BY FOUR” comes their latest show… “FLASHBACK”!\n\nThis incredible musical experience celebrates the music of five different legendary groups including Motown… The Beach Boys… The Beatles… The Bee Gees… as well as Frankie Valli and the Four Seasons."
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/7438c623c6065e73",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/Flashback%20-%20Tour%202026%20-%201x1%20-%203300x3300-72dpi%20copy.jpeg"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      },
-      {
-        "@language": "en",
-        "@value": "Rosen Auditorium"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/b7b7a76000a1aab1"
-      }
-    ]
-  },
-  {
-    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4240",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4240"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "$69.90 plus HST and handling fee ($83.69 all in)"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "CAN"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/b7b7a76000a1aab1",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "en",
-        "@value": "218 Princess St."
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "en",
-        "@value": "Kingston"
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "en",
-        "@value": "ON"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "en",
-        "@value": "K7L1B2"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "en",
-        "@value": "CA"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.kingstongrand.ca/",
-    "@type": [
-      "http://schema.org/Corporation"
-    ],
-    "http://schema.org/additionalType": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/EntertainmentBusiness"
-      },
-      {
-        "@id": "https://www.kingstongrand.ca/about/resident-companies/EntertainmentBusiness"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.facebook.com/kingstongrandtheatre"
-      },
-      {
-        "@id": "https://twitter.com/kingston_grand"
-      },
-      {
-        "@id": "https://www.instagram.com/kingstongrandtheatre/"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://www.kingstongrand.ca/"
-      }
-    ],
-    "http://schema.org/contactPoint": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/e7373c4afba8ec91"
-      },
-      {
-        "@id": "https://www.kingstongrand.ca/genid/6e148865a1d8a3ad"
-      }
-    ],
-    "http://schema.org/logo": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/ee8f46b09e297558"
-      }
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/b7b7a76000a1aab1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "en",
-        "@value": "+1-613-530-2050"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/e7373c4afba8ec91",
-    "@type": [
-      "http://schema.org/ContactPoint"
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "en",
-        "@value": "+1-613-530-2050"
-      }
-    ],
-    "http://schema.org/email": [
-      {
-        "@language": "en",
-        "@value": "grandtheatre2@cityofkingston.ca"
-      }
-    ],
-    "http://schema.org/contactType": [
-      {
-        "@language": "en",
-        "@value": "customer service"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/6e148865a1d8a3ad",
-    "@type": [
-      "http://schema.org/ContactPoint"
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "en",
-        "@value": "+1-613-530-2050"
-      }
-    ],
-    "http://schema.org/email": [
-      {
-        "@language": "en",
-        "@value": "grandtheatre2@cityofkingston.ca"
-      }
-    ],
-    "http://schema.org/contactType": [
-      {
-        "@language": "en",
-        "@value": "sales"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/ee8f46b09e297558",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/themes/kingstongrand/logo.png"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/events/svaha",
-    "https://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      }
-    ],
-    "https://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "Svāhā!"
-      }
-    ],
-    "https://ogp.me/ns#description": [
-      {
-        "@language": "en",
-        "@value": "Svāhā! is a vibrant dance experience that celebrates movement as a powerful, shared ritual, blending music, colour, and emotion. Created by award-winning choreographer Nova Bhattacharya, the performance brings together more than 20 diverse artists to explore individuality, community, and the transformative power of dance. Through dynamic movement and rich cultural expression, Svāhā! invites audiences to reflect on how we can be better together."
-      }
-    ],
-    "https://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/01-Svaha.png"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/svaha"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.kingstongrand.ca/events/svaha#2974",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://www.kingstongrand.ca/events/svaha"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/6c781564d60f8b6b"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-07T23:30:00+00:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4204"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/svaha"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Svāhā!"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Svāhā! is a vibrant dance experience that celebrates movement as a powerful, shared ritual, blending music, colour, and emotion. Created by award-winning choreographer Nova Bhattacharya, the performance brings together more than 20 diverse artists to explore individuality, community, and the transformative power of dance. Through dynamic movement and rich cultural expression, Svāhā! invites audiences to reflect on how we can be better together. "
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/6c781564d60f8b6b",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/01-Svaha.png"
-      }
-    ]
-  },
-  {
-    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4204",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4204"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "Pay What You Want Performance"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "CAN"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/about/resident-companies/grand-onstage",
-    "https://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      }
-    ],
-    "https://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "Grand OnStage presents"
-      }
-    ],
-    "https://ogp.me/ns#description": [
-      {
-        "@language": "en",
-        "@value": "Important dates, subscriptions, and more."
-      }
-    ],
-    "https://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/company/hero/GO_Marketing_Horz_RGB_POS_1.jpg"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/about/resident-companies/grand-onstage"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/events/we-aint-petty-and-lets-go",
-    "https://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      }
-    ],
-    "https://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "We Ain't Petty and Let's Go"
-      }
-    ],
-    "https://ogp.me/ns#description": [
-      {
-        "@language": "en",
-        "@value": "Springtime Entertainment is proud to present ‘WE AIN’T PETTY’, Canada’s foremost tribute to the Rock ‘n’ Roll Hall of Fame musician and his band, Tom Petty and The Heartbreakers and ‘LET’S GO!’, a high-energy act dedicated to celebrating the legendary rock band THE CARS. ‘WE AIN’T PETTY’ …. Since 2016 ‘WE AIN’T PETTY’ is the most sought-after live tribute to one of the world’s most recognized chart toppers."
-      }
-    ],
-    "https://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/Teaser%20Kingston%20Grand%20Oct.%208%20%28500%20x%20500%29%20REVISED%20FOR%20WEBSITE.jpg"
-      },
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.cafeaturing live band performances.\" />"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/we-aint-petty-and-lets-go"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.kingstongrand.ca/events/we-aint-petty-and-lets-go#3001",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://www.kingstongrand.ca/events/we-aint-petty-and-lets-go"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/040151611bc0119b"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-08T23:30:00+00:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4176"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/we-aint-petty-and-lets-go"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "We Ain't Petty and Let's Go"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Springtime Entertainment is proud to present ‘WE AIN’T PETTY’, Canada’s foremost tribute to the Rock ‘n’ Roll Hall of Fame musician and his band, Tom Petty and The Heartbreakers and ‘LET’S GO!’, a high-energy act dedicated to celebrating the legendary rock band THE CARS.\n\n‘WE AIN’T PETTY’ ….\n\nSince 2016 ‘WE AIN’T PETTY’ is the most sought-after live tribute to one of the world’s most recognized chart toppers. "
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/040151611bc0119b",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/Teaser%20Kingston%20Grand%20Oct.%208%20%28500%20x%20500%29%20REVISED%20FOR%20WEBSITE.jpg"
-      }
-    ]
-  },
-  {
-    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4176",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4176"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "$45.14 plus HST and handling fee ($55.70 all in)"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "CAN"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/events/queen-its-a-kinda-magic-2026",
-    "https://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      }
-    ],
-    "https://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "Queen: It's a Kinda Magic"
-      }
-    ],
-    "https://ogp.me/ns#description": [
-      {
-        "@language": "en",
-        "@value": "ARE YOU READY TO ROCK?! Direct from Australia, the hit tribute returns to Canada in 2026 - bigger, better and louder than ever! See the rock spectacular that Canadians flock to every year, bringing big sound, big screens, crazy lighting and outlandish costumes for a night of non-stop rock anthems, including Bohemian Rhapsody, We Will Rock You, We Are the Champions, Radio GaGa, I Want to Break Free, Somebody to Love, Don’t Stop Me Now, Another One Bites the Dust and so many more."
-      }
-    ],
-    "https://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/IMG%20Queen%20CAN%202026%201080x1920.jpg"
-      },
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/PHOTO%20Queen%20SaintJohn%20030524%20Copr%20Robert%20Doiron%2042.jpg"
-      },
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/PHOTO%20Queen%20SaintJohn%20030524%20Copr%20Robert%20Doiron%2039.jpg"
-      },
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/PHOTO%20Queen%20Peterborough%20220825%20Copr%20John%20Formosa%206.jpg"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/queen-its-a-kinda-magic-2026"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.kingstongrand.ca/events/queen-its-a-kinda-magic-2026#2977",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://www.kingstongrand.ca/events/queen-its-a-kinda-magic-2026"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/7599a3cb50e03f67"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-09T23:30:00+00:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4160"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/queen-its-a-kinda-magic-2026"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Queen: It's a Kinda Magic"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "ARE YOU READY TO ROCK?! Direct from Australia, the hit tribute returns to Canada in 2026 - bigger, better and louder than ever! \n\nSee the rock spectacular that Canadians flock to every year, bringing big sound, big screens, crazy lighting and outlandish costumes for a night of non-stop rock anthems, including Bohemian Rhapsody, We Will Rock You, We Are the Champions, Radio GaGa, I Want to Break Free, Somebody to Love, Don’t Stop Me Now, Another One Bites the Dust and so many more. "
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/7599a3cb50e03f67",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/IMG%20Queen%20CAN%202026%201080x1920.jpg"
-      }
-    ]
-  },
-  {
-    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4160",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "Earlybird (Apr15-30) $73.70 all in"
-      },
-      {
-        "@language": "en",
-        "@value": "Adults - $83.70 all in"
-      },
-      {
-        "@language": "en",
-        "@value": "Child - $53.70 all in"
-      },
-      {
-        "@language": "en",
-        "@value": "Groups of 6+ - $78.70 per person"
-      },
-      {
-        "@language": "en",
-        "@value": "all in."
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4160"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "CAN"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/events/grand-evolution",
-    "https://ogp.me/ns#site_name": [
-      {
-        "@language": "en",
-        "@value": "Kingston Grand Theatre"
-      }
-    ],
-    "https://ogp.me/ns#title": [
-      {
-        "@language": "en",
-        "@value": "Grand Evolution: The Best of Styx & Journey - Live!"
-      }
-    ],
-    "https://ogp.me/ns#description": [
-      {
-        "@language": "en",
-        "@value": "Prepare to be transported back to the golden age of arena rock with GRAND EVOLUTION, a phenomenal group of five world-class musicians. United by their deep admiration for the iconic sounds of two of the biggest names in commercial rock -- STYX and JOURNEY -- this high-energy tribute act delivers an unforgettable experience. On behalf of Partners in Mission Foodbank, we will be collecting non-perishable items. Every donation supports their mission to nourish local families by providing groceries through their food hamper program."
-      }
-    ],
-    "https://ogp.me/ns#image": [
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/GRAND%20EVOLUTION%20POSTER%20KINGSTON%20FB%201080%20pixels%20wide%20x%201920%20pixels%20high.png"
-      },
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca” featuring a live band on stage with event date October 10"
-      },
-      {
-        "@language": "en",
-        "@value": "http://www.kingstongrand.ca2026.\" />"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/grand-evolution"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.kingstongrand.ca/events/grand-evolution#3020",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://www.kingstongrand.ca/events/grand-evolution"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/eeee6714ff9df058"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-10T23:30:00+00:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4200"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.kingstongrand.ca/events/grand-evolution"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Grand Evolution: The Best of Styx & Journey - Live!"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Prepare to be transported back to the golden age of arena rock with GRAND EVOLUTION, a phenomenal group of five world-class musicians.  United by their deep admiration for the iconic sounds of two of the biggest names in commercial rock -- STYX and JOURNEY -- this high-energy tribute act delivers an unforgettable experience.  On behalf of Partners in Mission Foodbank, we will be collecting non-perishable items.  Every donation supports their mission to nourish local families by providing groceries through their food hamper program."
-      }
-    ]
-  },
-  {
-    "@id": "https://www.kingstongrand.ca/genid/eeee6714ff9df058",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/GRAND%20EVOLUTION%20POSTER%20KINGSTON%20FB%201080%20pixels%20wide%20x%201920%20pixels%20high.png"
-      }
-    ]
-  },
-  {
-    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4200",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4200"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "$60.00 all in per person"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "CAN"
-      }
-    ]
-  },
-  {
     "@id": "https://www.kingstongrand.ca/events/the-year-of-magical-thinking",
     "https://ogp.me/ns#site_name": [
       {
@@ -1007,6 +184,161 @@
     ]
   },
   {
+    "@id": "http://www.kingstongrand.ca/",
+    "@type": [
+      "http://schema.org/Corporation"
+    ],
+    "http://schema.org/additionalType": [
+      {
+        "@id": "https://www.kingstongrand.ca/events/EntertainmentBusiness"
+      },
+      {
+        "@id": "https://www.kingstongrand.ca/about/resident-companies/EntertainmentBusiness"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.facebook.com/kingstongrandtheatre"
+      },
+      {
+        "@id": "https://twitter.com/kingston_grand"
+      },
+      {
+        "@id": "https://www.instagram.com/kingstongrandtheatre/"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.kingstongrand.ca/"
+      }
+    ],
+    "http://schema.org/contactPoint": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/e7373c4afba8ec91"
+      },
+      {
+        "@id": "https://www.kingstongrand.ca/genid/6e148865a1d8a3ad"
+      }
+    ],
+    "http://schema.org/logo": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/ee8f46b09e297558"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/b7b7a76000a1aab1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Kingston Grand Theatre"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "+1-613-530-2050"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/e7373c4afba8ec91",
+    "@type": [
+      "http://schema.org/ContactPoint"
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "+1-613-530-2050"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": "grandtheatre2@cityofkingston.ca"
+      }
+    ],
+    "http://schema.org/contactType": [
+      {
+        "@language": "en",
+        "@value": "customer service"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/6e148865a1d8a3ad",
+    "@type": [
+      "http://schema.org/ContactPoint"
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "en",
+        "@value": "+1-613-530-2050"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "en",
+        "@value": "grandtheatre2@cityofkingston.ca"
+      }
+    ],
+    "http://schema.org/contactType": [
+      {
+        "@language": "en",
+        "@value": "sales"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/ee8f46b09e297558",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/themes/kingstongrand/logo.png"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/b7b7a76000a1aab1",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@language": "en",
+        "@value": "218 Princess St."
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@language": "en",
+        "@value": "Kingston"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@language": "en",
+        "@value": "ON"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@language": "en",
+        "@value": "K7L1B2"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@language": "en",
+        "@value": "CA"
+      }
+    ]
+  },
+  {
     "@id": "https://www.kingstongrand.ca/about/resident-companies/theatre-kingston",
     "https://ogp.me/ns#site_name": [
       {
@@ -1139,6 +471,27 @@
     "http://schema.org/url": [
       {
         "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/NL%20Songbook%20%281080%20x%201920%20px%29%281%29.png"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Kingston Grand Theatre"
+      },
+      {
+        "@language": "en",
+        "@value": "Rosen Auditorium"
+      }
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/b7b7a76000a1aab1"
       }
     ]
   },
@@ -1285,6 +638,38 @@
       {
         "@language": "en",
         "@value": "CAN"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/about/resident-companies/grand-onstage",
+    "https://ogp.me/ns#site_name": [
+      {
+        "@language": "en",
+        "@value": "Kingston Grand Theatre"
+      }
+    ],
+    "https://ogp.me/ns#title": [
+      {
+        "@language": "en",
+        "@value": "Grand OnStage presents"
+      }
+    ],
+    "https://ogp.me/ns#description": [
+      {
+        "@language": "en",
+        "@value": "Important dates, subscriptions, and more."
+      }
+    ],
+    "https://ogp.me/ns#image": [
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/company/hero/GO_Marketing_Horz_RGB_POS_1.jpg"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.kingstongrand.ca/about/resident-companies/grand-onstage"
       }
     ]
   },
@@ -8408,6 +7793,140 @@
     ]
   },
   {
+    "@id": "https://www.kingstongrand.ca/events/alan-doyle-2027",
+    "https://ogp.me/ns#site_name": [
+      {
+        "@language": "en",
+        "@value": "Kingston Grand Theatre"
+      }
+    ],
+    "https://ogp.me/ns#title": [
+      {
+        "@language": "en",
+        "@value": "ALAN DOYLE - Already Dancing Tour"
+      }
+    ],
+    "https://ogp.me/ns#description": [
+      {
+        "@language": "en",
+        "@value": "Expect the unexpected from Welcome Home, Alan Doyle’s fourth full-length solo studio album and 20th overall. While upholding his status as a perennial merrymaker — a reputation burnished by his years with acclaimed folk-pop combo Great Big Sea — the new album also finds the multifaceted singer-songwriter and 14-time JUNO Award nominee exploring novel sonic terrain."
+      }
+    ],
+    "https://ogp.me/ns#image": [
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/Static_Social_Meta_1080x1350_AlanDoyle_2027_Regional_KingstonGrandTheatre_0317.jpg"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.caAlready Dancing Tour"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.caMarch 17"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.ca2027"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.caat Kingston Grand Theatre.\" />"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.kingstongrand.ca/events/alan-doyle-2027"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.kingstongrand.ca/events/alan-doyle-2027#3103",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.kingstongrand.ca/events/alan-doyle-2027"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/ad920b6a95ad1c1e"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-03-17T23:30:00+00:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4293"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.kingstongrand.ca/events/alan-doyle-2027"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "ALAN DOYLE - Already Dancing Tour"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Expect the unexpected from Welcome Home, Alan Doyle’s fourth full-length solo studio album and 20th overall. While upholding his status as a perennial merrymaker — a reputation burnished by his years with acclaimed folk-pop combo Great Big Sea — the new album also finds the multifaceted singer-songwriter and 14-time JUNO Award nominee exploring novel sonic terrain. "
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/ad920b6a95ad1c1e",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/Static_Social_Meta_1080x1350_AlanDoyle_2027_Regional_KingstonGrandTheatre_0317.jpg"
+      },
+      {
+        "@id": "https://www.kingstongrand.ca/events/2027"
+      }
+    ]
+  },
+  {
+    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4293",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4293"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "P1 - $89.22 + HST and handling fee ($105.52 all in); P2 - $75.88 + HST and handling fee ($90.44 all in) - See seating map below for locations."
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "CAN"
+      }
+    ]
+  },
+  {
     "@id": "https://www.kingstongrand.ca/events/erths-shark-dive",
     "https://ogp.me/ns#site_name": [
       {
@@ -11199,6 +10718,129 @@
     ]
   },
   {
+    "@id": "https://www.kingstongrand.ca/events/ones-the-beatles-1-hits-2027",
+    "https://ogp.me/ns#site_name": [
+      {
+        "@language": "en",
+        "@value": "Kingston Grand Theatre"
+      }
+    ],
+    "https://ogp.me/ns#title": [
+      {
+        "@language": "en",
+        "@value": "ONES - The Beatles #1 Hits"
+      }
+    ],
+    "https://ogp.me/ns#description": [
+      {
+        "@language": "en",
+        "@value": "“…the crowning achievement of a career…” Karen Bliss (Billboard/Pollstar) “First and foremost, their performances are sensational.” Tom Frangione (Sirius XM) “This is such a high energy, well produced show.” Joe Johnson (Beatles Brunch)"
+      }
+    ],
+    "https://ogp.me/ns#image": [
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/ONES_1080x1561_WebsiteImage.jpg"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.cafeaturing a live tribute band performing on stage with Beatles fan imagery projected behind them; Saturday"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.caMay 8 at 7:30 PM.\" />"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.kingstongrand.ca/events/ones-the-beatles-1-hits-2027"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.kingstongrand.ca/events/ones-the-beatles-1-hits-2027#3101",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.kingstongrand.ca/events/ones-the-beatles-1-hits-2027"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/a1a0642009a27491"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-05-08T11:30:00+00:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4291"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.kingstongrand.ca/events/ones-the-beatles-1-hits-2027"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "ONES  - The Beatles #1 Hits"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "“…the crowning achievement of a career…” Karen Bliss (Billboard/Pollstar) \n\n“First and foremost, their performances are sensational.” Tom Frangione (Sirius XM) \n\n“This is such a high energy, well produced show.” Joe Johnson (Beatles Brunch)  "
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/a1a0642009a27491",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/ONES_1080x1561_WebsiteImage.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4291",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4291"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "A Sec - $67.41 + HST and handling fee ($80.88 all in); B Sec (top 4 rows of balcony) - $49.73 + HST and handling fee ($60.90 all in)"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "CAN"
+      }
+    ]
+  },
+  {
     "@id": "https://www.kingstongrand.ca/events/garth-shania-tribute-concert-2027",
     "https://ogp.me/ns#site_name": [
       {
@@ -11445,6 +11087,129 @@
       {
         "@language": "en",
         "@value": "$59.00 plus handling fee ($63.70 all in)"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "CAN"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/events/a-night-of-bon-jovi",
+    "https://ogp.me/ns#site_name": [
+      {
+        "@language": "en",
+        "@value": "Kingston Grand Theatre"
+      }
+    ],
+    "https://ogp.me/ns#title": [
+      {
+        "@language": "en",
+        "@value": "'A Night of' - Bon Jovi Featuring Nick Walsh"
+      }
+    ],
+    "https://ogp.me/ns#description": [
+      {
+        "@language": "en",
+        "@value": "Experience the ultimate high-octane rock show, masterfully tailored for the theater stage. Juno Award-winning vocalist Nick Walsh from SLIK TOXIK & Classic Albums Live brings his acclaimed “A Night Of” series to life with a spectacular, studio-faithful celebration of the music of Bon Jovi."
+      }
+    ],
+    "https://ogp.me/ns#image": [
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/ANO_1080x1561_WebsiteImage.jpg"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.cafeaturing a live band performance on stage beneath a large microphone logo"
+      },
+      {
+        "@language": "en",
+        "@value": "http://www.kingstongrand.cawith text highlighting a studio-faithful celebration of Bon Jovi’s music.\" />"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.kingstongrand.ca/events/a-night-of-bon-jovi"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.kingstongrand.ca/events/a-night-of-bon-jovi#3102",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.kingstongrand.ca/events/a-night-of-bon-jovi"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/0256cdb0f0d12caf"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-05-27T23:30:00+00:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.kingstongrand.ca/genid/c839db5ebeab6361"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4292"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.kingstongrand.ca/events/a-night-of-bon-jovi"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "'A Night of' - Bon Jovi Featuring Nick Walsh"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Experience the ultimate high-octane rock show, masterfully tailored for the theater stage.  \n\nJuno Award-winning vocalist Nick Walsh from SLIK TOXIK & Classic Albums Live brings his acclaimed “A Night Of” series to life with a spectacular, studio-faithful celebration of the music of Bon Jovi.  "
+      }
+    ]
+  },
+  {
+    "@id": "https://www.kingstongrand.ca/genid/0256cdb0f0d12caf",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/img/event/hero/ANO_1080x1561_WebsiteImage.jpg"
+      }
+    ]
+  },
+  {
+    "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4292",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://secure1.tixhub.com/kingston/Procurement/lindexfmk.asp?cboEvent=4292"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "A Sec - $58.05 + HST and handling fee ($70.30 all in); B Sec (top 4 rows of balcony) - $44.53 + HST and handling fee ($55.02 all in)"
       }
     ],
     "http://schema.org/priceCurrency": [
