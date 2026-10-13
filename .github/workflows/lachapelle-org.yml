@@ -1,0 +1,22 @@
+name: Fetch La Chapelle Scènes Contemporaines Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5 * * 2' # weekly
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "fetch-push"
+          artifact: "lachapelle-org"
+          artifact-file: "output/lachapelle-org-events.jsonld"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://www.lachapelle.org/fr/programmation"
+          entity-identifier: 'a.show-card'
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
