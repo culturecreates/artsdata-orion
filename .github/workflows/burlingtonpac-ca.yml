@@ -18,5 +18,19 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           page-url: "https://burlingtonpac.ca/tribe_events-sitemap.xml"
           entity-identifier: "loc"
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/burlingtonpac-ca.sparql"
+          html-extract-config: |
+            {
+              "entity_type": "http://schema.org/Event",
+              "extract": {
+                "http://schema.org/description": {
+                  "xpath": "//meta[@name=\"description\"]/@content"
+                },
+                "https://github.com/culturecreates/artsdata-orion#ticketUrl": {
+                  "xpath": "//a[contains(@class,\"bpac-ticket-btn\")]/@href",
+                  "uri": "true"
+                }
+              }
+            }
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
