@@ -1,0 +1,16 @@
+# Remove triples whose predicate is not an http(s) IRI.
+#
+# Open Graph meta tags such as <meta property="article:modified_time"> are
+# read as RDFa. Their prefixes (article:, og:, fb:, twitter:) are not declared
+# on the page, so they become predicates like <article:modified_time>, which
+# GraphDB rejects as invalid triples.
+#
+# Used as `custom-sparql` in workflows; applied per entity during fetch.
+
+DELETE {
+  ?s ?p ?o .
+}
+WHERE {
+  ?s ?p ?o .
+  FILTER(!STRSTARTS(STR(?p), "http://") && !STRSTARTS(STR(?p), "https://"))
+}
