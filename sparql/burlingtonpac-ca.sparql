@@ -1,0 +1,29 @@
+# Custom transform for the burlingtonpac.ca website crawl
+# (.github/workflows/burlingtonpac-ca.yml), applied per event page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# 1. The Events Calendar emits an empty schema:description. Drop empty
+#    descriptions so only the one taken from the page's meta description stays.
+# 2. The html-extract-config puts the page's "Buy Tickets" link on the event
+#    under a temporary predicate. Turn it into a schema:Offer with that URL.
+
+DELETE {
+  ?event <http://schema.org/description> ?description .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/description> ?description .
+  FILTER(STRLEN(STR(?description)) = 0)
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#ticketUrl> ?ticketUrl .
+}
+INSERT {
+  ?event <http://schema.org/offers> _:offer .
+  _:offer a <http://schema.org/Offer> ;
+    <http://schema.org/url> ?ticketUrl .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#ticketUrl> ?ticketUrl .
+}

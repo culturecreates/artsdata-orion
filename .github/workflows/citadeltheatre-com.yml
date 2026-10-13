@@ -1,0 +1,22 @@
+name: Fetch Citadel Theatre Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5 * * 1' # weekly
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "fetch-push"
+          artifact: "citadeltheatre-com"
+          artifact-file: "output/citadeltheatre-com-events.jsonld"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://citadeltheatre.com/productions-sitemap.xml"
+          entity-identifier: "loc"
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

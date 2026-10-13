@@ -1,0 +1,23 @@
+name: Fetch Montreal Museum of Fine Arts (MBAM) Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5 * * 3' # weekly
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "fetch-push"
+          artifact: "mbam-qc-ca"
+          artifact-file: "output/mbam-qc-ca-events.jsonld"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://www.mbam.qc.ca/fr/calendrier/?page="
+          entity-identifier: 'a[href*="/fr/activites/"]'
+          is-paginated: true
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
