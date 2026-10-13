@@ -18,6 +18,7 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           page-url: "https://burlingtonpac.ca/tribe_events-sitemap.xml"
           entity-identifier: "loc"
+          skolemization-exclude: '{"http://schema.org/Place":["http://schema.org/sameAs"]}'
           custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/burlingtonpac-ca.sparql"
           html-extract-config: |
             {
