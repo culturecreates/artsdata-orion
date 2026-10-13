@@ -18,5 +18,6 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           page-url: "https://persephonetheatre.org/tribe_events-sitemap.xml"
           entity-identifier: "loc"
+          skolemization-exclude: '{"http://schema.org/Place":["http://schema.org/sameAs"]}'
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
