@@ -1,0 +1,19 @@
+# Custom transform for the legesu.com crawl (.github/workflows/legesu-com.yml),
+# applied per event page.
+#
+# Le Gesù's JSON-LD has no schema:location on its events. Le Gesù is a single
+# venue, so give every event without a location a Place for its hall,
+# "Amphithéâtre du Gesù", linked with schema:sameAs to the existing Artsdata
+# place K2-6679 (the hall inside the Le Gesù building) so it
+# reconciles to that place instead of minting a new one.
+
+INSERT {
+  ?event <http://schema.org/location> _:place .
+  _:place a <http://schema.org/Place> ;
+    <http://schema.org/name> "Amphithéâtre du Gesù"@fr ;
+    <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6679> .
+}
+WHERE {
+  ?event a <http://schema.org/Event> .
+  FILTER NOT EXISTS { ?event <http://schema.org/location> ?anyLocation }
+}
