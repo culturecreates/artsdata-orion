@@ -20,4 +20,14 @@ jobs:
           entity-identifier: "loc"
           skolemization-exclude: '{"http://schema.org/Place":["http://schema.org/sameAs"]}'
           token: "${{ secrets.GITHUB_TOKEN }}"
+          html-extract-config: |
+            {
+              "entity_type": "http://schema.org/Event",
+              "extract": {
+                "http://schema.org/description": {
+                  "from_property": "http://schema.org/url",
+                  "xpath": "normalize-space(//div[contains(@class,\"content-box\")])"
+                }
+              }
+            }
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
