@@ -1,22 +1,153 @@
 name: Fetch VOIR (L'actualité) Events
 
+# The events sitemap is too large for one 6-hour runner, so the URLs are split
+# into chunks, each chunk is fetched by its own matrix job, and the parts are
+# merged into a single artifact that is pushed to Artsdata once.
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '29 5 * * 4' # weekly
 
+permissions:
+  contents: write
+
+env:
+  SITEMAP_URL: "https://voir.lactualite.com/sitemaps/events.xml"
+  ARTIFACT: "voir-lactualite-com"
+  ARTIFACT_FILE: "output/voir-lactualite-com-events.jsonld"
+  CHUNK_SIZE: "1000"
+
 jobs:
-  artsdata-fetch-and-push:
+  plan:
     runs-on: ubuntu-latest
+    outputs:
+      chunks: ${{ steps.split.outputs.chunks }}
     steps:
-      - name: Action setup
+      - name: Split sitemap URLs into chunks
+        id: split
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, xml.etree.ElementTree as ET
+
+          NS = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+
+          def locs(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "artsdata-orion"})
+              root = ET.fromstring(urllib.request.urlopen(req, timeout=60).read())
+              found = [e.text.strip() for e in root.iter(NS + "loc")]
+              if root.tag == NS + "sitemapindex":
+                  return [u for child in found for u in locs(child)]
+              return found
+
+          urls = list(dict.fromkeys(locs(os.environ["SITEMAP_URL"])))
+          size = int(os.environ["CHUNK_SIZE"])
+          os.makedirs("chunks", exist_ok=True)
+          ids = []
+          for i in range(0, len(urls), size):
+              n = i // size
+              with open(f"chunks/chunk-{n}.txt", "w") as f:
+                  f.write("\n".join(urls[i:i + size]))
+              ids.append(n)
+          print(f"{len(urls)} URLs in {len(ids)} chunks of up to {size}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"chunks={json.dumps(ids)}\n")
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: url-chunks
+          path: chunks/
+
+  fetch:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      max-parallel: 4 # be polite to the source site
+      matrix:
+        chunk: ${{ fromJSON(needs.plan.outputs.chunks) }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: url-chunks
+          path: chunks
+
+      - name: Read chunk
+        id: urls
+        run: |
+          echo "count=$(wc -l < chunks/chunk-${{ matrix.chunk }}.txt | awk '{print $1+1}')" >> "$GITHUB_OUTPUT"
+          echo "list=$(paste -sd, chunks/chunk-${{ matrix.chunk }}.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch chunk ${{ matrix.chunk }}
         uses: culturecreates/artsdata-pipeline-action@v4
         with:
-          mode: "fetch-push"
-          artifact: "voir-lactualite-com"
-          artifact-file: "output/voir-lactualite-com-events.jsonld"
+          mode: "fetch"
+          artifact: "${{ env.ARTIFACT }}"
+          artifact-file: "output/${{ env.ARTIFACT }}-part-${{ matrix.chunk }}.jsonld"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          page-url: "https://voir.lactualite.com/sitemaps/events.xml"
-          entity-identifier: "loc"
+          urls-are-entities: "true"
+          page-url: "${{ steps.urls.outputs.list }}"
+          max-pages: "${{ steps.urls.outputs.count }}"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.chunk }}
+          path: output/${{ env.ARTIFACT }}-part-${{ matrix.chunk }}.jsonld
+          if-no-files-found: ignore
+
+  merge-and-push:
+    needs: fetch
+    if: ${{ !cancelled() }} # push whatever parts succeeded
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: parts
+          merge-multiple: true
+
+      - name: Merge parts into one JSON-LD file
+        run: |
+          pip install --quiet rdflib
+          python3 - <<'PY'
+          import glob, os
+          from rdflib import Graph
+          files = sorted(glob.glob("parts/*.jsonld"))
+          if not files:
+              raise SystemExit("No parts were fetched")
+          g = Graph()
+          for f in files:
+              g.parse(f, format="json-ld")
+          out = os.environ["ARTIFACT_FILE"]
+          os.makedirs(os.path.dirname(out), exist_ok=True)
+          g.serialize(out, format="json-ld")
+          print(f"Merged {len(files)} parts, {len(g)} triples -> {out}")
+          PY
+
+      - name: Commit merged file
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$ARTIFACT_FILE"
+          git commit -m "Update $ARTIFACT_FILE" || echo "No changes"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+          echo "url=https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$(git rev-parse HEAD)/$ARTIFACT_FILE" >> "$GITHUB_OUTPUT"
+
+      - name: Push to Artsdata
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "push"
+          artifact: "${{ env.ARTIFACT }}"
+          artifact-file: "${{ env.ARTIFACT_FILE }}"
+          downloadUrl: "${{ steps.commit.outputs.url }}"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://voir.lactualite.com"
+          token: "${{ secrets.GITHUB_TOKEN }}"
