@@ -151,24 +151,24 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/10/fest-of-trees-website-header-1-scaled.png"
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/velveteen-rabbit-web.png"
       }
     ],
     "http://schema.org/contentUrl": [
       {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/10/fest-of-trees-website-header-1-scaled.png"
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/velveteen-rabbit-web.png"
       }
     ],
     "http://schema.org/width": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "2560"
+        "@value": "1920"
       }
     ],
     "http://schema.org/height": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1440"
+        "@value": "1080"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -219,6 +219,66 @@
     ]
   },
   {
+    "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-03T19:30:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-03T22:30:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Southern Ontario Lyric Opera: The Barber of Seville"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
+      }
+    ]
+  },
+  {
     "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -243,6 +303,154 @@
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "500"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "Southern Ontario Lyric Opera: The Barber of Seville - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-07-15T14:31:47+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2025/10/2026.10.02-03_SOLO-BarberOfSeville_WebImage.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "800"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "500"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2025/10/2026.10.02-03_SOLO-BarberOfSeville_WebImage.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-10-03T15:02:58+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-07-15T14:31:47+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/a9bc3685a8ef8e1b"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Southern Ontario Lyric Opera: The Barber of Seville - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
       }
     ],
     "http://schema.org/inLanguage": [
@@ -320,9 +528,6 @@
         "@id": "https://burlingtonpac.ca/event/cal-elton-john/"
       },
       {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
-      },
-      {
         "@id": "https://burlingtonpac.ca/event/greatest-showman-singalong/"
       },
       {
@@ -398,9 +603,6 @@
         "@id": "https://burlingtonpac.ca/event/other-mozart/"
       },
       {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
-      },
-      {
         "@id": "https://burlingtonpac.ca/event/macbeth/"
       },
       {
@@ -423,9 +625,6 @@
       },
       {
         "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
-      },
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
       },
       {
         "@id": "https://burlingtonpac.ca/event/sarah-harmer/"
@@ -503,16 +702,10 @@
         "@id": "https://burlingtonpac.ca/event/ocean-blue-edu/"
       },
       {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
-      },
-      {
         "@id": "https://burlingtonpac.ca/event/pareidolia/"
       },
       {
         "@id": "https://burlingtonpac.ca/event/she-carries-the-song/"
-      },
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
       },
       {
         "@id": "https://burlingtonpac.ca/event/shantero-the-barra-macneils/"
@@ -540,6 +733,30 @@
       },
       {
         "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/"
+      },
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
       }
     ],
     "http://schema.org/name": [
@@ -2956,154 +3173,6 @@
       {
         "@language": "en",
         "@value": "A timeless collection of chart-topping classics, featuring beloved songs like “Rocket Man,” “Your Song,” and “Bennie and the Jets.”"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "4th Annual Whitehorse Winter Classic - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "For the first time, Whitehorse hits the road as a true family band in a special evening celebrating two decades of music together."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-05-28T22:00:24+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse-1024x576.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "576"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-21T17:37:29+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-28T22:00:24+00:00"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/41459f9fde165de5"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/"
-      }
-    ],
-    "https://theeventscalendar.com/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "4th Annual Whitehorse Winter Classic - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "For the first time, Whitehorse hits the road as a true family band in a special evening celebrating two decades of music together."
       }
     ],
     "http://schema.org/inLanguage": [
@@ -6802,154 +6871,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/emerald-isle/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "Emerald Isle - A Joyful Celebration of Irish Music, Song and Dance - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "Fresh from its World Premiere, where Emerald Isle received a 5 Star review, this world’s first in Irish music, song and dance takes us around the 32 counties of the island of Ireland."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/emerald-isle/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-07-02T16:47:47+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle-1024x576.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "576"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-21T19:31:55+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-07-02T16:47:47+00:00"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/57360e8cd63adb7e"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/"
-      }
-    ],
-    "https://theeventscalendar.com/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Emerald Isle - A Joyful Celebration of Irish Music, Song and Dance - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Fresh from its World Premiere, where Emerald Isle received a 5 Star review, this world’s first in Irish music, song and dance takes us around the 32 counties of the island of Ireland."
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/event/macbeth/",
     "http://ogp.me/ns#locale": [
       {
@@ -7976,302 +7897,6 @@
       {
         "@language": "en",
         "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "Southern Ontario Lyric Opera: The Barber of Seville - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-07-15T14:31:47+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2025/10/2026.10.02-03_SOLO-BarberOfSeville_WebImage.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "800"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "500"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2025/10/2026.10.02-03_SOLO-BarberOfSeville_WebImage.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2025-10-03T15:02:58+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-07-15T14:31:47+00:00"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/a9bc3685a8ef8e1b"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/"
-      }
-    ],
-    "https://theeventscalendar.com/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Southern Ontario Lyric Opera: The Barber of Seville - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/over-the-ridge/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "Over the Ridge - The Story of Vimy Ridge - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/over-the-ridge/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-07-20T13:33:53+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge-1024x576.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "576"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-21T16:03:58+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-07-20T13:33:53+00:00"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/782c224b7d9efb2f"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/"
-      }
-    ],
-    "https://theeventscalendar.com/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Over the Ridge - The Story of Vimy Ridge - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
       }
     ],
     "http://schema.org/inLanguage": [
@@ -11982,154 +11607,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "No Excuses, No Limits - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "ILL-ABILITIES™ is an International Breakdance Crew composed of seven active members from around the world."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/ill-abilities-edu/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-09-18T22:22:54+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "1920"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "1080"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-04-23T19:44:46+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-09-18T22:22:54+00:00"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/2a6b00b1ea4dd8e2"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/"
-      }
-    ],
-    "https://theeventscalendar.com/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "No Excuses, No Limits - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "ILL-ABILITIES™ is an International Breakdance Crew composed of seven active members from around the world."
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/event/pareidolia/",
     "http://ogp.me/ns#locale": [
       {
@@ -12416,154 +11893,6 @@
       {
         "@language": "en",
         "@value": "Three powerful Indigenous women - Celeigh Cardinal (Cree), Mimi O’Bonsawin (W8banaki), and Lacey Hill (Oneida/Mohawk) - come together in this intimate and moving performance that weaves voice, story, and song into a shared circle of strength."
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "The Velveteen Rabbit - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-10-01T20:09:44+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos-1024x576.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "576"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
-    "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage"
-      }
-    ],
-    "http://schema.org/thumbnailUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos.png"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-04-23T19:39:44+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-01T20:09:44+00:00"
-      }
-    ],
-    "http://schema.org/potentialAction": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/9fc3a7ab8b52467d"
-      }
-    ],
-    "https://api.w.org/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/"
-      }
-    ],
-    "https://theeventscalendar.com/": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "The Velveteen Rabbit - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
       }
     ],
     "http://schema.org/inLanguage": [
@@ -13906,6 +13235,1238 @@
     ]
   },
   {
+    "@id": "https://burlingtonpac.ca/event/emerald-isle/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "Emerald Isle - A Joyful Celebration of Irish Music, Song and Dance - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "Fresh from its World Premiere, where Emerald Isle received a 5 Star review, this world’s first in Irish music, song and dance takes us around the 32 counties of the island of Ireland."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/emerald-isle/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-16T14:15:54+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle-1024x576.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "576"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-05-21T19:31:55+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-16T14:15:54+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/57360e8cd63adb7e"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Emerald Isle - A Joyful Celebration of Irish Music, Song and Dance - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Fresh from its World Premiere, where Emerald Isle received a 5 Star review, this world’s first in Irish music, song and dance takes us around the 32 counties of the island of Ireland."
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "The Velveteen Rabbit - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-20T14:10:35+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos-1024x576.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "576"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-04-23T19:39:44+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T14:10:35+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/9fc3a7ab8b52467d"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Velveteen Rabbit - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "Over the Ridge - The Story of Vimy Ridge - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/over-the-ridge-aft/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-20T15:26:22+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge-1024x576.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "576"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T13:47:51+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T15:26:22+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/5d2c27077c83dd76"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Over the Ridge - The Story of Vimy Ridge - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/over-the-ridge/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "Over the Ridge - The Story of Vimy Ridge - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/over-the-ridge/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-20T15:28:57+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge-1024x576.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "576"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-05-21T16:03:58+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T15:28:57+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/782c224b7d9efb2f"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Over the Ridge - The Story of Vimy Ridge - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "The Velveteen Rabbit - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/the-velveteen-rabbit/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-20T15:41:33+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/04/velveteen-rabbit-web-1024x576.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "576"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/velveteen-rabbit-web.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T14:04:54+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T15:41:33+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/1e29054043ebac9d"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Velveteen Rabbit - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "No Excuses, No Limits - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "ILL-ABILITIES™ is an International Breakdance Crew composed of seven active members from around the world."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/ill-abilities-edu/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-20T18:57:25+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-04-23T19:44:46+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T18:57:25+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/2a6b00b1ea4dd8e2"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "No Excuses, No Limits - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "ILL-ABILITIES™ is an International Breakdance Crew composed of seven active members from around the world."
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "Brott Music Festival: Handel's Messiah - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/brott-handels-messiah/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-20T19:16:30+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2025/12/Brott-Social-Media-Pages-800x500-oct-2026-PROOF.jpg"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "800"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "500"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/jpeg"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2025/12/Brott-Social-Media-Pages-800x500-oct-2026-PROOF.jpg"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2025-12-17T19:28:33+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-20T19:16:30+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/9c94e984e10cbca1"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Brott Music Festival: Handel's Messiah - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "4th Annual Whitehorse Winter Classic - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "For the first time, Whitehorse hits the road as a true family band in a special evening celebrating two decades of music together."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-21T19:19:28+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse-1024x576.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "576"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-05-21T17:37:29+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-21T19:19:28+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/41459f9fde165de5"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "4th Annual Whitehorse Winter Classic - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "For the first time, Whitehorse hits the road as a true family band in a special evening celebrating two decades of music together."
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-04T15:00:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-04T18:00:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Burlington Symphony Orchestra: Beethoven and Brahms"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
+      }
+    ]
+  },
+  {
     "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -13936,6 +14497,66 @@
       {
         "@language": "en",
         "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/pareidolia-edu/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/pareidolia-edu/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/pareidolia-edu/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-07T12:00:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-07T14:00:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Pareidolia"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
       }
     ]
   },
@@ -13974,6 +14595,66 @@
     ]
   },
   {
+    "@id": "https://burlingtonpac.ca/event/pareidolia/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/pareidolia/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/pareidolia/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-07T19:00:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-07T22:00:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Pareidolia"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Pareidolia explores the playful power of imagination - when everyday objects transform before our eyes."
+      }
+    ]
+  },
+  {
     "@id": "https://burlingtonpac.ca/event/pareidolia/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -14004,6 +14685,66 @@
       {
         "@language": "en",
         "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/derek-seguin/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/derek-seguin/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/derek-seguin/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-09T19:30:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-09T22:30:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Derek Seguin"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Comedy superstar Derek Seguin is touring Canada with his hysterical new show to celebrate his 20th year as a professional joke teller."
       }
     ]
   },
@@ -14042,6 +14783,66 @@
     ]
   },
   {
+    "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-13T09:30:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-13T14:30:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/a9bbba0f8629e00f"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "BPAC Backstage – Technical Production Workshop"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Step behind the curtain and discover the artistry and technology that bring live performances to life."
+      }
+    ]
+  },
+  {
     "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -14066,6 +14867,154 @@
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "BPAC Backstage - Technical Production Workshop - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "Step behind the curtain and discover the artistry and technology that bring live performances to life."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-08T13:58:00+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/04/edu-events-feature-images-1920-x-1080-px.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1920"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "1080"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/edu-events-feature-images-1920-x-1080-px.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-04-24T14:15:50+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-08T13:58:00+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/971fd41de3472828"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "BPAC Backstage - Technical Production Workshop - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Step behind the curtain and discover the artistry and technology that bring live performances to life."
       }
     ],
     "http://schema.org/inLanguage": [
@@ -14722,150 +15671,62 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "BPAC Backstage - Technical Production Workshop - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "Step behind the curtain and discover the artistry and technology that bring live performances to life."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-10-08T13:58:00+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/04/edu-events-feature-images-1920-x-1080-px.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "1920"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "1080"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
+    "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/#event",
     "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#primaryimage"
-      }
+      "http://schema.org/Event"
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#primaryimage"
+        "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/#primaryimage"
       }
     ],
-    "http://schema.org/thumbnailUrl": [
+    "http://schema.org/url": [
       {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/edu-events-feature-images-1920-x-1080-px.png"
+        "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/"
       }
     ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-04-24T14:15:50+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
+    "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-10-08T13:58:00+00:00"
+        "@value": "2026-10-15T19:30:00-04:00"
       }
     ],
-    "http://schema.org/potentialAction": [
+    "http://schema.org/endDate": [
       {
-        "@id": "https://burlingtonpac.ca/genid/971fd41de3472828"
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-15T22:30:00-04:00"
       }
     ],
-    "https://api.w.org/": [
+    "http://schema.org/location": [
       {
-        "@id": "https://burlingtonpac.ca/wp-json/"
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
       }
     ],
-    "https://theeventscalendar.com/": [
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+        "@id": "https://burlingtonpac.ca/calendar/"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "BPAC Backstage - Technical Production Workshop - The Burlington Performing Arts Centre"
+        "@value": "Svāhā! – Nova Dance"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
       }
     ],
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Step behind the curtain and discover the artistry and technology that bring live performances to life."
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
+        "@value": "Svāhā! by Nova Dance is a vibrant celebration of movement, music, and community. Created by acclaimed choreographer Nova Bhattacharya."
       }
     ]
   },
@@ -14904,6 +15765,66 @@
     ]
   },
   {
+    "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-16T20:00:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-16T22:00:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Icon Productions: Timeless Icons"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
+      }
+    ]
+  },
+  {
     "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -14938,6 +15859,66 @@
     ]
   },
   {
+    "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-17T13:00:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-17T16:00:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/3af255cc7c261fa4"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Secret Path Cushion Concert w/ Kate Dickson & Shannon Thunderbird"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Join respected community Elders Kate Dickson and Shannon Thunderbird for an afternoon of discovery and teachings from the First Peoples."
+      }
+    ]
+  },
+  {
     "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -14962,6 +15943,154 @@
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1440"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/",
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "en-ca",
+        "@value": "en_US"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "en-ca",
+        "@value": "article"
+      }
+    ],
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "en-ca",
+        "@value": "The Secret Path Cushion Concert w/ Kate Dickson & Shannon Thunderbird - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "en-ca",
+        "@value": "Join respected community Elders Kate Dickson and Shannon Thunderbird for an afternoon of discovery and teachings from the First Peoples."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "en-ca",
+        "@value": "The Burlington Performing Arts Centre"
+      }
+    ],
+    "article:publisher": [
+      {
+        "@language": "en-ca",
+        "@value": "https://www.facebook.com/BurlingtonPAC"
+      }
+    ],
+    "article:modified_time": [
+      {
+        "@language": "en-ca",
+        "@value": "2026-10-16T15:34:40+00:00"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "en-ca",
+        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/secret-path-new-pics-scaled-1024x576.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "en-ca",
+        "@value": "1024"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "en-ca",
+        "@value": "576"
+      }
+    ],
+    "http://ogp.me/ns#image:type": [
+      {
+        "@language": "en-ca",
+        "@value": "image/png"
+      }
+    ],
+    "@type": [
+      "http://schema.org/WebPage"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+      }
+    ],
+    "http://schema.org/isPartOf": [
+      {
+        "@id": "https://burlingtonpac.ca/#website"
+      }
+    ],
+    "http://schema.org/primaryImageOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#primaryimage"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#primaryimage"
+      }
+    ],
+    "http://schema.org/thumbnailUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/secret-path-new-pics-scaled.png"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-05-21T15:08:37+00:00"
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-16T15:34:40+00:00"
+      }
+    ],
+    "http://schema.org/potentialAction": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/9c0b714f1ae56bfe"
+      }
+    ],
+    "https://api.w.org/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/"
+      }
+    ],
+    "https://theeventscalendar.com/": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Secret Path Cushion Concert w/ Kate Dickson & Shannon Thunderbird - The Burlington Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Join respected community Elders Kate Dickson and Shannon Thunderbird for an afternoon of discovery and teachings from the First Peoples."
       }
     ],
     "http://schema.org/inLanguage": [
@@ -15165,150 +16294,62 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/",
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "en-ca",
-        "@value": "en_US"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "en-ca",
-        "@value": "article"
-      }
-    ],
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "en-ca",
-        "@value": "The Secret Path Cushion Concert w/ Kate Dickson & Shannon Thunderbird - The Burlington Performing Arts Centre"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "en-ca",
-        "@value": "Join respected community Elders Kate Dickson and Shannon Thunderbird for an afternoon of discovery and teachings from the First Peoples."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "en-ca",
-        "@value": "The Burlington Performing Arts Centre"
-      }
-    ],
-    "article:publisher": [
-      {
-        "@language": "en-ca",
-        "@value": "https://www.facebook.com/BurlingtonPAC"
-      }
-    ],
-    "article:modified_time": [
-      {
-        "@language": "en-ca",
-        "@value": "2026-10-14T15:48:33+00:00"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "en-ca",
-        "@value": "https://burlingtonpac.ca/wp-content/uploads/2026/05/secret-path-new-pics-scaled-1024x576.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "en-ca",
-        "@value": "1024"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "en-ca",
-        "@value": "576"
-      }
-    ],
-    "http://ogp.me/ns#image:type": [
-      {
-        "@language": "en-ca",
-        "@value": "image/png"
-      }
-    ],
+    "@id": "https://burlingtonpac.ca/event/she-carries-the-song/#event",
     "@type": [
-      "http://schema.org/WebPage"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
-      }
-    ],
-    "http://schema.org/isPartOf": [
-      {
-        "@id": "https://burlingtonpac.ca/#website"
-      }
-    ],
-    "http://schema.org/primaryImageOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#primaryimage"
-      }
+      "http://schema.org/Event"
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#primaryimage"
+        "@id": "https://burlingtonpac.ca/event/she-carries-the-song/#primaryimage"
       }
     ],
-    "http://schema.org/thumbnailUrl": [
+    "http://schema.org/url": [
       {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/secret-path-new-pics-scaled.png"
+        "@id": "https://burlingtonpac.ca/event/she-carries-the-song/"
       }
     ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-05-21T15:08:37+00:00"
-      }
-    ],
-    "http://schema.org/dateModified": [
+    "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-10-14T15:48:33+00:00"
+        "@value": "2026-10-17T19:30:00-04:00"
       }
     ],
-    "http://schema.org/potentialAction": [
+    "http://schema.org/endDate": [
       {
-        "@id": "https://burlingtonpac.ca/genid/9c0b714f1ae56bfe"
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-17T22:30:00-04:00"
       }
     ],
-    "https://api.w.org/": [
+    "http://schema.org/location": [
       {
-        "@id": "https://burlingtonpac.ca/wp-json/"
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
       }
     ],
-    "https://theeventscalendar.com/": [
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://burlingtonpac.ca/wp-json/tribe/tickets/v1/"
+        "@id": "https://burlingtonpac.ca/calendar/"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "The Secret Path Cushion Concert w/ Kate Dickson & Shannon Thunderbird - The Burlington Performing Arts Centre"
+        "@value": "She Carries the Song"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
       }
     ],
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Join respected community Elders Kate Dickson and Shannon Thunderbird for an afternoon of discovery and teachings from the First Peoples."
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
+        "@value": "Three powerful Indigenous women - Celeigh Cardinal (Cree), Mimi O’Bonsawin (W8banaki), and Lacey Hill (Oneida/Mohawk) - come together in this intimate and moving performance that weaves voice, story, and song into a shared circle of strength."
       }
     ]
   },
@@ -15343,6 +16384,66 @@
       {
         "@language": "en",
         "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-21T19:30:00-04:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-10-21T22:30:00-04:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/calendar/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Classic Albums Live – Led Zeppelin IV"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "A monumental album often considered a cornerstone of hard rock and heavy metal. Featuring iconic tracks like “Stairway to Heaven,” “Black Dog,” and “Rock and Roll,” it perfectly blended blues, folk, and hard rock, selling over 37 million copies worldwide."
       }
     ]
   },
@@ -15846,9 +16947,6 @@
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2662&cboEvent=1893&iEvents_id=1893"
       },
       {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2656&cboEvent=1888&iEvents_id=1888"
-      },
-      {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2657&cboEvent=1889&iEvents_id=1889"
       },
       {
@@ -15888,12 +16986,6 @@
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2639&cboEvent=1872&iEvents_id=1872"
       },
       {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2638&cboEvent=1871&iEvents_id=1871"
-      },
-      {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2635&cboEvent=1868&iEvents_id=1868"
-      },
-      {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2650&cboEvent=1883&iEvents_id=1883"
       },
       {
@@ -15930,9 +17022,6 @@
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2672&cboEvent=1903&iEvents_id=1903"
       },
       {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2673&cboEvent=1904&iEvents_id=1904"
-      },
-      {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2699&cboEvent=1922&iEvents_id=1922"
       },
       {
@@ -15957,16 +17046,7 @@
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2728&cboEvent=1939&iEvents_id=1939"
       },
       {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2730&cboEvent=1940&iEvents_id=1940"
-      },
-      {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2731&cboEvent=1941&iEvents_id=1941"
-      },
-      {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2710&cboEvent=1925&iEvents_id=1925"
-      },
-      {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2642&cboEvent=1875&iEvents_id=1875"
       },
       {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2735&cboEvent=1944&iEvents_id=1944"
@@ -15994,9 +17074,6 @@
       },
       {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2641&cboEvent=1874&iEvents_id=1874"
-      },
-      {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2591&cboEvent=1838&iEvents_id=1838"
       },
       {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2592&cboEvent=1839&iEvents_id=1839"
@@ -16056,12 +17133,6 @@
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2760&cboEvent=1956&iEvents_id=1956"
       },
       {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2708&cboEvent=1866&iEvents_id=1866"
-      },
-      {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2637&cboEvent=1870&iEvents_id=1870"
-      },
-      {
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2761&cboEvent=1957&iEvents_id=1957"
       },
       {
@@ -16083,10 +17154,22 @@
         "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2713&cboEvent=1927&iEvents_id=1927"
       },
       {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2697&cboEvent=1920&iEvents_id=1920"
+        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2673&cboEvent=1904&iEvents_id=1904"
       },
       {
-        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2636&cboEvent=1869&iEvents_id=1869"
+        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2613&cboEvent=1854&iEvents_id=1854"
+      },
+      {
+        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2642&cboEvent=1875&iEvents_id=1875"
+      },
+      {
+        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2615&cboEvent=1855&iEvents_id=1855"
+      },
+      {
+        "@id": "https://brottmusic.com/handels-messiah/"
+      },
+      {
+        "@id": "https://secure1.tixhub.com/Burlington/online/b_otix.asp?cboPerformances=2656&cboEvent=1888&iEvents_id=1888"
       }
     ]
   },
@@ -17947,122 +19030,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1080"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/genid/41459f9fde165de5",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "For the first time, Whitehorse hits the road as a true family band in a special evening celebrating two decades of music together."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-19T19:30:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-19T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "4th Annual Whitehorse Winter Classic"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/event/greatest-showman-singalong/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -19692,7 +20659,7 @@
     "article:modified_time": [
       {
         "@language": "en-ca",
-        "@value": "2026-10-14T16:05:07+00:00"
+        "@value": "2026-10-15T19:28:19+00:00"
       }
     ],
     "http://ogp.me/ns#image": [
@@ -19756,7 +20723,7 @@
     "http://schema.org/dateModified": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-10-14T16:05:07+00:00"
+        "@value": "2026-10-15T19:28:19+00:00"
       }
     ],
     "http://schema.org/potentialAction": [
@@ -20932,76 +21899,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "A monumental album often considered a cornerstone of hard rock and heavy metal. Featuring iconic tracks like “Stairway to Heaven,” “Black Dog,” and “Rock and Roll,” it perfectly blended blues, folk, and hard rock, selling over 37 million copies worldwide."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-21T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-21T22:30:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/cal-led-zeppelin/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Classic Albums Live – Led Zeppelin IV"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/genid/c28227726839d497",
     "@type": [
       "http://schema.org/ReadAction"
@@ -21010,76 +21907,6 @@
       {
         "@language": "en",
         "@value": "https://burlingtonpac.ca/event/derek-seguin/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/derek-seguin/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Comedy superstar Derek Seguin is touring Canada with his hysterical new show to celebrate his 20th year as a professional joke teller."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/derek-seguin/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/derek-seguin/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-09T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-09T22:30:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/derek-seguin/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/derek-seguin/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Derek Seguin"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
       }
     ]
   },
@@ -22476,122 +23303,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1080"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/genid/57360e8cd63adb7e",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/emerald-isle/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/emerald-isle/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Fresh from its World Premiere, where Emerald Isle received a 5 Star review, this world’s first in Irish music, song and dance takes us around the 32 counties of the island of Ireland."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-03-11T19:30:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-03-11T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Emerald Isle – A Joyful Celebration of Irish Music, Song and Dance"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/event/modern-biology/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
@@ -23532,76 +24243,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-16T20:00:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-16T22:00:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/icon-productions-timeless-icons/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Icon Productions: Timeless Icons"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/genid/a9bc3685a8ef8e1b",
     "@type": [
       "http://schema.org/ReadAction"
@@ -23610,76 +24251,6 @@
       {
         "@language": "en",
         "@value": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-03T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-03T22:30:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/solo-the-barber-of-seville/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Southern Ontario Lyric Opera: The Barber of Seville"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
       }
     ]
   },
@@ -23781,122 +24352,6 @@
       {
         "@language": "en",
         "@value": "Yassama and the Beaded Calabash"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1080"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/genid/782c224b7d9efb2f",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/over-the-ridge/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/over-the-ridge/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-04T19:30:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-04T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Over the Ridge – The Story of Vimy Ridge"
       }
     ],
     "http://schema.org/eventAttendanceMode": [
@@ -25493,76 +25948,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/pareidolia-edu/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia-edu/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia-edu/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-07T12:00:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-07T14:00:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia-edu/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia-edu/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Pareidolia"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/genid/17c3c050d6454d99",
     "@type": [
       "http://schema.org/ReadAction"
@@ -25571,76 +25956,6 @@
       {
         "@language": "en",
         "@value": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "A visually inventive theatre experience exploring imagination, perception, and the surprising images hidden in everyday objects."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-04T15:00:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-04T18:00:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bso-beethoven-and-brahms/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Burlington Symphony Orchestra: Beethoven and Brahms"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
       }
     ]
   },
@@ -27683,122 +27998,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1080"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/genid/2a6b00b1ea4dd8e2",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/ill-abilities-edu/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "ILL-ABILITIES™ is an International Breakdance Crew composed of seven active members from around the world."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-03T10:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-03T14:30:00-05:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "No Excuses, No Limits"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/event/village-theatre-waterdown/",
     "http://ogp.me/ns#locale": [
       {
@@ -28302,76 +28501,6 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/pareidolia/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Pareidolia explores the playful power of imagination - when everyday objects transform before our eyes."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-07T19:00:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-07T22:00:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/pareidolia/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Pareidolia"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
     "@id": "https://burlingtonpac.ca/genid/01a05023e5926a39",
     "@type": [
       "http://schema.org/ReadAction"
@@ -28380,192 +28509,6 @@
       {
         "@language": "en",
         "@value": "https://burlingtonpac.ca/event/she-carries-the-song/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/she-carries-the-song/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Three powerful Indigenous women - Celeigh Cardinal (Cree), Mimi O’Bonsawin (W8banaki), and Lacey Hill (Oneida/Mohawk) - come together in this intimate and moving performance that weaves voice, story, and song into a shared circle of strength."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/she-carries-the-song/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/she-carries-the-song/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-17T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-17T22:30:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/she-carries-the-song/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/she-carries-the-song/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "She Carries the Song"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage",
-    "@type": [
-      "http://schema.org/ImageObject"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos.png"
-      }
-    ],
-    "http://schema.org/contentUrl": [
-      {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos.png"
-      }
-    ],
-    "http://schema.org/width": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1920"
-      }
-    ],
-    "http://schema.org/height": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1080"
-      }
-    ],
-    "http://schema.org/inLanguage": [
-      {
-        "@language": "en",
-        "@value": "en-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/genid/9fc3a7ab8b52467d",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-27T10:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-27T14:30:00-05:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "The Velveteen Rabbit"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
       }
     ]
   },
@@ -28921,76 +28864,6 @@
       {
         "@language": "en",
         "@value": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Step behind the curtain and discover the artistry and technology that bring live performances to life."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-13T09:30:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-13T14:30:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/a9bbba0f8629e00f"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/bpac-backstage-oct/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "BPAC Backstage – Technical Production Workshop"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
       }
     ]
   },
@@ -29581,69 +29454,115 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/genid/9c0b714f1ae56bfe",
+    "@id": "https://burlingtonpac.ca/genid/959fffbfa9bcce03",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
         "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+        "@value": "https://burlingtonpac.ca/event/svaha-nova-dance/"
       }
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#event",
+    "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/360-all-stars-web.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/360-all-stars-web.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/67222a03407cf7cc",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/360-all-stars-edu/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/#event",
     "@type": [
       "http://schema.org/Event"
     ],
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "Join respected community Elders Kate Dickson and Shannon Thunderbird for an afternoon of discovery and teachings from the First Peoples."
+        "@value": "BMX, basketball, breakdancing, acrobatics, drumming and more, the international smash hit returns!"
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/#primaryimage"
+        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/#primaryimage"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-10-17T13:00:00-04:00"
+        "@value": "2026-11-02T10:00:00-05:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-10-17T16:00:00-04:00"
+        "@value": "2026-11-02T14:30:00-05:00"
       }
     ],
     "http://schema.org/location": [
       {
-        "@id": "https://burlingtonpac.ca/genid/3af255cc7c261fa4"
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
       }
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "The Secret Path Cushion Concert w/ Kate Dickson & Shannon Thunderbird"
+        "@value": "360 ALLSTARS"
       }
     ],
     "http://schema.org/eventAttendanceMode": [
@@ -29779,100 +29698,18 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/genid/959fffbfa9bcce03",
-    "@type": [
-      "http://schema.org/ReadAction"
-    ],
-    "http://schema.org/target": [
-      {
-        "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/svaha-nova-dance/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/#event",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "en",
-        "@value": "Svāhā! by Nova Dance is a vibrant celebration of movement, music, and community. Created by acclaimed choreographer Nova Bhattacharya."
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/#primaryimage"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-15T19:30:00-04:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-10-15T22:30:00-04:00"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://burlingtonpac.ca/event/svaha-nova-dance/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Svāhā! – Nova Dance"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://burlingtonpac.ca/genid/"
-      }
-    ]
-  },
-  {
-    "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/#primaryimage",
+    "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage",
     "@type": [
       "http://schema.org/ImageObject"
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/360-all-stars-web.png"
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle.png"
       }
     ],
     "http://schema.org/contentUrl": [
       {
-        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/360-all-stars-web.png"
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/emerald-isle.png"
       }
     ],
     "http://schema.org/width": [
@@ -29895,48 +29732,48 @@
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/genid/67222a03407cf7cc",
+    "@id": "https://burlingtonpac.ca/genid/57360e8cd63adb7e",
     "@type": [
       "http://schema.org/ReadAction"
     ],
     "http://schema.org/target": [
       {
         "@language": "en",
-        "@value": "https://burlingtonpac.ca/event/360-all-stars-edu/"
+        "@value": "https://burlingtonpac.ca/event/emerald-isle/"
       }
     ]
   },
   {
-    "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/#event",
+    "@id": "https://burlingtonpac.ca/event/emerald-isle/#event",
     "@type": [
       "http://schema.org/Event"
     ],
     "http://schema.org/description": [
       {
         "@language": "en",
-        "@value": "BMX, basketball, breakdancing, acrobatics, drumming and more, the international smash hit returns!"
+        "@value": "Fresh from its World Premiere, where Emerald Isle received a 5 Star review, this world’s first in Irish music, song and dance takes us around the 32 counties of the island of Ireland."
       }
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/#primaryimage"
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/#primaryimage"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/"
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T10:00:00-05:00"
+        "@value": "2027-03-11T19:30:00-05:00"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T14:30:00-05:00"
+        "@value": "2027-03-11T22:00:00-05:00"
       }
     ],
     "http://schema.org/location": [
@@ -29946,18 +29783,842 @@
     ],
     "http://schema.org/mainEntityOfPage": [
       {
-        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/"
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://burlingtonpac.ca/event/360-all-stars-edu/"
+        "@id": "https://burlingtonpac.ca/event/emerald-isle/"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "360 ALLSTARS"
+        "@value": "Emerald Isle – A Joyful Celebration of Irish Music, Song and Dance"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/9c0b714f1ae56bfe",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/secret-path-cushion-concert/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/2627-ONSTAGE-edu-web-photos.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/9fc3a7ab8b52467d",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-27T10:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-27T14:30:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit-edu/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Velveteen Rabbit"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/5d2c27077c83dd76",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/over-the-ridge-aft/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-04T12:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-04T13:00:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge-aft/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Over the Ridge – The Story of Vimy Ridge"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/over-the-ridge.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/782c224b7d9efb2f",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/over-the-ridge/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/over-the-ridge/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Through direct storytelling, live music, and dance, the show examines misconceptions and varying perspectives around that battle, while drawing parallels to other formative events in our nation’s past."
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-04T19:30:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-04T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/event/over-the-ridge/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Over the Ridge – The Story of Vimy Ridge"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/velveteen-rabbit-web.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/velveteen-rabbit-web.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/1e29054043ebac9d",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/the-velveteen-rabbit/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Embark on the journey of The Velveteen Rabbit, reimagined in the modern day: we follow the journey of our titular protagonist - a shy toy who wants nothing more than to become ‘real.’"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-27T12:30:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-27T13:30:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/event/the-velveteen-rabbit/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Velveteen Rabbit"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/04/ill-abilities-web.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/2a6b00b1ea4dd8e2",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/ill-abilities-edu/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "ILL-ABILITIES™ is an International Breakdance Crew composed of seven active members from around the world."
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-03T10:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-03T14:30:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/event/ill-abilities-edu/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "No Excuses, No Limits"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2025/12/Brott-Social-Media-Pages-800x500-oct-2026-PROOF.jpg"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2025/12/Brott-Social-Media-Pages-800x500-oct-2026-PROOF.jpg"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "800"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "500"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/9c94e984e10cbca1",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/brott-handels-messiah/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Celebrate the season with one of the most beloved masterpieces of all time as the Brott Music Festival presents Handel’s Messiah at the Burlington Performing Ar"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-17T19:30:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-17T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/event/brott-handels-messiah/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Brott Music Festival: Handel’s Messiah"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage",
+    "@type": [
+      "http://schema.org/ImageObject"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse.png"
+      }
+    ],
+    "http://schema.org/contentUrl": [
+      {
+        "@id": "https://burlingtonpac.ca/wp-content/uploads/2026/05/whitehorse.png"
+      }
+    ],
+    "http://schema.org/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1920"
+      }
+    ],
+    "http://schema.org/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1080"
+      }
+    ],
+    "http://schema.org/inLanguage": [
+      {
+        "@language": "en",
+        "@value": "en-CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/genid/41459f9fde165de5",
+    "@type": [
+      "http://schema.org/ReadAction"
+    ],
+    "http://schema.org/target": [
+      {
+        "@language": "en",
+        "@value": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
+      }
+    ]
+  },
+  {
+    "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "For the first time, Whitehorse hits the road as a true family band in a special evening celebrating two decades of music together."
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/#primaryimage"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-19T19:30:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-19T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://burlingtonpac.ca/genid/de55198a400dee4e"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://burlingtonpac.ca/event/whitehorse-winter-classic/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "4th Annual Whitehorse Winter Classic"
       }
     ],
     "http://schema.org/eventAttendanceMode": [
