@@ -1,0 +1,34 @@
+name: Fetch Théâtre Rialto Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5 * * 5' # weekly
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "fetch-push"
+          artifact: "theatrerialto-ca"
+          artifact-file: "output/theatrerialto-ca-events.jsonld"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://www.theatrerialto.ca/sitemap.xml"
+          entity-identifier: "loc"
+          skolemization-exclude: '{"http://schema.org/Place":["http://schema.org/sameAs"]}'
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/theatrerialto-ca.sparql"
+          html-extract-config: |
+            {
+              "entity_type": "http://schema.org/Event",
+              "extract": {
+                "https://github.com/culturecreates/artsdata-orion#ticketUrl": {
+                  "xpath": "//div[contains(@class,\"eventitem-column-content\")]//a[starts-with(@href,\"http\")]/@href",
+                  "uri": "true"
+                }
+              }
+            }
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
