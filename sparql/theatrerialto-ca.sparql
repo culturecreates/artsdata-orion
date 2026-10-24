@@ -1,0 +1,77 @@
+# Custom transform for the theatrerialto.ca crawl
+# (.github/workflows/theatrerialto-ca.yml), applied per page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# The site is on Squarespace, whose sitemap lists every page (English
+# /calendar/ and French /calendrier/ event pages, plus /halls, /gallery, etc.)
+# and whose stock Event JSON-LD is thin.
+#
+# 1. Every page repeats site-wide WebSite, Organization and LocalBusiness
+#    nodes (the Organization carries a personal contact email). Drop them so
+#    only Events and their Place are kept.
+# 2. Squarespace appends " — Théâtre Rialto" to every event name. Strip it,
+#    keeping the name's language tag.
+# 3. The site enters 23:59 as the end time of every event, which is a
+#    placeholder rather than a real end time. Drop those endDates.
+# 4. Link the event's Place to the existing Artsdata place K4-229
+#    (Théâtre Rialto) with schema:sameAs so it reconciles instead of minting.
+# 5. The html-extract-config puts the ticket link from the event body on the
+#    event under a temporary predicate. Turn it into a schema:Offer with that
+#    URL.
+
+DELETE {
+  ?s ?p ?o .
+}
+WHERE {
+  VALUES ?type {
+    <http://schema.org/WebSite>
+    <http://schema.org/Organization>
+    <http://schema.org/LocalBusiness>
+  }
+  ?s a ?type ;
+    ?p ?o .
+} ;
+
+DELETE {
+  ?event <http://schema.org/name> ?name .
+}
+INSERT {
+  ?event <http://schema.org/name> ?cleanName .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/name> ?name .
+  FILTER(STRENDS(STR(?name), " — Théâtre Rialto"))
+  BIND(STRBEFORE(?name, " — Théâtre Rialto") AS ?cleanName)
+} ;
+
+DELETE {
+  ?event <http://schema.org/endDate> ?endDate .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/endDate> ?endDate .
+  FILTER(CONTAINS(STR(?endDate), "T23:59:00"))
+} ;
+
+INSERT {
+  ?place <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K4-229> .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/location> ?place .
+  ?place <http://schema.org/name> ?placeName .
+  FILTER(STR(?placeName) = "Théâtre Rialto")
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#ticketUrl> ?ticketUrl .
+}
+INSERT {
+  ?event <http://schema.org/offers> _:offer .
+  _:offer a <http://schema.org/Offer> ;
+    <http://schema.org/url> ?ticketUrl .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#ticketUrl> ?ticketUrl .
+}
