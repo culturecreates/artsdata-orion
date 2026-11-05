@@ -16,7 +16,7 @@ jobs:
           artifact: "persephonetheatre-org"
           artifact-file: "output/persephonetheatre-org-events.jsonld"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          page-url: "https://persephonetheatre.org/tribe_events-sitemap.xml"
+          page-url: "https://persephonetheatre.org/isl_event-sitemap.xml"
           entity-identifier: "loc"
           skolemization-exclude: '{"http://schema.org/Place":["http://schema.org/sameAs"]}'
           token: "${{ secrets.GITHUB_TOKEN }}"
