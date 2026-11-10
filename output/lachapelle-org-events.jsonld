@@ -1,22 +1,22 @@
 [
   {
-    "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge",
+    "@id": "https://www.lachapelle.org/fr/spectacles/perdon",
     "http://ogp.me/ns#title": [
       {
         "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+        "@value": "Losinformalls - PERDÓN"
       }
     ],
     "http://ogp.me/ns#description": [
       {
         "@language": "fr",
-        "@value": "Découvrez Après le déluge à La Chapelle - Scènes Contemporaines."
+        "@value": "Découvrez PERDÓN à La Chapelle - Scènes Contemporaines."
       }
     ],
     "http://ogp.me/ns#url": [
       {
         "@language": "fr",
-        "@value": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+        "@value": "https://www.lachapelle.org/fr/spectacles/perdon"
       }
     ],
     "http://ogp.me/ns#site_name": [
@@ -34,7 +34,7 @@
     "http://ogp.me/ns#image": [
       {
         "@language": "fr",
-        "@value": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1786646723822-getenh.png"
+        "@value": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1784569894384-jkn0n.png"
       }
     ],
     "http://ogp.me/ns#image:width": [
@@ -52,7 +52,7 @@
     "http://ogp.me/ns#image:alt": [
       {
         "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge - La Chapelle"
+        "@value": "Losinformalls - PERDÓN - La Chapelle"
       }
     ],
     "http://ogp.me/ns#type": [
@@ -228,9 +228,6 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
-      },
-      {
         "@id": "https://www.lachapelle.org/fr/spectacles/perdon"
       },
       {
@@ -286,6 +283,9 @@
       },
       {
         "@id": "https://www.lachapelle.org/fr/spectacles/respirer-sous-leau"
+      },
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
       }
     ],
     "http://schema.org/name": [
@@ -304,69 +304,6 @@
       {
         "@language": "fr",
         "@value": "fr-CA"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/fr/spectacles/perdon",
-    "http://ogp.me/ns#title": [
-      {
-        "@language": "fr",
-        "@value": "Losinformalls - PERDÓN"
-      }
-    ],
-    "http://ogp.me/ns#description": [
-      {
-        "@language": "fr",
-        "@value": "Découvrez PERDÓN à La Chapelle - Scènes Contemporaines."
-      }
-    ],
-    "http://ogp.me/ns#url": [
-      {
-        "@language": "fr",
-        "@value": "https://www.lachapelle.org/fr/spectacles/perdon"
-      }
-    ],
-    "http://ogp.me/ns#site_name": [
-      {
-        "@language": "fr",
-        "@value": "La Chapelle"
-      }
-    ],
-    "http://ogp.me/ns#locale": [
-      {
-        "@language": "fr",
-        "@value": "fr_CA"
-      }
-    ],
-    "http://ogp.me/ns#image": [
-      {
-        "@language": "fr",
-        "@value": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1784569894384-jkn0n.png"
-      }
-    ],
-    "http://ogp.me/ns#image:width": [
-      {
-        "@language": "fr",
-        "@value": "1200"
-      }
-    ],
-    "http://ogp.me/ns#image:height": [
-      {
-        "@language": "fr",
-        "@value": "630"
-      }
-    ],
-    "http://ogp.me/ns#image:alt": [
-      {
-        "@language": "fr",
-        "@value": "Losinformalls - PERDÓN - La Chapelle"
-      }
-    ],
-    "http://ogp.me/ns#type": [
-      {
-        "@language": "fr",
-        "@value": "website"
       }
     ]
   },
@@ -1510,14 +1447,74 @@
     ]
   },
   {
+    "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge",
+    "http://ogp.me/ns#title": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+      }
+    ],
+    "http://ogp.me/ns#description": [
+      {
+        "@language": "fr",
+        "@value": "Découvrez Après le déluge à La Chapelle - Scènes Contemporaines."
+      }
+    ],
+    "http://ogp.me/ns#url": [
+      {
+        "@language": "fr",
+        "@value": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+      }
+    ],
+    "http://ogp.me/ns#site_name": [
+      {
+        "@language": "fr",
+        "@value": "La Chapelle"
+      }
+    ],
+    "http://ogp.me/ns#locale": [
+      {
+        "@language": "fr",
+        "@value": "fr_CA"
+      }
+    ],
+    "http://ogp.me/ns#image": [
+      {
+        "@language": "fr",
+        "@value": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1786646723822-getenh.png"
+      }
+    ],
+    "http://ogp.me/ns#image:width": [
+      {
+        "@language": "fr",
+        "@value": "1200"
+      }
+    ],
+    "http://ogp.me/ns#image:height": [
+      {
+        "@language": "fr",
+        "@value": "630"
+      }
+    ],
+    "http://ogp.me/ns#image:alt": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge - La Chapelle"
+      }
+    ],
+    "http://ogp.me/ns#type": [
+      {
+        "@language": "fr",
+        "@value": "website"
+      }
+    ]
+  },
+  {
     "@id": "https://www.lachapelle.org/genid/e52cdc3a062cbb9e",
     "@type": [
       "http://schema.org/ItemList"
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
-      },
       {
         "@id": "https://www.lachapelle.org/fr/spectacles/perdon"
       },
@@ -1574,6 +1571,9 @@
       },
       {
         "@id": "https://www.lachapelle.org/fr/spectacles/respirer-sous-leau"
+      },
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
       }
     ],
     "http://schema.org/name": [
@@ -1637,9 +1637,6 @@
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
-      },
-      {
         "@id": "https://www.lachapelle.org/fr/spectacles/perdon"
       },
       {
@@ -1695,6 +1692,9 @@
       },
       {
         "@id": "https://www.lachapelle.org/fr/spectacles/respirer-sous-leau"
+      },
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
       }
     ],
     "http://schema.org/name": [
@@ -1819,30 +1819,30 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/f77832cef4775c62",
+    "@id": "https://www.lachapelle.org/genid/36015be67d220292",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
     "http://schema.org/image": [
       {
-        "@id": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1786646723822-getenh.png"
+        "@id": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1784569894384-jkn0n.png"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+        "@id": "https://www.lachapelle.org/fr/spectacles/perdon"
       }
     ],
     "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-06T00:00:00.000Z"
+        "@value": "2026-11-12T01:00:00.000Z"
       }
     ],
     "http://schema.org/endDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-07T19:00:00.000Z"
+        "@value": "2026-11-14T01:00:00.000Z"
       }
     ],
     "http://schema.org/location": [
@@ -1852,15 +1852,12 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/ed92cb5aac5c56d0"
+        "@id": "https://www.lachapelle.org/genid/4cefea7d509b298f"
       }
     ],
     "http://schema.org/performer": [
       {
-        "@id": "https://www.lachapelle.org/genid/0fcabe3777f6104d"
-      },
-      {
-        "@id": "https://www.lachapelle.org/genid/d855346dd6a4bc1a"
+        "@id": "https://www.lachapelle.org/genid/6e176f98e3e35291"
       }
     ],
     "http://schema.org/organizer": [
@@ -1870,39 +1867,36 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/2f4d16907ed6692a"
+        "@id": "https://www.lachapelle.org/genid/1f66fe83532e7250"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/561e79b40e4796d8"
+        "@id": "https://www.lachapelle.org/genid/c4c55a8204bdb399"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/8698f827ff71d814"
-      },
-      {
-        "@id": "https://www.lachapelle.org/genid/086de0559286d8a9"
+        "@id": "https://www.lachapelle.org/genid/6c8ee98e400dce98"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+        "@id": "https://www.lachapelle.org/fr/spectacles/perdon"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+        "@value": "Losinformalls - PERDÓN"
       }
     ],
     "http://schema.org/description": [
       {
         "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge à La Chapelle"
+        "@value": "Losinformalls - PERDÓN à La Chapelle"
       }
     ],
     "http://schema.org/duration": [
       {
         "@language": "fr",
-        "@value": "PT45M"
+        "@value": "PT90M"
       }
     ],
     "http://schema.org/eventStatus": [
@@ -1945,467 +1939,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/ed92cb5aac5c56d0",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://lachapelle.tuxedobillet.com/main/sebastien-provencher-julia-lapperriere"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "18"
-      }
-    ],
-    "http://schema.org/minPrice": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "18"
-      }
-    ],
-    "http://schema.org/maxPrice": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "40"
-      }
-    ],
-    "http://schema.org/availabilityStarts": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-05T00:00:00.000Z"
-      }
-    ],
-    "http://schema.org/validFrom": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:17:48.422Z"
-      }
-    ],
-    "http://schema.org/seller": [
-      {
-        "@id": "https://www.lachapelle.org/genid/0924d693f0f3511a"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/0fcabe3777f6104d",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Julia B. Laperrière"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/d855346dd6a4bc1a",
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Sébastien Provencher"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/d4bfdabfc6cbc67b",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lachapelle.org"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "La Chapelle - Scènes Contemporaines"
-      }
-    ],
-    "http://schema.org/telephone": [
-      {
-        "@language": "fr",
-        "@value": "+1-514-843-7738"
-      }
-    ],
-    "http://schema.org/email": [
-      {
-        "@language": "fr",
-        "@value": "info@lachapelle.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/2f4d16907ed6692a",
-    "@type": [
-      "http://schema.org/TheaterEvent"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-06T00:00:00.000Z"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-06T00:45:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/561e79b40e4796d8",
-    "@type": [
-      "http://schema.org/TheaterEvent"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-07T00:00:00.000Z"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-07T00:45:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/8698f827ff71d814",
-    "@type": [
-      "http://schema.org/TheaterEvent"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-07T16:00:00.000Z"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-07T16:45:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/086de0559286d8a9",
-    "@type": [
-      "http://schema.org/TheaterEvent"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-07T19:00:00.000Z"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-07T19:45:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/0924d693f0f3511a",
-    "@type": [
-      "http://schema.org/Organization"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lachapelle.org"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "La Chapelle - Scènes Contemporaines"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/f074e25f3000138f",
-    "@type": [
-      "http://schema.org/PerformingArtsTheater"
-    ],
-    "http://schema.org/address": [
-      {
-        "@id": "https://www.lachapelle.org/genid/d4dabb9997f87cd1"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "La Chapelle - Scènes Contemporaines"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://lachapelle.tuxedobillet.com/main/sebastien-provencher-julia-lapperriere"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "18"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/8574c38b94534620",
-    "@type": [
-      "http://schema.org/TheaterEvent"
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1784569894384-jkn0n.png"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.lachapelle.org/fr/spectacles/perdon"
-      }
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-12T01:00:00.000Z"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-14T01:00:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://www.lachapelle.org/genid/403662601a23b56e"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://www.lachapelle.org/genid/af1c857845096db0"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "https://www.lachapelle.org/genid/6e176f98e3e35291"
-      }
-    ],
-    "http://schema.org/organizer": [
-      {
-        "@id": "https://www.lachapelle.org/genid/d4bfdabfc6cbc67b"
-      }
-    ],
-    "http://schema.org/subEvent": [
-      {
-        "@id": "https://www.lachapelle.org/genid/78b10f499428e8d7"
-      },
-      {
-        "@id": "https://www.lachapelle.org/genid/f4eadb1206dba72d"
-      },
-      {
-        "@id": "https://www.lachapelle.org/genid/8ee60dadf3d5500c"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://www.lachapelle.org/fr/spectacles/perdon"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Losinformalls - PERDÓN"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Losinformalls - PERDÓN à La Chapelle"
-      }
-    ],
-    "http://schema.org/duration": [
-      {
-        "@language": "fr",
-        "@value": "PT90M"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://www.lachapelle.org/genid/af1c857845096db0",
+    "@id": "https://www.lachapelle.org/genid/4cefea7d509b298f",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2441,7 +1975,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:17:48.729Z"
+        "@value": "2026-11-09T14:32:02.938Z"
       }
     ],
     "http://schema.org/seller": [
@@ -2474,7 +2008,36 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/78b10f499428e8d7",
+    "@id": "https://www.lachapelle.org/genid/d4bfdabfc6cbc67b",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lachapelle.org"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "La Chapelle - Scènes Contemporaines"
+      }
+    ],
+    "http://schema.org/telephone": [
+      {
+        "@language": "fr",
+        "@value": "+1-514-843-7738"
+      }
+    ],
+    "http://schema.org/email": [
+      {
+        "@language": "fr",
+        "@value": "info@lachapelle.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/1f66fe83532e7250",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -2523,7 +2086,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/f4eadb1206dba72d",
+    "@id": "https://www.lachapelle.org/genid/c4c55a8204bdb399",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -2572,7 +2135,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/8ee60dadf3d5500c",
+    "@id": "https://www.lachapelle.org/genid/6c8ee98e400dce98",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -2621,6 +2184,40 @@
     ]
   },
   {
+    "@id": "https://www.lachapelle.org/genid/0924d693f0f3511a",
+    "@type": [
+      "http://schema.org/Organization"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lachapelle.org"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "La Chapelle - Scènes Contemporaines"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/f074e25f3000138f",
+    "@type": [
+      "http://schema.org/PerformingArtsTheater"
+    ],
+    "http://schema.org/address": [
+      {
+        "@id": "https://www.lachapelle.org/genid/d4dabb9997f87cd1"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "La Chapelle - Scènes Contemporaines"
+      }
+    ]
+  },
+  {
     "@id": "https://www.lachapelle.org/genid/ad88faee11547f58",
     "@type": [
       "http://schema.org/Offer"
@@ -2649,7 +2246,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/08413a26b9f7147d",
+    "@id": "https://www.lachapelle.org/genid/958581e77f5bb668",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -2682,7 +2279,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/312dfbacaf7915df"
+        "@id": "https://www.lachapelle.org/genid/d44283c2e27d44cb"
       }
     ],
     "http://schema.org/performer": [
@@ -2700,19 +2297,19 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/2e0e0251ad48063f"
+        "@id": "https://www.lachapelle.org/genid/9ed5c13f46079ce5"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/02fdb9088385617c"
+        "@id": "https://www.lachapelle.org/genid/fe982d1a59fa26da"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/33eea7a52884abfd"
+        "@id": "https://www.lachapelle.org/genid/b86109961ccb264d"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/d4da496ab6be29e4"
+        "@id": "https://www.lachapelle.org/genid/3e0e1609e471aeef"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/2ebad952b587158c"
+        "@id": "https://www.lachapelle.org/genid/1573940a706be12b"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -2750,7 +2347,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/312dfbacaf7915df",
+    "@id": "https://www.lachapelle.org/genid/d44283c2e27d44cb",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -2786,7 +2383,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:23:33.139Z"
+        "@value": "2026-11-09T14:12:59.358Z"
       }
     ],
     "http://schema.org/seller": [
@@ -2831,7 +2428,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/2e0e0251ad48063f",
+    "@id": "https://www.lachapelle.org/genid/9ed5c13f46079ce5",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -2880,7 +2477,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/02fdb9088385617c",
+    "@id": "https://www.lachapelle.org/genid/fe982d1a59fa26da",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -2929,7 +2526,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/33eea7a52884abfd",
+    "@id": "https://www.lachapelle.org/genid/b86109961ccb264d",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -2978,7 +2575,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/d4da496ab6be29e4",
+    "@id": "https://www.lachapelle.org/genid/3e0e1609e471aeef",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3027,7 +2624,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/2ebad952b587158c",
+    "@id": "https://www.lachapelle.org/genid/1573940a706be12b",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3104,7 +2701,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/e48cad15a65e9bb1",
+    "@id": "https://www.lachapelle.org/genid/42b8a637d11dfa4a",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3137,7 +2734,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/a10fd40a5597316e"
+        "@id": "https://www.lachapelle.org/genid/bd02d42d9efc7c80"
       }
     ],
     "http://schema.org/performer": [
@@ -3152,16 +2749,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/9b1b5950d2df5fec"
+        "@id": "https://www.lachapelle.org/genid/963bf8e9c0ce6b71"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/79ef777e0801966a"
+        "@id": "https://www.lachapelle.org/genid/7285d36630fd2402"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/78001f0caddeb444"
+        "@id": "https://www.lachapelle.org/genid/df1f8d10fb40a192"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/8428c23b5e5971f9"
+        "@id": "https://www.lachapelle.org/genid/1348b1b99d1dcae2"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3199,7 +2796,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a10fd40a5597316e",
+    "@id": "https://www.lachapelle.org/genid/bd02d42d9efc7c80",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3235,7 +2832,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:24:06.326Z"
+        "@value": "2026-11-09T14:14:39.885Z"
       }
     ],
     "http://schema.org/seller": [
@@ -3268,7 +2865,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/9b1b5950d2df5fec",
+    "@id": "https://www.lachapelle.org/genid/963bf8e9c0ce6b71",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3317,7 +2914,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/79ef777e0801966a",
+    "@id": "https://www.lachapelle.org/genid/7285d36630fd2402",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3366,7 +2963,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/78001f0caddeb444",
+    "@id": "https://www.lachapelle.org/genid/df1f8d10fb40a192",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3415,7 +3012,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/8428c23b5e5971f9",
+    "@id": "https://www.lachapelle.org/genid/1348b1b99d1dcae2",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3492,7 +3089,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/c26f308ae11d7ca9",
+    "@id": "https://www.lachapelle.org/genid/c77f5e6dd43ef6d8",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3525,7 +3122,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/19e2827ff8c0d035"
+        "@id": "https://www.lachapelle.org/genid/77c0f6eb92140153"
       }
     ],
     "http://schema.org/performer": [
@@ -3540,16 +3137,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/8ec0209b2960cd70"
+        "@id": "https://www.lachapelle.org/genid/b2df7b1c3d000273"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/7c86d93bac30b6ad"
+        "@id": "https://www.lachapelle.org/genid/8e1ccbda95a55da8"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/6e7b2b035fbc26ee"
+        "@id": "https://www.lachapelle.org/genid/db55c42284913433"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/0ba2864d63620a6c"
+        "@id": "https://www.lachapelle.org/genid/34cb02e771e26178"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3587,7 +3184,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/19e2827ff8c0d035",
+    "@id": "https://www.lachapelle.org/genid/77c0f6eb92140153",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -3623,7 +3220,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:24:06.235Z"
+        "@value": "2026-11-09T14:32:02.631Z"
       }
     ],
     "http://schema.org/seller": [
@@ -3656,7 +3253,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/8ec0209b2960cd70",
+    "@id": "https://www.lachapelle.org/genid/b2df7b1c3d000273",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3705,7 +3302,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/7c86d93bac30b6ad",
+    "@id": "https://www.lachapelle.org/genid/8e1ccbda95a55da8",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3754,7 +3351,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/6e7b2b035fbc26ee",
+    "@id": "https://www.lachapelle.org/genid/db55c42284913433",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3803,7 +3400,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/0ba2864d63620a6c",
+    "@id": "https://www.lachapelle.org/genid/34cb02e771e26178",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3880,7 +3477,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/ac4e3576984af21b",
+    "@id": "https://www.lachapelle.org/genid/4a7baf1bfe955bf1",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -3913,7 +3510,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/076e720bb56e791f"
+        "@id": "https://www.lachapelle.org/genid/11140bb6825350bb"
       }
     ],
     "http://schema.org/performer": [
@@ -3928,34 +3525,34 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/2dc59cd331048d05"
+        "@id": "https://www.lachapelle.org/genid/d7ce4b5408ea5e56"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/d6f360f4cddc3714"
+        "@id": "https://www.lachapelle.org/genid/95d20334b3d6377f"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/a5a4dfcad5dcbea6"
+        "@id": "https://www.lachapelle.org/genid/0a388fbdc0d4e1cb"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/19b2dbe7ee0b111c"
+        "@id": "https://www.lachapelle.org/genid/7056e1c91f8e77af"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/726671942764b1d9"
+        "@id": "https://www.lachapelle.org/genid/3e5ed31a1a70e5cc"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/e37154f5c2bfdbbe"
+        "@id": "https://www.lachapelle.org/genid/f8b0d485833d000b"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/3c843cee3ce7a4a2"
+        "@id": "https://www.lachapelle.org/genid/de2d637a9f3cc1d3"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/4d199c412ddacf9d"
+        "@id": "https://www.lachapelle.org/genid/e1703625afa4308d"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/116d66315d5550d6"
+        "@id": "https://www.lachapelle.org/genid/1dc115088bb981e3"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/6a6c652c68ff84bb"
+        "@id": "https://www.lachapelle.org/genid/2560edbdd520afa6"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -3993,7 +3590,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/076e720bb56e791f",
+    "@id": "https://www.lachapelle.org/genid/11140bb6825350bb",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4029,7 +3626,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:24:06.293Z"
+        "@value": "2026-11-09T14:32:03.133Z"
       }
     ],
     "http://schema.org/seller": [
@@ -4062,7 +3659,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/2dc59cd331048d05",
+    "@id": "https://www.lachapelle.org/genid/d7ce4b5408ea5e56",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4111,7 +3708,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/d6f360f4cddc3714",
+    "@id": "https://www.lachapelle.org/genid/95d20334b3d6377f",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4160,7 +3757,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a5a4dfcad5dcbea6",
+    "@id": "https://www.lachapelle.org/genid/0a388fbdc0d4e1cb",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4209,7 +3806,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/19b2dbe7ee0b111c",
+    "@id": "https://www.lachapelle.org/genid/7056e1c91f8e77af",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4258,7 +3855,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/726671942764b1d9",
+    "@id": "https://www.lachapelle.org/genid/3e5ed31a1a70e5cc",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4307,7 +3904,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/e37154f5c2bfdbbe",
+    "@id": "https://www.lachapelle.org/genid/f8b0d485833d000b",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4356,7 +3953,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/3c843cee3ce7a4a2",
+    "@id": "https://www.lachapelle.org/genid/de2d637a9f3cc1d3",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4405,7 +4002,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/4d199c412ddacf9d",
+    "@id": "https://www.lachapelle.org/genid/e1703625afa4308d",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4454,7 +4051,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/116d66315d5550d6",
+    "@id": "https://www.lachapelle.org/genid/1dc115088bb981e3",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4503,7 +4100,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/6a6c652c68ff84bb",
+    "@id": "https://www.lachapelle.org/genid/2560edbdd520afa6",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4580,7 +4177,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/5721c5b8c24ecf01",
+    "@id": "https://www.lachapelle.org/genid/649e4fcb77f6749d",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4613,7 +4210,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/c71e79aefb8a6c57"
+        "@id": "https://www.lachapelle.org/genid/f72316cd07a6ff77"
       }
     ],
     "http://schema.org/performer": [
@@ -4631,34 +4228,34 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/45baff818d2d5d9c"
+        "@id": "https://www.lachapelle.org/genid/55f5a8721888d5d5"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/3e83b40b8941cd0a"
+        "@id": "https://www.lachapelle.org/genid/eb9372fee80bc292"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/bdad2c733f82f02e"
+        "@id": "https://www.lachapelle.org/genid/861b571bafecbf7d"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/d7f0657b20695b3e"
+        "@id": "https://www.lachapelle.org/genid/918ef050be838a40"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/7b56fe281703491f"
+        "@id": "https://www.lachapelle.org/genid/cc8b1a8ff23ffa20"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/c6ad078a6fbcfc28"
+        "@id": "https://www.lachapelle.org/genid/05708aa2505854c1"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/e1103a9a9444c239"
+        "@id": "https://www.lachapelle.org/genid/b97efd1203371fe5"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/383a22abdebf630b"
+        "@id": "https://www.lachapelle.org/genid/52c980fa75bcf0ac"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/6337c7140e3e697f"
+        "@id": "https://www.lachapelle.org/genid/71461e002a82ab9f"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/1f02fd09fd962f1d"
+        "@id": "https://www.lachapelle.org/genid/0c74a44d250afb20"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -4690,7 +4287,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/c71e79aefb8a6c57",
+    "@id": "https://www.lachapelle.org/genid/f72316cd07a6ff77",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -4726,7 +4323,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:27.711Z"
+        "@value": "2026-11-09T14:32:03.421Z"
       }
     ],
     "http://schema.org/seller": [
@@ -4771,7 +4368,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/45baff818d2d5d9c",
+    "@id": "https://www.lachapelle.org/genid/55f5a8721888d5d5",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4820,7 +4417,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/3e83b40b8941cd0a",
+    "@id": "https://www.lachapelle.org/genid/eb9372fee80bc292",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4869,7 +4466,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/bdad2c733f82f02e",
+    "@id": "https://www.lachapelle.org/genid/861b571bafecbf7d",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4918,7 +4515,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/d7f0657b20695b3e",
+    "@id": "https://www.lachapelle.org/genid/918ef050be838a40",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -4967,7 +4564,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/7b56fe281703491f",
+    "@id": "https://www.lachapelle.org/genid/cc8b1a8ff23ffa20",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5016,7 +4613,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/c6ad078a6fbcfc28",
+    "@id": "https://www.lachapelle.org/genid/05708aa2505854c1",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5065,7 +4662,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/e1103a9a9444c239",
+    "@id": "https://www.lachapelle.org/genid/b97efd1203371fe5",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5114,7 +4711,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/383a22abdebf630b",
+    "@id": "https://www.lachapelle.org/genid/52c980fa75bcf0ac",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5163,7 +4760,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/6337c7140e3e697f",
+    "@id": "https://www.lachapelle.org/genid/71461e002a82ab9f",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5212,7 +4809,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/1f02fd09fd962f1d",
+    "@id": "https://www.lachapelle.org/genid/0c74a44d250afb20",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5289,7 +4886,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a3538bca04d1ddce",
+    "@id": "https://www.lachapelle.org/genid/e4e4878c221f0f6a",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5322,7 +4919,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/d54402a7f79af9b2"
+        "@id": "https://www.lachapelle.org/genid/d0b05c7669e693a4"
       }
     ],
     "http://schema.org/performer": [
@@ -5337,16 +4934,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/499c5d07da209e45"
+        "@id": "https://www.lachapelle.org/genid/e1b44cd00b9d5c0d"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/b90dd10db0e2708c"
+        "@id": "https://www.lachapelle.org/genid/e5906b3878450522"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/be834e40244e84f0"
+        "@id": "https://www.lachapelle.org/genid/f21a60e41a433ab1"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/0b8e94b887cacaab"
+        "@id": "https://www.lachapelle.org/genid/84ce3a7b1712ad04"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5384,7 +4981,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/d54402a7f79af9b2",
+    "@id": "https://www.lachapelle.org/genid/d0b05c7669e693a4",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5420,7 +5017,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:19.216Z"
+        "@value": "2026-11-09T14:45:58.437Z"
       }
     ],
     "http://schema.org/seller": [
@@ -5453,7 +5050,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/499c5d07da209e45",
+    "@id": "https://www.lachapelle.org/genid/e1b44cd00b9d5c0d",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5502,7 +5099,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/b90dd10db0e2708c",
+    "@id": "https://www.lachapelle.org/genid/e5906b3878450522",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5551,7 +5148,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/be834e40244e84f0",
+    "@id": "https://www.lachapelle.org/genid/f21a60e41a433ab1",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5600,7 +5197,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/0b8e94b887cacaab",
+    "@id": "https://www.lachapelle.org/genid/84ce3a7b1712ad04",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5677,7 +5274,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/3aa0232aef9b131f",
+    "@id": "https://www.lachapelle.org/genid/7e8634cc1bf85a3d",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5710,7 +5307,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/a87e14707bf47b12"
+        "@id": "https://www.lachapelle.org/genid/37c22f928ce7051b"
       }
     ],
     "http://schema.org/performer": [
@@ -5725,16 +5322,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/6310f7da4cf8dd93"
+        "@id": "https://www.lachapelle.org/genid/9328e7bdb9ee7ce5"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/1065a8ee3ec1565b"
+        "@id": "https://www.lachapelle.org/genid/b3b97b34a9bddad9"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/3ffeef32e2df57ab"
+        "@id": "https://www.lachapelle.org/genid/f91a6c0363891cd8"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/36ffe01fb349625c"
+        "@id": "https://www.lachapelle.org/genid/adf3da21de374a44"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -5772,7 +5369,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a87e14707bf47b12",
+    "@id": "https://www.lachapelle.org/genid/37c22f928ce7051b",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -5808,7 +5405,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:26.082Z"
+        "@value": "2026-11-09T14:45:58.621Z"
       }
     ],
     "http://schema.org/seller": [
@@ -5841,7 +5438,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/6310f7da4cf8dd93",
+    "@id": "https://www.lachapelle.org/genid/9328e7bdb9ee7ce5",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5890,7 +5487,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/1065a8ee3ec1565b",
+    "@id": "https://www.lachapelle.org/genid/b3b97b34a9bddad9",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5939,7 +5536,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/3ffeef32e2df57ab",
+    "@id": "https://www.lachapelle.org/genid/f91a6c0363891cd8",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -5988,7 +5585,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/36ffe01fb349625c",
+    "@id": "https://www.lachapelle.org/genid/adf3da21de374a44",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6065,7 +5662,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/b4e48f754ef799d9",
+    "@id": "https://www.lachapelle.org/genid/9021972b47cdaa68",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6098,7 +5695,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/982e1a92fd6dc9cd"
+        "@id": "https://www.lachapelle.org/genid/7732a0fdce713ff6"
       }
     ],
     "http://schema.org/performer": [
@@ -6116,16 +5713,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/acc8ed303fc80983"
+        "@id": "https://www.lachapelle.org/genid/5ad6d707b99b1e00"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/621135c94ad054a8"
+        "@id": "https://www.lachapelle.org/genid/81bebbc57330ac7b"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/c9806f0f54b75c90"
+        "@id": "https://www.lachapelle.org/genid/a879855784aa7a55"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/df65a87939c198c1"
+        "@id": "https://www.lachapelle.org/genid/7f9332235d06e5b7"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6157,7 +5754,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/982e1a92fd6dc9cd",
+    "@id": "https://www.lachapelle.org/genid/7732a0fdce713ff6",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6193,7 +5790,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:18.362Z"
+        "@value": "2026-11-09T14:45:58.529Z"
       }
     ],
     "http://schema.org/seller": [
@@ -6238,7 +5835,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/acc8ed303fc80983",
+    "@id": "https://www.lachapelle.org/genid/5ad6d707b99b1e00",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6287,7 +5884,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/621135c94ad054a8",
+    "@id": "https://www.lachapelle.org/genid/81bebbc57330ac7b",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6336,7 +5933,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/c9806f0f54b75c90",
+    "@id": "https://www.lachapelle.org/genid/a879855784aa7a55",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6385,7 +5982,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/df65a87939c198c1",
+    "@id": "https://www.lachapelle.org/genid/7f9332235d06e5b7",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6462,7 +6059,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/16459f945a9ba799",
+    "@id": "https://www.lachapelle.org/genid/ba4861031e27af0b",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6495,7 +6092,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/a5ddf3e65720f9a1"
+        "@id": "https://www.lachapelle.org/genid/f8c91d7a9b35d082"
       }
     ],
     "http://schema.org/performer": [
@@ -6513,16 +6110,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/93fc9133d3d54509"
+        "@id": "https://www.lachapelle.org/genid/cd414ff4060c4cac"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/837c3a13cfb29faf"
+        "@id": "https://www.lachapelle.org/genid/faed16e04a7a170b"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/2f477b10896ea2df"
+        "@id": "https://www.lachapelle.org/genid/63ccf8831068e0dd"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/a8f0a3c2737cb53e"
+        "@id": "https://www.lachapelle.org/genid/113b83b4e468e76b"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6554,7 +6151,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a5ddf3e65720f9a1",
+    "@id": "https://www.lachapelle.org/genid/f8c91d7a9b35d082",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6590,7 +6187,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:22.655Z"
+        "@value": "2026-11-09T14:46:01.081Z"
       }
     ],
     "http://schema.org/seller": [
@@ -6635,7 +6232,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/93fc9133d3d54509",
+    "@id": "https://www.lachapelle.org/genid/cd414ff4060c4cac",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6684,7 +6281,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/837c3a13cfb29faf",
+    "@id": "https://www.lachapelle.org/genid/faed16e04a7a170b",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6733,7 +6330,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/2f477b10896ea2df",
+    "@id": "https://www.lachapelle.org/genid/63ccf8831068e0dd",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6782,7 +6379,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a8f0a3c2737cb53e",
+    "@id": "https://www.lachapelle.org/genid/113b83b4e468e76b",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6859,7 +6456,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/0731457538e075cb",
+    "@id": "https://www.lachapelle.org/genid/4b38a46615f2e513",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -6892,7 +6489,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/809684b5e8f0e5f4"
+        "@id": "https://www.lachapelle.org/genid/167e08538d0e1aa3"
       }
     ],
     "http://schema.org/performer": [
@@ -6907,16 +6504,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/fac9d703e0b4e519"
+        "@id": "https://www.lachapelle.org/genid/9b64ebc20bb59c87"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/b832a4b2219c7a3b"
+        "@id": "https://www.lachapelle.org/genid/58aaddf8e25629ae"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/7ea4c6798e2b8a0d"
+        "@id": "https://www.lachapelle.org/genid/38cb244eb51fd565"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/6661f506e637cb88"
+        "@id": "https://www.lachapelle.org/genid/55283e7fd8b4ad54"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -6948,7 +6545,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/809684b5e8f0e5f4",
+    "@id": "https://www.lachapelle.org/genid/167e08538d0e1aa3",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -6984,7 +6581,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:23.537Z"
+        "@value": "2026-11-09T14:46:01.090Z"
       }
     ],
     "http://schema.org/seller": [
@@ -7017,7 +6614,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/fac9d703e0b4e519",
+    "@id": "https://www.lachapelle.org/genid/9b64ebc20bb59c87",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7066,7 +6663,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/b832a4b2219c7a3b",
+    "@id": "https://www.lachapelle.org/genid/58aaddf8e25629ae",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7115,7 +6712,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/7ea4c6798e2b8a0d",
+    "@id": "https://www.lachapelle.org/genid/38cb244eb51fd565",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7164,7 +6761,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/6661f506e637cb88",
+    "@id": "https://www.lachapelle.org/genid/55283e7fd8b4ad54",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7241,7 +6838,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/6062fbe022036573",
+    "@id": "https://www.lachapelle.org/genid/7348468a59fbd6ea",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7274,7 +6871,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/a9810c2aed953176"
+        "@id": "https://www.lachapelle.org/genid/9bf205af920d8abd"
       }
     ],
     "http://schema.org/performer": [
@@ -7322,7 +6919,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a9810c2aed953176",
+    "@id": "https://www.lachapelle.org/genid/9bf205af920d8abd",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7358,7 +6955,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:26.969Z"
+        "@value": "2026-11-09T14:46:03.137Z"
       }
     ],
     "http://schema.org/seller": [
@@ -7391,7 +6988,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/155fc2bfeb91a711",
+    "@id": "https://www.lachapelle.org/genid/7d5d0be2ce5d3026",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7424,7 +7021,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/807d59486282a597"
+        "@id": "https://www.lachapelle.org/genid/08aec03f36937035"
       }
     ],
     "http://schema.org/performer": [
@@ -7472,7 +7069,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/807d59486282a597",
+    "@id": "https://www.lachapelle.org/genid/08aec03f36937035",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7508,7 +7105,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:17.215Z"
+        "@value": "2026-11-09T14:46:02.723Z"
       }
     ],
     "http://schema.org/seller": [
@@ -7541,7 +7138,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/5cfb036fea96ff34",
+    "@id": "https://www.lachapelle.org/genid/fbd089cbc49a9209",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7574,7 +7171,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/adeabe6562d65b6c"
+        "@id": "https://www.lachapelle.org/genid/95a8be4f49e38afd"
       }
     ],
     "http://schema.org/performer": [
@@ -7589,19 +7186,19 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/6e7c1966f489293c"
+        "@id": "https://www.lachapelle.org/genid/4443a10456381e81"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/ab23073369c11817"
+        "@id": "https://www.lachapelle.org/genid/82629c14c7471524"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/433f3f7eb7fa347e"
+        "@id": "https://www.lachapelle.org/genid/95fee2f4b8bfaadd"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/7e67934c695d76ec"
+        "@id": "https://www.lachapelle.org/genid/1300f7f95d075f9a"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/ea0b1fe08590cae4"
+        "@id": "https://www.lachapelle.org/genid/148bc8e6f12ad282"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -7639,7 +7236,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/adeabe6562d65b6c",
+    "@id": "https://www.lachapelle.org/genid/95a8be4f49e38afd",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -7675,7 +7272,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:24.630Z"
+        "@value": "2026-11-09T14:46:02.875Z"
       }
     ],
     "http://schema.org/seller": [
@@ -7708,7 +7305,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/6e7c1966f489293c",
+    "@id": "https://www.lachapelle.org/genid/4443a10456381e81",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7757,7 +7354,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/ab23073369c11817",
+    "@id": "https://www.lachapelle.org/genid/82629c14c7471524",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7806,7 +7403,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/433f3f7eb7fa347e",
+    "@id": "https://www.lachapelle.org/genid/95fee2f4b8bfaadd",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7855,7 +7452,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/7e67934c695d76ec",
+    "@id": "https://www.lachapelle.org/genid/1300f7f95d075f9a",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7904,7 +7501,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/ea0b1fe08590cae4",
+    "@id": "https://www.lachapelle.org/genid/148bc8e6f12ad282",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -7981,7 +7578,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/9fbc17ac5184e5af",
+    "@id": "https://www.lachapelle.org/genid/b5e22188a4a65234",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8014,7 +7611,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/3c6877e8e0880a19"
+        "@id": "https://www.lachapelle.org/genid/7f3a7c0af28f8225"
       }
     ],
     "http://schema.org/performer": [
@@ -8029,16 +7626,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/adf4cd0bed511669"
+        "@id": "https://www.lachapelle.org/genid/b377d1ef7b7a0576"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/18f3d283bd328c70"
+        "@id": "https://www.lachapelle.org/genid/88b8220e9f1784c2"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/f6fc4a081080cd1f"
+        "@id": "https://www.lachapelle.org/genid/b5bf9e357021b3ed"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/df8f352431851d72"
+        "@id": "https://www.lachapelle.org/genid/d32b3e6f48408923"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8076,7 +7673,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/3c6877e8e0880a19",
+    "@id": "https://www.lachapelle.org/genid/7f3a7c0af28f8225",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8112,7 +7709,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:21.516Z"
+        "@value": "2026-11-09T14:46:06.203Z"
       }
     ],
     "http://schema.org/seller": [
@@ -8145,7 +7742,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/adf4cd0bed511669",
+    "@id": "https://www.lachapelle.org/genid/b377d1ef7b7a0576",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8194,7 +7791,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/18f3d283bd328c70",
+    "@id": "https://www.lachapelle.org/genid/88b8220e9f1784c2",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8243,7 +7840,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/f6fc4a081080cd1f",
+    "@id": "https://www.lachapelle.org/genid/b5bf9e357021b3ed",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8292,7 +7889,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/df8f352431851d72",
+    "@id": "https://www.lachapelle.org/genid/d32b3e6f48408923",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8369,7 +7966,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/2ff1d16e6522c55b",
+    "@id": "https://www.lachapelle.org/genid/bfe66f23af25a3b9",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8402,7 +7999,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/f02b2d17932fcdeb"
+        "@id": "https://www.lachapelle.org/genid/e06b11f48a449c08"
       }
     ],
     "http://schema.org/performer": [
@@ -8426,16 +8023,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/a9824a68dcb51809"
+        "@id": "https://www.lachapelle.org/genid/c7ae53c6c19b7d68"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/3418f9548501dbaf"
+        "@id": "https://www.lachapelle.org/genid/6fc667ec52c91dc0"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/4b6f32d0fce4ad19"
+        "@id": "https://www.lachapelle.org/genid/72ea48af9d150f24"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/4e2b7b62fd6039f5"
+        "@id": "https://www.lachapelle.org/genid/7c084e99b75e3e82"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8467,7 +8064,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/f02b2d17932fcdeb",
+    "@id": "https://www.lachapelle.org/genid/e06b11f48a449c08",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8503,7 +8100,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:15.972Z"
+        "@value": "2026-11-09T14:46:06.280Z"
       }
     ],
     "http://schema.org/seller": [
@@ -8572,7 +8169,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/a9824a68dcb51809",
+    "@id": "https://www.lachapelle.org/genid/c7ae53c6c19b7d68",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8621,7 +8218,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/3418f9548501dbaf",
+    "@id": "https://www.lachapelle.org/genid/6fc667ec52c91dc0",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8670,7 +8267,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/4b6f32d0fce4ad19",
+    "@id": "https://www.lachapelle.org/genid/72ea48af9d150f24",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8719,7 +8316,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/4e2b7b62fd6039f5",
+    "@id": "https://www.lachapelle.org/genid/7c084e99b75e3e82",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8796,7 +8393,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/9c66546cc6b892bc",
+    "@id": "https://www.lachapelle.org/genid/90e872446e612197",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -8829,7 +8426,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/64c7e78e9d016d0a"
+        "@id": "https://www.lachapelle.org/genid/874955945f9151f5"
       }
     ],
     "http://schema.org/performer": [
@@ -8847,16 +8444,16 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/32f949e405dc64df"
+        "@id": "https://www.lachapelle.org/genid/e61fcb349eb7136c"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/b8473eb1e0208940"
+        "@id": "https://www.lachapelle.org/genid/e711212d870d4b70"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/4fdd2316ab4ef723"
+        "@id": "https://www.lachapelle.org/genid/b6f59cb46f0be0d0"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/2d60741fdfa2d55a"
+        "@id": "https://www.lachapelle.org/genid/9242f3d4910ea042"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -8894,7 +8491,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/64c7e78e9d016d0a",
+    "@id": "https://www.lachapelle.org/genid/874955945f9151f5",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -8930,7 +8527,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:56:20.055Z"
+        "@value": "2026-11-09T14:46:06.375Z"
       }
     ],
     "http://schema.org/seller": [
@@ -8975,7 +8572,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/32f949e405dc64df",
+    "@id": "https://www.lachapelle.org/genid/e61fcb349eb7136c",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9024,7 +8621,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/b8473eb1e0208940",
+    "@id": "https://www.lachapelle.org/genid/e711212d870d4b70",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9073,7 +8670,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/4fdd2316ab4ef723",
+    "@id": "https://www.lachapelle.org/genid/b6f59cb46f0be0d0",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9122,7 +8719,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/2d60741fdfa2d55a",
+    "@id": "https://www.lachapelle.org/genid/9242f3d4910ea042",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9199,7 +8796,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/c8d6bf3a77a76d19",
+    "@id": "https://www.lachapelle.org/genid/bc30c583d484840c",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9232,7 +8829,7 @@
     ],
     "http://schema.org/offers": [
       {
-        "@id": "https://www.lachapelle.org/genid/59a3e8899efab293"
+        "@id": "https://www.lachapelle.org/genid/05b664c6c4e94119"
       }
     ],
     "http://schema.org/performer": [
@@ -9247,28 +8844,28 @@
     ],
     "http://schema.org/subEvent": [
       {
-        "@id": "https://www.lachapelle.org/genid/dc382c8a40a1fe67"
+        "@id": "https://www.lachapelle.org/genid/fe5c44951707ecb7"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/ef4bfa2c1ca9be23"
+        "@id": "https://www.lachapelle.org/genid/89b7a834d21159f1"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/e86c516ac29a7bcf"
+        "@id": "https://www.lachapelle.org/genid/a3456d8a653d3ae9"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/ca9d4b753931be92"
+        "@id": "https://www.lachapelle.org/genid/9dcbd3268cb5716f"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/60c8deac1a9fb890"
+        "@id": "https://www.lachapelle.org/genid/4b03340d8b5c42c4"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/cc5e48bd65fb0997"
+        "@id": "https://www.lachapelle.org/genid/acbb3fe86bb1b68d"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/38ab228d26ea5a21"
+        "@id": "https://www.lachapelle.org/genid/cb952344edaa22ce"
       },
       {
-        "@id": "https://www.lachapelle.org/genid/62290913e9487b7f"
+        "@id": "https://www.lachapelle.org/genid/1b647f993e4b28ec"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -9306,7 +8903,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/59a3e8899efab293",
+    "@id": "https://www.lachapelle.org/genid/05b664c6c4e94119",
     "@type": [
       "http://schema.org/Offer"
     ],
@@ -9342,7 +8939,7 @@
     "http://schema.org/validFrom": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-02T21:45:40.431Z"
+        "@value": "2026-11-09T14:35:04.177Z"
       }
     ],
     "http://schema.org/seller": [
@@ -9375,7 +8972,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/dc382c8a40a1fe67",
+    "@id": "https://www.lachapelle.org/genid/fe5c44951707ecb7",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9424,7 +9021,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/ef4bfa2c1ca9be23",
+    "@id": "https://www.lachapelle.org/genid/89b7a834d21159f1",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9473,7 +9070,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/e86c516ac29a7bcf",
+    "@id": "https://www.lachapelle.org/genid/a3456d8a653d3ae9",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9522,7 +9119,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/ca9d4b753931be92",
+    "@id": "https://www.lachapelle.org/genid/9dcbd3268cb5716f",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9571,7 +9168,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/60c8deac1a9fb890",
+    "@id": "https://www.lachapelle.org/genid/4b03340d8b5c42c4",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9620,7 +9217,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/cc5e48bd65fb0997",
+    "@id": "https://www.lachapelle.org/genid/acbb3fe86bb1b68d",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9669,7 +9266,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/38ab228d26ea5a21",
+    "@id": "https://www.lachapelle.org/genid/cb952344edaa22ce",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9718,7 +9315,7 @@
     ]
   },
   {
-    "@id": "https://www.lachapelle.org/genid/62290913e9487b7f",
+    "@id": "https://www.lachapelle.org/genid/1b647f993e4b28ec",
     "@type": [
       "http://schema.org/TheaterEvent"
     ],
@@ -9774,6 +9371,409 @@
     "http://schema.org/url": [
       {
         "@id": "https://lachapelle.tuxedobillet.com/main/klervi-thienpont-philippe-ducros-jonathan-girard-les-productions-hotel-motel"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "18"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "fr",
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/169e942eb45a96ec",
+    "@type": [
+      "http://schema.org/TheaterEvent"
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://wihdfwgcjcasjwwzmjzj.supabase.co/storage/v1/object/public/show-images/1786646723822-getenh.png"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+      }
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-06T00:00:00.000Z"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07T19:00:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.lachapelle.org/genid/403662601a23b56e"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://www.lachapelle.org/genid/926e295eca6235ab"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "https://www.lachapelle.org/genid/0fcabe3777f6104d"
+      },
+      {
+        "@id": "https://www.lachapelle.org/genid/d855346dd6a4bc1a"
+      }
+    ],
+    "http://schema.org/organizer": [
+      {
+        "@id": "https://www.lachapelle.org/genid/d4bfdabfc6cbc67b"
+      }
+    ],
+    "http://schema.org/subEvent": [
+      {
+        "@id": "https://www.lachapelle.org/genid/193febc54270dd55"
+      },
+      {
+        "@id": "https://www.lachapelle.org/genid/7d1371b0b525c95a"
+      },
+      {
+        "@id": "https://www.lachapelle.org/genid/a85b5719666e4a47"
+      },
+      {
+        "@id": "https://www.lachapelle.org/genid/777ffba1c9fc2f49"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge à La Chapelle"
+      }
+    ],
+    "http://schema.org/duration": [
+      {
+        "@language": "fr",
+        "@value": "PT45M"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/926e295eca6235ab",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://lachapelle.tuxedobillet.com/main/sebastien-provencher-julia-lapperriere"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "18"
+      }
+    ],
+    "http://schema.org/minPrice": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "18"
+      }
+    ],
+    "http://schema.org/maxPrice": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "40"
+      }
+    ],
+    "http://schema.org/availabilityStarts": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-05T00:00:00.000Z"
+      }
+    ],
+    "http://schema.org/validFrom": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-09T14:44:53.793Z"
+      }
+    ],
+    "http://schema.org/seller": [
+      {
+        "@id": "https://www.lachapelle.org/genid/0924d693f0f3511a"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "fr",
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/0fcabe3777f6104d",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/d855346dd6a4bc1a",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Sébastien Provencher"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/193febc54270dd55",
+    "@type": [
+      "http://schema.org/TheaterEvent"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-06T00:00:00.000Z"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-06T00:45:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/7d1371b0b525c95a",
+    "@type": [
+      "http://schema.org/TheaterEvent"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07T00:00:00.000Z"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07T00:45:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/a85b5719666e4a47",
+    "@type": [
+      "http://schema.org/TheaterEvent"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07T16:00:00.000Z"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07T16:45:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/777ffba1c9fc2f49",
+    "@type": [
+      "http://schema.org/TheaterEvent"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07T19:00:00.000Z"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-07T19:45:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://www.lachapelle.org/genid/f074e25f3000138f"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lachapelle.org/fr/spectacles/apres-le-deluge"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Julia B. Laperrière, Sébastien Provencher - Après le déluge"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.lachapelle.org/genid/a92cb1d8baeee0dd",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://lachapelle.tuxedobillet.com/main/sebastien-provencher-julia-lapperriere"
       }
     ],
     "http://schema.org/price": [
