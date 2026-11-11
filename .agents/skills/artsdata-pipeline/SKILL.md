@@ -82,7 +82,7 @@ pages), `skolemization-exclude`, `custom-sparql` (repo-specific transform), `sha
 ## Test a selector locally before committing
 
 ```bash
-ruby .Codex/skills/artsdata-pipeline/scripts/check_selector.rb "<page-url>" "<entity-identifier>" --jsonld
+ruby .agents/skills/artsdata-pipeline/scripts/check_selector.rb "<page-url>" "<entity-identifier>" --jsonld
 ```
 
 It mimics the action's static fetch: prints the match count, the resolved entity
