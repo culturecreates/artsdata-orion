@@ -1,0 +1,89 @@
+# Custom transform for the jazzbistro.ca crawl
+# (.github/workflows/jazzbistro-ca.yml), applied per event page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# The site uses The Events Calendar, whose Event JSON-LD here has a name,
+# dates and an HTML description, but no image, location or event type.
+#
+# 1. The JSON-LD description is an HTML excerpt cut off with "[&hellip;]".
+#    Drop it and use the full text of the event body instead, which the
+#    html-extract-config puts on the event under a temporary predicate.
+# 2. Every event has the placeholder schema:performer "Organization". Drop it.
+# 3. The html-extract-config puts the first image of the event body on the
+#    event under a temporary predicate. Turn it into schema:image, removing
+#    the WordPress thumbnail suffix (-300x300) to point at the full-size file.
+# 4. Jazz Bistro is a single venue and the JSON-LD has no location. Give every
+#    event the same Place, linked to Wikidata Q21853999 (Jazz Bistro).
+# 5. Jazz Bistro is a jazz club and the site has no event categories, so type
+#    every event as the Artsdata event type concept "Jazz Show".
+
+DELETE {
+  ?event <http://schema.org/description> ?jsonldDescription .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/description> ?jsonldDescription .
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?pageDescription .
+}
+INSERT {
+  ?event <http://schema.org/description> ?pageDescription .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?pageDescription .
+  FILTER(STRLEN(STR(?pageDescription)) > 0)
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?pageDescription .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?pageDescription .
+} ;
+
+DELETE {
+  ?event <http://schema.org/performer> ?performer .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/performer> ?performer .
+  FILTER(isLiteral(?performer))
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#imageUrl> ?imageUrl .
+}
+INSERT {
+  ?event <http://schema.org/image> ?image .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#imageUrl> ?imageUrl .
+  BIND(IRI(REPLACE(STR(?imageUrl), "-[0-9]+x[0-9]+(\\.[A-Za-z]+)$", "$1")) AS ?image)
+} ;
+
+INSERT {
+  ?event <http://schema.org/location> <https://jazzbistro.ca/#place> .
+  <https://jazzbistro.ca/#place> a <http://schema.org/Place> ;
+    <http://schema.org/name> "Jazz Bistro"@en ;
+    <http://schema.org/url> <https://jazzbistro.ca/> ;
+    <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q21853999> ;
+    <http://schema.org/address> <https://jazzbistro.ca/#address> .
+  <https://jazzbistro.ca/#address> a <http://schema.org/PostalAddress> ;
+    <http://schema.org/streetAddress> "251 Victoria Street"@en ;
+    <http://schema.org/addressLocality> "Toronto"@en ;
+    <http://schema.org/addressRegion> "ON" ;
+    <http://schema.org/addressCountry> "CA" .
+}
+WHERE {
+  ?event a <http://schema.org/Event> .
+  FILTER NOT EXISTS { ?event <http://schema.org/location> ?anyLocation }
+} ;
+
+INSERT {
+  ?event <http://schema.org/additionalType> <http://kg.artsdata.ca/resource/JazzPerformance> .
+}
+WHERE {
+  ?event a <http://schema.org/Event> .
+}

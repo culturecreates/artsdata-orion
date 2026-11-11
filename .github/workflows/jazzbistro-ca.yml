@@ -1,0 +1,36 @@
+name: Fetch Jazz Bistro Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5 * * 2' # weekly
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "fetch-push"
+          artifact: "jazzbistro-ca"
+          artifact-file: "output/jazzbistro-ca-events.jsonld"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://jazzbistro.ca/wp-sitemap-posts-tribe_events-1.xml"
+          entity-identifier: "loc"
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/jazzbistro-ca.sparql"
+          html-extract-config: |
+            {
+              "entity_type": "http://schema.org/Event",
+              "extract": {
+                "https://github.com/culturecreates/artsdata-orion#description": {
+                  "xpath": "normalize-space(//div[contains(@class,\"tribe-events-single-event-description\")])"
+                },
+                "https://github.com/culturecreates/artsdata-orion#imageUrl": {
+                  "xpath": "(//div[contains(@class,\"tribe-events-single-event-description\")]//img/@src)[1]",
+                  "uri": "true"
+                }
+              }
+            }
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

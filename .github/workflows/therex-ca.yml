@@ -1,0 +1,36 @@
+name: Fetch The Rex Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5 * * 2' # weekly
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "fetch-push"
+          artifact: "therex-ca"
+          artifact-file: "output/therex-ca-events.jsonld"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://www.therex.ca/events"
+          entity-identifier: "article.eventlist-event--upcoming a.eventlist-title-link"
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/therex-ca.sparql"
+          html-extract-config: |
+            {
+              "entity_type": "http://schema.org/Event",
+              "extract": {
+                "https://github.com/culturecreates/artsdata-orion#description": {
+                  "xpath": "//meta[@property=\"og:description\"]/@content"
+                },
+                "https://github.com/culturecreates/artsdata-orion#imageUrl": {
+                  "xpath": "(//div[contains(@class,\"eventitem-column-content\")]//img/@data-src)[1]",
+                  "uri": "true"
+                }
+              }
+            }
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

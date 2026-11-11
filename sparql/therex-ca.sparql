@@ -1,0 +1,113 @@
+# Custom transform for the therex.ca crawl (.github/workflows/therex-ca.yml),
+# applied per event page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# The site is on Squarespace, whose stock Event JSON-LD is thin: a name,
+# dates, sometimes an image, and a Place with an empty name and address.
+#
+# 1. Every page repeats a site-wide WebSite node. Drop it.
+# 2. Squarespace appends " — The Rex" to every event name. Strip it.
+# 3. The JSON-LD Place is empty. The Rex is a single venue, so replace it with
+#    one shared Place carrying the address shown on the site.
+# 4. The JSON-LD has no description. The html-extract-config puts the page's
+#    og:description (the start of the event text, cut by Squarespace at about
+#    300 characters) on the event under a temporary predicate. Tidy its
+#    leftover HTML entities and whitespace and make it the schema:description.
+# 5. The html-extract-config also puts the first image of the event body on
+#    the event under a temporary predicate. Use it as schema:image only when
+#    the JSON-LD has no image.
+# 6. The Rex is a jazz and blues bar and the site has no event categories, so
+#    type every event as the Artsdata event type concept "Jazz Show".
+
+DELETE {
+  ?s ?p ?o .
+}
+WHERE {
+  ?s a <http://schema.org/WebSite> ;
+    ?p ?o .
+} ;
+
+DELETE {
+  ?event <http://schema.org/name> ?name .
+}
+INSERT {
+  ?event <http://schema.org/name> ?cleanName .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/name> ?name .
+  BIND(REPLACE(REPLACE(?name, "\\s*— The Rex\\s*$", ""), "\\s+", " ") AS ?cleanName)
+  FILTER(STR(?cleanName) != STR(?name))
+} ;
+
+DELETE {
+  ?event <http://schema.org/location> ?place .
+  ?place ?p ?o .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/location> ?place .
+  ?place <http://schema.org/name> ?placeName ;
+    ?p ?o .
+  FILTER(STRLEN(STR(?placeName)) = 0)
+} ;
+
+INSERT {
+  ?event <http://schema.org/location> <https://www.therex.ca/#place> .
+  <https://www.therex.ca/#place> a <http://schema.org/Place> ;
+    <http://schema.org/name> "The Rex Hotel Jazz & Blues Bar"@en ;
+    <http://schema.org/url> <https://www.therex.ca/> ;
+    <http://schema.org/address> <https://www.therex.ca/#address> .
+  <https://www.therex.ca/#address> a <http://schema.org/PostalAddress> ;
+    <http://schema.org/streetAddress> "194 Queen St W"@en ;
+    <http://schema.org/addressLocality> "Toronto"@en ;
+    <http://schema.org/addressRegion> "ON" ;
+    <http://schema.org/postalCode> "M5V 1Z1" ;
+    <http://schema.org/addressCountry> "CA" .
+}
+WHERE {
+  ?event a <http://schema.org/Event> .
+  FILTER NOT EXISTS { ?event <http://schema.org/location> ?anyLocation }
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?rawDescription .
+}
+INSERT {
+  ?event <http://schema.org/description> ?description .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?rawDescription .
+  BIND(REPLACE(REPLACE(REPLACE(REPLACE(?rawDescription, "&nbsp;", " "), "&amp;", "&"), "\\s+", " "), "^ | $", "") AS ?description)
+  FILTER(STRLEN(STR(?description)) > 0)
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?rawDescription .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#description> ?rawDescription .
+} ;
+
+INSERT {
+  ?event <http://schema.org/image> ?imageUrl .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <https://github.com/culturecreates/artsdata-orion#imageUrl> ?imageUrl .
+  FILTER NOT EXISTS { ?event <http://schema.org/image> ?anyImage }
+} ;
+
+DELETE {
+  ?event <https://github.com/culturecreates/artsdata-orion#imageUrl> ?imageUrl .
+}
+WHERE {
+  ?event <https://github.com/culturecreates/artsdata-orion#imageUrl> ?imageUrl .
+} ;
+
+INSERT {
+  ?event <http://schema.org/additionalType> <http://kg.artsdata.ca/resource/JazzPerformance> .
+}
+WHERE {
+  ?event a <http://schema.org/Event> .
+}
