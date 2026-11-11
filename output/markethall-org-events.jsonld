@@ -27,7 +27,7 @@
     ]
   },
   {
-    "@id": "https://markethall.org/genid/6e0a775f522df83f",
+    "@id": "https://markethall.org/genid/8c3196e564dccdad",
     "@type": [
       "http://schema.org/Blog"
     ],
@@ -37,6 +37,12 @@
       }
     ],
     "http://schema.org/blogPost": [
+      {
+        "@id": "https://markethall.org/genid/37fee329b89d94c9"
+      },
+      {
+        "@id": "https://markethall.org/genid/b804e9513fb787d6"
+      },
       {
         "@id": "https://markethall.org/genid/2180f33f7d434235"
       },
@@ -113,9 +119,6 @@
         "@id": "https://markethall.org/genid/e12840f3e57bc635"
       },
       {
-        "@id": "https://markethall.org/genid/80eba370faece824"
-      },
-      {
         "@id": "https://markethall.org/genid/154eb92481ce3b8a"
       },
       {
@@ -132,9 +135,6 @@
       },
       {
         "@id": "https://markethall.org/genid/a09752bd5d51a016"
-      },
-      {
-        "@id": "https://markethall.org/genid/a069e071213a8117"
       },
       {
         "@id": "https://markethall.org/genid/7aef0f1343a6898f"
@@ -168,21 +168,6 @@
       },
       {
         "@id": "https://markethall.org/genid/1f52fd8c7070a911"
-      },
-      {
-        "@id": "https://markethall.org/genid/2b41159f71876d9b"
-      },
-      {
-        "@id": "https://markethall.org/genid/6f3f0d53b4e70919"
-      },
-      {
-        "@id": "https://markethall.org/genid/2aa8f1f25c2c02a6"
-      },
-      {
-        "@id": "https://markethall.org/genid/2cc0f6771698533e"
-      },
-      {
-        "@id": "https://markethall.org/genid/8bb1f1122a5082aa"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -194,6 +179,42 @@
       {
         "@language": "en",
         "@value": "Events"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/37fee329b89d94c9",
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-01-27"
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@language": "en",
+        "@value": "An Evening With Hayden"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/b804e9513fb787d6",
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-04-16"
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@language": "en",
+        "@value": "Three Roads Home Feat. James Keelaghan, Irish Mythen & Stephen Fearing"
       }
     ]
   },
@@ -648,24 +669,6 @@
     ]
   },
   {
-    "@id": "https://markethall.org/genid/80eba370faece824",
-    "@type": [
-      "http://schema.org/BlogPosting"
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-08"
-      }
-    ],
-    "http://schema.org/headline": [
-      {
-        "@language": "en",
-        "@value": "Legends & Lore"
-      }
-    ]
-  },
-  {
     "@id": "https://markethall.org/genid/154eb92481ce3b8a",
     "@type": [
       "http://schema.org/BlogPosting"
@@ -770,24 +773,6 @@
       {
         "@language": "en",
         "@value": "A Circus Nutcracker"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/a069e071213a8117",
-    "@type": [
-      "http://schema.org/BlogPosting"
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-06"
-      }
-    ],
-    "http://schema.org/headline": [
-      {
-        "@language": "en",
-        "@value": "Cancer Takedown 2026"
       }
     ]
   },
@@ -990,92 +975,193 @@
     ]
   },
   {
-    "@id": "https://markethall.org/genid/2b41159f71876d9b",
+    "@id": "https://markethall.org/genid/f683280cf0e2fb0f",
     "@type": [
-      "http://schema.org/BlogPosting"
+      "http://schema.org/Event"
     ],
-    "http://schema.org/datePublished": [
+    "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-10"
+        "@value": "2027-01-27T01:00:00.000Z"
       }
     ],
-    "http://schema.org/headline": [
+    "http://schema.org/location": [
+      {
+        "@id": "https://markethall.org/genid/74241615b98743f8"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://static.tixr.com/static/images/external/img/560dd292-c664-46a4-a5e9-7a2f234770ec.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://markethall.org/genid/5ed35c41aeb93584"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Matthew Good And His Band featuring Kevin Fox And His String Quartet"
+        "@value": "An Evening With Hayden"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
       }
     ]
   },
   {
-    "@id": "https://markethall.org/genid/6f3f0d53b4e70919",
+    "@id": "https://markethall.org/genid/74241615b98743f8",
     "@type": [
-      "http://schema.org/BlogPosting"
+      "http://schema.org/Place"
     ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-08"
-      }
-    ],
-    "http://schema.org/headline": [
+    "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "The East Pointers"
+        "@value": "Market Hall Performing Arts Centre"
       }
     ]
   },
   {
-    "@id": "https://markethall.org/genid/2aa8f1f25c2c02a6",
+    "@id": "https://markethall.org/genid/5ed35c41aeb93584",
     "@type": [
-      "http://schema.org/BlogPosting"
+      "http://schema.org/Offer"
     ],
-    "http://schema.org/datePublished": [
+    "http://schema.org/url": [
       {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-07"
+        "@id": "https://www.tixr.com/groups/markethall/events/an-evening-with-hayden-213543"
       }
     ],
-    "http://schema.org/headline": [
+    "http://schema.org/price": [
       {
         "@language": "en",
-        "@value": "The East Pointers"
+        "@value": "56.61"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "USD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
       }
     ]
   },
   {
-    "@id": "https://markethall.org/genid/2cc0f6771698533e",
+    "@id": "https://markethall.org/genid/77d45e48020db167",
     "@type": [
-      "http://schema.org/BlogPosting"
+      "http://schema.org/Event"
     ],
-    "http://schema.org/datePublished": [
+    "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-07"
+        "@value": "2027-04-16T00:00:00.000Z"
       }
     ],
-    "http://schema.org/headline": [
+    "http://schema.org/location": [
+      {
+        "@id": "https://markethall.org/genid/74241615b98743f8"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://static.tixr.com/static/images/external/img/9f41e247-1f92-415b-b209-17a8bbb7f91f.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "https://markethall.org/genid/f019ab4f7f71fcf3"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://markethall.org/genid/0e3ec20a4f8caaba"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "The Hip Experience"
+        "@value": "Three Roads Home Feat. James Keelaghan, Irish Mythen & Stephen Fearing"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
       }
     ]
   },
   {
-    "@id": "https://markethall.org/genid/8bb1f1122a5082aa",
+    "@id": "https://markethall.org/genid/f019ab4f7f71fcf3",
     "@type": [
-      "http://schema.org/BlogPosting"
+      "http://schema.org/PerformingGroup"
     ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-05"
-      }
-    ],
-    "http://schema.org/headline": [
+    "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Jason Blaine & Josh Melton"
+        "@value": "James Keelaghan"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/0e3ec20a4f8caaba",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.tixr.com/groups/markethall/events/three-roads-home-feat-james-keelaghan-irish-mythen-stephen-fearing-213258"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "50.82"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "USD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
       }
     ]
   },
@@ -1134,18 +1220,6 @@
     "http://schema.org/eventAttendanceMode": [
       {
         "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/74241615b98743f8",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Market Hall Performing Arts Centre"
       }
     ]
   },
@@ -3047,168 +3121,6 @@
       {
         "@language": "en",
         "@value": "40.37"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "USD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/1ed3f258de66de7f",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-13T19:00:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://markethall.org/genid/74241615b98743f8"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://static.tixr.com/static/images/external/img/3fc00020-7c88-4bf7-a8e1-e39922f69403.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://markethall.org/genid/3475ed98bb491fb6"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "A Christmas Carol Comedy"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/3475ed98bb491fb6",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.tixr.com/groups/markethall/events/a-christmas-carol-comedy-195509"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "55.74"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "USD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/39c97b875d6767e3",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-13T00:00:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://markethall.org/genid/74241615b98743f8"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://static.tixr.com/static/images/external/img/d51ae858-abc8-459e-821e-05a6ef674c7f.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://markethall.org/genid/7cf411102bd58907"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "A Christmas Carol Comedy"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/7cf411102bd58907",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.tixr.com/groups/markethall/events/a-christmas-carol-comedy-195505"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "55.74"
       }
     ],
     "http://schema.org/priceCurrency": [
