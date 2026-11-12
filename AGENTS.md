@@ -11,9 +11,25 @@ commits the result to `output/`, and registers it on the Artsdata Databus as an
 artifact. Artsdata then loads that artifact into a data feed graph,
 `http://kg.artsdata.ca/culture-creates/artsdata-orion/<artifact>`.
 
-Sites loaded for CAPACOA are in `artsdata-stewards/artsdata-orion`, not here.
 A source that needs custom code or outside collaborators gets its own
 `artsdata-planet-<name>` repo.
+
+### Sister repo: `artsdata-stewards/artsdata-orion`
+
+Sites loaded for CAPACOA are in the sister repo
+`artsdata-stewards/artsdata-orion` (public; usually checked out at
+`~/repos/artsdata-stewards/artsdata-orion`), not here. It follows the same
+pattern (one workflow per site, `output/`, optional `sparql/<site>.sparql`),
+and the conventions and skills below apply to it too. The difference is that
+its artifacts are registered under the CAPACOA team:
+
+- Graph: `http://kg.artsdata.ca/capacoa/artsdata-orion/<artifact>`.
+- `custom-sparql`:
+  `https://raw.githubusercontent.com/artsdata-stewards/artsdata-orion/main/sparql/<site>.sparql`.
+- Run its workflows with `gh ... --repo artsdata-stewards/artsdata-orion`.
+
+When a site or graph isn't found here, look there. A site can move between
+the two repos (e.g. casadelpopolo-com was deleted here and runs there).
 
 ## Layout
 
