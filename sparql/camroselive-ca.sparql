@@ -1,0 +1,35 @@
+# Custom transform for the camroselive.ca website crawl
+# (.github/workflows/camroselive-ca.yml), applied per event page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# 1. The site gives each event's Place a schema:sameAs pointing to the event
+#    page itself (e.g. https://camroselive.ca/events/swan-lake/). That says
+#    the venue is the event page, which is wrong, so delete those links.
+# 2. Link the venues inside the Jeanne & Peter Lougheed Performing Arts
+#    Centre to their Artsdata IDs by name, so they reconcile instead of
+#    minting new places: Cargill Theatre (K2-5543), Mayer Family Community
+#    Hall (K2-5544) and Verda MacNeill Plaza (K4-1372). Augustana Faith & Life
+#    Chapel has no Artsdata or Wikidata ID yet, so it is left unlinked.
+
+DELETE {
+  ?place <http://schema.org/sameAs> ?eventPage .
+}
+WHERE {
+  ?place a <http://schema.org/Place> ;
+    <http://schema.org/sameAs> ?eventPage .
+  FILTER(STRSTARTS(STR(?eventPage), "https://camroselive.ca/events/"))
+} ;
+
+INSERT {
+  ?place <http://schema.org/sameAs> ?artsdataId .
+}
+WHERE {
+  VALUES (?venueName ?artsdataId) {
+    ("Cargill Theatre" <http://kg.artsdata.ca/resource/K2-5543>)
+    ("Mayer Family Community Hall" <http://kg.artsdata.ca/resource/K2-5544>)
+    ("Verda MacNeill Plaza" <http://kg.artsdata.ca/resource/K4-1372>)
+  }
+  ?place a <http://schema.org/Place> ;
+    <http://schema.org/name> ?name .
+  FILTER(LCASE(STR(?name)) = LCASE(?venueName))
+}

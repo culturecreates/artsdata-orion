@@ -20,5 +20,6 @@ jobs:
           entity-identifier: "loc"
           fetch-urls-headlessly: false
           skolemization-exclude: '{"http://schema.org/Place":["http://schema.org/sameAs"]}'
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/camroselive-ca.sparql"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
