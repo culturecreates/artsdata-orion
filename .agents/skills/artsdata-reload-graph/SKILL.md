@@ -59,12 +59,23 @@ worked on in the conversation; ask only when that is unclear.
 
 4. Report what the script printed. Loading runs in the background on the
    Artsdata side, so a success message means the load was accepted, not that
-   it has finished. To check, count the events in the graph after a minute:
+   it has finished. To check, count the events in the graph and, if
+   auto-minting is on, how many have been minted:
 
    ```sparql
-   SELECT (COUNT(?s) AS ?events) WHERE {
-     GRAPH <GRAPH_URI> { ?s a <http://schema.org/Event> } }
+   PREFIX schema: <http://schema.org/>
+   SELECT (COUNT(DISTINCT ?e) AS ?events) (COUNT(DISTINCT ?k) AS ?minted) (SAMPLE(?k) AS ?exampleId) WHERE {
+     GRAPH <GRAPH_URI> { ?e a schema:Event }
+     OPTIONAL { GRAPH <http://kg.artsdata.ca/core> { ?e schema:sameAs ?k } }
+   }
    ```
+
+   Minting always links the source event to its Artsdata ID with
+   `<source event> schema:sameAs <http://kg.artsdata.ca/resource/K...>`, and
+   that triple is in the graph `http://kg.artsdata.ca/core`, not in the data
+   feed graph. Mind the direction: `?k schema:sameAs ?e` finds nothing.
+   `minted` counts distinct Artsdata IDs, so it can be lower than `events`
+   when several source events were minted as the same event.
 
 If the script stops because a nebula method was renamed or changed shape,
 read the controller and update the script's calls; do not fall back to a
