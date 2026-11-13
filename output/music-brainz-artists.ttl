@@ -1,4 +1,832 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix schema1: <http://schema.org/> .
+
+<http://musicbrainz.org/artist/0006ca8a-2a9b-4127-ac10-bb43251d186c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kevin Turcotte" .
+
+<http://musicbrainz.org/artist/0025b7d7-9da5-4707-a4e6-da70f545ba1e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Vincent Lauzer" .
+
+<http://musicbrainz.org/artist/00ed154e-8679-42f0-8f42-e59bd7e185af> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Zucchero" ;
+    schema1:sameAs <https://isni.org/isni/0000000120298105>,
+        <https://isni.org/isni/0000000354864683> .
+
+<http://musicbrainz.org/artist/017f9f16-161d-4563-afda-0ea892514b9d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jackie Richardson" .
+
+<http://musicbrainz.org/artist/01fa4aff-3782-4b37-8010-028d9c13d1aa> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "A.W. Cardinal (vocals/guitar) and Jasmine Colette a.k.a. Badlands Jass (vocals/bass/drums)" ;
+    schema1:name "Blue Moon Marquee" ;
+    schema1:sameAs <https://isni.org/isni/0000000469002901> .
+
+<http://musicbrainz.org/artist/02144d3c-367c-4cf2-9632-b3421d2ac371> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Patrick Barr" ;
+    schema1:sameAs <https://isni.org/isni/0000000059353039> .
+
+<http://musicbrainz.org/artist/02ff7e02-933d-4cf6-8d19-bd24968fc4af> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Juan Rozoff" .
+
+<http://musicbrainz.org/artist/0369e484-75b5-4199-9a8f-7b058dbb227a> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "We Are Wolves" .
+
+<http://musicbrainz.org/artist/03828db4-d4aa-4aa3-931e-b29893ae5878> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Orchestre symphonique de l’Estuaire" .
+
+<http://musicbrainz.org/artist/043fa02f-3a7b-4f07-8909-287292f18adc> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Les Hôtesses d’Hilaire" .
+
+<http://musicbrainz.org/artist/04896676-1b8f-4457-9fa6-458c346bc1ae> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Sofiane Pamart" ;
+    schema1:sameAs <https://isni.org/isni/0000000465528850> .
+
+<http://musicbrainz.org/artist/0678218e-13af-481c-a26a-266e1d8f55d0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Koriass" ;
+    schema1:sameAs <https://isni.org/isni/0000000080094326> .
+
+<http://musicbrainz.org/artist/069c1f30-fd2a-4342-924a-cca7c605807f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Dianne Reeves" ;
+    schema1:sameAs <https://isni.org/isni/0000000078397344> .
+
+<http://musicbrainz.org/artist/06a50d82-fcd9-48b5-ba94-9fd7cf155749> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Ottawa Symphony Orchestra" ;
+    schema1:sameAs <https://isni.org/isni/0000000103366348> .
+
+<http://musicbrainz.org/artist/06de5b62-2c37-487c-a69f-0cf79ac37255> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Dany Bédar" .
+
+<http://musicbrainz.org/artist/0729e796-53e0-4258-bf43-36e5c98cb080> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "cellist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Johannes Moser" ;
+    schema1:sameAs <https://isni.org/isni/0000000081520075> .
+
+<http://musicbrainz.org/artist/07af824c-fa05-4701-9c9a-015b1270ea56> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "송중기" .
+
+<http://musicbrainz.org/artist/07d6250b-c377-4200-bf4f-ccb8b4de31fc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Rita Baga" .
+
+<http://musicbrainz.org/artist/086b16c7-2ed0-46b5-9cd4-ec08ca44fe98> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Joe Sealy" ;
+    schema1:sameAs <https://isni.org/isni/0000000072742768> .
+
+<http://musicbrainz.org/artist/08b18975-4428-41fc-9db9-290db8b5037e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Stéphanie Lapointe" ;
+    schema1:sameAs <https://isni.org/isni/0000000073687836> .
+
+<http://musicbrainz.org/artist/0928d670-38c2-4d76-b637-0b946aee3608> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Chloé Sainte‐Marie" .
+
+<http://musicbrainz.org/artist/096161d2-cc48-4371-9db2-ab3144ab78fc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Chris McKhool" ;
+    schema1:sameAs <https://isni.org/isni/0000000076847487> .
+
+<http://musicbrainz.org/artist/0a792aaa-1fb8-4afd-8654-eed71a391232> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Catherine MacLellan" ;
+    schema1:sameAs <https://isni.org/isni/0000000110022084> .
+
+<http://musicbrainz.org/artist/0abdcc45-ed93-4a25-9d78-651c39ab4240> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Yōsuke Kawasaki" .
+
+<http://musicbrainz.org/artist/0b165538-0647-444a-a413-5de0fd13abdd> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "DJ Shub" ;
+    schema1:sameAs <https://isni.org/isni/0000000465634960> .
+
+<http://musicbrainz.org/artist/0b229d7b-5bf2-48a7-b726-06248853d94e> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Saskatoon Symphony Orchestra" .
+
+<http://musicbrainz.org/artist/0b483ac2-aaf0-466b-a5f7-daa8b9c4de20> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Basia Bulat" ;
+    schema1:sameAs <https://isni.org/isni/0000000079982983> .
+
+<http://musicbrainz.org/artist/0bbf8d21-7e0d-4bbc-9a3b-22772264e3c6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Emilie‐Claire Barlow" .
+
+<http://musicbrainz.org/artist/0bd15a67-28c9-4460-9b89-f5e1b51415fd> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Nouvel Ensemble Moderne" ;
+    schema1:sameAs <https://isni.org/isni/0000000119424194> .
+
+<http://musicbrainz.org/artist/0c159e39-d25a-4d09-a33d-3d72c45f5324> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Yves Lambert" ;
+    schema1:sameAs <https://isni.org/isni/0000000054929879> .
+
+<http://musicbrainz.org/artist/0c1f2188-78ee-4e10-8355-3e32ec8925a7> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Punk band from Quebec, Canada" ;
+    schema1:name "Reset" .
+
+<http://musicbrainz.org/artist/0c3ca3aa-21d3-4a15-895c-a7d6c3913166> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Anthony Kavanagh" ;
+    schema1:sameAs <https://isni.org/isni/0000000073706689> .
+
+<http://musicbrainz.org/artist/0ca59def-f1bc-4e74-b17e-45276faa12f0> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:disambiguatingDescription "Canadian Baroque orchestra" ;
+    schema1:name "Tafelmusik" ;
+    schema1:sameAs <https://isni.org/isni/0000000114637879> .
+
+<http://musicbrainz.org/artist/0d6917bd-1ee8-4c98-bf7d-4ba0cc8f9879> a dbo:Agent ;
+    schema1:additionalType "Choir" ;
+    schema1:name "Toronto Mass Choir" .
+
+<http://musicbrainz.org/artist/0e1b80ef-5c60-403e-a337-836f86db584b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer-songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Pierre Lapointe" ;
+    schema1:sameAs <https://isni.org/isni/0000000081601270> .
+
+<http://musicbrainz.org/artist/0e8640d8-6d1d-4513-948f-92fad53d59e9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Enrico Pace" ;
+    schema1:sameAs <https://isni.org/isni/0000000081887782> .
+
+<http://musicbrainz.org/artist/0e953dc6-cde9-4e40-b6f9-86c7a4533c1f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Miranda Mulholland" ;
+    schema1:sameAs <https://isni.org/isni/0000000406610715> .
+
+<http://musicbrainz.org/artist/0f315d1c-8e91-44a7-b354-6c079ff726e1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Aída Cuevas" ;
+    schema1:sameAs <https://isni.org/isni/0000000041801622> .
+
+<http://musicbrainz.org/artist/0fb04a47-2c27-4598-9fbc-b90ac573cb97> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Les Cowboys Fringants" ;
+    schema1:sameAs <https://isni.org/isni/0000000123317682> .
+
+<http://musicbrainz.org/artist/114adc3c-c828-439d-ba93-6ab8c436a4e9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kyle McKearney" .
+
+<http://musicbrainz.org/artist/1155a7a9-a7b4-46ba-ba27-6b6c98be487e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jack Antonoff" .
+
+<http://musicbrainz.org/artist/11c95469-2598-4c64-b330-a4eef05b3836> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "박신혜" ;
+    schema1:sameAs <https://isni.org/isni/0000000447232968> .
+
+<http://musicbrainz.org/artist/11cfd179-9d18-46f8-a3d6-9260fe7131fd> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "National Academy Orchestra of Canada" .
+
+<http://musicbrainz.org/artist/12636e82-b355-422b-82a0-ad0204260db8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "David Clayton‐Thomas" ;
+    schema1:sameAs <https://isni.org/isni/0000000083890598> .
+
+<http://musicbrainz.org/artist/12a3f6e0-8cc0-40fb-84e7-62b8115d83b2> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Yvon Deschamps" ;
+    schema1:sameAs <https://isni.org/isni/0000000117718519>,
+        <https://isni.org/isni/0000000483336668> .
+
+<http://musicbrainz.org/artist/130e7bd0-6d34-48a9-822f-03eff7ea95d4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Cœur de pirate" ;
+    schema1:sameAs <https://isni.org/isni/0000000114791155> .
+
+<http://musicbrainz.org/artist/133e45d9-26da-4a04-b9b9-4086df1927bc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jake Mathews" ;
+    schema1:sameAs <https://isni.org/isni/0000000076858258> .
+
+<http://musicbrainz.org/artist/135ffbc2-77b1-4ac8-8691-a03d6f9d2915> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "横尾忠則" .
+
+<http://musicbrainz.org/artist/13b7d9aa-29c0-4ed6-ae68-0a1a938f6faa> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Denise Boucher" ;
+    schema1:sameAs <https://isni.org/isni/0000000110850162> .
+
+<http://musicbrainz.org/artist/14ab7d8d-a7f7-4166-ad67-ed327c3a2bea> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Alexandre Da Costa" ;
+    schema1:sameAs <https://isni.org/isni/0000000078470150> .
+
+<http://musicbrainz.org/artist/14d93377-7ef7-4297-8f17-8bb3055cfcbe> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Lennie Gallant" ;
+    schema1:sameAs <https://isni.org/isni/0000000074004830> .
+
+<http://musicbrainz.org/artist/150fde6c-d8d6-4e59-8ff7-52cfe85497d9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jeff Goldblum" ;
+    schema1:sameAs <https://isni.org/isni/0000000109110941> .
+
+<http://musicbrainz.org/artist/15f835dc-ee52-4b74-b889-113678f54119> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "project by US singer‐songwriter Shara Nova" ;
+    schema1:gender schema1:Female ;
+    schema1:name "My Brightest Diamond" ;
+    schema1:sameAs <https://isni.org/isni/0000000088230484> .
+
+<http://musicbrainz.org/artist/175ba729-9516-4fef-ab31-487f271909c6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Tenille Townes" .
+
+<http://musicbrainz.org/artist/17a84b0b-225e-4052-b3d3-c3ba875f2cc4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Blues-Rock, Canada" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Angel Forrest" ;
+    schema1:sameAs <https://isni.org/isni/0000000078410211> .
+
+<http://musicbrainz.org/artist/185c5e94-86be-4a33-b958-89866cd61538> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tippa Irie" .
+
+<http://musicbrainz.org/artist/1891b3bb-23fd-4766-a888-dc71103c243c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "actor, comedian, screenwriter, director, producer and novelist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Mark Gatiss" ;
+    schema1:sameAs <https://isni.org/isni/0000000114409075> .
+
+<http://musicbrainz.org/artist/18b5d195-d949-492c-9099-ea19f01a1b5e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Dawn Tyler Watson" ;
+    schema1:sameAs <https://isni.org/isni/0000000073702274> .
+
+<http://musicbrainz.org/artist/1926ab5c-604e-4d39-a28a-e0767f1bbc51> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Martin Kratt" .
+
+<http://musicbrainz.org/artist/197ed4d5-fe91-430b-8899-f26dcd1e2bba> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Mary Wilson" ;
+    schema1:sameAs <https://isni.org/isni/0000000107861055> .
+
+<http://musicbrainz.org/artist/1a14063c-9dca-48d5-98c3-89748c74562b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Ricky Skaggs" ;
+    schema1:sameAs <https://isni.org/isni/0000000055143464> .
+
+<http://musicbrainz.org/artist/1a1e2c13-6ee9-4b36-b066-265d53326228> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Bitch Lap Lap" .
+
+<http://musicbrainz.org/artist/1a3d4546-d42f-406c-9ea0-6c3fa13bb4ee> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Paul Steenhuisen" ;
+    schema1:sameAs <https://isni.org/isni/0000000078779932> .
+
+<http://musicbrainz.org/artist/1abc7a56-1474-44a1-b2de-2486e87d898c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Inuk singer-songwriter" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Kelly Fraser" .
+
+<http://musicbrainz.org/artist/1b4cdd3d-9979-4271-b4c8-b57093f22ec3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gyan Riley" ;
+    schema1:sameAs <https://isni.org/isni/0000000055204802> .
+
+<http://musicbrainz.org/artist/1ca2a93f-a949-4481-83cd-0d60caa07c1a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "방준석" ;
+    schema1:sameAs <https://isni.org/isni/000000001313739X> .
+
+<http://musicbrainz.org/artist/1d281f61-60ce-4a04-aca5-e68e789f228e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer-songwriter and poet" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Ferron" ;
+    schema1:sameAs <https://isni.org/isni/0000000073762664> .
+
+<http://musicbrainz.org/artist/1d2b214d-40cd-4043-a9f7-95e0ca6adfd0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Andrea Menard" .
+
+<http://musicbrainz.org/artist/1d591e75-501f-4272-996a-8880ccbb91ca> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Marie Michèle Desrosiers" ;
+    schema1:sameAs <https://isni.org/isni/0000000074924311> .
+
+<http://musicbrainz.org/artist/1e729f0c-9792-4374-bbd3-093febc84391> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Pierre‐Luc Brillant" .
+
+<http://musicbrainz.org/artist/1f38d32a-f9bf-473e-9efc-31d102b08745> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Arion Orchestre Baroque" ;
+    schema1:sameAs <https://isni.org/isni/0000000120349021> .
+
+<http://musicbrainz.org/artist/204d89c0-7f4b-4837-abc6-db85ad32b0f6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "violinist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Ralf Hübner" .
+
+<http://musicbrainz.org/artist/209f3291-1e90-4b95-b0a0-6ebcaedd2fcc> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Orchestre symphonique de Laval" .
+
+<http://musicbrainz.org/artist/210fee1d-8b8e-4383-8e05-7772e7cf329d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Jonah Richard Guimond" ;
+    schema1:gender schema1:Male ;
+    schema1:name "P'tit Belliveau" .
+
+<http://musicbrainz.org/artist/211f3cd4-6d55-4933-834c-889ad817e755> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "US bass guitarist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michael Manring" ;
+    schema1:sameAs <https://isni.org/isni/0000000078398590> .
+
+<http://musicbrainz.org/artist/21a89505-10a9-4ac0-8388-833bc07b9f86> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Laufey" ;
+    schema1:sameAs <https://isni.org/isni/0000000491518656> .
+
+<http://musicbrainz.org/artist/21cb8af7-b8f7-41c5-a6db-0f9ef690fad5> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian classical quartet" ;
+    schema1:name "Arion Ensemble" ;
+    schema1:sameAs <https://isni.org/isni/000000047193584X> .
+
+<http://musicbrainz.org/artist/2239a8ff-ca31-4886-80c2-3fc52178a066> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Splash’N Boots" .
+
+<http://musicbrainz.org/artist/228c8e85-3c62-492c-99b4-811039ed6045> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Choir! Choir! Choir!" ;
+    schema1:sameAs <https://isni.org/isni/0000000470984965> .
+
+<http://musicbrainz.org/artist/22c79290-86a6-4770-8044-fb06a9fde334> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Le Couleur" .
+
+<http://musicbrainz.org/artist/230ca093-1d00-4c57-9235-147942f66930> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "British band" ;
+    schema1:name "The Zombies" ;
+    schema1:sameAs <https://isni.org/isni/0000000122713392> .
+
+<http://musicbrainz.org/artist/232cc622-1dc0-4ad0-973e-174395e7a57c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Adolf Sandberger" ;
+    schema1:sameAs <https://isni.org/isni/0000000108773559> .
+
+<http://musicbrainz.org/artist/23b97dd5-4844-469c-8ed5-c8f48e3c3255> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French electro‐pop" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lou" .
+
+<http://musicbrainz.org/artist/23f9326d-8bde-4a6e-b9c9-5d7b2df6839d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Daniel Boucher" .
+
+<http://musicbrainz.org/artist/24322d77-676f-4bf8-b514-7b42b41b0ebf> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lynne Hanson" .
+
+<http://musicbrainz.org/artist/2477501c-214f-4308-9ef0-ceda3f5b024b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Australian singer / songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Lloyd Spiegel" .
+
+<http://musicbrainz.org/artist/24f8589e-3e78-42bd-852a-a5c052d5fc24> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "folk singer and musician" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jeff Davis" .
+
+<http://musicbrainz.org/artist/253dc0c7-4cf1-47e8-ba63-763be2dde1d6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French opera and ballet composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Ferdinand Hérold" ;
+    schema1:sameAs <https://isni.org/isni/0000000121441698> .
+
+<http://musicbrainz.org/artist/25cd7164-2a2c-4233-9b59-3a78d8d7fdc7> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Emmanuel Bilodeau" .
+
+<http://musicbrainz.org/artist/2674d9a0-7647-4220-8c10-6d8d0c9677d9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Carlos Lyra" ;
+    schema1:sameAs <https://isni.org/isni/0000000116505634> .
+
+<http://musicbrainz.org/artist/2690e042-9318-4700-9be5-b19f9051d46b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Fred Pellerin" ;
+    schema1:sameAs <https://isni.org/isni/0000000074128307> .
+
+<http://musicbrainz.org/artist/269537f8-0729-433d-bea1-cc3ea667914e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Geneviève Leclerc" ;
+    schema1:sameAs <https://isni.org/isni/0000000467383202> .
+
+<http://musicbrainz.org/artist/269ef087-8c94-43ec-8ba7-b556dc29fb74> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Âşık Mahzuni Şerif" ;
+    schema1:sameAs <https://isni.org/isni/0000000048286248> .
+
+<http://musicbrainz.org/artist/26dc75d7-f80f-41ac-92d9-a9ce8418645a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Peter Dyneley" ;
+    schema1:sameAs <https://isni.org/isni/0000000051164604> .
+
+<http://musicbrainz.org/artist/274d40ad-5d8c-41c5-b11d-fd104cafbe1e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gaston Ghrenassia" ;
+    schema1:sameAs <https://isni.org/isni/0000000109223030>,
+        <https://isni.org/isni/0000000369389504> .
+
+<http://musicbrainz.org/artist/283fb96d-1f5c-4b74-9bea-3e4504f07fa3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Geddy Lee" ;
+    schema1:sameAs <https://isni.org/isni/0000000073754306> .
+
+<http://musicbrainz.org/artist/284ee768-2c9a-440a-be37-db926e90fc1c> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "fka A Tribe Called Red" ;
+    schema1:name "The Halluci Nation" ;
+    schema1:sameAs <https://isni.org/isni/0000000470821648> .
+
+<http://musicbrainz.org/artist/28631c46-fd91-4bf4-a615-42a3b17db566> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kelly Jefferson" .
+
+<http://musicbrainz.org/artist/28ca20ab-38c3-480c-9cb3-ccb7231ca263> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Susan Aglukark" ;
+    schema1:sameAs <https://isni.org/isni/0000000074059057> .
+
+<http://musicbrainz.org/artist/294d06f7-fd1f-4cbe-a433-bb9cd6ac937b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "a.k.a. Afie Jurvanen" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bahamas" ;
+    schema1:sameAs <https://isni.org/isni/0000000112934482>,
+        <https://isni.org/isni/0000000407040435> .
+
+<http://musicbrainz.org/artist/29a2c856-e830-40a4-8fe5-9158e79b782b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Florence K" .
+
+<http://musicbrainz.org/artist/29bdc1d0-dc34-4f5d-9c22-8b2d66421f49> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Dirty Dozen Brass Band" ;
+    schema1:sameAs <https://isni.org/isni/000000009144677X> .
+
+<http://musicbrainz.org/artist/2a0b7804-ed22-4168-a49f-2a78a5ba6e65> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Guglielmo Cottrau" ;
+    schema1:sameAs <https://isni.org/isni/0000000116080752> .
+
+<http://musicbrainz.org/artist/2a264f51-0a83-4972-858d-a4825ff02ad9> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "VOCES8" ;
+    schema1:sameAs <https://isni.org/isni/0000000114649650> .
+
+<http://musicbrainz.org/artist/2a396962-06e5-4ee8-89a7-203e90d07539> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "George Canyon" ;
+    schema1:sameAs <https://isni.org/isni/0000000078819885> .
+
+<http://musicbrainz.org/artist/2ab189ce-2f39-4a79-a057-ed9396592864> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Niki Kennedy" .
+
+<http://musicbrainz.org/artist/2b925b86-7e65-4626-9033-6203366d546d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "playwright, member of The Tropicals and Kangaroo" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Craig Wright" .
+
+<http://musicbrainz.org/artist/2bd738d0-bc93-4c6c-ae0b-0908b3d26b26> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Australian rock band" ;
+    schema1:name "Stars" ;
+    schema1:sameAs <https://isni.org/isni/0000000471111007> .
+
+<http://musicbrainz.org/artist/2be34458-2dab-4604-9e21-9add573a4029> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Gabrielle Destroismaisons" ;
+    schema1:sameAs <https://isni.org/isni/0000000073647463> .
+
+<http://musicbrainz.org/artist/2c4f8588-18a5-4f48-98c3-9a30f59bdf77> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Cree drum group" ;
+    schema1:name "Young Spirit" .
+
+<http://musicbrainz.org/artist/2d058274-5c6d-4dbd-aff3-100ca9ae4c37> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer-songwriter and banjoist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lisa LeBlanc" ;
+    schema1:sameAs <https://isni.org/isni/0000000373443972> .
+
+<http://musicbrainz.org/artist/2d1756be-d795-41bc-8e07-a72e324e0f5a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Patricia O’Callaghan" .
+
+<http://musicbrainz.org/artist/2d37f204-3a70-4ee1-8171-429591d7a52b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "cellist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Sung-Won Yang" ;
+    schema1:sameAs <https://isni.org/isni/0000000055255466> .
+
+<http://musicbrainz.org/artist/2d3d529f-f959-4d0d-b345-cc0cffccbc2e> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "La Bottine Souriante" .
+
+<http://musicbrainz.org/artist/2db081c8-452f-432a-bd46-25cb50f8b141> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Good Lovelies" ;
+    schema1:sameAs <https://isni.org/isni/0000000107053488> .
+
+<http://musicbrainz.org/artist/2e62c590-49dc-4e86-b640-9a80e1e0fa18> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Lemon Bucket Orkestra" .
+
+<http://musicbrainz.org/artist/2ebca147-70f2-4df1-ba03-14ad7408b84a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Hungarian-Canadian jazz pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Robi Botos" .
+
+<http://musicbrainz.org/artist/2ed3a38e-6613-4424-bc64-49fef0c6f085> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Olympic Symphonium" .
+
+<http://musicbrainz.org/artist/2f4514ee-44a9-4969-8608-5e78015c677c> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Ayrad" .
+
+<http://musicbrainz.org/artist/308fee51-0cc8-419b-81ca-8d9d3d1448bf> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "American comedian, actor, writer, author, and musician" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Paul Reiser" ;
+    schema1:sameAs <https://isni.org/isni/0000000078281317> .
+
+<http://musicbrainz.org/artist/309c62ba-7a22-4277-9f67-4a162526d18a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "alt rock, multi‐instrumentalist Beck Hansen" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Beck" ;
+    schema1:sameAs <https://isni.org/isni/0000000081888304> .
+
+<http://musicbrainz.org/artist/30ed775d-899c-45bf-925b-33558d2e3b32> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Mi’kmaq folk singer‐songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Morgan Toney" .
+
+<http://musicbrainz.org/artist/3112d0b6-10c0-48a0-bb75-f8a348aa5588> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Loana" ;
+    schema1:sameAs <https://isni.org/isni/0000000079973964> .
+
+<http://musicbrainz.org/artist/31788a61-4680-42ba-bb89-1f7aec4c0b35> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Quartetto Gelato" .
+
+<http://musicbrainz.org/artist/31930c85-3e0e-488e-8407-46a0d73fa816> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer‐songwriter" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jann Arden" ;
+    schema1:sameAs <https://isni.org/isni/0000000073743818> .
+
+<http://musicbrainz.org/artist/32460ab0-4f5e-4ac1-aa49-1e050339a996> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Vancouver Symphony Orchestra" ;
+    schema1:sameAs <https://isni.org/isni/0000000119556592> .
+
+<http://musicbrainz.org/artist/329b2552-6646-42bb-a3c3-386e9ec10795> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Pavlo" ;
+    schema1:sameAs <https://isni.org/isni/0000000075337717> .
+
+<http://musicbrainz.org/artist/33ae0cde-2e5f-4e15-adff-8c29d84322e1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Teddy Leonard" .
+
+<http://musicbrainz.org/artist/34191245-bbf8-4292-8524-931a8a143959> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Xavier Caféïne" ;
+    schema1:sameAs <https://isni.org/isni/0000000074621900> .
+
+<http://musicbrainz.org/artist/34ad7bcf-cf84-4056-95c7-1be47ce9691e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian country music singer-songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bobby Wills" .
+
+<http://musicbrainz.org/artist/34f4b857-fe1e-4ade-acbc-f89c1ad0952d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "composer, pianist, organist, percussionist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Violet Archer" ;
+    schema1:sameAs <https://isni.org/isni/0000000080945282> .
+
+<http://musicbrainz.org/artist/351f742b-35b8-4ebc-9646-78790503fcda> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian blues" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Matt Andersen" ;
+    schema1:sameAs <https://isni.org/isni/0000000369752326> .
+
+<http://musicbrainz.org/artist/35a7bb31-9b76-4e1c-93ee-e52dc9e05036> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "National Youth Orchestra of Canada" .
+
+<http://musicbrainz.org/artist/35c8a46b-2197-43f1-b9b2-6942b4ae520e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "David Hein" .
+
+<http://musicbrainz.org/artist/36869aa7-528f-491d-b1a0-5fc9fe141cb6> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Toronto Symphony Orchestra" ;
+    schema1:sameAs <https://isni.org/isni/0000000113129442> .
+
+<http://musicbrainz.org/artist/36e764ca-d172-4d03-8877-b2a66c6693d4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Wendy Lands" .
+
+<http://musicbrainz.org/artist/375b1fcf-b2fc-4460-9f2f-f2edfc67d960> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jacques Kuba Séguin" ;
+    schema1:sameAs <https://isni.org/isni/0000000444904132> .
+
+<http://musicbrainz.org/artist/3764c425-7244-45cd-9b7e-118af2d6da5e> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Kitchener‐Waterloo Symphony" .
+
+<http://musicbrainz.org/artist/37a3422a-0c68-4bfc-a968-cbf70c2b0eae> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian-Jamaican musician" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jay Douglas" .
+
+<http://musicbrainz.org/artist/37e5cace-5d7c-4aa7-9c9e-263555219a08> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Suzie Ungerleider" .
+
+<http://musicbrainz.org/artist/38bbc9a7-c822-429a-9501-7c6abf421513> a dbo:Agent ;
+    schema1:additionalType "Choir" ;
+    schema1:name "Chor Leoni Men's Choir" ;
+    schema1:sameAs <https://isni.org/isni/0000000092254323> .
+
+<http://musicbrainz.org/artist/393b5619-bc5f-4a15-aec9-6bda1a57195d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Alexandra Stréliski" ;
+    schema1:sameAs <https://isni.org/isni/000000040773607X> .
+
+<http://musicbrainz.org/artist/3974828b-61b5-4504-b715-a269c2143ec7> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Luce Dufault" .
 
 <http://musicbrainz.org/artist/39b2c0db-1837-4e1b-b3d1-dcb6f9425cfe> a schema1:MusicGroup,
         schema1:Organization ;
@@ -6,22 +834,2914 @@
     schema1:name "Le Vent du Nord" ;
     schema1:sameAs <https://isni.org/isni/0000000119586652> .
 
+<http://musicbrainz.org/artist/39cfcebe-ff0b-4fee-913c-f28f90146f17> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Леонид Исаакович Ройзман" ;
+    schema1:sameAs <https://isni.org/isni/0000000118335114> .
+
+<http://musicbrainz.org/artist/39ff0256-4c76-4b19-9453-af5b213b2ea4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Italian composer & lutenist, 1520-1591" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Vincenzo Galilei" ;
+    schema1:sameAs <https://isni.org/isni/0000000118560661> .
+
+<http://musicbrainz.org/artist/3a1b3ea4-657d-4a8f-bc1b-ad28fdf66324> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "La Compagnie Créole" ;
+    schema1:sameAs <https://isni.org/isni/0000000106741078> .
+
+<http://musicbrainz.org/artist/3a98468f-b4dc-469c-bda8-d362ba7ffe64> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Léa Castel" ;
+    schema1:sameAs <https://isni.org/isni/0000000132757129> .
+
+<http://musicbrainz.org/artist/3aa6584e-ac0d-4c5f-b6ed-67d6e0b76479> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer/songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Ian Thomas" ;
+    schema1:sameAs <https://isni.org/isni/0000000108511612>,
+        <https://isni.org/isni/0000000122592084> .
+
+<http://musicbrainz.org/artist/3adb8d30-e40e-498c-aa7f-ab9195535f6f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Born in Sweden, currently Canadian" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Sarah MacDougall" .
+
+<http://musicbrainz.org/artist/3b6523d2-291d-43bc-a939-ee12b883da33> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lucy Hawking" ;
+    schema1:sameAs <https://isni.org/isni/0000000110649792> .
+
+<http://musicbrainz.org/artist/3ba4dba9-c110-4ffb-8f27-0e81e10d03e3> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Thirteen Strings Chamber Orchestra" .
+
+<http://musicbrainz.org/artist/3ba4fa74-272d-49a7-b36a-6c6c7abf9c09> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kim Churchill" .
+
+<http://musicbrainz.org/artist/3bd5fb5e-8dd3-4130-be7f-c408a0534f80> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian Hip Hop" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Classified" ;
+    schema1:sameAs <https://isni.org/isni/0000000080119204> .
+
+<http://musicbrainz.org/artist/3c2f252b-d514-4263-ae1a-de4e080d39f0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "André Sauvé" .
+
+<http://musicbrainz.org/artist/3c6b9b72-6c61-44e7-9bfe-d2bf4a7da398> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Suba Sankaran" .
+
+<http://musicbrainz.org/artist/3cbbecc4-f404-4002-9ba5-c994204c9581> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Sister Ray" ;
+    schema1:name "Ella Coyes" .
+
+<http://musicbrainz.org/artist/3d4a1a1d-7142-4828-be9f-73b4bb871751> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "late 15th and early 16th century composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Robert de Févin" ;
+    schema1:sameAs <https://isni.org/isni/0000000118161580> .
+
+<http://musicbrainz.org/artist/3d9d06f3-c232-46f8-97b8-a2ae10025662> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Hill Kourkoutis" .
+
+<http://musicbrainz.org/artist/3e500f28-5a02-47f7-ad7f-d646770de22f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gerry Boulet" ;
+    schema1:sameAs <https://isni.org/isni/0000000073709193> .
+
+<http://musicbrainz.org/artist/3ecd2537-9ee9-487c-b739-cef4a44d6272> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Josianne Paradis" ;
+    schema1:sameAs <https://isni.org/isni/0000000073018034> .
+
+<http://musicbrainz.org/artist/3f2a8b74-5f10-4f2e-95c8-cfd976e047cf> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:name "Harland Williams" .
+
+<http://musicbrainz.org/artist/3fe4146d-1ab6-4f77-ab94-46f8365649a5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "German language poet/writer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Theodor Däubler" ;
+    schema1:sameAs <https://isni.org/isni/0000000108609310> .
+
+<http://musicbrainz.org/artist/403b0a31-630f-4e69-83f0-af06b636f0a6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Harry Manx" ;
+    schema1:sameAs <https://isni.org/isni/0000000072500419> .
+
+<http://musicbrainz.org/artist/404c5c4c-7d08-44e4-9721-68a824edc144> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Burton Cummings" ;
+    schema1:sameAs <https://isni.org/isni/0000000081570080> .
+
+<http://musicbrainz.org/artist/4095a051-0cfd-4e27-9ad4-8e97b31c12fe> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Oji-Cree singer-songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Nick Sherman" ;
+    schema1:sameAs <https://isni.org/isni/0000000478034462> .
+
+<http://musicbrainz.org/artist/4100e36b-ffd5-45c5-a2ed-c0cc6ed1661a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Sarahmée" ;
+    schema1:sameAs <https://isni.org/isni/0000000454077441>,
+        <https://isni.org/isni/0000000454171550>,
+        <https://isni.org/isni/0000000478220169> .
+
+<http://musicbrainz.org/artist/416280d6-4690-4613-808c-f2874d10a3a1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Brazilian singer/actress" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Ângela Maria" ;
+    schema1:sameAs <https://isni.org/isni/0000000051367970> .
+
+<http://musicbrainz.org/artist/41a52c92-753f-4da4-bd9d-a01186cbbf6a> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Great Big Sea" ;
+    schema1:sameAs <https://isni.org/isni/0000000102359779> .
+
+<http://musicbrainz.org/artist/41bcc521-b494-4263-8991-1caf88fa1247> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Charles Perrault" ;
+    schema1:sameAs <https://isni.org/isni/0000000121272484> .
+
+<http://musicbrainz.org/artist/41dc8830-d7fc-480c-bc29-1b964300b819> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Meredith Moon" .
+
+<http://musicbrainz.org/artist/41e514a0-f17c-43f8-8832-665935883d47> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jean Ingelow" ;
+    schema1:sameAs <https://isni.org/isni/0000000083425290> .
+
+<http://musicbrainz.org/artist/426325ff-8c23-4503-b828-b224d7e817d3> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian jazz band" ;
+    schema1:name "Misc" ;
+    schema1:sameAs <https://isni.org/isni/0000000475386067> .
+
+<http://musicbrainz.org/artist/42a636a0-dbe4-4d0c-abe2-1590fad9531b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tom Morello" ;
+    schema1:sameAs <https://isni.org/isni/0000000383852999> .
+
+<http://musicbrainz.org/artist/42b40f91-faa8-42e4-a673-0c198a6ecc78> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Henry Kramer" ;
+    schema1:sameAs <https://isni.org/isni/0000000476133694> .
+
+<http://musicbrainz.org/artist/43e235a6-cc9e-40a3-b45d-b307b937c5ca> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Spanish flamenco dancer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Javier Barón" .
+
+<http://musicbrainz.org/artist/44339c19-39da-4c20-b433-f609bae1fc1c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian comedian" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Rick Mercer" ;
+    schema1:sameAs <https://isni.org/isni/0000000109767038> .
+
+<http://musicbrainz.org/artist/44727d86-a37c-449f-aa91-4a8554127336> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Julie Doiron" ;
+    schema1:sameAs <https://isni.org/isni/0000000074143064> .
+
+<http://musicbrainz.org/artist/4606cc91-77fa-43a3-a003-c4cb30bd1b7c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Rose Cousins" ;
+    schema1:sameAs <https://isni.org/isni/0000000117786407> .
+
+<http://musicbrainz.org/artist/464568c7-22fc-4e2d-821d-a196041f7492> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "of Great Big Sea" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Alan Doyle" ;
+    schema1:sameAs <https://isni.org/isni/0000000075607350> .
+
+<http://musicbrainz.org/artist/4690d6e8-6cd1-4498-af6b-c52787c02681> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "XIX c. poet, prose writer, official" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Алексей Апухтин" ;
+    schema1:sameAs <https://isni.org/isni/0000000369605633> .
+
+<http://musicbrainz.org/artist/47b0b63a-a744-4742-a7ae-3ca5c177ecb4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Ralf-Rainer Hübner, jazz drummer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Ralf Hübner" ;
+    schema1:sameAs <https://isni.org/isni/0000000382983209> .
+
 <http://musicbrainz.org/artist/47c3d134-96e1-434c-898e-d4f6bb2c1f37> a schema1:Person ;
     schema1:additionalType "Person" ;
     schema1:gender schema1:Female ;
     schema1:name "Elisapie" ;
     schema1:sameAs <https://isni.org/isni/0000000002492038> .
 
-<http://musicbrainz.org/artist/69689acf-d9cd-4d20-a972-47db4ed51b1a> a schema1:MusicGroup,
+<http://musicbrainz.org/artist/482f4035-636a-4cb5-a90e-47439f5f964b> a dbo:Agent ;
+    schema1:additionalType "Choir" ;
+    schema1:name "Elmer Iseler Singers" ;
+    schema1:sameAs <https://isni.org/isni/0000000106789848> .
+
+<http://musicbrainz.org/artist/490dd0e1-ac90-4dd2-acc7-67239e9c4495> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Louis-Jean Cormier" ;
+    schema1:sameAs <https://isni.org/isni/0000000132312445> .
+
+<http://musicbrainz.org/artist/491b34c1-38cb-4a28-93a3-398556ad007f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Safia Nolin" ;
+    schema1:sameAs <https://isni.org/isni/0000000439992000> .
+
+<http://musicbrainz.org/artist/4943db00-94af-41c0-8b33-d9bf80456fc3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "violinist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Timothy Chooi" ;
+    schema1:sameAs <https://isni.org/isni/0000000483274938> .
+
+<http://musicbrainz.org/artist/4a0df664-106c-4218-b9fd-99e6078e45bf> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Les Louanges" ;
+    schema1:sameAs <https://isni.org/isni/0000000475878045> .
+
+<http://musicbrainz.org/artist/4b25372f-8214-4dcb-a1e5-898544cabae0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "jazz drummer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Benny Barth" ;
+    schema1:sameAs <https://isni.org/isni/0000000055501006> .
+
+<http://musicbrainz.org/artist/4c1f1c98-031c-498f-ae49-06bbc27ea8f0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian bassist/vocalist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gary Kendall" .
+
+<http://musicbrainz.org/artist/4c32233b-4848-43ae-bcb0-ca20f38643d3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Acadian artist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Julie Aubé" .
+
+<http://musicbrainz.org/artist/4cbcf116-883f-4494-b3cf-7368f48810f4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Samantha Martin" .
+
+<http://musicbrainz.org/artist/4d2f9f61-5164-4038-8585-6e0c8aa2948c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Enrico Macias" ;
+    schema1:sameAs <https://isni.org/isni/0000000109223030>,
+        <https://isni.org/isni/0000000369389504> .
+
+<http://musicbrainz.org/artist/4d33a9e0-f7c2-46ea-8666-7fb86a4f9edf> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Esquerita" ;
+    schema1:sameAs <https://isni.org/isni/0000000059449292> .
+
+<http://musicbrainz.org/artist/4dbf5678-7a31-406a-abbe-232f8ac2cd63> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer/songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bryan Adams" ;
+    schema1:sameAs <https://isni.org/isni/0000000122824965> .
+
+<http://musicbrainz.org/artist/4e51a67f-51ac-493c-914d-8e7d89442c26> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian bass-baritone" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Phillipe Sly" .
+
+<http://musicbrainz.org/artist/4fccc5ba-950d-4698-8655-10844cad67b4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Natalie MacMaster" ;
+    schema1:sameAs <https://isni.org/isni/0000000073759262> .
+
+<http://musicbrainz.org/artist/4fd41d2c-6a40-4a4e-8f16-7625fd18ab1b> a schema1:MusicGroup,
         schema1:Organization ;
     schema1:additionalType "Group" ;
-    schema1:disambiguatingDescription "US prog rock band" ;
-    schema1:name "Kansas" ;
-    schema1:sameAs <https://isni.org/isni/0000000123750910> .
+    schema1:disambiguatingDescription "Canadian heavy metal band" ;
+    schema1:name "Sword" .
+
+<http://musicbrainz.org/artist/500d2b10-b0fb-4615-a1a6-fa226a620d32> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Irish Canadian folk rock aka The Rovers" ;
+    schema1:name "The Irish Rovers" ;
+    schema1:sameAs <https://isni.org/isni/0000000118920276> .
+
+<http://musicbrainz.org/artist/5084f6bf-c817-4ad2-950b-8caf8677fa0b> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Irish traditional/folk group" ;
+    schema1:name "Dervish" .
+
+<http://musicbrainz.org/artist/508c2f2a-c572-4121-bc91-ca9b5bbc2f5e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Anik Jean" .
+
+<http://musicbrainz.org/artist/50948cf7-fc2c-4ded-9df8-c6073a2b9e45> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Cirque Éloize" .
+
+<http://musicbrainz.org/artist/50a45c3d-b54b-4fd5-bb83-5046e4ff6813> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "David Arkenstone" ;
+    schema1:sameAs <https://isni.org/isni/0000000055182017> .
+
+<http://musicbrainz.org/artist/518f5003-77fb-4cd7-8b7d-c28027bac4fd> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "operatic contralto" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Marie‐Nicole Lemieux" ;
+    schema1:sameAs <https://isni.org/isni/0000000114763656> .
+
+<http://musicbrainz.org/artist/5209d9e0-7368-4939-aaca-ddff451c5860> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Sons of Arrakis" .
+
+<http://musicbrainz.org/artist/52f351cf-e724-4225-82d6-dcb77333ace4> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Orchestre symphonique de Montréal" ;
+    schema1:sameAs <https://isni.org/isni/0000000109406777> .
+
+<http://musicbrainz.org/artist/5322e6c4-e394-4031-87f3-7d5d999f59fa> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Orchestra London" .
+
+<http://musicbrainz.org/artist/535f3810-cf4b-4299-9c69-5dd1141df8b8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "US jazz pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Willie Pickens" ;
+    schema1:sameAs <https://isni.org/isni/0000000041721147> .
+
+<http://musicbrainz.org/artist/53d4ab13-9834-4c1a-85f1-8e4c9031ae45> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian indigenous singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Tia Wood" .
+
+<http://musicbrainz.org/artist/53f1c912-dd3d-451e-bfcf-1c6dfbb2f12d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Florent Vollant" ;
+    schema1:sameAs <https://isni.org/isni/0000000058262063>,
+        <https://isni.org/isni/0000000073690963> .
+
+<http://musicbrainz.org/artist/5422dfbd-a561-4c39-b642-e2f449d6c6b3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jean‐Michel Blais" ;
+    schema1:sameAs <https://isni.org/isni/0000000465750240> .
+
+<http://musicbrainz.org/artist/543adb98-6397-4409-89b8-9eb161ea5abf> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "90s Canadian alternative rock band" ;
+    schema1:name "Moist" .
+
+<http://musicbrainz.org/artist/543c1c77-660e-416e-b453-724b2924aa2d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Carey Morgan" .
+
+<http://musicbrainz.org/artist/5456ea50-32aa-4162-bcfa-dc65a766e1de> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Lucien Simoens" ;
+    schema1:sameAs <https://isni.org/isni/0000000050585626> .
+
+<http://musicbrainz.org/artist/54d06770-7bbc-4c44-b6f5-94afc47a1254> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Normand Brathwaite" ;
+    schema1:sameAs <https://isni.org/isni/0000000132169167> .
+
+<http://musicbrainz.org/artist/550b5eea-4202-4037-9fae-66fc7ae77340> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "France D’Amour" ;
+    schema1:sameAs <https://isni.org/isni/0000000073636852> .
+
+<http://musicbrainz.org/artist/551d9210-8894-4d24-8517-4c3f36c66ac6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Francis Moze" .
+
+<http://musicbrainz.org/artist/554180e0-5e8c-431b-a541-46447aa99d45> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Stefan Zweig" ;
+    schema1:sameAs <https://isni.org/isni/000000012099475X> .
+
+<http://musicbrainz.org/artist/557b86cb-36e9-4058-af38-e42706ce2222> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Donna Matthews" ;
+    schema1:sameAs <https://isni.org/isni/0000000130351248> .
+
+<http://musicbrainz.org/artist/55ffe4a5-f292-4b53-a5c4-c26f48bb4a6e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "US‐born Canadian singer‐songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Marc Jordan" ;
+    schema1:sameAs <https://isni.org/isni/0000000116821231> .
+
+<http://musicbrainz.org/artist/56302554-fbe3-4371-8fb5-df8df0b0f6a0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Shakura S'Aida" ;
+    schema1:sameAs <https://isni.org/isni/0000000112182604> .
+
+<http://musicbrainz.org/artist/56846ea9-bfd0-446f-83a5-3ac6b64eb08d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Sara Curruchich" .
+
+<http://musicbrainz.org/artist/5770a712-88c6-427d-8265-5017865f32b0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Manuel Tadros" .
+
+<http://musicbrainz.org/artist/579ac66c-453d-402e-9e1e-ba2259856901> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jim Cuddy" ;
+    schema1:sameAs <https://isni.org/isni/0000000081598761> .
+
+<http://musicbrainz.org/artist/57d01399-8696-49cd-a83b-472c9a11c346> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lorraine Desmarais" ;
+    schema1:sameAs <https://isni.org/isni/000000044884590X> .
+
+<http://musicbrainz.org/artist/584f97da-554d-46c4-bba6-d77cb15282ed> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French-Canadian pop singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Marilou" ;
+    schema1:sameAs <https://isni.org/isni/0000000079902250> .
+
+<http://musicbrainz.org/artist/58597daa-83ea-4eec-af60-f8437dfdf0e6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Terri Clark" ;
+    schema1:sameAs <https://isni.org/isni/0000000114671540> .
+
+<http://musicbrainz.org/artist/592da4c4-9618-4a1a-a944-e60c05c39037> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Patrick Watson" ;
+    schema1:sameAs <https://isni.org/isni/0000000078488959> .
+
+<http://musicbrainz.org/artist/594f94a3-e379-4430-baed-103fe440d907> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Ph.D. + renowned science broadcaster" ;
+    schema1:gender schema1:Male ;
+    schema1:name "David Suzuki" .
+
+<http://musicbrainz.org/artist/595e4d8a-22e9-44fc-b2a7-dd6f898dec9d> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Snotty Nose Rez Kids" .
+
+<http://musicbrainz.org/artist/5a25e629-e2e1-4232-bc23-5aebe0afd364> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Marco Calliari" ;
+    schema1:sameAs <https://isni.org/isni/0000000074400972> .
+
+<http://musicbrainz.org/artist/5a74b924-47f6-4706-af4c-7eef67a8195d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Normand Guilbeault" .
+
+<http://musicbrainz.org/artist/5aeb21a3-4606-4a0d-8369-50c768d1e99a> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian indie pop band" ;
+    schema1:name "Stars" ;
+    schema1:sameAs <https://isni.org/isni/0000000110191793> .
+
+<http://musicbrainz.org/artist/5b788ddd-b6d0-4726-8333-c1c0d594219c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Pépé et sa guitare" .
+
+<http://musicbrainz.org/artist/5b822416-d6c8-4ff5-8783-9db1fce7c850> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian folk music group" ;
+    schema1:name "Còig" .
+
+<http://musicbrainz.org/artist/5c09dcfe-52ba-46f5-b248-92fb846dbfba> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Leanne Betasamosake Simpson" ;
+    schema1:sameAs <https://isni.org/isni/0000000080093710> .
+
+<http://musicbrainz.org/artist/5d32bd04-39f7-48c6-aac0-a6ca6c49a540> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Antoine Corriveau" .
+
+<http://musicbrainz.org/artist/5d4ead3f-4dab-4394-8044-615e5655db2f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Folk singer from Canada" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Celeigh Cardinal" .
+
+<http://musicbrainz.org/artist/5dabb41f-da95-426f-be70-73f4af22a0dd> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "English neurologist and author" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Oliver Sacks" ;
+    schema1:sameAs <https://isni.org/isni/0000000081324605> .
+
+<http://musicbrainz.org/artist/5dc1fbeb-36e1-4428-aa26-c524593dd811> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Australian comic duo" ;
+    schema1:name "The Umbilical Brothers" .
+
+<http://musicbrainz.org/artist/5e215b39-9ba0-4ee5-a5d6-ea4b3a1a13e0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Ariane Racicot" .
+
+<http://musicbrainz.org/artist/5e4201aa-d533-4d19-b374-e803cfb2b11f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "John Kameel Farah" .
+
+<http://musicbrainz.org/artist/5e9f7de6-8dd3-4df5-a338-0546916ef175> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michel Tremblay" ;
+    schema1:sameAs <https://isni.org/isni/0000000121192767> .
+
+<http://musicbrainz.org/artist/5f8cdbe6-319a-4ed7-b6b9-2a62bc4f6888> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Les Sœurs Boulay" .
+
+<http://musicbrainz.org/artist/603b3cd0-8d18-4530-a405-bb52231133d6> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Digging Roots" .
+
+<http://musicbrainz.org/artist/6080c60a-6e87-44a6-a1e1-e5ff3a613818> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kid Koala" ;
+    schema1:sameAs <https://isni.org/isni/0000000074753364> .
+
+<http://musicbrainz.org/artist/60aab671-33e6-43a5-9b98-5c5d6c56b732> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The East Pointers" ;
+    schema1:sameAs <https://isni.org/isni/0000000468899366> .
+
+<http://musicbrainz.org/artist/622a275f-659f-4dc6-9964-0d33c34a786e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michel Fugain" ;
+    schema1:sameAs <https://isni.org/isni/0000000117731991>,
+        <https://isni.org/isni/0000000385229965> .
+
+<http://musicbrainz.org/artist/6253b202-ba04-4e7e-83c7-38e64442f06d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Vancouver BC rapper" ;
+    schema1:name "Kimmortal" ;
+    schema1:sameAs <https://isni.org/isni/0000000465693768> .
+
+<http://musicbrainz.org/artist/6291a2b6-cd95-4199-9ead-2cf67b25798f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "mezzo-soprano" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Julie Boulianne" ;
+    schema1:sameAs <https://isni.org/isni/0000000070767582> .
+
+<http://musicbrainz.org/artist/62a6ba5d-6e8a-406d-a768-44a433ff1f7f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Charlotte Cardin" ;
+    schema1:sameAs <https://isni.org/isni/0000000465719147> .
+
+<http://musicbrainz.org/artist/62f2fbbf-081c-4ac1-be31-d489b387cff1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "KALLITECHNIS" ;
+    schema1:sameAs <https://isni.org/isni/0000000465738110>,
+        <https://isni.org/isni/000000050343766X> .
+
+<http://musicbrainz.org/artist/636e5554-77f5-4351-b968-dc4c49a6dceb> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "soprano" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Natalie Choquette" ;
+    schema1:sameAs <https://isni.org/isni/0000000083974150> .
+
+<http://musicbrainz.org/artist/63f3d803-f10e-48e1-b2a8-8945ec9fac0f> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Classic Albums Live" .
+
+<http://musicbrainz.org/artist/63fb2e79-3bf8-4f3d-9743-619591b57281> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Daniel Lavoie" ;
+    schema1:sameAs <https://isni.org/isni/0000000114398003> .
+
+<http://musicbrainz.org/artist/6485965e-7a2b-42da-91c5-bbca54ff3af0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Ana Sokolović" ;
+    schema1:sameAs <https://isni.org/isni/0000000079010789> .
+
+<http://musicbrainz.org/artist/64a15b40-5c71-450a-afa6-f3383cf7c114> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Ernest Grosjean" ;
+    schema1:sameAs <https://isni.org/isni/0000000117018926> .
+
+<http://musicbrainz.org/artist/64a88558-a9a7-4a62-a631-4e61aca142e6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "countertenor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "David DQ Lee" ;
+    schema1:sameAs <https://isni.org/isni/0000000058462241> .
+
+<http://musicbrainz.org/artist/64deac19-021e-4dc1-8d11-658be8763589> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian folk rock band" ;
+    schema1:name "Great Lake Swimmers" ;
+    schema1:sameAs <https://isni.org/isni/0000000119312272> .
+
+<http://musicbrainz.org/artist/64f365cb-1f14-40b1-8dc3-1fee11088c1e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Gabriele von Baumberg" .
+
+<http://musicbrainz.org/artist/658dbdb2-9151-49e7-99a7-b5588be78675> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "English novelist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Alan Garner" ;
+    schema1:sameAs <https://isni.org/isni/0000000107963369> .
+
+<http://musicbrainz.org/artist/65f02c31-62d5-4de0-8232-09edf476a9b5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Vivian Fung" ;
+    schema1:sameAs <https://isni.org/isni/0000000084838687> .
+
+<http://musicbrainz.org/artist/66605885-aeaf-4e96-bd68-d8f20ad96d34> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Ellen Doty" .
+
+<http://musicbrainz.org/artist/669a8da6-1477-436f-a661-0ad2cd7b40bf> a dbo:Agent ;
+    schema1:additionalType "Choir" ;
+    schema1:name "Vancouver Chamber Choir" ;
+    schema1:sameAs <https://isni.org/isni/0000000108517707> .
+
+<http://musicbrainz.org/artist/669f05b0-4bd7-42a4-a5a4-9a654ac74a0d> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Jonas & The Massive Attraction" .
+
+<http://musicbrainz.org/artist/66cb12f6-6502-486d-bf67-efd5bdaee6ac> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Voivod" ;
+    schema1:sameAs <https://isni.org/isni/0000000108164251> .
+
+<http://musicbrainz.org/artist/66d46863-3ce9-48af-9f06-0b28c70aed59> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Scott‐Pien Picard" .
+
+<http://musicbrainz.org/artist/6798cc7e-ff55-4c36-8b5b-0a5471452667> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Chanteuse" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Djely Tapa" .
+
+<http://musicbrainz.org/artist/679a4c16-4b08-4b19-a5f1-9734c438851a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "20th century writer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Алексей Н. Толстой" .
+
+<http://musicbrainz.org/artist/6863ab40-d0fe-462e-84cc-5c31eb4f5c86> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lou-Adriane Cassidy" ;
+    schema1:sameAs <https://isni.org/isni/0000000483306223> .
+
+<http://musicbrainz.org/artist/68915496-42f9-40bc-88b9-da3f0d308f52> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bruce Guthro" ;
+    schema1:sameAs <https://isni.org/isni/0000000078892409> .
+
+<http://musicbrainz.org/artist/68dffcc7-ac69-4809-9cba-d0b2a891a380> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Once" .
+
+<http://musicbrainz.org/artist/68edaf27-889f-4f7e-bf45-3c13833ca810> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Леонид Мартынов" .
+
+<http://musicbrainz.org/artist/69728d6e-d170-46c5-af20-67413916afd1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jenn Grant" ;
+    schema1:sameAs <https://isni.org/isni/0000000091822376> .
+
+<http://musicbrainz.org/artist/6994a851-dbff-497b-bd95-5902f9d10d2d> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian acoustic folk duo" ;
+    schema1:name "Dala" ;
+    schema1:sameAs <https://isni.org/isni/0000000099465334> .
+
+<http://musicbrainz.org/artist/6ac4d6ec-0d09-4146-9930-0a00f19f5119> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Dominique Fils-Aimé" ;
+    schema1:sameAs <https://isni.org/isni/0000000475546761> .
+
+<http://musicbrainz.org/artist/6aef04ec-0d5f-4042-8db0-9c4e24ea34ec> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:disambiguatingDescription "early 20th century, cond. Welsman" ;
+    schema1:name "Toronto Symphony Orchestra" .
+
+<http://musicbrainz.org/artist/6af2a05a-4cb0-45d9-8cd6-e0b82a06e0e8> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Rawlins Cross" .
+
+<http://musicbrainz.org/artist/6b03ba4e-dd21-4052-8ba2-49b22decd561> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "performing artist from Québec" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gregory Charles" ;
+    schema1:sameAs <https://isni.org/isni/0000000076611036>,
+        <https://isni.org/isni/0000000483145001> .
+
+<http://musicbrainz.org/artist/6b8ebc5d-4678-4a69-a599-1c997cc7ee7d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Marie-Élaine Thibert" ;
+    schema1:sameAs <https://isni.org/isni/0000000118807345> .
+
+<http://musicbrainz.org/artist/6c68bf5a-88cb-4b46-ac06-306b327b03e1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Martin Barre" ;
+    schema1:sameAs <https://isni.org/isni/0000000078400523> .
+
+<http://musicbrainz.org/artist/6dd236e4-b7fa-45c9-bcd6-9878b4a8f2b8> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Manitoba Chamber Orchestra" .
+
+<http://musicbrainz.org/artist/6e0001a1-9293-443d-88c5-93f3352a01b8> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Winnipeg Symphony Orchestra" ;
+    schema1:sameAs <https://isni.org/isni/0000000093190667>,
+        <https://isni.org/isni/0000000472039422> .
+
+<http://musicbrainz.org/artist/6e02ca43-f89c-43aa-9bbd-b2288e313ab8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Torquil Campbell" ;
+    schema1:sameAs <https://isni.org/isni/0000000119435002> .
+
+<http://musicbrainz.org/artist/6e5490ff-714c-4e8c-9e7c-89a9f37bf9df> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian guitarist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jesse Cook" ;
+    schema1:sameAs <https://isni.org/isni/000000007366540X> .
+
+<http://musicbrainz.org/artist/6e802495-4381-4e6a-bdb0-cfe9ccb80873> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Matt Holubowski" ;
+    schema1:sameAs <https://isni.org/isni/000000045185740X> .
+
+<http://musicbrainz.org/artist/6fe2ffc3-0349-4b92-acac-27097b6fd437> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian rock band" ;
+    schema1:name "Zébulon" .
+
+<http://musicbrainz.org/artist/7007f6f1-d2f7-459a-b86a-934658b6562c> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "formerly The Abrams Brothers" ;
+    schema1:name "The Abrams" .
+
+<http://musicbrainz.org/artist/70d2f945-3115-425c-ae2e-d51338e36653> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Roxane Bruneau" ;
+    schema1:sameAs <https://isni.org/isni/0000000478484711> .
+
+<http://musicbrainz.org/artist/71206b15-4fd8-4de6-b248-13a23cc307ad> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Alexis Cole" .
+
+<http://musicbrainz.org/artist/713cf5ef-3cf0-45f2-84f0-e1422819d54e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Louise Bessette" ;
+    schema1:sameAs <https://isni.org/isni/0000000078676845>,
+        <https://isni.org/isni/0000000376181496> .
+
+<http://musicbrainz.org/artist/71901c51-f0cb-4bbb-ba41-337f26234556> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Don Amero" ;
+    schema1:sameAs <https://isni.org/isni/0000000075198438> .
+
+<http://musicbrainz.org/artist/71dbb7f3-6cc2-4679-a6a0-b4938a5f9c9f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jan Lisiecki" ;
+    schema1:sameAs <https://isni.org/isni/0000000114977697> .
+
+<http://musicbrainz.org/artist/72370e18-0330-4632-af78-1d64edd6c478> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer-songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Julian Taylor" .
+
+<http://musicbrainz.org/artist/72984338-56b2-4ea7-b2f7-f0041dc1ae0e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Charles Richard‐Hamelin" .
+
+<http://musicbrainz.org/artist/737128fc-e0af-48a5-ae24-0279237a05db> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian playwright and novelist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Ann-Marie MacDonald" ;
+    schema1:sameAs <https://isni.org/isni/0000000114604911> .
+
+<http://musicbrainz.org/artist/74887c55-b731-4c6d-ba77-4cf95350dddd> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Bleu Jeans Bleu" .
+
+<http://musicbrainz.org/artist/74e8d712-b0d4-48dc-96ea-d866e483824a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian comedian/actor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tom Green" .
+
+<http://musicbrainz.org/artist/7528a548-cc62-430a-9e4d-2805505006b9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "dancer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Akram Khan" ;
+    schema1:sameAs <https://isni.org/isni/0000000078510810> .
+
+<http://musicbrainz.org/artist/75433c64-f96a-4454-9b62-2005fe59acbc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Natasha St‐Pier" ;
+    schema1:sameAs <https://isni.org/isni/0000000080156697> .
+
+<http://musicbrainz.org/artist/75801bcd-7d5b-4bb6-aa9e-93d30dbf29a5> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Men of the Deeps" .
+
+<http://musicbrainz.org/artist/7699f64f-9a90-4291-902e-afeeed3e138f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Sue Foley" ;
+    schema1:sameAs <https://isni.org/isni/000000007365206X> .
+
+<http://musicbrainz.org/artist/76f88542-fd2f-47a1-9be0-5d55df793aab> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Garou" ;
+    schema1:sameAs <https://isni.org/isni/0000000114378272> .
+
+<http://musicbrainz.org/artist/7785c8c8-72e7-4fe9-b949-ace94a557c08> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Belgian Big band" ;
+    schema1:name "Flat Earth Society" ;
+    schema1:sameAs <https://isni.org/isni/0000000121742028> .
+
+<http://musicbrainz.org/artist/7798d582-ea68-449b-b434-9c4cf3029aff> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Louis-José Houde" .
+
+<http://musicbrainz.org/artist/77cdade3-3929-44c4-af53-269816911f9b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Karl Klindworth" ;
+    schema1:sameAs <https://isni.org/isni/0000000110467673> .
+
+<http://musicbrainz.org/artist/77de9118-8d06-4d22-84a9-f3dd17c3426d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "soprano/conductor" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Barbara Hannigan" ;
+    schema1:sameAs <https://isni.org/isni/0000000071037581> .
+
+<http://musicbrainz.org/artist/78c4fb36-112b-4585-9131-91fed5bc1ea6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Martine St-Clair" ;
+    schema1:sameAs <https://isni.org/isni/0000000383166147>,
+        <https://isni.org/isni/000000040673251X> .
+
+<http://musicbrainz.org/artist/78e46ae5-9bfd-433b-be3f-19e993d67ecc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian‐American singer‐songwriter and composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Rufus Wainwright" ;
+    schema1:sameAs <https://isni.org/isni/0000000115767325> .
+
+<http://musicbrainz.org/artist/79641181-b9a7-4a4a-a467-d41c4d32b3e0> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:disambiguatingDescription "Montreal training orchestra" ;
+    schema1:name "Orchestre de la Francophonie" .
+
+<http://musicbrainz.org/artist/79ed4d95-2053-4c48-b7e1-0e8b236b3e20> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Halifax-based pop/rock band" ;
+    schema1:name "Port Cities" .
+
+<http://musicbrainz.org/artist/7a1daf7f-b972-4808-bc03-2e1e3a79dce0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Belgian singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lara Fabian" ;
+    schema1:sameAs <https://isni.org/isni/0000000114766857> .
+
+<http://musicbrainz.org/artist/7ade6163-9360-4ae5-b0a4-10b2cff0bf58> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Italian composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Mario Pilati" ;
+    schema1:sameAs <https://isni.org/isni/0000000083593665> .
+
+<http://musicbrainz.org/artist/7b1a3022-6f4d-4c6b-acb3-bfa8919222b9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Buffy Sainte‐Marie" ;
+    schema1:sameAs <https://isni.org/isni/0000000109399984> .
+
+<http://musicbrainz.org/artist/7bf257bf-19a8-4205-8ae8-98511e50b719> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "American composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Terry Riley" ;
+    schema1:sameAs <https://isni.org/isni/000000011691354X> .
+
+<http://musicbrainz.org/artist/7c20a127-3dda-415d-b084-8e51e2642a95> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jerry Granelli" ;
+    schema1:sameAs <https://isni.org/isni/0000000107730741> .
+
+<http://musicbrainz.org/artist/7c33d204-b56e-435d-b644-de0603d7c73c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Raquel J. Palacio" ;
+    schema1:sameAs <https://isni.org/isni/0000000357046950> .
+
+<http://musicbrainz.org/artist/7cdeda0b-40b4-4500-a15f-a651041eae54> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Pony Girl" .
+
+<http://musicbrainz.org/artist/7d7b0866-cc77-470f-8bd4-2a5fbc84f1ad> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Angela Cheng" .
+
+<http://musicbrainz.org/artist/7d88d44e-3084-4351-b742-01287c600da8> a dbo:Agent ;
+    schema1:name "Anachnid" .
+
+<http://musicbrainz.org/artist/7d8e575e-940f-47b9-bc0a-9a4eff2b5e23> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Julie Nesrallah" ;
+    schema1:sameAs <https://isni.org/isni/0000000074910550> .
+
+<http://musicbrainz.org/artist/7d8fb539-811e-4491-a3f7-f56d3ef35e7a> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Teskey Brothers" .
+
+<http://musicbrainz.org/artist/7dfad967-a52d-45e5-af7f-5ecef98670b1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:name "Soleil Launière" ;
+    schema1:sameAs <https://isni.org/isni/0000000508490697> .
+
+<http://musicbrainz.org/artist/7e91b8d6-c867-42d2-99d5-9a1ad27fcb3b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Herbert J. Lance" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Herb Lance" .
+
+<http://musicbrainz.org/artist/7e9fa943-91ca-4650-98b7-878e149cae64> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Le Trio BBQ" .
+
+<http://musicbrainz.org/artist/7eac8e8e-cb06-48ab-b139-072f18fec70b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Russian composer known for his microtonal compositions" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Иван Вышнеградский" ;
+    schema1:sameAs <https://isni.org/isni/0000000081718292> .
+
+<http://musicbrainz.org/artist/7ebc552b-71b2-47b7-9dc8-31ef08e20aec> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Tea Party" ;
+    schema1:sameAs <https://isni.org/isni/0000000123149076> .
+
+<http://musicbrainz.org/artist/8010da10-5c5b-4041-b119-984a6e2ccf82> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Matthew Good" ;
+    schema1:sameAs <https://isni.org/isni/0000000074176392> .
+
+<http://musicbrainz.org/artist/804b955a-7c87-4914-8d4f-69e9732cb1d4> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Red River Ramblers" .
+
+<http://musicbrainz.org/artist/80ad5c27-103d-4bac-9842-b5b51a046806> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Hamilton Philharmonic Orchestra" ;
+    schema1:sameAs <https://isni.org/isni/0000000087771940> .
+
+<http://musicbrainz.org/artist/80dc77b5-527c-4e65-8fb8-1e133ad4c1f9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Cecile Doo-Kingue" .
+
+<http://musicbrainz.org/artist/8173b51e-1744-41e6-b4e4-c113a288d46a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Plume Latraverse" ;
+    schema1:sameAs <https://isni.org/isni/0000000081187591> .
+
+<http://musicbrainz.org/artist/82bb30da-2808-4ce2-ab90-960a73177fb1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "American composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "C. Bryan Rulon" ;
+    schema1:sameAs <https://isni.org/isni/0000000054569914> .
+
+<http://musicbrainz.org/artist/8359e276-4209-4d57-a6a8-d3b344e25566> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "countertenor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Iestyn Davies" ;
+    schema1:sameAs <https://isni.org/isni/0000000071650351> .
+
+<http://musicbrainz.org/artist/83f0b993-36f8-4dba-bf35-f221e808ffbe> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Les Charbonniers de l’enfer" .
+
+<http://musicbrainz.org/artist/8427ea7b-717e-4834-97f1-57a4c29351c3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Hawksley Workman" ;
+    schema1:sameAs <https://isni.org/isni/0000000073667085> .
+
+<http://musicbrainz.org/artist/847e8a0c-cc20-4213-9e16-975515c2a926> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Céline Dion" ;
+    schema1:sameAs <https://isni.org/isni/0000000073642195>,
+        <https://isni.org/isni/0000000368452348> .
+
+<http://musicbrainz.org/artist/84966661-5460-4a0b-b4ff-c7ceecc59d5f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gabriel Dharmoo" ;
+    schema1:sameAs <https://isni.org/isni/0000000491574746>,
+        <https://isni.org/isni/0000000524034771> .
+
+<http://musicbrainz.org/artist/855d16ad-52fb-4c58-8709-592284935d85> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Véronic DiCaire" ;
+    schema1:sameAs <https://isni.org/isni/0000000076346068> .
+
+<http://musicbrainz.org/artist/874d16f9-e2e4-4441-be37-bf16ed32290e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer‐songwriter" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jully Black" ;
+    schema1:sameAs <https://isni.org/isni/0000000073771966> .
+
+<http://musicbrainz.org/artist/8759012b-f31b-4525-a416-0e8bb3bc7c48> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Louise Pitre" .
+
+<http://musicbrainz.org/artist/87685458-1aef-49b7-945b-03a892d9c482> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Zaho de Sagazan" ;
+    schema1:sameAs <https://isni.org/isni/0000000507935201>,
+        <https://isni.org/isni/0000000511738630> .
+
+<http://musicbrainz.org/artist/87823342-3916-4e3e-ac3f-7afdd49e039c> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Nova Scotia Youth Orchestra" .
+
+<http://musicbrainz.org/artist/87f02750-fb8a-462c-9f3d-a43ec609fcb1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Matt Mays" ;
+    schema1:sameAs <https://isni.org/isni/0000000073759772> .
+
+<http://musicbrainz.org/artist/88144008-9c66-4cd5-a16c-8e23ad31d28f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kim Mitchell" ;
+    schema1:sameAs <https://isni.org/isni/0000000073734700> .
+
+<http://musicbrainz.org/artist/88427961-fd3f-4802-913c-db012213045b> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Thunder Bay Symphony Orchestra" .
+
+<http://musicbrainz.org/artist/885ed00a-34ba-4139-bcfc-5065f6270726> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Quebec hiphop group" ;
+    schema1:name "Alaclair Ensemble" ;
+    schema1:sameAs <https://isni.org/isni/0000000469518238> .
+
+<http://musicbrainz.org/artist/8971c70d-b0c6-4d0d-9ff8-1ed222178c4b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "London, UK soul singer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kwabs" .
+
+<http://musicbrainz.org/artist/89dbbb37-7991-487b-bcf3-ebe270a70d24> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Bywater Call" .
+
+<http://musicbrainz.org/artist/89f48262-9aa9-4bd7-aa3c-00660a1e6a7c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Logan Staats" ;
+    schema1:sameAs <https://isni.org/isni/0000000476203197> .
+
+<http://musicbrainz.org/artist/8a9a720c-561c-48d3-8309-b4f36a98036b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian radio broadcaster, humourist and author" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Stuart McLean" ;
+    schema1:sameAs <https://isni.org/isni/000000007402345X> .
+
+<http://musicbrainz.org/artist/8b6bde4a-b9ca-4856-af61-bedd3de87964> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Florian Hoefner Group" .
+
+<http://musicbrainz.org/artist/8b79f99c-e5eb-4a89-aed8-f40698c313b8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Rosie Valland" .
+
+<http://musicbrainz.org/artist/8d37fcb7-6cb6-411a-aceb-2a8602d95c74> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Nêyihaw singer/songwriter from Treaty 6 territory" ;
+    schema1:name "Wyatt C. Louis" .
+
+<http://musicbrainz.org/artist/8ddbfd53-04a5-49a8-8ebb-18c8dd824001> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Caissie Levy" .
+
+<http://musicbrainz.org/artist/8dfe3c4c-19e4-4e95-a4a9-b3e7b308be5d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:name "György Balla" .
+
+<http://musicbrainz.org/artist/8e11e475-f2e8-485e-80c4-03e47b69af61> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Éric Salvail" .
+
+<http://musicbrainz.org/artist/8edd0d60-522a-4548-b8d4-1bf7a00f421e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Josh Ramsay" .
+
+<http://musicbrainz.org/artist/8f3761d2-9e6a-4f0c-b85b-81156d392f68> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Dan Bigras" ;
+    schema1:sameAs <https://isni.org/isni/0000000119349980> .
+
+<http://musicbrainz.org/artist/8f56febf-3dbc-4096-b5e3-28e20745b3f3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jacques Hétu" ;
+    schema1:sameAs <https://isni.org/isni/0000000081827624> .
+
+<http://musicbrainz.org/artist/90017bf8-7967-4984-8355-4b1ba15aa681> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Amylie" ;
+    schema1:sameAs <https://isni.org/isni/0000000076792690> .
+
+<http://musicbrainz.org/artist/900ed77f-0af7-4938-8b79-05d7295176ab> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michel Faubert" ;
+    schema1:sameAs <https://isni.org/isni/0000000078992469> .
+
+<http://musicbrainz.org/artist/902209b8-ea1c-4806-a84e-9094fe728fc0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Stewart Goodyear" ;
+    schema1:sameAs <https://isni.org/isni/0000000078803218> .
+
+<http://musicbrainz.org/artist/9089e23c-a87c-41af-8265-468d3a95f2a6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Joseph Edgar" .
+
+<http://musicbrainz.org/artist/90df90e2-51fa-4921-a777-72236f4fe566> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "band by former Bob Marley & The Wailers lead guitarist Al Anderson" ;
+    schema1:name "The Original Wailers" .
+
+<http://musicbrainz.org/artist/91136bf7-3b12-4ae5-b93b-eddb9e561dfb> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Norwegian neofolk" ;
+    schema1:name "Wardruna" ;
+    schema1:sameAs <https://isni.org/isni/0000000469565499> .
+
+<http://musicbrainz.org/artist/9144dd58-1d7c-4113-831c-dcdfd81efee8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Alexandre Poulin" ;
+    schema1:sameAs <https://isni.org/isni/0000000076423895> .
+
+<http://musicbrainz.org/artist/91e760fa-98f4-4122-a1e6-c980473fccce> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French singer Olivier Caudron" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Olive" ;
+    schema1:sameAs <https://isni.org/isni/0000000003123816> .
+
+<http://musicbrainz.org/artist/93670960-a638-47e5-a876-5589f9444ce9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Oskar Ansull" ;
+    schema1:sameAs <https://isni.org/isni/0000000109539246> .
+
+<http://musicbrainz.org/artist/939f04a7-0f56-4ee0-b94a-4184279c9412> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Philippe Brach" .
+
+<http://musicbrainz.org/artist/93c0a24d-9a7d-446a-b16b-93b412206780> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Daniel Bélanger" .
+
+<http://musicbrainz.org/artist/9476ee3c-ede2-46e8-ae24-ce2db54b5df3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Francis Cabrel" ;
+    schema1:sameAs <https://isni.org/isni/0000000078305382> .
+
+<http://musicbrainz.org/artist/958d3f9d-afe6-486e-820e-18ec7cdcb2ad> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian folk duo" ;
+    schema1:name "Whitehorse" .
+
+<http://musicbrainz.org/artist/95db1c7c-21b8-4956-82ad-20217cd5d395> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "American / Canadian singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lhasa De Sela" ;
+    schema1:sameAs <https://isni.org/isni/0000000120216376> .
+
+<http://musicbrainz.org/artist/96681463-98e2-4032-9728-5fbb7b002427> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "US composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "John Luther Adams" ;
+    schema1:sameAs <https://isni.org/isni/0000000082238346> .
+
+<http://musicbrainz.org/artist/96f811ab-ff14-41af-bbc5-fc81ff089950> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "screenwriter / film director" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kevin Smith" ;
+    schema1:sameAs <https://isni.org/isni/0000000118803192> .
+
+<http://musicbrainz.org/artist/972b6fe3-729f-48d2-bae2-d16612d9f96b> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "folk rock group from Quebec" ;
+    schema1:name "Kaïn" .
+
+<http://musicbrainz.org/artist/972be159-c1e8-42db-85c7-ef6fd9b04b92> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Patrick Fiori" ;
+    schema1:sameAs <https://isni.org/isni/0000000114661510> .
+
+<http://musicbrainz.org/artist/97825425-65ee-49e6-9901-647b3e9a86a6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Salvatore Di Giacomo" ;
+    schema1:sameAs <https://isni.org/isni/0000000123213963> .
+
+<http://musicbrainz.org/artist/97d801d3-3b11-4300-9f92-26192db69b4a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "conductor" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Joana Carneiro" .
+
+<http://musicbrainz.org/artist/9833b13b-380b-4571-b445-f05a9ea66591> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "American Canadian Abenaki filmmaker, singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Alanis Obomsawin" ;
+    schema1:sameAs <https://isni.org/isni/0000000106199899> .
+
+<http://musicbrainz.org/artist/983d4f8f-473e-4091-8394-415c105c4656> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Charlie Winston" ;
+    schema1:sameAs <https://isni.org/isni/0000000078518484> .
+
+<http://musicbrainz.org/artist/99bd8003-39fd-4594-b6d0-37b3bc08b600> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tim Tamashiro" .
+
+<http://musicbrainz.org/artist/9a4ff524-1cb3-492b-8007-2ae5a28dd9ff> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Elizabeth Shepherd" ;
+    schema1:sameAs <https://isni.org/isni/0000000372578453> .
+
+<http://musicbrainz.org/artist/9a537051-894b-4410-8b64-5c0e571aae00> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "soprano" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Adrianne Pieczonka" ;
+    schema1:sameAs <https://isni.org/isni/0000000120189400> .
+
+<http://musicbrainz.org/artist/9a7e883f-9a94-4f0f-8616-d4ce3cd7b49f> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Les Trois Accords" .
+
+<http://musicbrainz.org/artist/9b1d72ff-f4da-4773-8659-afba133cecb0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Isabelle Boulay" ;
+    schema1:sameAs <https://isni.org/isni/0000000079834331> .
+
+<http://musicbrainz.org/artist/9b4b12e4-8eb5-455f-84ea-243b28e2c458> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Claude Dubois" ;
+    schema1:sameAs <https://isni.org/isni/0000000073659747> .
+
+<http://musicbrainz.org/artist/9b7e4004-0b3b-44d4-99f2-c30d36dcaa04> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Windsor Symphony Orchestra" ;
+    schema1:sameAs <https://isni.org/isni/0000000085906143>,
+        <https://isni.org/isni/0000000464760340> .
+
+<http://musicbrainz.org/artist/9c102db7-a04d-4530-a83c-4cd169b99f68> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian guitarist, singer & songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Randy Bachman" ;
+    schema1:sameAs <https://isni.org/isni/0000000117612191> .
+
+<http://musicbrainz.org/artist/9c175118-2b95-4f02-83fa-116d64427b45> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Okavango African Orchestra" .
+
+<http://musicbrainz.org/artist/9c39c1ba-f136-4195-b492-fc8bf3247b5e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "tenor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Ben Heppner" ;
+    schema1:sameAs <https://isni.org/isni/0000000114439215> .
+
+<http://musicbrainz.org/artist/9c58e732-214e-4180-8910-2fb1df3b15cd> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Oh Susanna" ;
+    schema1:sameAs <https://isni.org/isni/0000000074145326> .
+
+<http://musicbrainz.org/artist/9dfde307-4a05-4112-b028-cc2c0633af8e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Denis Gougeon" ;
+    schema1:sameAs <https://isni.org/isni/0000000114558249> .
+
+<http://musicbrainz.org/artist/9eee650d-cba4-4af3-9bfc-6f785d32b53b> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Doc Walker" .
+
+<http://musicbrainz.org/artist/a04f8865-083c-40a8-be9a-e8d5cc16c36f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Daniel Grenier" .
+
+<http://musicbrainz.org/artist/a0920ae6-2968-4f92-ac14-67448452bd18> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Robbie Robertson" ;
+    schema1:sameAs <https://isni.org/isni/0000000094126675> .
+
+<http://musicbrainz.org/artist/a0e95d73-2238-43ad-923c-f02afd3fc749> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lulu Hughes" ;
+    schema1:sameAs <https://isni.org/isni/0000000074539886> .
+
+<http://musicbrainz.org/artist/a0eb1944-6913-4189-8e45-245a6ce5263f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian actor & singer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tom Jackson" .
+
+<http://musicbrainz.org/artist/a1b2abbc-9a90-43b4-a400-694183f25cf5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Greg Proops" ;
+    schema1:sameAs <https://isni.org/isni/0000000049004417> .
+
+<http://musicbrainz.org/artist/a1c50988-be0f-498e-a40d-ac0ab7a1f7e5> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Ennis Sisters" .
+
+<http://musicbrainz.org/artist/a3089613-8bab-4ca4-a909-4135162660f6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Luke Goss" .
+
+<http://musicbrainz.org/artist/a430f314-b3fc-4ab7-90b2-313fca3f04df> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "King of Foxes" .
+
+<http://musicbrainz.org/artist/a4e73a8e-9d89-4c80-9c2f-62008b7e3105> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Quebec singer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Marjo" ;
+    schema1:sameAs <https://isni.org/isni/0000000073916678> .
+
+<http://musicbrainz.org/artist/a5348ead-9a1e-4916-ac9a-aa788bea070a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian rapper" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Loud" ;
+    schema1:sameAs <https://isni.org/isni/0000000466457724> .
+
+<http://musicbrainz.org/artist/a5414cb1-6382-475a-a9ba-4a36cb4def16> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "broadcaster" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Rosanna Deerchild" ;
+    schema1:sameAs <https://isni.org/isni/0000000072679025> .
+
+<http://musicbrainz.org/artist/a6475e54-870d-44e8-bc0a-f6d24d51b11d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian percussionist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Marie-Josée Simard" ;
+    schema1:sameAs <https://isni.org/isni/0000000466538946> .
+
+<http://musicbrainz.org/artist/a670e05a-cea8-4b37-bce9-d82daf1a0fa4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Leslie Feist – American‐Canadian indie pop singer / of Broken Social Scene" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Feist" ;
+    schema1:sameAs <https://isni.org/isni/0000000080056004> .
+
+<http://musicbrainz.org/artist/a6d3a1bf-ee78-4a6d-96b3-1bd9769128c4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pop singer & songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Andy Kim" ;
+    schema1:sameAs <https://isni.org/isni/0000000398640673> .
+
+<http://musicbrainz.org/artist/a7c68411-e474-493b-8fe6-0665a711bf7b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "velours velours" .
+
+<http://musicbrainz.org/artist/a7cabcd9-b637-4682-bbd6-4db454fc07a7> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Alicia Moffet" .
+
+<http://musicbrainz.org/artist/a7cad3db-9e2a-4bf5-9819-2a25f31cf681> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "soprano" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Measha Brueggergosman" ;
+    schema1:sameAs <https://isni.org/isni/0000000073703760> .
+
+<http://musicbrainz.org/artist/a868456d-9305-42c2-9b75-75109e2e4ad8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Gabrielle Shonk" .
+
+<http://musicbrainz.org/artist/a86d9a37-653e-4a05-a39c-1257eefc91e9> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Acadian group" ;
+    schema1:name "Les Hay Babies" .
+
+<http://musicbrainz.org/artist/a894f8d9-48b3-4292-b32d-2d1293746d67> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "actor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Colm Feore" .
+
+<http://musicbrainz.org/artist/a92c4760-7458-4d1b-9f0b-ce861795f9ff> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian conductor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Mario Bernardi" ;
+    schema1:sameAs <https://isni.org/isni/0000000078396341> .
+
+<http://musicbrainz.org/artist/ab596343-ba3b-4e5a-889d-a2d022114207> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Oktoécho" ;
+    schema1:sameAs <https://isni.org/isni/0000000469778355> .
+
+<http://musicbrainz.org/artist/ac5c4863-a9fb-46cb-8c5c-91620903d78b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Marc Dupré" ;
+    schema1:sameAs <https://isni.org/isni/0000000371926890> .
+
+<http://musicbrainz.org/artist/acae000a-f592-419e-9a73-c5786b0f65c3> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Les Breastfeeders" .
+
+<http://musicbrainz.org/artist/ad3d104a-d9bb-478f-a505-19c6b8cf51c5> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Franco-Newfoundland traditional music duo" ;
+    schema1:name "Port-Aux-Poutines" .
+
+<http://musicbrainz.org/artist/ad6dfe00-eabe-46a6-847b-5310eeab9cb9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian guitarist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Philippe B" .
+
+<http://musicbrainz.org/artist/ad840091-2b12-45fe-8a0b-1c6dee383b7c> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Quebec folk duo" ;
+    schema1:name "2Frères" ;
+    schema1:sameAs <https://isni.org/isni/0000000469961360> .
+
+<http://musicbrainz.org/artist/adcf40ed-8d95-4ad4-8649-22dfc13d08c9> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Symphony Nova Scotia" .
+
+<http://musicbrainz.org/artist/ae5308a7-f8e7-4564-9af2-420f693e6587> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Barra MacNeils" .
+
+<http://musicbrainz.org/artist/ae6a1f94-d931-45b6-941b-3a493dd7331d> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "from British Columbia, Canada" ;
+    schema1:name "Scrap Arts Music" .
+
+<http://musicbrainz.org/artist/ae819b09-cc6a-409c-8f09-448a57db3614> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jean-Marc Généreux" .
+
+<http://musicbrainz.org/artist/aea8c61b-a748-48c8-8e43-ea8320163a90> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Carl Dixon" ;
+    schema1:sameAs <https://isni.org/isni/0000000073758331> .
+
+<http://musicbrainz.org/artist/aee94774-d05b-45c2-84ad-e32692b7d5ca> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian Singer/Songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Doug Paisley" .
+
+<http://musicbrainz.org/artist/af0d1dea-d3ae-47a1-b63b-4c23c3809eaa> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bobby Bazini" .
+
+<http://musicbrainz.org/artist/af2e9239-1112-4eae-9d94-7670701b1dc8> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Irish Descendants" .
+
+<http://musicbrainz.org/artist/af506aa5-cf14-4321-9674-70086d8bc94a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "American industrial / metal musician" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Paul Lemos" ;
+    schema1:sameAs <https://isni.org/isni/0000000055885652> .
+
+<http://musicbrainz.org/artist/afa436cf-dee5-4321-9ba6-e4c7317590ea> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Petr Cancura" ;
+    schema1:sameAs <https://isni.org/isni/0000000113149398>,
+        <https://isni.org/isni/0000000478012298> .
+
+<http://musicbrainz.org/artist/afb8f901-d846-4c70-a898-59bc183d1da7> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Crash Test Dummies" ;
+    schema1:sameAs <https://isni.org/isni/0000000121873853> .
+
+<http://musicbrainz.org/artist/b00de7dd-4a04-4708-a599-3c8a8d0d5cb5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Georges Sapounidis" .
+
+<http://musicbrainz.org/artist/b0288f97-71d3-4fa2-8379-e482c4d97e95> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Yamandu Costa" ;
+    schema1:sameAs <https://isni.org/isni/0000000059436379> .
+
+<http://musicbrainz.org/artist/b0bb54dd-e57f-422a-8cd0-534f933c8b43> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer & environmentalist, 1933-2021" ;
+    schema1:gender schema1:Male ;
+    schema1:name "R. Murray Schafer" ;
+    schema1:sameAs <https://isni.org/isni/0000000121025678> .
+
+<http://musicbrainz.org/artist/b0d0b278-8b89-4a5b-afab-7cd92bac9837> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Leela Gilday" ;
+    schema1:sameAs <https://isni.org/isni/0000000074831684> .
+
+<http://musicbrainz.org/artist/b18b437c-3f7b-4c5b-a90b-308f893cc685> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Alacie Tullaugaq" .
+
+<http://musicbrainz.org/artist/b1a4c37e-c267-4d17-b4c5-17362a80b7d4> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "violinist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Aisslinn Nosky" ;
+    schema1:sameAs <https://isni.org/isni/0000000360406670> .
+
+<http://musicbrainz.org/artist/b327f9b3-c033-4d87-b6f9-9e21bee58420> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "James Barker Band" .
+
+<http://musicbrainz.org/artist/b389a2a8-b126-4392-954d-d5d363cccd39> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian drummer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Larnell Lewis" ;
+    schema1:sameAs <https://isni.org/isni/0000000476007188> .
+
+<http://musicbrainz.org/artist/b42fe8d6-506b-4f99-ba53-65632ca3ba06> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Carroll Baker" ;
+    schema1:sameAs <https://isni.org/isni/000000007378349X> .
+
+<http://musicbrainz.org/artist/b4432011-b446-433c-b804-930ad8a784e2> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Aliki Brandenberg" ;
+    schema1:sameAs <https://isni.org/isni/0000000121023330> .
+
+<http://musicbrainz.org/artist/b4ded7a5-fc8c-4e75-af06-e366a06aae3b> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Blaze Velluto Collection" ;
+    schema1:sameAs <https://isni.org/isni/0000000475480416> .
+
+<http://musicbrainz.org/artist/b52211f1-49a2-4cd2-8535-dd1ba37ea90b> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Cowboy Junkies" ;
+    schema1:sameAs <https://isni.org/isni/000000012375361X> .
+
+<http://musicbrainz.org/artist/b6e3d861-28fd-499c-a4c1-bebbdb526bec> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michel Rivard" ;
+    schema1:sameAs <https://isni.org/isni/0000000079834366> .
+
+<http://musicbrainz.org/artist/b769ad6f-a959-44ca-98a0-5b13cdfae511> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Canadian 80's band, 'Nova Heart'" ;
+    schema1:name "Spoons" ;
+    schema1:sameAs <https://isni.org/isni/0000000119453104> .
+
+<http://musicbrainz.org/artist/b7e55351-8afe-4153-90b1-9d181640a196> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Natalie MacMaster & Donnell Leahy" .
+
+<http://musicbrainz.org/artist/b812efe9-6a47-44f5-9525-b96fa0bb2788> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian comedian" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Mike Ward" .
+
+<http://musicbrainz.org/artist/b86d96c9-584f-4a30-9bc1-9fed1c933bc1> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Downchild Blues Band" ;
+    schema1:sameAs <https://isni.org/isni/0000000093864713> .
+
+<http://musicbrainz.org/artist/b90eff14-95d4-48b4-b2e0-6e32ba413131> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Laurent Paquin" ;
+    schema1:sameAs <https://isni.org/isni/0000000073127716> .
+
+<http://musicbrainz.org/artist/b9534d01-d897-4d3c-b778-e450f49c1474> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Maurice Blackburn" ;
+    schema1:sameAs <https://isni.org/isni/0000000078414730> .
+
+<http://musicbrainz.org/artist/b9d428a5-a41b-4d4a-94a0-5c1dbbf70590> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Robert Prutz" ;
+    schema1:sameAs <https://isni.org/isni/0000000110494233> .
+
+<http://musicbrainz.org/artist/ba27017b-19ad-4f33-b7bf-8c9677593d33> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Patsy Gallant" ;
+    schema1:sameAs <https://isni.org/isni/0000000118806617> .
+
+<http://musicbrainz.org/artist/bad76f3d-abbd-496c-bfc3-5fd5934a3ecd> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Zosha Di Castri" ;
+    schema1:sameAs <https://isni.org/isni/0000000388801226>,
+        <https://isni.org/isni/0000000466658104> .
+
+<http://musicbrainz.org/artist/bba97c67-32fd-4ca4-bd2e-a233067088c5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jill Barber" ;
+    schema1:sameAs <https://isni.org/isni/0000000118807388> .
+
+<http://musicbrainz.org/artist/bbd11954-09aa-42af-9505-998d6bdc0b99> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French jazz violinist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Didier Lockwood" ;
+    schema1:sameAs <https://isni.org/isni/0000000114409382> .
+
+<http://musicbrainz.org/artist/bbfb6a6a-9d0b-4305-8c44-a90b4939e311> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "composer, pianist, conductor, arranger and record producer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Belford Hendricks" ;
+    schema1:sameAs <https://isni.org/isni/0000000055142939> .
+
+<http://musicbrainz.org/artist/bcd6af9f-afa8-43fd-b1be-acbbbb2f7dc7> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Stephen Sondheim" ;
+    schema1:sameAs <https://isni.org/isni/0000000120968578> .
+
+<http://musicbrainz.org/artist/be010925-fab0-4047-a362-27d722589203> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jaeden Izik-Dzurko" .
+
+<http://musicbrainz.org/artist/beaecc2d-20c7-4221-8fd2-682c82f0faab> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tim Armstrong" ;
+    schema1:sameAs <https://isni.org/isni/0000000365954270> .
+
+<http://musicbrainz.org/artist/beeae536-6a1b-4dfd-a269-c8415be9c8ca> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Esprit Orchestra" .
+
+<http://musicbrainz.org/artist/bf1982a0-9818-487b-a0da-d57eb4edcb26> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Nicole Lizée" ;
+    schema1:sameAs <https://isni.org/isni/0000000381880478> .
+
+<http://musicbrainz.org/artist/bf816840-98ed-43b2-9b5a-a3c4fbb27726> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michel Pagliaro" ;
+    schema1:sameAs <https://isni.org/isni/0000000073748811> .
+
+<http://musicbrainz.org/artist/c00e7b52-c9ef-4635-b70c-3acdbd09b538> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Aliocha Schneider" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Aliocha" ;
+    schema1:sameAs <https://isni.org/isni/0000000463221265> .
+
+<http://musicbrainz.org/artist/c036befe-2955-4ca5-acbf-0b35ae4cfb64> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Guylaine Tremblay" .
+
+<http://musicbrainz.org/artist/c079c965-60d7-4aa6-b4bd-1a79558cf937> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Joe Bocan" ;
+    schema1:sameAs <https://isni.org/isni/000000007681938X> .
+
+<http://musicbrainz.org/artist/c086d80e-5bbe-43c3-84a7-8bb6dc7df654> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "violinist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jessica Linnebach" .
+
+<http://musicbrainz.org/artist/c0cc7d5f-72a1-4677-9ea2-6cfe7cdfdafa> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Émile Bilodeau" ;
+    schema1:sameAs <https://isni.org/isni/000000046664807X> .
+
+<http://musicbrainz.org/artist/c1042f2a-49a0-40b4-9e56-2394eea05c26> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:disambiguatingDescription "Canadian orchestra" ;
+    schema1:name "Orchestre symphonique de Trois‐Rivières" .
+
+<http://musicbrainz.org/artist/c10625c8-fb28-4c2d-aaa7-fb596cc04441> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Twin Flames" .
+
+<http://musicbrainz.org/artist/c1839df6-1f9d-4469-bbda-7779cc3da7de> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer, songwriter and activist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Sarah Harmer" ;
+    schema1:sameAs <https://isni.org/isni/0000000073691237> .
+
+<http://musicbrainz.org/artist/c24c42da-d92b-4f4c-9abf-a600f7104aba> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer/songwriter" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Shawnee" .
+
+<http://musicbrainz.org/artist/c25a7200-e57e-4a13-bf5c-a5d4ad883a57> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Patrice Michaud" ;
+    schema1:sameAs <https://isni.org/isni/000000045282962X> .
+
+<http://musicbrainz.org/artist/c3161cf7-cab1-4409-9b1f-876561dd7716> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michael Nyman" ;
+    schema1:sameAs <https://isni.org/isni/0000000114893709> .
+
+<http://musicbrainz.org/artist/c3591dfe-dc58-4c0e-816c-968f0cf9dfb3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Chinese actress" ;
+    schema1:gender schema1:Female ;
+    schema1:name "陳燕燕" ;
+    schema1:sameAs <https://isni.org/isni/0000000073363292> .
+
+<http://musicbrainz.org/artist/c4a9b764-88c1-4652-a05b-b7076e55eae7> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "baritone" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gino Quilico" ;
+    schema1:sameAs <https://isni.org/isni/0000000114919825> .
+
+<http://musicbrainz.org/artist/c5723972-2f4e-49b6-8656-7c2f94e2194c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "André-Philippe Gagnon" .
+
+<http://musicbrainz.org/artist/c5eb9407-caeb-4303-b383-6929aa94021c> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Papa Roach" ;
+    schema1:sameAs <https://isni.org/isni/0000000123373190> .
+
+<http://musicbrainz.org/artist/c6081432-ab9d-4076-9a8d-d03ec1dc8fd5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Laurence Jalbert" ;
+    schema1:sameAs <https://isni.org/isni/0000000074509855>,
+        <https://isni.org/isni/0000000129913581> .
+
+<http://musicbrainz.org/artist/c6cba9d0-a90e-4087-8b21-8ac471775c69> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "montreal pop artist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Geneviève Jodoin" .
+
+<http://musicbrainz.org/artist/c70ad3c4-ea37-42bf-be48-b2438ca17898> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Stéphane Tétreault" .
+
+<http://musicbrainz.org/artist/c79a6307-1861-4115-9f4b-a0cc47fb686a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Michèle Torr" ;
+    schema1:sameAs <https://isni.org/isni/0000000055099803> .
+
+<http://musicbrainz.org/artist/c8042d0e-fe40-401e-a988-f7a14e637aa2> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Lebanese-Canadian soprano" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Joyce El-Khoury" ;
+    schema1:sameAs <https://isni.org/isni/0000000424929447> .
+
+<http://musicbrainz.org/artist/c820e898-9226-4c9e-b106-0bd889cbf62a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "soprano" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jane Archibald" ;
+    schema1:sameAs <https://isni.org/isni/0000000139911731> .
+
+<http://musicbrainz.org/artist/c8a2c787-8391-404f-bcfa-c82a3a7c35c9> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "comedy troupe" ;
+    schema1:name "The Second City" .
+
+<http://musicbrainz.org/artist/c8ab0960-a254-40be-b612-854ded80c713> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bruno Nicolai" ;
+    schema1:sameAs <https://isni.org/isni/0000000080920392>,
+        <https://isni.org/isni/0000000368491849> .
+
+<http://musicbrainz.org/artist/c9116c64-37c5-4d6f-9e82-b00285486c3c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Charles Yang" .
+
+<http://musicbrainz.org/artist/c96fa0f7-271a-47f2-bd1c-cfdd28094793> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Daran" ;
+    schema1:sameAs <https://isni.org/isni/0000000118620054> .
+
+<http://musicbrainz.org/artist/c9848d5b-8dfa-47b2-827b-7d26eae95f4f> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "English National Ballet Philharmonic" ;
+    schema1:sameAs <https://isni.org/isni/0000000121923064> .
+
+<http://musicbrainz.org/artist/c98e4154-d48d-4537-9b42-0bb0e51b2774> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "ט. כרמי" ;
+    schema1:sameAs <https://isni.org/isni/0000000084085777> .
+
+<http://musicbrainz.org/artist/ca2a1c3a-1e1e-477e-914e-742d0f69c4cc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "John Estacio" ;
+    schema1:sameAs <https://isni.org/isni/0000000078990578> .
+
+<http://musicbrainz.org/artist/caf0e0dd-ec9d-41e8-8c7c-afb277509c9b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jocelyn Morlock" ;
+    schema1:sameAs <https://isni.org/isni/0000000110015976>,
+        <https://isni.org/isni/0000000407496520>,
+        <https://isni.org/isni/0000000483190582> .
+
+<http://musicbrainz.org/artist/cb535c4c-711b-4be1-98f3-b6b5f8955d41> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Hungarian-born British classical pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Sir András Schiff" ;
+    schema1:sameAs <https://isni.org/isni/0000000109375982> .
+
+<http://musicbrainz.org/artist/cb559996-8041-410e-bc7e-e23963bff5f5> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Quatuor esca" .
+
+<http://musicbrainz.org/artist/cbc0bd51-912d-4739-929b-9b7fb6695d18> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michael Kaeshammer" ;
+    schema1:sameAs <https://isni.org/isni/0000000072686209> .
+
+<http://musicbrainz.org/artist/cc699fe3-db51-4837-928f-8f712c61a01a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "grandson" .
+
+<http://musicbrainz.org/artist/cc98f9e4-52b6-42bd-8657-5614e11fb96a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Éric Lapointe" ;
+    schema1:sameAs <https://isni.org/isni/0000000001461280>,
+        <https://isni.org/isni/0000000119385244>,
+        <https://isni.org/isni/0000000132204102> .
+
+<http://musicbrainz.org/artist/cce9482e-2f65-4754-af26-48a24e4493c1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "born in Québec, Canada, since 1980 lives in Germany" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Denys Bouliane" ;
+    schema1:sameAs <https://isni.org/isni/0000000073641774> .
+
+<http://musicbrainz.org/artist/cd10afe6-913f-40fc-beee-53ec4777cbd8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Luc de Larochellière" .
+
+<http://musicbrainz.org/artist/cd4636e1-06a3-41fc-848a-624b84bbb023> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Charles Gounod" ;
+    schema1:sameAs <https://isni.org/isni/0000000122780819> .
+
+<http://musicbrainz.org/artist/cde2b098-ce06-45b9-b14c-928c7ed5e58d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Henri Woollett" ;
+    schema1:sameAs <https://isni.org/isni/0000000078211319> .
+
+<http://musicbrainz.org/artist/cde60e8b-6c8f-493f-ba83-7615c4e61909> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Meghan Patrick" .
+
+<http://musicbrainz.org/artist/cdfd75ba-906a-4c4f-985f-44f4d66764df> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Hervé Roy" ;
+    schema1:sameAs <https://isni.org/isni/0000000119483709> .
+
+<http://musicbrainz.org/artist/ce348f4e-fa46-488f-b9f2-60c19c871c81> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Charles Guonod" .
+
+<http://musicbrainz.org/artist/ce511ccb-05bb-4818-9a07-b3007f4ddb24> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Andréanne A. Malette" ;
+    schema1:sameAs <https://isni.org/isni/0000000451137234> .
+
+<http://musicbrainz.org/artist/cfaf3f8c-af77-4034-8da2-7c3f9aefe71f> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The New Glenn Miller Orchestra" .
+
+<http://musicbrainz.org/artist/cfead26a-e32f-4778-b790-18d2f533999f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jorane" ;
+    schema1:sameAs <https://isni.org/isni/0000000383207316> .
+
+<http://musicbrainz.org/artist/d0c29337-ada3-49b1-823c-3b323cb17784> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Orloge Simard" ;
+    schema1:sameAs <https://isni.org/isni/0000000457859115>,
+        <https://isni.org/isni/000000047018292X> .
+
+<http://musicbrainz.org/artist/d12f98c6-2ca1-4856-8ecb-e0387c348dcc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Crystal Shawanda" .
+
+<http://musicbrainz.org/artist/d146ce5d-c5dc-45fe-800b-5d5ec7af0f8d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Don Brownrigg" .
+
+<http://musicbrainz.org/artist/d1f2d353-f743-40ad-9739-f474c010d218> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Dorothée Berryman" ;
+    schema1:sameAs <https://isni.org/isni/0000000073649602> .
+
+<http://musicbrainz.org/artist/d215cd9f-f592-4536-afda-4a32e22a95bc> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Orchestre symphonique de Lévis" .
+
+<http://musicbrainz.org/artist/d22ba469-4fab-4196-a60b-9c3ad2ec9825> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "member of Port-Aux-Poutines" ;
+    schema1:name "Jenna Maloney" .
+
+<http://musicbrainz.org/artist/d2526a2d-b240-44c9-88a9-cf5b9fa1ef58> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Carole Pope" ;
+    schema1:sameAs <https://isni.org/isni/0000000073770058>,
+        <https://isni.org/isni/0000000462164019> .
+
+<http://musicbrainz.org/artist/d284a295-070a-45b9-92aa-0125987a767f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian cellist and composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Cris Derksen" ;
+    schema1:sameAs <https://isni.org/isni/0000000132502169>,
+        <https://isni.org/isni/0000000407547041> .
+
+<http://musicbrainz.org/artist/d29c21c5-8ee7-474f-b5fd-55ac9f459d08> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "US 1980s pop star, \"I Think We’re Alone Now\"" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Tiffany" ;
+    schema1:sameAs <https://isni.org/isni/0000000114507900> .
+
+<http://musicbrainz.org/artist/d2cdecf0-696c-4c17-8f92-f11ff2fb5a5c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Caracol" .
+
+<http://musicbrainz.org/artist/d2d08153-d191-4c22-bcfa-0f321676592b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Lorne Elliott" .
+
+<http://musicbrainz.org/artist/d32125d4-1867-473b-b126-6f81d6ab640a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "harpist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Valérie Milot" ;
+    schema1:sameAs <https://isni.org/isni/0000000407543825> .
+
+<http://musicbrainz.org/artist/d3257f63-85df-4947-ad1d-abd176d6c2b6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jim Witter" .
+
+<http://musicbrainz.org/artist/d32693d5-a457-4f6b-a25e-7d1b7da5579e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Michael Oesterle" ;
+    schema1:sameAs <https://isni.org/isni/0000000374170822> .
+
+<http://musicbrainz.org/artist/d3f9b7d4-b662-44af-92fa-eaffdb56dc0c> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Christine Tassan et les imposteures" .
+
+<http://musicbrainz.org/artist/d45641da-371c-430e-8907-6086590ab282> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Clannad" ;
+    schema1:sameAs <https://isni.org/isni/0000000115130199> .
+
+<http://musicbrainz.org/artist/d459db05-9cc9-42f6-b66d-02736edef0b2> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:name "Mo Kenney" .
+
+<http://musicbrainz.org/artist/d45e29fd-a507-4b77-8bd2-6948708837cf> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer/songwriter, member of Junkhouse" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tom Wilson" ;
+    schema1:sameAs <https://isni.org/isni/0000000132692329> .
+
+<http://musicbrainz.org/artist/d497ccc6-0f65-4d6d-bce4-e44c04725b34> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Évelyne Brochu" ;
+    schema1:sameAs <https://isni.org/isni/0000000418867649> .
+
+<http://musicbrainz.org/artist/d49aef1f-0956-491e-8b36-00a420e6a6d0> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "nêhiyawak" ;
+    schema1:sameAs <https://isni.org/isni/0000000483009384> .
+
+<http://musicbrainz.org/artist/d4a20149-aa7a-4ccd-9f9d-515129dfca59> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Aysanabee" ;
+    schema1:sameAs <https://isni.org/isni/0000000509248480> .
+
+<http://musicbrainz.org/artist/d4dcfea6-70fc-4030-aa8a-2078adddd07c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Keith Kouna" ;
+    schema1:sameAs <https://isni.org/isni/0000000102189132> .
+
+<http://musicbrainz.org/artist/d53ec569-a194-481d-8b4d-7b68bd05e6c0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Paul Wiancko" .
+
+<http://musicbrainz.org/artist/d577db75-9a8d-49ed-a747-d455f129e4f1> a dbo:Agent ;
+    schema1:name "A Jako Pako!" .
+
+<http://musicbrainz.org/artist/d5d5ba92-4bd4-4975-9806-99339eed3046> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer/songwriter/author" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Raffi" ;
+    schema1:sameAs <https://isni.org/isni/0000000114710896> .
+
+<http://musicbrainz.org/artist/d67910d1-ecca-43aa-a862-c20a8b28de76> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Andrew Staniland" ;
+    schema1:sameAs <https://isni.org/isni/0000000132544262> .
+
+<http://musicbrainz.org/artist/d67915ce-5afe-4ada-9761-edea81b76460> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "French singer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jean Lumière" ;
+    schema1:sameAs <https://isni.org/isni/000000004500492X> .
+
+<http://musicbrainz.org/artist/d6c0def5-c2f1-4747-a36d-e71487f25795> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "Spanish Band" ;
+    schema1:name "Zombies" .
+
+<http://musicbrainz.org/artist/d70a471a-e0b4-4539-9aa7-598578ed30f7> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Veda Hille" ;
+    schema1:sameAs <https://isni.org/isni/0000000073759246> .
+
+<http://musicbrainz.org/artist/d719dcfb-8d65-4ef5-aeb0-6bec4e82e4c0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Carmen Campagne" ;
+    schema1:sameAs <https://isni.org/isni/0000000121247465>,
+        <https://isni.org/isni/000000012960202X> .
+
+<http://musicbrainz.org/artist/d74fa0ea-2170-4849-a4c3-c2e5312aded5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Ammoye" .
+
+<http://musicbrainz.org/artist/d79b2e2c-2e60-4b60-a077-be40e9b65981> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian classical pianist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Angela Hewitt" ;
+    schema1:sameAs <https://isni.org/isni/0000000094837813> .
+
+<http://musicbrainz.org/artist/d7b7a10e-9d9e-4145-8f87-fe2948617833> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Kelly-Marie Murphy" ;
+    schema1:sameAs <https://isni.org/isni/0000000078791114> .
+
+<http://musicbrainz.org/artist/d8480ff6-140a-48ff-bcf0-dc970985a95f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "founder and chairman of E-Myth Worldwide" ;
+    schema1:name "Michael E. Gerber" .
+
+<http://musicbrainz.org/artist/d8489aa5-78bd-455c-a4fc-54313d5a3165> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Shane Harper" ;
+    schema1:sameAs <https://isni.org/isni/0000000118360408> .
+
+<http://musicbrainz.org/artist/d943c745-baf9-4aa4-b1ee-df76db44bec8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian singer-songwriter" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Colin James" .
+
+<http://musicbrainz.org/artist/d983ff62-9469-4e0b-a1b8-464974eba541> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Leahy" ;
+    schema1:sameAs <https://isni.org/isni/0000000115409122> .
+
+<http://musicbrainz.org/artist/da53db3c-303a-4e7b-a38e-1dd36082d25e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Jayli Wolf" ;
+    schema1:sameAs <https://isni.org/isni/0000000467007821> .
+
+<http://musicbrainz.org/artist/dafc2ac7-c519-4757-bec9-a12ab04c39a1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jonas Tomalty" ;
+    schema1:sameAs <https://isni.org/isni/0000000132197627> .
+
+<http://musicbrainz.org/artist/db76f244-049f-440e-be53-cc5f3c0cdfb6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Herb Alpert" ;
+    schema1:sameAs <https://isni.org/isni/0000000114944801> .
+
+<http://musicbrainz.org/artist/dc0b6722-5601-418d-bb64-2499e1d2440b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian country artist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Michelle Wright" ;
+    schema1:sameAs <https://isni.org/isni/0000000076957467> .
+
+<http://musicbrainz.org/artist/dcd368fa-3433-457f-9cd1-636f33d8b1f1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "pianist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bruce Liu" ;
+    schema1:sameAs <https://isni.org/isni/0000000506233478> .
+
+<http://musicbrainz.org/artist/dd579e69-a9b9-4ebb-a0b0-97dd8a874f47> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Kevin Parent" ;
+    schema1:sameAs <https://isni.org/isni/0000000047984183> .
+
+<http://musicbrainz.org/artist/dd7888e3-93dc-491d-9a6b-053eff5c2ecd> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "American writer" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Elmore Leonard" ;
+    schema1:sameAs <https://isni.org/isni/0000000121229494> .
+
+<http://musicbrainz.org/artist/dd8dc11d-7702-43aa-b9bf-6b29f19bd211> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Robert Charlebois" ;
+    schema1:sameAs <https://isni.org/isni/0000000083712871> .
+
+<http://musicbrainz.org/artist/de4afdc2-e920-4d0e-8fcd-992d6c2e5a76> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "鼓童" .
+
+<http://musicbrainz.org/artist/de907def-d14a-4018-b19b-4135b1bef0f0> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian composer" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Keiko Devaux" ;
+    schema1:sameAs <https://isni.org/isni/0000000478185412> .
+
+<http://musicbrainz.org/artist/dfa058d5-7fd8-4560-a2d5-7ecf2231e713> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "conductor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Alexander Shelley" ;
+    schema1:sameAs <https://isni.org/isni/0000000407577638> .
+
+<http://musicbrainz.org/artist/e028a536-e3a1-4d93-802f-fcb61daf9576> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Maneige" .
+
+<http://musicbrainz.org/artist/e0aeda32-5819-49e8-aa98-63568cfbd4f8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Calum Graham" .
+
+<http://musicbrainz.org/artist/e0b5ecf3-3860-4080-8dc0-165224157c92> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Milk & Bone" .
+
+<http://musicbrainz.org/artist/e1021a28-57b8-4186-8ba1-875ebce90d74> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jean-Pierre Marielle" ;
+    schema1:sameAs <https://isni.org/isni/0000000121487194> .
+
+<http://musicbrainz.org/artist/e2a4561f-1a71-4951-9365-f8b0a5690e33> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Matt Dusk" ;
+    schema1:sameAs <https://isni.org/isni/0000000118806334> .
+
+<http://musicbrainz.org/artist/e2efc485-dd94-42c2-b80d-1188533f0017> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian musician and author" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Francis Martin" .
 
 <http://musicbrainz.org/artist/e358276d-4377-4b9b-88dd-db0d17b0e3c6> a schema1:MusicGroup,
         schema1:Organization ;
     schema1:additionalType "Group" ;
     schema1:name "Marianas Trench" ;
     schema1:sameAs <https://isni.org/isni/0000000104884497> .
+
+<http://musicbrainz.org/artist/e3bf8962-9493-4f3d-aeb0-c52950c0e78e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Marie-Josée Lord" .
+
+<http://musicbrainz.org/artist/e49522c8-7934-4490-93d9-dc930f6550e8> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Duane Andrews" .
+
+<http://musicbrainz.org/artist/e4af3c4a-be0e-43ee-8955-7054c9a11632> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Laura Niquay" ;
+    schema1:sameAs <https://isni.org/isni/0000000482860708> .
+
+<http://musicbrainz.org/artist/e54820fc-02c2-46be-ab4c-593dfd63dc44> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Teddy Geiger" ;
+    schema1:sameAs <https://isni.org/isni/0000000055573421> .
+
+<http://musicbrainz.org/artist/e55ad39a-47d2-46fc-afd4-92d59883acd1> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian fingerstyle guitarist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Don Ross" .
+
+<http://musicbrainz.org/artist/e657e349-7731-43ad-b7d4-0b6cdfa1ce6b> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "I Musici de Montréal" ;
+    schema1:sameAs <https://isni.org/isni/0000000092806458> .
+
+<http://musicbrainz.org/artist/e70ef7f9-0717-455c-95f0-b7fe6f57ded6> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Orchestre symphonique des jeunes de Montréal" .
+
+<http://musicbrainz.org/artist/e77e7679-2553-4095-be27-d2110ef0b63d> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "OMBIIGIZI" .
+
+<http://musicbrainz.org/artist/e7893037-c4d4-45d1-a474-780f099de077> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Paul Lacôme" ;
+    schema1:sameAs <https://isni.org/isni/0000000110634136> .
+
+<http://musicbrainz.org/artist/e7e1088f-cfd1-4ed8-b98a-21958d1f6070> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Marjan Mozetich" ;
+    schema1:sameAs <https://isni.org/isni/0000000084749035> .
+
+<http://musicbrainz.org/artist/e8c28ca7-c14d-4dff-86d6-06bfac138422> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Barr Brothers" ;
+    schema1:sameAs <https://isni.org/isni/0000000470193469> .
+
+<http://musicbrainz.org/artist/e8e40fa5-c5d5-4388-a2c7-6bac4deb1523> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Maria Dunn" ;
+    schema1:sameAs <https://isni.org/isni/0000000080116492> .
+
+<http://musicbrainz.org/artist/e97981e8-2950-430c-bf70-a8d3f9d46213> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Bruno Pelletier" .
+
+<http://musicbrainz.org/artist/e9e93250-b122-4d4c-b48c-4d4f67a19ba2> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Brit Floyd" .
+
+<http://musicbrainz.org/artist/eb04cb4e-9a20-4f89-9b73-652653844cab> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Allison Russell" ;
+    schema1:sameAs <https://isni.org/isni/0000000406938534> .
+
+<http://musicbrainz.org/artist/eb5859cf-017e-486a-86e7-eeb66b26623e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Belgian 19th century musician & inventor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Adolphe Sax" ;
+    schema1:sameAs <https://isni.org/isni/0000000081139864> .
+
+<http://musicbrainz.org/artist/ebb15840-19c5-4c4b-98b1-4cddeb4d7684> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Richard Reed Parry" ;
+    schema1:sameAs <https://isni.org/isni/0000000056907892> .
+
+<http://musicbrainz.org/artist/ebef47f3-38aa-489c-be2a-528e6921e784> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Hubert Lenoir" ;
+    schema1:sameAs <https://isni.org/isni/0000000475705611> .
+
+<http://musicbrainz.org/artist/ec169756-59fd-4da4-bb3f-87f2945cf37a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "John Geggie" .
+
+<http://musicbrainz.org/artist/ec2b32ce-8218-4636-9c16-ffbe1e8248f7> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Suzie Vinnick" ;
+    schema1:sameAs <https://isni.org/isni/0000000076878945> .
+
+<http://musicbrainz.org/artist/ec31460d-6d0c-40a9-a4d6-c47d5d03578f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Guylaine Tanguay" ;
+    schema1:sameAs <https://isni.org/isni/0000000075467677> .
+
+<http://musicbrainz.org/artist/ed09b0a6-4309-492a-ab06-11339945eae5> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:disambiguatingDescription "founded in Germany; now based in Montreal" ;
+    schema1:name "Ensemble Caprice" ;
+    schema1:sameAs <https://isni.org/isni/0000000106702087> .
+
+<http://musicbrainz.org/artist/ed51a41b-1050-4458-b8f5-e7a669508ea9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Geneviève Racette" ;
+    schema1:sameAs <https://isni.org/isni/0000000478180304> .
+
+<http://musicbrainz.org/artist/ed68ce2a-ceb0-44a9-9d0d-1fcac1527df6> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Maten" .
+
+<http://musicbrainz.org/artist/ed950446-7787-40b5-bc46-125e30cff947> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Fritz Näf" .
+
+<http://musicbrainz.org/artist/edef3cfa-4e5e-4d64-8bd8-20f9dc1d8cad> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tiken Jah Fakoly" ;
+    schema1:sameAs <https://isni.org/isni/0000000055161945> .
+
+<http://musicbrainz.org/artist/ee05ddc7-8664-44b0-8d73-f92ea5323b0a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jeremy Dutcher" ;
+    schema1:sameAs <https://isni.org/isni/000000046734959X> .
+
+<http://musicbrainz.org/artist/ee8328ac-d457-4912-8c8a-1338060567f9> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Les Petites Tounes" .
+
+<http://musicbrainz.org/artist/eef7b32a-25cc-43d1-8d37-8954f1ae1e0f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "soprano" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Julia Bullock" .
+
+<http://musicbrainz.org/artist/eefd7c86-e659-4cd9-b9b5-edbcc6661d78> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "תזמורת שירות השידור הארץ ישראלי" .
+
+<http://musicbrainz.org/artist/ef0bb727-42da-4edd-9cc5-89e9d97b12fb> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Amy Sky" ;
+    schema1:sameAs <https://isni.org/isni/000000011682124X> .
+
+<http://musicbrainz.org/artist/ef3da73b-4e29-4027-9731-362d68e42ce3> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "German performer of modern dance" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Pina Bausch" ;
+    schema1:sameAs <https://isni.org/isni/0000000122822302>,
+        <https://isni.org/isni/0000000368651988> .
+
+<http://musicbrainz.org/artist/efc67d89-948c-4262-af78-7077e37e67cb> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Elise LeGrow" ;
+    schema1:sameAs <https://isni.org/isni/0000000132577953> .
+
+<http://musicbrainz.org/artist/efddcf31-943b-49f0-aef1-cf5539d8048b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Walter Trout" ;
+    schema1:sameAs <https://isni.org/isni/0000000055154323> .
+
+<http://musicbrainz.org/artist/f060457d-c36c-4b6d-9159-788fdabaa638> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Northern Haze" .
+
+<http://musicbrainz.org/artist/f0632555-c6d3-4f7f-91bd-d836528d3ff6> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Clay and Friends" .
+
+<http://musicbrainz.org/artist/f09a6762-3dea-4690-b70a-087d702ac76a> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian pianist" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Janina Fialkowska" ;
+    schema1:sameAs <https://isni.org/isni/0000000073687609> .
+
+<http://musicbrainz.org/artist/f23776f3-15c7-43cb-8214-ef43d3044ad2> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gary Kulesha" ;
+    schema1:sameAs <https://isni.org/isni/0000000114972685> .
+
+<http://musicbrainz.org/artist/f2559c2b-bb8c-48d3-a640-651a9a89160e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Dara Ó Briain" ;
+    schema1:sameAs <https://isni.org/isni/0000000095707746> .
+
+<http://musicbrainz.org/artist/f286b5da-bb8b-4f5e-9e3b-2df77bf94d0e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Megan Bonnell" .
+
+<http://musicbrainz.org/artist/f327df15-8d90-4cae-92fe-1443feaa644b> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Isabelle Blais" .
+
+<http://musicbrainz.org/artist/f3da808c-4e3b-4353-9d89-cd3b4cce3771> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Slocan Ramblers" .
+
+<http://musicbrainz.org/artist/f50c769b-1072-4f4b-9a90-4f61c37e9207> a dbo:Agent ;
+    schema1:additionalType "Choir" ;
+    schema1:name "Toronto Mendelssohn Choir" ;
+    schema1:sameAs <https://isni.org/isni/0000000106681896> .
+
+<http://musicbrainz.org/artist/f50de36b-4bfc-4747-a551-2ad36023cf13> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tebey" .
+
+<http://musicbrainz.org/artist/f5586dfa-7031-4af0-8042-19b6a1170389> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Kronos Quartet" ;
+    schema1:sameAs <https://isni.org/isni/0000000120335359> .
+
+<http://musicbrainz.org/artist/f566647b-06e8-42b9-827a-0f20ef04d5a9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Cindy Church" .
+
+<http://musicbrainz.org/artist/f5d38cb1-a754-4eb5-8bdf-3514d950d37e> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Louise Forestier" ;
+    schema1:sameAs <https://isni.org/isni/0000000090729794> .
+
+<http://musicbrainz.org/artist/f5ffbd35-39a0-4a5c-80ac-6678928da8d5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian jazz chanteuse" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Molly Johnson" ;
+    schema1:sameAs <https://isni.org/isni/0000000073689604> .
+
+<http://musicbrainz.org/artist/f6a703b1-2ce2-4818-9b1b-559f8578db0f> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Orchestre symphonique de Sherbrooke" .
+
+<http://musicbrainz.org/artist/f73d67ff-d255-4d35-af4f-2be516f33476> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Rheostatics" .
+
+<http://musicbrainz.org/artist/f7431a56-ef33-4d93-9676-4492f9fb18cb> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Eddy de Pretto" ;
+    schema1:sameAs <https://isni.org/isni/0000000464567209> .
+
+<http://musicbrainz.org/artist/f76c2187-3a67-4431-b1a2-ebe152d31bbc> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "violinist and conductor" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Antonello Manacorda" ;
+    schema1:sameAs <https://isni.org/isni/0000000132109279> .
+
+<http://musicbrainz.org/artist/f79cc485-2e41-442b-8960-4e8e02db546d> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "member of Port-Aux-Poutines" ;
+    schema1:name "Axel Belgarde" .
+
+<http://musicbrainz.org/artist/f7b4213c-d766-47d4-80c7-d6de66380f30> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Lani Hall" ;
+    schema1:sameAs <https://isni.org/isni/0000000073723411> .
+
+<http://musicbrainz.org/artist/f7cb7568-a7b6-4779-9ebc-ffcd8a946042> a dbo:Agent ;
+    schema1:additionalType "Orchestra" ;
+    schema1:name "Toronto Chamber Orchestra" ;
+    schema1:sameAs <https://isni.org/isni/0000000108067152>,
+        <https://isni.org/isni/0000000109431841> .
+
+<http://musicbrainz.org/artist/f811416b-6d9b-4214-80ed-96659dca0a54> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Robert Carli" .
+
+<http://musicbrainz.org/artist/f8364fea-e139-4e9b-9f95-2081dc7a91b6> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Tal Bachman" ;
+    schema1:sameAs <https://isni.org/isni/0000000073655359> .
+
+<http://musicbrainz.org/artist/f9328e7e-889f-4cc7-b56a-8d94cf0b8fe2> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Della Reese" ;
+    schema1:sameAs <https://isni.org/isni/0000000078387277>,
+        <https://isni.org/isni/0000000368468374> .
+
+<http://musicbrainz.org/artist/f9d7b8cf-795e-4904-b66f-a4bb1a950c15> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Ghostkeeper" ;
+    schema1:sameAs <https://isni.org/isni/0000000096072973> .
+
+<http://musicbrainz.org/artist/fa1fac3d-f692-43fa-bffb-cd9f27c6a842> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Chilean-Canadian guitarist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Oscar Lopez" ;
+    schema1:sameAs <https://isni.org/isni/0000000073658664> .
+
+<http://musicbrainz.org/artist/fa68e7ef-7aa8-411c-996d-4254ba2f77a5> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Male ;
+    schema1:name "David Lafore" ;
+    schema1:sameAs <https://isni.org/isni/0000000000711022> .
+
+<http://musicbrainz.org/artist/fc06a339-d14b-40ea-a87e-4672de5deb0f> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "singer-songwriter, keyboardist and guitarist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Gowan" ;
+    schema1:sameAs <https://isni.org/isni/0000000073757734> .
+
+<http://musicbrainz.org/artist/fcc876bd-f802-4526-a6e5-cae88a32d8e9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "RIIT" .
+
+<http://musicbrainz.org/artist/fce5eb9a-95a7-4a54-b9e4-fe1b036fbe57> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "The Chieftains" ;
+    schema1:sameAs <https://isni.org/isni/0000000106718388> .
+
+<http://musicbrainz.org/artist/fd092d99-377f-414e-a63e-3dc849ad2cc9> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "Chantal Kreviazuk" ;
+    schema1:sameAs <https://isni.org/isni/0000000073671615>,
+        <https://isni.org/isni/0000000132622953> .
+
+<http://musicbrainz.org/artist/fd317d6a-dd6b-4aca-befc-07e70e939f34> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "British conductor, cellist & keyboardist" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Jonathan Cohen" ;
+    schema1:sameAs <https://isni.org/isni/000000011490974X> .
+
+<http://musicbrainz.org/artist/fda98433-7dcb-423e-a757-481f2f97d12c> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:disambiguatingDescription "Canadian fiddler" ;
+    schema1:gender schema1:Male ;
+    schema1:name "Andy Dejarlis" .
+
+<http://musicbrainz.org/artist/fdf46320-054f-424d-bed4-ac32f4d32e33> a schema1:Person ;
+    schema1:additionalType "Person" ;
+    schema1:gender schema1:Female ;
+    schema1:name "La Comtesse d'Harmonia" .
+
+<http://musicbrainz.org/artist/ff714d73-031a-401b-8e69-487944335cc6> a schema1:MusicGroup,
+        schema1:Organization ;
+    schema1:additionalType "Group" ;
+    schema1:name "Big Wreck" .
 
