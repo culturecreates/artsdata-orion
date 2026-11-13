@@ -14,8 +14,16 @@ jobs:
           mode: "fetch-push"
           artifact: "spec-qc-ca-events"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadFile: "output/spec-qc-ca-events.jsonld"
+          artifact-file: "output/spec-qc-ca-events.jsonld"
           page-url: "https://spec.qc.ca/sitemaps-1-section-spectacles-1-sitemap.xml"
           entity-identifier: "loc"
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/spec-qc-ca-events.sparql"
+          html-extract-config: |
+            {
+              "entity_type": "https://github.com/culturecreates/artsdata-orion#Page",
+              "extract": {
+                "https://github.com/culturecreates/artsdata-orion#discipline": {"xpath": "(//a[contains(@class,\"content__head-link\")]/@href)[1]"}
+              }
+            }
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

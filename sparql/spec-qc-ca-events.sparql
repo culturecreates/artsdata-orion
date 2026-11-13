@@ -1,0 +1,66 @@
+# Custom transform for the spec.qc.ca website crawl
+# (.github/workflows/spec-qc-ca-events.yml), applied per event page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# 1. Event types. The JSON-LD has no category, but each page shows its
+#    discipline as a link, e.g. https://spec.qc.ca/programmation?disciplines=humour.
+#    Many pages have several events (one per performance), and the action
+#    only adds html-extract-config data to a page with exactly one entity of
+#    the configured type. So the config uses a type no page has
+#    (https://github.com/culturecreates/artsdata-orion#Page): the action then
+#    adds one node per page, <page URL>#Page, holding the discipline link.
+#    Map the discipline to an Artsdata event type concept on every event of
+#    the page. Sport and Famille have no matching concept and are left untyped.
+# 2. Delete the #Page node.
+# 3. Link the venues to their Artsdata IDs by name, so they reconcile instead
+#    of minting new places. Pôle culturel de Chambly is linked to its
+#    performance hall, Salle Emma-Albani (K11-191). The other venues have no
+#    Artsdata ID yet.
+
+INSERT {
+  ?event <http://schema.org/additionalType> ?eventType .
+}
+WHERE {
+  VALUES (?discipline ?eventType) {
+    ("humour" <http://kg.artsdata.ca/resource/ComedyPerformance>)
+    ("chanson" <http://kg.artsdata.ca/resource/Chanson>)
+    ("theatre" <http://kg.artsdata.ca/resource/TheatrePerformance>)
+    ("musique" <http://kg.artsdata.ca/resource/MusicPerformance>)
+    ("variete" <http://kg.artsdata.ca/resource/VarietyPerformance>)
+    ("danse" <http://kg.artsdata.ca/resource/DancePerformance>)
+    ("cinema" <http://kg.artsdata.ca/resource/ScreeningEvent>)
+    ("art-de-la-parole" <http://kg.artsdata.ca/resource/SpokenWordPerformance>)
+    ("conference" <http://kg.artsdata.ca/resource/Conference>)
+    ("cirque" <http://kg.artsdata.ca/resource/CircusPerformance>)
+  }
+  ?page a <https://github.com/culturecreates/artsdata-orion#Page> ;
+    <https://github.com/culturecreates/artsdata-orion#discipline> ?link .
+  BIND(LCASE(STRAFTER(STR(?link), "disciplines=")) AS ?linkDiscipline)
+  FILTER(?linkDiscipline = ?discipline)
+  ?event a <http://schema.org/Event> .
+} ;
+
+DELETE {
+  ?page ?p ?o .
+}
+WHERE {
+  ?page a <https://github.com/culturecreates/artsdata-orion#Page> ;
+    ?p ?o .
+} ;
+
+INSERT {
+  ?place <http://schema.org/sameAs> ?artsdataId .
+}
+WHERE {
+  VALUES (?venueName ?artsdataId) {
+    ("Théâtre des Deux Rives" <http://kg.artsdata.ca/resource/K11-189>)
+    ("Cabaret-Théâtre du Vieux-Saint-Jean" <http://kg.artsdata.ca/resource/K11-190>)
+    ("Pôle culturel de Chambly" <http://kg.artsdata.ca/resource/K11-191>)
+    ("Le 164" <http://kg.artsdata.ca/resource/K2-7267>)
+    ("La Taverne du Vieux-Chambly" <http://kg.artsdata.ca/resource/K2-7266>)
+    ("Cathédrale Saint-Jean-L'Évangéliste" <http://kg.artsdata.ca/resource/K11-203>)
+  }
+  ?place a <http://schema.org/Place> ;
+    <http://schema.org/name> ?name .
+  FILTER(LCASE(STR(?name)) = LCASE(?venueName))
+}
