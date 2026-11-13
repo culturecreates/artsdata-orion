@@ -93,17 +93,21 @@ class MusicBrainzRDFBuilder:
         PREFIX schema: <http://schema.org/>
         PREFIX dbo: <http://dbpedia.org/ontology/>
 
-        SELECT DISTINCT (?sameAs AS ?music_brand_urls)
+        # Artsdata stores most MusicBrainz links as http://, a few as https://.
+        # Match both, keep only artist links, and normalize to http:// so an
+        # artist linked both ways is fetched once.
+        SELECT DISTINCT ?music_brand_urls
         WHERE {
             ?artists a dbo:Agent ;
                      schema:sameAs ?sameAs .
 
             FILTER(
-                STRSTARTS(
+                REGEX(
                     STR(?sameAs),
-                    "https://musicbrainz.org/"
+                    "^https?://musicbrainz.org/artist/"
                 )
             )
+            BIND(REPLACE(STR(?sameAs), "^https://", "http://") AS ?music_brand_urls)
         }
         """
 
