@@ -75,6 +75,43 @@ input. The Databus response in the run log confirms the account and group
    web UI, re-run the query from step 1 (adjust it if nebula's storage has
    changed). Tell the user it was done with nebula's stored credential.
 
+## Which events get minted
+
+**Only upcoming events are minted.** Past events in the graph stay unminted
+even with auto-minting on, so a feed whose sitemap also lists past events
+(e.g. newcitygas-com) only mints its future ones.
+
+The selection is in artsdata-api (`~/repos/culturecreates/artsdata-api`), not
+nebula. Read the code there rather than copying it; at the time of writing:
+
+- After an artifact is loaded, `DatasetReportJob`
+  (`app/jobs/dataset_report_job.rb`) reads the graph's `automint` flag and, if
+  it is `true`, queues `AutoRefreshJob` and `AutoMintJob`. So minting happens
+  per load, never on its own.
+- `MintService.find_event_uris_to_mint` (`app/services/mint_service.rb`) takes
+  the union of two queries in `app/services/sparqls/mint/`:
+  - `find_standalone_event_uris_to_mint.sparql`: events with no superEvent or
+    subEvent in either direction, of any type.
+  - `find_performance_series_sub_event_uris_to_mint.sparql`: sub-events whose
+    parents are all `schema:EventSeries`, whose own `additionalType` (or the
+    parent's, if they have none) is `PerformingArtsEvent`, a narrower concept,
+    or a `skos:closeMatch` of one. For a series with more than 50 sub-events,
+    only those starting within a year are picked.
+  Both require a `schema:startDate` later than now (a date-only value counts
+  as midnight) and a `schema:location` in the graph, and skip events already
+  `sameAs` an Artsdata ID. Parent events (events with subEvents) are never
+  auto-minted.
+- Each selected event is then minted only if it passes the mint SHACL shape
+  (`app/services/shacl/shacl_artsdata_event_mint.ttl`) with no violations
+  **and no warnings**. In practice the common blockers are:
+  - the location is not an Artsdata URI after reconciliation, which is why
+    venues need a `sameAs` to an Artsdata place (see AGENTS.md);
+  - more than one location or startDate;
+  - a potential duplicate (another event at the same time and area);
+  - an `image` that is not a `schema:ImageObject`.
+  Events that fail are logged in `failed_mint_list` and are retried on the
+  next load.
+
 ## Notes
 
 - Minting happens when an artifact version is loaded. Events loaded before the
