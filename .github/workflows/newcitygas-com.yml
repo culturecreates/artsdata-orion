@@ -1,8 +1,9 @@
 name: Fetch New City Gas Events
-# New City Gas, Montreal. Events are listed in the Rank Math "ncgevent" sitemaps.
-# Each event has a French page (/event/...) and an English page (/en/event/...)
-# with the same JSON-LD but a different url, so only the French pages are fetched
-# to avoid duplicate events.
+# New City Gas, Montreal. Only upcoming events are fetched, from the French
+# events page (/evenements/), which links each one with an a.grid-item-card.
+# (The Rank Math "ncgevent" sitemaps also list past events, which are never
+# minted.) The English pages (/en/event/...) are not fetched: the action does
+# not merge them with the French ones (see the artsdata-pipeline skill).
 
 on:
   workflow_dispatch:
@@ -20,8 +21,8 @@ jobs:
           artifact: "newcitygas-com"
           artifact-file: "output/newcitygas-com-events.jsonld"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          page-url: "https://newcitygas.com/ncgevent-sitemap1.xml,https://newcitygas.com/ncgevent-sitemap2.xml,https://newcitygas.com/ncgevent-sitemap3.xml"
-          entity-identifier: "//*[local-name()='loc'][not(contains(., '/en/'))]"
+          page-url: "https://newcitygas.com/evenements/"
+          entity-identifier: "a.grid-item-card"
           custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/newcitygas-com.sparql"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
