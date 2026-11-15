@@ -16,6 +16,10 @@
 #    (summer "Nuits Bazart" series). Keep their Place but name it Bazart
 #    instead of the series name, link it with schema:sameAs to the Artsdata
 #    place K4-1377 (Bazart), and say it is contained in New City Gas.
+# 4. The event has no @id, so the action names it with a content hash
+#    (/genid/...) that changes from run to run when the event has nested
+#    blank nodes (e.g. an offer's priceSpecification). Give it a stable URI,
+#    its page url + "#event", so the same event keeps the same Artsdata ID.
 
 DELETE {
   ?event <http://schema.org/location> ?place .
@@ -71,4 +75,24 @@ WHERE {
     <http://schema.org/name> ?name .
   ?addr <http://schema.org/streetAddress> ?street .
   FILTER(CONTAINS(LCASE(STR(?street)), "969 rue wellington"))
+} ;
+
+DELETE {
+  ?event ?p ?o .
+  ?s ?inP ?event .
+}
+INSERT {
+  ?stableEvent ?p ?o .
+  ?s ?inP ?stableEvent .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/url> ?url .
+  BIND(IRI(CONCAT(STR(?url), "#event")) AS ?stableEvent)
+  FILTER(?event != ?stableEvent)
+  {
+    ?event ?p ?o .
+  } UNION {
+    ?s ?inP ?event .
+  }
 }
