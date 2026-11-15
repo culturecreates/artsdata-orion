@@ -62,72 +62,6 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/89f648a28c7ec10c",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-20T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-21T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/malive-210142/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/10/BAZART_20_11_26_-MALIVE_Square_1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/01710986bcb8b151"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/14fac52de0832556"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/23f40a0563378b28"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/malive-210142/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "MALIVE, Mezz b2b Ekho"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
-      }
-    ]
-  },
-  {
     "@id": "https://newcitygas.com/genid/01710986bcb8b151",
     "@type": [
       "http://schema.org/Offer"
@@ -241,6 +175,30 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/genid/1d9724876b76a9ab",
+    "@type": [
+      "http://schema.org/PriceSpecification"
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "fr",
+        "@value": "By request"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "fr",
+        "@value": "CAD"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": "Prix sur demande (selon la table ou la bouteille choisie)"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/place/new-city-gas",
     "@type": [
       "http://schema.org/Place"
@@ -263,30 +221,6 @@
     "http://schema.org/address": [
       {
         "@id": "https://newcitygas.com/place/new-city-gas#address"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/1d9724876b76a9ab",
-    "@type": [
-      "http://schema.org/PriceSpecification"
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "fr",
-        "@value": "By request"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "fr",
-        "@value": "CAD"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": "Prix sur demande (selon la table ou la bouteille choisie)"
       }
     ]
   },
@@ -318,6 +252,72 @@
     "http://schema.org/addressCountry": [
       {
         "@value": "CA"
+      }
+    ]
+  },
+  {
+    "@id": "https://newcitygas.com/event/malive-210142/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-20T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-21T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/malive-210142/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/10/BAZART_20_11_26_-MALIVE_Square_1080x1080-1.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/01710986bcb8b151"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/14fac52de0832556"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/23f40a0563378b28"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/malive-210142/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "MALIVE, Mezz b2b Ekho"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -380,72 +380,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/8d179683144b5f83",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-21T21:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-22T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/its-murph-nils-hoffmann-201764/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/08/TOURADMAT_ITSMURPH_Flyer_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/7440ac8e913a933a"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/13ecc8df492f23ca"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/45d1805ebdcf10b3"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/its-murph-nils-hoffmann-201764/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "IT'S MURPH, Nils Hoffmann"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -563,6 +497,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/its-murph-nils-hoffmann-201764/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-21T21:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-22T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/its-murph-nils-hoffmann-201764/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/08/TOURADMAT_ITSMURPH_Flyer_Square_1080x1080.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/7440ac8e913a933a"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/13ecc8df492f23ca"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/45d1805ebdcf10b3"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/its-murph-nils-hoffmann-201764/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "IT'S MURPH, Nils Hoffmann"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/ian-asher-208811/",
     "https://ogp.me/ns#locale": [
       {
@@ -621,72 +621,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/69803afdcd661beb",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-27T21:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-28T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/ian-asher-208811/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/09/NCG26_IAN_ASHER_Flyer_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/d45b7a7365701efb"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/48ae5d5ac56e65d1"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/3674545487b93277"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/ian-asher-208811/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "IAN ASHER"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -804,6 +738,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/ian-asher-208811/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-27T21:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-28T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/ian-asher-208811/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/09/NCG26_IAN_ASHER_Flyer_Square_1080x1080.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/d45b7a7365701efb"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/48ae5d5ac56e65d1"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/3674545487b93277"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/ian-asher-208811/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "IAN ASHER"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/layton-giordani-202728/",
     "https://ogp.me/ns#locale": [
       {
@@ -862,72 +862,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/c9d7bc48cfc4b582",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-28T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-29T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/layton-giordani-202728/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/08/DSTRKT_2026-11-14_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/675899ec1e1e517e"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/0abcde9d377a2691"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/f16ea78b8cccbcef"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/layton-giordani-202728/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "[DSTRKT] LAYTON GIORDANI"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1045,6 +979,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/layton-giordani-202728/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-28T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-11-29T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/layton-giordani-202728/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/08/DSTRKT_2026-11-14_Square_1080x1080.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/675899ec1e1e517e"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/0abcde9d377a2691"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/f16ea78b8cccbcef"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/layton-giordani-202728/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "[DSTRKT] LAYTON GIORDANI"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/",
     "https://ogp.me/ns#locale": [
       {
@@ -1097,72 +1097,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/6e804c644baaa8e4",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-29T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-30T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/10/LUMEN_JOSH_BAKER_Flyer_Square_1080x1080-2.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/39270a67d22c845d"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/a43cc205180d63a1"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/9b86019d8192ed76"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Josh Baker, Jay Pryor"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1280,6 +1214,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-29T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-30T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/10/LUMEN_JOSH_BAKER_Flyer_Square_1080x1080-2.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/39270a67d22c845d"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/a43cc205180d63a1"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/9b86019d8192ed76"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "Josh Baker, Jay Pryor"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/",
     "https://ogp.me/ns#locale": [
       {
@@ -1338,72 +1338,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/6526943c2d8c0b38",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-31T21:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-01-01T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/11/LUMEN_BAKERMAT_Flyer_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/d65b807d808bc226"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/bb08323e25ef9125"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/ba29eac6f91f6d2c"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "NYE 2027: Bakermat"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1521,6 +1455,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-31T21:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-01-01T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/11/LUMEN_BAKERMAT_Flyer_Square_1080x1080.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/d65b807d808bc226"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/bb08323e25ef9125"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/ba29eac6f91f6d2c"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "NYE 2027: Bakermat"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/pauza-214314/",
     "https://ogp.me/ns#locale": [
       {
@@ -1579,72 +1579,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/613d28c40d4d489c",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-31T21:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-01-01T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/pauza-214314/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/11/BAZART-LUNOVA-NYE-27_PAUZA_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/e59835069f9de9ec"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/124b40fa31642605"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/276b6185c3419775"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/pauza-214314/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "PAUZA, Paskal Daze, Mezz | NYE 2027"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1762,6 +1696,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/pauza-214314/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2026-12-31T21:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-01-01T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/pauza-214314/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/11/BAZART-LUNOVA-NYE-27_PAUZA_Square_1080x1080_1.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/e59835069f9de9ec"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/124b40fa31642605"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/276b6185c3419775"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/pauza-214314/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "PAUZA, Paskal Daze, Mezz | NYE 2027"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/twinsick-206983/",
     "https://ogp.me/ns#locale": [
       {
@@ -1814,72 +1814,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/aee8b5168e0f5faf",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-13T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-14T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/twinsick-206983/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/09/twinsick_2026_GCT_admat_IG1080_MONTREAL_french.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/887f282f0cea3564"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/c94f9bd2378379f9"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/0b5a14c61e7d31e3"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/twinsick-206983/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "TWINSICK"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1997,6 +1931,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/twinsick-206983/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-13T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-14T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/twinsick-206983/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/09/twinsick_2026_GCT_admat_IG1080_MONTREAL_french.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/887f282f0cea3564"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/c94f9bd2378379f9"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/0b5a14c61e7d31e3"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/twinsick-206983/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "TWINSICK"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/ely-oaks-207891/",
     "https://ogp.me/ns#locale": [
       {
@@ -2055,72 +2055,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/e6e3e3648b3ee83d",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-27T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-02-28T03:00:00-05:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/ely-oaks-207891/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/09/ElyOaks_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/d9f2542230775cbc"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/846d0568160a9ac7"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/5568a034ad84d550"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/ely-oaks-207891/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "ELY OAKS"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -2238,6 +2172,72 @@
     ]
   },
   {
+    "@id": "https://newcitygas.com/event/ely-oaks-207891/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-27T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-28T03:00:00-05:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/ely-oaks-207891/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/09/ElyOaks_Square_1080x1080.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/d9f2542230775cbc"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/846d0568160a9ac7"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/5568a034ad84d550"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/ely-oaks-207891/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "ELY OAKS"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
+      }
+    ]
+  },
+  {
     "@id": "https://newcitygas.com/event/d-o-d-211258/",
     "https://ogp.me/ns#locale": [
       {
@@ -2290,72 +2290,6 @@
     "https://api.w.org/": [
       {
         "@id": "https://newcitygas.com/wp-json/"
-      }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/1c5b54052e8675e7",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-03-13T22:00:00-05:00"
-      }
-    ],
-    "http://schema.org/endDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-03-14T03:00:00-04:00"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://newcitygas.com/event/d-o-d-211258/"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://newcitygas.com/wp-content/uploads/2026/10/NCG_20270313_DOD_Square.jpg"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://newcitygas.com/genid/453bb4e70eb2f658"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/3855592ac93afbe3"
-      },
-      {
-        "@id": "https://newcitygas.com/genid/8568bd9451bd29bb"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://newcitygas.com/event/d-o-d-211258/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "D.O.D"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -2469,6 +2403,72 @@
     "http://schema.org/availability": [
       {
         "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "https://newcitygas.com/event/d-o-d-211258/#event",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-03-13T22:00:00-05:00"
+      }
+    ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-03-14T03:00:00-04:00"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://newcitygas.com/event/d-o-d-211258/"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://newcitygas.com/wp-content/uploads/2026/10/NCG_20270313_DOD_Square.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://newcitygas.com/genid/453bb4e70eb2f658"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/3855592ac93afbe3"
+      },
+      {
+        "@id": "https://newcitygas.com/genid/8568bd9451bd29bb"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://newcitygas.com/event/d-o-d-211258/"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "fr",
+        "@value": "D.O.D"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "fr",
+        "@value": ""
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   }
