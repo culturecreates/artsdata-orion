@@ -22,6 +22,6 @@ jobs:
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           page-url: "https://newcitygas.com/ncgevent-sitemap1.xml,https://newcitygas.com/ncgevent-sitemap2.xml,https://newcitygas.com/ncgevent-sitemap3.xml"
           entity-identifier: "//*[local-name()='loc'][not(contains(., '/en/'))]"
-          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/claude/orion-newcitygas-workflow-3ke6d7/sparql/newcitygas-com.sparql"
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/newcitygas-com.sparql"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
