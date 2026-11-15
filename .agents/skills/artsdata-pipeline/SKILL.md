@@ -76,10 +76,20 @@ Pick the first that works:
 6. **No identifier** — spider crawler; use when the site is small and has a sitemap.
 
 **Bilingual sites:** when a site has separate English and French pages for the
-same event (e.g. `/event/...` and `/en/event/...`, each with its own `url`/URI),
-crawl both. artsdata-pipeline-action handles the en/fr pairs, and we want the
-bilingual names and descriptions, so don't filter out one language in
-`entity-identifier`.
+same event (e.g. `/event/...` and `/en/event/...`), we want both for bilingual
+names and descriptions, but crawling both only works if the action can merge
+each pair. `merge_graph` (`src/lib/helper.rb`) merges two pages' events only when:
+1. both use the same event `@id`: it then copies `name`/`description` across
+   (bilingual result); or
+2. name, startDate and location match: it keeps one event and drops the other,
+   but the name is compared as an RDF literal *with* its language tag, so
+   `"X"@fr` and `"X"@en` never match.
+
+So if the event JSON-LD has no `@id` (or a different `@id` per language), both
+pages produce separate events and every event is duplicated. Check the output
+event count after a test run. Until the action compares names without the
+language tag, fetch one language only for such sites (e.g. newcitygas-com uses
+`//*[local-name()='loc'][not(contains(., '/en/'))]`).
 
 Other inputs worth knowing: `custom-user-agent` (403s), `max-pages` (default 2500),
 `html-extract-config` (add properties via XPath/CSS, incl. `from_property` for linked

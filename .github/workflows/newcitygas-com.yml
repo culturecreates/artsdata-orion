@@ -1,8 +1,8 @@
 name: Fetch New City Gas Events
 # New City Gas, Montreal. Events are listed in the Rank Math "ncgevent" sitemaps.
-# Each event has a French page (/event/...) and an English page (/en/event/...).
-# Both are fetched to get bilingual names and descriptions; the pipeline action
-# handles the en/fr pairs.
+# Each event has a French page (/event/...) and an English page (/en/event/...)
+# with the same JSON-LD but a different url, so only the French pages are fetched
+# to avoid duplicate events.
 
 on:
   workflow_dispatch:
@@ -21,6 +21,6 @@ jobs:
           artifact-file: "output/newcitygas-com-events.jsonld"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           page-url: "https://newcitygas.com/ncgevent-sitemap1.xml,https://newcitygas.com/ncgevent-sitemap2.xml,https://newcitygas.com/ncgevent-sitemap3.xml"
-          entity-identifier: "loc"
+          entity-identifier: "//*[local-name()='loc'][not(contains(., '/en/'))]"
           token: "${{ secrets.GITHUB_TOKEN }}"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
