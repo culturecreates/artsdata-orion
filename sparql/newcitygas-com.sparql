@@ -14,7 +14,8 @@
 #    in "new-city-gas" after the site's base URL.
 # 3. Events at 969 rue Wellington are at Bazart, the bar next door
 #    (summer "Nuits Bazart" series). Keep their Place but name it Bazart
-#    instead of the series name.
+#    instead of the series name, link it with schema:sameAs to the Artsdata
+#    place K4-1377 (Bazart), and say it is contained in New City Gas.
 
 DELETE {
   ?event <http://schema.org/location> ?place .
@@ -59,7 +60,9 @@ DELETE {
   ?place <http://schema.org/name> ?name .
 }
 INSERT {
-  ?place <http://schema.org/name> "Bazart"@fr .
+  ?place <http://schema.org/name> "Bazart"@fr ;
+    <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K4-1377> ;
+    <http://schema.org/containedInPlace> <domain_name/place/new-city-gas> .
 }
 WHERE {
   ?event a <http://schema.org/Event> ;
