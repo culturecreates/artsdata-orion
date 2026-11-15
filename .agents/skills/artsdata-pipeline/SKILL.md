@@ -75,6 +75,12 @@ Pick the first that works:
 5. **URLs already known** — `urls-are-entities: true` with a comma-separated `page-url`.
 6. **No identifier** — spider crawler; use when the site is small and has a sitemap.
 
+**Bilingual sites:** when a site has separate English and French pages for the
+same event (e.g. `/event/...` and `/en/event/...`, each with its own `url`/URI),
+crawl both. artsdata-pipeline-action handles the en/fr pairs, and we want the
+bilingual names and descriptions, so don't filter out one language in
+`entity-identifier`.
+
 Other inputs worth knowing: `custom-user-agent` (403s), `max-pages` (default 2500),
 `html-extract-config` (add properties via XPath/CSS, incl. `from_property` for linked
 pages), `skolemization-exclude`, `custom-sparql` (repo-specific transform), `shacl`.
