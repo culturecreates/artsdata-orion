@@ -88,11 +88,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2026/11/BAZART-LUNOVA-NYE-27_PAUZA_Square_1080x1080_1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/e59835069f9de9ec"
@@ -125,22 +120,10 @@
       {
         "@id": "http://schema.org/EventScheduled"
       }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4",
-    "@type": [
-      "http://schema.org/Place"
     ],
-    "http://schema.org/address": [
+    "http://schema.org/location": [
       {
-        "@id": "https://newcitygas.com/genid/fd4b526840cf9bda"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "Nuits Bazart"
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -258,38 +241,28 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/fd4b526840cf9bda",
+    "@id": "https://newcitygas.com/place/new-city-gas",
     "@type": [
-      "http://schema.org/PostalAddress"
+      "http://schema.org/Place"
     ],
-    "http://schema.org/streetAddress": [
+    "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "950 rue Ottawa"
+        "@value": "New City Gas"
+      },
+      {
+        "@language": "en",
+        "@value": "New City Gas"
       }
     ],
-    "http://schema.org/addressLocality": [
+    "http://schema.org/sameAs": [
       {
-        "@language": "fr",
-        "@value": "Montreal"
+        "@id": "http://kg.artsdata.ca/resource/K4-1376"
       }
     ],
-    "http://schema.org/addressRegion": [
+    "http://schema.org/address": [
       {
-        "@language": "fr",
-        "@value": "QC"
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "fr",
-        "@value": "H3C1S4"
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "fr",
-        "@value": "CA"
+        "@id": "https://newcitygas.com/place/new-city-gas#address"
       }
     ]
   },
@@ -314,6 +287,37 @@
       {
         "@language": "fr",
         "@value": "Prix sur demande (selon la table ou la bouteille choisie)"
+      }
+    ]
+  },
+  {
+    "@id": "https://newcitygas.com/place/new-city-gas#address",
+    "@type": [
+      "http://schema.org/PostalAddress"
+    ],
+    "http://schema.org/streetAddress": [
+      {
+        "@value": "950 rue Ottawa"
+      }
+    ],
+    "http://schema.org/addressLocality": [
+      {
+        "@value": "Montréal"
+      }
+    ],
+    "http://schema.org/addressRegion": [
+      {
+        "@value": "QC"
+      }
+    ],
+    "http://schema.org/postalCode": [
+      {
+        "@value": "H3C1S4"
+      }
+    ],
+    "http://schema.org/addressCountry": [
+      {
+        "@value": "CA"
       }
     ]
   },
@@ -380,7 +384,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/9511e52c3d2f3d63",
+    "@id": "https://newcitygas.com/genid/4c11e4ff1ae30537",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -404,11 +408,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/11/LUMEN_BAKERMAT_Flyer_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -443,22 +442,10 @@
       {
         "@id": "http://schema.org/EventScheduled"
       }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/726211ba806cee0f",
-    "@type": [
-      "http://schema.org/Place"
     ],
-    "http://schema.org/address": [
+    "http://schema.org/location": [
       {
-        "@id": "https://newcitygas.com/genid/fd4b526840cf9bda"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "New City Gas"
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -638,7 +625,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/fb84e28fd4dddb23",
+    "@id": "https://newcitygas.com/genid/9cf36e9aa5370028",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -662,11 +649,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/10/BAZART_20_11_26_-MALIVE_Square_1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -700,6 +682,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -879,7 +866,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e3539d76207c75ca",
+    "@id": "https://newcitygas.com/genid/4708ca206c213482",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -903,11 +890,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/08/DSTRKT_2026-11-14_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -942,22 +924,10 @@
       {
         "@id": "http://schema.org/EventScheduled"
       }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/b44707264876a247",
-    "@type": [
-      "http://schema.org/Place"
     ],
-    "http://schema.org/address": [
+    "http://schema.org/location": [
       {
-        "@id": "https://newcitygas.com/genid/fd4b526840cf9bda"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "[DSTRKT]"
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1137,7 +1107,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/32e7a24629433f9b",
+    "@id": "https://newcitygas.com/genid/aeead6bed183aac9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1161,11 +1131,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/09/NCG26_IAN_ASHER_Flyer_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -1199,6 +1164,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1378,7 +1348,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ecca361ccb462d1d",
+    "@id": "https://newcitygas.com/genid/010975c695d91519",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1402,11 +1372,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/08/TOURADMAT_ITSMURPH_Flyer_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -1440,6 +1405,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1619,7 +1589,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e2c2a3f1462268fe",
+    "@id": "https://newcitygas.com/genid/2d06e3ee027842dc",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1643,11 +1613,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/09/DSTRKT_2026-11-14_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -1681,6 +1646,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -1860,7 +1830,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/931c04779d3e8b85",
+    "@id": "https://newcitygas.com/genid/f06d3a879a24a743",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -1884,11 +1854,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/09/DSTRKT_2026-11-07_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -1922,6 +1887,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -2101,7 +2071,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/11b7e281d418dc0f",
+    "@id": "https://newcitygas.com/genid/87beef49d2b68c00",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2125,11 +2095,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/05/LSRCITYX_2026-10-23_Square_1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -2164,22 +2129,10 @@
       {
         "@id": "http://schema.org/EventScheduled"
       }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/32372287de2dba98",
-    "@type": [
-      "http://schema.org/Place"
     ],
-    "http://schema.org/address": [
+    "http://schema.org/location": [
       {
-        "@id": "https://newcitygas.com/genid/16439f227293fb49"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": ""
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -2297,42 +2250,6 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/16439f227293fb49",
-    "@type": [
-      "http://schema.org/PostalAddress"
-    ],
-    "http://schema.org/streetAddress": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/addressLocality": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/addressRegion": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/postalCode": [
-      {
-        "@language": "fr",
-        "@value": ""
-      }
-    ],
-    "http://schema.org/addressCountry": [
-      {
-        "@language": "fr",
-        "@value": "CA"
-      }
-    ]
-  },
-  {
     "@id": "https://newcitygas.com/event/d-o-d-211258/",
     "https://ogp.me/ns#locale": [
       {
@@ -2389,7 +2306,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f11158cd2f29fa4a",
+    "@id": "https://newcitygas.com/genid/36aad0b53af487b6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2413,11 +2330,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/10/NCG_20270313_DOD_Square.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -2451,6 +2363,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -2630,7 +2547,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/437bd154e5512027",
+    "@id": "https://newcitygas.com/genid/203c3a5c1d4aa645",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2654,11 +2571,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/08/NCG_KARNAVALE_BOBSINCLAR_Flyer_Square_1080x1080-2.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -2692,6 +2604,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -2871,7 +2788,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/9783b48cd7ac4ad5",
+    "@id": "https://newcitygas.com/genid/59c7f8d856e4800b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -2895,11 +2812,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/08/NCG_KARNAVALE_MAXSTYLER_Flyer_Square_1080x1080-2.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -2933,6 +2845,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -3106,7 +3023,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/379a2bdd1ba856c7",
+    "@id": "https://newcitygas.com/genid/1c852eb38ad4ed71",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3130,11 +3047,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/10/LUMEN_JOSH_BAKER_Flyer_Square_1080x1080-2.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -3168,6 +3080,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -3347,7 +3264,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/7d68a62e946c43a8",
+    "@id": "https://newcitygas.com/genid/730f52fc797738a3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3371,11 +3288,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/10/BAZART_06_11_26_-KASANGO_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -3409,6 +3321,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -3588,7 +3505,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/1b94ce57bf5212bc",
+    "@id": "https://newcitygas.com/genid/de53e606ab444078",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3612,11 +3529,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/10/BAZART_23_08_26_FaulWad_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -3650,6 +3562,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -3829,7 +3746,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/0b215ecc729110e7",
+    "@id": "https://newcitygas.com/genid/26b41647b09f6658",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -3853,11 +3770,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/08/DSTRKT_2026-10-11_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -3891,6 +3803,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -4070,7 +3987,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b2307525253d87aa",
+    "@id": "https://newcitygas.com/genid/c3744eae6f87da1f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4148,7 +4065,7 @@
     "http://schema.org/name": [
       {
         "@language": "fr",
-        "@value": "Nuits Bazart"
+        "@value": "Bazart"
       }
     ]
   },
@@ -4364,7 +4281,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8d12341e27e49a17",
+    "@id": "https://newcitygas.com/genid/71e657009080c075",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4388,11 +4305,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/BAZART_29_10_26_-Themba_Square_1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -4426,6 +4338,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -4605,7 +4522,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/064fe1dd071de467",
+    "@id": "https://newcitygas.com/genid/94178e51d45565f9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4629,11 +4546,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/BAZART_27_06_25_Antdot_Square_1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -4667,6 +4579,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -4846,7 +4763,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/afaf8cd851d22f54",
+    "@id": "https://newcitygas.com/genid/9753c96a259adf27",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -4870,11 +4787,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/08/DJMag_SubFocus_FR-Support-1x1-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -4908,6 +4820,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -5087,7 +5004,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/639a8c286bf3921e",
+    "@id": "https://newcitygas.com/genid/18fe9b518e4f21c7",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5328,7 +5245,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e0293fbbf255130e",
+    "@id": "https://newcitygas.com/genid/bb8687ca7b1a6fde",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5352,11 +5269,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/09/ElyOaks_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -5390,6 +5302,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -5563,7 +5480,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/097f78ce0a84e0c2",
+    "@id": "https://newcitygas.com/genid/ed2336f59735d553",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5587,11 +5504,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/09/twinsick_2026_GCT_admat_IG1080_MONTREAL_french.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -5625,6 +5537,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -5804,7 +5721,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ce4b2e340e710f39",
+    "@id": "https://newcitygas.com/genid/ed3b2a6cbabf217f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -5828,11 +5745,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/06/Afrojack_Control_Square_1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -5866,6 +5778,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -6045,7 +5962,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/4992c4275e4b98ad",
+    "@id": "https://newcitygas.com/genid/a8d8d6c96f06ca62",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6286,7 +6203,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/4cb7add9f76d8c08",
+    "@id": "https://newcitygas.com/genid/cbd4a0c2322ab4a3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6310,11 +6227,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/NCG26_R3HAB_Flyer_Square_1080x1080-2.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -6348,6 +6260,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -6527,7 +6444,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/fe433380ac4419ba",
+    "@id": "https://newcitygas.com/genid/468e8010f55bee9c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -6768,7 +6685,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/a19b0ff69f72e2ba",
+    "@id": "https://newcitygas.com/genid/bd467dd5f45537ae",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7009,7 +6926,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/0ee77e35dc7c1ae1",
+    "@id": "https://newcitygas.com/genid/9fd73de7c8433545",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7033,11 +6950,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/NCG26_OSH_LAVERN_Flyer_Square_1080x1080-2.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -7071,6 +6983,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -7250,7 +7167,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c20cc72f72ef5ee2",
+    "@id": "https://newcitygas.com/genid/c533ce57963d6024",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7491,7 +7408,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/16d813000ae556bd",
+    "@id": "https://newcitygas.com/genid/f13f3ebc679f7e22",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7732,7 +7649,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c7dbae15e7315aa0",
+    "@id": "https://newcitygas.com/genid/aa746473d77a2551",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7756,11 +7673,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/NCG26_OSH_VTSS_Flyer_Square_1080x1080-scaled.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -7794,6 +7706,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -7967,7 +7884,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c29a4746e69814be",
+    "@id": "https://newcitygas.com/genid/c6ed059a01c1b5c8",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -7991,11 +7908,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/NCG26_deadmau5_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -8029,6 +7941,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -8208,7 +8125,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/bfb9e2df5cabc838",
+    "@id": "https://newcitygas.com/genid/810595c6ca3c077b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8449,7 +8366,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/5a60a828899e89ae",
+    "@id": "https://newcitygas.com/genid/463aa3e58aa071e1",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8473,11 +8390,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/06/DSTRKT_2026-07-25_Square_1080x1080-1-scaled.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -8511,6 +8423,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -8684,7 +8601,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/efd9fdadbb5f0e41",
+    "@id": "https://newcitygas.com/genid/148215aded3dead9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8708,11 +8625,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/NCG26_PW_060926_Fiche_MAXDEAN_Flyer_Square_1080x1080-1-scaled.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -8746,6 +8658,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -8919,7 +8836,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/365c9766a1c08a0f",
+    "@id": "https://newcitygas.com/genid/4924453fce1a7c41",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -8943,11 +8860,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/NCG26_PW_040626_Fiche_TRYM_Flyer_Square_1080x1080-scaled.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -8981,6 +8893,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -9160,7 +9077,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e2d6de3765ca4cdb",
+    "@id": "https://newcitygas.com/genid/bad69c1c130e7874",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9184,11 +9101,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/05/NCG26_AC-ISEV_Square_1080x1080.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -9222,6 +9134,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -9395,7 +9312,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8a3163709a857a01",
+    "@id": "https://newcitygas.com/genid/1fa4330c745befd4",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9419,11 +9336,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/07/NCG26_BB_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -9457,6 +9369,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -9636,7 +9553,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/110fc19753faf900",
+    "@id": "https://newcitygas.com/genid/a61fa244128a9e97",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9871,7 +9788,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2098788cdeb1b84c",
+    "@id": "https://newcitygas.com/genid/2215fc2a51ac74d9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -9895,11 +9812,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/06/DSTRKT_2026-06-23_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -9933,6 +9845,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -10112,7 +10029,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/4369b68ef5d5c878",
+    "@id": "https://newcitygas.com/genid/9b92b0492a6f0691",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10136,11 +10053,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/05/DSTRKT_2026-06-26_Square_1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -10174,6 +10086,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -10353,7 +10270,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f8127ddc492b0396",
+    "@id": "https://newcitygas.com/genid/0e0401923d76adee",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10594,7 +10511,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/75755a659d166e37",
+    "@id": "https://newcitygas.com/genid/b8676b4ec771e952",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -10835,7 +10752,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/446ad1eec908d584",
+    "@id": "https://newcitygas.com/genid/9cc6f14bac24c9f4",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -11076,7 +10993,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8d0b8ff5bce0e1d0",
+    "@id": "https://newcitygas.com/genid/5f5dbbc5334424bd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -11317,7 +11234,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8604f7c5adfa451d",
+    "@id": "https://newcitygas.com/genid/d852c717bf81f06b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -11558,7 +11475,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2f597dd9f2f7e188",
+    "@id": "https://newcitygas.com/genid/f92a84a13af161a1",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -11582,11 +11499,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/04/NCG_GP26_Samedi_TIMMYT_sqaure2.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -11620,6 +11532,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -11793,7 +11710,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/0b9975176c6fa948",
+    "@id": "https://newcitygas.com/genid/428f389fbbf8b3d6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -11817,11 +11734,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/05/PHND_2026-07-18_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -11855,6 +11767,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -12034,7 +11951,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ca1cafdfb26f51c2",
+    "@id": "https://newcitygas.com/genid/f857c44a1b11e6d6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -12058,11 +11975,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/04/NCG_GP26_Jeudi_NDAandGuests_square1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -12096,6 +12008,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -12275,7 +12192,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e3ed4af903747c2c",
+    "@id": "https://newcitygas.com/genid/1e8d46e04b32b9b4",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -12299,11 +12216,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/03/NCG_GP26_Samedi_JAMES_HYPE_square1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -12337,6 +12249,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -12516,7 +12433,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/6cf9c582fa10cda4",
+    "@id": "https://newcitygas.com/genid/2491fcd7b2c45719",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -12540,11 +12457,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/04/NCG_GP26_Vendredi_KAYTRANADA_square-site.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -12578,6 +12490,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -12757,7 +12674,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/da6283f6363eff2d",
+    "@id": "https://newcitygas.com/genid/17044fbbf494daca",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -12992,7 +12909,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8163797527f7a8b6",
+    "@id": "https://newcitygas.com/genid/4edcd87472ceb25e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -13227,7 +13144,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/30fed9f74e8b02bb",
+    "@id": "https://newcitygas.com/genid/6aa8530e7023cccf",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -13462,7 +13379,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/1e0e6b00bc3169be",
+    "@id": "https://newcitygas.com/genid/e4fb13b0fec2a0df",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -13697,7 +13614,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f8a69117fe00d0b0",
+    "@id": "https://newcitygas.com/genid/3676d256bca5fa7b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -13932,7 +13849,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ed9d37b8dbc6ce8f",
+    "@id": "https://newcitygas.com/genid/d87a111e682bfa6c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -14167,7 +14084,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2c7d5f76a208d8ab",
+    "@id": "https://newcitygas.com/genid/3cd6858b177c7748",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -14402,7 +14319,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f1de7a7fb6ad5113",
+    "@id": "https://newcitygas.com/genid/634cb288660f04eb",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -14637,7 +14554,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b372453154a99bb1",
+    "@id": "https://newcitygas.com/genid/d3c3b6ebcd9c61bd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -14872,7 +14789,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/4846b3acd7f7b485",
+    "@id": "https://newcitygas.com/genid/9161c2714d4941ca",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -15107,7 +15024,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/79f55e446d8daab5",
+    "@id": "https://newcitygas.com/genid/bb2b019c382935b8",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -15348,7 +15265,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/7169e0b307c93708",
+    "@id": "https://newcitygas.com/genid/1e43d428183cf0ec",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -15372,11 +15289,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/04/BAZART_2305_GP26_MAESIC_Square_1080x1080_02.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -15410,6 +15322,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -15589,7 +15506,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b4cc6159b462fb9e",
+    "@id": "https://newcitygas.com/genid/c188cba0aed6f268",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -15613,11 +15530,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/02/NCG360_09_05_26_NICO-MORENO_square.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/bb11e769a7ca57c7"
       }
     ],
     "http://schema.org/offers": [
@@ -15652,22 +15564,10 @@
       {
         "@id": "http://schema.org/EventScheduled"
       }
-    ]
-  },
-  {
-    "@id": "https://newcitygas.com/genid/bb11e769a7ca57c7",
-    "@type": [
-      "http://schema.org/Place"
     ],
-    "http://schema.org/address": [
+    "http://schema.org/location": [
       {
-        "@id": "https://newcitygas.com/genid/fd4b526840cf9bda"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "fr",
-        "@value": "<NCG360>"
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -15847,7 +15747,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/610681ab74464e06",
+    "@id": "https://newcitygas.com/genid/9b6f84630eaa0632",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -15871,11 +15771,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/02/DSTRKT_NoraEnPure_Square-1080x1080-3.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -15909,6 +15804,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -16082,7 +15982,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2d5e32acdecdd715",
+    "@id": "https://newcitygas.com/genid/29b8f18430c65016",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -16106,11 +16006,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/03/1x1-FR.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -16144,6 +16039,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -16323,7 +16223,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/5ff68bb57daa8da1",
+    "@id": "https://newcitygas.com/genid/89657963045cd763",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -16347,11 +16247,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/01/BAZARTNUITS_HONEYLUV_Square_1080x1080_1.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -16385,6 +16280,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -16564,7 +16464,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/984aa421244d55d7",
+    "@id": "https://newcitygas.com/genid/671a6a38828d6030",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -16588,11 +16488,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/NCG26_0319_Kybba_Square_1080x1080_1-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -16626,6 +16521,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -16799,7 +16699,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/140f9d10ef02635f",
+    "@id": "https://newcitygas.com/genid/a57475e18237b28e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -16823,11 +16723,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/03/Square-1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -16861,6 +16756,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -17040,7 +16940,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/540ef8ec792c77f6",
+    "@id": "https://newcitygas.com/genid/0345e235492ae5de",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -17064,11 +16964,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/11/TMB_Orbita-1x1-1-scaled.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -17102,6 +16997,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -17281,7 +17181,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/bd0a9ac013df6640",
+    "@id": "https://newcitygas.com/genid/674fdaeb4d70a51b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -17305,11 +17205,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/NCG25_0404_InfectedMushroom_Square_1080x1080.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -17343,6 +17238,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -17516,7 +17416,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/bc34c1eb194d1b43",
+    "@id": "https://newcitygas.com/genid/2f87b6be474bd91b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -17540,11 +17440,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/03/NCG26_RobinSchulz_Square_1080x1080.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -17578,6 +17473,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -17757,7 +17657,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ef7608f4a8c28a38",
+    "@id": "https://newcitygas.com/genid/96fabfac96fcac39",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -17781,11 +17681,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/02/DSTRKT-DOD-Solo-Square.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -17819,6 +17714,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -17998,7 +17898,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b5650cd28e88b588",
+    "@id": "https://newcitygas.com/genid/9e583b81b284b321",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -18022,11 +17922,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/02/NCG360-Igloo_10_04_26_WILLSPARKS_SHOWTEK_square.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/bb11e769a7ca57c7"
       }
     ],
     "http://schema.org/offers": [
@@ -18060,6 +17955,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -18239,7 +18139,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8c542a91877aa0ef",
+    "@id": "https://newcitygas.com/genid/aa65823b6adcb6be",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -18263,11 +18163,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/01/NCG26_0307_ChenchoCorleone_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -18301,6 +18196,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -18474,7 +18374,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/d5499609b5b417b2",
+    "@id": "https://newcitygas.com/genid/752025ed8ca89fb8",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -18498,11 +18398,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/01/NCG26_DimitriVegas_Square_1080x1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -18536,6 +18431,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -18715,7 +18615,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f74341b9b7bfcb21",
+    "@id": "https://newcitygas.com/genid/f746d1a72c277752",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -18739,11 +18639,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/01/DSTRKT_MahmutOrhan_Square-1080x1080-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -18777,6 +18672,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -18956,7 +18856,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/aed9b4647aae9ec1",
+    "@id": "https://newcitygas.com/genid/3043853c8fcfeb39",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -18980,11 +18880,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/DSTRKT_Igloo-ClosingParty_portrait_1080x1350-1.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -19018,6 +18913,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -19191,7 +19091,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2bc8ce31ad1d831e",
+    "@id": "https://newcitygas.com/genid/004bf3b38c61649d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -19215,11 +19115,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/01/SuperBowl-2026-Square-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -19253,6 +19148,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -19432,7 +19332,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/d5794f44f4019779",
+    "@id": "https://newcitygas.com/genid/f536eca7b35c19ad",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -19456,11 +19356,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/NCG-IGLOO_LOSTFREQ_square.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -19494,6 +19389,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -19667,7 +19567,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/5b76b73ed0cc95a6",
+    "@id": "https://newcitygas.com/genid/ca85602d901cf962",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -19691,11 +19591,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/01/BAZARTNUITS_SEBLEGER_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -19729,6 +19624,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -19902,7 +19802,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/0934c20f0bed87e1",
+    "@id": "https://newcitygas.com/genid/b36ace50f3e51bfd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -19926,11 +19826,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2026/01/ARCO_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -19964,6 +19859,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -20143,7 +20043,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b7e77637524f1501",
+    "@id": "https://newcitygas.com/genid/4164c61a1646c882",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -20167,11 +20067,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/NCG360-Igloo_30_01_26_LEVITY_square.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -20205,6 +20100,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -20384,7 +20284,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/62f35066168f8a82",
+    "@id": "https://newcitygas.com/genid/47ae3aa2bc135197",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -20408,11 +20308,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/11/NCG360-Igloo-Igloo_23_01_25_MADDIX_square.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -20446,6 +20341,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -20625,7 +20525,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e249ea8ab615f53d",
+    "@id": "https://newcitygas.com/genid/bad0a0d1c2e4da8f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -20649,11 +20549,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/NCG26_1601_ACRAZE_Square_1080x1080_1.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -20687,6 +20582,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -20866,7 +20766,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/104f510641de77eb",
+    "@id": "https://newcitygas.com/genid/d3232d7e072450a6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -20890,11 +20790,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/DSTRKT_Igloo_SPACE92_SQUARE.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/b44707264876a247"
       }
     ],
     "http://schema.org/offers": [
@@ -20928,6 +20823,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -21107,7 +21007,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/7366778b8c378ad6",
+    "@id": "https://newcitygas.com/genid/97c1fab3e01893ba",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -21131,11 +21031,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/BAZART_17_01_NOTRE-DAME_Square_1080x1080_1.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -21169,6 +21064,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -21348,7 +21248,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/74341dd7a3e1baa1",
+    "@id": "https://newcitygas.com/genid/0a37b7b58e91db0e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -21372,11 +21272,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/NCG25_2025_Kaytranada_Square_1080x1080_1-3.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -21410,6 +21305,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -21589,7 +21489,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/05b37cf29a81f0c1",
+    "@id": "https://newcitygas.com/genid/88f0cd211b8c2edd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -21613,11 +21513,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/10/NCG_2812_LUMEN25_BUNT_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -21645,6 +21540,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventSoldOut"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -21744,7 +21644,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c5ff14ea3d5098ce",
+    "@id": "https://newcitygas.com/genid/5e883127b74a0877",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -21768,11 +21668,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/12/BAZART_18_12_AS_Square_1080x1080_1-1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -21806,6 +21701,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -21985,7 +21885,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c9d2ec4356bb4c66",
+    "@id": "https://newcitygas.com/genid/338eba29eb1413cb",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -22009,11 +21909,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/11/NCG25_3112_ANDREWRAYEL_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -22047,6 +21942,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -22226,7 +22126,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2696b9f2f76d137a",
+    "@id": "https://newcitygas.com/genid/5a0aecf196196767",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -22250,11 +22150,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/11/BAZART_15_01_KASANGO_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -22288,6 +22183,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -22467,7 +22367,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/136076f6e437715c",
+    "@id": "https://newcitygas.com/genid/c373edf439840860",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -22491,11 +22391,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/10/NCG_2612_LUMEN25_SEVENLION_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -22529,6 +22424,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -22708,7 +22608,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/15a8615d05acdff7",
+    "@id": "https://newcitygas.com/genid/e3f46219cb6e8e45",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -22732,11 +22632,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/10/BAZART_2011_FRIENDS_Square_1080x1080_1.png"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -22767,6 +22662,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -22906,7 +22806,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b2cccc7bcc50336c",
+    "@id": "https://newcitygas.com/genid/ed5208948ddd3df3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -22930,11 +22830,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/10/NCG_KREAM_12_09_25_1080X1080.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -22968,6 +22863,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -23147,7 +23047,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/a22d537663c8ce94",
+    "@id": "https://newcitygas.com/genid/e7fdcbc836cf6233",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -23171,11 +23071,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/11/BAZART-LUNOVA-NYE-26_KIKO-FRANCO_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/faf639e6cb90f3f4"
       }
     ],
     "http://schema.org/offers": [
@@ -23209,6 +23104,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -23388,7 +23288,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2ee60731d1e89e3c",
+    "@id": "https://newcitygas.com/genid/c1561b48c68ea7cd",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -23412,11 +23312,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/10/NCG_LUMEN_2712_TCHAMI_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -23450,6 +23345,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -23629,7 +23529,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/52666d88f10d1491",
+    "@id": "https://newcitygas.com/genid/53afb903000c7a68",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -23653,11 +23553,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2025/10/NCG25_2012_PaulyD_Square_1080x1080_1.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/726211ba806cee0f"
       }
     ],
     "http://schema.org/offers": [
@@ -23691,6 +23586,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -23864,7 +23764,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2f0e2c9b448967dd",
+    "@id": "https://newcitygas.com/genid/b31918ad3b6791fb",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -23890,11 +23790,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/03/NCG24_NickyRomero_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/31aa3a9c3ff60b10"
@@ -23914,6 +23809,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -24013,7 +23913,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/37cb3811d9db2cb7",
+    "@id": "https://newcitygas.com/genid/ccfaa53ff2883084",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -24039,11 +23939,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/01/DSTRKT_NORAENPURE_SQUARE-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/506a6d0d9dcb29f8"
@@ -24063,6 +23958,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -24162,7 +24062,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c4352280c082cf46",
+    "@id": "https://newcitygas.com/genid/8c193d2c8629be4e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -24188,11 +24088,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/10/NCG-Gareth-Emery-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/3a80b75266daf171"
@@ -24212,6 +24107,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -24311,7 +24211,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/603b15846673065d",
+    "@id": "https://newcitygas.com/genid/16794b929fe6741d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -24337,11 +24237,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/02/DSTRKT_PABLOFIERRO_square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/082e37db3d645b86"
@@ -24361,6 +24256,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -24460,7 +24360,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f2f21beaaf43b5f5",
+    "@id": "https://newcitygas.com/genid/7b88df4d11459001",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -24486,11 +24386,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/02/DSTRKT_ARGY_CHRISAG_SQUARE-V1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/a21c1fafcf5825c1"
@@ -24510,6 +24405,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -24603,7 +24503,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e05aa2df6e22161c",
+    "@id": "https://newcitygas.com/genid/40048c2804f03fb7",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -24629,11 +24529,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/02/Bazart_nuit-MoBlack-1080x1080_1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/cc767aff8fcfa3b0"
@@ -24653,6 +24548,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -24746,7 +24646,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/efafd6804aaa1273",
+    "@id": "https://newcitygas.com/genid/86f9408fe56b41e3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -24772,11 +24672,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/02/TIM-GREEN-Square-1080x1080-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/876f10994119c5e0"
@@ -24796,6 +24691,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -24895,7 +24795,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/0d7ff05b785e6989",
+    "@id": "https://newcitygas.com/genid/1947e278f3d7cfe9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -24921,11 +24821,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/01/NCG-Alok_Carrousel_2.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/28ca77797539b336"
@@ -24945,6 +24840,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -25044,7 +24944,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/3f4d1a991d54df70",
+    "@id": "https://newcitygas.com/genid/4792caa63fea3df8",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -25070,11 +24970,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/11/NCG-Lost-frequencies__square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/db8852f4a6745296"
@@ -25094,6 +24989,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventSoldOut"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -25193,7 +25093,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/0a666b13ce738439",
+    "@id": "https://newcitygas.com/genid/2eefd4be4ab59301",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -25219,11 +25119,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/NCG-Lost-frequencies__square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/af6c19e9939ee309"
@@ -25243,6 +25138,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventSoldOut"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -25342,7 +25242,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/142d93e3ef568346",
+    "@id": "https://newcitygas.com/genid/faae79545b7a00bf",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -25368,11 +25268,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/01/NCG-SUPERBOWL_2024_squareV1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/ec0d27819b386467"
@@ -25392,6 +25287,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -25491,7 +25391,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ae47a8217d07477c",
+    "@id": "https://newcitygas.com/genid/6284f902a35c24c2",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -25517,11 +25417,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/01/SAM-SHURE-Square-1080x1080-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/b3057bef57b53094"
@@ -25541,6 +25436,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -25640,7 +25540,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e268ce5dd7083a42",
+    "@id": "https://newcitygas.com/genid/de7e2a96677a694e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -25666,11 +25566,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/10/NCG-MAU-P_square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/4f4a9d3a66e26292"
@@ -25690,6 +25585,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -25783,7 +25683,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8b1b151e1bcb3a99",
+    "@id": "https://newcitygas.com/genid/8d2c8e2809f1d2b0",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -25809,11 +25709,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2024/01/PolyRythm-Square-1080x1080-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/a81affef3f0c67ec"
@@ -25833,6 +25728,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -25932,7 +25832,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c28f8ea9dfcfa6ae",
+    "@id": "https://newcitygas.com/genid/bca736e890dd4587",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -25958,11 +25858,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/bazart_reveillon24_Square-1080x1080-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/846859d3c5c2ac45"
@@ -25982,6 +25877,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -26081,7 +25981,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8a4b34f6fa1a7708",
+    "@id": "https://newcitygas.com/genid/b16608f087bbdae5",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -26107,11 +26007,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/NORA-VAN-ELKEN-Square-1080x1080-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/f53358a6c28584aa"
@@ -26131,6 +26026,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -26230,7 +26130,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/58eac75e51bfd3db",
+    "@id": "https://newcitygas.com/genid/25f951bfc95a65ec",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -26256,11 +26156,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/Mathame_ArtistAdmat_2000x2000_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/7428f07822474edb"
@@ -26280,6 +26175,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -26379,7 +26279,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2700c9f251efe349",
+    "@id": "https://newcitygas.com/genid/de0345ed06a1f151",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -26405,11 +26305,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/DSTRKT-ARTBAT-SQUARE.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/6c9f6c47204f9f41"
@@ -26429,6 +26324,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -26528,7 +26428,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/a792af5c027bebc8",
+    "@id": "https://newcitygas.com/genid/74825d200fe76d06",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -26554,11 +26454,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/SAM-BLACKY-Square-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/4ecd77b3aedc68da"
@@ -26578,6 +26473,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -26677,7 +26577,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/424f2792902f3262",
+    "@id": "https://newcitygas.com/genid/871c9b2232174969",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -26703,11 +26603,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/10/UMMET-OZCAN-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/209e9e9fb3262753"
@@ -26727,6 +26622,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -26826,7 +26726,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/70f059f221aa5dc2",
+    "@id": "https://newcitygas.com/genid/6f0e99eff3088a30",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -26852,11 +26752,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/10/TIMMY-TRUMPET-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/1fff63b43eaced2f"
@@ -26876,6 +26771,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -26975,7 +26875,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/651fc505ac76ac04",
+    "@id": "https://newcitygas.com/genid/4fc24ecde55e7cd8",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -27001,11 +26901,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/10/Square-3.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/616aaca5d0dced37"
@@ -27025,6 +26920,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -27124,7 +27024,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/648321dfc66d9b40",
+    "@id": "https://newcitygas.com/genid/ff973941a4a8d7c1",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -27150,11 +27050,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/10/Lumen-GorgonCity-1920x1920-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/4f65f12526265786"
@@ -27174,6 +27069,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -27273,7 +27173,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/dc75c292f42cc409",
+    "@id": "https://newcitygas.com/genid/48d57e4a0743013a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -27297,11 +27197,6 @@
     "http://schema.org/image": [
       {
         "@id": "https://newcitygas.com/wp-content/uploads/2023/11/NCG-Dr-Fresch-x-Habstrakt_square.jpg"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
       }
     ],
     "http://schema.org/offers": [
@@ -27329,6 +27224,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -27508,7 +27408,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/cbbe5b31a4b8bbf2",
+    "@id": "https://newcitygas.com/genid/5ba02667e9dbe869",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -27534,11 +27434,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/11/NCG-KSHMR-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/a59b766fb3931c87"
@@ -27558,6 +27453,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -27657,7 +27557,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/7bb48fa0d8f94f43",
+    "@id": "https://newcitygas.com/genid/8f19c1a991681346",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -27683,11 +27583,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/11/AMINE-K-Square-1080x1080-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/26b2f85d5a5cdb01"
@@ -27707,6 +27602,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -27806,7 +27706,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/47e11a52c2a92a99",
+    "@id": "https://newcitygas.com/genid/012239deea8abc8d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -27832,11 +27732,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/10/Lumen-Tinlicker-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/c5aee8b590b544b1"
@@ -27856,6 +27751,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -27955,7 +27855,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/18026ae919d9029e",
+    "@id": "https://newcitygas.com/genid/682977aeee3eb736",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -27981,11 +27881,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/11/NCG-NYE-24-Adventure-Club-1080x1080-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/01e8b978321596e3"
@@ -28005,6 +27900,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -28104,7 +28004,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f38386052d4872e8",
+    "@id": "https://newcitygas.com/genid/d61dc6748ec648e6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -28130,11 +28030,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/NCG-DISTRCK-19JAN-Square-1080x1080-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/65442135964b95ca"
@@ -28154,6 +28049,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -28253,7 +28153,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8fda4725c5d8a577",
+    "@id": "https://newcitygas.com/genid/d35c10da65f2b5f7",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -28279,11 +28179,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/NCG-Armin-van-buren__square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/530669e31c53b602"
@@ -28303,6 +28198,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -28402,7 +28302,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b21be23eb04ab85d",
+    "@id": "https://newcitygas.com/genid/5145317ee3616949",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -28428,11 +28328,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/12/NCG-Above-Beyond-1080x1080-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/ebc2a8d0a50970d4"
@@ -28452,6 +28347,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -28551,7 +28451,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/eb4db7718157d9ea",
+    "@id": "https://newcitygas.com/genid/b29bebeae085932b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -28577,11 +28477,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/08/Franky-wah-x-Korolova-Square-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/2f4c5bbf45d49a81"
@@ -28601,6 +28496,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -28700,7 +28600,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/3d97779747954185",
+    "@id": "https://newcitygas.com/genid/12ab380001e4a089",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -28726,11 +28626,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/08/JOEL-CORRY-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/6ee0d5cf74167420"
@@ -28750,6 +28645,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -28849,7 +28749,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/10f882c285e5027d",
+    "@id": "https://newcitygas.com/genid/181d622cdb8cc59b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -28875,11 +28775,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/VICETONE-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/406695ae06aa1ff9"
@@ -28899,6 +28794,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -28998,7 +28898,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2c963a08403c7194",
+    "@id": "https://newcitygas.com/genid/02baa3b2f5227756",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -29024,11 +28924,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/DVLM_Square_Alt.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/ab246b8ada2e26a5"
@@ -29048,6 +28943,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -29141,7 +29041,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/77772ff603105719",
+    "@id": "https://newcitygas.com/genid/66aa8f22a511bd2c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -29167,11 +29067,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/PABLO-FIERRO-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/02238986cba6cf72"
@@ -29191,6 +29086,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -29284,7 +29184,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c791b54051fbc1b2",
+    "@id": "https://newcitygas.com/genid/161f318e33c926a3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -29310,11 +29210,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/SEBASTIEN-LEGER-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/d8d0cd2c80508d43"
@@ -29334,6 +29229,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -29427,7 +29327,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/56ef7b32a0c4090b",
+    "@id": "https://newcitygas.com/genid/87dfa3ab9c76368e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -29453,11 +29353,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/MALONE-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/3bd78411313cc50c"
@@ -29477,6 +29372,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -29570,7 +29470,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/200556fda3cbfeb9",
+    "@id": "https://newcitygas.com/genid/997f0d437a16f14c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -29596,11 +29496,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/SIMONE-VITULLO-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/9e7d63e572947221"
@@ -29620,6 +29515,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -29713,7 +29613,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/1d63d5a8d88ca085",
+    "@id": "https://newcitygas.com/genid/e2c9d3cc994d5496",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -29739,11 +29639,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/Bazart-Newman_1080x1080-v5.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/ff6b85973e605b66"
@@ -29763,6 +29658,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -29856,7 +29756,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/42c961cda001094c",
+    "@id": "https://newcitygas.com/genid/8dc102806ca442d7",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -29882,11 +29782,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/DVBBS-Square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/759d52abeb49d918"
@@ -29906,6 +29801,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -29999,7 +29899,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e5437c607de22527",
+    "@id": "https://newcitygas.com/genid/99ff69e52da00335",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -30025,11 +29925,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/MORTEN_Square_Alt.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/2f4f02c9df9341e8"
@@ -30049,6 +29944,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -30142,7 +30042,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ad658a4205551254",
+    "@id": "https://newcitygas.com/genid/75730349ae7b551b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -30168,11 +30068,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/SONNY-FODERA-Square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/3b950302c5532b90"
@@ -30192,6 +30087,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -30285,7 +30185,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/5802623af417f6c1",
+    "@id": "https://newcitygas.com/genid/6222d3cdd029ca11",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -30311,11 +30211,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/BobSinclar_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/0f5caf8f31f59a0d"
@@ -30335,6 +30230,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -30428,7 +30328,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/1f7f7a080982e7c5",
+    "@id": "https://newcitygas.com/genid/15309a63b729363f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -30454,11 +30354,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/09/CTC-Square-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/f48f46b658d8bde0"
@@ -30478,6 +30373,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -30577,7 +30477,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e7e82ad065d1a6a5",
+    "@id": "https://newcitygas.com/genid/63e809570d69d36d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -30603,11 +30503,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/08/Montreal_1350-4.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/c8a8916a153d79d1"
@@ -30627,6 +30522,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -30726,7 +30626,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/85ef2fbc1d0a1238",
+    "@id": "https://newcitygas.com/genid/e3c2579c921b5cee",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -30752,11 +30652,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/07/PW_Galantis_Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/459c87c2f3d6c1ce"
@@ -30776,6 +30671,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -30875,7 +30775,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/908efb67fb62bc37",
+    "@id": "https://newcitygas.com/genid/4f053b19b7efde3f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -30901,11 +30801,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/07/PW_KSHMR_1920x1920.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/e452761bb424ee18"
@@ -30925,6 +30820,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -31018,7 +30918,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/6dd1ba3da016f973",
+    "@id": "https://newcitygas.com/genid/ae5ac8082a4559a0",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -31044,11 +30944,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/08/MALAA-Square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/bed3656dc8ae559a"
@@ -31068,6 +30963,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -31167,7 +31067,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/271ba3a793da6aae",
+    "@id": "https://newcitygas.com/genid/21935839a37cdb48",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -31193,11 +31093,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/08/AboveBeyond_-Square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/92e4b0d0ebbcf1fc"
@@ -31217,6 +31112,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -31310,7 +31210,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e1a5ac1b374f299e",
+    "@id": "https://newcitygas.com/genid/a4db42a569d43a6c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -31336,11 +31236,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/08/Brankka-Square-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/2d20b7477da4506e"
@@ -31360,6 +31255,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -31459,7 +31359,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/9e526b18678cc0b0",
+    "@id": "https://newcitygas.com/genid/6412bbdf5ca5b79e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -31485,11 +31385,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/08/ncg_Andrew_23.09.23_square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/753c3557d89ed4fc"
@@ -31509,6 +31404,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -31608,7 +31508,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c5cd6331ee83d5b3",
+    "@id": "https://newcitygas.com/genid/93c4412b3f535bdb",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -31634,11 +31534,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/07/PW_AVH_Square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/5570fc5278f180df"
@@ -31658,6 +31553,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -31757,7 +31657,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/9cb21d2b8d4e4cc9",
+    "@id": "https://newcitygas.com/genid/4808d36b84cbc5e9",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -31783,11 +31683,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/07/Knock202_Localized_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/e1160a2dd2807dbf"
@@ -31807,6 +31702,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -31906,7 +31806,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/73996da93f5cdcd3",
+    "@id": "https://newcitygas.com/genid/bdd0948a7406d049",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -31932,11 +31832,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/07/MUTEK-OPENING-FEED-_COVER-FULL-INFO.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://newcitygas.com/event/mutek/"
@@ -31951,6 +31846,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -32011,7 +31911,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/424ce78e64e8d57d",
+    "@id": "https://newcitygas.com/genid/0ce3f252a8720662",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -32037,11 +31937,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/07/CALUSSA-Square-1_.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/a05c381ac56d97ce"
@@ -32061,6 +31956,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -32154,7 +32054,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/72e49562fd974b7b",
+    "@id": "https://newcitygas.com/genid/1446bba6923adf7c",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -32180,11 +32080,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/07/DOM-DOLLA-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/bac0da5d26e45b23"
@@ -32204,6 +32099,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -32297,7 +32197,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e096f96eb4bded68",
+    "@id": "https://newcitygas.com/genid/3b12e714bf943a19",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -32323,11 +32223,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/06/LostDesert-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/b24aa9b7b45b981f"
@@ -32347,6 +32242,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -32440,7 +32340,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/5848259c1821c558",
+    "@id": "https://newcitygas.com/genid/34f7fbd133423560",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -32466,11 +32366,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/06/ANIME-K-Square-1-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/2edef037873253ad"
@@ -32490,6 +32385,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -32583,7 +32483,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/fdc813f62647e204",
+    "@id": "https://newcitygas.com/genid/82caa3fdd4363d19",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -32609,11 +32509,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/06/SANCHEZ-Square-1_.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/2363cce51cd5ba0b"
@@ -32633,6 +32528,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -32732,7 +32632,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/e2c53fb83895de38",
+    "@id": "https://newcitygas.com/genid/73209fcd5d33e8d2",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -32758,11 +32658,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/06/BAZART-Indo-Warehouse-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/4d7a902c77e7a676"
@@ -32782,6 +32677,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -32875,7 +32775,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/d8ecffcc5b32299d",
+    "@id": "https://newcitygas.com/genid/a1108f1ee0a1818f",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -32901,11 +32801,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/06/SHAI-T-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/2b40e9c415d5ca2f"
@@ -32925,6 +32820,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -33024,7 +32924,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c783e3163485ed26",
+    "@id": "https://newcitygas.com/genid/0861ac956acc1be3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -33050,11 +32950,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/05/LALIBERTE_Square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/90baf04c2cb12210"
@@ -33074,6 +32969,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -33173,7 +33073,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ebf9f5126d4012df",
+    "@id": "https://newcitygas.com/genid/7af0961ddb2587ba",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -33199,11 +33099,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/04/ANGELLO_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/ad129b6f9ae80125"
@@ -33223,6 +33118,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -33322,7 +33222,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/f87683c5cb937c78",
+    "@id": "https://newcitygas.com/genid/0d0ae524bcd1deb3",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -33348,11 +33248,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/04/DUMONT_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/86825e8a504fbe76"
@@ -33372,6 +33267,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -33465,7 +33365,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/2826e13d3239820d",
+    "@id": "https://newcitygas.com/genid/eff99b2274b2c887",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -33491,11 +33391,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/06/Coco-Breezy-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/771d7c52666cb5e3"
@@ -33515,6 +33410,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -33614,7 +33514,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/238290a86c5c04c6",
+    "@id": "https://newcitygas.com/genid/eb311c26286ab2a0",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -33640,11 +33540,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/05/Desert-hearts-Square-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/d0f50e62c771820a"
@@ -33664,6 +33559,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -33757,7 +33657,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/56c64856d5a80bba",
+    "@id": "https://newcitygas.com/genid/91f50a816c4d13a6",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -33783,11 +33683,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/05/Gorgon-City-Square_.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/b89eb06d255f23bf"
@@ -33807,6 +33702,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -33900,7 +33800,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/c0f33478e39ddaa6",
+    "@id": "https://newcitygas.com/genid/f3a3a1d66441d591",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -33926,11 +33826,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/05/DON-DIABLO-Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/0baba48ce2e53f6d"
@@ -33950,6 +33845,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -34043,7 +33943,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/068918e2627f8d40",
+    "@id": "https://newcitygas.com/genid/fee7d429790b4b8d",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -34069,11 +33969,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/05/AZIZ-Square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/3e4bff3ae1450c52"
@@ -34093,6 +33988,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -34192,7 +34092,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/3b74bd4cb08a7c2a",
+    "@id": "https://newcitygas.com/genid/0fde299845d4acf4",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -34218,11 +34118,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/03/GRYFFIN_Square-2.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/0b7ef3fbc7008334"
@@ -34242,6 +34137,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -34341,7 +34241,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8c58f8ff8bbbb278",
+    "@id": "https://newcitygas.com/genid/76067af4aaec9c04",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -34367,11 +34267,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/02/BLACK-COFFEE_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/f715ab7c7d10da21"
@@ -34391,6 +34286,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -34490,7 +34390,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/bc7c6de7176f2e28",
+    "@id": "https://newcitygas.com/genid/bbf673a818b90186",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -34516,11 +34416,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/05/ViniVici_Square-1.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/a8681b415e927752"
@@ -34540,6 +34435,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -34639,7 +34539,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/62734bfb982f20bb",
+    "@id": "https://newcitygas.com/genid/2f73d8a96dc4c2ab",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -34665,11 +34565,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/04/6mai_square.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://newcitygas.com/event/pat-boogie-stef-agostino-dan-ficara/"
@@ -34684,6 +34579,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -34750,7 +34650,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/6fe5964b271c6cbc",
+    "@id": "https://newcitygas.com/genid/4bdfa670f6525c16",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -34776,11 +34676,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/04/MAXIM-1080x1080-1.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/4057e6d17f190bda"
@@ -34800,6 +34695,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -34893,7 +34793,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/3ccceef103d2f9c2",
+    "@id": "https://newcitygas.com/genid/248c5d55bc9d7f90",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -34919,11 +34819,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/04/Vernissage_Square_FRA_.png"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
       {
         "@id": "https://newcitygas.com/event/anxiety-but-make-it-rgb/"
@@ -34938,6 +34833,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -35004,7 +34904,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/8946ff64d8249b77",
+    "@id": "https://newcitygas.com/genid/6b6e20e3c96a2a37",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -35030,11 +34930,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/02/PDM_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/da50ad3b98b6cfac"
@@ -35054,6 +34949,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -35153,7 +35053,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/9b8da1a15af4f01f",
+    "@id": "https://newcitygas.com/genid/97940c0ef1491c2e",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -35179,11 +35079,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/04/C2_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/9a5f1e26b033fc22"
@@ -35203,6 +35098,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -35302,7 +35202,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/3dc69a8b87bce1c1",
+    "@id": "https://newcitygas.com/genid/46018a7fb6b29d51",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -35328,11 +35228,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/03/NickyRomero_Escapade_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/a017779ea8fc9974"
@@ -35352,6 +35247,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -35451,7 +35351,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/b1e73c8b5db1b4e9",
+    "@id": "https://newcitygas.com/genid/36bc422e63f19646",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -35477,11 +35377,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/03/GARETH-EMERY_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/2eb6caa931dc8377"
@@ -35501,6 +35396,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -35600,7 +35500,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/bf6a67e519b3034d",
+    "@id": "https://newcitygas.com/genid/5781d695f0ece6db",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -35626,11 +35526,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/03/Dion-Timmer-x-Kompany_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/05eb3c70d65dae20"
@@ -35650,6 +35545,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -35749,7 +35649,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/ff9e68f8746de696",
+    "@id": "https://newcitygas.com/genid/130ed5865d3c1e1a",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -35775,11 +35675,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/02/Robin-Schulz_Square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/15b20edb71272112"
@@ -35799,6 +35694,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -35898,7 +35798,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/896d35dc96962728",
+    "@id": "https://newcitygas.com/genid/6fc4392c1d4ac568",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -35924,11 +35824,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/02/SSFN_Tourmat_Square-2.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/8a44939816661426"
@@ -35948,6 +35843,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -36047,7 +35947,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/a56083c252eae82a",
+    "@id": "https://newcitygas.com/genid/f52d0499bb6aca2b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -36073,11 +35973,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/02/MADEON_square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/856f50812bf1bd7d"
@@ -36097,6 +35992,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -36196,7 +36096,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/0196fc02ab8bb79f",
+    "@id": "https://newcitygas.com/genid/011a12196bb4bc1b",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -36222,11 +36122,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/02/SIDEPIECE_square.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/7fb0058d86391d54"
@@ -36246,6 +36141,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
@@ -36345,7 +36245,7 @@
     ]
   },
   {
-    "@id": "https://newcitygas.com/genid/08d286f4cd0c1796",
+    "@id": "https://newcitygas.com/genid/906307d7e93fdd21",
     "@type": [
       "http://schema.org/Event"
     ],
@@ -36371,11 +36271,6 @@
         "@id": "https://newcitygas.com/wp-content/uploads/2023/02/BAZART-1080x1080_13FEB.jpg"
       }
     ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://newcitygas.com/genid/32372287de2dba98"
-      }
-    ],
     "http://schema.org/offers": [
       {
         "@id": "https://newcitygas.com/genid/d96eeebbb12edc8c"
@@ -36395,6 +36290,11 @@
     "http://schema.org/eventStatus": [
       {
         "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://newcitygas.com/place/new-city-gas"
       }
     ]
   },
