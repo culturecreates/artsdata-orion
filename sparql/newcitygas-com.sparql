@@ -1,0 +1,71 @@
+# Custom transform for the newcitygas.com crawl
+# (.github/workflows/newcitygas-com.yml), applied per page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# The site puts the night's series name in the event's Place name
+# ("[DSTRKT]", "Nuits Bazart", "<NCG360>", ...), and older events have a
+# Place with an empty name and address. The street address is the reliable
+# part, so the venue is chosen by address:
+#
+# 1. Events at 950 rue Ottawa, or with no usable address, are at New City Gas.
+#    Replace their Place (and its PostalAddress) with one New City Gas Place.
+# 2. Add that Place, linked with schema:sameAs to the existing Artsdata place
+#    K4-1376 (New City Gas) so it reconciles instead of minting. Its URI ends
+#    in "new-city-gas" after the site's base URL.
+# 3. Events at 969 rue Wellington are at Bazart, the bar next door
+#    (summer "Nuits Bazart" series). Keep their Place but name it Bazart
+#    instead of the series name.
+
+DELETE {
+  ?event <http://schema.org/location> ?place .
+  ?place ?placeP ?placeO .
+  ?addr ?addrP ?addrO .
+}
+INSERT {
+  ?event <http://schema.org/location> <domain_name/place/new-city-gas> .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/location> ?place .
+  ?place ?placeP ?placeO .
+  OPTIONAL {
+    ?place <http://schema.org/address> ?addr .
+    ?addr ?addrP ?addrO .
+  }
+  FILTER NOT EXISTS {
+    ?place <http://schema.org/address> ?otherAddr .
+    ?otherAddr <http://schema.org/streetAddress> ?street .
+    FILTER(STR(?street) != "" && !CONTAINS(LCASE(STR(?street)), "950 rue ottawa"))
+  }
+} ;
+
+INSERT {
+  <domain_name/place/new-city-gas> a <http://schema.org/Place> ;
+    <http://schema.org/name> "New City Gas"@fr, "New City Gas"@en ;
+    <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K4-1376> ;
+    <http://schema.org/address> <domain_name/place/new-city-gas#address> .
+  <domain_name/place/new-city-gas#address> a <http://schema.org/PostalAddress> ;
+    <http://schema.org/streetAddress> "950 rue Ottawa" ;
+    <http://schema.org/addressLocality> "Montréal" ;
+    <http://schema.org/addressRegion> "QC" ;
+    <http://schema.org/postalCode> "H3C1S4" ;
+    <http://schema.org/addressCountry> "CA" .
+}
+WHERE {
+  ?event <http://schema.org/location> <domain_name/place/new-city-gas> .
+} ;
+
+DELETE {
+  ?place <http://schema.org/name> ?name .
+}
+INSERT {
+  ?place <http://schema.org/name> "Bazart"@fr .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/location> ?place .
+  ?place <http://schema.org/address> ?addr ;
+    <http://schema.org/name> ?name .
+  ?addr <http://schema.org/streetAddress> ?street .
+  FILTER(CONTAINS(LCASE(STR(?street)), "969 rue wellington"))
+}
