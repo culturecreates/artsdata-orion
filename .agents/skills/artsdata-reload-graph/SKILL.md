@@ -77,6 +77,15 @@ worked on in the conversation; ask only when that is unclear.
    `minted` counts distinct Artsdata IDs, so it can be lower than `events`
    when several source events were minted as the same event.
 
+   Which events get minted is decided by artsdata-api
+   (`~/repos/culturecreates/artsdata-api`), in
+   `app/services/sparqls/mint/find_event_uris_to_mint.sparql` and
+   `find_standalone_event_uris_to_mint.sparql`. Pull and read them before
+   explaining why an event was or wasn't minted; the rules change. As of
+   2026-11-12 every standalone upcoming event with a location is minted,
+   whatever its type, but still give events an Artsdata event type whenever
+   the source allows it.
+
 If the script stops because a nebula method was renamed or changed shape,
 read the controller and update the script's calls; do not fall back to a
 hand-written API call.
