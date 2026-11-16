@@ -46,6 +46,23 @@ input. The Databus response in the run log confirms the account and group
 
    Zero events means the dataset has not loaded yet (or the URI is wrong).
 
+   Then check each venue is linked to an Artsdata place. Look for the link in
+   **every graph**, not just the data feed graph: a venue reconciled in
+   Artsdata has its `sameAs` in `http://kg.artsdata.ca/core`, while one linked
+   by the workflow's transform has it in the data feed graph. Checking only the
+   feed graph makes reconciled venues look unlinked.
+
+   ```sparql
+   PREFIX schema: <http://schema.org/>
+   SELECT ?place (SAMPLE(?name) AS ?placeName) (SAMPLE(?k) AS ?artsdataId) (SAMPLE(?g) AS ?linkedIn) (COUNT(DISTINCT ?e) AS ?events) WHERE {
+     GRAPH <GRAPH_URI> { ?e a schema:Event ; schema:location ?place . OPTIONAL { ?place schema:name ?name } }
+     OPTIONAL { GRAPH ?g { ?place schema:sameAs ?k } FILTER(STRSTARTS(STR(?k), "http://kg.artsdata.ca/resource/K")) }
+   } GROUP BY ?place ORDER BY DESC(?events)
+   ```
+
+   A location that is itself an Artsdata URI (`http://kg.artsdata.ca/resource/K...`)
+   needs no link. Only raise the venues with no `artsdataId` with the user.
+
 2. Set the flag. This writes to production Artsdata, so only do it when the
    user asked for it. Either:
 
