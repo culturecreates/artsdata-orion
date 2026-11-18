@@ -27,7 +27,7 @@
     ]
   },
   {
-    "@id": "https://markethall.org/genid/8c3196e564dccdad",
+    "@id": "https://markethall.org/genid/edbff22556a7395f",
     "@type": [
       "http://schema.org/Blog"
     ],
@@ -37,6 +37,18 @@
       }
     ],
     "http://schema.org/blogPost": [
+      {
+        "@id": "https://markethall.org/genid/8699918abca020ac"
+      },
+      {
+        "@id": "https://markethall.org/genid/05045f4dd9e02013"
+      },
+      {
+        "@id": "https://markethall.org/genid/ffcadf2c63f29deb"
+      },
+      {
+        "@id": "https://markethall.org/genid/53e854f17e82b75b"
+      },
       {
         "@id": "https://markethall.org/genid/37fee329b89d94c9"
       },
@@ -122,12 +134,6 @@
         "@id": "https://markethall.org/genid/154eb92481ce3b8a"
       },
       {
-        "@id": "https://markethall.org/genid/9f70ddc1086338eb"
-      },
-      {
-        "@id": "https://markethall.org/genid/9b6bee785da66c37"
-      },
-      {
         "@id": "https://markethall.org/genid/392bbb8fbaa165d8"
       },
       {
@@ -165,9 +171,6 @@
       },
       {
         "@id": "https://markethall.org/genid/893e6f5a83bc7c35"
-      },
-      {
-        "@id": "https://markethall.org/genid/1f52fd8c7070a911"
       }
     ],
     "http://www.w3.org/ns/prov#wasDerivedFrom": [
@@ -179,6 +182,78 @@
       {
         "@language": "en",
         "@value": "Events"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/8699918abca020ac",
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-04-18"
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@language": "en",
+        "@value": "Pavlo & Band in Concert"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/05045f4dd9e02013",
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-18"
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@language": "en",
+        "@value": "MIDDLE RAGED Sketch Comedy"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/ffcadf2c63f29deb",
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-04-04"
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@language": "en",
+        "@value": "Echoes of Soul"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/53e854f17e82b75b",
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-27"
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@language": "en",
+        "@value": "Brahms in New York"
       }
     ]
   },
@@ -687,42 +762,6 @@
     ]
   },
   {
-    "@id": "https://markethall.org/genid/9f70ddc1086338eb",
-    "@type": [
-      "http://schema.org/BlogPosting"
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-15"
-      }
-    ],
-    "http://schema.org/headline": [
-      {
-        "@language": "en",
-        "@value": "Four of a Kind - Four Amazing Magicians, One Incredible Show"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/9b6bee785da66c37",
-    "@type": [
-      "http://schema.org/BlogPosting"
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-11-16"
-      }
-    ],
-    "http://schema.org/headline": [
-      {
-        "@language": "en",
-        "@value": "Casey and Diana"
-      }
-    ]
-  },
-  {
     "@id": "https://markethall.org/genid/392bbb8fbaa165d8",
     "@type": [
       "http://schema.org/BlogPosting"
@@ -957,20 +996,355 @@
     ]
   },
   {
-    "@id": "https://markethall.org/genid/1f52fd8c7070a911",
+    "@id": "https://markethall.org/genid/f9c7c560cda0e77d",
     "@type": [
-      "http://schema.org/BlogPosting"
+      "http://schema.org/Event"
     ],
-    "http://schema.org/datePublished": [
+    "http://schema.org/startDate": [
       {
         "@type": "http://schema.org/Date",
-        "@value": "2026-11-14"
+        "@value": "2027-04-18T23:00:00.000Z"
       }
     ],
-    "http://schema.org/headline": [
+    "http://schema.org/location": [
+      {
+        "@id": "https://markethall.org/genid/74241615b98743f8"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://static.tixr.com/static/images/external/img/851fecae-59a8-4f1a-9154-451da4b3516c.jpg"
+      }
+    ],
+    "http://schema.org/performer": [
+      {
+        "@id": "https://markethall.org/genid/6f4ed620974a5835"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://markethall.org/genid/e80209de739c5ce9"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Lowest Of The Low"
+        "@value": "Pavlo & Band in Concert"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/74241615b98743f8",
+    "@type": [
+      "http://schema.org/Place"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Market Hall Performing Arts Centre"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/6f4ed620974a5835",
+    "@type": [
+      "http://schema.org/PerformingGroup"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Pavlo"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/e80209de739c5ce9",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.tixr.com/groups/markethall/events/pavlo-band-in-concert-214506"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "60.87"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "USD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/745e5f6a6e9f68c7",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-18T00:30:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://markethall.org/genid/74241615b98743f8"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://static.tixr.com/static/images/external/img/87811362-3718-409f-b7ac-933ab3022b72.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://markethall.org/genid/cd0558dd391790d0"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "MIDDLE RAGED Sketch Comedy"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/cd0558dd391790d0",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.tixr.com/groups/markethall/events/middle-raged-sketch-comedy-214310"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "50"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "USD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/3b6ea4d23cfb7b3f",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-04-04T18:00:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://markethall.org/genid/74241615b98743f8"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://static.tixr.com/static/images/external/img/ad89d1da-f06b-489c-81e5-aad702814137.png"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://markethall.org/genid/f902a967d66e852f"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Echoes of Soul"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/f902a967d66e852f",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.tixr.com/groups/markethall/events/echoes-of-soul-214574"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "58.93"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "USD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/ae7a75aa6319a73a",
+    "@type": [
+      "http://schema.org/Event"
+    ],
+    "http://schema.org/startDate": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2027-02-27T00:30:00.000Z"
+      }
+    ],
+    "http://schema.org/location": [
+      {
+        "@id": "https://markethall.org/genid/74241615b98743f8"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://static.tixr.com/static/images/external/img/09930200-f5c7-43ee-9226-890a4478bf83.jpg"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@id": "https://markethall.org/genid/40861dc52864a1e9"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://markethall.org/events"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Brahms in New York"
+      }
+    ],
+    "http://schema.org/eventStatus": [
+      {
+        "@id": "http://schema.org/EventScheduled"
+      }
+    ],
+    "http://schema.org/eventAttendanceMode": [
+      {
+        "@id": "http://schema.org/OfflineEventAttendanceMode"
+      }
+    ]
+  },
+  {
+    "@id": "https://markethall.org/genid/40861dc52864a1e9",
+    "@type": [
+      "http://schema.org/Offer"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.tixr.com/groups/markethall/events/brahms-in-new-york-213553"
+      }
+    ],
+    "http://schema.org/price": [
+      {
+        "@language": "en",
+        "@value": "45.49"
+      }
+    ],
+    "http://schema.org/priceCurrency": [
+      {
+        "@language": "en",
+        "@value": "USD"
+      }
+    ],
+    "http://schema.org/availability": [
+      {
+        "@id": "http://schema.org/InStock"
       }
     ]
   },
@@ -1024,18 +1398,6 @@
     "http://schema.org/eventAttendanceMode": [
       {
         "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/74241615b98743f8",
-    "@type": [
-      "http://schema.org/Place"
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Market Hall Performing Arts Centre"
       }
     ]
   },
@@ -2763,364 +3125,6 @@
       {
         "@language": "en",
         "@value": "50.62"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "USD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/2b651b5116467fc4",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-05T19:00:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://markethall.org/genid/74241615b98743f8"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://static.tixr.com/static/images/external/img/83732691-4b11-4df2-b08e-61a3c7d4c088.png"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://markethall.org/genid/7c241e94e0780d8b"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "In From the Cold"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/7c241e94e0780d8b",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.tixr.com/groups/markethall/events/in-from-the-cold-208805"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "35.24"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "USD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/7d07d50c29694d8a",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2026-12-05T00:30:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://markethall.org/genid/74241615b98743f8"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://static.tixr.com/static/images/external/img/db501a09-032c-465f-8d61-bd7fd4270aec.png"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://markethall.org/genid/4c4b9289bd9592ba"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "In From the Cold"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/4c4b9289bd9592ba",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.tixr.com/groups/markethall/events/in-from-the-cold-208804"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "35.24"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "USD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/d9ac9db923531a79",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-01-09T00:30:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://markethall.org/genid/74241615b98743f8"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://static.tixr.com/static/images/external/img/0ffe5bf6-14bf-48f1-bdaa-4588b396b21d.png"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "https://markethall.org/genid/4fa108948d8cd30e"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://markethall.org/genid/f3f8be64b874b334"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Hillary Dumoulin"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/4fa108948d8cd30e",
-    "@type": [
-      "http://schema.org/PerformingGroup"
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Hillary Dumoulin"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/f3f8be64b874b334",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.tixr.com/groups/markethall/events/hillary-dumoulin-210309"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "40.37"
-      }
-    ],
-    "http://schema.org/priceCurrency": [
-      {
-        "@language": "en",
-        "@value": "USD"
-      }
-    ],
-    "http://schema.org/availability": [
-      {
-        "@id": "http://schema.org/InStock"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/8df36632a1729aba",
-    "@type": [
-      "http://schema.org/Event"
-    ],
-    "http://schema.org/startDate": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2027-04-11T00:00:00.000Z"
-      }
-    ],
-    "http://schema.org/location": [
-      {
-        "@id": "https://markethall.org/genid/74241615b98743f8"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@id": "https://static.tixr.com/static/images/external/img/e6fa30c0-cb07-48a1-bd07-d765aa77ace0.jpg"
-      }
-    ],
-    "http://schema.org/performer": [
-      {
-        "@id": "https://markethall.org/genid/582443f3543a2eb3"
-      }
-    ],
-    "http://schema.org/offers": [
-      {
-        "@id": "https://markethall.org/genid/0d031de49445f983"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasDerivedFrom": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://markethall.org/events"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "André Bisson Band"
-      }
-    ],
-    "http://schema.org/eventStatus": [
-      {
-        "@id": "http://schema.org/EventScheduled"
-      }
-    ],
-    "http://schema.org/eventAttendanceMode": [
-      {
-        "@id": "http://schema.org/OfflineEventAttendanceMode"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/582443f3543a2eb3",
-    "@type": [
-      "http://schema.org/PerformingGroup"
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "André Bisson"
-      }
-    ]
-  },
-  {
-    "@id": "https://markethall.org/genid/0d031de49445f983",
-    "@type": [
-      "http://schema.org/Offer"
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.tixr.com/groups/markethall/events/andr-bisson-band-208802"
-      }
-    ],
-    "http://schema.org/price": [
-      {
-        "@language": "en",
-        "@value": "40.37"
       }
     ],
     "http://schema.org/priceCurrency": [
