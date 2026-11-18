@@ -1,0 +1,32 @@
+name: Fetch Théâtre du Rideau Vert Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5 * * 6' # weekly
+
+jobs:
+  artsdata-fetch-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v4
+        with:
+          mode: "fetch-push"
+          artifact: "rideauvert-qc-ca"
+          artifact-file: "output/rideauvert-qc-ca-events.jsonld"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          page-url: "https://rideauvert.qc.ca/programmation/"
+          entity-identifier: "a.inner-item"
+          custom-sparql: "https://raw.githubusercontent.com/culturecreates/artsdata-orion/main/sparql/rideauvert-qc-ca.sparql"
+          html-extract-config: |
+            {
+              "entity_type": "https://github.com/culturecreates/artsdata-orion#Page",
+              "extract": {
+                "https://github.com/culturecreates/artsdata-orion#description": {
+                  "xpath": "//section[contains(@class,\"container-text\")]/div[contains(@class,\"content-text\")]"
+                }
+              }
+            }
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}

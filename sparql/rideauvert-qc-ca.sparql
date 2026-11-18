@@ -1,0 +1,206 @@
+# Custom transform for the rideauvert.qc.ca crawl
+# (.github/workflows/rideauvert-qc-ca.yml), applied per show page.
+# Full IRIs are used throughout (no PREFIX) so each operation stands alone.
+#
+# Each show page (/piece/<slug>/) has one Event per performance, with no @id,
+# an empty description, an endDate equal to the startDate, a Place named
+# "Theatre" with no postal code, and an organizer whose name has a typo
+# ("Théàtre"). Yoast adds WebPage, WebSite, Organization and logo nodes, and
+# the page's OpenGraph tags are read as RDFa on the page URL.
+#
+# 1. Drop the Yoast and OpenGraph nodes (WebPage, WebSite, ReadAction,
+#    ImageObject, BreadcrumbList, ListItem), and the logo links from Yoast's
+#    Organization, so only Events and what they link to are kept.
+# 2. Replace the JSON-LD organizer with the theatre's Organization node,
+#    linked with schema:sameAs to the Artsdata organization K2-6949
+#    (Théâtre du Rideau Vert).
+# 3. Replace the JSON-LD Place with one shared Place carrying the venue's name
+#    and full address (from the site's contact page). Artsdata has no place
+#    for the theatre yet, and Wikidata Q1326194 is the company, not the venue.
+# 4. The site also lists its tours (e.g. "À toi, pour toujours, ta Marie-Lou",
+#    "Glenn Gould, naissance d'un prodige"), and the JSON-LD gives those
+#    performances the Rideau Vert address too. The page names only the city,
+#    not the venue, and the presenters publish their own events. So keep
+#    only performances sold by the theatre's own box office: drop every
+#    Event whose ticket link is not on rideauvert.tuxedobillet.com (http or
+#    https; the site uses both), with its
+#    Offer, and then drop performers no longer linked from any Event.
+# 5. Drop the empty descriptions. The html-extract-config puts the show text
+#    from the page body on a node of the temporary type #Page (minted at
+#    <page-url>#Page). Remove the trailing links ("Programme du spectacle",
+#    "Description audio du spectacle"), tidy the whitespace (keeping a blank
+#    line between paragraphs; the action already trims the ends, and Ruby
+#    reads ^ and $ as line anchors, so don't trim here), copy it to every
+#    Event on the page as schema:description, then delete the #Page node.
+# 6. Every endDate equals its startDate, which is a placeholder rather than a
+#    real end time. Drop those endDates.
+# 7. All shows are theatre, so type every event as the Artsdata event type
+#    concept "Theatre Performance".
+# 8. The Events have no @id, so the action names them by a hash of their
+#    content, which changes whenever cast, image or availability changes.
+#    Rename each to <page-url>#<yyyymmddhhmm of startDate> so a performance
+#    keeps its URI across runs.
+
+DELETE {
+  ?s ?p ?o .
+}
+WHERE {
+  VALUES ?type {
+    <http://schema.org/WebPage>
+    <http://schema.org/WebSite>
+    <http://schema.org/ReadAction>
+    <http://schema.org/ImageObject>
+    <http://schema.org/BreadcrumbList>
+    <http://schema.org/ListItem>
+  }
+  ?s a ?type ;
+    ?p ?o .
+} ;
+
+DELETE {
+  <https://rideauvert.qc.ca/#organization> ?p ?logo .
+}
+WHERE {
+  VALUES ?p { <http://schema.org/logo> <http://schema.org/image> }
+  <https://rideauvert.qc.ca/#organization> ?p ?logo .
+} ;
+
+DELETE {
+  ?event <http://schema.org/organizer> ?organizer .
+  ?organizer ?p ?o .
+}
+INSERT {
+  ?event <http://schema.org/organizer> <https://rideauvert.qc.ca/#organization> .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/organizer> ?organizer .
+  FILTER(?organizer != <https://rideauvert.qc.ca/#organization>)
+  OPTIONAL { ?organizer ?p ?o }
+} ;
+
+INSERT {
+  <https://rideauvert.qc.ca/#organization> a <http://schema.org/Organization> ;
+    <http://schema.org/name> "Théâtre du Rideau Vert"@fr ;
+    <http://schema.org/url> <https://rideauvert.qc.ca/> ;
+    <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6949> .
+}
+WHERE {
+  ?event <http://schema.org/organizer> <https://rideauvert.qc.ca/#organization> .
+} ;
+
+DELETE {
+  ?event <http://schema.org/location> ?place .
+  ?place ?p ?o .
+  ?address ?ap ?ao .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/location> ?place .
+  FILTER(?place != <https://rideauvert.qc.ca/#place>)
+  OPTIONAL { ?place ?p ?o }
+  OPTIONAL {
+    ?place <http://schema.org/address> ?address .
+    ?address ?ap ?ao .
+  }
+} ;
+
+INSERT {
+  ?event <http://schema.org/location> <https://rideauvert.qc.ca/#place> .
+  <https://rideauvert.qc.ca/#place> a <http://schema.org/Place> ;
+    <http://schema.org/name> "Théâtre du Rideau Vert"@fr ;
+    <http://schema.org/url> <https://rideauvert.qc.ca/> ;
+    <http://schema.org/address> <https://rideauvert.qc.ca/#address> .
+  <https://rideauvert.qc.ca/#address> a <http://schema.org/PostalAddress> ;
+    <http://schema.org/streetAddress> "4664, rue Saint-Denis"@fr ;
+    <http://schema.org/addressLocality> "Montréal"@fr ;
+    <http://schema.org/addressRegion> "QC" ;
+    <http://schema.org/postalCode> "H2J 2L3" ;
+    <http://schema.org/addressCountry> "CA" .
+}
+WHERE {
+  ?event a <http://schema.org/Event> .
+} ;
+
+DELETE {
+  ?event ?p ?o .
+  ?offer ?op ?oo .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/offers> ?offer .
+  ?offer <http://schema.org/url> ?ticketUrl .
+  FILTER(!REGEX(STR(?ticketUrl), "^https?://rideauvert\\.tuxedobillet\\.com/"))
+  ?event ?p ?o .
+  ?offer ?op ?oo .
+} ;
+
+DELETE {
+  ?person ?p ?o .
+}
+WHERE {
+  ?person a <http://schema.org/Person> ;
+    ?p ?o .
+  FILTER NOT EXISTS { ?anyEvent <http://schema.org/performer> ?person }
+} ;
+
+DELETE {
+  ?event <http://schema.org/description> ?description .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/description> ?description .
+  FILTER(STRLEN(STR(?description)) = 0)
+} ;
+
+INSERT {
+  ?event <http://schema.org/description> ?description .
+}
+WHERE {
+  ?page a <https://github.com/culturecreates/artsdata-orion#Page> ;
+    <https://github.com/culturecreates/artsdata-orion#description> ?rawDescription .
+  ?event a <http://schema.org/Event> .
+  BIND(REPLACE(STR(?rawDescription), "(\\s*(Programme du spectacle|Description audio du spectacle))+\\s*$", "") AS ?noLinks)
+  BIND(STRLANG(REPLACE(REPLACE(?noLinks, "[\\p{Zs}\\t]+", " "), "\\s*\\n\\s*", "\n\n"), "fr") AS ?description)
+  FILTER(STRLEN(STR(?description)) > 0)
+} ;
+
+DELETE {
+  ?page ?p ?o .
+}
+WHERE {
+  ?page a <https://github.com/culturecreates/artsdata-orion#Page> ;
+    ?p ?o .
+} ;
+
+DELETE {
+  ?event <http://schema.org/endDate> ?endDate .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/startDate> ?startDate ;
+    <http://schema.org/endDate> ?endDate .
+  FILTER(STR(?endDate) = STR(?startDate))
+} ;
+
+INSERT {
+  ?event <http://schema.org/additionalType> <http://kg.artsdata.ca/resource/TheatrePerformance> .
+}
+WHERE {
+  ?event a <http://schema.org/Event> .
+} ;
+
+DELETE {
+  ?event ?p ?o .
+}
+INSERT {
+  ?newEvent ?p ?o .
+}
+WHERE {
+  ?event a <http://schema.org/Event> ;
+    <http://schema.org/url> ?url ;
+    <http://schema.org/startDate> ?startDate .
+  FILTER(STRSTARTS(STR(?event), "https://rideauvert.qc.ca/genid/"))
+  BIND(IRI(CONCAT(STR(?url), "#", REPLACE(SUBSTR(STR(?startDate), 1, 16), "[^0-9]", ""))) AS ?newEvent)
+  ?event ?p ?o .
+}
