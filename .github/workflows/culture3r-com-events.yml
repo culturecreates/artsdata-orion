@@ -58,5 +58,6 @@ jobs:
         with:
           mode: "push"
           artifact: "culture3r-com"
+          group: "artsdata-orion-api"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/output/culture3r-com-events.jsonld"
