@@ -17,7 +17,10 @@
 #    (Théâtre Rialto) with schema:sameAs so it reconciles instead of minting.
 # 5. The html-extract-config puts the ticket link from the event body on the
 #    event under a temporary predicate. Turn it into a schema:Offer with that
-#    URL.
+#    URL. The Offer gets an IRI minted from the event's IRI (<event>#offer)
+#    rather than a blank node: this transform runs after the pipeline's
+#    skolemization, and the INSERT's blank node got the same label on every
+#    page, so all the Offers merged into one node with every ticket URL.
 
 DELETE {
   ?s ?p ?o .
@@ -68,10 +71,11 @@ DELETE {
   ?event <https://github.com/culturecreates/artsdata-orion#ticketUrl> ?ticketUrl .
 }
 INSERT {
-  ?event <http://schema.org/offers> _:offer .
-  _:offer a <http://schema.org/Offer> ;
+  ?event <http://schema.org/offers> ?offer .
+  ?offer a <http://schema.org/Offer> ;
     <http://schema.org/url> ?ticketUrl .
 }
 WHERE {
   ?event <https://github.com/culturecreates/artsdata-orion#ticketUrl> ?ticketUrl .
+  BIND(IRI(CONCAT(STR(?event), "#offer")) AS ?offer)
 }
