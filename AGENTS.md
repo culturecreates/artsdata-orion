@@ -69,6 +69,13 @@ SPARQL or API calls.
   Always pass `cloudflare-private-key`. The publisher is
   `secrets.PUBLISHER_URI_GREGORY`. Pick an unused minute and weekday for the
   weekly cron so runs don't pile up.
+- **API sources use group `artsdata-orion-api`.** A workflow that doesn't crawl
+  with the pipeline action (`mode: fetch`) but runs its own code in `src/` to
+  call an API or feed, then pushes the result with `mode: "push"`, sets
+  `group: "artsdata-orion-api"`. Its graph is then
+  `http://kg.artsdata.ca/culture-creates/artsdata-orion-api/<artifact>`.
+  Crawls keep the default group (the repo name). See
+  `culture3r-com-events.yml`.
 - **SPARQL transforms:** start with a comment block that explains each
   operation, use full IRIs with no `PREFIX`, and separate operations with ` ;`.
   To change a value the JSON-LD already has, extract the replacement under a

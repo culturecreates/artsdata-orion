@@ -26,6 +26,8 @@ Artsdata Databus team. Treat this as a description, not a recipe.
 
 - Graph: `http://kg.artsdata.ca/<account>/<group>/<artifact>`, e.g.
   `http://kg.artsdata.ca/culture-creates/artsdata-orion/jazzbistro-ca`.
+  Workflows that call an API with their own code use the group
+  `artsdata-orion-api` instead (see AGENTS.md).
 - Artifact: the same with `/databus` after the host. The script derives it.
 
 If the user says "reload the graph" without naming one, use the graph(s) just

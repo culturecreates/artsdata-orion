@@ -27,8 +27,9 @@ is right.
 For a pipeline-action workflow the graph is
 `http://kg.artsdata.ca/<account>/<group>/<artifact>`, e.g.
 `http://kg.artsdata.ca/culture-creates/artsdata-orion/jazzbistro-ca`.
-The group defaults to the repo name; the artifact is the workflow's `artifact`
-input. The Databus response in the run log confirms the account and group
+The group is the workflow's `group` input, which defaults to the repo name
+(workflows that call an API with their own code use `artsdata-orion-api`, see
+AGENTS.md); the artifact is the workflow's `artifact` input. The Databus response in the run log confirms the account and group
 (`.../databus/culture-creates/artsdata-orion/<artifact>/...`).
 
 ## Steps

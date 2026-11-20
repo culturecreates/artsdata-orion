@@ -8,7 +8,9 @@ description: Create, test, run and debug GitHub workflows that use culturecreate
 Each source is one workflow in `.github/workflows/<site>.yml` that calls
 `culturecreates/artsdata-pipeline-action@v4`. The action crawls pages, extracts
 JSON-LD, commits the result to `output/<file>.jsonld` in the calling repo, and
-registers it on the Artsdata Databus as `http://kg.artsdata.ca/<group>/<artifact>`.
+registers it on the Artsdata Databus as
+`http://kg.artsdata.ca/<account>/<group>/<artifact>`; the group defaults to the
+repo name.
 
 Full reference: `~/repos/culturecreates/artsdata-pipeline-action/README.md`
 (or https://github.com/culturecreates/artsdata-pipeline-action). Read the source
@@ -56,6 +58,10 @@ jobs:
 | `fetch` | crawl and commit `artifact-file`, no Databus push |
 | `push` | register an existing `artifact-file`/`downloadUrl` on the Databus |
 | `fetch-push` | normal scheduled mode |
+
+In artsdata-orion, a workflow that runs its own code to call an API or feed
+and then uses `mode: "push"` sets `group: "artsdata-orion-api"` (see AGENTS.md
+and `culture3r-com-events.yml`). Crawling workflows keep the default group.
 
 ## Choosing how to find entity pages
 
