@@ -1,0 +1,388 @@
+# AI-suggested event types — pilot run 2026-11-09
+# Load into named graph <http://kg.artsdata.ca/ai-event-type-classifier>; rank this dataset below every real source.
+# ado:confidence is a PROPOSED term (not yet in the Artsdata ontology).
+@prefix ado:    <http://kg.artsdata.ca/ontology/> .
+@prefix adr:    <http://kg.artsdata.ca/resource/> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+
+<http://kg.artsdata.ca/ai-event-type-classifier> a void:Dataset ;
+  schema:name "AI event type classifier"@en ;
+  schema:maintainer <https://culturecreates.com> .
+
+<http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> a prov:Activity ;
+  prov:startedAtTime "2026-11-09T11:45:00-05:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith <https://www.anthropic.com/claude#claude-opus-5-5> ;
+  rdfs:comment "Prompt v0.1: classify against adr:ArtsdataEventTypes v4.0 using name, description, additionalType, organizer, venue." .
+
+adr:K23-11751 ado:hasEventTypeConcept adr:AwardsEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Annual music industry awards gala" |} .
+adr:K43-12873 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Improv teams performing comedy" |} .
+adr:K43-4048 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Tribute band concert" |} .
+adr:K43-9720 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.65"^^xsd:decimal ;
+    rdfs:comment "Solo stage show; could be storytelling" |} .
+adr:K43-9760 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Description refers to 'Burnstick's concerts'" |} .
+adr:K23-11160 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Author appearance" |} .
+adr:K43-10473 ado:hasEventTypeConcept adr:ScreeningEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "TIFF film title" |} .
+adr:K43-3415 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.60"^^xsd:decimal ;
+    rdfs:comment "Info session; weak fit to any type" |} .
+adr:K43-12367 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.75"^^xsd:decimal ;
+    rdfs:comment "Hands-on craft club for ages 10-13; ChildrensEvent also plausible" |} .
+adr:K43-11898 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Orchestra with conductor and violin soloist" |} .
+adr:K43-12293 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Irish traditional band (other dates' descriptions)" |} .
+adr:K43-12773 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.55"^^xsd:decimal ;
+    rdfs:comment "No description; title and Remembrance week suggest a concert" |} .
+adr:K43-13704 ado:hasEventTypeConcept adr:ScreeningEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.60"^^xsd:decimal ;
+    rdfs:comment "Name is a filmmaker credit; title appears truncated" |} .
+adr:K43-13463 ado:hasEventTypeConcept adr:StorytellingPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Title says storytelling" |} .
+adr:K23-10092 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Singer-songwriter tour" |} .
+adr:K43-8826 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Stand-up comedian" |} .
+adr:K43-9761 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Concert per description" |} .
+adr:K43-10547 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Blues musicians concert" |} .
+adr:K23-11891 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "'Atelier' = workshop" |} .
+adr:K43-10466 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Singer tour" |} .
+adr:K43-8776 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Comedian tour" |} .
+adr:K43-12133 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Pianist recital" |} .
+adr:K43-8372 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Robotics workshop for kids" |} .
+adr:K43-10891 ado:hasEventTypeConcept adr:DancePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.75"^^xsd:decimal ;
+    rdfs:comment "Fakto is a street-dance company" |} .
+adr:K43-11295 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Irish traditional band" |} .
+adr:K43-11964 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Symphony subscription concert" |} .
+adr:K43-8338 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Lecture ('conférence')" |} .
+adr:K43-8398 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Workshop" |} .
+adr:K43-7772 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Double-bill concert with Joan Osborne" |} .
+adr:K43-7840 ado:hasEventTypeConcept adr:CircusPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.70"^^xsd:decimal ;
+    rdfs:comment "'Circus, comedy and chaos' (other date's description); Variety also plausible" |} .
+adr:K43-13300 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Concert; source already says schema:MusicEvent" |} .
+adr:K43-13588 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Tarragon theatre production" |} .
+adr:K43-11820 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Song concert by a musical-theatre company" |} .
+adr:K43-12472 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Centaur Theatre production" |} .
+adr:K43-13360 ado:hasEventTypeConcept adr:CircusPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "7 Doigts circus creation" |} .
+adr:K43-8986 ado:hasEventTypeConcept adr:MusicalTheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Musical" |} .
+adr:K43-11189 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.70"^^xsd:decimal ;
+    rdfs:comment "Comedy/hypnosis; Variety also plausible" |} .
+adr:K43-11932 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Improv comedy" |} .
+adr:K43-13045 ado:hasEventTypeConcept adr:ScreeningEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.65"^^xsd:decimal ;
+    rdfs:comment "CRFF likely a film festival screening" |} .
+adr:K43-8590 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Band concert" |} .
+adr:K43-8814 ado:hasEventTypeConcept adr:DancePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Taiwanese contemporary dance" |} .
+adr:K43-9762 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Concert per description" |} .
+adr:K43-11480 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Author talk" |} .
+adr:K43-12337 ado:hasEventTypeConcept adr:ChildrensEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Stories for toddlers; Storytelling also plausible" |} .
+adr:K43-12458 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Centaur Theatre production" |} .
+adr:K43-13667 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.75"^^xsd:decimal ;
+    rdfs:comment "Agatha Christie play; title truncated + HTML entity" |} .
+adr:K23-12260 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Artist meet-and-talk at an exhibition" |} .
+adr:K43-13268 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.75"^^xsd:decimal ;
+    rdfs:comment "Wartime songs tribute" |} .
+adr:K23-12105 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.65"^^xsd:decimal ;
+    rdfs:comment "Poet conversation; Spoken Word also plausible" |} .
+adr:K23-12097 ado:hasEventTypeConcept adr:SocialEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Welcome evening for newcomers" |} .
+adr:K43-9765 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Verbatim theatre with live music" |} .
+adr:K23-11174 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Les belles heures lecture series" |} .
+adr:K43-9272 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Concert" |} .
+adr:K43-12329 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Lecture" |} .
+adr:K43-7290 ado:hasEventTypeConcept adr:MusicalTheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Musical" |} .
+adr:K43-11152 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Jazz ensemble concert" |} .
+adr:K43-13589 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Tarragon theatre production" |} .
+adr:K43-13744 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.75"^^xsd:decimal ;
+    rdfs:comment "Agatha Christie play; title truncated" |} .
+adr:K43-5354 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Humorist one-woman show" |} .
+adr:K43-11221 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.98"^^xsd:decimal ;
+    rdfs:comment "OSQ choral-orchestral concert" |} .
+adr:K43-12476 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Centaur Theatre production" |} .
+adr:K23-11948 ado:hasEventTypeConcept adr:Competition {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Ma première Place des Arts song competition" |} .
+adr:K43-8987 ado:hasEventTypeConcept adr:MusicalTheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Musical" |} .
+adr:K43-9881 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Singer-songwriter concert" |} .
+adr:K43-12869 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Improv comedy" |} .
+adr:K43-8497 ado:hasEventTypeConcept adr:MusicalTheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Gallery 7 Theatre stage musical" |} .
+adr:K43-12389 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Singer tour; 08:00 start looks wrong" |} .
+adr:K23-12234 ado:hasEventTypeConcept adr:ExhibitionEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.50"^^xsd:decimal ;
+    rdfs:comment "Presentation of artists' works; Talk also plausible" |} .
+adr:K43-11907 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Symphony NB concert" |} .
+adr:K43-14105 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Workshop" |} .
+adr:K43-14136 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Workshop" |} .
+adr:K43-6904 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Miners' choir concert" |} .
+adr:K43-11248 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Country music tribute" |} .
+adr:K23-11828 ado:hasEventTypeConcept adr:SocialEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.60"^^xsd:decimal ;
+    rdfs:comment "Launch/fundraiser party; Concert possible" |} .
+adr:K43-14104 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Robotics games for kids" |} .
+adr:K43-14150 ado:hasEventTypeConcept adr:WorkshopEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.90"^^xsd:decimal ;
+    rdfs:comment "Music-making workshop" |} .
+adr:K43-6879 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "'Live concert experience'" |} .
+adr:K43-11422 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Tribute concert" |} .
+adr:K23-11427 ado:hasEventTypeConcept adr:TalkEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Nature lecture" |} .
+adr:K43-12284 ado:hasEventTypeConcept adr:ChildrensEvent {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.75"^^xsd:decimal ;
+    rdfs:comment "Kids' show series" |} .
+adr:K43-7291 ado:hasEventTypeConcept adr:MusicalTheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Musical" |} .
+adr:K43-7773 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Concert" |} .
+adr:K43-7846 ado:hasEventTypeConcept adr:CircusPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.70"^^xsd:decimal ;
+    rdfs:comment "'Circus, comedy and chaos'" |} .
+adr:K43-8081 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Rock band" |} .
+adr:K43-13590 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Tarragon theatre production" |} .
+adr:K23-9018 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Singer-songwriter guitarist" |} .
+adr:K43-7865 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Doc Walker country concert" |} .
+adr:K43-8232 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.95"^^xsd:decimal ;
+    rdfs:comment "Humorist show" |} .
+adr:K23-10600 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.97"^^xsd:decimal ;
+    rdfs:comment "Country / trad-rock double bill" |} .
+adr:K43-11821 ado:hasEventTypeConcept adr:MusicPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Song concert" |} .
+adr:K43-12042 ado:hasEventTypeConcept adr:ComedyPerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.80"^^xsd:decimal ;
+    rdfs:comment "Humorist; cabaret venue" |} .
+adr:K43-12470 ado:hasEventTypeConcept adr:TheatrePerformance {|
+    prov:wasGeneratedBy <http://kg.artsdata.ca/ai-event-type-classifier#run-2026-11-09> ;
+    ado:confidence "0.85"^^xsd:decimal ;
+    rdfs:comment "Centaur Theatre production" |} .
