@@ -7,7 +7,7 @@ for Artsdata. Run by `.github/workflows/culture3r-com-events.yml`.
   (public, undocumented; it feeds the Vue list on `/programmation/`, built by
   the agency STEREO, so it can change without notice).
 - Output: `output/culture3r-com-events.jsonld`
-- Graph: `http://kg.artsdata.ca/culture-creates/artsdata-orion/culture3r-com`
+- Graph: `http://kg.artsdata.ca/culture-creates/artsdata-orion-api/culture3r-com`
 
 ```bash
 pip install -r src/culture3r/requirements.txt
@@ -24,7 +24,34 @@ event's page (about 190, half a second apart) and reads the text in
 The mapping decisions (skipped rows, event @ids, venues, event types, offers)
 are documented at the top of `main.py`. When the site adds a venue, the script
 logs `has no Artsdata ID in VENUES`: look the venue up in Artsdata and add it
-to `VENUES`.
+to `VENUES`. The automatic repair described below usually does this for you.
+
+## Automatic repair
+
+With `--drift-report drift.json`, the script writes a report of problems that
+need a code change, and only creates the file when there are some:
+
+- `unmapped_venues`: an event's venue isn't in `VENUES`.
+- `unmapped_categories`: a category slug is in neither `EVENT_TYPES` nor
+  `IGNORED_CATEGORIES`.
+- `events_without_venue`: an event's `lieu` isn't in the feed's `salles`.
+- `missing_descriptions`: more than 20% of event pages had no description, so
+  `DESCRIPTION_SELECTOR` probably no longer matches.
+- `error`: the conversion failed, e.g. the feed changed shape. The run still
+  fails. Network errors (site down) are not reported.
+
+The fetch workflow uploads `drift.json` and the feed it read (`dates.json`) as
+the `culture3r-drift` artifact. The data is still pushed to Artsdata, except
+after an `error`. The artifact starts `.github/workflows/culture3r-heal.yml`,
+which runs Claude (`anthropics/claude-code-action`) to update this folder,
+check the fix against `dates.json`, and write a summary. The workflow then
+opens a PR from a `culture3r-heal/<run id>` branch. Claude can't commit, push
+or edit workflows, and the heal workflow skips while a heal PR is still open.
+**Check the Artsdata IDs in the PR before merging.**
+
+Setup: add an `ANTHROPIC_API_KEY` repository secret. To test, dispatch
+"Heal Culture Trois-Rivières Converter" with the ID of a fetch run that
+uploaded `culture3r-drift`.
 
 Performers are always typed schema:Person: neither the feed nor the pages
 say whether an artist is a person or a group, so groups and producers

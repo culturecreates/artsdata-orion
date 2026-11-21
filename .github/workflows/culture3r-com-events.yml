@@ -34,7 +34,21 @@ jobs:
           pip install -r src/culture3r/requirements.txt
 
       - name: Fetch and convert feed
-        run: python ./src/culture3r/main.py
+        run: python ./src/culture3r/main.py --save-feed dates.json --drift-report drift.json
+
+      # drift.json only exists when the feed or pages need a code change (an
+      # unmapped venue or category, a changed feed or page). Its upload starts
+      # culture3r-heal.yml, which has Claude open a PR with the fix.
+      - name: Upload drift report
+        if: always() && hashFiles('drift.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: culture3r-drift
+          path: |
+            drift.json
+            dates.json
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Commit and push changes
         run: |

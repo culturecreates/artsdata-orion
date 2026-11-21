@@ -95,8 +95,7 @@ VENUES = {
     231572: "K5-457",  # Bibliothèque Aline-Piché
 }
 
-# show_cat slug -> Artsdata event type concept. Unlisted slugs (famille,
-# activite-familale, inaugurale, evenement, parcours) add no type.
+# show_cat slug -> Artsdata event type concept.
 EVENT_TYPES = {
     "chanson": "Chanson",
     "humour": "ComedyPerformance",
@@ -113,9 +112,28 @@ EVENT_TYPES = {
     "expositions": "ExhibitionEvent",
 }
 
+# show_cat slugs that deliberately add no type (audience or programme labels,
+# not kinds of event). A slug in neither table is reported as drift.
+IGNORED_CATEGORIES = {"famille", "activite-familale", "inaugurale", "evenement", "parcours"}
+
+# Report missing descriptions as drift when more than this share of event
+# pages has none: a sign that DESCRIPTION_SELECTOR no longer matches.
+MAX_MISSING_DESCRIPTIONS = 0.2
+
 NO_DATE = {"", "1970-01-01", None}
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+
+# Problems that need a code change (a VENUES or EVENT_TYPES entry, or a fix
+# for a changed feed or page), written to --drift-report for the
+# culture3r-heal workflow. Keys are only present when there is a problem.
+DRIFT: Dict[str, Any] = {}
+
+
+def report_drift(kind: str, item: Any) -> None:
+    items = DRIFT.setdefault(kind, [])
+    if item not in items:
+        items.append(item)
 
 
 ###############################################################################
@@ -221,6 +239,9 @@ def fetch_descriptions(session: requests.Session, urls: Iterable[str]) -> Dict[s
         else:
             logging.warning("No description found on %s", url)
     logging.info("Found descriptions for %s of %s event pages", len(descriptions), len(urls))
+    missing = [url for url in urls if url not in descriptions]
+    if urls and len(missing) / len(urls) > MAX_MISSING_DESCRIPTIONS:
+        DRIFT["missing_descriptions"] = {"selector": DESCRIPTION_SELECTOR, "pages": len(urls), "missing": missing}
     return descriptions
 
 
@@ -277,8 +298,12 @@ def add_event(g: Graph, row: Dict[str, Any], venues: Dict[int, URIRef], organize
     venue = venues.get(int(row["lieu"])) if str(row.get("lieu") or "").isdigit() else None
     if venue:
         g.add((iri, SCHEMA.location, venue))
+        if int(row["lieu"]) not in VENUES:
+            report_drift("unmapped_venues", {"term_id": int(row["lieu"]), "name": str(g.value(venue, SCHEMA.name)),
+                                             "iri": str(venue), "example_event": url})
     else:
         logging.warning("No venue for %s (lieu=%s)", iri, row.get("lieu"))
+        report_drift("events_without_venue", {"event": str(iri), "lieu": row.get("lieu")})
 
     # Performer: only for real artist records, not exhibitions named after a venue.
     artist = text(row.get("artiste"))
@@ -297,9 +322,13 @@ def add_event(g: Graph, row: Dict[str, Any], venues: Dict[int, URIRef], organize
         g.add((sponsor, SCHEMA.name, Literal(text(row["presentedby"]).split("_")[0])))
 
     for category in row.get("categories") or []:
-        concept = EVENT_TYPES.get(category.get("slug"))
+        slug = category.get("slug")
+        concept = EVENT_TYPES.get(slug)
         if concept:
             g.add((iri, SCHEMA.additionalType, ARTSDATA[concept]))
+        elif slug not in IGNORED_CATEGORIES:
+            logging.warning("Category %s has no entry in EVENT_TYPES or IGNORED_CATEGORIES", slug)
+            report_drift("unmapped_categories", {"slug": slug, "name": text(category.get("name")), "example_event": url})
 
     if is_true(row.get("annule")):
         status = SCHEMA.EventCancelled
@@ -367,20 +396,37 @@ def main() -> int:
     parser.add_argument("--output", default=OUTPUT_FILE)
     parser.add_argument("--today", help="Override today's date (YYYY-MM-DD), for tests")
     parser.add_argument("--no-descriptions", action="store_true", help="Don't fetch event pages for descriptions")
+    parser.add_argument("--save-feed", help="Also save the fetched feed to this file")
+    parser.add_argument("--drift-report", help="Write problems that need a code change to this JSON file "
+                                               "(only created when there are any)")
     args = parser.parse_args()
 
     today = date.fromisoformat(args.today) if args.today else datetime.now(TZ).date()
-    with new_session() as session:
-        if args.input:
-            with open(args.input, encoding="utf-8") as f:
-                feed = json.load(f)
-        else:
-            feed = fetch_feed(session)
-        descriptions = {}
-        if not args.no_descriptions:
-            descriptions = fetch_descriptions(session, (page_url(row) for row in kept_rows(feed, today)))
+    try:
+        with new_session() as session:
+            if args.input:
+                with open(args.input, encoding="utf-8") as f:
+                    feed = json.load(f)
+            else:
+                feed = fetch_feed(session)
+                if args.save_feed:
+                    with open(args.save_feed, "w", encoding="utf-8") as f:
+                        json.dump(feed, f, ensure_ascii=False)
+            descriptions = {}
+            if not args.no_descriptions:
+                descriptions = fetch_descriptions(session, (page_url(row) for row in kept_rows(feed, today)))
 
-    graph = convert(feed, today, descriptions)
+        graph = convert(feed, today, descriptions)
+    except (requests.ConnectionError, requests.Timeout):
+        raise  # the site is down or slow: not something a code change fixes
+    except Exception as error:
+        DRIFT["error"] = f"{type(error).__name__}: {error}"
+        raise
+    finally:
+        if args.drift_report and DRIFT:
+            with open(args.drift_report, "w", encoding="utf-8") as f:
+                json.dump(DRIFT, f, ensure_ascii=False, indent=2)
+            logging.warning("Wrote drift report to %s: %s", args.drift_report, ", ".join(DRIFT))
     graph.serialize(destination=args.output, format="json-ld", auto_compact=False, indent=2)
     logging.info("Wrote %s triples to %s", len(graph), args.output)
     return 0
