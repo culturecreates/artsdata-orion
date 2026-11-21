@@ -21,9 +21,13 @@ isni:0000000000711022 a schema:Person ;
     schema:url <http://www.davidlafore.fr/> .
 
 isni:0000000001335209 a schema:Person ;
-    schema:alternateName "DANIEL BOUCHER",
-        "Даниэль Буше" ;
-    schema:name "Daniel Boucher" .
+    schema:alternateName "Даниэль Буше" ;
+    schema:birthDate "1971-10-07"^^xsd:date ;
+    schema:hasOccupation wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:name "Daniel Boucher" ;
+    schema:sameAs <http://musicbrainz.org/artist/23f9326d-8bde-4a6e-b9c9-5d7b2df6839d> .
 
 isni:0000000001461280 a schema:Person ;
     schema:alternateName "Eric Lapointe",
@@ -141,9 +145,11 @@ isni:0000000034065495 a schema:Person ;
     schema:sameAs <http://musicbrainz.org/artist/f27c71c6-f1aa-4840-85e3-44a85f0eda5f> .
 
 isni:000000003482034X a schema:Person ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Dena Davida" .
 
 isni:0000000035854912 a schema:Person ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Negar Nicole Jacobs" .
 
 isni:0000000038111348 a schema:Person ;
@@ -289,16 +295,23 @@ isni:0000000052080568 a schema:Person ;
     schema:url <http://emileproulxcloutier.com/> .
 
 isni:0000000052814648 a schema:Person ;
-    schema:alternateName "LES MCKEOWN",
-        "LESLIE MCKEOWN",
-        "LESLIE RICHARD MCKEOWN",
-        "Les Mac Keown",
+    schema:alternateName "Les Mac Keown",
         "Les MacKeown",
         "Les Mc Keown",
         "Leslie McKeown",
         "Leslie Richard McKeown",
         "Лес Маккьюэн" ;
-    schema:name "Les McKeown" .
+    schema:birthDate "1955-11-12"^^xsd:date ;
+    schema:deathDate "2021-04-20"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36180,
+        wd:Q713200 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00086778415" ] ;
+    schema:name "Les McKeown" ;
+    schema:sameAs <http://musicbrainz.org/artist/8eb430da-b920-4a98-b89a-eae6ca06dcfa> ;
+    schema:url <http://www.lesmckeown.com/> .
 
 isni:0000000052819617 a schema:Person ;
     schema:name "Françoise Riopelle" .
@@ -358,13 +371,13 @@ isni:0000000055099803 a schema:Person ;
         wd:Q713200 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
+            schema:value "00147744943" ],
+        [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
             schema:value "00152599647" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00147745156" ],
-        [ a schema:PropertyValue ;
-            schema:propertyID "IPI" ;
-            schema:value "00147744943" ] ;
+            schema:value "00147745156" ] ;
     schema:name "Michèle Torr" ;
     schema:sameAs <http://musicbrainz.org/artist/c79a6307-1861-4115-9f4b-a0cc47fb686a> ;
     schema:url <http://www.micheletorr.com/> .
@@ -401,10 +414,10 @@ isni:0000000055143464 a schema:Person ;
         wd:Q713200 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00077800659" ],
+            schema:value "00077800855" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00077800855" ] ;
+            schema:value "00077800659" ] ;
     schema:name "Ricky Skaggs" ;
     schema:sameAs <http://musicbrainz.org/artist/1a14063c-9dca-48d5-98c3-89748c74562b> ;
     schema:url <http://skaggsfamilyrecords.com/> .
@@ -438,9 +451,18 @@ isni:0000000055161945 a schema:Person ;
     schema:url <http://www.tikenjah.net/> .
 
 isni:0000000055182017 a schema:Person ;
-    schema:alternateName "DAVID ARKENSTONE",
-        "デヴィッド・アーカンストーン" ;
-    schema:name "David Arkenstone" .
+    schema:alternateName "デヴィッド・アーカンストーン" ;
+    schema:birthDate "1952-07-01"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00214929467" ] ;
+    schema:name "David Arkenstone" ;
+    schema:sameAs <http://musicbrainz.org/artist/50a45c3d-b54b-4fd5-bb83-5046e4ff6813> ;
+    schema:url <http://www.davidarkenstone.com/> .
 
 isni:0000000055204802 a schema:Person ;
     schema:alternateName "G. Riley" ;
@@ -476,13 +498,13 @@ isni:0000000055573421 a schema:Person ;
         wd:Q713200 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00476088715" ],
-        [ a schema:PropertyValue ;
-            schema:propertyID "IPI" ;
             schema:value "00476089222" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00476089026" ] ;
+            schema:value "00476089026" ],
+        [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00476088715" ] ;
     schema:name "Teddy Geiger" ;
     schema:sameAs <http://musicbrainz.org/artist/e54820fc-02c2-46be-ab4c-593dfd63dc44> ;
     schema:url <http://teddygeiger.com/>,
@@ -661,9 +683,18 @@ isni:0000000072487066 a schema:Person ;
     schema:url <http://rochvoisine.com/> .
 
 isni:0000000072494741 a schema:Person ;
-    schema:alternateName "SARAH SLEAN",
-        "Sarah Hope Slean" ;
-    schema:name "Sarah Slean" .
+    schema:alternateName "Sarah Hope Slean" ;
+    schema:birthDate "1977-06-21"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00268737518" ] ;
+    schema:name "Sarah Slean" ;
+    schema:sameAs <http://musicbrainz.org/artist/ca6fb0de-336f-4bd9-adf1-ce8eebaa7fe1> ;
+    schema:url <http://sarahslean.com/> .
 
 isni:0000000072498363 a schema:Person ;
     schema:alternateName "Joanne Pelletier",
@@ -739,11 +770,15 @@ isni:0000000072690208 a schema:Person ;
     schema:name "Tania Willard" .
 
 isni:0000000072742768 a schema:Person ;
-    schema:alternateName "JOE SEALY",
-        "Joseph Arthur Sealy" ;
-    schema:name "Joe Sealy" .
+    schema:alternateName "Joseph Arthur Sealy" ;
+    schema:birthDate "1939-08-16"^^xsd:date ;
+    schema:hasOccupation wd:Q713200 ;
+    schema:name "Joe Sealy" ;
+    schema:sameAs <http://musicbrainz.org/artist/086b16c7-2ed0-46b5-9cd4-ec08ca44fe98> ;
+    schema:url <http://www.joesealy.com/> .
 
 isni:0000000072748967 a schema:Person ;
+    schema:birthDate "1928"^^xsd:gYear ;
     schema:name "Henry Shimizu" .
 
 isni:0000000072960917 a schema:Person ;
@@ -814,6 +849,8 @@ isni:0000000073177959 a schema:Person ;
     schema:name "Nathalie Derome" .
 
 isni:0000000073181253 a schema:Person ;
+    schema:birthDate "1955-09-18"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Lise Dion" .
 
 isni:0000000073212603 a schema:Person ;
@@ -838,6 +875,9 @@ isni:0000000073230908 a schema:Person ;
 
 isni:0000000073343670 a schema:Person ;
     schema:alternateName "MARC BELAND" ;
+    schema:birthDate "1958-03-15"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q713200 ;
     schema:name "Marc Béland" .
 
 isni:0000000073363292 a schema:Person ;
@@ -940,10 +980,10 @@ isni:0000000073636852 a schema:Person ;
         wd:Q713200 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00235686055" ],
+            schema:value "00235685940" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00235685940" ] ;
+            schema:value "00235686055" ] ;
     schema:name "France D’Amour" ;
     schema:sameAs <http://musicbrainz.org/artist/550b5eea-4202-4037-9fae-66fc7ae77340> ;
     schema:url <http://www.francedamour.com/> .
@@ -1140,10 +1180,33 @@ isni:000000007366540X a schema:Person ;
     schema:alternateName "Jesse Arnaud Cook",
         "Джессі Кук",
         "جسی کوک" ;
-    schema:name "Jesse Cook" .
+    schema:birthDate "1964-11-28"^^xsd:date ;
+    schema:hasOccupation wd:Q1278335,
+        wd:Q36180,
+        wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Jesse Cook" ;
+    schema:sameAs <http://musicbrainz.org/artist/6e5490ff-714c-4e8c-9e7c-89a9f37bf9df> ;
+    schema:url <http://www.jessecook.com/> .
 
 isni:0000000073665880 a schema:Person ;
-    schema:name "Marc Drouin" .
+    schema:birthDate "1957"^^xsd:gYear ;
+    schema:hasOccupation wd:Q1607826,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00066804072" ] ;
+    schema:name "Marc Drouin" ;
+    schema:sameAs <http://musicbrainz.org/artist/782ff7f8-3bd0-4cdb-902f-232956837e8a> .
+
+isni:0000000073666509 a schema:Person ;
+    schema:alternateName "Rémi Girard",
+        "ريمي جيرارد" ;
+    schema:birthDate "1950-08-10"^^xsd:date ;
+    schema:hasOccupation wd:Q33999,
+        wd:Q36180 ;
+    schema:name "Rémy Girard" .
 
 isni:0000000073667085 a schema:Person ;
     schema:alternateName "Hawksley J. Workman",
@@ -1192,8 +1255,7 @@ isni:0000000073669267 a schema:Person ;
     schema:url <http://www.peggylee.net/> .
 
 isni:0000000073671615 a schema:Person ;
-    schema:alternateName "CHANTAL KREVIAZUK",
-        "Chantal Jennifer Kreviazuk",
+    schema:alternateName "Chantal Jennifer Kreviazuk",
         "Chantal Krevaziuk",
         "Chantal Krevisyuk",
         "Chantal Krevizuk",
@@ -1204,13 +1266,27 @@ isni:0000000073671615 a schema:Person ;
         "シャンタール・クレヴィアジック",
         "香岱兒",
         "샹탈크레비아주크" ;
-    schema:name "Chantal Kreviazuk" .
+    schema:birthDate "1974-05-18"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00264561852" ] ;
+    schema:name "Chantal Kreviazuk" ;
+    schema:sameAs <http://musicbrainz.org/artist/fd092d99-377f-414e-a63e-3dc849ad2cc9> ;
+    schema:url <http://chantalkreviazuk.com/>,
+        <http://www.chantalonline.com/> .
 
 isni:0000000073673952 a schema:Person ;
     schema:alternateName "G Copway",
         "G. Copway",
         "Kah-ge-ga-gah-bowh",
         "Kahgegagahbowh" ;
+    schema:birthDate "1818"^^xsd:gYear ;
+    schema:deathDate "1869-01-01"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "George Copway" .
 
 isni:0000000073677531 a schema:Person ;
@@ -1264,10 +1340,13 @@ isni:0000000073687836 a schema:Person ;
     schema:url <http://www.stephanielapointe.ca/> .
 
 isni:0000000073689604 a schema:Person ;
-    schema:alternateName "MOLLY JOHNSON",
-        "Margaret Leslie Johnson",
+    schema:alternateName "Margaret Leslie Johnson",
         "Молли Джонсон" ;
-    schema:name "Molly Johnson" .
+    schema:birthDate "1959-04-14"^^xsd:date ;
+    schema:hasOccupation wd:Q713200 ;
+    schema:name "Molly Johnson" ;
+    schema:sameAs <http://musicbrainz.org/artist/f5ffbd35-39a0-4a5c-80ac-6678928da8d5> ;
+    schema:url <http://mollyjohnson.com/> .
 
 isni:0000000073690162 a schema:Person ;
     schema:birthDate "1982"^^xsd:gYear ;
@@ -1283,9 +1362,18 @@ isni:0000000073690162 a schema:Person ;
     schema:url <http://www.pascalepicard.com/> .
 
 isni:0000000073690963 a schema:Person ;
-    schema:alternateName "FLORENT VOLLANT",
-        "Florant Vollant" ;
-    schema:name "Florent Vollant" .
+    schema:alternateName "Florant Vollant" ;
+    schema:birthDate "1959-08-10"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00135535581" ] ;
+    schema:name "Florent Vollant" ;
+    schema:sameAs <http://musicbrainz.org/artist/53f1c912-dd3d-451e-bfcf-1c6dfbb2f12d> ;
+    schema:url <http://www.florentvollant.com/> .
 
 isni:0000000073691237 a schema:Person ;
     schema:alternateName "HARMER SARAH LOIS",
@@ -1393,7 +1481,16 @@ isni:0000000073714777 a schema:Person ;
 isni:0000000073723411 a schema:Person ;
     schema:alternateName "L. Hall",
         "Lani Hall Alpert" ;
-    schema:name "Lani Hall" .
+    schema:birthDate "1948-11-06"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00041270715" ] ;
+    schema:name "Lani Hall" ;
+    schema:sameAs <http://musicbrainz.org/artist/f7b4213c-d766-47d4-80c7-d6de66380f30> .
 
 isni:0000000073728546 a schema:Person ;
     schema:alternateName "M. Lanctôt" ;
@@ -1524,6 +1621,23 @@ isni:0000000073754306 a schema:Person ;
     schema:name "Geddy Lee" ;
     schema:sameAs <http://musicbrainz.org/artist/283fb96d-1f5c-4b74-9bea-3e4504f07fa3> .
 
+isni:0000000073757734 a schema:Person ;
+    schema:alternateName "Larry Gowan",
+        "Lawrence Gowan",
+        "Lawrence Henry Gowan" ;
+    schema:birthDate "1956-11-22"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00022736304" ] ;
+    schema:memberOf isni:0000000106709799 ;
+    schema:name "Gowan" ;
+    schema:sameAs <http://musicbrainz.org/artist/fc06a339-d14b-40ea-a87e-4672de5deb0f> ;
+    schema:url <http://www.gowan.org/> .
+
 isni:0000000073758120 a schema:Person ;
     schema:alternateName "Морин Дженнингс" ;
     schema:birthDate "1939"^^xsd:gYear ;
@@ -1549,13 +1663,18 @@ isni:0000000073759246 a schema:Person ;
     schema:url <http://vedahille.com/> .
 
 isni:0000000073759262 a schema:Person ;
-    schema:alternateName "NATALIE MACMASTER",
-        "Natalie Band MacMaster",
+    schema:alternateName "Natalie Band MacMaster",
         "Natalie Mac Master",
         "Natalie McMaster",
         "Nathalie MacMaster",
         "Natilie MacMaster Band" ;
-    schema:name "Natalie MacMaster" .
+    schema:birthDate "1972-06-13"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Natalie MacMaster" ;
+    schema:sameAs <http://musicbrainz.org/artist/4fccc5ba-950d-4698-8655-10844cad67b4> ;
+    schema:url <http://www.nataliemacmaster.com/> .
 
 isni:0000000073759772 a schema:Person ;
     schema:alternateName "Matthew Mays",
@@ -1643,6 +1762,10 @@ isni:0000000073818154 a schema:Person ;
     schema:hasOccupation wd:Q36180 ;
     schema:name "Raymond Cloutier" .
 
+isni:0000000073857073 a schema:Person ;
+    schema:hasOccupation wd:Q36180 ;
+    schema:name "Lucie Vézina" .
+
 isni:0000000073871166 a schema:Person ;
     schema:alternateName "Марта Генри" ;
     schema:birthDate "1938-02-17"^^xsd:date ;
@@ -1663,8 +1786,9 @@ isni:0000000073875001 a schema:Person ;
     schema:alternateName "Andrew Joseph Patrick Ephreme DeJarlis",
         "André Déjarlis",
         "Andy De Jarlis",
-        "Andy Desjarlis",
-        "Andy de Jarlis" ;
+        "Andy Desjarlis" ;
+    schema:birthDate "1914"^^xsd:gYear ;
+    schema:deathDate "1975"^^xsd:gYear ;
     schema:name "Andy DeJarlis" .
 
 isni:0000000073887942 a schema:Person ;
@@ -1674,7 +1798,14 @@ isni:0000000073887942 a schema:Person ;
 
 isni:000000007390567X a schema:Person ;
     schema:alternateName "Barnard Franklin Bentall" ;
-    schema:name "Barney Bentall" .
+    schema:birthDate "1956-03-14"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:name "Barney Bentall" ;
+    schema:sameAs <http://musicbrainz.org/artist/c736bed0-eea8-4bfb-b0bd-cbcee914fb63> ;
+    schema:url <http://www.barneybentall.ca/> .
 
 isni:0000000073916678 a schema:Person ;
     schema:alternateName "M Morin",
@@ -1699,8 +1830,14 @@ isni:0000000073920327 a schema:Person ;
     schema:name "Victoria Mamnguqsualuk" .
 
 isni:0000000074004830 a schema:Person ;
-    schema:alternateName "LENNIE GALLANT" ;
-    schema:name "Lennie Gallant" .
+    schema:birthDate "1955"^^xsd:gYear ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:name "Lennie Gallant" ;
+    schema:sameAs <http://musicbrainz.org/artist/14d93377-7ef7-4297-8f17-8bb3055cfcbe> ;
+    schema:url <http://www.lenniegallant.com/> .
 
 isni:000000007402345X a schema:Person ;
     schema:alternateName "Andrew Stuart McLean",
@@ -1741,6 +1878,7 @@ isni:0000000074059057 a schema:Person ;
     schema:url <http://www.susanaglukark.com/> .
 
 isni:0000000074066492 a schema:Person ;
+    schema:birthDate "1947"^^xsd:gYear ;
     schema:name "Jacqueline Barrette" .
 
 isni:0000000074071478 a schema:Person ;
@@ -1782,13 +1920,23 @@ isni:0000000074125501 a schema:Person ;
     schema:name "Darren O'Donnell" .
 
 isni:0000000074128307 a schema:Person ;
-    schema:alternateName "FRED PELLERIN",
-        "Frédéric Pellerin",
+    schema:alternateName "Frédéric Pellerin",
         "Sébastien, Dulude" ;
-    schema:name "Fred Pellerin" .
+    schema:birthDate "1976-11-22"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36180,
+        wd:Q713200 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00462203391" ] ;
+    schema:name "Fred Pellerin" ;
+    schema:sameAs <http://musicbrainz.org/artist/2690e042-9318-4700-9be5-b19f9051d46b> ;
+    schema:url <http://www.fredpellerin.com/> .
 
 isni:0000000074139049 a schema:Person ;
     schema:alternateName "Коллин Мерфи" ;
+    schema:birthDate "1954-08-01"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Colleen Murphy" .
 
 isni:0000000074143064 a schema:Person ;
@@ -1823,10 +1971,21 @@ isni:0000000074171305 a schema:Person ;
     schema:name "Martine Beaulne" .
 
 isni:0000000074176392 a schema:Person ;
-    schema:alternateName "MATTHEW GOOD" ;
-    schema:name "Matthew Good" .
+    schema:birthDate "1971-06-29"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00252033115" ] ;
+    schema:memberOf isni:0000000086419830 ;
+    schema:name "Matthew Good" ;
+    schema:sameAs <http://musicbrainz.org/artist/8010da10-5c5b-4041-b119-984a6e2ccf82> ;
+    schema:url <http://www.matthewgood.org/> .
 
 isni:0000000074188094 a schema:Person ;
+    schema:hasOccupation wd:Q1607826 ;
     schema:name "Myriam Tremblay" .
 
 isni:0000000074190856 a schema:Person ;
@@ -1867,6 +2026,7 @@ isni:0000000074206985 a schema:Person ;
     schema:name "Tara Beagan" .
 
 isni:0000000074220576 a schema:Person ;
+    schema:birthDate "1979-01-01"^^xsd:date ;
     schema:name "Brendan McLeod" .
 
 isni:0000000074228412 a schema:Person ;
@@ -1896,6 +2056,8 @@ isni:0000000074246821 a schema:Person ;
     schema:url <http://www.amielgladstone.com/> .
 
 isni:0000000074248130 a schema:Person ;
+    schema:birthDate "1971"^^xsd:gYear ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Robert Chafe" .
 
 isni:000000007425256X a schema:Person ;
@@ -1933,6 +2095,12 @@ isni:0000000074318207 a schema:Person ;
     schema:name "Amanda Rheaume" ;
     schema:sameAs <http://musicbrainz.org/artist/0a3b4e85-f056-49ac-a290-245f4562f594> ;
     schema:url <http://www.amandarheaume.com/> .
+
+isni:0000000074320016 a schema:Person ;
+    schema:birthDate "1972-09-07"^^xsd:date ;
+    schema:hasOccupation wd:Q713200 ;
+    schema:name "Daniel Grenier" ;
+    schema:sameAs <http://musicbrainz.org/artist/a04f8865-083c-40a8-be9a-e8d5cc16c36f> .
 
 isni:0000000074322513 a schema:Person ;
     schema:birthDate "1959-11-12"^^xsd:date ;
@@ -2021,7 +2189,11 @@ isni:0000000074803798 a schema:Person ;
     schema:url <http://jimmyrankin.com/> .
 
 isni:0000000074831684 a schema:Person ;
-    schema:name "Leela Gilday" .
+    schema:birthDate "1974"^^xsd:gYear ;
+    schema:hasOccupation wd:Q713200 ;
+    schema:name "Leela Gilday" ;
+    schema:sameAs <http://musicbrainz.org/artist/b0d0b278-8b89-4a5b-afab-7cd92bac9837> ;
+    schema:url <http://www.leelagilday.com/> .
 
 isni:0000000074836709 a schema:Person ;
     schema:birthDate "1966-09-12"^^xsd:date ;
@@ -2064,12 +2236,22 @@ isni:0000000074973631 a schema:Person ;
     schema:url <http://www.kellyjefferson.net/> .
 
 isni:0000000075028682 a schema:Person ;
-    schema:alternateName "SYLVAIN COSSETTE",
-        "Sylvain Cosette" ;
-    schema:name "Sylvain Cossette" .
+    schema:alternateName "Sylvain Cosette" ;
+    schema:birthDate "1963-05-08"^^xsd:date ;
+    schema:hasOccupation wd:Q713200 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00215805388" ] ;
+    schema:name "Sylvain Cossette" ;
+    schema:sameAs <http://musicbrainz.org/artist/32daef2e-9bfc-4d5d-8d26-d65958785db1> ;
+    schema:url <http://www.sylvaincossette.net/> .
 
 isni:0000000075042337 a schema:Person ;
-    schema:name "Heather Rankin" .
+    schema:birthDate "1967-10-24"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q713200 ;
+    schema:name "Heather Rankin" ;
+    schema:sameAs <http://musicbrainz.org/artist/4e2e82f0-93ba-4465-a517-e86d4a886587> .
 
 isni:0000000075102088 a schema:Person ;
     schema:name "Israël Gamache" .
@@ -2106,6 +2288,7 @@ isni:0000000075236422 a schema:Person ;
     schema:name "Chloé Sainte-Marie" .
 
 isni:000000007526217X a schema:Person ;
+    schema:birthDate "1962"^^xsd:gYear ;
     schema:name "Kevin Ei-ichi De Forest" .
 
 isni:0000000075315569 a schema:Person ;
@@ -2221,6 +2404,7 @@ isni:0000000075696330 a schema:Person ;
     schema:url <http://davidmyles.com/> .
 
 isni:0000000075709373 a schema:Person ;
+    schema:birthDate "1947"^^xsd:gYear ;
     schema:name "Bryce Kanbara" .
 
 isni:0000000075752697 a schema:Person ;
@@ -2249,7 +2433,12 @@ isni:0000000075770203 a schema:Person ;
 
 isni:0000000075771193 a schema:Person ;
     schema:alternateName "MAXIME A LANDRY" ;
-    schema:name "Maxime Landry" .
+    schema:birthDate "1987-06-16"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36180,
+        wd:Q713200 ;
+    schema:name "Maxime Landry" ;
+    schema:sameAs <http://musicbrainz.org/artist/ea02521a-4886-4bd4-97d5-cc1968fb5a8d> .
 
 isni:0000000075838810 a schema:Person ;
     schema:alternateName "Boucar" ;
@@ -2369,6 +2558,9 @@ isni:0000000076423895 a schema:Person ;
     schema:sameAs <http://musicbrainz.org/artist/9144dd58-1d7c-4113-831c-dcdfd81efee8> ;
     schema:url <http://www.alexandrepoulin.com/> .
 
+isni:0000000076481745 a schema:Person ;
+    schema:name "Tyrone Tootoosis" .
+
 isni:0000000076497405 a schema:Person ;
     schema:alternateName "Genevieve Bilodeau" ;
     schema:birthDate "1969-04-09"^^xsd:date ;
@@ -2423,9 +2615,13 @@ isni:0000000076567581 a schema:Person ;
     schema:url <http://emilieclairebarlow.com/> .
 
 isni:0000000076581818 a schema:Person ;
+    schema:birthDate "1948"^^xsd:gYear ;
+    schema:hasOccupation wd:Q483501 ;
     schema:name "Éric Daudelin" .
 
 isni:0000000076607168 a schema:Person ;
+    schema:birthDate "1952"^^xsd:gYear ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Lorne Elliott" .
 
 isni:0000000076611036 a schema:Person ;
@@ -2609,7 +2805,13 @@ isni:0000000078281317 a schema:Person ;
         "پاول ریسر",
         "ポール・ライザー",
         "폴라이저" ;
-    schema:name "Paul Reiser" .
+    schema:birthDate "1957-03-30"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Paul Reiser" ;
+    schema:sameAs <http://musicbrainz.org/artist/308fee51-0cc8-419b-81ca-8d9d3d1448bf> ;
+    schema:url <http://paulreiser.com/> .
 
 isni:0000000078305382 a schema:Person ;
     schema:alternateName "Francis Christian Cabrel",
@@ -2635,6 +2837,8 @@ isni:0000000078305382 a schema:Person ;
     schema:url <http://www.franciscabrel.com/> .
 
 isni:0000000078353480 a schema:Person ;
+    schema:birthDate "1948"^^xsd:gYear ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Suzanne Lebeau" .
 
 isni:0000000078387277 a schema:Person ;
@@ -2846,10 +3050,10 @@ isni:0000000078518484 a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00504377662" ],
+            schema:value "00504377760" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00504377760" ] ;
+            schema:value "00504377662" ] ;
     schema:name "Charlie Winston" ;
     schema:sameAs <http://musicbrainz.org/artist/983d4f8f-473e-4091-8394-415c105c4656> ;
     schema:url <http://www.charliewinston.com/> .
@@ -2952,13 +3156,13 @@ isni:0000000078892409 a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
+            schema:value "00428409747" ],
+        [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
             schema:value "00246129866" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00246129768" ],
-        [ a schema:PropertyValue ;
-            schema:propertyID "IPI" ;
-            schema:value "00428409747" ] ;
+            schema:value "00246129768" ] ;
     schema:name "Bruce Guthro" ;
     schema:sameAs <http://musicbrainz.org/artist/68915496-42f9-40bc-88b9-da3f0d308f52> ;
     schema:url <http://www.bruceguthro.com/> .
@@ -2983,6 +3187,9 @@ isni:0000000078963086 a schema:Person ;
         "Napatchie Pootoogook",
         "Naupochee",
         "Nepachee" ;
+    schema:birthDate "1938-06-26"^^xsd:date ;
+    schema:deathDate "2002-12-18"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Napachie Pootoogook" .
 
 isni:0000000078963123 a schema:Person ;
@@ -3053,6 +3260,10 @@ isni:0000000079825646 a schema:Person ;
         "Pitsolak",
         "pitsiulaaq asuuna",
         "ᐱᑦᓯᐅᓛᖅ ᐊᓲᓇ" ;
+    schema:birthDate "1904-01-01"^^xsd:date ;
+    schema:deathDate "1983-05-28"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q644687 ;
     schema:name "Pitseolak" .
 
 isni:0000000079834331 a schema:Person ;
@@ -3183,6 +3394,20 @@ isni:0000000080093710 a schema:Person ;
     schema:sameAs <http://musicbrainz.org/artist/5c09dcfe-52ba-46f5-b248-92fb846dbfba> ;
     schema:url <https://www.leannesimpson.ca/> .
 
+isni:0000000080094326 a schema:Person ;
+    schema:alternateName "Emmanuel Dubois",
+        "Korey Hart" ;
+    schema:birthDate "1984-03-12"^^xsd:date ;
+    schema:hasOccupation wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00573291634" ] ;
+    schema:name "Koriass" ;
+    schema:sameAs <http://musicbrainz.org/artist/0678218e-13af-481c-a26a-266e1d8f55d0> ;
+    schema:url <http://www.koriass.com/> .
+
 isni:0000000080116492 a schema:Person ;
     schema:birthDate "1966"^^xsd:gYear ;
     schema:hasOccupation wd:Q713200 ;
@@ -3247,10 +3472,10 @@ isni:0000000080156697 a schema:Person ;
             schema:value "00263879913" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00263880152" ],
+            schema:value "00266609639" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00266609639" ] ;
+            schema:value "00263880152" ] ;
     schema:name "Natasha St‐Pier" ;
     schema:sameAs <http://musicbrainz.org/artist/75433c64-f96a-4454-9b62-2005fe59acbc> ;
     schema:url <http://www.natasha-stpier.com/> .
@@ -3371,10 +3596,10 @@ isni:0000000081187591 a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00060658380" ],
+            schema:value "00060658478" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00060658478" ] ;
+            schema:value "00060658380" ] ;
     schema:name "Plume Latraverse" ;
     schema:sameAs <http://musicbrainz.org/artist/8173b51e-1744-41e6-b4e4-c113a288d46a> .
 
@@ -3507,6 +3732,13 @@ isni:0000000081611137 a schema:Person ;
     schema:hasOccupation wd:Q713200 ;
     schema:name "Colm Feore" ;
     schema:sameAs <http://musicbrainz.org/artist/a894f8d9-48b3-4292-b32d-2d1293746d67> .
+
+isni:000000008164705X a schema:Person ;
+    schema:alternateName "Daphne Buckle",
+        "Daphne Buckle Marlatt" ;
+    schema:birthDate "1942-07-11"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
+    schema:name "Daphne Marlatt" .
 
 isni:0000000081666103 a schema:Person ;
     schema:alternateName "Mini Freeman Aodla",
@@ -3717,6 +3949,10 @@ isni:0000000082752337 a schema:Person ;
         "Kinojvack",
         "Кеножуак Ашевак",
         "ᕿᓐᓄᐊᔪᐊᖅ ᐋᓯᕙᒃ" ;
+    schema:birthDate "1927-10-03"^^xsd:date ;
+    schema:deathDate "2013-01-08"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q644687 ;
     schema:name "Kenojuak" .
 
 isni:0000000083425290 a schema:Person ;
@@ -3870,6 +4106,8 @@ isni:0000000084571011 a schema:Person ;
     schema:alternateName "Verna J. Kirkness",
         "Verna Jane Kirkness",
         "Verna Kirkness" ;
+    schema:birthDate "1935-11-20"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Verna J Kirkness" .
 
 isni:0000000084591602 a schema:Person ;
@@ -4104,7 +4342,15 @@ isni:0000000093161778 a schema:Organization ;
     schema:name "Association of Performing Arts Professionals" .
 
 isni:0000000093190667 a schema:Organization ;
-    schema:name "Winnipeg Symphony Orchestra" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ;
+            schema:addressLocality "Winnipeg" ;
+            schema:addressRegion "MB" ] ;
+    schema:alternateName "Winnipeg Symphony" ;
+    schema:foundingDate "1947"^^xsd:gYear ;
+    schema:name "Winnipeg Symphony Orchestra" ;
+    schema:sameAs <http://musicbrainz.org/artist/6e0001a1-9293-443d-88c5-93f3352a01b8> ;
+    schema:url <http://www.wso.ca/> .
 
 isni:0000000093349092 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4122,8 +4368,14 @@ isni:0000000093864713 a schema:Organization ;
     schema:url <http://www.downchild.com/> .
 
 isni:0000000093864772 a schema:Organization ;
-    schema:alternateName "Orchestre symphonique d'Edmonton" ;
-    schema:name "Edmonton Symphony Orchestra" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:alternateName "Orchestre symphonique d'Edmonton",
+        "Symphony Orchestra Edmonton, Alberta" ;
+    schema:foundingDate "1920"^^xsd:gYear ;
+    schema:name "Edmonton Symphony Orchestra" ;
+    schema:sameAs <http://musicbrainz.org/artist/d929ecd8-15a1-41e9-95d9-03946c726404> ;
+    schema:url <http://www.edmontonsymphony.com/> .
 
 isni:0000000094126675 a schema:Person ;
     schema:alternateName "J. R. Robertson",
@@ -4354,7 +4606,12 @@ isni:000000010285696X a schema:Organization ;
     schema:name "Quebec Drama Federation" .
 
 isni:0000000102857700 a schema:Organization ;
-    schema:name "Amos the Transparent" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:foundingDate "2007"^^xsd:gYear ;
+    schema:name "Amos the Transparent" ;
+    schema:sameAs <http://musicbrainz.org/artist/8b84eead-e5ce-4c86-9569-db6fc5ad1028> ;
+    schema:url <http://www.amosthetransparent.com/> .
 
 isni:0000000103366348 a schema:Organization ;
     schema:alternateName "Orchestre symphonique d'Ottawa" ;
@@ -4374,9 +4631,13 @@ isni:000000010340376X a schema:Organization ;
     schema:name "Calgary Philharmonic Orchestra" .
 
 isni:0000000103507091 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
     schema:alternateName "Orchestre national de la jeunesse du Canada",
         "Orchestre national des jeunes du Canada" ;
-    schema:name "National Youth Orchestra of Canada" .
+    schema:name "National Youth Orchestra of Canada" ;
+    schema:sameAs <http://musicbrainz.org/artist/35a7bb31-9b76-4e1c-93ee-e52dc9e05036> ;
+    schema:url <https://nyoc.org/> .
 
 isni:0000000103512093 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4436,8 +4697,18 @@ isni:0000000106199899 a schema:Person ;
     schema:sameAs <http://musicbrainz.org/artist/9833b13b-380b-4571-b445-f05a9ea66591> .
 
 isni:0000000106681896 a schema:Organization ;
-    schema:alternateName "Toronto Mendelssohn choir" ;
-    schema:name "Toronto Mendelssohn Choir" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ;
+            schema:addressLocality "Toronto" ;
+            schema:addressRegion "ON" ] ;
+    schema:alternateName "Choeur Mendelssohn de Toronto",
+        "Mendelssohn Choir (Toronto, Ont.)",
+        "Mendelssohn Choir Toronto",
+        "Mendelssohn choir" ;
+    schema:foundingDate "1894"^^xsd:gYear ;
+    schema:name "Toronto Mendelssohn Choir" ;
+    schema:sameAs <http://musicbrainz.org/artist/f50c769b-1072-4f4b-9a90-4f61c37e9207> ;
+    schema:url <http://www.tmchoir.org/> .
 
 isni:0000000106693993 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4461,8 +4732,18 @@ isni:0000000106702087 a schema:Organization ;
     schema:url <http://ensemblecaprice.com/> .
 
 isni:0000000106717668 a schema:Organization ;
-    schema:alternateName "Bay City rollers" ;
-    schema:name "Bay City Rollers" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "GB" ] ;
+    schema:alternateName "Bay City Rollers (Musical quintet)",
+        "Bay City Rollers (hudební kvinteto)",
+        "Bay City Rollers The",
+        "Rollers",
+        "The Bay City Rollers",
+        "ベイ・シティ・ローラーズ" ;
+    schema:dissolutionDate "1987"^^xsd:gYear ;
+    schema:foundingDate "1967"^^xsd:gYear ;
+    schema:name "Bay City Rollers" ;
+    schema:sameAs <http://musicbrainz.org/artist/28cc1f98-add6-49d5-820a-ce973ee2954b> .
 
 isni:0000000106718388 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4482,7 +4763,14 @@ isni:0000000106718388 a schema:Organization ;
     schema:url <http://www.thechieftains.com/> .
 
 isni:0000000106729431 a schema:Organization ;
-    schema:name "Lúnasa" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "IE" ] ;
+    schema:alternateName "Lunasa" ;
+    schema:foundingDate "1997"^^xsd:gYear ;
+    schema:name "Lúnasa" ;
+    schema:sameAs <http://musicbrainz.org/artist/f27ab860-84e3-43c4-872a-a8181192d24a> ;
+    schema:url <http://www.lunasa.ie/>,
+        <https://www.lunasamusic.com/> .
 
 isni:0000000106741078 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4565,8 +4853,14 @@ isni:0000000106997620 a schema:Organization ;
     schema:sameAs <http://musicbrainz.org/artist/ac4bc8aa-f5f5-4143-9665-3be8cdd4d25e> .
 
 isni:0000000106997882 a schema:Organization ;
-    schema:alternateName "Warhol Dervish" ;
-    schema:name "Dervish" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "IE" ] ;
+    schema:alternateName "Cathy Jordan with Dervish",
+        "Warhol Dervish" ;
+    schema:foundingDate "1989"^^xsd:gYear ;
+    schema:name "Dervish" ;
+    schema:sameAs <http://musicbrainz.org/artist/5084f6bf-c817-4ad2-950b-8caf8677fa0b> ;
+    schema:url <http://www.dervish.ie/> .
 
 isni:0000000107053488 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4616,8 +4910,13 @@ isni:0000000107287559 a schema:Organization ;
     schema:name "Orchestre Symphonique de Québec" .
 
 isni:0000000107300629 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CH" ] ;
     schema:alternateName "The Spoons" ;
-    schema:name "Spoons" .
+    schema:dissolutionDate "1991"^^xsd:gYear ;
+    schema:foundingDate "1979"^^xsd:gYear ;
+    schema:name "Spoons" ;
+    schema:sameAs <http://musicbrainz.org/artist/cdc4c66b-6f8e-471a-8d70-536a6be3e512> .
 
 isni:0000000107412970 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4640,6 +4939,7 @@ isni:0000000107419822 a schema:Organization ;
     schema:url <http://www.ennismusic.com/> .
 
 isni:0000000107425894 a schema:Organization ;
+    schema:alternateName "SNS" ;
     schema:name "Symphony Nova Scotia" .
 
 isni:0000000107554039 a schema:Person ;
@@ -4651,6 +4951,7 @@ isni:0000000107554039 a schema:Person ;
         "جويل موراي",
         "ジョエル・マーレイ",
         "조엘머리" ;
+    schema:birthDate "1963-04-17"^^xsd:date ;
     schema:name "Joel Murray" .
 
 isni:0000000107730741 a schema:Person ;
@@ -4746,7 +5047,16 @@ isni:0000000108511612 a schema:Person ;
     schema:url <http://www.ianthomasband.com/> .
 
 isni:0000000108517707 a schema:Organization ;
-    schema:name "Vancouver Chamber Choir" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ;
+            schema:addressLocality "Vancouver" ;
+            schema:addressRegion "BC" ] ;
+    schema:alternateName "Choeur de chambre de Vancouver",
+        "The Vancouver Chamber Choir" ;
+    schema:foundingDate "1970"^^xsd:gYear ;
+    schema:name "Vancouver Chamber Choir" ;
+    schema:sameAs <http://musicbrainz.org/artist/669a8da6-1477-436f-a661-0ad2cd7b40bf> ;
+    schema:url <https://vancouverchamberchoir.com/> .
 
 isni:0000000108554292 a schema:Person ;
     schema:alternateName "Alain, Fournier" ;
@@ -4776,6 +5086,8 @@ isni:0000000108651236 a schema:Person ;
 
 isni:0000000108759204 a schema:Person ;
     schema:alternateName "Jacques Antoine Nantel" ;
+    schema:birthDate "1956-05-01"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Jacques Nantel" .
 
 isni:0000000108773559 a schema:Person ;
@@ -4802,6 +5114,8 @@ isni:0000000108775220 a schema:Person ;
     schema:url <http://www.maxweinberg.com/> .
 
 isni:0000000108979792 a schema:Person ;
+    schema:birthDate "1947-08-24"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Hélène Vachon" .
 
 isni:0000000109110941 a schema:Person ;
@@ -4866,9 +5180,7 @@ isni:0000000109223030 a schema:Person ;
     schema:url <http://www.enricomacias.net/> .
 
 isni:0000000109375982 a schema:Person ;
-    schema:alternateName "ANDRAS SCHIFF",
-        "ANDRÁS SCHIFF",
-        "Andras Schiff",
+    schema:alternateName "Andras Schiff",
         "Andreas Schiff",
         "András Shiff",
         "Schiff András",
@@ -4878,7 +5190,14 @@ isni:0000000109375982 a schema:Person ;
         "אנדרש שיף",
         "アンドラーシュ・シフ",
         "安德拉斯·希夫" ;
-    schema:name "András Schiff" .
+    schema:birthDate "1953-12-21"^^xsd:date ;
+    schema:hasOccupation wd:Q158852,
+        wd:Q1607826,
+        wd:Q36180,
+        wd:Q713200 ;
+    schema:name "András Schiff" ;
+    schema:sameAs <http://musicbrainz.org/artist/cb535c4c-711b-4be1-98f3-b6b5f8955d41> ;
+    schema:url <http://www.andrasschiff.com/> .
 
 isni:0000000109399984 a schema:Person ;
     schema:alternateName "Beverly Sainte-Marie",
@@ -4906,11 +5225,35 @@ isni:0000000109399984 a schema:Person ;
         <http://www.creative-native.com/> .
 
 isni:0000000109406777 a schema:Organization ;
-    schema:alternateName "Montreal Symphony Orchestra",
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ;
+            schema:addressLocality "Montréal" ;
+            schema:addressRegion "QC" ] ;
+    schema:alternateName "Concerts symphoniques de Montréal",
+        "M.S.O",
+        "MSO",
+        "Montreal SO",
+        "Montreal Symphony Orchestra",
+        "Montreal symphony orchesta",
+        "O.S.M",
+        "OSM",
+        "Orch. symphonique de Montréal",
+        "Orchestre Philharmonique Montréal",
         "Orchestre Symphonique De Montreal",
         "Orchestre Symphonique Montréal",
-        "Orchestre Symphonique de Montréal" ;
-    schema:name "Orchestre symphonique de Montréal" .
+        "Orquesta Sinfónica Montréal",
+        "Orquesta Sinfónica de Montreal",
+        "Orquestra Sinfónica Montréal",
+        "Sinfonia of Montreal",
+        "Société des concerts symphoniques de Montréal",
+        "Symphony Orchestra Montréal",
+        "Symphony Orchestra of Montreal",
+        "The Montreal Philharmonic Orchestra",
+        "The Montreal Symphony Orchestra" ;
+    schema:foundingDate "1934"^^xsd:gYear ;
+    schema:name "Orchestre symphonique de Montréal" ;
+    schema:sameAs <http://musicbrainz.org/artist/52f351cf-e724-4225-82d6-dcb77333ace4> ;
+    schema:url <http://www.osm.ca/> .
 
 isni:0000000109431841 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -4932,9 +5275,12 @@ isni:0000000109767038 a schema:Person ;
     schema:alternateName "Rick V. Mercer",
         "ریک مرسر",
         "릭머서" ;
+    schema:birthDate "1969-10-17"^^xsd:date ;
     schema:name "Rick Mercer" .
 
 isni:0000000109907061 a schema:Person ;
+    schema:birthDate "1967"^^xsd:gYear ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Alison Wearing" .
 
 isni:0000000110015976 a schema:Person ;
@@ -4983,6 +5329,26 @@ isni:0000000110142713 a schema:Organization ;
     schema:name "Les Violons du Roy" ;
     schema:sameAs <http://musicbrainz.org/artist/a118464e-b220-41ff-959d-08da62fa39b7> ;
     schema:url <http://www.violonsduroy.com/> .
+
+isni:0000000110191793 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ;
+            schema:addressLocality "Montréal" ;
+            schema:addressRegion "QC" ] ;
+    schema:alternateName "Stars Canada",
+        "The Stars" ;
+    schema:foundingDate "2000"^^xsd:gYear ;
+    schema:member isni:0000000073679000 ;
+    schema:name "Stars" ;
+    schema:sameAs <http://musicbrainz.org/artist/5aeb21a3-4606-4a0d-8369-50c768d1e99a> ;
+    schema:url <http://www.youarestars.com/> .
+
+isni:0000000110227215 a schema:Person ;
+    schema:alternateName "روبر لالوند",
+        "رۆبێر لالووند" ;
+    schema:birthDate "1947-07-22"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
+    schema:name "Robert Lalonde" .
 
 isni:0000000110417289 a schema:Person ;
     schema:hasOccupation wd:Q158852,
@@ -5349,6 +5715,18 @@ isni:000000011458499X a schema:Person ;
     schema:birthDate "1961-11-05"^^xsd:date ;
     schema:name "Michael Levine" .
 
+isni:0000000114589619 a schema:Person ;
+    schema:alternateName "Marie Thérèse Nicole Martin",
+        "Zerra" ;
+    schema:birthDate "1949-09-29"^^xsd:date ;
+    schema:deathDate "2019-02-19"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Nicole Martin" ;
+    schema:sameAs <http://musicbrainz.org/artist/dae9385f-92e3-4081-825e-5ff27fe72528> ;
+    schema:url <http://www.nicolemartin.ca/> .
+
 isni:0000000114590513 a schema:Person ;
     schema:alternateName "Aiyarni",
         "Arlooq",
@@ -5359,6 +5737,23 @@ isni:0000000114590513 a schema:Person ;
         "George Arluk" ;
     schema:birthDate "1949-05-05"^^xsd:date ;
     schema:name "George Arlook" .
+
+isni:0000000114604911 a schema:Person ;
+    schema:alternateName "Ann-Marie Mac Donald",
+        "Ann-Marie Mc Donald",
+        "Ann-Marie McDonald",
+        "Anne Marie MacDonald",
+        "Anne-Marie MacDonald",
+        "Энн-Мари МакДоналд",
+        "אן-מרי מאקדאנאלד",
+        "אן-מרי מקדונלד",
+        "אן־מרי מקדונלד" ;
+    schema:birthDate "1958-10-29"^^xsd:date ;
+    schema:hasOccupation wd:Q33999,
+        wd:Q36180,
+        wd:Q36834 ;
+    schema:name "Ann-Marie MacDonald" ;
+    schema:sameAs <http://musicbrainz.org/artist/737128fc-e0af-48a5-ae24-0279237a05db> .
 
 isni:0000000114637879 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -5764,7 +6159,21 @@ isni:0000000115414618 a schema:Person ;
     schema:url <https://www.amplemandanse.com/> .
 
 isni:0000000115447110 a schema:Organization ;
-    schema:alternateName "Conservatoire royal de musique" ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ;
+            schema:addressLocality "Toronto" ;
+            schema:addressRegion "ON" ] ;
+    schema:alternateName "CRM",
+        "Conservatoire royal de musique",
+        "Conservatoire royal de musique de Toronto",
+        "RCM",
+        "Royal Conservatory of Music of Toronto",
+        "Toronto Royal Conservatory of Music",
+        "University of Toronto. Conservatoire royal de musique",
+        "University of Toronto. Faculty of Music. Conservatoire royal de musique",
+        "University of Toronto. Faculty of Music. Royal Conservatory of Music",
+        "University of Toronto. Music Faculty. Royal Conservatory of Music",
+        "University of Toronto. Royal Conservatory of Music" ;
     schema:name "Royal Conservatory of Music" .
 
 isni:0000000115475277 a schema:Organization ;
@@ -5777,8 +6186,7 @@ isni:0000000115475277 a schema:Organization ;
     schema:url <http://www.fretwork.co.uk/> .
 
 isni:0000000115767325 a schema:Person ;
-    schema:alternateName "RUFUS WAINWRIGHT",
-        "Rufus McGarrigle Wainwright",
+    schema:alternateName "Rufus McGarrigle Wainwright",
         "Rufus Wainright",
         "Руфус Уэйнрайт",
         "Ռուֆուս Ուեյնրայթ",
@@ -5789,7 +6197,19 @@ isni:0000000115767325 a schema:Person ;
         "洛福士·溫萊特",
         "洛福斯·温莱特",
         "루퍼스웨인라이트" ;
-    schema:name "Rufus Wainwright" .
+    schema:birthDate "1973-07-22"^^xsd:date ;
+    schema:hasOccupation wd:Q1278335,
+        wd:Q177220,
+        wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00246144187" ] ;
+    schema:name "Rufus Wainwright" ;
+    schema:sameAs <http://musicbrainz.org/artist/78e46ae5-9bfd-433b-be3f-19e993d67ecc> ;
+    schema:url <http://www.rufuswainwright.com/> .
 
 isni:0000000115975853 a schema:Person ;
     schema:birthDate "1954-01-01"^^xsd:date ;
@@ -5821,13 +6241,13 @@ isni:0000000116505634 a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00217143597" ],
+            schema:value "00018832481" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
             schema:value "00002052553" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00018832481" ] ;
+            schema:value "00217143597" ] ;
     schema:name "Carlos Lyra" ;
     schema:sameAs <http://musicbrainz.org/artist/2674d9a0-7647-4220-8c10-6d8d0c9677d9> ;
     schema:url <http://www.carloslyra.com/> .
@@ -6107,10 +6527,20 @@ isni:0000000118608725 a schema:Person ;
     schema:url <http://carolineshaw.com/> .
 
 isni:0000000118620054 a schema:Person ;
-    schema:alternateName "DARAN",
-        "JEAN JACQUES DARAN",
+    schema:alternateName "JEAN JACQUES DARAN",
         "Jean-Jacques Daran" ;
-    schema:name "Daran" .
+    schema:birthDate "1959-04-04"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q639669,
+        wd:Q713200 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00145955350" ] ;
+    schema:name "Daran" ;
+    schema:sameAs <http://musicbrainz.org/artist/c96fa0f7-271a-47f2-bd1c-cfdd28094793> ;
+    schema:url <http://www.daran.ca/>,
+        <http://www.daran.fr/> .
 
 isni:0000000118783697 a schema:Person ;
     schema:alternateName "Паскаль Монпти" ;
@@ -6143,6 +6573,18 @@ isni:0000000118803192 a schema:Person ;
     schema:name "Kevin Smith" ;
     schema:sameAs <http://musicbrainz.org/artist/96f811ab-ff14-41af-bbc5-fc81ff089950> ;
     schema:url <http://silentbobspeaks.com/> .
+
+isni:0000000118806334 a schema:Person ;
+    schema:alternateName "Mat Dusk",
+        "Matthew-Aaron Dusk",
+        "マット・ダスク" ;
+    schema:birthDate "1978-11-19"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36180,
+        wd:Q713200 ;
+    schema:name "Matt Dusk" ;
+    schema:sameAs <http://musicbrainz.org/artist/e2a4561f-1a71-4951-9365-f8b0a5690e33> ;
+    schema:url <http://www.mattdusk.com/> .
 
 isni:0000000118806617 a schema:Person ;
     schema:alternateName "Patricia Galant",
@@ -6215,6 +6657,7 @@ isni:0000000118920276 a schema:Organization ;
         <https://theirishroversmusic.com/> .
 
 isni:0000000119059641 a schema:Person ;
+    schema:hasOccupation wd:Q33999 ;
     schema:name "Monia Chokri" .
 
 isni:0000000119312272 a schema:Organization ;
@@ -6226,6 +6669,17 @@ isni:0000000119312272 a schema:Organization ;
     schema:name "Great Lake Swimmers" ;
     schema:sameAs <http://musicbrainz.org/artist/64deac19-021e-4dc1-8d11-658be8763589> ;
     schema:url <http://www.greatlakeswimmers.com/> .
+
+isni:0000000119349980 a schema:Person ;
+    schema:alternateName "Дэн Биграс" ;
+    schema:birthDate "1957-12-23"^^xsd:date ;
+    schema:hasOccupation wd:Q36180,
+        wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:name "Dan Bigras" ;
+    schema:sameAs <http://musicbrainz.org/artist/8f3761d2-9e6a-4f0c-b85b-81156d392f68> ;
+    schema:url <http://www.danbigras.com/> .
 
 isni:0000000119352397 a schema:Person ;
     schema:alternateName "Люс Дюфо" ;
@@ -6255,6 +6709,12 @@ isni:0000000119403764 a schema:Organization ;
             schema:addressCountry "CA" ] ;
     schema:alternateName "Conseil régional de la culture de l'Abitibi-Témiscamingue" ;
     schema:name "Conseil de la culture de l'Abitibi-Témiscamingue" .
+
+isni:0000000119424194 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "FR" ] ;
+    schema:alternateName "NEM" ;
+    schema:name "Nouvel Ensemble moderne" .
 
 isni:0000000119435002 a schema:Person ;
     schema:alternateName "Торквил Кэмпбелл" ;
@@ -6290,6 +6750,22 @@ isni:0000000119483709 a schema:Person ;
             schema:value "00026896744" ] ;
     schema:name "Hervé Roy" ;
     schema:sameAs <http://musicbrainz.org/artist/cdfd75ba-906a-4c4f-985f-44f4d66764df> .
+
+isni:0000000119493050 a schema:Person ;
+    schema:alternateName "Bruno Peletjē",
+        "Брюно Пельтье",
+        "Брюно Пельтьє",
+        "ბრუნო პელეტიე",
+        "ブリュノ・ペルティエ",
+        "布律諾·佩爾提埃",
+        "브루노펠티에" ;
+    schema:birthDate "1962-08-07"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36180,
+        wd:Q713200 ;
+    schema:name "Bruno Pelletier" ;
+    schema:sameAs <http://musicbrainz.org/artist/e97981e8-2950-430c-bf70-a8d3f9d46213> ;
+    schema:url <http://www.brunopelletier.com/> .
 
 isni:0000000119549077 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -6337,16 +6813,16 @@ isni:0000000119586652 a schema:Organization ;
     schema:foundingDate "2002"^^xsd:gYear ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00264227473" ],
+            schema:value "00503648466" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
             schema:value "00287196715" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00503648466" ],
+            schema:value "00288827013" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00288827013" ],
+            schema:value "00264227473" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
             schema:value "00287202268" ] ;
@@ -6481,10 +6957,21 @@ isni:0000000120349021 a schema:Organization ;
     schema:name "Arion" .
 
 isni:0000000120349259 a schema:Organization ;
-    schema:name "Constantinople" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:alternateName "Ensemble Constantinople" ;
+    schema:foundingDate "2001-10-17"^^xsd:date ;
+    schema:name "Constantinople" ;
+    schema:sameAs <http://musicbrainz.org/artist/df45cd79-2b60-454c-9110-a3e61a1e5e14> ;
+    schema:url <http://constantinople.ca/> .
 
 isni:000000012035201X a schema:Organization ;
-    schema:name "Cirque Éloize" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:alternateName "Éloize (Cirque)" ;
+    schema:foundingDate "1993"^^xsd:gYear ;
+    schema:name "Cirque Éloize" ;
+    schema:sameAs <http://musicbrainz.org/artist/50948cf7-fc2c-4ded-9df8-c6073a2b9e45> .
 
 isni:0000000120363085 a schema:Person ;
     schema:alternateName "Hiro Kangawa",
@@ -6494,7 +6981,13 @@ isni:0000000120363085 a schema:Person ;
     schema:name "Hiro Kanagawa" .
 
 isni:000000012065013X a schema:Person ;
-    schema:name "Alexandre Désilets" .
+    schema:birthDate "1975-02-01"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Alexandre Désilets" ;
+    schema:sameAs <http://musicbrainz.org/artist/7c1c3339-a698-45ef-b055-864d3f4cdd5f> ;
+    schema:url <http://alexandredesilets.com/> .
 
 isni:0000000120743168 a schema:Person ;
     schema:birthDate "1986"^^xsd:gYear ;
@@ -7138,8 +7631,12 @@ isni:0000000121887163 a schema:Organization ;
     schema:name "Nederlands Dans Theater" .
 
 isni:0000000121923064 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "GB" ] ;
     schema:alternateName "English National Ballet London",
-        "English national ballet" ;
+        "Festival ballet",
+        "London Festival ballet",
+        "National Ballet London" ;
     schema:name "English National Ballet" .
 
 isni:0000000121956974 a schema:Organization ;
@@ -7219,6 +7716,20 @@ isni:0000000122636091 a schema:Person ;
     schema:birthDate "1996-07-06"^^xsd:date ;
     schema:hasOccupation wd:Q33999 ;
     schema:name "Robert Naylor" .
+
+isni:0000000122713392 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "GB" ] ;
+    schema:alternateName "Zombies",
+        "Zombies, The" ;
+    schema:dissolutionDate "1967"^^xsd:gYear ;
+    schema:foundingDate "1961"^^xsd:gYear ;
+    schema:member isni:0000000055148185,
+        isni:0000000071413727 ;
+    schema:name "The Zombies" ;
+    schema:sameAs <http://musicbrainz.org/artist/230ca093-1d00-4c57-9235-147942f66930> ;
+    schema:url <http://www.thezombies.net/>,
+        <https://www.thezombiesmusic.com/> .
 
 isni:0000000122780819 a schema:Person ;
     schema:alternateName "Bach-Gounod",
@@ -7379,6 +7890,18 @@ isni:0000000122955308 a schema:Organization ;
         "Théâtre Bordeaux" ;
     schema:name "Grand Theatre (Kingston, Ont.)" .
 
+isni:0000000123097309 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "JP" ] ;
+    schema:alternateName "Kodo",
+        "Kodo Drummers",
+        "Kodo-Drummers",
+        "Kodō" ;
+    schema:foundingDate "1981"^^xsd:gYear ;
+    schema:name "鼓童" ;
+    schema:sameAs <http://musicbrainz.org/artist/de4afdc2-e920-4d0e-8fcd-992d6c2e5a76> ;
+    schema:url <http://www.kodo.or.jp/> .
+
 isni:0000000123149076 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
             schema:addressCountry "CA" ] ;
@@ -7411,7 +7934,9 @@ isni:000000012321486X a schema:Person ;
     schema:name "Marie Chouinard" .
 
 isni:0000000123253674 a schema:Organization ;
-    schema:alternateName "Théâtre du Rideau Vert" ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:alternateName "Rideau vert" ;
     schema:name "Théâtre du Rideau vert" .
 
 isni:0000000123317682 a schema:Organization ;
@@ -7512,8 +8037,13 @@ isni:0000000132109279 a schema:Person ;
     schema:name "Antonello Manacorda" ;
     schema:url <https://www.antonello-manacorda.com/> .
 
+isni:0000000132138096 a schema:Person ;
+    schema:birthDate "1973-07-19"^^xsd:date ;
+    schema:hasOccupation wd:Q713200 ;
+    schema:name "Louis Morissette" .
+
 isni:000000013214658X a schema:Person ;
-    schema:alternateName "INES TALBI" ;
+    schema:hasOccupation wd:Q713200 ;
     schema:name "Ines Talbi" .
 
 isni:0000000132160779 a schema:Person ;
@@ -7872,10 +8402,10 @@ isni:000000036862973X a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00213909579" ],
+            schema:value "00037315987" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00037315987" ] ;
+            schema:value "00213909579" ] ;
     schema:name "Adelmo Fornaciari" ;
     schema:sameAs <http://musicbrainz.org/artist/00ed154e-8679-42f0-8f42-e59bd7e185af>,
         <http://musicbrainz.org/artist/0704ec2b-1f09-44fb-b79a-904ce662c909> ;
@@ -7992,9 +8522,17 @@ isni:000000037143110X a schema:Person ;
     schema:name "Rachid Badouri" .
 
 isni:0000000371926890 a schema:Person ;
-    schema:alternateName "MARC DUPRÉ",
-        "Marc Dupréé" ;
-    schema:name "Marc Dupré" .
+    schema:alternateName "Marc Dupréé" ;
+    schema:birthDate "1973-07-28"^^xsd:date ;
+    schema:hasOccupation wd:Q36834,
+        wd:Q713200,
+        wd:Q822146 ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "IPI" ;
+            schema:value "00490064659" ] ;
+    schema:name "Marc Dupré" ;
+    schema:sameAs <http://musicbrainz.org/artist/ac5c4863-a9fb-46cb-8c5c-91620903d78b> ;
+    schema:url <http://www.marcdupre.com/> .
 
 isni:0000000371927869 a schema:Person ;
     schema:alternateName "Veronique Cloutier",
@@ -8072,7 +8610,13 @@ isni:0000000373443972 a schema:Person ;
     schema:url <http://www.lisaleblanc.ca/> .
 
 isni:0000000374170822 a schema:Person ;
-    schema:name "Michael Oesterle" .
+    schema:birthDate "1968-06-29"^^xsd:date ;
+    schema:hasOccupation wd:Q1607826,
+        wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Michael Oesterle" ;
+    schema:sameAs <http://musicbrainz.org/artist/d32693d5-a457-4f6b-a25e-7d1b7da5579e> ;
+    schema:url <http://www.michaeloesterle.com/> .
 
 isni:0000000376181496 a schema:Person ;
     schema:birthDate "1959-06-20"^^xsd:date ;
@@ -8083,7 +8627,16 @@ isni:0000000376181496 a schema:Person ;
     schema:url <http://www.louisebessette.com/> .
 
 isni:0000000377870648 a schema:Person ;
+    schema:birthDate "1971-09-18"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Annabel Soutar" .
+
+isni:0000000378332948 a schema:Person ;
+    schema:alternateName "Katherena Angy Vermette" ;
+    schema:birthDate "1977-01-29"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
+    schema:name "Katherena Vermette" ;
+    schema:url <https://www.katherenavermette.com/> .
 
 isni:0000000381880478 a schema:Person ;
     schema:alternateName "Nicole Lizèe" ;
@@ -8151,10 +8704,10 @@ isni:0000000383852999 a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00128952551" ],
+            schema:value "00179521055" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00179521055" ] ;
+            schema:value "00128952551" ] ;
     schema:memberOf isni:000000011526500X,
         isni:0000000122905407,
         isni:0000000470707714 ;
@@ -8210,6 +8763,9 @@ isni:000000039311501X a schema:Person ;
 
 isni:0000000394485864 a schema:Person ;
     schema:alternateName "Jessie, Mill" ;
+    schema:birthDate "1979"^^xsd:gYear ;
+    schema:hasOccupation wd:Q1607826,
+        wd:Q36180 ;
     schema:name "Jessie Mill" .
 
 isni:0000000395189661 a schema:Person ;
@@ -8232,6 +8788,14 @@ isni:0000000398640673 a schema:Person ;
     schema:name "Andy Kim" ;
     schema:sameAs <http://musicbrainz.org/artist/a6d3a1bf-ee78-4a6d-96b3-1bd9769128c4> ;
     schema:url <http://www.andykimmusic.com/> .
+
+isni:0000000398662397 a schema:Person ;
+    schema:alternateName "Angosaglo",
+        "Anguhalluq",
+        "Young Bull Caribou" ;
+    schema:birthDate "1895"^^xsd:gYear ;
+    schema:deathDate "1982-02"^^xsd:gYearMonth ;
+    schema:name "Luke Anguhadluq" .
 
 isni:000000039925212X a schema:Person ;
     schema:birthDate "1947-05-12"^^xsd:date ;
@@ -8285,10 +8849,13 @@ isni:0000000401879854 a schema:Person ;
     schema:name "Sarah Berthiaume" .
 
 isni:0000000403198227 a schema:Person ;
+    schema:birthDate "1980-08-20"^^xsd:date ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "David Goudreault" .
 
 isni:0000000403208755 a schema:Person ;
     schema:alternateName "Дэниэл Гадуа" ;
+    schema:birthDate "1947-10-01"^^xsd:date ;
     schema:name "Daniel Gadouas" .
 
 isni:0000000403314240 a schema:Person ;
@@ -8452,10 +9019,10 @@ isni:0000000407547041 a schema:Person ;
         wd:Q713200 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00561316273" ],
+            schema:value "00561316371" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "00561316371" ] ;
+            schema:value "00561316273" ] ;
     schema:name "Crystal Dawn Derksen" ;
     schema:sameAs <http://musicbrainz.org/artist/d284a295-070a-45b9-92aa-0125987a767f> ;
     schema:url <http://crisderksen.virb.com/>,
@@ -8484,6 +9051,9 @@ isni:000000040773607X a schema:Person ;
     schema:url <http://www.alexandrastreliski.com/> .
 
 isni:0000000409361857 a schema:Person ;
+    schema:birthDate "1985-04-05"^^xsd:date ;
+    schema:hasOccupation wd:Q36834,
+        wd:Q713200 ;
     schema:name "Sarah Bourdon" .
 
 isni:0000000410119814 a schema:Person ;
@@ -8571,8 +9141,11 @@ isni:0000000434203439 a schema:Person ;
     schema:name "Gabrielle Marion-Rivard" .
 
 isni:0000000434632831 a schema:Person ;
-    schema:alternateName "dave malloy" ;
-    schema:name "Dave Malloy" .
+    schema:birthDate "1976-01-04"^^xsd:date ;
+    schema:hasOccupation wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Dave Malloy" ;
+    schema:sameAs <http://musicbrainz.org/artist/74c407dd-d895-4f8a-9142-ecaaabf5751c> .
 
 isni:0000000436024493 a schema:Person ;
     schema:alternateName "Джонатон Янг" ;
@@ -8761,7 +9334,12 @@ isni:000000044884590X a schema:Person ;
     schema:url <http://www.lorrainedesmarais.com/> .
 
 isni:0000000448856748 a schema:Person ;
-    schema:name "Alexis Cole" .
+    schema:birthDate "1976"^^xsd:gYear ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q713200 ;
+    schema:name "Alexis Cole" ;
+    schema:sameAs <http://musicbrainz.org/artist/71206b15-4fd8-4de6-b248-13a23cc307ad> ;
+    schema:url <http://www.alexiscole.com/> .
 
 isni:000000044922913X a schema:Person ;
     schema:hasOccupation wd:Q36180 ;
@@ -8771,6 +9349,7 @@ isni:0000000449279815 a schema:Person ;
     schema:alternateName "Marie Louise Mumbu",
         "Marie-Louise Bibish Mumbu",
         "Marie-Louise Mumbu-Bibish" ;
+    schema:birthDate "1975"^^xsd:gYear ;
     schema:name "Bibish Mumbu" .
 
 isni:0000000449488502 a schema:Person ;
@@ -8806,6 +9385,9 @@ isni:0000000451308435 a schema:Person ;
 
 isni:0000000451431708 a schema:Person ;
     schema:name "Julien Morissette" .
+
+isni:0000000451470168 a schema:Person ;
+    schema:name "Suzie Larivée" .
 
 isni:0000000451511791 a schema:Person ;
     schema:alternateName "Anauta" ;
@@ -8893,6 +9475,7 @@ isni:0000000451637554 a schema:Person ;
     schema:name "Noriko Imaï" .
 
 isni:0000000451640980 a schema:Person ;
+    schema:birthDate "1958"^^xsd:gYear ;
     schema:name "Ginette Noiseux" .
 
 isni:0000000451660682 a schema:Person ;
@@ -8961,6 +9544,10 @@ isni:0000000451722679 a schema:Person ;
     schema:alternateName "Sonia Boileau" ;
     schema:name "Sonia Bonspille-Boileau" .
 
+isni:0000000451736149 a schema:Person ;
+    schema:birthDate "1983"^^xsd:gYear ;
+    schema:name "Cathy Labrecque" .
+
 isni:0000000451741204 a schema:Person ;
     schema:name "Jean Fournier" .
 
@@ -8972,6 +9559,11 @@ isni:0000000451741239 a schema:Person ;
 isni:0000000451745336 a schema:Person ;
     schema:birthDate "1979"^^xsd:gYear ;
     schema:name "Fannie Bellefeuille" .
+
+isni:0000000451745942 a schema:Person ;
+    schema:birthDate "1986"^^xsd:gYear ;
+    schema:hasOccupation wd:Q33231 ;
+    schema:name "Hugo B. Lefort" .
 
 isni:000000045175059X a schema:Person ;
     schema:name "Jeannot Painchaud" .
@@ -8999,6 +9591,7 @@ isni:0000000451792378 a schema:Person ;
 
 isni:0000000451797865 a schema:Person ;
     schema:alternateName "Daniel Blondin" ;
+    schema:hasOccupation wd:Q177220 ;
     schema:name "Nicolas Noël" .
 
 isni:0000000451801270 a schema:Person ;
@@ -9050,6 +9643,8 @@ isni:0000000452819763 a schema:Person ;
         "Josie Papialuk",
         "Josie Pappy",
         "Josie Puppy" ;
+    schema:birthDate "1918-01-01"^^xsd:date ;
+    schema:deathDate "1997-01-01"^^xsd:date ;
     schema:name "Josie P. Papialuk" .
 
 isni:000000045282962X a schema:Person ;
@@ -9064,6 +9659,8 @@ isni:000000045282962X a schema:Person ;
     schema:url <http://patricemichaud.ca/> .
 
 isni:0000000452871035 a schema:Person ;
+    schema:birthDate "1984"^^xsd:gYear ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Guillaume Lambert" .
 
 isni:0000000452873858 a schema:Person ;
@@ -9120,6 +9717,8 @@ isni:0000000459724580 a schema:Person ;
     schema:url <http://www.lagargouille.qc.ca/> .
 
 isni:0000000460283292 a schema:Person ;
+    schema:birthDate "1972-06-12"^^xsd:date ;
+    schema:hasOccupation wd:Q33999 ;
     schema:name "Maxime Desmons" .
 
 isni:0000000462164019 a schema:Person ;
@@ -9319,7 +9918,9 @@ isni:0000000467007821 a schema:Person ;
 
 isni:0000000467055188 a schema:Person ;
     schema:alternateName "Rhonda Head" ;
-    schema:name "Rhonda Valerie Head" .
+    schema:hasOccupation wd:Q713200 ;
+    schema:name "Rhonda Valerie Head" ;
+    schema:sameAs <http://musicbrainz.org/artist/e00c3912-5602-48a5-9523-9e5acebf3c84> .
 
 isni:0000000467214599 a schema:Person ;
     schema:birthDate "1979"^^xsd:gYear ;
@@ -9438,7 +10039,12 @@ isni:0000000469456575 a schema:Organization ;
     schema:url <http://www.cowboysfringants.com/> .
 
 isni:0000000469518238 a schema:Organization ;
-    schema:name "Alaclair Ensemble" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:foundingDate "2010"^^xsd:gYear ;
+    schema:name "Alaclair Ensemble" ;
+    schema:sameAs <http://musicbrainz.org/artist/885ed00a-34ba-4139-bcfc-5065f6270726> ;
+    schema:url <http://alaclairensemble.com/> .
 
 isni:0000000469565499 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -9479,8 +10085,14 @@ isni:0000000469913158 a schema:Organization ;
     schema:url <http://whitehorsemusic.ca/> .
 
 isni:0000000469961360 a schema:Organization ;
-    schema:alternateName "2 Frères" ;
-    schema:name "2Frères" .
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:alternateName "2 Frères",
+        "Deux frères" ;
+    schema:foundingDate "2008"^^xsd:gYear ;
+    schema:name "2Frères" ;
+    schema:sameAs <http://musicbrainz.org/artist/ad840091-2b12-45fe-8a0b-1c6dee383b7c> ;
+    schema:url <http://www.2freres.com/> .
 
 isni:0000000470020154 a schema:Organization ;
     schema:address [ a schema:PostalAddress ;
@@ -9644,7 +10256,13 @@ isni:0000000475546761 a schema:Person ;
 
 isni:0000000475705611 a schema:Person ;
     schema:alternateName "Hubert Chiasson" ;
-    schema:name "Hubert Lenoir" .
+    schema:birthDate "1994-08-14"^^xsd:date ;
+    schema:hasOccupation wd:Q177220,
+        wd:Q36834,
+        wd:Q713200 ;
+    schema:name "Hubert Lenoir" ;
+    schema:sameAs <http://musicbrainz.org/artist/ebef47f3-38aa-489c-be2a-528e6921e784> ;
+    schema:url <http://darlenedarling.com/> .
 
 isni:0000000475878045 a schema:Person ;
     schema:alternateName "LesLouanges",
@@ -9746,6 +10364,7 @@ isni:0000000480025952 a schema:Person ;
     schema:name "Noah Parker" .
 
 isni:0000000480309736 a schema:Person ;
+    schema:birthDate "1984-07-24"^^xsd:date ;
     schema:name "Anne-Élisabeth Bossé" .
 
 isni:0000000480510667 a schema:Organization ;
@@ -9809,6 +10428,9 @@ isni:0000000480716171 a schema:Organization ;
     schema:name "Centre des arts de la Confédération" .
 
 isni:0000000480723144 a schema:Organization ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "CA" ] ;
+    schema:foundingDate "2017"^^xsd:gYear ;
     schema:name "Théâtre Gilles-Vigneault" .
 
 isni:0000000480735970 a schema:Organization ;
@@ -9861,6 +10483,7 @@ isni:0000000483009384 a schema:Organization ;
 
 isni:000000048307635X a schema:Person ;
     schema:alternateName "Dulcinea Langfelder" ;
+    schema:birthDate "1955"^^xsd:gYear ;
     schema:name "Dulcinée Langfelder" .
 
 isni:0000000483104074 a schema:Person ;
@@ -9869,6 +10492,7 @@ isni:0000000483104074 a schema:Person ;
 
 isni:0000000483134900 a schema:Person ;
     schema:alternateName "Gentiane Michaud-Gagnon" ;
+    schema:hasOccupation wd:Q36834 ;
     schema:name "Gentiane M. G" .
 
 isni:0000000483135655 a schema:Person ;
@@ -9888,6 +10512,7 @@ isni:0000000483135807 a schema:Person ;
     schema:name "Hélène Langevin" .
 
 isni:0000000483136850 a schema:Person ;
+    schema:hasOccupation wd:Q639669 ;
     schema:name "Jérôme Beaulieu" .
 
 isni:000000048313808X a schema:Person ;
@@ -9943,6 +10568,7 @@ isni:000000048323870X a schema:Person ;
     schema:name "Léa Stréliski" .
 
 isni:0000000483239497 a schema:Person ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Marie-Ève Milot" .
 
 isni:0000000483247198 a schema:Person ;
@@ -9954,6 +10580,8 @@ isni:0000000483252253 a schema:Person ;
 
 isni:0000000483252499 a schema:Person ;
     schema:alternateName "Elkhana Talbi" ;
+    schema:hasOccupation wd:Q1607826,
+        wd:Q36180 ;
     schema:name "Elkahna Talbi" .
 
 isni:0000000483274938 a schema:Person ;
@@ -10083,6 +10711,8 @@ isni:0000000495250853 a schema:Organization ;
 
 isni:0000000496637507 a schema:Person ;
     schema:alternateName "Diamanda Dramm" ;
+    schema:birthDate "1991"^^xsd:gYear ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Diamanda La Berge Dramm" .
 
 isni:000000049816933X a schema:Person ;
@@ -10146,6 +10776,7 @@ isni:0000000502774322 a schema:Person ;
     schema:name "Maude Landry" .
 
 isni:0000000502776678 a schema:Person ;
+    schema:hasOccupation wd:Q36180 ;
     schema:name "Andréanne Théberge" .
 
 isni:0000000502968418 a schema:Organization ;
@@ -10241,10 +10872,10 @@ isni:0000000507935201 a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "01073439949" ],
+            schema:value "01219264266" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "01219264266" ] ;
+            schema:value "01073439949" ] ;
     schema:name "Zaho de Sagazan" ;
     schema:sameAs <http://musicbrainz.org/artist/87685458-1aef-49b7-945b-03a892d9c482> ;
     schema:url <https://zahodesagazan.store/> .
@@ -10342,10 +10973,10 @@ isni:0000000511738630 a schema:Person ;
         wd:Q822146 ;
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "01073439949" ],
+            schema:value "01219264266" ],
         [ a schema:PropertyValue ;
             schema:propertyID "IPI" ;
-            schema:value "01219264266" ] ;
+            schema:value "01073439949" ] ;
     schema:name "Zaho de Sagazan" ;
     schema:sameAs <http://musicbrainz.org/artist/87685458-1aef-49b7-945b-03a892d9c482> ;
     schema:url <https://zahodesagazan.store/> .
