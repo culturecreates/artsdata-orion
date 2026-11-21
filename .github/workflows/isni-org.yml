@@ -1,8 +1,17 @@
 name: Fetch ISNI Entities
 
+# Fetches the ISNI record of every ISNI Artsdata links to (schema:sameAs) with
+# src/isni/main.py, converts it to schema.org, commits it to
+# output/isni-entities.ttl and registers it on the Artsdata Databus.
+# ISNI limits how many records an IP address can retrieve; when a run hits
+# that limit, the script keeps the previous data for the ISNIs it couldn't
+# fetch and the next weekly run refreshes them.
+
 on:
   workflow_dispatch:
-      
+  schedule:
+    - cron: '17 6 * * 0' # weekly
+
 jobs:
 
   fetch-and-push:
@@ -16,7 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-level: '3.14'
+          python-version: '3.14'
 
       - name: Install Requirements
         run: |
@@ -30,11 +39,11 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git pull
           git add "output/isni-entities.ttl"
           # Only commit and push if there are actual modified or new files staged
           if ! git diff --cached --quiet; then
             git commit -m "Added isni-entities generated."
+            git pull --rebase origin main
             git push
           else
             echo "No changes detected in isni-entities.ttl. Skipping commit."
@@ -49,5 +58,7 @@ jobs:
         with:
           mode: "push"
           artifact: "isni-org"
+          group: "artsdata-orion-api"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/isni-entities.ttl"
+          cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
