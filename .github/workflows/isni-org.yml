@@ -16,6 +16,8 @@ jobs:
 
   fetch-and-push:
     runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v5
@@ -36,6 +38,7 @@ jobs:
         run: python ./src/isni/main.py
 
       - name: Commit and push changes
+        id: commit
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
@@ -48,6 +51,10 @@ jobs:
           else
             echo "No changes detected in isni-entities.ttl. Skipping commit."
           fi
+          # The Databus downloads the file by this commit, not by branch:
+          # raw.githubusercontent.com caches branch URLs for minutes, which
+          # made a push right after a commit register the previous file.
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
   artsdata-push:
     runs-on: ubuntu-latest
@@ -60,5 +67,5 @@ jobs:
           artifact: "isni-org"
           group: "artsdata-orion-api"
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref_name}}/output/isni-entities.ttl"
+          downloadUrl: "https://raw.githubusercontent.com/${{ github.repository }}/${{ needs.fetch-and-push.outputs.sha }}/output/isni-entities.ttl"
           cloudflare-private-key: ${{ secrets.CLOUDFLARE_PRIVATE_KEY }}
