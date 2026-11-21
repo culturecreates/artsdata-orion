@@ -49,7 +49,9 @@ opens a PR from a `culture3r-heal/<run id>` branch. Claude can't commit, push
 or edit workflows, and the heal workflow skips while a heal PR is still open.
 **Check the Artsdata IDs in the PR before merging.**
 
-Setup: add an `ANTHROPIC_API_KEY` repository secret. To test, dispatch
+Setup: Claude authenticates with workload identity federation (no API key
+secret); the Anthropic IDs and Console requirements are at the top of
+`culture3r-heal.yml`. To test, dispatch
 "Heal Culture Trois-Rivières Converter" with the ID of a fetch run that
 uploaded `culture3r-drift`.
 
