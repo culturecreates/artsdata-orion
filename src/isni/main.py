@@ -139,11 +139,13 @@ def fetch_isni_batch(session: requests.Session, isnis: List[str]) -> Dict[str, F
     the result does not exist in ISNI. Raises IsniBlocked when the API refuses
     to return records, and requests.RequestException when the API keeps failing.
     """
+    # An ISNI can match more than one record (e.g. a duplicate that lists it
+    # as merged), so allow more records than ISNIs asked for.
     params = {
         "query": " or ".join(f'pica.isn = "{isni}"' for isni in isnis),
         "version": "1.1",
         "operation": "searchRetrieve",
-        "maximumRecords": len(isnis),
+        "maximumRecords": 2 * len(isnis),
     }
     for attempt in range(1, HTTP_RETRIES + 1):
         try:
@@ -213,9 +215,11 @@ def parse_sru_response(xml_content: bytes, requested: Set[str]) -> Dict[str, Fie
     strip_namespaces(root)
 
     records = root.findall(".//recordData")
-    number = root.findtext(".//numberOfRecords") or "0"
-    if not records and int(number) > 0:
+    number = int(root.findtext(".//numberOfRecords") or "0")
+    if not records and number > 0:
         raise IsniBlocked(f"{number} records found but none returned")
+    if len(records) < number:
+        logging.warning("SRU found %d records but returned %d", number, len(records))
 
     found: Dict[str, Fields] = {}
     for record in records:
@@ -534,21 +538,33 @@ def main() -> int:
         for start in range(0, len(ordered), BATCH_SIZE):
             batch = ordered[start:start + BATCH_SIZE]
             logging.info("[%d-%d/%d] Fetching ISNI records", start + 1, start + len(batch), len(ordered))
+            found: Dict[str, Fields] = {}
+            unresolved: Set[str] = set()  # neither returned nor confirmed missing
             try:
                 found = fetch_isni_batch(session, batch)
+                # Ask again one by one for any ISNI the batch didn't return,
+                # so only ISNIs that really have no record count as not found.
+                retry = [isni for isni in batch if isni not in found] if len(batch) > 1 else []
+                for position, isni in enumerate(retry):
+                    try:
+                        time.sleep(REQUEST_DELAY)
+                        found.update(fetch_isni_batch(session, [isni]))
+                    except (IsniBlocked, requests.exceptions.RequestException):
+                        unresolved.update(retry[position:])
+                        raise
             except IsniBlocked as exc:
                 blocked_reason = str(exc)
                 logging.warning("ISNI stopped returning records (%s); keeping previous data for the rest", exc)
-                break
             except requests.exceptions.RequestException as exc:
-                logging.error("Giving up on batch starting with %s: %s", batch[0], exc)
-                time.sleep(REQUEST_DELAY)
-                continue
+                logging.error("Giving up on ISNIs in batch starting with %s: %s", batch[0], exc)
+                if not found:
+                    unresolved.update(batch)
 
             for isni in batch:
                 fields = found.get(isni)
                 if fields is None:
-                    not_found.add(isni)
+                    if isni not in unresolved and not (blocked_reason and not found):
+                        not_found.add(isni)
                     continue
                 try:
                     if not add_record(graph, isni, parse_isni_record(fields)):
@@ -556,6 +572,8 @@ def main() -> int:
                     fetched.add(isni)
                 except Exception as exc:  # one bad record should not stop the run
                     logging.error("Failed parsing record for %s: %s", isni, exc)
+            if blocked_reason:
+                break
             time.sleep(REQUEST_DELAY)
 
     # Keep the previous data for ISNIs that could not be fetched this time.
