@@ -52,8 +52,10 @@ the two repos (e.g. casadelpopolo-com was deleted here and runs there).
 - `artsdata-automint`: turn auto-minting on or off for a graph.
 - `artsdata-reload-graph`: reload a graph from its existing Databus artifact
   without re-running the workflow.
+- `artsdata-source-log`: create or update a source log (an issue in
+  `artsdata-stewards/source-logs`) and link it to its graphs.
 
-Use the matching skill instead of working from memory. The last two call
+Use the matching skill instead of working from memory. The last three call
 nebula's own code (`~/repos/culturecreates/nebula`) rather than copying its
 SPARQL or API calls.
 
